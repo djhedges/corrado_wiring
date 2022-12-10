@@ -79,8 +79,6 @@ cables:
     colors: [BK]
   injector-loom-pwr-wire:
     colors: [RD]
-  injector-pwr-wire:
-    colors: [RD]
 
 connections:
   -
@@ -135,27 +133,21 @@ connections:
     - razor_pdm: [PWROUT1a]
   -
     - injector1: [Pos]
-    - injector-pwr-wire: [1]
     - injector-pwr-splice: [1]
   -
     - injector2: [Pos]
-    - injector-pwr-wire: [1]
     - injector-pwr-splice: [1]
   -
     - injector3: [Pos]
-    - injector-pwr-wire: [1]
     - injector-pwr-splice: [1]
   -
     - injector4: [Pos]
-    - injector-pwr-wire: [1]
     - injector-pwr-splice: [1]
   -
     - injector5: [Pos]
-    - injector-pwr-wire: [1]
     - injector-pwr-splice: [1]
   -
     - injector6: [Pos]
-    - injector-pwr-wire: [1]
     - injector-pwr-splice: [1]
   -
     - link_a_loom: [Inj1]

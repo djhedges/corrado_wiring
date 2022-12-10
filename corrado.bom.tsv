@@ -3,6 +3,6 @@ Id	Description	Qty	Unit	Designators
 2	Cable, 34 wires	0	m	ecu-engine-harness
 3	Connector, 1287013900, 4 pins	1		coil
 4	Connector, 261205289, 4 pins	1		icm-to-coil
-5	Connector, 261205351, 4 pins	1		icm-to-ecu
+5	Connector, 261205351, 3 pins	1		icm-to-ecu
 6	Connector, 5LA, 34 pins	1		link_a_loom
 7	Connector, 5LB, 4 pins	1		link_b_loom

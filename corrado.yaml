@@ -10,13 +10,13 @@ connectors:
     pinlabels: [Pin1, Pin2, Pin3, Pin4]
   icm-to-ecu:
     type: 261205351
-    pinlabels: [Pin1, Pin2, Pin3, Pin4]
+    pinlabels: [Transistor1, Transistor2, Transistor3]
   icm-to-coil:
     type: 261205289
-    pinlabels: [Pin1, Pin2, Pin3, Pin4]
+    pinlabels: [Transistor3, Gnd, Transistor2, Transistor1]
   coil:
     type: 1287013900
-    pinlabels: [Pin1, Pin2, Pin3, Pin4]
+    pinlabels: [Coil3, Coil2, Coil1, Ubatt]
 
 cables:
   ecu-engine-harness:
@@ -41,9 +41,9 @@ connections:
 
   -
     - link_a_loom: [Ign1, Ign2, Ign3]
-    - ecu-engine-harness: [11, 12, 13]
-    - icm-to-ecu: [Pin4, Pin3, Pin1]
+    - ecu-engine-harness: [13, 12, 11]
+    - icm-to-ecu: [Transistor1, Transistor2, Transistor3]
   -
-    - icm-to-coil: [1, 2, 3]
+    - icm-to-coil: [Transistor1, Transistor2, Transistor3]
     - icm-to-coil-wire: [1, 2, 3]
-    - coil: [3, 2, 1]
+    - coil: [Coil1, Coil2, Coil3]

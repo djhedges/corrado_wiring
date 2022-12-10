@@ -204,26 +204,22 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">261205351</td>
-   <td balign="left">4-pin</td>
+   <td balign="left">3-pin</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
     <td port="p1l">1</td>
-    <td>Pin1</td>
+    <td>Transistor1</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
-    <td>Pin2</td>
+    <td>Transistor2</td>
    </tr>
    <tr>
     <td port="p3l">3</td>
-    <td>Pin3</td>
-   </tr>
-   <tr>
-    <td port="p4l">4</td>
-    <td>Pin4</td>
+    <td>Transistor3</td>
    </tr>
   </table>
  </td></tr>
@@ -245,19 +241,19 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
-    <td>Pin1</td>
+    <td>Transistor3</td>
     <td port="p1r">1</td>
    </tr>
    <tr>
-    <td>Pin2</td>
+    <td>Gnd</td>
     <td port="p2r">2</td>
    </tr>
    <tr>
-    <td>Pin3</td>
+    <td>Transistor2</td>
     <td port="p3r">3</td>
    </tr>
    <tr>
-    <td>Pin4</td>
+    <td>Transistor1</td>
     <td port="p4r">4</td>
    </tr>
   </table>
@@ -281,19 +277,19 @@ graph {
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
     <td port="p1l">1</td>
-    <td>Pin1</td>
+    <td>Coil3</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
-    <td>Pin2</td>
+    <td>Coil2</td>
    </tr>
    <tr>
     <td port="p3l">3</td>
-    <td>Pin3</td>
+    <td>Coil1</td>
    </tr>
    <tr>
     <td port="p4l">4</td>
-    <td>Pin4</td>
+    <td>Ubatt</td>
    </tr>
   </table>
  </td></tr>
@@ -367,15 +363,15 @@ graph {
 	link_a_loom:p33r:e -- "ecu-engine-harness":w33:w
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
 	link_a_loom:p34r:e -- "ecu-engine-harness":w34:w
-	edge [color="#000000:#0066ff:#895956:#0066ff:#000000"]
-	link_a_loom:p13r:e -- "ecu-engine-harness":w11:w
-	"ecu-engine-harness":w11:e -- "icm-to-ecu":p4l:w
+	edge [color="#000000:#ffffff:#000000:#ffffff:#000000"]
+	link_a_loom:p13r:e -- "ecu-engine-harness":w13:w
+	"ecu-engine-harness":w13:e -- "icm-to-ecu":p1l:w
 	edge [color="#000000:#0066ff:#0066ff:#0066ff:#000000"]
 	link_a_loom:p12r:e -- "ecu-engine-harness":w12:w
-	"ecu-engine-harness":w12:e -- "icm-to-ecu":p3l:w
-	edge [color="#000000:#ffffff:#000000:#ffffff:#000000"]
-	link_a_loom:p11r:e -- "ecu-engine-harness":w13:w
-	"ecu-engine-harness":w13:e -- "icm-to-ecu":p1l:w
+	"ecu-engine-harness":w12:e -- "icm-to-ecu":p2l:w
+	edge [color="#000000:#0066ff:#895956:#0066ff:#000000"]
+	link_a_loom:p11r:e -- "ecu-engine-harness":w11:w
+	"ecu-engine-harness":w11:e -- "icm-to-ecu":p3l:w
 	"ecu-engine-harness" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -576,7 +572,7 @@ graph {
     <td>
      11:BUBN
     </td>
-    <td>icm-to-ecu:4:Pin4</td>
+    <td>icm-to-ecu:3:Transistor3</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w11" height="10">
@@ -594,7 +590,7 @@ graph {
     <td>
      12:BU
     </td>
-    <td>icm-to-ecu:3:Pin3</td>
+    <td>icm-to-ecu:2:Transistor2</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w12" height="10">
@@ -612,7 +608,7 @@ graph {
     <td>
      13:WHBK
     </td>
-    <td>icm-to-ecu:1:Pin1</td>
+    <td>icm-to-ecu:1:Transistor1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w13" height="10">
@@ -1009,13 +1005,13 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ffffff:#000000"]
-	"icm-to-coil":p1r:e -- "icm-to-coil-wire":w1:w
+	"icm-to-coil":p4r:e -- "icm-to-coil-wire":w1:w
 	"icm-to-coil-wire":w1:e -- coil:p3l:w
 	edge [color="#000000:#ffffff:#000000"]
-	"icm-to-coil":p2r:e -- "icm-to-coil-wire":w2:w
+	"icm-to-coil":p3r:e -- "icm-to-coil-wire":w2:w
 	"icm-to-coil-wire":w2:e -- coil:p2l:w
 	edge [color="#000000:#ffffff:#000000"]
-	"icm-to-coil":p3r:e -- "icm-to-coil-wire":w3:w
+	"icm-to-coil":p1r:e -- "icm-to-coil-wire":w3:w
 	"icm-to-coil-wire":w3:e -- coil:p1l:w
 	"icm-to-coil-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -1033,11 +1029,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>icm-to-coil:1:Pin1</td>
+    <td>icm-to-coil:4:Transistor1</td>
     <td>
      1
     </td>
-    <td>coil:3:Pin3</td>
+    <td>coil:3:Coil1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1049,11 +1045,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>icm-to-coil:2:Pin2</td>
+    <td>icm-to-coil:3:Transistor2</td>
     <td>
      2
     </td>
-    <td>coil:2:Pin2</td>
+    <td>coil:2:Coil2</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
@@ -1065,11 +1061,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>icm-to-coil:3:Pin3</td>
+    <td>icm-to-coil:1:Transistor3</td>
     <td>
      3
     </td>
-    <td>coil:1:Pin1</td>
+    <td>coil:1:Coil3</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">

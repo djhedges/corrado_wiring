@@ -11,4 +11,4 @@ Id	Description	Qty	Unit	Designators
 10	Connector, 357972753, 3 pins	1		tps
 11	Connector, 5LA, 34 pins	1		link_a_loom
 12	Connector, 5LB, 34 pins	1		link_b_loom
-13	Connector, 6 pins	1		injector-pwr-splice
+13	Connector, splice	1		injector-pwr-splice

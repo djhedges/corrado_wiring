@@ -831,36 +831,8 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">6-pin</td>
+   <td balign="left">splice</td>
   </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
-   <tr>
-    <td port="p1l">1</td>
-    <td port="p1r">1</td>
-   </tr>
-   <tr>
-    <td port="p2l">2</td>
-    <td port="p2r">2</td>
-   </tr>
-   <tr>
-    <td port="p3l">3</td>
-    <td port="p3r">3</td>
-   </tr>
-   <tr>
-    <td port="p4l">4</td>
-    <td port="p4r">4</td>
-   </tr>
-   <tr>
-    <td port="p5l">5</td>
-    <td port="p5r">5</td>
-   </tr>
-   <tr>
-    <td port="p6l">6</td>
-    <td port="p6r">6</td>
-   </tr>
-  </table>
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
@@ -2542,7 +2514,7 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	"injector-pwr-splice":p1r:e -- "injector-loom-pwr-wire":w1:w
+	"injector-pwr-splice":e -- "injector-loom-pwr-wire":w1:w
 	"injector-loom-pwr-wire":w1:e -- razor_pdm:p14l:w
 	"injector-loom-pwr-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -2584,22 +2556,22 @@ graph {
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	injector1:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":p1l:w
+	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	injector2:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":p1l:w
+	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	injector3:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":p1l:w
+	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	injector4:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":p1l:w
+	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	injector5:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":p1l:w
+	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	injector6:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":p1l:w
+	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
 	"injector-pwr-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>

@@ -20,7 +20,11 @@ connectors:
 
 cables:
   ecu-engine-harness:
-    wirecount: 10
+    wirecount: 34
+    colors: [BNOG, BNRD, BN, BNBK, RD, GN, BK, RD,
+             BUOG, BURD, BUBN, BU, WHBK, YE, YEBN, YEBU,
+             OG, OGRD, OGBN, OGBK, WHBN, GYRD, GN, BK,
+             OGVT, OGBU, OGGN, OGYE, GYBK, GYBN, RDBU, YEBK, BK]
   icm-to-coil-wire:
     wirecount: 3
 

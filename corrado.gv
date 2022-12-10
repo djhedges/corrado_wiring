@@ -671,12 +671,10 @@ graph {
    <tr>
     <td port="p1l">1</td>
     <td>Pos</td>
-    <td port="p1r">1</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
     <td>Gnd</td>
-    <td port="p2r">2</td>
    </tr>
   </table>
  </td></tr>
@@ -699,12 +697,10 @@ graph {
    <tr>
     <td port="p1l">1</td>
     <td>Pos</td>
-    <td port="p1r">1</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
     <td>Gnd</td>
-    <td port="p2r">2</td>
    </tr>
   </table>
  </td></tr>
@@ -727,12 +723,10 @@ graph {
    <tr>
     <td port="p1l">1</td>
     <td>Pos</td>
-    <td port="p1r">1</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
     <td>Gnd</td>
-    <td port="p2r">2</td>
    </tr>
   </table>
  </td></tr>
@@ -755,12 +749,10 @@ graph {
    <tr>
     <td port="p1l">1</td>
     <td>Pos</td>
-    <td port="p1r">1</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
     <td>Gnd</td>
-    <td port="p2r">2</td>
    </tr>
   </table>
  </td></tr>
@@ -783,12 +775,10 @@ graph {
    <tr>
     <td port="p1l">1</td>
     <td>Pos</td>
-    <td port="p1r">1</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
     <td>Gnd</td>
-    <td port="p2r">2</td>
    </tr>
   </table>
  </td></tr>
@@ -811,28 +801,12 @@ graph {
    <tr>
     <td port="p1l">1</td>
     <td>Pos</td>
-    <td port="p1r">1</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
     <td>Gnd</td>
-    <td port="p2r">2</td>
    </tr>
   </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
-	"injector-pwr-splice" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">injector-pwr-splice</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">splice</td>
-  </tr></table>
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
@@ -2504,103 +2478,6 @@ graph {
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
-	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	"injector-pwr-splice":e -- "injector-loom-pwr-wire":w1:w
-	"injector-loom-pwr-wire":w1:e -- razor_pdm:p14l:w
-	"injector-loom-pwr-wire" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">injector-loom-pwr-wire</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">1x</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>injector-pwr-splice:1</td>
-    <td>
-     1:RD
-    </td>
-    <td>razor_pdm:14:PWROUT1a</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
-	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector1:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
-	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector2:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
-	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector3:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
-	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector4:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
-	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector5:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
-	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector6:p1r:e -- "injector-pwr-wire":w1:w
-	"injector-pwr-wire":w1:e -- "injector-pwr-splice":w
-	"injector-pwr-wire" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">injector-pwr-wire</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">1x</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>injector1:1:Pos</td>
-    <td>
-     1:RD
-    </td>
-    <td>injector-pwr-splice:1</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>

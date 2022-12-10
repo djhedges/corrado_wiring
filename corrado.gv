@@ -169,26 +169,146 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">5LB</td>
-   <td balign="left">4-pin</td>
+   <td balign="left">34-pin</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
-    <td port="p1l">1</td>
-    <td>Pin1</td>
+    <td>Inj8</td>
+    <td port="p1r">1</td>
    </tr>
    <tr>
-    <td port="p2l">2</td>
-    <td>Pin2</td>
+    <td>Inj7</td>
+    <td port="p2r">2</td>
    </tr>
    <tr>
-    <td port="p3l">3</td>
-    <td>Pin3</td>
+    <td>Inj6</td>
+    <td port="p3r">3</td>
    </tr>
    <tr>
-    <td port="p4l">4</td>
-    <td>Pin4</td>
+    <td>Inj5</td>
+    <td port="p4r">4</td>
+   </tr>
+   <tr>
+    <td>+14V Aux9/10</td>
+    <td port="p5r">5</td>
+   </tr>
+   <tr>
+    <td>Temp3</td>
+    <td port="p6r">6</td>
+   </tr>
+   <tr>
+    <td>Temp4</td>
+    <td port="p7r">7</td>
+   </tr>
+   <tr>
+    <td>Knock2</td>
+    <td port="p8r">8</td>
+   </tr>
+   <tr>
+    <td>Knock1</td>
+    <td port="p9r">9</td>
+   </tr>
+   <tr>
+    <td>Heater</td>
+    <td port="p10r">10</td>
+   </tr>
+   <tr>
+    <td>MES</td>
+    <td port="p11r">11</td>
+   </tr>
+   <tr>
+    <td>Ign6</td>
+    <td port="p12r">12</td>
+   </tr>
+   <tr>
+    <td>Ign5</td>
+    <td port="p13r">13</td>
+   </tr>
+   <tr>
+    <td>RE</td>
+    <td port="p14r">14</td>
+   </tr>
+   <tr>
+    <td>Volt6</td>
+    <td port="p15r">15</td>
+   </tr>
+   <tr>
+    <td>Volt7</td>
+    <td port="p16r">16</td>
+   </tr>
+   <tr>
+    <td>Shield/Gnd</td>
+    <td port="p17r">17</td>
+   </tr>
+   <tr>
+    <td>Aux9</td>
+    <td port="p18r">18</td>
+   </tr>
+   <tr>
+    <td>DI6</td>
+    <td port="p19r">19</td>
+   </tr>
+   <tr>
+    <td>DI5</td>
+    <td port="p20r">20</td>
+   </tr>
+   <tr>
+    <td>DI4</td>
+    <td port="p21r">21</td>
+   </tr>
+   <tr>
+    <td>Gnd Out</td>
+    <td port="p22r">22</td>
+   </tr>
+   <tr>
+    <td>An Volt8</td>
+    <td port="p23r">23</td>
+   </tr>
+   <tr>
+    <td>An Volt9</td>
+    <td port="p24r">24</td>
+   </tr>
+   <tr>
+    <td>Ground1</td>
+    <td port="p25r">25</td>
+   </tr>
+   <tr>
+    <td>Aux10</td>
+    <td port="p26r">26</td>
+   </tr>
+   <tr>
+    <td>DI10/CAN2H</td>
+    <td port="p27r">27</td>
+   </tr>
+   <tr>
+    <td>DI9/CAN2L</td>
+    <td port="p28r">28</td>
+   </tr>
+   <tr>
+    <td>DI8</td>
+    <td port="p29r">29</td>
+   </tr>
+   <tr>
+    <td>DI7</td>
+    <td port="p30r">30</td>
+   </tr>
+   <tr>
+    <td>IPE</td>
+    <td port="p31r">31</td>
+   </tr>
+   <tr>
+    <td>APE</td>
+    <td port="p32r">32</td>
+   </tr>
+   <tr>
+    <td>AN Volt5</td>
+    <td port="p33r">33</td>
+   </tr>
+   <tr>
+    <td>Ground2</td>
+    <td port="p34r">34</td>
    </tr>
   </table>
  </td></tr>
@@ -296,87 +416,87 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
-	link_a_loom:p1r:e -- "ecu-engine-harness":w1:w
+	link_a_loom:p1r:e -- loom_a_wire:w1:w
 	edge [color="#000000:#895956:#ff0000:#895956:#000000"]
-	link_a_loom:p2r:e -- "ecu-engine-harness":w2:w
+	link_a_loom:p2r:e -- loom_a_wire:w2:w
 	edge [color="#000000:#895956:#895956:#895956:#000000"]
-	link_a_loom:p3r:e -- "ecu-engine-harness":w3:w
+	link_a_loom:p3r:e -- loom_a_wire:w3:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
-	link_a_loom:p4r:e -- "ecu-engine-harness":w4:w
+	link_a_loom:p4r:e -- loom_a_wire:w4:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	link_a_loom:p5r:e -- "ecu-engine-harness":w5:w
+	link_a_loom:p5r:e -- loom_a_wire:w5:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
-	link_a_loom:p6r:e -- "ecu-engine-harness":w6:w
+	link_a_loom:p6r:e -- loom_a_wire:w6:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	link_a_loom:p7r:e -- "ecu-engine-harness":w7:w
+	link_a_loom:p7r:e -- loom_a_wire:w7:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	link_a_loom:p8r:e -- "ecu-engine-harness":w8:w
+	link_a_loom:p8r:e -- loom_a_wire:w8:w
 	edge [color="#000000:#0066ff:#ff8000:#0066ff:#000000"]
-	link_a_loom:p9r:e -- "ecu-engine-harness":w9:w
+	link_a_loom:p9r:e -- loom_a_wire:w9:w
 	edge [color="#000000:#0066ff:#ff0000:#0066ff:#000000"]
-	link_a_loom:p10r:e -- "ecu-engine-harness":w10:w
+	link_a_loom:p10r:e -- loom_a_wire:w10:w
 	edge [color="#000000:#0066ff:#895956:#0066ff:#000000"]
-	link_a_loom:p11r:e -- "ecu-engine-harness":w11:w
+	link_a_loom:p11r:e -- loom_a_wire:w11:w
 	edge [color="#000000:#0066ff:#0066ff:#0066ff:#000000"]
-	link_a_loom:p12r:e -- "ecu-engine-harness":w12:w
+	link_a_loom:p12r:e -- loom_a_wire:w12:w
 	edge [color="#000000:#ffffff:#000000:#ffffff:#000000"]
-	link_a_loom:p13r:e -- "ecu-engine-harness":w13:w
+	link_a_loom:p13r:e -- loom_a_wire:w13:w
 	edge [color="#000000:#ffff00:#ffff00:#ffff00:#000000"]
-	link_a_loom:p14r:e -- "ecu-engine-harness":w14:w
+	link_a_loom:p14r:e -- loom_a_wire:w14:w
 	edge [color="#000000:#ffff00:#895956:#ffff00:#000000"]
-	link_a_loom:p15r:e -- "ecu-engine-harness":w15:w
+	link_a_loom:p15r:e -- loom_a_wire:w15:w
 	edge [color="#000000:#ffff00:#0066ff:#ffff00:#000000"]
-	link_a_loom:p16r:e -- "ecu-engine-harness":w16:w
+	link_a_loom:p16r:e -- loom_a_wire:w16:w
 	edge [color="#000000:#ff8000:#ff8000:#ff8000:#000000"]
-	link_a_loom:p17r:e -- "ecu-engine-harness":w17:w
+	link_a_loom:p17r:e -- loom_a_wire:w17:w
 	edge [color="#000000:#ff8000:#ff0000:#ff8000:#000000"]
-	link_a_loom:p18r:e -- "ecu-engine-harness":w18:w
+	link_a_loom:p18r:e -- loom_a_wire:w18:w
 	edge [color="#000000:#ff8000:#895956:#ff8000:#000000"]
-	link_a_loom:p19r:e -- "ecu-engine-harness":w19:w
+	link_a_loom:p19r:e -- loom_a_wire:w19:w
 	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
-	link_a_loom:p20r:e -- "ecu-engine-harness":w20:w
+	link_a_loom:p20r:e -- loom_a_wire:w20:w
 	edge [color="#000000:#ffffff:#895956:#ffffff:#000000"]
-	link_a_loom:p21r:e -- "ecu-engine-harness":w21:w
+	link_a_loom:p21r:e -- loom_a_wire:w21:w
 	edge [color="#000000:#999999:#ff0000:#999999:#000000"]
-	link_a_loom:p22r:e -- "ecu-engine-harness":w22:w
+	link_a_loom:p22r:e -- loom_a_wire:w22:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
-	link_a_loom:p23r:e -- "ecu-engine-harness":w23:w
+	link_a_loom:p23r:e -- loom_a_wire:w23:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	link_a_loom:p24r:e -- "ecu-engine-harness":w24:w
+	link_a_loom:p24r:e -- loom_a_wire:w24:w
 	edge [color="#000000:#ff8000:#8000ff:#ff8000:#000000"]
-	link_a_loom:p25r:e -- "ecu-engine-harness":w25:w
+	link_a_loom:p25r:e -- loom_a_wire:w25:w
 	edge [color="#000000:#ff8000:#0066ff:#ff8000:#000000"]
-	link_a_loom:p26r:e -- "ecu-engine-harness":w26:w
+	link_a_loom:p26r:e -- loom_a_wire:w26:w
 	edge [color="#000000:#ff8000:#00ff00:#ff8000:#000000"]
-	link_a_loom:p27r:e -- "ecu-engine-harness":w27:w
+	link_a_loom:p27r:e -- loom_a_wire:w27:w
 	edge [color="#000000:#ff8000:#ffff00:#ff8000:#000000"]
-	link_a_loom:p28r:e -- "ecu-engine-harness":w28:w
+	link_a_loom:p28r:e -- loom_a_wire:w28:w
 	edge [color="#000000:#999999:#000000:#999999:#000000"]
-	link_a_loom:p29r:e -- "ecu-engine-harness":w29:w
+	link_a_loom:p29r:e -- loom_a_wire:w29:w
 	edge [color="#000000:#999999:#895956:#999999:#000000"]
-	link_a_loom:p30r:e -- "ecu-engine-harness":w30:w
+	link_a_loom:p30r:e -- loom_a_wire:w30:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
-	link_a_loom:p31r:e -- "ecu-engine-harness":w31:w
+	link_a_loom:p31r:e -- loom_a_wire:w31:w
 	edge [color="#000000:#ffff00:#000000:#ffff00:#000000"]
-	link_a_loom:p32r:e -- "ecu-engine-harness":w32:w
+	link_a_loom:p32r:e -- loom_a_wire:w32:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	link_a_loom:p33r:e -- "ecu-engine-harness":w33:w
+	link_a_loom:p33r:e -- loom_a_wire:w33:w
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
-	link_a_loom:p34r:e -- "ecu-engine-harness":w34:w
+	link_a_loom:p34r:e -- loom_a_wire:w34:w
 	edge [color="#000000:#ffffff:#000000:#ffffff:#000000"]
-	link_a_loom:p13r:e -- "ecu-engine-harness":w13:w
-	"ecu-engine-harness":w13:e -- "icm-to-ecu":p1l:w
+	link_a_loom:p13r:e -- loom_a_wire:w13:w
+	loom_a_wire:w13:e -- "icm-to-ecu":p1l:w
 	edge [color="#000000:#0066ff:#0066ff:#0066ff:#000000"]
-	link_a_loom:p12r:e -- "ecu-engine-harness":w12:w
-	"ecu-engine-harness":w12:e -- "icm-to-ecu":p2l:w
+	link_a_loom:p12r:e -- loom_a_wire:w12:w
+	loom_a_wire:w12:e -- "icm-to-ecu":p2l:w
 	edge [color="#000000:#0066ff:#895956:#0066ff:#000000"]
-	link_a_loom:p11r:e -- "ecu-engine-harness":w11:w
-	"ecu-engine-harness":w11:e -- "icm-to-ecu":p3l:w
-	"ecu-engine-harness" [label=<
+	link_a_loom:p11r:e -- loom_a_wire:w11:w
+	loom_a_wire:w11:e -- "icm-to-ecu":p3l:w
+	loom_a_wire [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">ecu-engine-harness</td>
+   <td balign="left">loom_a_wire</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -995,6 +1115,706 @@ graph {
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff8000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr><td>&nbsp;</td></tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
+	edge [color="#000000:#895956:#8000ff:#895956:#000000"]
+	link_b_loom:p1r:e -- loom_b_wire:w1:w
+	edge [color="#000000:#895956:#0066ff:#895956:#000000"]
+	link_b_loom:p2r:e -- loom_b_wire:w2:w
+	edge [color="#000000:#895956:#00ff00:#895956:#000000"]
+	link_b_loom:p3r:e -- loom_b_wire:w3:w
+	edge [color="#000000:#895956:#ffff00:#895956:#000000"]
+	link_b_loom:p4r:e -- loom_b_wire:w4:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	link_b_loom:p5r:e -- loom_b_wire:w5:w
+	edge [color="#000000:#ffff00:#ff0000:#ffff00:#000000"]
+	link_b_loom:p6r:e -- loom_b_wire:w6:w
+	edge [color="#000000:#ffff00:#ff8000:#ffff00:#000000"]
+	link_b_loom:p7r:e -- loom_b_wire:w7:w
+	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
+	link_b_loom:p8r:e -- loom_b_wire:w8:w
+	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
+	link_b_loom:p9r:e -- loom_b_wire:w9:w
+	edge [color="#000000:#0066ff:#8000ff:#0066ff:#000000"]
+	link_b_loom:p10r:e -- loom_b_wire:w10:w
+	edge [color="#000000:#0066ff:#000000:#0066ff:#000000"]
+	link_b_loom:p11r:e -- loom_b_wire:w11:w
+	edge [color="#000000:#0066ff:#00ff00:#0066ff:#000000"]
+	link_b_loom:p12r:e -- loom_b_wire:w12:w
+	edge [color="#000000:#0066ff:#ffff00:#0066ff:#000000"]
+	link_b_loom:p13r:e -- loom_b_wire:w13:w
+	edge [color="#000000:#0066ff:#ffffff:#0066ff:#000000"]
+	link_b_loom:p14r:e -- loom_b_wire:w14:w
+	edge [color="#000000:#ffffff:#ff0000:#ffffff:#000000"]
+	link_b_loom:p15r:e -- loom_b_wire:w15:w
+	edge [color="#000000:#ffffff:#ff8000:#ffffff:#000000"]
+	link_b_loom:p16r:e -- loom_b_wire:w16:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_b_loom:p17r:e -- loom_b_wire:w17:w
+	edge [color="#000000:#8000ff:#8000ff:#8000ff:#000000"]
+	link_b_loom:p18r:e -- loom_b_wire:w18:w
+	edge [color="#000000:#999999:#00ff00:#999999:#000000"]
+	link_b_loom:p19r:e -- loom_b_wire:w19:w
+	edge [color="#000000:#999999:#ffff00:#999999:#000000"]
+	link_b_loom:p20r:e -- loom_b_wire:w20:w
+	edge [color="#000000:#999999:#ff8000:#999999:#000000"]
+	link_b_loom:p21r:e -- loom_b_wire:w21:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_b_loom:p22r:e -- loom_b_wire:w22:w
+	edge [color="#000000:#ffffff:#ffff00:#ffffff:#000000"]
+	link_b_loom:p23r:e -- loom_b_wire:w23:w
+	edge [color="#000000:#ffffff:#00ff00:#ffffff:#000000"]
+	link_b_loom:p24r:e -- loom_b_wire:w24:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_b_loom:p25r:e -- loom_b_wire:w25:w
+	edge [color="#000000:#8000ff:#ffffff:#8000ff:#000000"]
+	link_b_loom:p26r:e -- loom_b_wire:w26:w
+	edge [color="#000000:#999999:#8000ff:#999999:#000000"]
+	link_b_loom:p27r:e -- loom_b_wire:w27:w
+	edge [color="#000000:#999999:#ffffff:#999999:#000000"]
+	link_b_loom:p28r:e -- loom_b_wire:w28:w
+	edge [color="#000000:#999999:#999999:#999999:#000000"]
+	link_b_loom:p29r:e -- loom_b_wire:w29:w
+	edge [color="#000000:#999999:#0066ff:#999999:#000000"]
+	link_b_loom:p30r:e -- loom_b_wire:w30:w
+	edge [color="#000000:#ffffff:#0066ff:#ffffff:#000000"]
+	link_b_loom:p31r:e -- loom_b_wire:w31:w
+	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
+	link_b_loom:p32r:e -- loom_b_wire:w32:w
+	edge [color="#000000:#ffff00:#00ff00:#ffff00:#000000"]
+	link_b_loom:p33r:e -- loom_b_wire:w33:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_b_loom:p34r:e -- loom_b_wire:w34:w
+	loom_b_wire [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">loom_b_wire</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">34x</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellborder="0">
+   <tr><td>&nbsp;</td></tr>
+   <tr>
+    <td>link_b_loom:1:Inj8</td>
+    <td>
+     1:BNVT
+    </td>
+    <td><!-- 1_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:2:Inj7</td>
+    <td>
+     2:BNBU
+    </td>
+    <td><!-- 2_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:3:Inj6</td>
+    <td>
+     3:BNGN
+    </td>
+    <td><!-- 3_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:4:Inj5</td>
+    <td>
+     4:BNYE
+    </td>
+    <td><!-- 4_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:5:+14V Aux9/10</td>
+    <td>
+     5:RD
+    </td>
+    <td><!-- 5_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:6:Temp3</td>
+    <td>
+     6:YERD
+    </td>
+    <td><!-- 6_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w6" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:7:Temp4</td>
+    <td>
+     7:YEOG
+    </td>
+    <td><!-- 7_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w7" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff8000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:8:Knock2</td>
+    <td>
+     8:WH
+    </td>
+    <td><!-- 8_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w8" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:9:Knock1</td>
+    <td>
+     9:WH
+    </td>
+    <td><!-- 9_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w9" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:10:Heater</td>
+    <td>
+     10:BUVT
+    </td>
+    <td><!-- 10_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w10" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:11:MES</td>
+    <td>
+     11:BUBK
+    </td>
+    <td><!-- 11_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w11" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:12:Ign6</td>
+    <td>
+     12:BUGN
+    </td>
+    <td><!-- 12_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w12" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:13:Ign5</td>
+    <td>
+     13:BUYE
+    </td>
+    <td><!-- 13_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w13" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:14:RE</td>
+    <td>
+     14:BUWH
+    </td>
+    <td><!-- 14_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w14" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:15:Volt6</td>
+    <td>
+     15:WHRD
+    </td>
+    <td><!-- 15_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w15" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:16:Volt7</td>
+    <td>
+     16:WHOG
+    </td>
+    <td><!-- 16_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w16" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff8000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:17:Shield/Gnd</td>
+    <td>
+     17:GN
+    </td>
+    <td><!-- 17_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w17" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:18:Aux9</td>
+    <td>
+     18:VT
+    </td>
+    <td><!-- 18_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w18" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:19:DI6</td>
+    <td>
+     19:GYGN
+    </td>
+    <td><!-- 19_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w19" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:20:DI5</td>
+    <td>
+     20:GYYE
+    </td>
+    <td><!-- 20_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w20" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:21:DI4</td>
+    <td>
+     21:GYOG
+    </td>
+    <td><!-- 21_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w21" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff8000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:22:Gnd Out</td>
+    <td>
+     22:GN
+    </td>
+    <td><!-- 22_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w22" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:23:An Volt8</td>
+    <td>
+     23:WHYE
+    </td>
+    <td><!-- 23_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w23" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:24:An Volt9</td>
+    <td>
+     24:WHGN
+    </td>
+    <td><!-- 24_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w24" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:25:Ground1</td>
+    <td>
+     25:BK
+    </td>
+    <td><!-- 25_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:26:Aux10</td>
+    <td>
+     26:VTWH
+    </td>
+    <td><!-- 26_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w26" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:27:DI10/CAN2H</td>
+    <td>
+     27:GYVT
+    </td>
+    <td><!-- 27_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w27" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:28:DI9/CAN2L</td>
+    <td>
+     28:GYWH
+    </td>
+    <td><!-- 28_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w28" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:29:DI8</td>
+    <td>
+     29:GY
+    </td>
+    <td><!-- 29_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w29" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:30:DI7</td>
+    <td>
+     30:GYBU
+    </td>
+    <td><!-- 30_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w30" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#999999" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:31:IPE</td>
+    <td>
+     31:WHBU
+    </td>
+    <td><!-- 31_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w31" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#0066ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:32:APE</td>
+    <td>
+     32:WH
+    </td>
+    <td><!-- 32_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w32" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:33:AN Volt5</td>
+    <td>
+     33:YEGN
+    </td>
+    <td><!-- 33_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w33" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>link_b_loom:34:Ground2</td>
+    <td>
+     34:BK
+    </td>
+    <td><!-- 34_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>

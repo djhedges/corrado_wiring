@@ -7,7 +7,10 @@ connectors:
                 Aux8, Aux7, Aux6, Aux5, DI1, DI2, +5V, AnVolt3, Ground2]
   link_b_loom:
     type: 5LB
-    pinlabels: [Pin1, Pin2, Pin3, Pin4]
+    pinlabels: [Inj8, Inj7, Inj6, Inj5, +14V Aux9/10, Temp3, Temp4, Knock2, Knock1,
+                Heater, MES, Ign6, Ign5, RE, Volt6, Volt7, Shield/Gnd,
+                Aux9, DI6, DI5, DI4, Gnd Out, An Volt8, An Volt9, Ground1,
+                Aux10, DI10/CAN2H, DI9/CAN2L, DI8, DI7, IPE, APE, AN Volt5, Ground2]
   icm-to-ecu:
     type: 261205351
     pinlabels: [Transistor1, Transistor2, Transistor3]
@@ -19,12 +22,18 @@ connectors:
     pinlabels: [Coil3, Coil2, Coil1, Ubatt]
 
 cables:
-  ecu-engine-harness:
+  loom_a_wire:
     wirecount: 34
     colors: [BNOG, BNRD, BN, BNBK, RD, GN, BK, RD,
              BUOG, BURD, BUBN, BU, WHBK, YE, YEBN, YEBU,
              OG, OGRD, OGBN, OGBK, WHBN, GYRD, GN, BK,
              OGVT, OGBU, OGGN, OGYE, GYBK, GYBN, RDBU, YEBK, BK]
+  loom_b_wire:
+    wirecount: 34
+    colors: [BNVT, BNBU, BNGN, BNYE, RD, YERD, YEOG, WH, WH,
+             BUVT, BUBK, BUGN, BUYE, BUWH, WHRD, WHOG, GN,
+             VT, GYGN, GYYE, GYOG, GN, WHYE, WHGN, BK,
+             VTWH, GYVT, GYWH, GY, GYBU, WHBU, WH, YEGN, BK]
   icm-to-coil-wire:
     wirecount: 3
 
@@ -34,14 +43,22 @@ connections:
                     Ign4, Ign3, Ign2, Ign1, AnVolt4, Temp1, Temp2, AnVolt1,
                     Aux4, Aux3, Aux2, Aux1, AnVol2, DI3, GndOut, Ground1,
                     Aux8, Aux7, Aux6, Aux5, DI1, DI2, +5V, AnVolt3, Ground2]
-    - ecu-engine-harness: [1, 2, 3, 4, 5, 6, 7, 8, 9,
-                           10, 11, 12, 13, 14, 15, 16, 17,
-                           18, 19, 20, 21, 22, 23, 24, 25,
-                           26, 27, 28, 29, 30, 31, 32, 33, 34]
-
+    - loom_a_wire: [1, 2, 3, 4, 5, 6, 7, 8, 9,
+                    10, 11, 12, 13, 14, 15, 16, 17,
+                    18, 19, 20, 21, 22, 23, 24, 25,
+                    26, 27, 28, 29, 30, 31, 32, 33, 34]
+  -
+    - link_b_loom: [Inj8, Inj7, Inj6, Inj5, +14V Aux9/10, Temp3, Temp4, Knock2, Knock1,
+                    Heater, MES, Ign6, Ign5, RE, Volt6, Volt7, Shield/Gnd,
+                    Aux9, DI6, DI5, DI4, Gnd Out, An Volt8, An Volt9, Ground1,
+                    Aux10, DI10/CAN2H, DI9/CAN2L, DI8, DI7, IPE, APE, AN Volt5, Ground2]
+    - loom_b_wire: [1, 2, 3, 4, 5, 6, 7, 8, 9,
+                    10, 11, 12, 13, 14, 15, 16, 17,
+                    18, 19, 20, 21, 22, 23, 24, 25,
+                    26, 27, 28, 29, 30, 31, 32, 33, 34]
   -
     - link_a_loom: [Ign1, Ign2, Ign3]
-    - ecu-engine-harness: [13, 12, 11]
+    - loom_a_wire: [13, 12, 11]
     - icm-to-ecu: [Transistor1, Transistor2, Transistor3]
   -
     - icm-to-coil: [Transistor1, Transistor2, Transistor3]

@@ -70,6 +70,8 @@ cables:
     colors: [RD]
   ecu-battery-gnd-wire:
     colors: [BK]
+  injector-pwr-wire:
+    colors: [RD]
 
 connections:
   -
@@ -142,3 +144,27 @@ connections:
     - link_b_loom: [Inj6]
     - loom_b_wire: [3]
     - injector6: [Gnd]
+  -
+    - injector1: [Pos]
+    - injector-pwr-wire: [1]
+    - razor_pdm: [PWROUT1a]
+  -
+    - injector2: [Pos]
+    - injector-pwr-wire: [2]
+    - razor_pdm: [PWROUT1a]
+  -
+    - injector3: [Pos]
+    - injector-pwr-wire: [3]
+    - razor_pdm: [PWROUT1a]
+  -
+    - injector4: [Pos]
+    - injector-pwr-wire: [4]
+    - razor_pdm: [PWROUT1a]
+  -
+    - injector5: [Pos]
+    - injector-pwr-wire: [5]
+    - razor_pdm: [PWROUT1a]
+  -
+    - injector6: [Pos]
+    - injector-pwr-wire: [6]
+    - razor_pdm: [PWROUT1a]

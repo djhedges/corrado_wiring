@@ -45,5 +45,5 @@ connections:
     - icm-to-ecu: [Transistor1, Transistor2, Transistor3]
   -
     - icm-to-coil: [Transistor1, Transistor2, Transistor3]
-    - icm-to-coil-wire: [1, 2, 3]
+    - icm-to-coil-wire: [3, 2, 1]  # Reverse since pins are backwards.
     - coil: [Coil1, Coil2, Coil3]

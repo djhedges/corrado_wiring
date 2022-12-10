@@ -1005,14 +1005,14 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ffffff:#000000"]
-	"icm-to-coil":p4r:e -- "icm-to-coil-wire":w1:w
-	"icm-to-coil-wire":w1:e -- coil:p3l:w
+	"icm-to-coil":p4r:e -- "icm-to-coil-wire":w3:w
+	"icm-to-coil-wire":w3:e -- coil:p3l:w
 	edge [color="#000000:#ffffff:#000000"]
 	"icm-to-coil":p3r:e -- "icm-to-coil-wire":w2:w
 	"icm-to-coil-wire":w2:e -- coil:p2l:w
 	edge [color="#000000:#ffffff:#000000"]
-	"icm-to-coil":p1r:e -- "icm-to-coil-wire":w3:w
-	"icm-to-coil-wire":w3:e -- coil:p1l:w
+	"icm-to-coil":p1r:e -- "icm-to-coil-wire":w1:w
+	"icm-to-coil-wire":w1:e -- coil:p1l:w
 	"icm-to-coil-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1029,11 +1029,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>icm-to-coil:4:Transistor1</td>
+    <td>icm-to-coil:1:Transistor3</td>
     <td>
      1
     </td>
-    <td>coil:3:Coil1</td>
+    <td>coil:1:Coil3</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1061,11 +1061,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>icm-to-coil:1:Transistor3</td>
+    <td>icm-to-coil:4:Transistor1</td>
     <td>
      3
     </td>
-    <td>coil:1:Coil3</td>
+    <td>coil:3:Coil1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">

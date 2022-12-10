@@ -367,15 +367,15 @@ graph {
 	link_a_loom:p33r:e -- "ecu-engine-harness":w33:w
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
 	link_a_loom:p34r:e -- "ecu-engine-harness":w34:w
-	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
-	link_a_loom:p13r:e -- "ecu-engine-harness":w1:w
-	"ecu-engine-harness":w1:e -- "icm-to-ecu":p4l:w
-	edge [color="#000000:#895956:#ff0000:#895956:#000000"]
-	link_a_loom:p12r:e -- "ecu-engine-harness":w2:w
-	"ecu-engine-harness":w2:e -- "icm-to-ecu":p3l:w
-	edge [color="#000000:#895956:#895956:#895956:#000000"]
-	link_a_loom:p11r:e -- "ecu-engine-harness":w3:w
-	"ecu-engine-harness":w3:e -- "icm-to-ecu":p1l:w
+	edge [color="#000000:#0066ff:#895956:#0066ff:#000000"]
+	link_a_loom:p13r:e -- "ecu-engine-harness":w11:w
+	"ecu-engine-harness":w11:e -- "icm-to-ecu":p4l:w
+	edge [color="#000000:#0066ff:#0066ff:#0066ff:#000000"]
+	link_a_loom:p12r:e -- "ecu-engine-harness":w12:w
+	"ecu-engine-harness":w12:e -- "icm-to-ecu":p3l:w
+	edge [color="#000000:#ffffff:#000000:#ffffff:#000000"]
+	link_a_loom:p11r:e -- "ecu-engine-harness":w13:w
+	"ecu-engine-harness":w13:e -- "icm-to-ecu":p1l:w
 	"ecu-engine-harness" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -396,7 +396,7 @@ graph {
     <td>
      1:BNOG
     </td>
-    <td>icm-to-ecu:4:Pin4</td>
+    <td><!-- 1_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
@@ -414,7 +414,7 @@ graph {
     <td>
      2:BNRD
     </td>
-    <td>icm-to-ecu:3:Pin3</td>
+    <td><!-- 2_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="10">
@@ -432,7 +432,7 @@ graph {
     <td>
      3:BN
     </td>
-    <td>icm-to-ecu:1:Pin1</td>
+    <td><!-- 3_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">
@@ -576,7 +576,7 @@ graph {
     <td>
      11:BUBN
     </td>
-    <td><!-- 11_out --></td>
+    <td>icm-to-ecu:4:Pin4</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w11" height="10">
@@ -594,7 +594,7 @@ graph {
     <td>
      12:BU
     </td>
-    <td><!-- 12_out --></td>
+    <td>icm-to-ecu:3:Pin3</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w12" height="10">
@@ -612,7 +612,7 @@ graph {
     <td>
      13:WHBK
     </td>
-    <td><!-- 13_out --></td>
+    <td>icm-to-ecu:1:Pin1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w13" height="10">

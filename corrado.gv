@@ -2784,13 +2784,13 @@ graph {
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ffffff:#000000"]
 	link_b_loom:p8r:e -- "knock-shield-wire2":w1:w
-	"knock-shield-wire2":w1:e -- knock1:p1l:w
+	"knock-shield-wire2":w1:e -- knock2:p1l:w
 	edge [color="#000000:#ffffff:#000000"]
 	link_b_loom:p17r:e -- "knock-shield-wire2":w2:w
-	"knock-shield-wire2":w2:e -- knock1:p2l:w
+	"knock-shield-wire2":w2:e -- knock2:p2l:w
 	edge [color="#000000:#ffffff:#000000"]
 	link_b_loom:p17r:e -- "knock-shield-wire2":w3:w
-	"knock-shield-wire2":w3:e -- knock1:p3l:w
+	"knock-shield-wire2":w3:e -- knock2:p3l:w
 	"knock-shield-wire2" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2811,7 +2811,7 @@ graph {
     <td>
      1
     </td>
-    <td>knock1:1:Sig+</td>
+    <td>knock2:1:Sig+</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -2827,7 +2827,7 @@ graph {
     <td>
      2
     </td>
-    <td>knock1:2:Sig-</td>
+    <td>knock2:2:Sig-</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
@@ -2843,7 +2843,7 @@ graph {
     <td>
      3
     </td>
-    <td>knock1:3:Scr</td>
+    <td>knock2:3:Scr</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">

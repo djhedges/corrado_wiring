@@ -114,7 +114,7 @@ connections:
     - tps: [5v, Sensor, Gnd]
   -
     - battery: [+]
-    - ecu-battery-gnd-wire: [1]
+    - ecu-battery-pos-wire: [1]
     - link_a_loom: [+14V]
   -
     - battery: [-]

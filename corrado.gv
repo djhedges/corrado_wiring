@@ -2401,6 +2401,9 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	battery:p1r:e -- "ecu-battery-pos-wire":w1:w
+	"ecu-battery-pos-wire":w1:e -- link_a_loom:p5l:w
 	"ecu-battery-pos-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2417,11 +2420,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td><!-- 1_in --></td>
+    <td>battery:1:+</td>
     <td>
      1:RD
     </td>
-    <td><!-- 1_out --></td>
+    <td>link_a_loom:5:+14V</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
@@ -2439,9 +2442,6 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	battery:p1r:e -- "ecu-battery-gnd-wire":w1:w
-	"ecu-battery-gnd-wire":w1:e -- link_a_loom:p5l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	battery:p2r:e -- "ecu-battery-gnd-wire":w1:w
 	"ecu-battery-gnd-wire":w1:e -- link_a_loom:p24l:w
@@ -2461,11 +2461,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>battery:1:+</td>
+    <td>battery:2:-</td>
     <td>
      1:BK
     </td>
-    <td>link_a_loom:5:+14V</td>
+    <td>link_a_loom:24:GndOut</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">

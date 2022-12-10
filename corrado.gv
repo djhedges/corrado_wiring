@@ -329,108 +329,108 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
-    <td port="p1l">1</td>
     <td>PWROUT2a</td>
+    <td port="p1r">1</td>
    </tr>
    <tr>
-    <td port="p2l">2</td>
     <td>NC1</td>
+    <td port="p2r">2</td>
    </tr>
    <tr>
-    <td port="p3l">3</td>
     <td>CANH</td>
+    <td port="p3r">3</td>
    </tr>
    <tr>
-    <td port="p4l">4</td>
     <td>IGNSW</td>
+    <td port="p4r">4</td>
    </tr>
    <tr>
-    <td port="p5l">5</td>
     <td>SENSOR 5V1</td>
+    <td port="p5r">5</td>
    </tr>
    <tr>
-    <td port="p6l">6</td>
     <td>SENSOR GND1</td>
+    <td port="p6r">6</td>
    </tr>
    <tr>
-    <td port="p7l">7</td>
     <td>PWROUT3a</td>
+    <td port="p7r">7</td>
    </tr>
    <tr>
-    <td port="p8l">8</td>
     <td>PWROUT2b</td>
+    <td port="p8r">8</td>
    </tr>
    <tr>
-    <td port="p9l">9</td>
     <td>NC2</td>
+    <td port="p9r">9</td>
    </tr>
    <tr>
-    <td port="p10l">10</td>
     <td>CANL</td>
+    <td port="p10r">10</td>
    </tr>
    <tr>
-    <td port="p11l">11</td>
     <td>SENSOR 5V2</td>
+    <td port="p11r">11</td>
    </tr>
    <tr>
-    <td port="p12l">12</td>
     <td>SENSOR GND2</td>
+    <td port="p12r">12</td>
    </tr>
    <tr>
-    <td port="p13l">13</td>
     <td>PWROUT3b</td>
+    <td port="p13r">13</td>
    </tr>
    <tr>
-    <td port="p14l">14</td>
     <td>PWROUT1a</td>
+    <td port="p14r">14</td>
    </tr>
    <tr>
-    <td port="p15l">15</td>
     <td>ADIO2</td>
+    <td port="p15r">15</td>
    </tr>
    <tr>
-    <td port="p16l">16</td>
     <td>ADIO4</td>
+    <td port="p16r">16</td>
    </tr>
    <tr>
-    <td port="p17l">17</td>
     <td>ADIO6</td>
+    <td port="p17r">17</td>
    </tr>
    <tr>
-    <td port="p18l">18</td>
     <td>ADIO8</td>
+    <td port="p18r">18</td>
    </tr>
    <tr>
-    <td port="p19l">19</td>
     <td>PWROUT4a</td>
+    <td port="p19r">19</td>
    </tr>
    <tr>
-    <td port="p20l">20</td>
     <td>PWROUT1b</td>
+    <td port="p20r">20</td>
    </tr>
    <tr>
-    <td port="p21l">21</td>
     <td>ADIO1</td>
+    <td port="p21r">21</td>
    </tr>
    <tr>
-    <td port="p22l">22</td>
     <td>ADIO3</td>
+    <td port="p22r">22</td>
    </tr>
    <tr>
-    <td port="p23l">23</td>
     <td>ADIO5</td>
+    <td port="p23r">23</td>
    </tr>
    <tr>
-    <td port="p24l">24</td>
     <td>ADIO7</td>
+    <td port="p24r">24</td>
    </tr>
    <tr>
-    <td port="p25l">25</td>
     <td>NC3</td>
+    <td port="p25r">25</td>
    </tr>
    <tr>
-    <td port="p26l">26</td>
     <td>PWROUT4b</td>
+    <td port="p26r">26</td>
    </tr>
   </table>
  </td></tr>
@@ -520,22 +520,18 @@ graph {
    <tr>
     <td port="p1l">1</td>
     <td>Coil3</td>
-    <td port="p1r">1</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
     <td>Coil2</td>
-    <td port="p2r">2</td>
    </tr>
    <tr>
     <td port="p3l">3</td>
     <td>Coil1</td>
-    <td port="p3r">3</td>
    </tr>
    <tr>
     <td port="p4l">4</td>
     <td>Ubatt</td>
-    <td port="p4r">4</td>
    </tr>
   </table>
  </td></tr>
@@ -2131,8 +2127,8 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	coil:p4r:e -- "coil-pwr-wire":w1:w
-	"coil-pwr-wire":w1:e -- razor_pdm:p1l:w
+	razor_pdm:p1r:e -- "coil-pwr-wire":w1:w
+	"coil-pwr-wire":w1:e -- coil:p4l:w
 	"coil-pwr-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2149,11 +2145,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>coil:4:Ubatt</td>
+    <td>razor_pdm:1:PWROUT2a</td>
     <td>
      1:RD
     </td>
-    <td>razor_pdm:1:PWROUT2a</td>
+    <td>coil:4:Ubatt</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">

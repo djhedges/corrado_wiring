@@ -184,4 +184,4 @@ connections:
   -
     - link_b_loom: [Knock2, Shield/Gnd, Shield/Gnd]
     - knock-shield-wire2: [1, 2, 3]
-    - knock1: [Sig+, Sig-, Scr]
+    - knock2: [Sig+, Sig-, Scr]

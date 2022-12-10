@@ -44,6 +44,10 @@ connectors:
     pinlabels: [Pos, Gnd]
   injector6:
     pinlabels: [Pos, Gnd]
+  knock1:
+    pinlabels: [Sig+, Sig-, Scr]
+  knock2:
+    pinlabels: [Sig+, Sig-, Scr]
 
 cables:
   loom_a_wire:
@@ -73,6 +77,10 @@ cables:
   injector-pwr-wire:
     wirecount: 6
     colors: [RD]
+  knock-shield-wire1:
+    wirecount: 3
+  knock-shield-wire2:
+    wirecount: 3
 
 connections:
   -
@@ -169,3 +177,11 @@ connections:
     - injector6: [Pos]
     - injector-pwr-wire: [6]
     - razor_pdm: [PWROUT1a]
+  -
+    - link_b_loom: [Knock1, Shield/Gnd, Shield/Gnd]
+    - knock-shield-wire1: [1, 2, 3]
+    - knock1: [Sig+, Sig-, Scr]
+  -
+    - link_b_loom: [Knock2, Shield/Gnd, Shield/Gnd]
+    - knock-shield-wire2: [1, 2, 3]
+    - knock1: [Sig+, Sig-, Scr]

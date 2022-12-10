@@ -1,6 +1,6 @@
 Id	Description	Qty	Unit	Designators
 1	Cable, 1 wires	0	m	coil-pwr-wire, ecu-battery-gnd-wire, ecu-battery-pos-wire, icm-ground-wire
-2	Cable, 3 wires	0	m	icm-to-coil-wire
+2	Cable, 3 wires	0	m	icm-to-coil-wire, knock-shield-wire1, knock-shield-wire2
 3	Cable, 34 wires	0	m	loom_a_wire, loom_b_wire
 4	Cable, 6 wires	0	m	injector-pwr-wire
 5	Connector, 1 pins	1		engine-ground
@@ -9,6 +9,7 @@ Id	Description	Qty	Unit	Designators
 8	Connector, 26 pins	1		razor_pdm
 9	Connector, 261205289, 4 pins	1		icm-to-coil
 10	Connector, 261205351, 3 pins	1		icm-to-ecu
-11	Connector, 357972753, 3 pins	1		tps
-12	Connector, 5LA, 34 pins	1		link_a_loom
-13	Connector, 5LB, 34 pins	1		link_b_loom
+11	Connector, 3 pins	2		knock1, knock2
+12	Connector, 357972753, 3 pins	1		tps
+13	Connector, 5LA, 34 pins	1		link_a_loom
+14	Connector, 5LB, 34 pins	1		link_b_loom

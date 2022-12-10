@@ -105,9 +105,9 @@ connections:
     - icm-ground-wire: [1]
     - engine-ground: [Ground]
   -
-    - razor_pdm: [PWROUT2a]
-    - coil-pwr-wire: [1]
     - coil: [Ubatt]
+    - coil-pwr-wire: [1]
+    - razor_pdm: [PWROUT2a]
   -
     - link_a_loom: [+5V, AnVolt1, Ground1]
     - loom_a_wire: [32, 17, 25]
@@ -121,29 +121,29 @@ connections:
     - ecu-battery-gnd-wire: [1]
     - link_a_loom: [GndOut]
   -
-    - razor_pdm: [PWROUT1a]
-    - injector-pwr-wire: [1]
     - injector1: [Pos]
-  -
-    - razor_pdm: [PWROUT1a]
     - injector-pwr-wire: [1]
+    - razor_pdm: [PWROUT1a]
+  -
     - injector2: [Pos]
-  -
-    - razor_pdm: [PWROUT1a]
     - injector-pwr-wire: [1]
+    - razor_pdm: [PWROUT1a]
+  -
     - injector3: [Pos]
-  -
-    - razor_pdm: [PWROUT1a]
     - injector-pwr-wire: [1]
+    - razor_pdm: [PWROUT1a]
+  -
     - injector4: [Pos]
-  -
-    - razor_pdm: [PWROUT1a]
     - injector-pwr-wire: [1]
+    - razor_pdm: [PWROUT1a]
+  -
     - injector5: [Pos]
-  -
-    - razor_pdm: [PWROUT1a]
     - injector-pwr-wire: [1]
+    - razor_pdm: [PWROUT1a]
+  -
     - injector6: [Pos]
+    - injector-pwr-wire: [1]
+    - razor_pdm: [PWROUT1a]
   -
     - link_a_loom: [Inj1]
     - loom_a_wire: [4]

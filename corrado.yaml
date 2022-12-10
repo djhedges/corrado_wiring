@@ -1,4 +1,6 @@
 connectors:
+  battery:
+    pinlabels: [+, -]
   link_a_loom:
     type: 5LA
     pinlabels: [Inj4, Inj3, Inj2, Inj1, +14V, +8V, Shield/Gnd, Trig1, Trig2,
@@ -52,6 +54,8 @@ cables:
   coil-pwr-wire:
     wirecount: 1
     colors: [RD]
+  ecu-battery-gnd-wire:
+    colors: [BK]
 
 connections:
   -
@@ -92,3 +96,8 @@ connections:
     - link_a_loom: [+5V, AnVolt1, Ground1]
     - loom_a_wire: [32, 17, 25]
     - tps: [5v, Sensor, Gnd]
+
+  -
+    - battery: [-]
+    - ecu-battery-gnd-wire: [1]
+    - link_a_loom: [GndOut]

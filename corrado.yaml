@@ -71,6 +71,7 @@ cables:
   ecu-battery-gnd-wire:
     colors: [BK]
   injector-pwr-wire:
+    wirecount: 6
     colors: [RD]
 
 connections:

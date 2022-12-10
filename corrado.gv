@@ -299,15 +299,15 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
-	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
-	link_a_loom:p11r:e -- "ecu-engine-harness":w1:w
-	"ecu-engine-harness":w1:e -- "icm-to-ecu":p1l:w
+	edge [color="#000000:#895956:#895956:#895956:#000000"]
+	link_a_loom:p11r:e -- "ecu-engine-harness":w3:w
+	"ecu-engine-harness":w3:e -- "icm-to-ecu":p1l:w
 	edge [color="#000000:#895956:#ff0000:#895956:#000000"]
 	link_a_loom:p12r:e -- "ecu-engine-harness":w2:w
 	"ecu-engine-harness":w2:e -- "icm-to-ecu":p2l:w
-	edge [color="#000000:#895956:#895956:#895956:#000000"]
-	link_a_loom:p13r:e -- "ecu-engine-harness":w3:w
-	"ecu-engine-harness":w3:e -- "icm-to-ecu":p3l:w
+	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
+	link_a_loom:p13r:e -- "ecu-engine-harness":w1:w
+	"ecu-engine-harness":w1:e -- "icm-to-ecu":p3l:w
 	"ecu-engine-harness" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -324,11 +324,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>link_a_loom:11:Ign3</td>
+    <td>link_a_loom:13:Ign1</td>
     <td>
      1:BNOG
     </td>
-    <td>icm-to-ecu:1:Pin1</td>
+    <td>icm-to-ecu:3:Pin3</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
@@ -360,11 +360,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>link_a_loom:13:Ign1</td>
+    <td>link_a_loom:11:Ign3</td>
     <td>
      3:BN
     </td>
-    <td>icm-to-ecu:3:Pin3</td>
+    <td>icm-to-ecu:1:Pin1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">

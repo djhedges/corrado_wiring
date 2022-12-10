@@ -85,9 +85,9 @@ connections:
     - icm-ground-wire: [1]
     - engine-ground: [Ground]
   -
-    - coil: [Ubatt]
-    - coil-pwr-wire: [1]
     - razor_pdm: [PWROUT2a]
+    - coil-pwr-wire: [1]
+    - coil: [Ubatt]
   -
     - link_a_loom: [+5V, AnVolt1, Ground1]
     - loom_a_wire: [32, 17, 25]

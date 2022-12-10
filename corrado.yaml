@@ -32,6 +32,18 @@ connectors:
   tps:
     type: 357972753
     pinlabels: [5v, Sensor, Gnd]  # Old wiring  BKGY 5v, GNWH Sensor, BRW Grnd
+  injector1:
+    pinlabels: [Pos, Gnd]
+  injector2:
+    pinlabels: [Pos, Gnd]
+  injector3:
+    pinlabels: [Pos, Gnd]
+  injector4:
+    pinlabels: [Pos, Gnd]
+  injector5:
+    pinlabels: [Pos, Gnd]
+  injector6:
+    pinlabels: [Pos, Gnd]
 
 cables:
   loom_a_wire:
@@ -54,8 +66,12 @@ cables:
   coil-pwr-wire:
     wirecount: 1
     colors: [RD]
+  ecu-battery-pos-wire:
+    colors: [RD]
   ecu-battery-gnd-wire:
     colors: [BK]
+  injector-pwr-wire:
+    colors: [RD]
 
 connections:
   -
@@ -96,8 +112,59 @@ connections:
     - link_a_loom: [+5V, AnVolt1, Ground1]
     - loom_a_wire: [32, 17, 25]
     - tps: [5v, Sensor, Gnd]
-
+  -
+    - battery: [+]
+    - ecu-battery-gnd-wire: [1]
+    - link_a_loom: [+14V]
   -
     - battery: [-]
     - ecu-battery-gnd-wire: [1]
     - link_a_loom: [GndOut]
+  -
+    - razor_pdm: [PWROUT1a]
+    - injector-pwr-wire: [1]
+    - injector1: [Pos]
+  -
+    - razor_pdm: [PWROUT1a]
+    - injector-pwr-wire: [1]
+    - injector2: [Pos]
+  -
+    - razor_pdm: [PWROUT1a]
+    - injector-pwr-wire: [1]
+    - injector3: [Pos]
+  -
+    - razor_pdm: [PWROUT1a]
+    - injector-pwr-wire: [1]
+    - injector4: [Pos]
+  -
+    - razor_pdm: [PWROUT1a]
+    - injector-pwr-wire: [1]
+    - injector5: [Pos]
+  -
+    - razor_pdm: [PWROUT1a]
+    - injector-pwr-wire: [1]
+    - injector6: [Pos]
+  -
+    - link_a_loom: [Inj1]
+    - loom_a_wire: [4]
+    - injector1: [Gnd]
+  -
+    - link_a_loom: [Inj2]
+    - loom_a_wire: [3]
+    - injector1: [Gnd]
+  -
+    - link_a_loom: [Inj3]
+    - loom_a_wire: [2]
+    - injector1: [Gnd]
+  -
+    - link_a_loom: [Inj4]
+    - loom_a_wire: [1]
+    - injector1: [Gnd]
+  -
+    - link_b_loom: [Inj5]
+    - loom_b_wire: [4]
+    - injector5: [Gnd]
+  -
+    - link_b_loom: [Inj6]
+    - loom_b_wire: [3]
+    - injector6: [Gnd]

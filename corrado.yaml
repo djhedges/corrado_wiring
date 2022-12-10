@@ -20,6 +20,8 @@ connectors:
   coil:
     type: 1287013900
     pinlabels: [Coil3, Coil2, Coil1, Ubatt]
+  engine-ground:
+    pinlabels: [Ground]
 
 cables:
   loom_a_wire:
@@ -36,6 +38,9 @@ cables:
              VTWH, GYVT, GYWH, GY, GYBU, WHBU, WH, YEGN, BK]
   icm-to-coil-wire:
     wirecount: 3
+  icm-ground-wire:
+    wirecount: 1
+    colors: [BK]
 
 connections:
   -
@@ -64,3 +69,7 @@ connections:
     - icm-to-coil: [Transistor1, Transistor2, Transistor3]
     - icm-to-coil-wire: [3, 2, 1]  # Reverse since pins are backwards.
     - coil: [Coil1, Coil2, Coil3]
+  -
+    - icm-to-coil: [Gnd]
+    - icm-ground-wire: [1]
+    - engine-ground: [Ground]

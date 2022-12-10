@@ -116,7 +116,7 @@ graph {
     <td port="p24r">24</td>
    </tr>
    <tr>
-    <td>Ground</td>
+    <td>Ground1</td>
     <td port="p25r">25</td>
    </tr>
    <tr>
@@ -152,7 +152,7 @@ graph {
     <td port="p33r">33</td>
    </tr>
    <tr>
-    <td>Ground</td>
+    <td>Ground2</td>
     <td port="p34r">34</td>
    </tr>
   </table>
@@ -300,14 +300,82 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
+	link_a_loom:p1r:e -- "ecu-engine-harness":w1:w
+	edge [color="#000000:#895956:#ff0000:#895956:#000000"]
+	link_a_loom:p2r:e -- "ecu-engine-harness":w2:w
+	edge [color="#000000:#895956:#895956:#895956:#000000"]
+	link_a_loom:p3r:e -- "ecu-engine-harness":w3:w
+	edge [color="#000000:#895956:#000000:#895956:#000000"]
+	link_a_loom:p4r:e -- "ecu-engine-harness":w4:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	link_a_loom:p5r:e -- "ecu-engine-harness":w5:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_a_loom:p6r:e -- "ecu-engine-harness":w6:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_a_loom:p7r:e -- "ecu-engine-harness":w7:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	link_a_loom:p8r:e -- "ecu-engine-harness":w8:w
+	edge [color="#000000:#0066ff:#ff8000:#0066ff:#000000"]
+	link_a_loom:p9r:e -- "ecu-engine-harness":w9:w
+	edge [color="#000000:#0066ff:#ff0000:#0066ff:#000000"]
+	link_a_loom:p10r:e -- "ecu-engine-harness":w10:w
+	edge [color="#000000:#0066ff:#895956:#0066ff:#000000"]
+	link_a_loom:p11r:e -- "ecu-engine-harness":w11:w
+	edge [color="#000000:#0066ff:#0066ff:#0066ff:#000000"]
+	link_a_loom:p12r:e -- "ecu-engine-harness":w12:w
+	edge [color="#000000:#ffffff:#000000:#ffffff:#000000"]
+	link_a_loom:p13r:e -- "ecu-engine-harness":w13:w
+	edge [color="#000000:#ffff00:#ffff00:#ffff00:#000000"]
+	link_a_loom:p14r:e -- "ecu-engine-harness":w14:w
+	edge [color="#000000:#ffff00:#895956:#ffff00:#000000"]
+	link_a_loom:p15r:e -- "ecu-engine-harness":w15:w
+	edge [color="#000000:#ffff00:#0066ff:#ffff00:#000000"]
+	link_a_loom:p16r:e -- "ecu-engine-harness":w16:w
+	edge [color="#000000:#ff8000:#ff8000:#ff8000:#000000"]
+	link_a_loom:p17r:e -- "ecu-engine-harness":w17:w
+	edge [color="#000000:#ff8000:#ff0000:#ff8000:#000000"]
+	link_a_loom:p18r:e -- "ecu-engine-harness":w18:w
+	edge [color="#000000:#ff8000:#895956:#ff8000:#000000"]
+	link_a_loom:p19r:e -- "ecu-engine-harness":w19:w
+	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
+	link_a_loom:p20r:e -- "ecu-engine-harness":w20:w
+	edge [color="#000000:#ffffff:#895956:#ffffff:#000000"]
+	link_a_loom:p21r:e -- "ecu-engine-harness":w21:w
+	edge [color="#000000:#999999:#ff0000:#999999:#000000"]
+	link_a_loom:p22r:e -- "ecu-engine-harness":w22:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_a_loom:p23r:e -- "ecu-engine-harness":w23:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_a_loom:p24r:e -- "ecu-engine-harness":w24:w
+	edge [color="#000000:#ff8000:#8000ff:#ff8000:#000000"]
+	link_a_loom:p25r:e -- "ecu-engine-harness":w25:w
+	edge [color="#000000:#ff8000:#0066ff:#ff8000:#000000"]
+	link_a_loom:p26r:e -- "ecu-engine-harness":w26:w
+	edge [color="#000000:#ff8000:#00ff00:#ff8000:#000000"]
+	link_a_loom:p27r:e -- "ecu-engine-harness":w27:w
+	edge [color="#000000:#ff8000:#ffff00:#ff8000:#000000"]
+	link_a_loom:p28r:e -- "ecu-engine-harness":w28:w
+	edge [color="#000000:#999999:#000000:#999999:#000000"]
+	link_a_loom:p29r:e -- "ecu-engine-harness":w29:w
+	edge [color="#000000:#999999:#895956:#999999:#000000"]
+	link_a_loom:p30r:e -- "ecu-engine-harness":w30:w
+	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
+	link_a_loom:p31r:e -- "ecu-engine-harness":w31:w
+	edge [color="#000000:#ffff00:#000000:#ffff00:#000000"]
+	link_a_loom:p32r:e -- "ecu-engine-harness":w32:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_a_loom:p33r:e -- "ecu-engine-harness":w33:w
+	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
+	link_a_loom:p34r:e -- "ecu-engine-harness":w34:w
+	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
 	link_a_loom:p13r:e -- "ecu-engine-harness":w1:w
-	"ecu-engine-harness":w1:e -- "icm-to-ecu":p1l:w
+	"ecu-engine-harness":w1:e -- "icm-to-ecu":p4l:w
 	edge [color="#000000:#895956:#ff0000:#895956:#000000"]
 	link_a_loom:p12r:e -- "ecu-engine-harness":w2:w
-	"ecu-engine-harness":w2:e -- "icm-to-ecu":p2l:w
+	"ecu-engine-harness":w2:e -- "icm-to-ecu":p3l:w
 	edge [color="#000000:#895956:#895956:#895956:#000000"]
 	link_a_loom:p11r:e -- "ecu-engine-harness":w3:w
-	"ecu-engine-harness":w3:e -- "icm-to-ecu":p3l:w
+	"ecu-engine-harness":w3:e -- "icm-to-ecu":p1l:w
 	"ecu-engine-harness" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -324,11 +392,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>link_a_loom:13:Ign1</td>
+    <td>link_a_loom:1:Inj4</td>
     <td>
      1:BNOG
     </td>
-    <td>icm-to-ecu:1:Pin1</td>
+    <td>icm-to-ecu:4:Pin4</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
@@ -342,11 +410,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>link_a_loom:12:Ign2</td>
+    <td>link_a_loom:2:Inj3</td>
     <td>
      2:BNRD
     </td>
-    <td>icm-to-ecu:2:Pin2</td>
+    <td>icm-to-ecu:3:Pin3</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="10">
@@ -360,11 +428,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>link_a_loom:11:Ign3</td>
+    <td>link_a_loom:3:Inj2</td>
     <td>
      3:BN
     </td>
-    <td>icm-to-ecu:3:Pin3</td>
+    <td>icm-to-ecu:1:Pin1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">
@@ -378,7 +446,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 4_in --></td>
+    <td>link_a_loom:4:Inj1</td>
     <td>
      4:BNBK
     </td>
@@ -396,7 +464,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 5_in --></td>
+    <td>link_a_loom:5:+14V</td>
     <td>
      5:RD
     </td>
@@ -414,7 +482,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 6_in --></td>
+    <td>link_a_loom:6:+8V</td>
     <td>
      6:GN
     </td>
@@ -432,7 +500,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 7_in --></td>
+    <td>link_a_loom:7:Shield/Gnd</td>
     <td>
      7:BK
     </td>
@@ -450,7 +518,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 8_in --></td>
+    <td>link_a_loom:8:Trig1</td>
     <td>
      8:RD
     </td>
@@ -468,7 +536,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 9_in --></td>
+    <td>link_a_loom:9:Trig2</td>
     <td>
      9:BUOG
     </td>
@@ -486,7 +554,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 10_in --></td>
+    <td>link_a_loom:10:Ign4</td>
     <td>
      10:BURD
     </td>
@@ -504,7 +572,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 11_in --></td>
+    <td>link_a_loom:11:Ign3</td>
     <td>
      11:BUBN
     </td>
@@ -522,7 +590,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 12_in --></td>
+    <td>link_a_loom:12:Ign2</td>
     <td>
      12:BU
     </td>
@@ -540,7 +608,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 13_in --></td>
+    <td>link_a_loom:13:Ign1</td>
     <td>
      13:WHBK
     </td>
@@ -558,7 +626,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 14_in --></td>
+    <td>link_a_loom:14:AnVolt4</td>
     <td>
      14:YE
     </td>
@@ -576,7 +644,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 15_in --></td>
+    <td>link_a_loom:15:Temp1</td>
     <td>
      15:YEBN
     </td>
@@ -594,7 +662,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 16_in --></td>
+    <td>link_a_loom:16:Temp2</td>
     <td>
      16:YEBU
     </td>
@@ -612,7 +680,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 17_in --></td>
+    <td>link_a_loom:17:AnVolt1</td>
     <td>
      17:OG
     </td>
@@ -630,7 +698,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 18_in --></td>
+    <td>link_a_loom:18:Aux4</td>
     <td>
      18:OGRD
     </td>
@@ -648,7 +716,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 19_in --></td>
+    <td>link_a_loom:19:Aux3</td>
     <td>
      19:OGBN
     </td>
@@ -666,7 +734,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 20_in --></td>
+    <td>link_a_loom:20:Aux2</td>
     <td>
      20:OGBK
     </td>
@@ -684,7 +752,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 21_in --></td>
+    <td>link_a_loom:21:Aux1</td>
     <td>
      21:WHBN
     </td>
@@ -702,7 +770,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 22_in --></td>
+    <td>link_a_loom:22:AnVol2</td>
     <td>
      22:GYRD
     </td>
@@ -720,7 +788,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 23_in --></td>
+    <td>link_a_loom:23:DI3</td>
     <td>
      23:GN
     </td>
@@ -738,7 +806,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 24_in --></td>
+    <td>link_a_loom:24:GndOut</td>
     <td>
      24:BK
     </td>
@@ -756,7 +824,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 25_in --></td>
+    <td>link_a_loom:25:Ground1</td>
     <td>
      25:OGVT
     </td>
@@ -774,7 +842,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 26_in --></td>
+    <td>link_a_loom:26:Aux8</td>
     <td>
      26:OGBU
     </td>
@@ -792,7 +860,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 27_in --></td>
+    <td>link_a_loom:27:Aux7</td>
     <td>
      27:OGGN
     </td>
@@ -810,7 +878,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 28_in --></td>
+    <td>link_a_loom:28:Aux6</td>
     <td>
      28:OGYE
     </td>
@@ -828,7 +896,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 29_in --></td>
+    <td>link_a_loom:29:Aux5</td>
     <td>
      29:GYBK
     </td>
@@ -846,7 +914,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 30_in --></td>
+    <td>link_a_loom:30:DI1</td>
     <td>
      30:GYBN
     </td>
@@ -864,7 +932,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 31_in --></td>
+    <td>link_a_loom:31:DI2</td>
     <td>
      31:RDBU
     </td>
@@ -882,7 +950,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 32_in --></td>
+    <td>link_a_loom:32:+5V</td>
     <td>
      32:YEBK
     </td>
@@ -900,7 +968,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 33_in --></td>
+    <td>link_a_loom:33:AnVolt3</td>
     <td>
      33:BK
     </td>
@@ -918,7 +986,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 34_in --></td>
+    <td>link_a_loom:34:Ground2</td>
     <td>
      34:BNOG
     </td>
@@ -944,10 +1012,10 @@ graph {
 	"icm-to-coil":p1r:e -- "icm-to-coil-wire":w1:w
 	"icm-to-coil-wire":w1:e -- coil:p3l:w
 	edge [color="#000000:#ffffff:#000000"]
-	"icm-to-coil":p3r:e -- "icm-to-coil-wire":w2:w
+	"icm-to-coil":p2r:e -- "icm-to-coil-wire":w2:w
 	"icm-to-coil-wire":w2:e -- coil:p2l:w
 	edge [color="#000000:#ffffff:#000000"]
-	"icm-to-coil":p4r:e -- "icm-to-coil-wire":w3:w
+	"icm-to-coil":p3r:e -- "icm-to-coil-wire":w3:w
 	"icm-to-coil-wire":w3:e -- coil:p1l:w
 	"icm-to-coil-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -981,7 +1049,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>icm-to-coil:3:Pin3</td>
+    <td>icm-to-coil:2:Pin2</td>
     <td>
      2
     </td>
@@ -997,7 +1065,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>icm-to-coil:4:Pin4</td>
+    <td>icm-to-coil:3:Pin3</td>
     <td>
      3
     </td>

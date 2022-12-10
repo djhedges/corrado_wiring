@@ -34,6 +34,6 @@ connections:
     - ecu-engine-harness: [1, 2, 3]
     - icm-to-ecu: [1, 2, 3]
   -
-    - icm-to-coil: [1, 2, 3]
+    - icm-to-coil: [1, 3, 4]
     - icm-to-coil-wire: [1, 2, 3]
     - coil: [3, 2, 1]

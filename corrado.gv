@@ -944,10 +944,10 @@ graph {
 	"icm-to-coil":p1r:e -- "icm-to-coil-wire":w1:w
 	"icm-to-coil-wire":w1:e -- coil:p3l:w
 	edge [color="#000000:#ffffff:#000000"]
-	"icm-to-coil":p2r:e -- "icm-to-coil-wire":w2:w
+	"icm-to-coil":p3r:e -- "icm-to-coil-wire":w2:w
 	"icm-to-coil-wire":w2:e -- coil:p2l:w
 	edge [color="#000000:#ffffff:#000000"]
-	"icm-to-coil":p3r:e -- "icm-to-coil-wire":w3:w
+	"icm-to-coil":p4r:e -- "icm-to-coil-wire":w3:w
 	"icm-to-coil-wire":w3:e -- coil:p1l:w
 	"icm-to-coil-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -981,7 +981,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>icm-to-coil:2:Pin2</td>
+    <td>icm-to-coil:3:Pin3</td>
     <td>
      2
     </td>
@@ -997,7 +997,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>icm-to-coil:3:Pin3</td>
+    <td>icm-to-coil:4:Pin4</td>
     <td>
      3
     </td>

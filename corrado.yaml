@@ -89,6 +89,6 @@ connections:
     - coil-pwr-wire: [1]
     - razor_pdm: [PWROUT2a]
   -
-    - tps: [5v, Sensor, Gnd]
-    - loom_a_wire: [32, 17, 25]
     - link_a_loom: [+5V, AnVolt1, Ground1]
+    - loom_a_wire: [32, 17, 25]
+    - tps: [5v, Sensor, Gnd]

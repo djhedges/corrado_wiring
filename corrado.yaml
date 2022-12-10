@@ -44,6 +44,8 @@ connectors:
     pinlabels: [Pos, Gnd]
   injector6:
     pinlabels: [Pos, Gnd]
+  injector-pwr-splice:
+    pincount: 6
 
 cables:
   loom_a_wire:
@@ -70,6 +72,8 @@ cables:
     colors: [RD]
   ecu-battery-gnd-wire:
     colors: [BK]
+  injector-loom-pwr-wire:
+    colors: [RD]
   injector-pwr-wire:
     colors: [RD]
 
@@ -121,29 +125,33 @@ connections:
     - ecu-battery-gnd-wire: [1]
     - link_a_loom: [GndOut]
   -
+    - injector-pwr-splice: [1]
+    - injector-loom-pwr-wire: [1]
+    - razor_pdm: [PWROUT1a]
+  -
     - injector1: [Pos]
     - injector-pwr-wire: [1]
-    - razor_pdm: [PWROUT1a]
+    - injector-pwr-splice: [1]
   -
     - injector2: [Pos]
     - injector-pwr-wire: [1]
-    - razor_pdm: [PWROUT1a]
+    - injector-pwr-splice: [1]
   -
     - injector3: [Pos]
     - injector-pwr-wire: [1]
-    - razor_pdm: [PWROUT1a]
+    - injector-pwr-splice: [1]
   -
     - injector4: [Pos]
     - injector-pwr-wire: [1]
-    - razor_pdm: [PWROUT1a]
+    - injector-pwr-splice: [1]
   -
     - injector5: [Pos]
     - injector-pwr-wire: [1]
-    - razor_pdm: [PWROUT1a]
+    - injector-pwr-splice: [1]
   -
     - injector6: [Pos]
     - injector-pwr-wire: [1]
-    - razor_pdm: [PWROUT1a]
+    - injector-pwr-splice: [1]
   -
     - link_a_loom: [Inj1]
     - loom_a_wire: [4]

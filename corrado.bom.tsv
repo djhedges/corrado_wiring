@@ -1,5 +1,5 @@
 Id	Description	Qty	Unit	Designators
-1	Cable, 1 wires	0	m	coil-pwr-wire, ecu-battery-gnd-wire, ecu-battery-pos-wire, icm-ground-wire, injector-pwr-wire
+1	Cable, 1 wires	0	m	coil-pwr-wire, ecu-battery-gnd-wire, ecu-battery-pos-wire, icm-ground-wire, injector-loom-pwr-wire, injector-pwr-wire
 2	Cable, 3 wires	0	m	icm-to-coil-wire
 3	Cable, 34 wires	0	m	loom_a_wire, loom_b_wire
 4	Connector, 1 pins	1		engine-ground
@@ -11,3 +11,4 @@ Id	Description	Qty	Unit	Designators
 10	Connector, 357972753, 3 pins	1		tps
 11	Connector, 5LA, 34 pins	1		link_a_loom
 12	Connector, 5LB, 34 pins	1		link_b_loom
+13	Connector, 6 pins	1		injector-pwr-splice

@@ -1,0 +1,35 @@
+connectors:
+  link_a_loom:
+    type: 5LA
+    pinlabels: [Inj4, Inj3, Inj2, Inj1, +14V, +8V, Shield/Gnd, Trig1, Trig2,
+                Ign4, Ign3, Ign2, Ign1, AnVolt4, Temp1, Temp2, AnVolt1,
+                Aux4, Aux3, Aux2, Aux1, AnVol2, DI3, GndOut, Ground,
+                Aux8, Aux7, Aux6, Aux5, DI1, DI2, +5V, AnVolt3, Ground]
+  link_b_loom:
+    type: 5LB
+    pinlabels: [Pin1, Pin2, Pin3, Pin4]
+  icm-to-ecu:
+    type: 261205351
+    pinlabels: [Pin1, Pin2, Pin3, Pin4]
+  icm-to-coil:
+    type: 261205289
+    pinlabels: [Pin1, Pin2, Pin3, Pin4]
+  coil:
+    type: 1287013900
+    pinlabels: [Pin1, Pin2, Pin3, Pin4]
+
+cables:
+  ecu-engine-harness:
+    wirecount: 10
+  icm-to-coil-wire:
+    wirecount: 3
+
+connections:
+  -
+    - link_a_loom: [Ign3, Ign2, Ign1]
+    - ecu-engine-harness: [1, 2, 3]
+    - icm-to-ecu: [1, 2, 3]
+  -
+    - icm-to-coil: [1, 2, 3]
+    - icm-to-coil-wire: [1, 2, 3]
+    - coil: [3, 2, 1]

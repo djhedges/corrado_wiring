@@ -31,7 +31,7 @@ cables:
 connections:
   -
     - link_a_loom: [Ign3, Ign2, Ign1]
-    - ecu-engine-harness: [3, 2, 1]
+    - ecu-engine-harness: [1, 2, 3]
     - icm-to-ecu: [1, 2, 3]
   -
     - icm-to-coil: [1, 2, 3]

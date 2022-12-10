@@ -46,6 +46,7 @@ connectors:
     pinlabels: [Pos, Gnd]
   injector-pwr-splice:
     pincount: 6
+    autogenerate: false
 
 cables:
   loom_a_wire:

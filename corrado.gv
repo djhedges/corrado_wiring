@@ -20,138 +20,172 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
+    <td port="p1l">1</td>
     <td>Inj4</td>
     <td port="p1r">1</td>
    </tr>
    <tr>
+    <td port="p2l">2</td>
     <td>Inj3</td>
     <td port="p2r">2</td>
    </tr>
    <tr>
+    <td port="p3l">3</td>
     <td>Inj2</td>
     <td port="p3r">3</td>
    </tr>
    <tr>
+    <td port="p4l">4</td>
     <td>Inj1</td>
     <td port="p4r">4</td>
    </tr>
    <tr>
+    <td port="p5l">5</td>
     <td>+14V</td>
     <td port="p5r">5</td>
    </tr>
    <tr>
+    <td port="p6l">6</td>
     <td>+8V</td>
     <td port="p6r">6</td>
    </tr>
    <tr>
+    <td port="p7l">7</td>
     <td>Shield/Gnd</td>
     <td port="p7r">7</td>
    </tr>
    <tr>
+    <td port="p8l">8</td>
     <td>Trig1</td>
     <td port="p8r">8</td>
    </tr>
    <tr>
+    <td port="p9l">9</td>
     <td>Trig2</td>
     <td port="p9r">9</td>
    </tr>
    <tr>
+    <td port="p10l">10</td>
     <td>Ign4</td>
     <td port="p10r">10</td>
    </tr>
    <tr>
+    <td port="p11l">11</td>
     <td>Ign3</td>
     <td port="p11r">11</td>
    </tr>
    <tr>
+    <td port="p12l">12</td>
     <td>Ign2</td>
     <td port="p12r">12</td>
    </tr>
    <tr>
+    <td port="p13l">13</td>
     <td>Ign1</td>
     <td port="p13r">13</td>
    </tr>
    <tr>
+    <td port="p14l">14</td>
     <td>AnVolt4</td>
     <td port="p14r">14</td>
    </tr>
    <tr>
+    <td port="p15l">15</td>
     <td>Temp1</td>
     <td port="p15r">15</td>
    </tr>
    <tr>
+    <td port="p16l">16</td>
     <td>Temp2</td>
     <td port="p16r">16</td>
    </tr>
    <tr>
+    <td port="p17l">17</td>
     <td>AnVolt1</td>
     <td port="p17r">17</td>
    </tr>
    <tr>
+    <td port="p18l">18</td>
     <td>Aux4</td>
     <td port="p18r">18</td>
    </tr>
    <tr>
+    <td port="p19l">19</td>
     <td>Aux3</td>
     <td port="p19r">19</td>
    </tr>
    <tr>
+    <td port="p20l">20</td>
     <td>Aux2</td>
     <td port="p20r">20</td>
    </tr>
    <tr>
+    <td port="p21l">21</td>
     <td>Aux1</td>
     <td port="p21r">21</td>
    </tr>
    <tr>
-    <td>AnVol2</td>
+    <td port="p22l">22</td>
+    <td>AnVolt2</td>
     <td port="p22r">22</td>
    </tr>
    <tr>
+    <td port="p23l">23</td>
     <td>DI3</td>
     <td port="p23r">23</td>
    </tr>
    <tr>
+    <td port="p24l">24</td>
     <td>GndOut</td>
     <td port="p24r">24</td>
    </tr>
    <tr>
+    <td port="p25l">25</td>
     <td>Ground1</td>
     <td port="p25r">25</td>
    </tr>
    <tr>
+    <td port="p26l">26</td>
     <td>Aux8</td>
     <td port="p26r">26</td>
    </tr>
    <tr>
+    <td port="p27l">27</td>
     <td>Aux7</td>
     <td port="p27r">27</td>
    </tr>
    <tr>
+    <td port="p28l">28</td>
     <td>Aux6</td>
     <td port="p28r">28</td>
    </tr>
    <tr>
+    <td port="p29l">29</td>
     <td>Aux5</td>
     <td port="p29r">29</td>
    </tr>
    <tr>
+    <td port="p30l">30</td>
     <td>DI1</td>
     <td port="p30r">30</td>
    </tr>
    <tr>
+    <td port="p31l">31</td>
     <td>DI2</td>
     <td port="p31r">31</td>
    </tr>
    <tr>
+    <td port="p32l">32</td>
     <td>+5V</td>
     <td port="p32r">32</td>
    </tr>
    <tr>
+    <td port="p33l">33</td>
     <td>AnVolt3</td>
     <td port="p33r">33</td>
    </tr>
    <tr>
+    <td port="p34l">34</td>
     <td>Ground2</td>
     <td port="p34r">34</td>
    </tr>
@@ -338,7 +372,7 @@ graph {
    </tr>
    <tr>
     <td port="p3l">3</td>
-    <td>CANh</td>
+    <td>CANH</td>
    </tr>
    <tr>
     <td port="p4l">4</td>
@@ -563,6 +597,37 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
+	tps [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">tps</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">357972753</td>
+   <td balign="left">3-pin</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
+   <tr>
+    <td>5v</td>
+    <td port="p1r">1</td>
+   </tr>
+   <tr>
+    <td>Sensor</td>
+    <td port="p2r">2</td>
+   </tr>
+   <tr>
+    <td>Gnd</td>
+    <td port="p3r">3</td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
 	link_a_loom:p1r:e -- loom_a_wire:w1:w
 	edge [color="#000000:#895956:#ff0000:#895956:#000000"]
@@ -640,6 +705,15 @@ graph {
 	edge [color="#000000:#0066ff:#895956:#0066ff:#000000"]
 	link_a_loom:p11r:e -- loom_a_wire:w11:w
 	loom_a_wire:w11:e -- "icm-to-ecu":p3l:w
+	edge [color="#000000:#ffff00:#000000:#ffff00:#000000"]
+	tps:p1r:e -- loom_a_wire:w32:w
+	loom_a_wire:w32:e -- link_a_loom:p32l:w
+	edge [color="#000000:#ff8000:#ff8000:#ff8000:#000000"]
+	tps:p2r:e -- loom_a_wire:w17:w
+	loom_a_wire:w17:e -- link_a_loom:p17l:w
+	edge [color="#000000:#ff8000:#8000ff:#ff8000:#000000"]
+	tps:p3r:e -- loom_a_wire:w25:w
+	loom_a_wire:w25:e -- link_a_loom:p25l:w
 	loom_a_wire [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -948,7 +1022,7 @@ graph {
     <td>
      17:OG
     </td>
-    <td><!-- 17_out --></td>
+    <td>link_a_loom:17:AnVolt1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w17" height="10">
@@ -1034,7 +1108,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>link_a_loom:22:AnVol2</td>
+    <td>link_a_loom:22:AnVolt2</td>
     <td>
      22:GYRD
     </td>
@@ -1092,7 +1166,7 @@ graph {
     <td>
      25:OGVT
     </td>
-    <td><!-- 25_out --></td>
+    <td>link_a_loom:25:Ground1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
@@ -1218,7 +1292,7 @@ graph {
     <td>
      32:YEBK
     </td>
-    <td><!-- 32_out --></td>
+    <td>link_a_loom:32:+5V</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w32" height="10">

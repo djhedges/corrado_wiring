@@ -7,5 +7,6 @@ Id	Description	Qty	Unit	Designators
 6	Connector, 26 pins	1		razor_pdm
 7	Connector, 261205289, 4 pins	1		icm-to-coil
 8	Connector, 261205351, 3 pins	1		icm-to-ecu
-9	Connector, 5LA, 34 pins	1		link_a_loom
-10	Connector, 5LB, 34 pins	1		link_b_loom
+9	Connector, 357972753, 3 pins	1		tps
+10	Connector, 5LA, 34 pins	1		link_a_loom
+11	Connector, 5LB, 34 pins	1		link_b_loom

@@ -3,7 +3,7 @@ connectors:
     type: 5LA
     pinlabels: [Inj4, Inj3, Inj2, Inj1, +14V, +8V, Shield/Gnd, Trig1, Trig2,
                 Ign4, Ign3, Ign2, Ign1, AnVolt4, Temp1, Temp2, AnVolt1,
-                Aux4, Aux3, Aux2, Aux1, AnVol2, DI3, GndOut, Ground1,
+                Aux4, Aux3, Aux2, Aux1, AnVolt2, DI3, GndOut, Ground1,
                 Aux8, Aux7, Aux6, Aux5, DI1, DI2, +5V, AnVolt3, Ground2]
   link_b_loom:
     type: 5LB
@@ -12,7 +12,7 @@ connectors:
                 Aux9, DI6, DI5, DI4, Gnd Out, An Volt8, An Volt9, Ground1,
                 Aux10, DI10/CAN2H, DI9/CAN2L, DI8, DI7, IPE, APE, AN Volt5, Ground2]
   razor_pdm:
-    pinlabels: [PWROUT2a, NC1, CANh, IGNSW, SENSOR 5V1, SENSOR GND1, PWROUT3a,
+    pinlabels: [PWROUT2a, NC1, CANH, IGNSW, SENSOR 5V1, SENSOR GND1, PWROUT3a,
                 PWROUT2b, NC2, CANL, SENSOR 5V2, SENSOR GND2, PWROUT3b,
                 PWROUT1a, ADIO2, ADIO4, ADIO6, ADIO8, PWROUT4a,
                 PWROUT1b, ADIO1, ADIO3, ADIO5, ADIO7, NC3, PWROUT4b]
@@ -27,6 +27,9 @@ connectors:
     pinlabels: [Coil3, Coil2, Coil1, Ubatt]
   engine-ground:
     pinlabels: [Ground]
+  tps:
+    type: 357972753
+    pinlabels: [5v, Sensor, Gnd]  # Old wiring  BKGY 5v, GNWH Sensor, BRW Grnd
 
 cables:
   loom_a_wire:
@@ -54,7 +57,7 @@ connections:
   -
     - link_a_loom: [Inj4, Inj3, Inj2, Inj1, +14V, +8V, Shield/Gnd, Trig1, Trig2,
                     Ign4, Ign3, Ign2, Ign1, AnVolt4, Temp1, Temp2, AnVolt1,
-                    Aux4, Aux3, Aux2, Aux1, AnVol2, DI3, GndOut, Ground1,
+                    Aux4, Aux3, Aux2, Aux1, AnVolt2, DI3, GndOut, Ground1,
                     Aux8, Aux7, Aux6, Aux5, DI1, DI2, +5V, AnVolt3, Ground2]
     - loom_a_wire: [1, 2, 3, 4, 5, 6, 7, 8, 9,
                     10, 11, 12, 13, 14, 15, 16, 17,
@@ -85,3 +88,7 @@ connections:
     - coil: [Ubatt]
     - coil-pwr-wire: [1]
     - razor_pdm: [PWROUT2a]
+  -
+    - tps: [5v, Sensor, Gnd]
+    - loom_a_wire: [32, 17, 25]
+    - link_a_loom: [+5V, AnVolt1, Ground1]

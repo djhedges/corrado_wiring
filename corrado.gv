@@ -1885,6 +1885,24 @@ graph {
 	edge [color="#000000:#895956:#00ff00:#895956:#000000"]
 	link_b_loom:p3r:e -- loom_b_wire:w3:w
 	loom_b_wire:w3:e -- injector6:p2l:w
+	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
+	link_b_loom:p9r:e -- loom_b_wire:w9:w
+	loom_b_wire:w9:e -- knock1:p1l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_b_loom:p17r:e -- loom_b_wire:w17:w
+	loom_b_wire:w17:e -- knock1:p2l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_b_loom:p17r:e -- loom_b_wire:w17:w
+	loom_b_wire:w17:e -- knock1:p3l:w
+	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
+	link_b_loom:p8r:e -- loom_b_wire:w8:w
+	loom_b_wire:w8:e -- knock2:p1l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_b_loom:p17r:e -- loom_b_wire:w17:w
+	loom_b_wire:w17:e -- knock2:p2l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_b_loom:p17r:e -- loom_b_wire:w17:w
+	loom_b_wire:w17:e -- knock2:p3l:w
 	loom_b_wire [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2031,7 +2049,7 @@ graph {
     <td>
      8:WH
     </td>
-    <td><!-- 8_out --></td>
+    <td>knock2:1:Sig+</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w8" height="10">
@@ -2049,7 +2067,7 @@ graph {
     <td>
      9:WH
     </td>
-    <td><!-- 9_out --></td>
+    <td>knock1:1:Sig+</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w9" height="10">
@@ -2193,7 +2211,7 @@ graph {
     <td>
      17:GN
     </td>
-    <td><!-- 17_out --></td>
+    <td>knock1:2:Sig-</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w17" height="10">
@@ -2895,160 +2913,6 @@ graph {
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
-	edge [color="#000000:#ffffff:#000000"]
-	link_b_loom:p9r:e -- "knock-shield-wire1":w1:w
-	"knock-shield-wire1":w1:e -- knock1:p1l:w
-	edge [color="#000000:#ffffff:#000000"]
-	link_b_loom:p17r:e -- "knock-shield-wire1":w2:w
-	"knock-shield-wire1":w2:e -- knock1:p2l:w
-	edge [color="#000000:#ffffff:#000000"]
-	link_b_loom:p17r:e -- "knock-shield-wire1":w3:w
-	"knock-shield-wire1":w3:e -- knock1:p3l:w
-	"knock-shield-wire1" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">knock-shield-wire1</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">3x</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>link_b_loom:9:Knock1</td>
-    <td>
-     1
-    </td>
-    <td>knock1:1:Sig+</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>link_b_loom:17:Shield/Gnd</td>
-    <td>
-     2
-    </td>
-    <td>knock1:2:Sig-</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>link_b_loom:17:Shield/Gnd</td>
-    <td>
-     3
-    </td>
-    <td>knock1:3:Scr</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
-	edge [color="#000000:#ffffff:#000000"]
-	link_b_loom:p8r:e -- "knock-shield-wire2":w1:w
-	"knock-shield-wire2":w1:e -- knock2:p1l:w
-	edge [color="#000000:#ffffff:#000000"]
-	link_b_loom:p17r:e -- "knock-shield-wire2":w2:w
-	"knock-shield-wire2":w2:e -- knock2:p2l:w
-	edge [color="#000000:#ffffff:#000000"]
-	link_b_loom:p17r:e -- "knock-shield-wire2":w3:w
-	"knock-shield-wire2":w3:e -- knock2:p3l:w
-	"knock-shield-wire2" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">knock-shield-wire2</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">3x</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>link_b_loom:8:Knock2</td>
-    <td>
-     1
-    </td>
-    <td>knock2:1:Sig+</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>link_b_loom:17:Shield/Gnd</td>
-    <td>
-     2
-    </td>
-    <td>knock2:2:Sig-</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>link_b_loom:17:Shield/Gnd</td>
-    <td>
-     3
-    </td>
-    <td>knock2:3:Scr</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>

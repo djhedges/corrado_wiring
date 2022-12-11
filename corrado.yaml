@@ -11,7 +11,7 @@ connectors:
     type: 5LB
     pinlabels: [Inj8, Inj7, Inj6, Inj5, +14V Aux9/10, Temp3, Temp4, Knock2, Knock1,
                 Heater, MES, Ign6, Ign5, RE, Volt6, Volt7, Shield/Gnd,
-                Aux9, DI6, DI5, DI4, Gnd Out, An Volt8, An Volt9, Ground1,
+                Aux9, DI6, DI5, DI4, GndOut, An Volt8, An Volt9, Ground1,
                 Aux10, DI10/CAN2H, DI9/CAN2L, DI8, DI7, IPE, APE, AN Volt5, Ground2]
   razor_pdm:
     pinlabels: [PWROUT2a, NC1, CANH, IGNSW, SENSOR 5V1, SENSOR GND1, PWROUT3a,
@@ -133,7 +133,7 @@ connections:
   -
     - link_b_loom: [Inj8, Inj7, Inj6, Inj5, +14V Aux9/10, Temp3, Temp4, Knock2, Knock1,
                     Heater, MES, Ign6, Ign5, RE, Volt6, Volt7, Shield/Gnd,
-                    Aux9, DI6, DI5, DI4, Gnd Out, An Volt8, An Volt9, Ground1,
+                    Aux9, DI6, DI5, DI4, GndOut, An Volt8, An Volt9, Ground1,
                     Aux10, DI10/CAN2H, DI9/CAN2L, DI8, DI7, IPE, APE, AN Volt5, Ground2]
     - loom_b_wire: [1, 2, 3, 4, 5, 6, 7, 8, 9,
                     10, 11, 12, 13, 14, 15, 16, 17,
@@ -175,6 +175,10 @@ connections:
     - battery: [-]
     - ecu-battery-gnd-wire: [1]
     - link_a_loom: [GndOut]
+  -
+    - battery: [-]
+    - ecu-battery-gnd-wire: [1]
+    - link_b_loom: [GndOut]
   -
     - link_a_loom: [Inj1]
     - loom_a_wire: [4]

@@ -237,138 +237,172 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
+    <td port="p1l">1</td>
     <td>Inj8</td>
     <td port="p1r">1</td>
    </tr>
    <tr>
+    <td port="p2l">2</td>
     <td>Inj7</td>
     <td port="p2r">2</td>
    </tr>
    <tr>
+    <td port="p3l">3</td>
     <td>Inj6</td>
     <td port="p3r">3</td>
    </tr>
    <tr>
+    <td port="p4l">4</td>
     <td>Inj5</td>
     <td port="p4r">4</td>
    </tr>
    <tr>
+    <td port="p5l">5</td>
     <td>+14V Aux9/10</td>
     <td port="p5r">5</td>
    </tr>
    <tr>
+    <td port="p6l">6</td>
     <td>Temp3</td>
     <td port="p6r">6</td>
    </tr>
    <tr>
+    <td port="p7l">7</td>
     <td>Temp4</td>
     <td port="p7r">7</td>
    </tr>
    <tr>
+    <td port="p8l">8</td>
     <td>Knock2</td>
     <td port="p8r">8</td>
    </tr>
    <tr>
+    <td port="p9l">9</td>
     <td>Knock1</td>
     <td port="p9r">9</td>
    </tr>
    <tr>
+    <td port="p10l">10</td>
     <td>Heater</td>
     <td port="p10r">10</td>
    </tr>
    <tr>
+    <td port="p11l">11</td>
     <td>MES</td>
     <td port="p11r">11</td>
    </tr>
    <tr>
+    <td port="p12l">12</td>
     <td>Ign6</td>
     <td port="p12r">12</td>
    </tr>
    <tr>
+    <td port="p13l">13</td>
     <td>Ign5</td>
     <td port="p13r">13</td>
    </tr>
    <tr>
+    <td port="p14l">14</td>
     <td>RE</td>
     <td port="p14r">14</td>
    </tr>
    <tr>
+    <td port="p15l">15</td>
     <td>Volt6</td>
     <td port="p15r">15</td>
    </tr>
    <tr>
+    <td port="p16l">16</td>
     <td>Volt7</td>
     <td port="p16r">16</td>
    </tr>
    <tr>
+    <td port="p17l">17</td>
     <td>Shield/Gnd</td>
     <td port="p17r">17</td>
    </tr>
    <tr>
+    <td port="p18l">18</td>
     <td>Aux9</td>
     <td port="p18r">18</td>
    </tr>
    <tr>
+    <td port="p19l">19</td>
     <td>DI6</td>
     <td port="p19r">19</td>
    </tr>
    <tr>
+    <td port="p20l">20</td>
     <td>DI5</td>
     <td port="p20r">20</td>
    </tr>
    <tr>
+    <td port="p21l">21</td>
     <td>DI4</td>
     <td port="p21r">21</td>
    </tr>
    <tr>
-    <td>Gnd Out</td>
+    <td port="p22l">22</td>
+    <td>GndOut</td>
     <td port="p22r">22</td>
    </tr>
    <tr>
+    <td port="p23l">23</td>
     <td>An Volt8</td>
     <td port="p23r">23</td>
    </tr>
    <tr>
+    <td port="p24l">24</td>
     <td>An Volt9</td>
     <td port="p24r">24</td>
    </tr>
    <tr>
+    <td port="p25l">25</td>
     <td>Ground1</td>
     <td port="p25r">25</td>
    </tr>
    <tr>
+    <td port="p26l">26</td>
     <td>Aux10</td>
     <td port="p26r">26</td>
    </tr>
    <tr>
+    <td port="p27l">27</td>
     <td>DI10/CAN2H</td>
     <td port="p27r">27</td>
    </tr>
    <tr>
+    <td port="p28l">28</td>
     <td>DI9/CAN2L</td>
     <td port="p28r">28</td>
    </tr>
    <tr>
+    <td port="p29l">29</td>
     <td>DI8</td>
     <td port="p29r">29</td>
    </tr>
    <tr>
+    <td port="p30l">30</td>
     <td>DI7</td>
     <td port="p30r">30</td>
    </tr>
    <tr>
+    <td port="p31l">31</td>
     <td>IPE</td>
     <td port="p31r">31</td>
    </tr>
    <tr>
+    <td port="p32l">32</td>
     <td>APE</td>
     <td port="p32r">32</td>
    </tr>
    <tr>
+    <td port="p33l">33</td>
     <td>AN Volt5</td>
     <td port="p33r">33</td>
    </tr>
    <tr>
+    <td port="p34l">34</td>
     <td>Ground2</td>
     <td port="p34r">34</td>
    </tr>
@@ -2297,7 +2331,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>link_b_loom:22:Gnd Out</td>
+    <td>link_b_loom:22:GndOut</td>
     <td>
      22:GN
     </td>
@@ -2738,6 +2772,9 @@ graph {
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	battery:p2r:e -- "ecu-battery-gnd-wire":w1:w
 	"ecu-battery-gnd-wire":w1:e -- link_a_loom:p24l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	battery:p2r:e -- "ecu-battery-gnd-wire":w1:w
+	"ecu-battery-gnd-wire":w1:e -- link_b_loom:p22l:w
 	"ecu-battery-gnd-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>

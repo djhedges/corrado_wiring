@@ -1192,9 +1192,9 @@ graph {
 	edge [color="#000000:#999999:#ff0000:#999999:#000000"]
 	link_a_loom:p22r:e -- loom_a_wire:w22:w
 	loom_a_wire:w22:e -- "cam-sensor":p2l:w
-	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
-	link_a_loom:p34r:e -- loom_a_wire:w34:w
-	loom_a_wire:w34:e -- "cam-sensor":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_a_loom:p7r:e -- loom_a_wire:w7:w
+	loom_a_wire:w7:e -- "cam-sensor":p1l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	link_a_loom:p4r:e -- loom_a_wire:w4:w
 	loom_a_wire:w4:e -- injector1:p2l:w
@@ -1335,7 +1335,7 @@ graph {
     <td>
      7:BK
     </td>
-    <td><!-- 7_out --></td>
+    <td>cam-sensor:1:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w7" height="10">
@@ -1821,7 +1821,7 @@ graph {
     <td>
      34:BNOG
     </td>
-    <td>cam-sensor:1:Gnd</td>
+    <td><!-- 34_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">

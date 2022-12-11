@@ -32,6 +32,9 @@ connectors:
   tps:
     type: 357972753
     pinlabels: [5v, Sensor, Gnd]  # Old wiring  BKGY 5v, GNWH Sensor, BRW Grnd
+  cam-sensor:
+    type: 037906240
+    pinlabels: [Gnd, Sensor, 5v]
   intake-temp-sensor:
     type: 037906240
     pinlabels: [Sig+, Sig-]
@@ -160,6 +163,10 @@ connections:
     - link_a_loom: [+5V, AnVolt1, Ground1]
     - loom_a_wire: [32, 17, 25]
     - tps: [5v, Sensor, Gnd]
+  -
+    - link_a_loom: [+5V, AnVolt2, Ground1]
+    - loom_a_wire: [32, 22, 25]
+    - cam-sensor: [5v, Sensor, Gnd]
   -
     - link_a_loom: [Temp1, Ground1]
     - loom_a_wire: [15, 25]

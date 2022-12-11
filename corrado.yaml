@@ -248,8 +248,8 @@ connections:
     - engine-ground: [Ground]
   -
     - idle-stablizer-valve: [Pos]
-    - idle-stablizer-valve-pos-wire: [1]
-    - razor_pdm: [ADIO7]
+    - loom_a_wire: [21]
+    - link_a_loom: [Aux1]
   -
     - idle-stablizer-valve: [Gnd]
     - engine-ground-wire: [1]

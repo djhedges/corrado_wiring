@@ -721,6 +721,37 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
+	"crank-sensor" [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">crank-sensor</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">037906240</td>
+   <td balign="left">3-pin</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
+   <tr>
+    <td port="p1l">1</td>
+    <td>Gnd</td>
+   </tr>
+   <tr>
+    <td port="p2l">2</td>
+    <td>Sensor</td>
+   </tr>
+   <tr>
+    <td port="p3l">3</td>
+    <td>5v</td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
 	"intake-temp-sensor" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1195,6 +1226,15 @@ graph {
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_a_loom:p7r:e -- loom_a_wire:w7:w
 	loom_a_wire:w7:e -- "cam-sensor":p1l:w
+	edge [color="#000000:#ffff00:#000000:#ffff00:#000000"]
+	link_a_loom:p32r:e -- loom_a_wire:w32:w
+	loom_a_wire:w32:e -- "crank-sensor":p3l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_a_loom:p33r:e -- loom_a_wire:w33:w
+	loom_a_wire:w33:e -- "crank-sensor":p2l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_a_loom:p7r:e -- loom_a_wire:w7:w
+	loom_a_wire:w7:e -- "crank-sensor":p1l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	link_a_loom:p4r:e -- loom_a_wire:w4:w
 	loom_a_wire:w4:e -- injector1:p2l:w
@@ -1803,7 +1843,7 @@ graph {
     <td>
      33:BK
     </td>
-    <td><!-- 33_out --></td>
+    <td>crank-sensor:2:Sensor</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w33" height="10">

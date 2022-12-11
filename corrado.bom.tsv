@@ -4,7 +4,7 @@ Id	Description	Qty	Unit	Designators
 3	Cable, 34 wires	0	m	loom_a_wire, loom_b_wire
 4	Cable, 6 wires	0	m	injector-pwr-wire
 5	Connector, 037906240, 2 pins	8		idle-stablizer-valve, injector1, injector2, injector3, injector4, injector5, injector6, intake-temp-sensor
-6	Connector, 037906240, 3 pins	3		cam-sensor, knock1, knock2
+6	Connector, 037906240, 3 pins	4		cam-sensor, crank-sensor, knock1, knock2
 7	Connector, 1 pins	1		engine-ground
 8	Connector, 1287013900, 4 pins	1		coil
 9	Connector, 1J0983722, 2 pins	1		vapor-purge-valve

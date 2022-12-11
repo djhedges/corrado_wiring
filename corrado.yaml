@@ -35,6 +35,9 @@ connectors:
   cam-sensor:
     type: 037906240
     pinlabels: [Gnd, Sensor, 5v]
+  crank-sensor:
+    type: 037906240
+    pinlabels: [Gnd, Sensor, 5v]
   intake-temp-sensor:
     type: 037906240
     pinlabels: [Sig+, Sig-]
@@ -159,6 +162,10 @@ connections:
     - link_a_loom: [+5V, AnVolt2, Shield/Gnd]
     - loom_a_wire: [32, 22, 7]
     - cam-sensor: [5v, Sensor, Gnd]
+  -
+    - link_a_loom: [+5V, AnVolt3, Shield/Gnd]
+    - loom_a_wire: [32, 33, 7]
+    - crank-sensor: [5v, Sensor, Gnd]
   -
     - link_b_loom: [Temp3, Ground1]
     - loom_b_wire: [6, 25]

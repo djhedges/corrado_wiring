@@ -103,12 +103,10 @@ cables:
     colors: [RD]
   ecu-battery-gnd-wire:
     colors: [BK]
-  engine-ground-wire:
-    colors: [BK]
   injector-pwr-wire:
     wirecount: 6
     colors: [RD]
-  aux-coolant-pump-pos-wire:
+  pdm-12v-ign-wire:
     colors: [RD]
   pdm-12v-ign-wire:
     colors: [RD]
@@ -238,28 +236,28 @@ connections:
     - knock2: [Sig+, Sig-, Scr]
   -
     - aux-coolant-pump: [Pos]
-    - aux-coolant-pump-pos-wire: [1]
+    - pdm-12v-ign-wire: [1]
     - razor_pdm: [ADIO1]
   -
+    - link_a_loom: [Aux2]
+    - loom_a_wire: [20]
     - aux-coolant-pump: [Gnd]
-    - engine-ground-wire: [1]
-    - engine-ground: [Ground]
+  -
+    - idle-stablizer-valve: [Pos]
+    - pdm-12v-ign-wire: [1]
+    - razor_pdm: [ADIO7]
   -
     - link_a_loom: [Aux1]
     - loom_a_wire: [21]
     - idle-stablizer-valve: [Gnd]
   -
-    - idle-stablizer-valve: [Gnd]
-    - pdm-12v-ign-wire: [1]
-    - razor_pdm: [ADIO7]
-  -
     - vapor-purge-valve: [Pos]
     - pdm-12v-ign-wire: [1]
-    - razor_pdm: [ADIO8]
+    - razor_pdm: [ADIO1]
   -
+    - link_a_loom: [Aux3]
+    - loom_a_wire: [19]
     - vapor-purge-valve: [Gnd]
-    - engine-ground-wire: [1]
-    - engine-ground: [Ground]  # TODO: Pick a better ground.
   -
     - fuel-pump: [Pos]
     - fuel-pump-pos-wire: [1]

@@ -154,8 +154,8 @@ connections:
     - loom_a_wire: [32, 17, 25]
     - tps: [5v, Sensor, Gnd]
   -
-    - link_a_loom: [Temp1, AnVolt2]
-    - loom_a_wire: [15, 22]
+    - link_a_loom: [Temp1, Ground1]
+    - loom_a_wire: [15, 25]
     - intake-temp-sensor: [Sig+, Sig-]
   -
     - battery: [+]

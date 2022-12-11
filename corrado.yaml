@@ -198,4 +198,4 @@ connections:
   -
     - aux-coolant-pump: [Gnd]
     - aux-coolant-pump-gnd-wire: [1]
-    - razor_pdm: [ADIO1]
+    - engine-ground: [Ground]

@@ -2928,7 +2928,7 @@ graph {
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	"aux-coolant-pump":p2r:e -- "aux-coolant-pump-gnd-wire":w1:w
-	"aux-coolant-pump-gnd-wire":w1:e -- razor_pdm:p21l:w
+	"aux-coolant-pump-gnd-wire":w1:e -- "engine-ground":p1l:w
 	"aux-coolant-pump-gnd-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2949,7 +2949,7 @@ graph {
     <td>
      1:BK
     </td>
-    <td>razor_pdm:21:ADIO1</td>
+    <td>engine-ground:1:Ground</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">

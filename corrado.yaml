@@ -34,7 +34,7 @@ connectors:
     pinlabels: [5v, Sensor, Gnd]  # Old wiring  BKGY 5v, GNWH Sensor, BRW Grnd
   intake-temp-sensor:
     type: 037906240
-    pinlabels: [5v, Sensor]
+    pinlabels: [Sig+, Sig-]
   injector1:
     type: 037906240
     pinlabels: [Pos, Gnd]
@@ -154,9 +154,9 @@ connections:
     - loom_a_wire: [32, 17, 25]
     - tps: [5v, Sensor, Gnd]
   -
-    - link_a_loom: [+5V, AnVolt2]
-    - loom_a_wire: [32, 22]
-    - intake-temp-sensor: [5v, Sensor]
+    - link_a_loom: [Temp1, AnVolt2]
+    - loom_a_wire: [15, 22]
+    - intake-temp-sensor: [Sig+, Sig-]
   -
     - battery: [+]
     - ecu-battery-pos-wire: [1]

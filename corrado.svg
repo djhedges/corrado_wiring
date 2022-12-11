@@ -27,7 +27,7 @@
 <text text-anchor="start" x="34" y="-642.8" font-family="arial" font-size="14.00">2</text>
 </g>
 <!-- ecu&#45;battery&#45;pos&#45;wire -->
-<g id="node25" class="node">
+<g id="node26" class="node">
 <title>ecu&#45;battery&#45;pos&#45;wire</title>
 <polygon fill="#ffffff" stroke="black" points="466.5,-825.5 203.5,-825.5 203.5,-712.5 466.5,-712.5 466.5,-825.5"/>
 <polygon fill="none" stroke="black" points="204,-802 204,-825 467,-825 467,-802 204,-802"/>
@@ -55,7 +55,7 @@
 <path fill="none" stroke="#000000" stroke-width="2" d="M50,-673C120.24,-669.27 124.77,-736.27 203,-740"/>
 </g>
 <!-- ecu&#45;battery&#45;gnd&#45;wire -->
-<g id="node26" class="node">
+<g id="node27" class="node">
 <title>ecu&#45;battery&#45;gnd&#45;wire</title>
 <polygon fill="#ffffff" stroke="black" points="476,-603.5 194,-603.5 194,-490.5 476,-490.5 476,-603.5"/>
 <polygon fill="none" stroke="black" points="194,-580 194,-603 476,-603 476,-580 194,-580"/>
@@ -298,7 +298,7 @@
 <text text-anchor="start" x="724" y="-130.8" font-family="arial" font-size="14.00">34</text>
 </g>
 <!-- loom_a_wire -->
-<g id="node20" class="node">
+<g id="node21" class="node">
 <title>loom_a_wire</title>
 <polygon fill="#ffffff" stroke="black" points="1300,-1070 888,-1070 888,0 1300,0 1300,-1070"/>
 <polygon fill="none" stroke="black" points="888,-1047 888,-1070 1300,-1070 1300,-1047 888,-1047"/>
@@ -1100,7 +1100,7 @@
 <text text-anchor="start" x="721" y="-1236.8" font-family="arial" font-size="14.00">34</text>
 </g>
 <!-- loom_b_wire -->
-<g id="node21" class="node">
+<g id="node22" class="node">
 <title>loom_b_wire</title>
 <polygon fill="#ffffff" stroke="black" points="1283,-2164 905,-2164 905,-1094 1283,-1094 1283,-2164"/>
 <polygon fill="none" stroke="black" points="905,-2141 905,-2164 1283,-2164 1283,-2141 905,-2141"/>
@@ -1675,7 +1675,7 @@
 <path fill="none" stroke="#000000" stroke-width="2" d="M742,-1958C815.28,-1954.47 822.78,-2017.47 904,-2021"/>
 </g>
 <!-- knock&#45;shield&#45;wire1 -->
-<g id="node28" class="node">
+<g id="node29" class="node">
 <title>knock&#45;shield&#45;wire1</title>
 <polygon fill="#ffffff" stroke="black" points="1245.5,-2347.5 942.5,-2347.5 942.5,-2188.5 1245.5,-2188.5 1245.5,-2347.5"/>
 <polygon fill="none" stroke="black" points="943,-2324 943,-2347 1246,-2347 1246,-2324 943,-2324"/>
@@ -1725,7 +1725,7 @@
 <path fill="none" stroke="#000000" stroke-width="2" d="M742,-1633C1012.53,-1629.98 668.03,-2208.98 942,-2212"/>
 </g>
 <!-- knock&#45;shield&#45;wire2 -->
-<g id="node29" class="node">
+<g id="node30" class="node">
 <title>knock&#45;shield&#45;wire2</title>
 <polygon fill="#ffffff" stroke="black" points="1245.5,-2530.5 942.5,-2530.5 942.5,-2371.5 1245.5,-2371.5 1245.5,-2530.5"/>
 <polygon fill="none" stroke="black" points="943,-2507 943,-2530 1246,-2530 1246,-2507 943,-2507"/>
@@ -1777,115 +1777,115 @@
 <!-- razor_pdm -->
 <g id="node4" class="node">
 <title>razor_pdm</title>
-<polygon fill="#ffffff" stroke="black" points="2362,-2407 2230,-2407 2230,-1763 2362,-1763 2362,-2407"/>
-<polygon fill="none" stroke="black" points="2230,-2384 2230,-2407 2362,-2407 2362,-2384 2230,-2384"/>
-<text text-anchor="start" x="2263" y="-2391.8" font-family="arial" font-size="14.00">razor_pdm</text>
-<polygon fill="none" stroke="black" points="2230,-2361 2230,-2384 2362,-2384 2362,-2361 2230,-2361"/>
-<text text-anchor="start" x="2277" y="-2368.8" font-family="arial" font-size="14.00">26&#45;pin</text>
-<polygon fill="none" stroke="black" points="2230,-2338 2230,-2361 2254,-2361 2254,-2338 2230,-2338"/>
-<text text-anchor="start" x="2238" y="-2345.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="2254,-2338 2254,-2361 2362,-2361 2362,-2338 2254,-2338"/>
-<text text-anchor="start" x="2269.5" y="-2345.8" font-family="arial" font-size="14.00">PWROUT2a</text>
-<polygon fill="none" stroke="black" points="2230,-2315 2230,-2338 2254,-2338 2254,-2315 2230,-2315"/>
-<text text-anchor="start" x="2238" y="-2322.8" font-family="arial" font-size="14.00">2</text>
-<polygon fill="none" stroke="black" points="2254,-2315 2254,-2338 2362,-2338 2362,-2315 2254,-2315"/>
-<text text-anchor="start" x="2294" y="-2322.8" font-family="arial" font-size="14.00">NC1</text>
-<polygon fill="none" stroke="black" points="2230,-2292 2230,-2315 2254,-2315 2254,-2292 2230,-2292"/>
-<text text-anchor="start" x="2238" y="-2299.8" font-family="arial" font-size="14.00">3</text>
-<polygon fill="none" stroke="black" points="2254,-2292 2254,-2315 2362,-2315 2362,-2292 2254,-2292"/>
-<text text-anchor="start" x="2288.5" y="-2299.8" font-family="arial" font-size="14.00">CANH</text>
-<polygon fill="none" stroke="black" points="2230,-2269 2230,-2292 2254,-2292 2254,-2269 2230,-2269"/>
-<text text-anchor="start" x="2238" y="-2276.8" font-family="arial" font-size="14.00">4</text>
-<polygon fill="none" stroke="black" points="2254,-2269 2254,-2292 2362,-2292 2362,-2269 2254,-2269"/>
-<text text-anchor="start" x="2284" y="-2276.8" font-family="arial" font-size="14.00">IGNSW</text>
-<polygon fill="none" stroke="black" points="2230,-2246 2230,-2269 2254,-2269 2254,-2246 2230,-2246"/>
-<text text-anchor="start" x="2238" y="-2253.8" font-family="arial" font-size="14.00">5</text>
-<polygon fill="none" stroke="black" points="2254,-2246 2254,-2269 2362,-2269 2362,-2246 2254,-2246"/>
-<text text-anchor="start" x="2265" y="-2253.8" font-family="arial" font-size="14.00">SENSOR 5V1</text>
-<polygon fill="none" stroke="black" points="2230,-2223 2230,-2246 2254,-2246 2254,-2223 2230,-2223"/>
-<text text-anchor="start" x="2238" y="-2230.8" font-family="arial" font-size="14.00">6</text>
-<polygon fill="none" stroke="black" points="2254,-2223 2254,-2246 2362,-2246 2362,-2223 2254,-2223"/>
-<text text-anchor="start" x="2258" y="-2230.8" font-family="arial" font-size="14.00">SENSOR GND1</text>
-<polygon fill="none" stroke="black" points="2230,-2200 2230,-2223 2254,-2223 2254,-2200 2230,-2200"/>
-<text text-anchor="start" x="2238" y="-2207.8" font-family="arial" font-size="14.00">7</text>
-<polygon fill="none" stroke="black" points="2254,-2200 2254,-2223 2362,-2223 2362,-2200 2254,-2200"/>
-<text text-anchor="start" x="2269.5" y="-2207.8" font-family="arial" font-size="14.00">PWROUT3a</text>
-<polygon fill="none" stroke="black" points="2230,-2177 2230,-2200 2254,-2200 2254,-2177 2230,-2177"/>
-<text text-anchor="start" x="2238" y="-2184.8" font-family="arial" font-size="14.00">8</text>
-<polygon fill="none" stroke="black" points="2254,-2177 2254,-2200 2362,-2200 2362,-2177 2254,-2177"/>
-<text text-anchor="start" x="2269.5" y="-2184.8" font-family="arial" font-size="14.00">PWROUT2b</text>
-<polygon fill="none" stroke="black" points="2230,-2154 2230,-2177 2254,-2177 2254,-2154 2230,-2154"/>
-<text text-anchor="start" x="2238" y="-2161.8" font-family="arial" font-size="14.00">9</text>
-<polygon fill="none" stroke="black" points="2254,-2154 2254,-2177 2362,-2177 2362,-2154 2254,-2154"/>
-<text text-anchor="start" x="2294" y="-2161.8" font-family="arial" font-size="14.00">NC2</text>
-<polygon fill="none" stroke="black" points="2230,-2131 2230,-2154 2254,-2154 2254,-2131 2230,-2131"/>
-<text text-anchor="start" x="2234" y="-2138.8" font-family="arial" font-size="14.00">10</text>
-<polygon fill="none" stroke="black" points="2254,-2131 2254,-2154 2362,-2154 2362,-2131 2254,-2131"/>
-<text text-anchor="start" x="2289.5" y="-2138.8" font-family="arial" font-size="14.00">CANL</text>
-<polygon fill="none" stroke="black" points="2230,-2108 2230,-2131 2254,-2131 2254,-2108 2230,-2108"/>
-<text text-anchor="start" x="2234" y="-2115.8" font-family="arial" font-size="14.00">11</text>
-<polygon fill="none" stroke="black" points="2254,-2108 2254,-2131 2362,-2131 2362,-2108 2254,-2108"/>
-<text text-anchor="start" x="2265" y="-2115.8" font-family="arial" font-size="14.00">SENSOR 5V2</text>
-<polygon fill="none" stroke="black" points="2230,-2085 2230,-2108 2254,-2108 2254,-2085 2230,-2085"/>
-<text text-anchor="start" x="2234" y="-2092.8" font-family="arial" font-size="14.00">12</text>
-<polygon fill="none" stroke="black" points="2254,-2085 2254,-2108 2362,-2108 2362,-2085 2254,-2085"/>
-<text text-anchor="start" x="2258" y="-2092.8" font-family="arial" font-size="14.00">SENSOR GND2</text>
-<polygon fill="none" stroke="black" points="2230,-2062 2230,-2085 2254,-2085 2254,-2062 2230,-2062"/>
-<text text-anchor="start" x="2234" y="-2069.8" font-family="arial" font-size="14.00">13</text>
-<polygon fill="none" stroke="black" points="2254,-2062 2254,-2085 2362,-2085 2362,-2062 2254,-2062"/>
-<text text-anchor="start" x="2269.5" y="-2069.8" font-family="arial" font-size="14.00">PWROUT3b</text>
-<polygon fill="none" stroke="black" points="2230,-2039 2230,-2062 2254,-2062 2254,-2039 2230,-2039"/>
-<text text-anchor="start" x="2234" y="-2046.8" font-family="arial" font-size="14.00">14</text>
-<polygon fill="none" stroke="black" points="2254,-2039 2254,-2062 2362,-2062 2362,-2039 2254,-2039"/>
-<text text-anchor="start" x="2269.5" y="-2046.8" font-family="arial" font-size="14.00">PWROUT1a</text>
-<polygon fill="none" stroke="black" points="2230,-2016 2230,-2039 2254,-2039 2254,-2016 2230,-2016"/>
-<text text-anchor="start" x="2234" y="-2023.8" font-family="arial" font-size="14.00">15</text>
-<polygon fill="none" stroke="black" points="2254,-2016 2254,-2039 2362,-2039 2362,-2016 2254,-2016"/>
-<text text-anchor="start" x="2287" y="-2023.8" font-family="arial" font-size="14.00">ADIO2</text>
-<polygon fill="none" stroke="black" points="2230,-1993 2230,-2016 2254,-2016 2254,-1993 2230,-1993"/>
-<text text-anchor="start" x="2234" y="-2000.8" font-family="arial" font-size="14.00">16</text>
-<polygon fill="none" stroke="black" points="2254,-1993 2254,-2016 2362,-2016 2362,-1993 2254,-1993"/>
-<text text-anchor="start" x="2287" y="-2000.8" font-family="arial" font-size="14.00">ADIO4</text>
-<polygon fill="none" stroke="black" points="2230,-1970 2230,-1993 2254,-1993 2254,-1970 2230,-1970"/>
-<text text-anchor="start" x="2234" y="-1977.8" font-family="arial" font-size="14.00">17</text>
-<polygon fill="none" stroke="black" points="2254,-1970 2254,-1993 2362,-1993 2362,-1970 2254,-1970"/>
-<text text-anchor="start" x="2287" y="-1977.8" font-family="arial" font-size="14.00">ADIO6</text>
-<polygon fill="none" stroke="black" points="2230,-1947 2230,-1970 2254,-1970 2254,-1947 2230,-1947"/>
-<text text-anchor="start" x="2234" y="-1954.8" font-family="arial" font-size="14.00">18</text>
-<polygon fill="none" stroke="black" points="2254,-1947 2254,-1970 2362,-1970 2362,-1947 2254,-1947"/>
-<text text-anchor="start" x="2287" y="-1954.8" font-family="arial" font-size="14.00">ADIO8</text>
-<polygon fill="none" stroke="black" points="2230,-1924 2230,-1947 2254,-1947 2254,-1924 2230,-1924"/>
-<text text-anchor="start" x="2234" y="-1931.8" font-family="arial" font-size="14.00">19</text>
-<polygon fill="none" stroke="black" points="2254,-1924 2254,-1947 2362,-1947 2362,-1924 2254,-1924"/>
-<text text-anchor="start" x="2269.5" y="-1931.8" font-family="arial" font-size="14.00">PWROUT4a</text>
-<polygon fill="none" stroke="black" points="2230,-1901 2230,-1924 2254,-1924 2254,-1901 2230,-1901"/>
-<text text-anchor="start" x="2234" y="-1908.8" font-family="arial" font-size="14.00">20</text>
-<polygon fill="none" stroke="black" points="2254,-1901 2254,-1924 2362,-1924 2362,-1901 2254,-1901"/>
-<text text-anchor="start" x="2269.5" y="-1908.8" font-family="arial" font-size="14.00">PWROUT1b</text>
-<polygon fill="none" stroke="black" points="2230,-1878 2230,-1901 2254,-1901 2254,-1878 2230,-1878"/>
-<text text-anchor="start" x="2234" y="-1885.8" font-family="arial" font-size="14.00">21</text>
-<polygon fill="none" stroke="black" points="2254,-1878 2254,-1901 2362,-1901 2362,-1878 2254,-1878"/>
-<text text-anchor="start" x="2287" y="-1885.8" font-family="arial" font-size="14.00">ADIO1</text>
-<polygon fill="none" stroke="black" points="2230,-1855 2230,-1878 2254,-1878 2254,-1855 2230,-1855"/>
-<text text-anchor="start" x="2234" y="-1862.8" font-family="arial" font-size="14.00">22</text>
-<polygon fill="none" stroke="black" points="2254,-1855 2254,-1878 2362,-1878 2362,-1855 2254,-1855"/>
-<text text-anchor="start" x="2287" y="-1862.8" font-family="arial" font-size="14.00">ADIO3</text>
-<polygon fill="none" stroke="black" points="2230,-1832 2230,-1855 2254,-1855 2254,-1832 2230,-1832"/>
-<text text-anchor="start" x="2234" y="-1839.8" font-family="arial" font-size="14.00">23</text>
-<polygon fill="none" stroke="black" points="2254,-1832 2254,-1855 2362,-1855 2362,-1832 2254,-1832"/>
-<text text-anchor="start" x="2287" y="-1839.8" font-family="arial" font-size="14.00">ADIO5</text>
-<polygon fill="none" stroke="black" points="2230,-1809 2230,-1832 2254,-1832 2254,-1809 2230,-1809"/>
-<text text-anchor="start" x="2234" y="-1816.8" font-family="arial" font-size="14.00">24</text>
-<polygon fill="none" stroke="black" points="2254,-1809 2254,-1832 2362,-1832 2362,-1809 2254,-1809"/>
-<text text-anchor="start" x="2287" y="-1816.8" font-family="arial" font-size="14.00">ADIO7</text>
-<polygon fill="none" stroke="black" points="2230,-1786 2230,-1809 2254,-1809 2254,-1786 2230,-1786"/>
-<text text-anchor="start" x="2234" y="-1793.8" font-family="arial" font-size="14.00">25</text>
-<polygon fill="none" stroke="black" points="2254,-1786 2254,-1809 2362,-1809 2362,-1786 2254,-1786"/>
-<text text-anchor="start" x="2294" y="-1793.8" font-family="arial" font-size="14.00">NC3</text>
-<polygon fill="none" stroke="black" points="2230,-1763 2230,-1786 2254,-1786 2254,-1763 2230,-1763"/>
-<text text-anchor="start" x="2234" y="-1770.8" font-family="arial" font-size="14.00">26</text>
-<polygon fill="none" stroke="black" points="2254,-1763 2254,-1786 2362,-1786 2362,-1763 2254,-1763"/>
-<text text-anchor="start" x="2269.5" y="-1770.8" font-family="arial" font-size="14.00">PWROUT4b</text>
+<polygon fill="#ffffff" stroke="black" points="2362,-2422 2230,-2422 2230,-1778 2362,-1778 2362,-2422"/>
+<polygon fill="none" stroke="black" points="2230,-2399 2230,-2422 2362,-2422 2362,-2399 2230,-2399"/>
+<text text-anchor="start" x="2263" y="-2406.8" font-family="arial" font-size="14.00">razor_pdm</text>
+<polygon fill="none" stroke="black" points="2230,-2376 2230,-2399 2362,-2399 2362,-2376 2230,-2376"/>
+<text text-anchor="start" x="2277" y="-2383.8" font-family="arial" font-size="14.00">26&#45;pin</text>
+<polygon fill="none" stroke="black" points="2230,-2353 2230,-2376 2254,-2376 2254,-2353 2230,-2353"/>
+<text text-anchor="start" x="2238" y="-2360.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="2254,-2353 2254,-2376 2362,-2376 2362,-2353 2254,-2353"/>
+<text text-anchor="start" x="2269.5" y="-2360.8" font-family="arial" font-size="14.00">PWROUT2a</text>
+<polygon fill="none" stroke="black" points="2230,-2330 2230,-2353 2254,-2353 2254,-2330 2230,-2330"/>
+<text text-anchor="start" x="2238" y="-2337.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="2254,-2330 2254,-2353 2362,-2353 2362,-2330 2254,-2330"/>
+<text text-anchor="start" x="2294" y="-2337.8" font-family="arial" font-size="14.00">NC1</text>
+<polygon fill="none" stroke="black" points="2230,-2307 2230,-2330 2254,-2330 2254,-2307 2230,-2307"/>
+<text text-anchor="start" x="2238" y="-2314.8" font-family="arial" font-size="14.00">3</text>
+<polygon fill="none" stroke="black" points="2254,-2307 2254,-2330 2362,-2330 2362,-2307 2254,-2307"/>
+<text text-anchor="start" x="2288.5" y="-2314.8" font-family="arial" font-size="14.00">CANH</text>
+<polygon fill="none" stroke="black" points="2230,-2284 2230,-2307 2254,-2307 2254,-2284 2230,-2284"/>
+<text text-anchor="start" x="2238" y="-2291.8" font-family="arial" font-size="14.00">4</text>
+<polygon fill="none" stroke="black" points="2254,-2284 2254,-2307 2362,-2307 2362,-2284 2254,-2284"/>
+<text text-anchor="start" x="2284" y="-2291.8" font-family="arial" font-size="14.00">IGNSW</text>
+<polygon fill="none" stroke="black" points="2230,-2261 2230,-2284 2254,-2284 2254,-2261 2230,-2261"/>
+<text text-anchor="start" x="2238" y="-2268.8" font-family="arial" font-size="14.00">5</text>
+<polygon fill="none" stroke="black" points="2254,-2261 2254,-2284 2362,-2284 2362,-2261 2254,-2261"/>
+<text text-anchor="start" x="2265" y="-2268.8" font-family="arial" font-size="14.00">SENSOR 5V1</text>
+<polygon fill="none" stroke="black" points="2230,-2238 2230,-2261 2254,-2261 2254,-2238 2230,-2238"/>
+<text text-anchor="start" x="2238" y="-2245.8" font-family="arial" font-size="14.00">6</text>
+<polygon fill="none" stroke="black" points="2254,-2238 2254,-2261 2362,-2261 2362,-2238 2254,-2238"/>
+<text text-anchor="start" x="2258" y="-2245.8" font-family="arial" font-size="14.00">SENSOR GND1</text>
+<polygon fill="none" stroke="black" points="2230,-2215 2230,-2238 2254,-2238 2254,-2215 2230,-2215"/>
+<text text-anchor="start" x="2238" y="-2222.8" font-family="arial" font-size="14.00">7</text>
+<polygon fill="none" stroke="black" points="2254,-2215 2254,-2238 2362,-2238 2362,-2215 2254,-2215"/>
+<text text-anchor="start" x="2269.5" y="-2222.8" font-family="arial" font-size="14.00">PWROUT3a</text>
+<polygon fill="none" stroke="black" points="2230,-2192 2230,-2215 2254,-2215 2254,-2192 2230,-2192"/>
+<text text-anchor="start" x="2238" y="-2199.8" font-family="arial" font-size="14.00">8</text>
+<polygon fill="none" stroke="black" points="2254,-2192 2254,-2215 2362,-2215 2362,-2192 2254,-2192"/>
+<text text-anchor="start" x="2269.5" y="-2199.8" font-family="arial" font-size="14.00">PWROUT2b</text>
+<polygon fill="none" stroke="black" points="2230,-2169 2230,-2192 2254,-2192 2254,-2169 2230,-2169"/>
+<text text-anchor="start" x="2238" y="-2176.8" font-family="arial" font-size="14.00">9</text>
+<polygon fill="none" stroke="black" points="2254,-2169 2254,-2192 2362,-2192 2362,-2169 2254,-2169"/>
+<text text-anchor="start" x="2294" y="-2176.8" font-family="arial" font-size="14.00">NC2</text>
+<polygon fill="none" stroke="black" points="2230,-2146 2230,-2169 2254,-2169 2254,-2146 2230,-2146"/>
+<text text-anchor="start" x="2234" y="-2153.8" font-family="arial" font-size="14.00">10</text>
+<polygon fill="none" stroke="black" points="2254,-2146 2254,-2169 2362,-2169 2362,-2146 2254,-2146"/>
+<text text-anchor="start" x="2289.5" y="-2153.8" font-family="arial" font-size="14.00">CANL</text>
+<polygon fill="none" stroke="black" points="2230,-2123 2230,-2146 2254,-2146 2254,-2123 2230,-2123"/>
+<text text-anchor="start" x="2234" y="-2130.8" font-family="arial" font-size="14.00">11</text>
+<polygon fill="none" stroke="black" points="2254,-2123 2254,-2146 2362,-2146 2362,-2123 2254,-2123"/>
+<text text-anchor="start" x="2265" y="-2130.8" font-family="arial" font-size="14.00">SENSOR 5V2</text>
+<polygon fill="none" stroke="black" points="2230,-2100 2230,-2123 2254,-2123 2254,-2100 2230,-2100"/>
+<text text-anchor="start" x="2234" y="-2107.8" font-family="arial" font-size="14.00">12</text>
+<polygon fill="none" stroke="black" points="2254,-2100 2254,-2123 2362,-2123 2362,-2100 2254,-2100"/>
+<text text-anchor="start" x="2258" y="-2107.8" font-family="arial" font-size="14.00">SENSOR GND2</text>
+<polygon fill="none" stroke="black" points="2230,-2077 2230,-2100 2254,-2100 2254,-2077 2230,-2077"/>
+<text text-anchor="start" x="2234" y="-2084.8" font-family="arial" font-size="14.00">13</text>
+<polygon fill="none" stroke="black" points="2254,-2077 2254,-2100 2362,-2100 2362,-2077 2254,-2077"/>
+<text text-anchor="start" x="2269.5" y="-2084.8" font-family="arial" font-size="14.00">PWROUT3b</text>
+<polygon fill="none" stroke="black" points="2230,-2054 2230,-2077 2254,-2077 2254,-2054 2230,-2054"/>
+<text text-anchor="start" x="2234" y="-2061.8" font-family="arial" font-size="14.00">14</text>
+<polygon fill="none" stroke="black" points="2254,-2054 2254,-2077 2362,-2077 2362,-2054 2254,-2054"/>
+<text text-anchor="start" x="2269.5" y="-2061.8" font-family="arial" font-size="14.00">PWROUT1a</text>
+<polygon fill="none" stroke="black" points="2230,-2031 2230,-2054 2254,-2054 2254,-2031 2230,-2031"/>
+<text text-anchor="start" x="2234" y="-2038.8" font-family="arial" font-size="14.00">15</text>
+<polygon fill="none" stroke="black" points="2254,-2031 2254,-2054 2362,-2054 2362,-2031 2254,-2031"/>
+<text text-anchor="start" x="2287" y="-2038.8" font-family="arial" font-size="14.00">ADIO2</text>
+<polygon fill="none" stroke="black" points="2230,-2008 2230,-2031 2254,-2031 2254,-2008 2230,-2008"/>
+<text text-anchor="start" x="2234" y="-2015.8" font-family="arial" font-size="14.00">16</text>
+<polygon fill="none" stroke="black" points="2254,-2008 2254,-2031 2362,-2031 2362,-2008 2254,-2008"/>
+<text text-anchor="start" x="2287" y="-2015.8" font-family="arial" font-size="14.00">ADIO4</text>
+<polygon fill="none" stroke="black" points="2230,-1985 2230,-2008 2254,-2008 2254,-1985 2230,-1985"/>
+<text text-anchor="start" x="2234" y="-1992.8" font-family="arial" font-size="14.00">17</text>
+<polygon fill="none" stroke="black" points="2254,-1985 2254,-2008 2362,-2008 2362,-1985 2254,-1985"/>
+<text text-anchor="start" x="2287" y="-1992.8" font-family="arial" font-size="14.00">ADIO6</text>
+<polygon fill="none" stroke="black" points="2230,-1962 2230,-1985 2254,-1985 2254,-1962 2230,-1962"/>
+<text text-anchor="start" x="2234" y="-1969.8" font-family="arial" font-size="14.00">18</text>
+<polygon fill="none" stroke="black" points="2254,-1962 2254,-1985 2362,-1985 2362,-1962 2254,-1962"/>
+<text text-anchor="start" x="2287" y="-1969.8" font-family="arial" font-size="14.00">ADIO8</text>
+<polygon fill="none" stroke="black" points="2230,-1939 2230,-1962 2254,-1962 2254,-1939 2230,-1939"/>
+<text text-anchor="start" x="2234" y="-1946.8" font-family="arial" font-size="14.00">19</text>
+<polygon fill="none" stroke="black" points="2254,-1939 2254,-1962 2362,-1962 2362,-1939 2254,-1939"/>
+<text text-anchor="start" x="2269.5" y="-1946.8" font-family="arial" font-size="14.00">PWROUT4a</text>
+<polygon fill="none" stroke="black" points="2230,-1916 2230,-1939 2254,-1939 2254,-1916 2230,-1916"/>
+<text text-anchor="start" x="2234" y="-1923.8" font-family="arial" font-size="14.00">20</text>
+<polygon fill="none" stroke="black" points="2254,-1916 2254,-1939 2362,-1939 2362,-1916 2254,-1916"/>
+<text text-anchor="start" x="2269.5" y="-1923.8" font-family="arial" font-size="14.00">PWROUT1b</text>
+<polygon fill="none" stroke="black" points="2230,-1893 2230,-1916 2254,-1916 2254,-1893 2230,-1893"/>
+<text text-anchor="start" x="2234" y="-1900.8" font-family="arial" font-size="14.00">21</text>
+<polygon fill="none" stroke="black" points="2254,-1893 2254,-1916 2362,-1916 2362,-1893 2254,-1893"/>
+<text text-anchor="start" x="2287" y="-1900.8" font-family="arial" font-size="14.00">ADIO1</text>
+<polygon fill="none" stroke="black" points="2230,-1870 2230,-1893 2254,-1893 2254,-1870 2230,-1870"/>
+<text text-anchor="start" x="2234" y="-1877.8" font-family="arial" font-size="14.00">22</text>
+<polygon fill="none" stroke="black" points="2254,-1870 2254,-1893 2362,-1893 2362,-1870 2254,-1870"/>
+<text text-anchor="start" x="2287" y="-1877.8" font-family="arial" font-size="14.00">ADIO3</text>
+<polygon fill="none" stroke="black" points="2230,-1847 2230,-1870 2254,-1870 2254,-1847 2230,-1847"/>
+<text text-anchor="start" x="2234" y="-1854.8" font-family="arial" font-size="14.00">23</text>
+<polygon fill="none" stroke="black" points="2254,-1847 2254,-1870 2362,-1870 2362,-1847 2254,-1847"/>
+<text text-anchor="start" x="2287" y="-1854.8" font-family="arial" font-size="14.00">ADIO5</text>
+<polygon fill="none" stroke="black" points="2230,-1824 2230,-1847 2254,-1847 2254,-1824 2230,-1824"/>
+<text text-anchor="start" x="2234" y="-1831.8" font-family="arial" font-size="14.00">24</text>
+<polygon fill="none" stroke="black" points="2254,-1824 2254,-1847 2362,-1847 2362,-1824 2254,-1824"/>
+<text text-anchor="start" x="2287" y="-1831.8" font-family="arial" font-size="14.00">ADIO7</text>
+<polygon fill="none" stroke="black" points="2230,-1801 2230,-1824 2254,-1824 2254,-1801 2230,-1801"/>
+<text text-anchor="start" x="2234" y="-1808.8" font-family="arial" font-size="14.00">25</text>
+<polygon fill="none" stroke="black" points="2254,-1801 2254,-1824 2362,-1824 2362,-1801 2254,-1801"/>
+<text text-anchor="start" x="2294" y="-1808.8" font-family="arial" font-size="14.00">NC3</text>
+<polygon fill="none" stroke="black" points="2230,-1778 2230,-1801 2254,-1801 2254,-1778 2230,-1778"/>
+<text text-anchor="start" x="2234" y="-1785.8" font-family="arial" font-size="14.00">26</text>
+<polygon fill="none" stroke="black" points="2254,-1778 2254,-1801 2362,-1801 2362,-1778 2254,-1778"/>
+<text text-anchor="start" x="2269.5" y="-1785.8" font-family="arial" font-size="14.00">PWROUT4b</text>
 </g>
 <!-- icm&#45;to&#45;ecu -->
 <g id="node5" class="node">
@@ -1938,7 +1938,7 @@
 <text text-anchor="start" x="722.5" y="-2573.8" font-family="arial" font-size="14.00">4</text>
 </g>
 <!-- icm&#45;to&#45;coil&#45;wire -->
-<g id="node22" class="node">
+<g id="node23" class="node">
 <title>icm&#45;to&#45;coil&#45;wire</title>
 <polygon fill="#ffffff" stroke="black" points="1227,-2713.5 961,-2713.5 961,-2554.5 1227,-2554.5 1227,-2713.5"/>
 <polygon fill="none" stroke="black" points="961,-2690 961,-2713 1227,-2713 1227,-2690 961,-2690"/>
@@ -1988,7 +1988,7 @@
 <path fill="none" stroke="#000000" stroke-width="2" d="M741,-2649C840.11,-2648.49 863.55,-2627.49 960,-2628"/>
 </g>
 <!-- icm&#45;ground&#45;wire -->
-<g id="node23" class="node">
+<g id="node24" class="node">
 <title>icm&#45;ground&#45;wire</title>
 <polygon fill="#ffffff" stroke="black" points="1258,-2850.5 930,-2850.5 930,-2737.5 1258,-2737.5 1258,-2850.5"/>
 <polygon fill="none" stroke="black" points="930,-2827 930,-2850 1258,-2850 1258,-2827 930,-2827"/>
@@ -2051,45 +2051,45 @@
 <text text-anchor="start" x="1547.5" y="-2530.8" font-family="arial" font-size="14.00">4</text>
 </g>
 <!-- coil&#45;pwr&#45;wire -->
-<g id="node24" class="node">
+<g id="node25" class="node">
 <title>coil&#45;pwr&#45;wire</title>
-<polygon fill="#ffffff" stroke="black" points="2049.5,-2539.5 1747.5,-2539.5 1747.5,-2426.5 2049.5,-2426.5 2049.5,-2539.5"/>
-<polygon fill="none" stroke="black" points="1747.5,-2516 1747.5,-2539 2049.5,-2539 2049.5,-2516 1747.5,-2516"/>
-<text text-anchor="start" x="1860.5" y="-2523.8" font-family="arial" font-size="14.00">coil&#45;pwr&#45;wire</text>
-<polygon fill="none" stroke="black" points="1747.5,-2493 1747.5,-2516 2049.5,-2516 2049.5,-2493 1747.5,-2493"/>
-<text text-anchor="start" x="1891" y="-2500.8" font-family="arial" font-size="14.00">1x</text>
-<text text-anchor="start" x="1781.5" y="-2479.8" font-family="arial" font-size="14.00"> </text>
-<text text-anchor="start" x="1749.5" y="-2460.8" font-family="arial" font-size="14.00">coil:4:Ubatt</text>
-<text text-anchor="start" x="1821.5" y="-2460.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1890.5" y="-2460.8" font-family="arial" font-size="14.00">razor_pdm:1:PWROUT2a</text>
-<polygon fill="#000000" stroke="transparent" points="1747.5,-2453 1747.5,-2455 2049.5,-2455 2049.5,-2453 1747.5,-2453"/>
-<polygon fill="#ff0000" stroke="transparent" points="1747.5,-2451 1747.5,-2453 2049.5,-2453 2049.5,-2451 1747.5,-2451"/>
-<polygon fill="#ff0000" stroke="transparent" points="1747.5,-2449 1747.5,-2451 2049.5,-2451 2049.5,-2449 1747.5,-2449"/>
-<polygon fill="#ff0000" stroke="transparent" points="1747.5,-2447 1747.5,-2449 2049.5,-2449 2049.5,-2447 1747.5,-2447"/>
-<polygon fill="#000000" stroke="transparent" points="1747.5,-2445 1747.5,-2447 2049.5,-2447 2049.5,-2445 1747.5,-2445"/>
-<text text-anchor="start" x="1781.5" y="-2431.8" font-family="arial" font-size="14.00"> </text>
+<polygon fill="#ffffff" stroke="black" points="2049.5,-2546.5 1747.5,-2546.5 1747.5,-2433.5 2049.5,-2433.5 2049.5,-2546.5"/>
+<polygon fill="none" stroke="black" points="1747.5,-2523 1747.5,-2546 2049.5,-2546 2049.5,-2523 1747.5,-2523"/>
+<text text-anchor="start" x="1860.5" y="-2530.8" font-family="arial" font-size="14.00">coil&#45;pwr&#45;wire</text>
+<polygon fill="none" stroke="black" points="1747.5,-2500 1747.5,-2523 2049.5,-2523 2049.5,-2500 1747.5,-2500"/>
+<text text-anchor="start" x="1891" y="-2507.8" font-family="arial" font-size="14.00">1x</text>
+<text text-anchor="start" x="1781.5" y="-2486.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="1749.5" y="-2467.8" font-family="arial" font-size="14.00">coil:4:Ubatt</text>
+<text text-anchor="start" x="1821.5" y="-2467.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1890.5" y="-2467.8" font-family="arial" font-size="14.00">razor_pdm:1:PWROUT2a</text>
+<polygon fill="#000000" stroke="transparent" points="1747.5,-2460 1747.5,-2462 2049.5,-2462 2049.5,-2460 1747.5,-2460"/>
+<polygon fill="#ff0000" stroke="transparent" points="1747.5,-2458 1747.5,-2460 2049.5,-2460 2049.5,-2458 1747.5,-2458"/>
+<polygon fill="#ff0000" stroke="transparent" points="1747.5,-2456 1747.5,-2458 2049.5,-2458 2049.5,-2456 1747.5,-2456"/>
+<polygon fill="#ff0000" stroke="transparent" points="1747.5,-2454 1747.5,-2456 2049.5,-2456 2049.5,-2454 1747.5,-2454"/>
+<polygon fill="#000000" stroke="transparent" points="1747.5,-2452 1747.5,-2454 2049.5,-2454 2049.5,-2452 1747.5,-2452"/>
+<text text-anchor="start" x="1781.5" y="-2438.8" font-family="arial" font-size="14.00"> </text>
 </g>
 <!-- coil&#45;&#45;coil&#45;pwr&#45;wire -->
 <g id="edge101" class="edge">
 <title>coil:e&#45;&#45;coil&#45;pwr&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1567,-2530C1651.08,-2533.84 1654.42,-2449.84 1746.5,-2446"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1567,-2532C1653.08,-2533.92 1656.42,-2449.92 1746.5,-2448"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1567,-2534C1655.08,-2534 1658.42,-2450 1746.5,-2450"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1567,-2536C1657.08,-2534.08 1660.42,-2450.08 1746.5,-2452"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1567,-2538C1659.08,-2534.16 1662.42,-2450.16 1746.5,-2454"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1567,-2530C1649.82,-2533.7 1655.7,-2456.7 1746.5,-2453"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1567,-2532C1651.81,-2533.85 1657.7,-2456.85 1746.5,-2455"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1567,-2534C1653.81,-2534 1659.69,-2457 1746.5,-2457"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1567,-2536C1655.8,-2534.15 1661.69,-2457.15 1746.5,-2459"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1567,-2538C1657.8,-2534.3 1663.68,-2457.3 1746.5,-2461"/>
 </g>
 <!-- engine&#45;ground -->
 <g id="node8" class="node">
 <title>engine&#45;ground</title>
-<polygon fill="#ffffff" stroke="black" points="2344,-1498.5 2248,-1498.5 2248,-1429.5 2344,-1429.5 2344,-1498.5"/>
-<polygon fill="none" stroke="black" points="2248,-1475 2248,-1498 2344,-1498 2344,-1475 2248,-1475"/>
-<text text-anchor="start" x="2252" y="-1482.8" font-family="arial" font-size="14.00">engine&#45;ground</text>
-<polygon fill="none" stroke="black" points="2248,-1452 2248,-1475 2344,-1475 2344,-1452 2248,-1452"/>
-<text text-anchor="start" x="2280.5" y="-1459.8" font-family="arial" font-size="14.00">1&#45;pin</text>
-<polygon fill="none" stroke="black" points="2248,-1429 2248,-1452 2277,-1452 2277,-1429 2248,-1429"/>
-<text text-anchor="start" x="2258.5" y="-1436.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="2277,-1429 2277,-1452 2344,-1452 2344,-1429 2277,-1429"/>
-<text text-anchor="start" x="2287.5" y="-1436.8" font-family="arial" font-size="14.00">Ground</text>
+<polygon fill="#ffffff" stroke="black" points="2344,-1480.5 2248,-1480.5 2248,-1411.5 2344,-1411.5 2344,-1480.5"/>
+<polygon fill="none" stroke="black" points="2248,-1457 2248,-1480 2344,-1480 2344,-1457 2248,-1457"/>
+<text text-anchor="start" x="2252" y="-1464.8" font-family="arial" font-size="14.00">engine&#45;ground</text>
+<polygon fill="none" stroke="black" points="2248,-1434 2248,-1457 2344,-1457 2344,-1434 2248,-1434"/>
+<text text-anchor="start" x="2280.5" y="-1441.8" font-family="arial" font-size="14.00">1&#45;pin</text>
+<polygon fill="none" stroke="black" points="2248,-1411 2248,-1434 2277,-1434 2277,-1411 2248,-1411"/>
+<text text-anchor="start" x="2258.5" y="-1418.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="2277,-1411 2277,-1434 2344,-1434 2344,-1411 2277,-1411"/>
+<text text-anchor="start" x="2287.5" y="-1418.8" font-family="arial" font-size="14.00">Ground</text>
 </g>
 <!-- tps -->
 <g id="node9" class="node">
@@ -2117,429 +2117,524 @@
 <!-- injector1 -->
 <g id="node10" class="node">
 <title>injector1</title>
-<polygon fill="#ffffff" stroke="black" points="1539,-1732 1472,-1732 1472,-1640 1539,-1640 1539,-1732"/>
-<polygon fill="none" stroke="black" points="1472.5,-1709 1472.5,-1732 1539.5,-1732 1539.5,-1709 1472.5,-1709"/>
+<polygon fill="#ffffff" stroke="black" points="1563,-1732 1448,-1732 1448,-1640 1563,-1640 1563,-1732"/>
+<polygon fill="none" stroke="black" points="1448.5,-1709 1448.5,-1732 1563.5,-1732 1563.5,-1709 1448.5,-1709"/>
 <text text-anchor="start" x="1480" y="-1716.8" font-family="arial" font-size="14.00">injector1</text>
-<polygon fill="none" stroke="black" points="1472.5,-1686 1472.5,-1709 1539.5,-1709 1539.5,-1686 1472.5,-1686"/>
-<text text-anchor="start" x="1490.5" y="-1693.8" font-family="arial" font-size="14.00">2&#45;pin</text>
-<polygon fill="none" stroke="black" points="1472.5,-1663 1472.5,-1686 1488.5,-1686 1488.5,-1663 1472.5,-1663"/>
-<text text-anchor="start" x="1476.5" y="-1670.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1488.5,-1663 1488.5,-1686 1523.5,-1686 1523.5,-1663 1488.5,-1663"/>
+<polygon fill="none" stroke="black" points="1448.5,-1686 1448.5,-1709 1524.5,-1709 1524.5,-1686 1448.5,-1686"/>
+<text text-anchor="start" x="1452.5" y="-1693.8" font-family="arial" font-size="14.00">037906240</text>
+<polygon fill="none" stroke="black" points="1524.5,-1686 1524.5,-1709 1563.5,-1709 1563.5,-1686 1524.5,-1686"/>
+<text text-anchor="start" x="1528.5" y="-1693.8" font-family="arial" font-size="14.00">2&#45;pin</text>
+<polygon fill="none" stroke="black" points="1448.5,-1663 1448.5,-1686 1480.5,-1686 1480.5,-1663 1448.5,-1663"/>
+<text text-anchor="start" x="1460.5" y="-1670.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1480.5,-1663 1480.5,-1686 1531.5,-1686 1531.5,-1663 1480.5,-1663"/>
 <text text-anchor="start" x="1494" y="-1670.8" font-family="arial" font-size="14.00">Pos</text>
-<polygon fill="none" stroke="black" points="1523.5,-1663 1523.5,-1686 1539.5,-1686 1539.5,-1663 1523.5,-1663"/>
-<text text-anchor="start" x="1527.5" y="-1670.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1472.5,-1640 1472.5,-1663 1488.5,-1663 1488.5,-1640 1472.5,-1640"/>
-<text text-anchor="start" x="1476.5" y="-1647.8" font-family="arial" font-size="14.00">2</text>
-<polygon fill="none" stroke="black" points="1488.5,-1640 1488.5,-1663 1523.5,-1663 1523.5,-1640 1488.5,-1640"/>
+<polygon fill="none" stroke="black" points="1531.5,-1663 1531.5,-1686 1563.5,-1686 1563.5,-1663 1531.5,-1663"/>
+<text text-anchor="start" x="1543.5" y="-1670.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1448.5,-1640 1448.5,-1663 1480.5,-1663 1480.5,-1640 1448.5,-1640"/>
+<text text-anchor="start" x="1460.5" y="-1647.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1480.5,-1640 1480.5,-1663 1531.5,-1663 1531.5,-1640 1480.5,-1640"/>
 <text text-anchor="start" x="1492.5" y="-1647.8" font-family="arial" font-size="14.00">Gnd</text>
-<polygon fill="none" stroke="black" points="1523.5,-1640 1523.5,-1663 1539.5,-1663 1539.5,-1640 1523.5,-1640"/>
-<text text-anchor="start" x="1527.5" y="-1647.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1531.5,-1640 1531.5,-1663 1563.5,-1663 1563.5,-1640 1531.5,-1640"/>
+<text text-anchor="start" x="1543.5" y="-1647.8" font-family="arial" font-size="14.00">2</text>
 </g>
 <!-- injector&#45;pwr&#45;wire -->
-<g id="node27" class="node">
+<g id="node28" class="node">
 <title>injector&#45;pwr&#45;wire</title>
-<polygon fill="#ffffff" stroke="black" points="2064.5,-2226 1732.5,-2226 1732.5,-1968 2064.5,-1968 2064.5,-2226"/>
-<polygon fill="none" stroke="black" points="1732.5,-2203 1732.5,-2226 2064.5,-2226 2064.5,-2203 1732.5,-2203"/>
-<text text-anchor="start" x="1848.5" y="-2210.8" font-family="arial" font-size="14.00">injector&#45;pwr&#45;wire</text>
-<polygon fill="none" stroke="black" points="1732.5,-2180 1732.5,-2203 2064.5,-2203 2064.5,-2180 1732.5,-2180"/>
-<text text-anchor="start" x="1891" y="-2187.8" font-family="arial" font-size="14.00">6x</text>
-<text text-anchor="start" x="1777.5" y="-2166.8" font-family="arial" font-size="14.00"> </text>
-<text text-anchor="start" x="1734.5" y="-2147.8" font-family="arial" font-size="14.00">injector1:1:Pos</text>
-<text text-anchor="start" x="1828.5" y="-2147.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1897.5" y="-2147.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-2140 1732.5,-2142 2064.5,-2142 2064.5,-2140 1732.5,-2140"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2138 1732.5,-2140 2064.5,-2140 2064.5,-2138 1732.5,-2138"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2136 1732.5,-2138 2064.5,-2138 2064.5,-2136 1732.5,-2136"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2134 1732.5,-2136 2064.5,-2136 2064.5,-2134 1732.5,-2134"/>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-2132 1732.5,-2134 2064.5,-2134 2064.5,-2132 1732.5,-2132"/>
-<text text-anchor="start" x="1734.5" y="-2118.8" font-family="arial" font-size="14.00">injector2:1:Pos</text>
-<text text-anchor="start" x="1828.5" y="-2118.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;2:RD &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1897.5" y="-2118.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-2111 1732.5,-2113 2064.5,-2113 2064.5,-2111 1732.5,-2111"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2109 1732.5,-2111 2064.5,-2111 2064.5,-2109 1732.5,-2109"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2107 1732.5,-2109 2064.5,-2109 2064.5,-2107 1732.5,-2107"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2105 1732.5,-2107 2064.5,-2107 2064.5,-2105 1732.5,-2105"/>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-2103 1732.5,-2105 2064.5,-2105 2064.5,-2103 1732.5,-2103"/>
-<text text-anchor="start" x="1734.5" y="-2089.8" font-family="arial" font-size="14.00">injector3:1:Pos</text>
-<text text-anchor="start" x="1828.5" y="-2089.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;3:RD &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1897.5" y="-2089.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-2082 1732.5,-2084 2064.5,-2084 2064.5,-2082 1732.5,-2082"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2080 1732.5,-2082 2064.5,-2082 2064.5,-2080 1732.5,-2080"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2078 1732.5,-2080 2064.5,-2080 2064.5,-2078 1732.5,-2078"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2076 1732.5,-2078 2064.5,-2078 2064.5,-2076 1732.5,-2076"/>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-2074 1732.5,-2076 2064.5,-2076 2064.5,-2074 1732.5,-2074"/>
-<text text-anchor="start" x="1734.5" y="-2060.8" font-family="arial" font-size="14.00">injector4:1:Pos</text>
-<text text-anchor="start" x="1828.5" y="-2060.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;4:RD &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1897.5" y="-2060.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-2053 1732.5,-2055 2064.5,-2055 2064.5,-2053 1732.5,-2053"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2051 1732.5,-2053 2064.5,-2053 2064.5,-2051 1732.5,-2051"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2049 1732.5,-2051 2064.5,-2051 2064.5,-2049 1732.5,-2049"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2047 1732.5,-2049 2064.5,-2049 2064.5,-2047 1732.5,-2047"/>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-2045 1732.5,-2047 2064.5,-2047 2064.5,-2045 1732.5,-2045"/>
-<text text-anchor="start" x="1734.5" y="-2031.8" font-family="arial" font-size="14.00">injector5:1:Pos</text>
-<text text-anchor="start" x="1828.5" y="-2031.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;5:RD &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1897.5" y="-2031.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-2024 1732.5,-2026 2064.5,-2026 2064.5,-2024 1732.5,-2024"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2022 1732.5,-2024 2064.5,-2024 2064.5,-2022 1732.5,-2022"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2020 1732.5,-2022 2064.5,-2022 2064.5,-2020 1732.5,-2020"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2018 1732.5,-2020 2064.5,-2020 2064.5,-2018 1732.5,-2018"/>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-2016 1732.5,-2018 2064.5,-2018 2064.5,-2016 1732.5,-2016"/>
-<text text-anchor="start" x="1734.5" y="-2002.8" font-family="arial" font-size="14.00">injector6:1:Pos</text>
-<text text-anchor="start" x="1828.5" y="-2002.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;6:RD &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1897.5" y="-2002.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-1995 1732.5,-1997 2064.5,-1997 2064.5,-1995 1732.5,-1995"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-1993 1732.5,-1995 2064.5,-1995 2064.5,-1993 1732.5,-1993"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-1991 1732.5,-1993 2064.5,-1993 2064.5,-1991 1732.5,-1991"/>
-<polygon fill="#ff0000" stroke="transparent" points="1732.5,-1989 1732.5,-1991 2064.5,-1991 2064.5,-1989 1732.5,-1989"/>
-<polygon fill="#000000" stroke="transparent" points="1732.5,-1987 1732.5,-1989 2064.5,-1989 2064.5,-1987 1732.5,-1987"/>
-<text text-anchor="start" x="1777.5" y="-1973.8" font-family="arial" font-size="14.00"> </text>
+<polygon fill="#ffffff" stroke="black" points="2064.5,-2256 1732.5,-2256 1732.5,-1998 2064.5,-1998 2064.5,-2256"/>
+<polygon fill="none" stroke="black" points="1732.5,-2233 1732.5,-2256 2064.5,-2256 2064.5,-2233 1732.5,-2233"/>
+<text text-anchor="start" x="1848.5" y="-2240.8" font-family="arial" font-size="14.00">injector&#45;pwr&#45;wire</text>
+<polygon fill="none" stroke="black" points="1732.5,-2210 1732.5,-2233 2064.5,-2233 2064.5,-2210 1732.5,-2210"/>
+<text text-anchor="start" x="1891" y="-2217.8" font-family="arial" font-size="14.00">6x</text>
+<text text-anchor="start" x="1777.5" y="-2196.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="1734.5" y="-2177.8" font-family="arial" font-size="14.00">injector1:1:Pos</text>
+<text text-anchor="start" x="1828.5" y="-2177.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1897.5" y="-2177.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2170 1732.5,-2172 2064.5,-2172 2064.5,-2170 1732.5,-2170"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2168 1732.5,-2170 2064.5,-2170 2064.5,-2168 1732.5,-2168"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2166 1732.5,-2168 2064.5,-2168 2064.5,-2166 1732.5,-2166"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2164 1732.5,-2166 2064.5,-2166 2064.5,-2164 1732.5,-2164"/>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2162 1732.5,-2164 2064.5,-2164 2064.5,-2162 1732.5,-2162"/>
+<text text-anchor="start" x="1734.5" y="-2148.8" font-family="arial" font-size="14.00">injector2:1:Pos</text>
+<text text-anchor="start" x="1828.5" y="-2148.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;2:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1897.5" y="-2148.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2141 1732.5,-2143 2064.5,-2143 2064.5,-2141 1732.5,-2141"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2139 1732.5,-2141 2064.5,-2141 2064.5,-2139 1732.5,-2139"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2137 1732.5,-2139 2064.5,-2139 2064.5,-2137 1732.5,-2137"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2135 1732.5,-2137 2064.5,-2137 2064.5,-2135 1732.5,-2135"/>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2133 1732.5,-2135 2064.5,-2135 2064.5,-2133 1732.5,-2133"/>
+<text text-anchor="start" x="1734.5" y="-2119.8" font-family="arial" font-size="14.00">injector3:1:Pos</text>
+<text text-anchor="start" x="1828.5" y="-2119.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;3:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1897.5" y="-2119.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2112 1732.5,-2114 2064.5,-2114 2064.5,-2112 1732.5,-2112"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2110 1732.5,-2112 2064.5,-2112 2064.5,-2110 1732.5,-2110"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2108 1732.5,-2110 2064.5,-2110 2064.5,-2108 1732.5,-2108"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2106 1732.5,-2108 2064.5,-2108 2064.5,-2106 1732.5,-2106"/>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2104 1732.5,-2106 2064.5,-2106 2064.5,-2104 1732.5,-2104"/>
+<text text-anchor="start" x="1734.5" y="-2090.8" font-family="arial" font-size="14.00">injector4:1:Pos</text>
+<text text-anchor="start" x="1828.5" y="-2090.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;4:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1897.5" y="-2090.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2083 1732.5,-2085 2064.5,-2085 2064.5,-2083 1732.5,-2083"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2081 1732.5,-2083 2064.5,-2083 2064.5,-2081 1732.5,-2081"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2079 1732.5,-2081 2064.5,-2081 2064.5,-2079 1732.5,-2079"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2077 1732.5,-2079 2064.5,-2079 2064.5,-2077 1732.5,-2077"/>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2075 1732.5,-2077 2064.5,-2077 2064.5,-2075 1732.5,-2075"/>
+<text text-anchor="start" x="1734.5" y="-2061.8" font-family="arial" font-size="14.00">injector5:1:Pos</text>
+<text text-anchor="start" x="1828.5" y="-2061.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;5:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1897.5" y="-2061.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2054 1732.5,-2056 2064.5,-2056 2064.5,-2054 1732.5,-2054"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2052 1732.5,-2054 2064.5,-2054 2064.5,-2052 1732.5,-2052"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2050 1732.5,-2052 2064.5,-2052 2064.5,-2050 1732.5,-2050"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2048 1732.5,-2050 2064.5,-2050 2064.5,-2048 1732.5,-2048"/>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2046 1732.5,-2048 2064.5,-2048 2064.5,-2046 1732.5,-2046"/>
+<text text-anchor="start" x="1734.5" y="-2032.8" font-family="arial" font-size="14.00">injector6:1:Pos</text>
+<text text-anchor="start" x="1828.5" y="-2032.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;6:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1897.5" y="-2032.8" font-family="arial" font-size="14.00">razor_pdm:14:PWROUT1a</text>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2025 1732.5,-2027 2064.5,-2027 2064.5,-2025 1732.5,-2025"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2023 1732.5,-2025 2064.5,-2025 2064.5,-2023 1732.5,-2023"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2021 1732.5,-2023 2064.5,-2023 2064.5,-2021 1732.5,-2021"/>
+<polygon fill="#ff0000" stroke="transparent" points="1732.5,-2019 1732.5,-2021 2064.5,-2021 2064.5,-2019 1732.5,-2019"/>
+<polygon fill="#000000" stroke="transparent" points="1732.5,-2017 1732.5,-2019 2064.5,-2019 2064.5,-2017 1732.5,-2017"/>
+<text text-anchor="start" x="1777.5" y="-2003.8" font-family="arial" font-size="14.00"> </text>
 </g>
 <!-- injector1&#45;&#45;injector&#45;pwr&#45;wire -->
 <g id="edge107" class="edge">
 <title>injector1:e&#45;&#45;injector&#45;pwr&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-1670C1766.61,-1675.93 1512.41,-2138.93 1731.5,-2133"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1672C1764.85,-1674.96 1510.65,-2137.96 1731.5,-2135"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1674C1763.1,-1674 1508.9,-2137 1731.5,-2137"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1676C1761.35,-1673.04 1507.15,-2136.04 1731.5,-2139"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-1678C1759.59,-1672.07 1505.39,-2135.07 1731.5,-2141"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1670C1799.27,-1676.06 1503.59,-2169.06 1731.5,-2163"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1672C1797.56,-1675.03 1501.87,-2168.03 1731.5,-2165"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1674C1795.84,-1674 1500.16,-2167 1731.5,-2167"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1676C1794.13,-1672.97 1498.44,-2165.97 1731.5,-2169"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1678C1792.41,-1671.94 1496.73,-2164.94 1731.5,-2171"/>
 </g>
 <!-- injector2 -->
 <g id="node11" class="node">
 <title>injector2</title>
-<polygon fill="#ffffff" stroke="black" points="1539,-1848 1472,-1848 1472,-1756 1539,-1756 1539,-1848"/>
-<polygon fill="none" stroke="black" points="1472.5,-1825 1472.5,-1848 1539.5,-1848 1539.5,-1825 1472.5,-1825"/>
+<polygon fill="#ffffff" stroke="black" points="1563,-1848 1448,-1848 1448,-1756 1563,-1756 1563,-1848"/>
+<polygon fill="none" stroke="black" points="1448.5,-1825 1448.5,-1848 1563.5,-1848 1563.5,-1825 1448.5,-1825"/>
 <text text-anchor="start" x="1480" y="-1832.8" font-family="arial" font-size="14.00">injector2</text>
-<polygon fill="none" stroke="black" points="1472.5,-1802 1472.5,-1825 1539.5,-1825 1539.5,-1802 1472.5,-1802"/>
-<text text-anchor="start" x="1490.5" y="-1809.8" font-family="arial" font-size="14.00">2&#45;pin</text>
-<polygon fill="none" stroke="black" points="1472.5,-1779 1472.5,-1802 1488.5,-1802 1488.5,-1779 1472.5,-1779"/>
-<text text-anchor="start" x="1476.5" y="-1786.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1488.5,-1779 1488.5,-1802 1523.5,-1802 1523.5,-1779 1488.5,-1779"/>
+<polygon fill="none" stroke="black" points="1448.5,-1802 1448.5,-1825 1524.5,-1825 1524.5,-1802 1448.5,-1802"/>
+<text text-anchor="start" x="1452.5" y="-1809.8" font-family="arial" font-size="14.00">037906240</text>
+<polygon fill="none" stroke="black" points="1524.5,-1802 1524.5,-1825 1563.5,-1825 1563.5,-1802 1524.5,-1802"/>
+<text text-anchor="start" x="1528.5" y="-1809.8" font-family="arial" font-size="14.00">2&#45;pin</text>
+<polygon fill="none" stroke="black" points="1448.5,-1779 1448.5,-1802 1480.5,-1802 1480.5,-1779 1448.5,-1779"/>
+<text text-anchor="start" x="1460.5" y="-1786.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1480.5,-1779 1480.5,-1802 1531.5,-1802 1531.5,-1779 1480.5,-1779"/>
 <text text-anchor="start" x="1494" y="-1786.8" font-family="arial" font-size="14.00">Pos</text>
-<polygon fill="none" stroke="black" points="1523.5,-1779 1523.5,-1802 1539.5,-1802 1539.5,-1779 1523.5,-1779"/>
-<text text-anchor="start" x="1527.5" y="-1786.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1472.5,-1756 1472.5,-1779 1488.5,-1779 1488.5,-1756 1472.5,-1756"/>
-<text text-anchor="start" x="1476.5" y="-1763.8" font-family="arial" font-size="14.00">2</text>
-<polygon fill="none" stroke="black" points="1488.5,-1756 1488.5,-1779 1523.5,-1779 1523.5,-1756 1488.5,-1756"/>
+<polygon fill="none" stroke="black" points="1531.5,-1779 1531.5,-1802 1563.5,-1802 1563.5,-1779 1531.5,-1779"/>
+<text text-anchor="start" x="1543.5" y="-1786.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1448.5,-1756 1448.5,-1779 1480.5,-1779 1480.5,-1756 1448.5,-1756"/>
+<text text-anchor="start" x="1460.5" y="-1763.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1480.5,-1756 1480.5,-1779 1531.5,-1779 1531.5,-1756 1480.5,-1756"/>
 <text text-anchor="start" x="1492.5" y="-1763.8" font-family="arial" font-size="14.00">Gnd</text>
-<polygon fill="none" stroke="black" points="1523.5,-1756 1523.5,-1779 1539.5,-1779 1539.5,-1756 1523.5,-1756"/>
-<text text-anchor="start" x="1527.5" y="-1763.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1531.5,-1756 1531.5,-1779 1563.5,-1779 1563.5,-1756 1531.5,-1756"/>
+<text text-anchor="start" x="1543.5" y="-1763.8" font-family="arial" font-size="14.00">2</text>
 </g>
 <!-- injector2&#45;&#45;injector&#45;pwr&#45;wire -->
 <g id="edge109" class="edge">
 <title>injector2:e&#45;&#45;injector&#45;pwr&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-1786C1709.03,-1791.6 1570.3,-2109.6 1731.5,-2104"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1788C1707.2,-1790.8 1568.47,-2108.8 1731.5,-2106"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1790C1705.37,-1790 1566.63,-2108 1731.5,-2108"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1792C1703.53,-1789.2 1564.8,-2107.2 1731.5,-2110"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-1794C1701.7,-1788.4 1562.97,-2106.4 1731.5,-2112"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1786C1739.62,-1791.81 1563.52,-2139.81 1731.5,-2134"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1788C1737.84,-1790.9 1561.73,-2138.9 1731.5,-2136"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1790C1736.05,-1790 1559.95,-2138 1731.5,-2138"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1792C1734.27,-1789.1 1558.16,-2137.1 1731.5,-2140"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1794C1732.48,-1788.19 1556.38,-2136.19 1731.5,-2142"/>
 </g>
 <!-- injector3 -->
 <g id="node12" class="node">
 <title>injector3</title>
-<polygon fill="#ffffff" stroke="black" points="1539,-2196 1472,-2196 1472,-2104 1539,-2104 1539,-2196"/>
-<polygon fill="none" stroke="black" points="1472.5,-2173 1472.5,-2196 1539.5,-2196 1539.5,-2173 1472.5,-2173"/>
+<polygon fill="#ffffff" stroke="black" points="1563,-2196 1448,-2196 1448,-2104 1563,-2104 1563,-2196"/>
+<polygon fill="none" stroke="black" points="1448.5,-2173 1448.5,-2196 1563.5,-2196 1563.5,-2173 1448.5,-2173"/>
 <text text-anchor="start" x="1480" y="-2180.8" font-family="arial" font-size="14.00">injector3</text>
-<polygon fill="none" stroke="black" points="1472.5,-2150 1472.5,-2173 1539.5,-2173 1539.5,-2150 1472.5,-2150"/>
-<text text-anchor="start" x="1490.5" y="-2157.8" font-family="arial" font-size="14.00">2&#45;pin</text>
-<polygon fill="none" stroke="black" points="1472.5,-2127 1472.5,-2150 1488.5,-2150 1488.5,-2127 1472.5,-2127"/>
-<text text-anchor="start" x="1476.5" y="-2134.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1488.5,-2127 1488.5,-2150 1523.5,-2150 1523.5,-2127 1488.5,-2127"/>
+<polygon fill="none" stroke="black" points="1448.5,-2150 1448.5,-2173 1524.5,-2173 1524.5,-2150 1448.5,-2150"/>
+<text text-anchor="start" x="1452.5" y="-2157.8" font-family="arial" font-size="14.00">037906240</text>
+<polygon fill="none" stroke="black" points="1524.5,-2150 1524.5,-2173 1563.5,-2173 1563.5,-2150 1524.5,-2150"/>
+<text text-anchor="start" x="1528.5" y="-2157.8" font-family="arial" font-size="14.00">2&#45;pin</text>
+<polygon fill="none" stroke="black" points="1448.5,-2127 1448.5,-2150 1480.5,-2150 1480.5,-2127 1448.5,-2127"/>
+<text text-anchor="start" x="1460.5" y="-2134.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1480.5,-2127 1480.5,-2150 1531.5,-2150 1531.5,-2127 1480.5,-2127"/>
 <text text-anchor="start" x="1494" y="-2134.8" font-family="arial" font-size="14.00">Pos</text>
-<polygon fill="none" stroke="black" points="1523.5,-2127 1523.5,-2150 1539.5,-2150 1539.5,-2127 1523.5,-2127"/>
-<text text-anchor="start" x="1527.5" y="-2134.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1472.5,-2104 1472.5,-2127 1488.5,-2127 1488.5,-2104 1472.5,-2104"/>
-<text text-anchor="start" x="1476.5" y="-2111.8" font-family="arial" font-size="14.00">2</text>
-<polygon fill="none" stroke="black" points="1488.5,-2104 1488.5,-2127 1523.5,-2127 1523.5,-2104 1488.5,-2104"/>
+<polygon fill="none" stroke="black" points="1531.5,-2127 1531.5,-2150 1563.5,-2150 1563.5,-2127 1531.5,-2127"/>
+<text text-anchor="start" x="1543.5" y="-2134.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1448.5,-2104 1448.5,-2127 1480.5,-2127 1480.5,-2104 1448.5,-2104"/>
+<text text-anchor="start" x="1460.5" y="-2111.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1480.5,-2104 1480.5,-2127 1531.5,-2127 1531.5,-2104 1480.5,-2104"/>
 <text text-anchor="start" x="1492.5" y="-2111.8" font-family="arial" font-size="14.00">Gnd</text>
-<polygon fill="none" stroke="black" points="1523.5,-2104 1523.5,-2127 1539.5,-2127 1539.5,-2104 1523.5,-2104"/>
-<text text-anchor="start" x="1527.5" y="-2111.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1531.5,-2104 1531.5,-2127 1563.5,-2127 1563.5,-2104 1531.5,-2104"/>
+<text text-anchor="start" x="1543.5" y="-2111.8" font-family="arial" font-size="14.00">2</text>
 </g>
 <!-- injector3&#45;&#45;injector&#45;pwr&#45;wire -->
 <g id="edge111" class="edge">
 <title>injector3:e&#45;&#45;injector&#45;pwr&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-2134C1625.44,-2137.12 1638.75,-2078.12 1731.5,-2075"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-2136C1627.4,-2137.56 1640.7,-2078.56 1731.5,-2077"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-2138C1629.35,-2138 1642.65,-2079 1731.5,-2079"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-2140C1631.3,-2138.44 1644.6,-2079.44 1731.5,-2081"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-2142C1633.25,-2138.88 1646.56,-2079.88 1731.5,-2083"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-2134C1636.35,-2136.04 1652.68,-2107.04 1731.5,-2105"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-2136C1638.09,-2137.02 1654.42,-2108.02 1731.5,-2107"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-2138C1639.83,-2138 1656.17,-2109 1731.5,-2109"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-2140C1641.58,-2138.98 1657.91,-2109.98 1731.5,-2111"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-2142C1643.32,-2139.96 1659.65,-2110.96 1731.5,-2113"/>
 </g>
 <!-- injector4 -->
 <g id="node13" class="node">
 <title>injector4</title>
-<polygon fill="#ffffff" stroke="black" points="1539,-1616 1472,-1616 1472,-1524 1539,-1524 1539,-1616"/>
-<polygon fill="none" stroke="black" points="1472.5,-1593 1472.5,-1616 1539.5,-1616 1539.5,-1593 1472.5,-1593"/>
+<polygon fill="#ffffff" stroke="black" points="1563,-1616 1448,-1616 1448,-1524 1563,-1524 1563,-1616"/>
+<polygon fill="none" stroke="black" points="1448.5,-1593 1448.5,-1616 1563.5,-1616 1563.5,-1593 1448.5,-1593"/>
 <text text-anchor="start" x="1480" y="-1600.8" font-family="arial" font-size="14.00">injector4</text>
-<polygon fill="none" stroke="black" points="1472.5,-1570 1472.5,-1593 1539.5,-1593 1539.5,-1570 1472.5,-1570"/>
-<text text-anchor="start" x="1490.5" y="-1577.8" font-family="arial" font-size="14.00">2&#45;pin</text>
-<polygon fill="none" stroke="black" points="1472.5,-1547 1472.5,-1570 1488.5,-1570 1488.5,-1547 1472.5,-1547"/>
-<text text-anchor="start" x="1476.5" y="-1554.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1488.5,-1547 1488.5,-1570 1523.5,-1570 1523.5,-1547 1488.5,-1547"/>
+<polygon fill="none" stroke="black" points="1448.5,-1570 1448.5,-1593 1524.5,-1593 1524.5,-1570 1448.5,-1570"/>
+<text text-anchor="start" x="1452.5" y="-1577.8" font-family="arial" font-size="14.00">037906240</text>
+<polygon fill="none" stroke="black" points="1524.5,-1570 1524.5,-1593 1563.5,-1593 1563.5,-1570 1524.5,-1570"/>
+<text text-anchor="start" x="1528.5" y="-1577.8" font-family="arial" font-size="14.00">2&#45;pin</text>
+<polygon fill="none" stroke="black" points="1448.5,-1547 1448.5,-1570 1480.5,-1570 1480.5,-1547 1448.5,-1547"/>
+<text text-anchor="start" x="1460.5" y="-1554.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1480.5,-1547 1480.5,-1570 1531.5,-1570 1531.5,-1547 1480.5,-1547"/>
 <text text-anchor="start" x="1494" y="-1554.8" font-family="arial" font-size="14.00">Pos</text>
-<polygon fill="none" stroke="black" points="1523.5,-1547 1523.5,-1570 1539.5,-1570 1539.5,-1547 1523.5,-1547"/>
-<text text-anchor="start" x="1527.5" y="-1554.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1472.5,-1524 1472.5,-1547 1488.5,-1547 1488.5,-1524 1472.5,-1524"/>
-<text text-anchor="start" x="1476.5" y="-1531.8" font-family="arial" font-size="14.00">2</text>
-<polygon fill="none" stroke="black" points="1488.5,-1524 1488.5,-1547 1523.5,-1547 1523.5,-1524 1488.5,-1524"/>
+<polygon fill="none" stroke="black" points="1531.5,-1547 1531.5,-1570 1563.5,-1570 1563.5,-1547 1531.5,-1547"/>
+<text text-anchor="start" x="1543.5" y="-1554.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1448.5,-1524 1448.5,-1547 1480.5,-1547 1480.5,-1524 1448.5,-1524"/>
+<text text-anchor="start" x="1460.5" y="-1531.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1480.5,-1524 1480.5,-1547 1531.5,-1547 1531.5,-1524 1480.5,-1524"/>
 <text text-anchor="start" x="1492.5" y="-1531.8" font-family="arial" font-size="14.00">Gnd</text>
-<polygon fill="none" stroke="black" points="1523.5,-1524 1523.5,-1547 1539.5,-1547 1539.5,-1524 1523.5,-1524"/>
-<text text-anchor="start" x="1527.5" y="-1531.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1531.5,-1524 1531.5,-1547 1563.5,-1547 1563.5,-1524 1531.5,-1524"/>
+<text text-anchor="start" x="1543.5" y="-1531.8" font-family="arial" font-size="14.00">2</text>
 </g>
 <!-- injector4&#45;&#45;injector&#45;pwr&#45;wire -->
 <g id="edge113" class="edge">
 <title>injector4:e&#45;&#45;injector&#45;pwr&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-1554C1778.55,-1559.97 1500.42,-2051.97 1731.5,-2046"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1556C1776.81,-1558.98 1498.68,-2050.98 1731.5,-2048"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1558C1775.07,-1558 1496.93,-2050 1731.5,-2050"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1560C1773.32,-1557.02 1495.19,-2049.02 1731.5,-2052"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-1562C1771.58,-1556.03 1493.45,-2048.03 1731.5,-2054"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1554C1811.49,-1560.09 1491.33,-2082.09 1731.5,-2076"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1556C1809.79,-1559.05 1489.62,-2081.05 1731.5,-2078"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1558C1808.08,-1558 1487.92,-2080 1731.5,-2080"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1560C1806.38,-1556.95 1486.21,-2078.95 1731.5,-2082"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1562C1804.67,-1555.91 1484.51,-2077.91 1731.5,-2084"/>
 </g>
 <!-- injector5 -->
 <g id="node14" class="node">
 <title>injector5</title>
-<polygon fill="#ffffff" stroke="black" points="1539,-1964 1472,-1964 1472,-1872 1539,-1872 1539,-1964"/>
-<polygon fill="none" stroke="black" points="1472.5,-1941 1472.5,-1964 1539.5,-1964 1539.5,-1941 1472.5,-1941"/>
+<polygon fill="#ffffff" stroke="black" points="1563,-1964 1448,-1964 1448,-1872 1563,-1872 1563,-1964"/>
+<polygon fill="none" stroke="black" points="1448.5,-1941 1448.5,-1964 1563.5,-1964 1563.5,-1941 1448.5,-1941"/>
 <text text-anchor="start" x="1480" y="-1948.8" font-family="arial" font-size="14.00">injector5</text>
-<polygon fill="none" stroke="black" points="1472.5,-1918 1472.5,-1941 1539.5,-1941 1539.5,-1918 1472.5,-1918"/>
-<text text-anchor="start" x="1490.5" y="-1925.8" font-family="arial" font-size="14.00">2&#45;pin</text>
-<polygon fill="none" stroke="black" points="1472.5,-1895 1472.5,-1918 1488.5,-1918 1488.5,-1895 1472.5,-1895"/>
-<text text-anchor="start" x="1476.5" y="-1902.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1488.5,-1895 1488.5,-1918 1523.5,-1918 1523.5,-1895 1488.5,-1895"/>
+<polygon fill="none" stroke="black" points="1448.5,-1918 1448.5,-1941 1524.5,-1941 1524.5,-1918 1448.5,-1918"/>
+<text text-anchor="start" x="1452.5" y="-1925.8" font-family="arial" font-size="14.00">037906240</text>
+<polygon fill="none" stroke="black" points="1524.5,-1918 1524.5,-1941 1563.5,-1941 1563.5,-1918 1524.5,-1918"/>
+<text text-anchor="start" x="1528.5" y="-1925.8" font-family="arial" font-size="14.00">2&#45;pin</text>
+<polygon fill="none" stroke="black" points="1448.5,-1895 1448.5,-1918 1480.5,-1918 1480.5,-1895 1448.5,-1895"/>
+<text text-anchor="start" x="1460.5" y="-1902.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1480.5,-1895 1480.5,-1918 1531.5,-1918 1531.5,-1895 1480.5,-1895"/>
 <text text-anchor="start" x="1494" y="-1902.8" font-family="arial" font-size="14.00">Pos</text>
-<polygon fill="none" stroke="black" points="1523.5,-1895 1523.5,-1918 1539.5,-1918 1539.5,-1895 1523.5,-1895"/>
-<text text-anchor="start" x="1527.5" y="-1902.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1472.5,-1872 1472.5,-1895 1488.5,-1895 1488.5,-1872 1472.5,-1872"/>
-<text text-anchor="start" x="1476.5" y="-1879.8" font-family="arial" font-size="14.00">2</text>
-<polygon fill="none" stroke="black" points="1488.5,-1872 1488.5,-1895 1523.5,-1895 1523.5,-1872 1488.5,-1872"/>
+<polygon fill="none" stroke="black" points="1531.5,-1895 1531.5,-1918 1563.5,-1918 1563.5,-1895 1531.5,-1895"/>
+<text text-anchor="start" x="1543.5" y="-1902.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1448.5,-1872 1448.5,-1895 1480.5,-1895 1480.5,-1872 1448.5,-1872"/>
+<text text-anchor="start" x="1460.5" y="-1879.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1480.5,-1872 1480.5,-1895 1531.5,-1895 1531.5,-1872 1480.5,-1872"/>
 <text text-anchor="start" x="1492.5" y="-1879.8" font-family="arial" font-size="14.00">Gnd</text>
-<polygon fill="none" stroke="black" points="1523.5,-1872 1523.5,-1895 1539.5,-1895 1539.5,-1872 1523.5,-1872"/>
-<text text-anchor="start" x="1527.5" y="-1879.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1531.5,-1872 1531.5,-1895 1563.5,-1895 1563.5,-1872 1531.5,-1872"/>
+<text text-anchor="start" x="1543.5" y="-1879.8" font-family="arial" font-size="14.00">2</text>
 </g>
 <!-- injector5&#45;&#45;injector&#45;pwr&#45;wire -->
 <g id="edge115" class="edge">
 <title>injector5:e&#45;&#45;injector&#45;pwr&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-1902C1643.58,-1906.25 1636.4,-2021.25 1731.5,-2017"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1904C1641.58,-1906.12 1634.41,-2021.12 1731.5,-2019"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1906C1639.59,-1906 1632.41,-2021 1731.5,-2021"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-1908C1637.59,-1905.88 1630.42,-2020.88 1731.5,-2023"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-1910C1635.6,-1905.75 1628.42,-2020.75 1731.5,-2025"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1902C1666.71,-1906.8 1637.12,-2051.8 1731.5,-2047"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1904C1664.76,-1906.4 1635.16,-2051.4 1731.5,-2049"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1906C1662.8,-1906 1633.2,-2051 1731.5,-2051"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1908C1660.84,-1905.6 1631.24,-2050.6 1731.5,-2053"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1910C1658.88,-1905.2 1629.29,-2050.2 1731.5,-2055"/>
 </g>
 <!-- injector6 -->
 <g id="node15" class="node">
 <title>injector6</title>
-<polygon fill="#ffffff" stroke="black" points="1539,-2080 1472,-2080 1472,-1988 1539,-1988 1539,-2080"/>
-<polygon fill="none" stroke="black" points="1472.5,-2057 1472.5,-2080 1539.5,-2080 1539.5,-2057 1472.5,-2057"/>
+<polygon fill="#ffffff" stroke="black" points="1563,-2080 1448,-2080 1448,-1988 1563,-1988 1563,-2080"/>
+<polygon fill="none" stroke="black" points="1448.5,-2057 1448.5,-2080 1563.5,-2080 1563.5,-2057 1448.5,-2057"/>
 <text text-anchor="start" x="1480" y="-2064.8" font-family="arial" font-size="14.00">injector6</text>
-<polygon fill="none" stroke="black" points="1472.5,-2034 1472.5,-2057 1539.5,-2057 1539.5,-2034 1472.5,-2034"/>
-<text text-anchor="start" x="1490.5" y="-2041.8" font-family="arial" font-size="14.00">2&#45;pin</text>
-<polygon fill="none" stroke="black" points="1472.5,-2011 1472.5,-2034 1488.5,-2034 1488.5,-2011 1472.5,-2011"/>
-<text text-anchor="start" x="1476.5" y="-2018.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1488.5,-2011 1488.5,-2034 1523.5,-2034 1523.5,-2011 1488.5,-2011"/>
+<polygon fill="none" stroke="black" points="1448.5,-2034 1448.5,-2057 1524.5,-2057 1524.5,-2034 1448.5,-2034"/>
+<text text-anchor="start" x="1452.5" y="-2041.8" font-family="arial" font-size="14.00">037906240</text>
+<polygon fill="none" stroke="black" points="1524.5,-2034 1524.5,-2057 1563.5,-2057 1563.5,-2034 1524.5,-2034"/>
+<text text-anchor="start" x="1528.5" y="-2041.8" font-family="arial" font-size="14.00">2&#45;pin</text>
+<polygon fill="none" stroke="black" points="1448.5,-2011 1448.5,-2034 1480.5,-2034 1480.5,-2011 1448.5,-2011"/>
+<text text-anchor="start" x="1460.5" y="-2018.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1480.5,-2011 1480.5,-2034 1531.5,-2034 1531.5,-2011 1480.5,-2011"/>
 <text text-anchor="start" x="1494" y="-2018.8" font-family="arial" font-size="14.00">Pos</text>
-<polygon fill="none" stroke="black" points="1523.5,-2011 1523.5,-2034 1539.5,-2034 1539.5,-2011 1523.5,-2011"/>
-<text text-anchor="start" x="1527.5" y="-2018.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1472.5,-1988 1472.5,-2011 1488.5,-2011 1488.5,-1988 1472.5,-1988"/>
-<text text-anchor="start" x="1476.5" y="-1995.8" font-family="arial" font-size="14.00">2</text>
-<polygon fill="none" stroke="black" points="1488.5,-1988 1488.5,-2011 1523.5,-2011 1523.5,-1988 1488.5,-1988"/>
+<polygon fill="none" stroke="black" points="1531.5,-2011 1531.5,-2034 1563.5,-2034 1563.5,-2011 1531.5,-2011"/>
+<text text-anchor="start" x="1543.5" y="-2018.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1448.5,-1988 1448.5,-2011 1480.5,-2011 1480.5,-1988 1448.5,-1988"/>
+<text text-anchor="start" x="1460.5" y="-1995.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1480.5,-1988 1480.5,-2011 1531.5,-2011 1531.5,-1988 1480.5,-1988"/>
 <text text-anchor="start" x="1492.5" y="-1995.8" font-family="arial" font-size="14.00">Gnd</text>
-<polygon fill="none" stroke="black" points="1523.5,-1988 1523.5,-2011 1539.5,-2011 1539.5,-1988 1523.5,-1988"/>
-<text text-anchor="start" x="1527.5" y="-1995.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1531.5,-1988 1531.5,-2011 1563.5,-2011 1563.5,-1988 1531.5,-1988"/>
+<text text-anchor="start" x="1543.5" y="-1995.8" font-family="arial" font-size="14.00">2</text>
 </g>
 <!-- injector6&#45;&#45;injector&#45;pwr&#45;wire -->
 <g id="edge117" class="edge">
 <title>injector6:e&#45;&#45;injector&#45;pwr&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-2018C1623.06,-2019.85 1642.2,-1989.85 1731.5,-1988"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-2020C1624.74,-2020.92 1643.88,-1990.92 1731.5,-1990"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-2022C1626.43,-2022 1645.57,-1992 1731.5,-1992"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1540.5,-2024C1628.12,-2023.08 1647.26,-1993.08 1731.5,-1994"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1540.5,-2026C1629.8,-2024.15 1648.94,-1994.15 1731.5,-1996"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-2018C1638.72,-2018 1657.28,-2018 1731.5,-2018"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-2020C1638.72,-2020 1657.28,-2020 1731.5,-2020"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-2022C1638.72,-2022 1657.28,-2022 1731.5,-2022"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-2024C1638.72,-2024 1657.28,-2024 1731.5,-2024"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-2026C1638.72,-2026 1657.28,-2026 1731.5,-2026"/>
 </g>
 <!-- knock1 -->
 <g id="node16" class="node">
 <title>knock1</title>
-<polygon fill="#ffffff" stroke="black" points="1531.5,-2335.5 1479.5,-2335.5 1479.5,-2220.5 1531.5,-2220.5 1531.5,-2335.5"/>
-<polygon fill="none" stroke="black" points="1479.5,-2312 1479.5,-2335 1531.5,-2335 1531.5,-2312 1479.5,-2312"/>
-<text text-anchor="start" x="1484" y="-2319.8" font-family="arial" font-size="14.00">knock1</text>
-<polygon fill="none" stroke="black" points="1479.5,-2289 1479.5,-2312 1531.5,-2312 1531.5,-2289 1479.5,-2289"/>
-<text text-anchor="start" x="1490" y="-2296.8" font-family="arial" font-size="14.00">3&#45;pin</text>
-<polygon fill="none" stroke="black" points="1479.5,-2266 1479.5,-2289 1495.5,-2289 1495.5,-2266 1479.5,-2266"/>
-<text text-anchor="start" x="1483.5" y="-2273.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1495.5,-2266 1495.5,-2289 1531.5,-2289 1531.5,-2266 1495.5,-2266"/>
-<text text-anchor="start" x="1499.5" y="-2273.8" font-family="arial" font-size="14.00">Sig+</text>
-<polygon fill="none" stroke="black" points="1479.5,-2243 1479.5,-2266 1495.5,-2266 1495.5,-2243 1479.5,-2243"/>
-<text text-anchor="start" x="1483.5" y="-2250.8" font-family="arial" font-size="14.00">2</text>
-<polygon fill="none" stroke="black" points="1495.5,-2243 1495.5,-2266 1531.5,-2266 1531.5,-2243 1495.5,-2243"/>
-<text text-anchor="start" x="1501" y="-2250.8" font-family="arial" font-size="14.00">Sig&#45;</text>
-<polygon fill="none" stroke="black" points="1479.5,-2220 1479.5,-2243 1495.5,-2243 1495.5,-2220 1479.5,-2220"/>
-<text text-anchor="start" x="1483.5" y="-2227.8" font-family="arial" font-size="14.00">3</text>
-<polygon fill="none" stroke="black" points="1495.5,-2220 1495.5,-2243 1531.5,-2243 1531.5,-2220 1495.5,-2220"/>
-<text text-anchor="start" x="1503" y="-2227.8" font-family="arial" font-size="14.00">Scr</text>
+<polygon fill="#ffffff" stroke="black" points="1563,-2335.5 1448,-2335.5 1448,-2220.5 1563,-2220.5 1563,-2335.5"/>
+<polygon fill="none" stroke="black" points="1448.5,-2312 1448.5,-2335 1563.5,-2335 1563.5,-2312 1448.5,-2312"/>
+<text text-anchor="start" x="1484.5" y="-2319.8" font-family="arial" font-size="14.00">knock1</text>
+<polygon fill="none" stroke="black" points="1448.5,-2289 1448.5,-2312 1524.5,-2312 1524.5,-2289 1448.5,-2289"/>
+<text text-anchor="start" x="1452.5" y="-2296.8" font-family="arial" font-size="14.00">037906240</text>
+<polygon fill="none" stroke="black" points="1524.5,-2289 1524.5,-2312 1563.5,-2312 1563.5,-2289 1524.5,-2289"/>
+<text text-anchor="start" x="1528.5" y="-2296.8" font-family="arial" font-size="14.00">3&#45;pin</text>
+<polygon fill="none" stroke="black" points="1448.5,-2266 1448.5,-2289 1496.5,-2289 1496.5,-2266 1448.5,-2266"/>
+<text text-anchor="start" x="1468.5" y="-2273.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1496.5,-2266 1496.5,-2289 1563.5,-2289 1563.5,-2266 1496.5,-2266"/>
+<text text-anchor="start" x="1516" y="-2273.8" font-family="arial" font-size="14.00">Sig+</text>
+<polygon fill="none" stroke="black" points="1448.5,-2243 1448.5,-2266 1496.5,-2266 1496.5,-2243 1448.5,-2243"/>
+<text text-anchor="start" x="1468.5" y="-2250.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1496.5,-2243 1496.5,-2266 1563.5,-2266 1563.5,-2243 1496.5,-2243"/>
+<text text-anchor="start" x="1517.5" y="-2250.8" font-family="arial" font-size="14.00">Sig&#45;</text>
+<polygon fill="none" stroke="black" points="1448.5,-2220 1448.5,-2243 1496.5,-2243 1496.5,-2220 1448.5,-2220"/>
+<text text-anchor="start" x="1468.5" y="-2227.8" font-family="arial" font-size="14.00">3</text>
+<polygon fill="none" stroke="black" points="1496.5,-2220 1496.5,-2243 1563.5,-2243 1563.5,-2220 1496.5,-2220"/>
+<text text-anchor="start" x="1519.5" y="-2227.8" font-family="arial" font-size="14.00">Scr</text>
 </g>
 <!-- knock2 -->
 <g id="node17" class="node">
 <title>knock2</title>
-<polygon fill="#ffffff" stroke="black" points="1531.5,-2498.5 1479.5,-2498.5 1479.5,-2383.5 1531.5,-2383.5 1531.5,-2498.5"/>
-<polygon fill="none" stroke="black" points="1479.5,-2475 1479.5,-2498 1531.5,-2498 1531.5,-2475 1479.5,-2475"/>
-<text text-anchor="start" x="1484" y="-2482.8" font-family="arial" font-size="14.00">knock2</text>
-<polygon fill="none" stroke="black" points="1479.5,-2452 1479.5,-2475 1531.5,-2475 1531.5,-2452 1479.5,-2452"/>
-<text text-anchor="start" x="1490" y="-2459.8" font-family="arial" font-size="14.00">3&#45;pin</text>
-<polygon fill="none" stroke="black" points="1479.5,-2429 1479.5,-2452 1495.5,-2452 1495.5,-2429 1479.5,-2429"/>
-<text text-anchor="start" x="1483.5" y="-2436.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1495.5,-2429 1495.5,-2452 1531.5,-2452 1531.5,-2429 1495.5,-2429"/>
-<text text-anchor="start" x="1499.5" y="-2436.8" font-family="arial" font-size="14.00">Sig+</text>
-<polygon fill="none" stroke="black" points="1479.5,-2406 1479.5,-2429 1495.5,-2429 1495.5,-2406 1479.5,-2406"/>
-<text text-anchor="start" x="1483.5" y="-2413.8" font-family="arial" font-size="14.00">2</text>
-<polygon fill="none" stroke="black" points="1495.5,-2406 1495.5,-2429 1531.5,-2429 1531.5,-2406 1495.5,-2406"/>
-<text text-anchor="start" x="1501" y="-2413.8" font-family="arial" font-size="14.00">Sig&#45;</text>
-<polygon fill="none" stroke="black" points="1479.5,-2383 1479.5,-2406 1495.5,-2406 1495.5,-2383 1479.5,-2383"/>
-<text text-anchor="start" x="1483.5" y="-2390.8" font-family="arial" font-size="14.00">3</text>
-<polygon fill="none" stroke="black" points="1495.5,-2383 1495.5,-2406 1531.5,-2406 1531.5,-2383 1495.5,-2383"/>
-<text text-anchor="start" x="1503" y="-2390.8" font-family="arial" font-size="14.00">Scr</text>
+<polygon fill="#ffffff" stroke="black" points="1563,-2498.5 1448,-2498.5 1448,-2383.5 1563,-2383.5 1563,-2498.5"/>
+<polygon fill="none" stroke="black" points="1448.5,-2475 1448.5,-2498 1563.5,-2498 1563.5,-2475 1448.5,-2475"/>
+<text text-anchor="start" x="1484.5" y="-2482.8" font-family="arial" font-size="14.00">knock2</text>
+<polygon fill="none" stroke="black" points="1448.5,-2452 1448.5,-2475 1524.5,-2475 1524.5,-2452 1448.5,-2452"/>
+<text text-anchor="start" x="1452.5" y="-2459.8" font-family="arial" font-size="14.00">037906240</text>
+<polygon fill="none" stroke="black" points="1524.5,-2452 1524.5,-2475 1563.5,-2475 1563.5,-2452 1524.5,-2452"/>
+<text text-anchor="start" x="1528.5" y="-2459.8" font-family="arial" font-size="14.00">3&#45;pin</text>
+<polygon fill="none" stroke="black" points="1448.5,-2429 1448.5,-2452 1496.5,-2452 1496.5,-2429 1448.5,-2429"/>
+<text text-anchor="start" x="1468.5" y="-2436.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1496.5,-2429 1496.5,-2452 1563.5,-2452 1563.5,-2429 1496.5,-2429"/>
+<text text-anchor="start" x="1516" y="-2436.8" font-family="arial" font-size="14.00">Sig+</text>
+<polygon fill="none" stroke="black" points="1448.5,-2406 1448.5,-2429 1496.5,-2429 1496.5,-2406 1448.5,-2406"/>
+<text text-anchor="start" x="1468.5" y="-2413.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="1496.5,-2406 1496.5,-2429 1563.5,-2429 1563.5,-2406 1496.5,-2406"/>
+<text text-anchor="start" x="1517.5" y="-2413.8" font-family="arial" font-size="14.00">Sig&#45;</text>
+<polygon fill="none" stroke="black" points="1448.5,-2383 1448.5,-2406 1496.5,-2406 1496.5,-2383 1448.5,-2383"/>
+<text text-anchor="start" x="1468.5" y="-2390.8" font-family="arial" font-size="14.00">3</text>
+<polygon fill="none" stroke="black" points="1496.5,-2383 1496.5,-2406 1563.5,-2406 1563.5,-2383 1496.5,-2383"/>
+<text text-anchor="start" x="1519.5" y="-2390.8" font-family="arial" font-size="14.00">Scr</text>
 </g>
 <!-- aux&#45;coolant&#45;pump -->
 <g id="node18" class="node">
 <title>aux&#45;coolant&#45;pump</title>
-<polygon fill="#ffffff" stroke="black" points="1564,-1384 1447,-1384 1447,-1292 1564,-1292 1564,-1384"/>
-<polygon fill="none" stroke="black" points="1447.5,-1361 1447.5,-1384 1564.5,-1384 1564.5,-1361 1447.5,-1361"/>
-<text text-anchor="start" x="1451.5" y="-1368.8" font-family="arial" font-size="14.00">aux&#45;coolant&#45;pump</text>
-<polygon fill="none" stroke="black" points="1447.5,-1338 1447.5,-1361 1564.5,-1361 1564.5,-1338 1447.5,-1338"/>
-<text text-anchor="start" x="1490.5" y="-1345.8" font-family="arial" font-size="14.00">2&#45;pin</text>
-<polygon fill="none" stroke="black" points="1447.5,-1315 1447.5,-1338 1515.5,-1338 1515.5,-1315 1447.5,-1315"/>
-<text text-anchor="start" x="1469.5" y="-1322.8" font-family="arial" font-size="14.00">Pos</text>
-<polygon fill="none" stroke="black" points="1515.5,-1315 1515.5,-1338 1564.5,-1338 1564.5,-1315 1515.5,-1315"/>
-<text text-anchor="start" x="1536" y="-1322.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1447.5,-1292 1447.5,-1315 1515.5,-1315 1515.5,-1292 1447.5,-1292"/>
-<text text-anchor="start" x="1468" y="-1299.8" font-family="arial" font-size="14.00">Gnd</text>
-<polygon fill="none" stroke="black" points="1515.5,-1292 1515.5,-1315 1564.5,-1315 1564.5,-1292 1515.5,-1292"/>
-<text text-anchor="start" x="1536" y="-1299.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="#ffffff" stroke="black" points="1564,-1375 1447,-1375 1447,-1283 1564,-1283 1564,-1375"/>
+<polygon fill="none" stroke="black" points="1447.5,-1352 1447.5,-1375 1564.5,-1375 1564.5,-1352 1447.5,-1352"/>
+<text text-anchor="start" x="1451.5" y="-1359.8" font-family="arial" font-size="14.00">aux&#45;coolant&#45;pump</text>
+<polygon fill="none" stroke="black" points="1447.5,-1329 1447.5,-1352 1524.5,-1352 1524.5,-1329 1447.5,-1329"/>
+<text text-anchor="start" x="1452" y="-1336.8" font-family="arial" font-size="14.00">357972752</text>
+<polygon fill="none" stroke="black" points="1524.5,-1329 1524.5,-1352 1564.5,-1352 1564.5,-1329 1524.5,-1329"/>
+<text text-anchor="start" x="1529" y="-1336.8" font-family="arial" font-size="14.00">2&#45;pin</text>
+<polygon fill="none" stroke="black" points="1447.5,-1306 1447.5,-1329 1515.5,-1329 1515.5,-1306 1447.5,-1306"/>
+<text text-anchor="start" x="1469.5" y="-1313.8" font-family="arial" font-size="14.00">Pos</text>
+<polygon fill="none" stroke="black" points="1515.5,-1306 1515.5,-1329 1564.5,-1329 1564.5,-1306 1515.5,-1306"/>
+<text text-anchor="start" x="1536" y="-1313.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1447.5,-1283 1447.5,-1306 1515.5,-1306 1515.5,-1283 1447.5,-1283"/>
+<text text-anchor="start" x="1468" y="-1290.8" font-family="arial" font-size="14.00">Gnd</text>
+<polygon fill="none" stroke="black" points="1515.5,-1283 1515.5,-1306 1564.5,-1306 1564.5,-1283 1515.5,-1283"/>
+<text text-anchor="start" x="1536" y="-1290.8" font-family="arial" font-size="14.00">2</text>
 </g>
 <!-- aux&#45;coolant&#45;pump&#45;pos&#45;wire -->
-<g id="node30" class="node">
+<g id="node31" class="node">
 <title>aux&#45;coolant&#45;pump&#45;pos&#45;wire</title>
-<polygon fill="#ffffff" stroke="black" points="2076,-1725.5 1721,-1725.5 1721,-1612.5 2076,-1612.5 2076,-1725.5"/>
-<polygon fill="none" stroke="black" points="1721.5,-1702 1721.5,-1725 2076.5,-1725 2076.5,-1702 1721.5,-1702"/>
-<text text-anchor="start" x="1816.5" y="-1709.8" font-family="arial" font-size="14.00">aux&#45;coolant&#45;pump&#45;pos&#45;wire</text>
-<polygon fill="none" stroke="black" points="1721.5,-1679 1721.5,-1702 2076.5,-1702 2076.5,-1679 1721.5,-1679"/>
-<text text-anchor="start" x="1891.5" y="-1686.8" font-family="arial" font-size="14.00">1x</text>
-<text text-anchor="start" x="1795.5" y="-1665.8" font-family="arial" font-size="14.00"> </text>
-<text text-anchor="start" x="1723.5" y="-1646.8" font-family="arial" font-size="14.00">aux&#45;coolant&#45;pump:1:Pos</text>
-<text text-anchor="start" x="1875.5" y="-1646.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1944.5" y="-1646.8" font-family="arial" font-size="14.00">razor_pdm:21:ADIO1</text>
-<polygon fill="#000000" stroke="transparent" points="1721.5,-1639 1721.5,-1641 2076.5,-1641 2076.5,-1639 1721.5,-1639"/>
-<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1637 1721.5,-1639 2076.5,-1639 2076.5,-1637 1721.5,-1637"/>
-<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1635 1721.5,-1637 2076.5,-1637 2076.5,-1635 1721.5,-1635"/>
-<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1633 1721.5,-1635 2076.5,-1635 2076.5,-1633 1721.5,-1633"/>
-<polygon fill="#000000" stroke="transparent" points="1721.5,-1631 1721.5,-1633 2076.5,-1633 2076.5,-1631 1721.5,-1631"/>
-<text text-anchor="start" x="1795.5" y="-1617.8" font-family="arial" font-size="14.00"> </text>
+<polygon fill="#ffffff" stroke="black" points="2076,-1511.5 1721,-1511.5 1721,-1398.5 2076,-1398.5 2076,-1511.5"/>
+<polygon fill="none" stroke="black" points="1721.5,-1488 1721.5,-1511 2076.5,-1511 2076.5,-1488 1721.5,-1488"/>
+<text text-anchor="start" x="1816.5" y="-1495.8" font-family="arial" font-size="14.00">aux&#45;coolant&#45;pump&#45;pos&#45;wire</text>
+<polygon fill="none" stroke="black" points="1721.5,-1465 1721.5,-1488 2076.5,-1488 2076.5,-1465 1721.5,-1465"/>
+<text text-anchor="start" x="1891.5" y="-1472.8" font-family="arial" font-size="14.00">1x</text>
+<text text-anchor="start" x="1795.5" y="-1451.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="1723.5" y="-1432.8" font-family="arial" font-size="14.00">aux&#45;coolant&#45;pump:1:Pos</text>
+<text text-anchor="start" x="1875.5" y="-1432.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1944.5" y="-1432.8" font-family="arial" font-size="14.00">razor_pdm:21:ADIO1</text>
+<polygon fill="#000000" stroke="transparent" points="1721.5,-1425 1721.5,-1427 2076.5,-1427 2076.5,-1425 1721.5,-1425"/>
+<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1423 1721.5,-1425 2076.5,-1425 2076.5,-1423 1721.5,-1423"/>
+<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1421 1721.5,-1423 2076.5,-1423 2076.5,-1421 1721.5,-1421"/>
+<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1419 1721.5,-1421 2076.5,-1421 2076.5,-1419 1721.5,-1419"/>
+<polygon fill="#000000" stroke="transparent" points="1721.5,-1417 1721.5,-1419 2076.5,-1419 2076.5,-1417 1721.5,-1417"/>
+<text text-anchor="start" x="1795.5" y="-1403.8" font-family="arial" font-size="14.00"> </text>
 </g>
 <!-- aux&#45;coolant&#45;pump&#45;&#45;aux&#45;coolant&#45;pump&#45;pos&#45;wire -->
 <g id="edge131" class="edge">
 <title>aux&#45;coolant&#45;pump:e&#45;&#45;aux&#45;coolant&#45;pump&#45;pos&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1322C1723.13,-1327.77 1570.05,-1637.77 1720.5,-1632"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1324C1721.33,-1326.89 1568.25,-1636.89 1720.5,-1634"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1326C1719.54,-1326 1566.46,-1636 1720.5,-1636"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1328C1717.75,-1325.11 1564.67,-1635.11 1720.5,-1638"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1330C1715.95,-1324.23 1562.87,-1634.23 1720.5,-1640"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1313C1652.68,-1317.43 1641.27,-1422.43 1720.5,-1418"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1315C1650.7,-1317.22 1639.28,-1422.22 1720.5,-1420"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1317C1648.71,-1317 1637.29,-1422 1720.5,-1422"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1319C1646.72,-1316.78 1635.3,-1421.78 1720.5,-1424"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1321C1644.73,-1316.57 1633.32,-1421.57 1720.5,-1426"/>
 </g>
 <!-- aux&#45;coolant&#45;pump&#45;gnd&#45;wire -->
-<g id="node31" class="node">
+<g id="node32" class="node">
 <title>aux&#45;coolant&#45;pump&#45;gnd&#45;wire</title>
-<polygon fill="#ffffff" stroke="black" points="2086,-1392.5 1711,-1392.5 1711,-1279.5 2086,-1279.5 2086,-1392.5"/>
-<polygon fill="none" stroke="black" points="1711.5,-1369 1711.5,-1392 2086.5,-1392 2086.5,-1369 1711.5,-1369"/>
-<text text-anchor="start" x="1816" y="-1376.8" font-family="arial" font-size="14.00">aux&#45;coolant&#45;pump&#45;gnd&#45;wire</text>
-<polygon fill="none" stroke="black" points="1711.5,-1346 1711.5,-1369 2086.5,-1369 2086.5,-1346 1711.5,-1346"/>
-<text text-anchor="start" x="1891.5" y="-1353.8" font-family="arial" font-size="14.00">1x</text>
-<text text-anchor="start" x="1787" y="-1332.8" font-family="arial" font-size="14.00"> </text>
-<text text-anchor="start" x="1713.5" y="-1313.8" font-family="arial" font-size="14.00">aux&#45;coolant&#45;pump:2:Gnd</text>
-<text text-anchor="start" x="1868.5" y="-1313.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:BK &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1936.5" y="-1313.8" font-family="arial" font-size="14.00">engine&#45;ground:1:Ground</text>
-<polygon fill="#000000" stroke="transparent" points="1711.5,-1306 1711.5,-1308 2086.5,-1308 2086.5,-1306 1711.5,-1306"/>
-<polygon fill="#000000" stroke="transparent" points="1711.5,-1304 1711.5,-1306 2086.5,-1306 2086.5,-1304 1711.5,-1304"/>
-<polygon fill="#000000" stroke="transparent" points="1711.5,-1302 1711.5,-1304 2086.5,-1304 2086.5,-1302 1711.5,-1302"/>
-<polygon fill="#000000" stroke="transparent" points="1711.5,-1300 1711.5,-1302 2086.5,-1302 2086.5,-1300 1711.5,-1300"/>
-<polygon fill="#000000" stroke="transparent" points="1711.5,-1298 1711.5,-1300 2086.5,-1300 2086.5,-1298 1711.5,-1298"/>
-<text text-anchor="start" x="1787" y="-1284.8" font-family="arial" font-size="14.00"> </text>
+<polygon fill="#ffffff" stroke="black" points="2086,-1374.5 1711,-1374.5 1711,-1261.5 2086,-1261.5 2086,-1374.5"/>
+<polygon fill="none" stroke="black" points="1711.5,-1351 1711.5,-1374 2086.5,-1374 2086.5,-1351 1711.5,-1351"/>
+<text text-anchor="start" x="1816" y="-1358.8" font-family="arial" font-size="14.00">aux&#45;coolant&#45;pump&#45;gnd&#45;wire</text>
+<polygon fill="none" stroke="black" points="1711.5,-1328 1711.5,-1351 2086.5,-1351 2086.5,-1328 1711.5,-1328"/>
+<text text-anchor="start" x="1891.5" y="-1335.8" font-family="arial" font-size="14.00">1x</text>
+<text text-anchor="start" x="1787" y="-1314.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="1713.5" y="-1295.8" font-family="arial" font-size="14.00">aux&#45;coolant&#45;pump:2:Gnd</text>
+<text text-anchor="start" x="1868.5" y="-1295.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:BK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1936.5" y="-1295.8" font-family="arial" font-size="14.00">engine&#45;ground:1:Ground</text>
+<polygon fill="#000000" stroke="transparent" points="1711.5,-1288 1711.5,-1290 2086.5,-1290 2086.5,-1288 1711.5,-1288"/>
+<polygon fill="#000000" stroke="transparent" points="1711.5,-1286 1711.5,-1288 2086.5,-1288 2086.5,-1286 1711.5,-1286"/>
+<polygon fill="#000000" stroke="transparent" points="1711.5,-1284 1711.5,-1286 2086.5,-1286 2086.5,-1284 1711.5,-1284"/>
+<polygon fill="#000000" stroke="transparent" points="1711.5,-1282 1711.5,-1284 2086.5,-1284 2086.5,-1282 1711.5,-1282"/>
+<polygon fill="#000000" stroke="transparent" points="1711.5,-1280 1711.5,-1282 2086.5,-1282 2086.5,-1280 1711.5,-1280"/>
+<text text-anchor="start" x="1787" y="-1266.8" font-family="arial" font-size="14.00"> </text>
 </g>
 <!-- aux&#45;coolant&#45;pump&#45;&#45;aux&#45;coolant&#45;pump&#45;gnd&#45;wire -->
 <g id="edge133" class="edge">
 <title>aux&#45;coolant&#45;pump:e&#45;&#45;aux&#45;coolant&#45;pump&#45;gnd&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1299C1630.17,-1299 1646.33,-1299 1711,-1299"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1301C1630.17,-1301 1646.33,-1301 1711,-1301"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1303C1630.17,-1303 1646.33,-1303 1711,-1303"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1305C1630.17,-1305 1646.33,-1305 1711,-1305"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1307C1630.17,-1307 1646.33,-1307 1711,-1307"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1290C1628.32,-1290.52 1644.24,-1281.52 1711,-1281"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1292C1629.31,-1292.26 1645.23,-1283.26 1711,-1283"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1294C1630.29,-1294 1646.21,-1285 1711,-1285"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1296C1631.27,-1295.74 1647.19,-1286.74 1711,-1287"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1298C1632.26,-1297.48 1648.18,-1288.48 1711,-1289"/>
+</g>
+<!-- isv -->
+<g id="node19" class="node">
+<title>isv</title>
+<polygon fill="#ffffff" stroke="black" points="1563,-1500 1448,-1500 1448,-1408 1563,-1408 1563,-1500"/>
+<polygon fill="none" stroke="black" points="1448.5,-1477 1448.5,-1500 1563.5,-1500 1563.5,-1477 1448.5,-1477"/>
+<text text-anchor="start" x="1497.5" y="-1484.8" font-family="arial" font-size="14.00">isv</text>
+<polygon fill="none" stroke="black" points="1448.5,-1454 1448.5,-1477 1524.5,-1477 1524.5,-1454 1448.5,-1454"/>
+<text text-anchor="start" x="1452.5" y="-1461.8" font-family="arial" font-size="14.00">037906240</text>
+<polygon fill="none" stroke="black" points="1524.5,-1454 1524.5,-1477 1563.5,-1477 1563.5,-1454 1524.5,-1454"/>
+<text text-anchor="start" x="1528.5" y="-1461.8" font-family="arial" font-size="14.00">2&#45;pin</text>
+<polygon fill="none" stroke="black" points="1448.5,-1431 1448.5,-1454 1515.5,-1454 1515.5,-1431 1448.5,-1431"/>
+<text text-anchor="start" x="1470" y="-1438.8" font-family="arial" font-size="14.00">Pos</text>
+<polygon fill="none" stroke="black" points="1515.5,-1431 1515.5,-1454 1563.5,-1454 1563.5,-1431 1515.5,-1431"/>
+<text text-anchor="start" x="1535.5" y="-1438.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1448.5,-1408 1448.5,-1431 1515.5,-1431 1515.5,-1408 1448.5,-1408"/>
+<text text-anchor="start" x="1468.5" y="-1415.8" font-family="arial" font-size="14.00">Gnd</text>
+<polygon fill="none" stroke="black" points="1515.5,-1408 1515.5,-1431 1563.5,-1431 1563.5,-1408 1515.5,-1408"/>
+<text text-anchor="start" x="1535.5" y="-1415.8" font-family="arial" font-size="14.00">2</text>
+</g>
+<!-- isv&#45;pos&#45;wire -->
+<g id="node33" class="node">
+<title>isv&#45;pos&#45;wire</title>
+<polygon fill="#ffffff" stroke="black" points="2029.5,-1973.5 1767.5,-1973.5 1767.5,-1860.5 2029.5,-1860.5 2029.5,-1973.5"/>
+<polygon fill="none" stroke="black" points="1767.5,-1950 1767.5,-1973 2029.5,-1973 2029.5,-1950 1767.5,-1950"/>
+<text text-anchor="start" x="1862" y="-1957.8" font-family="arial" font-size="14.00">isv&#45;pos&#45;wire</text>
+<polygon fill="none" stroke="black" points="1767.5,-1927 1767.5,-1950 2029.5,-1950 2029.5,-1927 1767.5,-1927"/>
+<text text-anchor="start" x="1891" y="-1934.8" font-family="arial" font-size="14.00">1x</text>
+<text text-anchor="start" x="1795" y="-1913.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="1769.5" y="-1894.8" font-family="arial" font-size="14.00">isv:1:Pos</text>
+<text text-anchor="start" x="1828.5" y="-1894.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1897.5" y="-1894.8" font-family="arial" font-size="14.00">razor_pdm:15:ADIO2</text>
+<polygon fill="#000000" stroke="transparent" points="1767.5,-1887 1767.5,-1889 2029.5,-1889 2029.5,-1887 1767.5,-1887"/>
+<polygon fill="#ff0000" stroke="transparent" points="1767.5,-1885 1767.5,-1887 2029.5,-1887 2029.5,-1885 1767.5,-1885"/>
+<polygon fill="#ff0000" stroke="transparent" points="1767.5,-1883 1767.5,-1885 2029.5,-1885 2029.5,-1883 1767.5,-1883"/>
+<polygon fill="#ff0000" stroke="transparent" points="1767.5,-1881 1767.5,-1883 2029.5,-1883 2029.5,-1881 1767.5,-1881"/>
+<polygon fill="#000000" stroke="transparent" points="1767.5,-1879 1767.5,-1881 2029.5,-1881 2029.5,-1879 1767.5,-1879"/>
+<text text-anchor="start" x="1795" y="-1865.8" font-family="arial" font-size="14.00"> </text>
+</g>
+<!-- isv&#45;&#45;isv&#45;pos&#45;wire -->
+<g id="edge135" class="edge">
+<title>isv:e&#45;&#45;isv&#45;pos&#45;wire:w</title>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1438C1784.04,-1443.85 1554.06,-1885.85 1766.5,-1880"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1440C1782.26,-1442.92 1552.29,-1884.92 1766.5,-1882"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1442C1780.49,-1442 1550.51,-1884 1766.5,-1884"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1564.5,-1444C1778.71,-1441.08 1548.74,-1883.08 1766.5,-1886"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1446C1776.94,-1440.15 1546.96,-1882.15 1766.5,-1888"/>
+</g>
+<!-- isv&#45;gnd&#45;wire -->
+<g id="node34" class="node">
+<title>isv&#45;gnd&#45;wire</title>
+<polygon fill="#ffffff" stroke="black" points="2039.5,-1648.5 1757.5,-1648.5 1757.5,-1535.5 2039.5,-1535.5 2039.5,-1648.5"/>
+<polygon fill="none" stroke="black" points="1757.5,-1625 1757.5,-1648 2039.5,-1648 2039.5,-1625 1757.5,-1625"/>
+<text text-anchor="start" x="1862" y="-1632.8" font-family="arial" font-size="14.00">isv&#45;gnd&#45;wire</text>
+<polygon fill="none" stroke="black" points="1757.5,-1602 1757.5,-1625 2039.5,-1625 2039.5,-1602 1757.5,-1602"/>
+<text text-anchor="start" x="1891" y="-1609.8" font-family="arial" font-size="14.00">1x</text>
+<text text-anchor="start" x="1786.5" y="-1588.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="1759.5" y="-1569.8" font-family="arial" font-size="14.00">isv:2:Gnd</text>
+<text text-anchor="start" x="1821.5" y="-1569.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:BK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1889.5" y="-1569.8" font-family="arial" font-size="14.00">engine&#45;ground:1:Ground</text>
+<polygon fill="#000000" stroke="transparent" points="1757.5,-1562 1757.5,-1564 2039.5,-1564 2039.5,-1562 1757.5,-1562"/>
+<polygon fill="#000000" stroke="transparent" points="1757.5,-1560 1757.5,-1562 2039.5,-1562 2039.5,-1560 1757.5,-1560"/>
+<polygon fill="#000000" stroke="transparent" points="1757.5,-1558 1757.5,-1560 2039.5,-1560 2039.5,-1558 1757.5,-1558"/>
+<polygon fill="#000000" stroke="transparent" points="1757.5,-1556 1757.5,-1558 2039.5,-1558 2039.5,-1556 1757.5,-1556"/>
+<polygon fill="#000000" stroke="transparent" points="1757.5,-1554 1757.5,-1556 2039.5,-1556 2039.5,-1554 1757.5,-1554"/>
+<text text-anchor="start" x="1786.5" y="-1540.8" font-family="arial" font-size="14.00"> </text>
+</g>
+<!-- isv&#45;&#45;isv&#45;gnd&#45;wire -->
+<g id="edge137" class="edge">
+<title>isv:e&#45;&#45;isv&#45;gnd&#45;wire:w</title>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1415C1674.07,-1419.54 1654.85,-1559.54 1756.5,-1555"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1417C1672.09,-1419.27 1652.87,-1559.27 1756.5,-1557"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1419C1670.11,-1419 1650.89,-1559 1756.5,-1559"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1421C1668.13,-1418.73 1648.91,-1558.73 1756.5,-1561"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1564.5,-1423C1666.15,-1418.46 1646.93,-1558.46 1756.5,-1563"/>
 </g>
 <!-- vapor&#45;purge&#45;valve -->
-<g id="node19" class="node">
+<g id="node20" class="node">
 <title>vapor&#45;purge&#45;valve</title>
-<polygon fill="#ffffff" stroke="black" points="1564,-1500 1447,-1500 1447,-1408 1564,-1408 1564,-1500"/>
-<polygon fill="none" stroke="black" points="1447.5,-1477 1447.5,-1500 1564.5,-1500 1564.5,-1477 1447.5,-1477"/>
-<text text-anchor="start" x="1451.5" y="-1484.8" font-family="arial" font-size="14.00">vapor&#45;purge&#45;valve</text>
-<polygon fill="none" stroke="black" points="1447.5,-1454 1447.5,-1477 1564.5,-1477 1564.5,-1454 1447.5,-1454"/>
-<text text-anchor="start" x="1490.5" y="-1461.8" font-family="arial" font-size="14.00">2&#45;pin</text>
-<polygon fill="none" stroke="black" points="1447.5,-1431 1447.5,-1454 1515.5,-1454 1515.5,-1431 1447.5,-1431"/>
-<text text-anchor="start" x="1469.5" y="-1438.8" font-family="arial" font-size="14.00">Pos</text>
-<polygon fill="none" stroke="black" points="1515.5,-1431 1515.5,-1454 1564.5,-1454 1564.5,-1431 1515.5,-1431"/>
-<text text-anchor="start" x="1536" y="-1438.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="1447.5,-1408 1447.5,-1431 1515.5,-1431 1515.5,-1408 1447.5,-1408"/>
-<text text-anchor="start" x="1468" y="-1415.8" font-family="arial" font-size="14.00">Gnd</text>
-<polygon fill="none" stroke="black" points="1515.5,-1408 1515.5,-1431 1564.5,-1431 1564.5,-1408 1515.5,-1408"/>
-<text text-anchor="start" x="1536" y="-1415.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="#ffffff" stroke="black" points="1564,-1239 1447,-1239 1447,-1147 1564,-1147 1564,-1239"/>
+<polygon fill="none" stroke="black" points="1447.5,-1216 1447.5,-1239 1564.5,-1239 1564.5,-1216 1447.5,-1216"/>
+<text text-anchor="start" x="1451.5" y="-1223.8" font-family="arial" font-size="14.00">vapor&#45;purge&#45;valve</text>
+<polygon fill="none" stroke="black" points="1447.5,-1193 1447.5,-1216 1524.5,-1216 1524.5,-1193 1447.5,-1193"/>
+<text text-anchor="start" x="1452.5" y="-1200.8" font-family="arial" font-size="14.00">1J0983722</text>
+<polygon fill="none" stroke="black" points="1524.5,-1193 1524.5,-1216 1564.5,-1216 1564.5,-1193 1524.5,-1193"/>
+<text text-anchor="start" x="1529" y="-1200.8" font-family="arial" font-size="14.00">2&#45;pin</text>
+<polygon fill="none" stroke="black" points="1447.5,-1170 1447.5,-1193 1515.5,-1193 1515.5,-1170 1447.5,-1170"/>
+<text text-anchor="start" x="1469.5" y="-1177.8" font-family="arial" font-size="14.00">Pos</text>
+<polygon fill="none" stroke="black" points="1515.5,-1170 1515.5,-1193 1564.5,-1193 1564.5,-1170 1515.5,-1170"/>
+<text text-anchor="start" x="1536" y="-1177.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="1447.5,-1147 1447.5,-1170 1515.5,-1170 1515.5,-1147 1447.5,-1147"/>
+<text text-anchor="start" x="1468" y="-1154.8" font-family="arial" font-size="14.00">Gnd</text>
+<polygon fill="none" stroke="black" points="1515.5,-1147 1515.5,-1170 1564.5,-1170 1564.5,-1147 1515.5,-1147"/>
+<text text-anchor="start" x="1536" y="-1154.8" font-family="arial" font-size="14.00">2</text>
 </g>
 <!-- vapor&#45;purge&#45;valve&#45;pos&#45;wire -->
-<g id="node32" class="node">
+<g id="node35" class="node">
 <title>vapor&#45;purge&#45;valve&#45;pos&#45;wire</title>
-<polygon fill="#ffffff" stroke="black" points="2076,-1943.5 1721,-1943.5 1721,-1830.5 2076,-1830.5 2076,-1943.5"/>
-<polygon fill="none" stroke="black" points="1721.5,-1920 1721.5,-1943 2076.5,-1943 2076.5,-1920 1721.5,-1920"/>
-<text text-anchor="start" x="1816.5" y="-1927.8" font-family="arial" font-size="14.00">vapor&#45;purge&#45;valve&#45;pos&#45;wire</text>
-<polygon fill="none" stroke="black" points="1721.5,-1897 1721.5,-1920 2076.5,-1920 2076.5,-1897 1721.5,-1897"/>
-<text text-anchor="start" x="1891.5" y="-1904.8" font-family="arial" font-size="14.00">1x</text>
-<text text-anchor="start" x="1795.5" y="-1883.8" font-family="arial" font-size="14.00"> </text>
-<text text-anchor="start" x="1723.5" y="-1864.8" font-family="arial" font-size="14.00">vapor&#45;purge&#45;valve:1:Pos</text>
-<text text-anchor="start" x="1875.5" y="-1864.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1944.5" y="-1864.8" font-family="arial" font-size="14.00">razor_pdm:18:ADIO8</text>
-<polygon fill="#000000" stroke="transparent" points="1721.5,-1857 1721.5,-1859 2076.5,-1859 2076.5,-1857 1721.5,-1857"/>
-<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1855 1721.5,-1857 2076.5,-1857 2076.5,-1855 1721.5,-1855"/>
-<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1853 1721.5,-1855 2076.5,-1855 2076.5,-1853 1721.5,-1853"/>
-<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1851 1721.5,-1853 2076.5,-1853 2076.5,-1851 1721.5,-1851"/>
-<polygon fill="#000000" stroke="transparent" points="1721.5,-1849 1721.5,-1851 2076.5,-1851 2076.5,-1849 1721.5,-1849"/>
-<text text-anchor="start" x="1795.5" y="-1835.8" font-family="arial" font-size="14.00"> </text>
+<polygon fill="#ffffff" stroke="black" points="2076,-1785.5 1721,-1785.5 1721,-1672.5 2076,-1672.5 2076,-1785.5"/>
+<polygon fill="none" stroke="black" points="1721.5,-1762 1721.5,-1785 2076.5,-1785 2076.5,-1762 1721.5,-1762"/>
+<text text-anchor="start" x="1816.5" y="-1769.8" font-family="arial" font-size="14.00">vapor&#45;purge&#45;valve&#45;pos&#45;wire</text>
+<polygon fill="none" stroke="black" points="1721.5,-1739 1721.5,-1762 2076.5,-1762 2076.5,-1739 1721.5,-1739"/>
+<text text-anchor="start" x="1891.5" y="-1746.8" font-family="arial" font-size="14.00">1x</text>
+<text text-anchor="start" x="1795.5" y="-1725.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="1723.5" y="-1706.8" font-family="arial" font-size="14.00">vapor&#45;purge&#45;valve:1:Pos</text>
+<text text-anchor="start" x="1875.5" y="-1706.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1944.5" y="-1706.8" font-family="arial" font-size="14.00">razor_pdm:18:ADIO8</text>
+<polygon fill="#000000" stroke="transparent" points="1721.5,-1699 1721.5,-1701 2076.5,-1701 2076.5,-1699 1721.5,-1699"/>
+<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1697 1721.5,-1699 2076.5,-1699 2076.5,-1697 1721.5,-1697"/>
+<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1695 1721.5,-1697 2076.5,-1697 2076.5,-1695 1721.5,-1695"/>
+<polygon fill="#ff0000" stroke="transparent" points="1721.5,-1693 1721.5,-1695 2076.5,-1695 2076.5,-1693 1721.5,-1693"/>
+<polygon fill="#000000" stroke="transparent" points="1721.5,-1691 1721.5,-1693 2076.5,-1693 2076.5,-1691 1721.5,-1691"/>
+<text text-anchor="start" x="1795.5" y="-1677.8" font-family="arial" font-size="14.00"> </text>
 </g>
 <!-- vapor&#45;purge&#45;valve&#45;&#45;vapor&#45;purge&#45;valve&#45;pos&#45;wire -->
-<g id="edge135" class="edge">
+<g id="edge139" class="edge">
 <title>vapor&#45;purge&#45;valve:e&#45;&#45;vapor&#45;purge&#45;valve&#45;pos&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1438C1764.61,-1443.99 1528.33,-1855.99 1720.5,-1850"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1440C1762.88,-1442.99 1526.59,-1854.99 1720.5,-1852"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1442C1761.14,-1442 1524.86,-1854 1720.5,-1854"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1444C1759.41,-1441.01 1523.12,-1853.01 1720.5,-1856"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1446C1757.67,-1440.01 1521.39,-1852.01 1720.5,-1858"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1177C1807.92,-1183.13 1484.86,-1698.13 1720.5,-1692"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1179C1806.23,-1182.06 1483.16,-1697.06 1720.5,-1694"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1181C1804.53,-1181 1481.47,-1696 1720.5,-1696"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1565.5,-1183C1802.84,-1179.94 1479.77,-1694.94 1720.5,-1698"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1185C1801.14,-1178.87 1478.08,-1693.87 1720.5,-1700"/>
 </g>
 <!-- vapor&#45;purge&#45;valve&#45;gnd&#45;wire -->
-<g id="node33" class="node">
+<g id="node36" class="node">
 <title>vapor&#45;purge&#45;valve&#45;gnd&#45;wire</title>
-<polygon fill="#ffffff" stroke="black" points="2086,-1529.5 1711,-1529.5 1711,-1416.5 2086,-1416.5 2086,-1529.5"/>
-<polygon fill="none" stroke="black" points="1711.5,-1506 1711.5,-1529 2086.5,-1529 2086.5,-1506 1711.5,-1506"/>
-<text text-anchor="start" x="1816" y="-1513.8" font-family="arial" font-size="14.00">vapor&#45;purge&#45;valve&#45;gnd&#45;wire</text>
-<polygon fill="none" stroke="black" points="1711.5,-1483 1711.5,-1506 2086.5,-1506 2086.5,-1483 1711.5,-1483"/>
-<text text-anchor="start" x="1891.5" y="-1490.8" font-family="arial" font-size="14.00">1x</text>
-<text text-anchor="start" x="1787" y="-1469.8" font-family="arial" font-size="14.00"> </text>
-<text text-anchor="start" x="1713.5" y="-1450.8" font-family="arial" font-size="14.00">vapor&#45;purge&#45;valve:2:Gnd</text>
-<text text-anchor="start" x="1868.5" y="-1450.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:BK &#160;&#160;&#160;</text>
-<text text-anchor="start" x="1936.5" y="-1450.8" font-family="arial" font-size="14.00">engine&#45;ground:1:Ground</text>
-<polygon fill="#000000" stroke="transparent" points="1711.5,-1443 1711.5,-1445 2086.5,-1445 2086.5,-1443 1711.5,-1443"/>
-<polygon fill="#000000" stroke="transparent" points="1711.5,-1441 1711.5,-1443 2086.5,-1443 2086.5,-1441 1711.5,-1441"/>
-<polygon fill="#000000" stroke="transparent" points="1711.5,-1439 1711.5,-1441 2086.5,-1441 2086.5,-1439 1711.5,-1439"/>
-<polygon fill="#000000" stroke="transparent" points="1711.5,-1437 1711.5,-1439 2086.5,-1439 2086.5,-1437 1711.5,-1437"/>
-<polygon fill="#000000" stroke="transparent" points="1711.5,-1435 1711.5,-1437 2086.5,-1437 2086.5,-1435 1711.5,-1435"/>
-<text text-anchor="start" x="1787" y="-1421.8" font-family="arial" font-size="14.00"> </text>
+<polygon fill="#ffffff" stroke="black" points="2086,-1237.5 1711,-1237.5 1711,-1124.5 2086,-1124.5 2086,-1237.5"/>
+<polygon fill="none" stroke="black" points="1711.5,-1214 1711.5,-1237 2086.5,-1237 2086.5,-1214 1711.5,-1214"/>
+<text text-anchor="start" x="1816" y="-1221.8" font-family="arial" font-size="14.00">vapor&#45;purge&#45;valve&#45;gnd&#45;wire</text>
+<polygon fill="none" stroke="black" points="1711.5,-1191 1711.5,-1214 2086.5,-1214 2086.5,-1191 1711.5,-1191"/>
+<text text-anchor="start" x="1891.5" y="-1198.8" font-family="arial" font-size="14.00">1x</text>
+<text text-anchor="start" x="1787" y="-1177.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="1713.5" y="-1158.8" font-family="arial" font-size="14.00">vapor&#45;purge&#45;valve:2:Gnd</text>
+<text text-anchor="start" x="1868.5" y="-1158.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:BK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="1936.5" y="-1158.8" font-family="arial" font-size="14.00">engine&#45;ground:1:Ground</text>
+<polygon fill="#000000" stroke="transparent" points="1711.5,-1151 1711.5,-1153 2086.5,-1153 2086.5,-1151 1711.5,-1151"/>
+<polygon fill="#000000" stroke="transparent" points="1711.5,-1149 1711.5,-1151 2086.5,-1151 2086.5,-1149 1711.5,-1149"/>
+<polygon fill="#000000" stroke="transparent" points="1711.5,-1147 1711.5,-1149 2086.5,-1149 2086.5,-1147 1711.5,-1147"/>
+<polygon fill="#000000" stroke="transparent" points="1711.5,-1145 1711.5,-1147 2086.5,-1147 2086.5,-1145 1711.5,-1145"/>
+<polygon fill="#000000" stroke="transparent" points="1711.5,-1143 1711.5,-1145 2086.5,-1145 2086.5,-1143 1711.5,-1143"/>
+<text text-anchor="start" x="1787" y="-1129.8" font-family="arial" font-size="14.00"> </text>
 </g>
 <!-- vapor&#45;purge&#45;valve&#45;&#45;vapor&#45;purge&#45;valve&#45;gnd&#45;wire -->
-<g id="edge137" class="edge">
+<g id="edge141" class="edge">
 <title>vapor&#45;purge&#45;valve:e&#45;&#45;vapor&#45;purge&#45;valve&#45;gnd&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1415C1634.1,-1416.69 1648.93,-1437.69 1711,-1436"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1417C1632.47,-1417.85 1647.3,-1438.85 1711,-1438"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1419C1630.84,-1419 1645.66,-1440 1711,-1440"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1421C1629.2,-1420.15 1644.03,-1441.15 1711,-1442"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1423C1627.57,-1421.31 1642.4,-1442.31 1711,-1444"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1154C1628.19,-1154.62 1644.05,-1144.62 1711,-1144"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1156C1629.25,-1156.31 1645.11,-1146.31 1711,-1146"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1158C1630.32,-1158 1646.18,-1148 1711,-1148"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1160C1631.39,-1159.69 1647.25,-1149.69 1711,-1150"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1565.5,-1162C1632.45,-1161.38 1648.31,-1151.38 1711,-1152"/>
 </g>
 <!-- loom_a_wire&#45;&#45;icm&#45;to&#45;ecu -->
 <g id="edge36" class="edge">
@@ -2598,56 +2693,56 @@
 <!-- loom_a_wire&#45;&#45;injector1 -->
 <g id="edge48" class="edge">
 <title>loom_a_wire:e&#45;&#45;injector1:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-890C1648.27,-896.26 1129.83,-1653.26 1471.5,-1647"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-892C1646.62,-895.13 1128.18,-1652.13 1471.5,-1649"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-894C1644.97,-894 1126.53,-1651 1471.5,-1651"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-896C1643.32,-892.87 1124.88,-1649.87 1471.5,-1653"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-898C1641.67,-891.74 1123.23,-1648.74 1471.5,-1655"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-890C1646.03,-896.32 1107.99,-1653.32 1447.5,-1647"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-892C1644.4,-895.16 1106.36,-1652.16 1447.5,-1649"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-894C1642.77,-894 1104.73,-1651 1447.5,-1651"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-896C1641.14,-892.84 1103.1,-1649.84 1447.5,-1653"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-898C1639.51,-891.68 1101.47,-1648.68 1447.5,-1655"/>
 </g>
 <!-- loom_a_wire&#45;&#45;injector2 -->
 <g id="edge50" class="edge">
 <title>loom_a_wire:e&#45;&#45;injector2:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-919C1686.05,-925.3 1091.99,-1769.3 1471.5,-1763"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-921C1684.41,-924.15 1090.36,-1768.15 1471.5,-1765"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-923C1682.78,-923 1088.72,-1767 1471.5,-1767"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-925C1681.14,-921.85 1087.09,-1765.85 1471.5,-1769"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-927C1679.51,-920.7 1085.45,-1764.7 1471.5,-1771"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-919C1684.03,-925.35 1069.94,-1769.35 1447.5,-1763"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-921C1682.41,-924.18 1068.32,-1768.18 1447.5,-1765"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-923C1680.8,-923 1066.7,-1767 1447.5,-1767"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-925C1679.18,-921.82 1065.09,-1765.82 1447.5,-1769"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-927C1677.56,-920.65 1063.47,-1764.65 1447.5,-1771"/>
 </g>
 <!-- loom_a_wire&#45;&#45;injector3 -->
 <g id="edge52" class="edge">
 <title>loom_a_wire:e&#45;&#45;injector3:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-948C1565.07,-953.16 1214.09,-2116.16 1471.5,-2111"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-950C1563.15,-952.58 1212.18,-2115.58 1471.5,-2113"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1300,-952C1561.24,-952 1210.26,-2115 1471.5,-2115"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-954C1559.32,-951.42 1208.35,-2114.42 1471.5,-2117"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-956C1557.41,-950.84 1206.43,-2113.84 1471.5,-2119"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-948C1564.32,-953.22 1190.79,-2116.22 1447.5,-2111"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-950C1562.42,-952.61 1188.89,-2115.61 1447.5,-2113"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1300,-952C1560.51,-952 1186.99,-2115 1447.5,-2115"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-954C1558.61,-951.39 1185.08,-2114.39 1447.5,-2117"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-956C1556.71,-950.78 1183.18,-2113.78 1447.5,-2119"/>
 </g>
 <!-- loom_a_wire&#45;&#45;injector4 -->
 <g id="edge54" class="edge">
 <title>loom_a_wire:e&#45;&#45;injector4:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-977C1561.15,-983.11 1217.15,-1537.11 1471.5,-1531"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-979C1559.45,-982.06 1215.45,-1536.06 1471.5,-1533"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1300,-981C1557.75,-981 1213.75,-1535 1471.5,-1535"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-983C1556.05,-979.94 1212.05,-1533.94 1471.5,-1537"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-985C1554.35,-978.89 1210.35,-1532.89 1471.5,-1539"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-977C1558.15,-983.19 1196.05,-1537.19 1447.5,-1531"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-979C1556.47,-982.09 1194.37,-1536.09 1447.5,-1533"/>
+<path fill="none" stroke="#ff8000" stroke-width="2" d="M1300,-981C1554.8,-981 1192.7,-1535 1447.5,-1535"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1300,-983C1553.13,-979.91 1191.03,-1533.91 1447.5,-1537"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1300,-985C1551.45,-978.81 1189.35,-1532.81 1447.5,-1539"/>
 </g>
 <!-- loom_b_wire&#45;&#45;injector5 -->
 <g id="edge90" class="edge">
 <title>loom_b_wire:e&#45;&#45;injector5:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1284,-1984C1375.51,-1988.13 1371.99,-1883.13 1471.5,-1879"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1284,-1986C1377.51,-1988.07 1373.99,-1883.07 1471.5,-1881"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1284,-1988C1379.51,-1988 1375.99,-1883 1471.5,-1883"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1284,-1990C1381.51,-1987.93 1377.99,-1882.93 1471.5,-1885"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1284,-1992C1383.51,-1987.87 1379.99,-1882.87 1471.5,-1887"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1284,-1984C1366.38,-1988.35 1357.15,-1883.35 1447.5,-1879"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1284,-1986C1368.37,-1988.17 1359.15,-1883.17 1447.5,-1881"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M1284,-1988C1370.36,-1988 1361.14,-1883 1447.5,-1883"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1284,-1990C1372.35,-1987.83 1363.13,-1882.83 1447.5,-1885"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1284,-1992C1374.35,-1987.65 1365.12,-1882.65 1447.5,-1887"/>
 </g>
 <!-- loom_b_wire&#45;&#45;injector6 -->
 <g id="edge92" class="edge">
 <title>loom_b_wire:e&#45;&#45;injector6:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1284,-2013C1365.05,-2014.02 1385.11,-1996.02 1471.5,-1995"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1284,-2015C1366.38,-2015.51 1386.45,-1997.51 1471.5,-1997"/>
-<path fill="none" stroke="#00ff00" stroke-width="2" d="M1284,-2017C1367.72,-2017 1387.78,-1999 1471.5,-1999"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1284,-2019C1369.05,-2018.49 1389.12,-2000.49 1471.5,-2001"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1284,-2021C1370.39,-2019.98 1390.45,-2001.98 1471.5,-2003"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1284,-2013C1354.22,-2014.23 1371.51,-1996.23 1447.5,-1995"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1284,-2015C1355.66,-2015.61 1372.95,-1997.61 1447.5,-1997"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1284,-2017C1357.11,-2017 1374.39,-1999 1447.5,-1999"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1284,-2019C1358.55,-2018.39 1375.84,-2000.39 1447.5,-2001"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1284,-2021C1359.99,-2019.77 1377.28,-2001.77 1447.5,-2003"/>
 </g>
 <!-- icm&#45;to&#45;coil&#45;wire&#45;&#45;coil -->
 <g id="edge94" class="edge">
@@ -2673,20 +2768,20 @@
 <!-- icm&#45;ground&#45;wire&#45;&#45;engine&#45;ground -->
 <g id="edge100" class="edge">
 <title>icm&#45;ground&#45;wire:e&#45;&#45;engine&#45;ground:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1259,-2757C1402.36,-2757.13 1473.08,-2775.23 1564.02,-2670.33 1821.2,-2389.29 1442.69,-2100.5 1708.11,-1816.24 1831.85,-1693.14 1952.72,-1837.82 2083.6,-1734.8 2202.84,-1649.48 2092.93,-1441.87 2247,-1436"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1259,-2759C1401.86,-2759.06 1472.58,-2777.17 1565.51,-2671.67 1822.41,-2387.7 1443.9,-2098.91 1709.55,-1817.62 1830.32,-1694.43 1951.19,-1839.1 2084.8,-1736.4 2204.61,-1648.54 2094.69,-1440.94 2247,-1438"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1259,-2761C1401.37,-2761 1472.08,-2779.11 1567,-2673 1823.62,-2386.11 1445.11,-2097.32 1711,-1819 1828.78,-1695.71 1949.65,-1840.39 2086,-1738 2206.38,-1647.61 2096.46,-1440 2247,-1440"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1259,-2763C1400.87,-2762.94 1471.59,-2781.05 1568.49,-2674.33 1824.83,-2384.52 1446.33,-2095.73 1712.45,-1820.38 1827.25,-1696.99 1948.12,-1841.67 2087.2,-1739.6 2208.14,-1646.67 2098.23,-1439.06 2247,-1442"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1259,-2765C1400.37,-2764.87 1471.09,-2782.98 1569.98,-2675.67 1826.05,-2382.93 1447.54,-2094.14 1713.89,-1821.76 1825.71,-1698.27 1946.58,-1842.95 2088.4,-1741.2 2209.91,-1645.73 2100,-1438.13 2247,-1444"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1259,-2757C1402.35,-2757.12 1472.75,-2774.95 1564.03,-2670.32 1813.23,-2399.81 1440.73,-2110.02 1708.23,-1846.12 1835.42,-1730.01 1955.42,-1897.56 2083.58,-1794.82 2227.24,-1690 2061.82,-1424.11 2247,-1418"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1259,-2759C1401.86,-2759.06 1472.26,-2776.89 1565.51,-2671.66 1814.46,-2398.23 1441.96,-2108.44 1709.61,-1847.56 1833.79,-1731.17 1953.8,-1898.72 2084.79,-1796.41 2228.94,-1688.94 2063.52,-1423.06 2247,-1420"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1259,-2761C1401.37,-2761 1471.77,-2778.83 1567,-2673 1815.69,-2396.65 1443.19,-2106.86 1711,-1849 1832.16,-1732.34 1952.17,-1899.89 2086,-1798 2230.64,-1687.88 2065.21,-1422 2247,-1422"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1259,-2763C1400.88,-2762.94 1471.28,-2780.76 1568.49,-2674.34 1816.91,-2395.07 1444.42,-2105.28 1712.39,-1850.44 1830.54,-1733.5 1950.54,-1901.05 2087.21,-1799.59 2232.34,-1686.83 2066.91,-1420.94 2247,-1424"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1259,-2765C1400.38,-2764.88 1470.79,-2782.7 1569.97,-2675.68 1818.14,-2393.49 1445.65,-2103.71 1713.77,-1851.88 1828.91,-1734.66 1948.92,-1902.22 2088.42,-1801.18 2234.04,-1685.77 2068.61,-1419.89 2247,-1426"/>
 </g>
 <!-- coil&#45;pwr&#45;wire&#45;&#45;razor_pdm -->
 <g id="edge102" class="edge">
 <title>coil&#45;pwr&#45;wire:e&#45;&#45;razor_pdm:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2050.5,-2446C2137.82,-2450.13 2134.68,-2350.13 2230,-2346"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2050.5,-2448C2139.82,-2450.06 2136.68,-2350.06 2230,-2348"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2050.5,-2450C2141.82,-2450 2138.68,-2350 2230,-2350"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2050.5,-2452C2143.82,-2449.94 2140.68,-2349.94 2230,-2352"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2050.5,-2454C2145.82,-2449.87 2142.68,-2349.87 2230,-2354"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2050.5,-2453C2136.15,-2456.99 2136.35,-2364.99 2230,-2361"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2050.5,-2455C2138.15,-2457 2138.35,-2365 2230,-2363"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2050.5,-2457C2140.15,-2457 2140.35,-2365 2230,-2365"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2050.5,-2459C2142.15,-2457 2142.35,-2365 2230,-2367"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2050.5,-2461C2144.15,-2457.01 2144.35,-2365.01 2230,-2369"/>
 </g>
 <!-- ecu&#45;battery&#45;pos&#45;wire&#45;&#45;link_a_loom -->
 <g id="edge104" class="edge">
@@ -2709,134 +2804,152 @@
 <!-- injector&#45;pwr&#45;wire&#45;&#45;razor_pdm -->
 <g id="edge108" class="edge">
 <title>injector&#45;pwr&#45;wire:e&#45;&#45;razor_pdm:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2133C2144.21,-2137.04 2143.29,-2050.04 2230,-2046"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2135C2146.21,-2137.02 2145.29,-2050.02 2230,-2048"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2137C2148.21,-2137 2147.29,-2050 2230,-2050"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2139C2150.21,-2136.98 2149.29,-2049.98 2230,-2052"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2141C2152.21,-2136.96 2151.29,-2049.96 2230,-2054"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2163C2147.54,-2167.3 2139.99,-2065.3 2230,-2061"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2165C2149.53,-2167.15 2141.98,-2065.15 2230,-2063"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2167C2151.53,-2167 2143.97,-2065 2230,-2065"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2169C2153.52,-2166.85 2145.97,-2064.85 2230,-2067"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2171C2155.51,-2166.7 2147.96,-2064.7 2230,-2069"/>
 </g>
 <!-- injector&#45;pwr&#45;wire&#45;&#45;razor_pdm -->
 <g id="edge110" class="edge">
 <title>injector&#45;pwr&#45;wire:e&#45;&#45;razor_pdm:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2104C2139.07,-2107.36 2148.53,-2049.36 2230,-2046"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2106C2141.05,-2107.68 2150.5,-2049.68 2230,-2048"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2108C2143.02,-2108 2152.48,-2050 2230,-2050"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2110C2145,-2108.32 2154.45,-2050.32 2230,-2052"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2112C2146.97,-2108.64 2156.43,-2050.64 2230,-2054"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2134C2141.49,-2137.75 2146.02,-2064.75 2230,-2061"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2136C2143.49,-2137.88 2148.02,-2064.88 2230,-2063"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2138C2145.49,-2138 2150.01,-2065 2230,-2065"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2140C2147.48,-2138.12 2152.01,-2065.12 2230,-2067"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2142C2149.48,-2138.25 2154.01,-2065.25 2230,-2069"/>
 </g>
 <!-- injector&#45;pwr&#45;wire&#45;&#45;razor_pdm -->
 <g id="edge112" class="edge">
 <title>injector&#45;pwr&#45;wire:e&#45;&#45;razor_pdm:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2075C2136.24,-2077.07 2152.26,-2048.07 2230,-2046"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2077C2137.99,-2078.03 2154.01,-2049.03 2230,-2048"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2079C2139.74,-2079 2155.76,-2050 2230,-2050"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2081C2141.49,-2079.97 2157.51,-2050.97 2230,-2052"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2083C2143.24,-2080.93 2159.26,-2051.93 2230,-2054"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2105C2137.35,-2107.86 2150.49,-2063.86 2230,-2061"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2107C2139.26,-2108.43 2152.4,-2064.43 2230,-2063"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2109C2141.18,-2109 2154.32,-2065 2230,-2065"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2111C2143.1,-2109.57 2156.24,-2065.57 2230,-2067"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2113C2145.01,-2110.14 2158.15,-2066.14 2230,-2069"/>
 </g>
 <!-- injector&#45;pwr&#45;wire&#45;&#45;razor_pdm -->
 <g id="edge114" class="edge">
 <title>injector&#45;pwr&#45;wire:e&#45;&#45;razor_pdm:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2046C2138.61,-2046 2156.89,-2046 2230,-2046"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2048C2138.61,-2048 2156.89,-2048 2230,-2048"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2050C2138.61,-2050 2156.89,-2050 2230,-2050"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2052C2138.61,-2052 2156.89,-2052 2230,-2052"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2054C2138.61,-2054 2156.89,-2054 2230,-2054"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2076C2136.33,-2076.95 2154,-2061.95 2230,-2061"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2078C2137.62,-2078.48 2155.29,-2063.48 2230,-2063"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2080C2138.91,-2080 2156.59,-2065 2230,-2065"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2082C2140.21,-2081.52 2157.88,-2066.52 2230,-2067"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2084C2141.5,-2083.05 2159.17,-2068.05 2230,-2069"/>
 </g>
 <!-- injector&#45;pwr&#45;wire&#45;&#45;razor_pdm -->
 <g id="edge116" class="edge">
 <title>injector&#45;pwr&#45;wire:e&#45;&#45;razor_pdm:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2017C2143.24,-2019.07 2159.26,-2048.07 2230,-2046"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2019C2141.49,-2020.03 2157.51,-2049.03 2230,-2048"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2021C2139.74,-2021 2155.76,-2050 2230,-2050"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2023C2137.99,-2021.97 2154.01,-2050.97 2230,-2052"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2025C2136.24,-2022.93 2152.26,-2051.93 2230,-2054"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2047C2141.35,-2047.86 2159.1,-2061.86 2230,-2061"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2049C2140.11,-2049.43 2157.86,-2063.43 2230,-2063"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2051C2138.88,-2051 2156.62,-2065 2230,-2065"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2053C2137.64,-2052.57 2155.39,-2066.57 2230,-2067"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2055C2136.4,-2054.14 2154.15,-2068.14 2230,-2069"/>
 </g>
 <!-- injector&#45;pwr&#45;wire&#45;&#45;razor_pdm -->
 <g id="edge118" class="edge">
 <title>injector&#45;pwr&#45;wire:e&#45;&#45;razor_pdm:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-1988C2146.97,-1991.36 2156.43,-2049.36 2230,-2046"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-1990C2145,-1991.68 2154.45,-2049.68 2230,-2048"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-1992C2143.02,-1992 2152.48,-2050 2230,-2050"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-1994C2141.05,-1992.32 2150.5,-2050.32 2230,-2052"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-1996C2139.07,-1992.64 2148.53,-2050.64 2230,-2054"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2018C2144.89,-2020.81 2158.25,-2063.81 2230,-2061"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2020C2142.98,-2021.41 2156.34,-2064.41 2230,-2063"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2022C2141.07,-2022 2154.43,-2065 2230,-2065"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2065.5,-2024C2139.16,-2022.59 2152.52,-2065.59 2230,-2067"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2065.5,-2026C2137.25,-2023.19 2150.61,-2066.19 2230,-2069"/>
 </g>
 <!-- knock&#45;shield&#45;wire1&#45;&#45;knock1 -->
 <g id="edge120" class="edge">
 <title>knock&#45;shield&#45;wire1:e&#45;&#45;knock1:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2258C1351.29,-2258.34 1376.45,-2275.34 1478.5,-2275"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2260C1350.17,-2260 1375.33,-2277 1478.5,-2277"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2262C1349.05,-2261.66 1374.21,-2278.66 1478.5,-2279"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2258C1337.67,-2258.43 1359.3,-2275.43 1447.5,-2275"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2260C1336.43,-2260 1358.07,-2277 1447.5,-2277"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2262C1335.2,-2261.57 1356.83,-2278.57 1447.5,-2279"/>
 </g>
 <!-- knock&#45;shield&#45;wire1&#45;&#45;knock1 -->
 <g id="edge122" class="edge">
 <title>knock&#45;shield&#45;wire1:e&#45;&#45;knock1:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2233C1351.44,-2233.41 1376.47,-2252.41 1478.5,-2252"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2235C1350.23,-2235 1375.27,-2254 1478.5,-2254"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2237C1349.03,-2236.59 1374.06,-2255.59 1478.5,-2256"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2233C1337.84,-2233.5 1359.31,-2252.5 1447.5,-2252"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2235C1336.51,-2235 1357.99,-2254 1447.5,-2254"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2237C1335.19,-2236.5 1356.66,-2255.5 1447.5,-2256"/>
 </g>
 <!-- knock&#45;shield&#45;wire1&#45;&#45;knock1 -->
 <g id="edge124" class="edge">
 <title>knock&#45;shield&#45;wire1:e&#45;&#45;knock1:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2208C1351.6,-2208.47 1376.48,-2229.47 1478.5,-2229"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2210C1350.31,-2210 1375.19,-2231 1478.5,-2231"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2212C1349.02,-2211.53 1373.9,-2232.53 1478.5,-2233"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2208C1338,-2208.58 1359.31,-2229.58 1447.5,-2229"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2210C1336.6,-2210 1357.9,-2231 1447.5,-2231"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2212C1335.19,-2211.42 1356.5,-2232.42 1447.5,-2233"/>
 </g>
 <!-- knock&#45;shield&#45;wire2&#45;&#45;knock2 -->
 <g id="edge126" class="edge">
 <title>knock&#45;shield&#45;wire2:e&#45;&#45;knock2:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2441C1349.67,-2441.01 1375.37,-2438.01 1478.5,-2438"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2443C1349.9,-2443 1375.6,-2440 1478.5,-2440"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2445C1350.13,-2444.99 1375.83,-2441.99 1478.5,-2442"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2441C1335.85,-2441.02 1358.11,-2438.02 1447.5,-2438"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2443C1336.12,-2443 1358.38,-2440 1447.5,-2440"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2445C1336.39,-2444.98 1358.65,-2441.98 1447.5,-2442"/>
 </g>
 <!-- knock&#45;shield&#45;wire2&#45;&#45;knock2 -->
 <g id="edge128" class="edge">
 <title>knock&#45;shield&#45;wire2:e&#45;&#45;knock2:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2416C1349.81,-2416 1375.53,-2415 1478.5,-2415"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2418C1349.89,-2418 1375.61,-2417 1478.5,-2417"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2420C1349.97,-2420 1375.69,-2419 1478.5,-2419"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2416C1336.02,-2416 1358.3,-2415 1447.5,-2415"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2418C1336.11,-2418 1358.39,-2417 1447.5,-2417"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2420C1336.2,-2420 1358.48,-2419 1447.5,-2419"/>
 </g>
 <!-- knock&#45;shield&#45;wire2&#45;&#45;knock2 -->
 <g id="edge130" class="edge">
 <title>knock&#45;shield&#45;wire2:e&#45;&#45;knock2:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2391C1349.97,-2391 1375.69,-2392 1478.5,-2392"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2393C1349.89,-2393 1375.61,-2394 1478.5,-2394"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2395C1349.81,-2395 1375.53,-2396 1478.5,-2396"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2391C1336.2,-2391 1358.48,-2392 1447.5,-2392"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1247,-2393C1336.11,-2393 1358.39,-2394 1447.5,-2394"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1247,-2395C1336.02,-2395 1358.3,-2396 1447.5,-2396"/>
 </g>
 <!-- aux&#45;coolant&#45;pump&#45;pos&#45;wire&#45;&#45;razor_pdm -->
 <g id="edge132" class="edge">
 <title>aux&#45;coolant&#45;pump&#45;pos&#45;wire:e&#45;&#45;razor_pdm:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2077.5,-1632C2212.46,-1637.6 2102.38,-1890.6 2230,-1885"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1634C2210.63,-1636.8 2100.54,-1889.8 2230,-1887"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1636C2208.79,-1636 2098.71,-1889 2230,-1889"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1638C2206.96,-1635.2 2096.87,-1888.2 2230,-1891"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2077.5,-1640C2205.12,-1634.4 2095.04,-1887.4 2230,-1893"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2077.5,-1418C2305.59,-1424.1 2008.72,-1906.1 2230,-1900"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1420C2303.89,-1423.05 2007.01,-1905.05 2230,-1902"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1422C2302.19,-1422 2005.31,-1904 2230,-1904"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1424C2300.49,-1420.95 2003.61,-1902.95 2230,-1906"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2077.5,-1426C2298.78,-1419.9 2001.91,-1901.9 2230,-1908"/>
 </g>
 <!-- aux&#45;coolant&#45;pump&#45;gnd&#45;wire&#45;&#45;engine&#45;ground -->
 <g id="edge134" class="edge">
 <title>aux&#45;coolant&#45;pump&#45;gnd&#45;wire:e&#45;&#45;engine&#45;ground:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1299C2183.88,-1303.77 2156.97,-1440.77 2247,-1436"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1301C2181.92,-1303.39 2155.01,-1440.39 2247,-1438"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1303C2179.96,-1303 2153.04,-1440 2247,-1440"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1305C2177.99,-1302.61 2151.08,-1439.61 2247,-1442"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1307C2176.03,-1302.23 2149.12,-1439.23 2247,-1444"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1281C2183.88,-1285.77 2156.97,-1422.77 2247,-1418"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1283C2181.92,-1285.39 2155.01,-1422.39 2247,-1420"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1285C2179.96,-1285 2153.04,-1422 2247,-1422"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1287C2177.99,-1284.61 2151.08,-1421.61 2247,-1424"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1289C2176.03,-1284.23 2149.12,-1421.23 2247,-1426"/>
+</g>
+<!-- isv&#45;pos&#45;wire&#45;&#45;razor_pdm -->
+<g id="edge136" class="edge">
+<title>isv&#45;pos&#45;wire:e&#45;&#45;razor_pdm:w</title>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2030.5,-1880C2147.55,-1884.67 2120.84,-2042.67 2230,-2038"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2030.5,-1882C2145.58,-1884.33 2118.87,-2042.33 2230,-2040"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2030.5,-1884C2143.61,-1884 2116.89,-2042 2230,-2042"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2030.5,-1886C2141.63,-1883.67 2114.92,-2041.67 2230,-2044"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2030.5,-1888C2139.66,-1883.33 2112.95,-2041.33 2230,-2046"/>
+</g>
+<!-- isv&#45;gnd&#45;wire&#45;&#45;engine&#45;ground -->
+<g id="edge138" class="edge">
+<title>isv&#45;gnd&#45;wire:e&#45;&#45;engine&#45;ground:w</title>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2040.5,-1555C2146.66,-1559.4 2132.88,-1422.4 2247,-1418"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2040.5,-1557C2148.65,-1559.2 2134.87,-1422.2 2247,-1420"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2040.5,-1559C2150.64,-1559 2136.86,-1422 2247,-1422"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2040.5,-1561C2152.63,-1558.8 2138.85,-1421.8 2247,-1424"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2040.5,-1563C2154.62,-1558.6 2140.84,-1421.6 2247,-1426"/>
 </g>
 <!-- vapor&#45;purge&#45;valve&#45;pos&#45;wire&#45;&#45;razor_pdm -->
-<g id="edge136" class="edge">
+<g id="edge140" class="edge">
 <title>vapor&#45;purge&#45;valve&#45;pos&#45;wire:e&#45;&#45;razor_pdm:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2077.5,-1850C2163.51,-1854.44 2151.94,-1958.44 2230,-1954"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1852C2161.53,-1854.22 2149.95,-1958.22 2230,-1956"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1854C2159.54,-1854 2147.96,-1958 2230,-1958"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1856C2157.55,-1853.78 2145.97,-1957.78 2230,-1960"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2077.5,-1858C2155.56,-1853.56 2143.99,-1957.56 2230,-1962"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2077.5,-1692C2221.66,-1697.68 2093.09,-1974.68 2230,-1969"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1694C2219.85,-1696.84 2091.28,-1973.84 2230,-1971"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1696C2218.04,-1696 2089.46,-1973 2230,-1973"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2077.5,-1698C2216.22,-1695.16 2087.65,-1972.16 2230,-1975"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2077.5,-1700C2214.41,-1694.32 2085.84,-1971.32 2230,-1977"/>
 </g>
 <!-- vapor&#45;purge&#45;valve&#45;gnd&#45;wire&#45;&#45;engine&#45;ground -->
-<g id="edge138" class="edge">
+<g id="edge142" class="edge">
 <title>vapor&#45;purge&#45;valve&#45;gnd&#45;wire:e&#45;&#45;engine&#45;ground:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1436C2157.56,-1436 2175.44,-1436 2247,-1436"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1438C2157.56,-1438 2175.44,-1438 2247,-1438"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1440C2157.56,-1440 2175.44,-1440 2247,-1440"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1442C2157.56,-1442 2175.44,-1442 2247,-1442"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1444C2157.56,-1444 2175.44,-1444 2247,-1444"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1144C2230.9,-1149.62 2109.41,-1423.62 2247,-1418"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1146C2229.07,-1148.81 2107.58,-1422.81 2247,-1420"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1148C2227.24,-1148 2105.76,-1422 2247,-1422"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1150C2225.42,-1147.19 2103.93,-1421.19 2247,-1424"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2086,-1152C2223.59,-1146.38 2102.1,-1420.38 2247,-1426"/>
 </g>
 </g>
 </svg>

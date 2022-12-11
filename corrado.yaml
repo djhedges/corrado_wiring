@@ -241,9 +241,9 @@ connections:
     - aux-coolant-pump-pos-wire: [1]
     - razor_pdm: [ADIO1]
   -
-    - link_a_loom: [Aux2]
-    - engine-ground-wire: [1]
     - aux-coolant-pump: [Gnd]
+    - engine-ground-wire: [1]
+    - engine-ground: [1]
   -
     - idle-stablizer-valve: [Pos]
     - pdm-12v-ign-wire: [1]

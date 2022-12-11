@@ -1029,12 +1029,10 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
-    <td port="p1l">1</td>
     <td>Pos</td>
     <td port="p1r">1</td>
    </tr>
    <tr>
-    <td port="p2l">2</td>
     <td>Gnd</td>
     <td port="p2r">2</td>
    </tr>
@@ -2624,8 +2622,8 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	link_a_loom:p20r:e -- "engine-ground-wire":w1:w
-	"engine-ground-wire":w1:e -- "aux-coolant-pump":p2l:w
+	"aux-coolant-pump":p2r:e -- "engine-ground-wire":w1:w
+	"engine-ground-wire":w1:e -- "engine-ground":p1l:w
 	"engine-ground-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2642,11 +2640,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>link_a_loom:20:Aux2</td>
+    <td>aux-coolant-pump:2:Gnd</td>
     <td>
      1:BK
     </td>
-    <td>aux-coolant-pump:2:Gnd</td>
+    <td>engine-ground:1:Ground</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">

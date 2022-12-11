@@ -33,10 +33,10 @@ connectors:
     type: 357972753
     pinlabels: [5v, Sensor, Gnd]  # Old wiring  BKGY 5v, GNWH Sensor, BRW Grnd
   cam-sensor:
-    type: 037906240
+    type: HT-010404
     pinlabels: [5v, Sensor, Gnd]
   crank-sensor:
-    type: 037906240
+    type: HT-010404
     pinlabels: [5v, Sensor, Gnd]
   intake-temp-sensor:
     type: 037906240
@@ -60,10 +60,10 @@ connectors:
     type: 037906240
     pinlabels: [Pos, Gnd]
   knock1:
-    type: 037906240
+    type: HT-010404
     pinlabels: [Sig+, Sig-, Scr]
   knock2:
-    type: 037906240
+    type: HT-010404
     pinlabels: [Sig+, Sig-, Scr]
   aux-coolant-pump:
     type: 357972752

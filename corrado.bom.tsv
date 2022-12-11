@@ -4,16 +4,16 @@ Id	Description	Qty	Unit	Designators
 3	Cable, 34 wires	0	m	loom_a_wire, loom_b_wire
 4	Cable, 6 wires	0	m	injector-pwr-wire
 5	Connector, 037906240, 2 pins	8		idle-stablizer-valve, injector1, injector2, injector3, injector4, injector5, injector6, intake-temp-sensor
-6	Connector, 037906240, 3 pins	4		cam-sensor, crank-sensor, knock1, knock2
-7	Connector, 1 pins	1		engine-ground
-8	Connector, 1287013900, 4 pins	1		coil
-9	Connector, 1J0983722, 2 pins	1		vapor-purge-valve
-10	Connector, 2 pins	1		battery
-11	Connector, 26 pins	1		razor_pdm
-12	Connector, 261205289, 4 pins	1		icm-to-coil
-13	Connector, 261205351, 3 pins	1		icm-to-ecu
-14	Connector, 357906231, 4 pins	1		fuel-pump
-15	Connector, 357972752, 2 pins	1		aux-coolant-pump
-16	Connector, 357972753, 3 pins	1		tps
-17	Connector, 5LA, 34 pins	1		link_a_loom
-18	Connector, 5LB, 34 pins	1		link_b_loom
+6	Connector, 1 pins	1		engine-ground
+7	Connector, 1287013900, 4 pins	1		coil
+8	Connector, 1J0983722, 2 pins	1		vapor-purge-valve
+9	Connector, 2 pins	1		battery
+10	Connector, 26 pins	1		razor_pdm
+11	Connector, 261205289, 4 pins	1		icm-to-coil
+12	Connector, 261205351, 3 pins	1		icm-to-ecu
+13	Connector, 357906231, 4 pins	1		fuel-pump
+14	Connector, 357972752, 2 pins	1		aux-coolant-pump
+15	Connector, 357972753, 3 pins	1		tps
+16	Connector, 5LA, 34 pins	1		link_a_loom
+17	Connector, 5LB, 34 pins	1		link_b_loom
+18	Connector, HT-010404, 3 pins	4		cam-sensor, crank-sensor, knock1, knock2

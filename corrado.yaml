@@ -50,6 +50,8 @@ connectors:
     pinlabels: [Sig+, Sig-, Scr]
   aux-coolant-pump:
     pinlabels: [Pos, Gnd]
+  vapor-purge-valve:
+    pinlabels: [Pos, Gnd]
 
 cables:
   loom_a_wire:
@@ -86,6 +88,10 @@ cables:
   aux-coolant-pump-pos-wire:
     colors: [RD]
   aux-coolant-pump-gnd-wire:
+    colors: [BK]
+  vapor-purge-valve-pos-wire:
+    colors: [RD]
+  vapor-purge-valve-gnd-wire:
     colors: [BK]
 
 connections:
@@ -199,3 +205,11 @@ connections:
     - aux-coolant-pump: [Gnd]
     - aux-coolant-pump-gnd-wire: [1]
     - engine-ground: [Ground]
+  -
+    - vapor-purge-valve: [Pos]
+    - vapor-purge-valve-pos-wire: [1]
+    - razor_pdm: [ADIO8]
+  -
+    - vapor-purge-valve: [Gnd]
+    - vapor-purge-valve-gnd-wire: [1]
+    - engine-ground: [Ground]  # TODO: Pick a better ground.

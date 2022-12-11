@@ -1,5 +1,5 @@
 Id	Description	Qty	Unit	Designators
-1	Cable, 1 wires	0	m	coil-pwr-wire, ecu-battery-gnd-wire, ecu-battery-pos-wire, fuel-pump-gnd-wire, fuel-pump-pos-wire, icm-ground-wire, pdm-12v-ign-wire
+1	Cable, 1 wires	0	m	aux-coolant-pump-pos-wire, coil-pwr-wire, ecu-battery-gnd-wire, ecu-battery-pos-wire, engine-ground-wire, fuel-pump-gnd-wire, fuel-pump-pos-wire, icm-ground-wire, pdm-12v-ign-wire
 2	Cable, 3 wires	0	m	icm-to-coil-wire
 3	Cable, 34 wires	0	m	loom_a_wire, loom_b_wire
 4	Cable, 6 wires	0	m	injector-pwr-wire

@@ -91,6 +91,8 @@ cables:
              BUVT, BUBK, BUGN, BUYE, BUWH, WHRD, WHOG, GN,
              VT, GYGN, GYYE, GYOG, GN, WHYE, WHGN, BK,
              VTWH, GYVT, GYWH, GY, GYBU, WHBU, WH, YEGN, BK]
+  engine-ground-wire:
+    colors: [BK]
   icm-to-coil-wire:
     wirecount: 3
   icm-ground-wire:
@@ -108,7 +110,7 @@ cables:
     colors: [RD]
   pdm-12v-ign-wire:
     colors: [RD]
-  pdm-12v-ign-wire:
+  aux-coolant-pump-pos-wire:
     colors: [RD]
   fuel-pump-pos-wire:
     colors: [RD]
@@ -236,8 +238,8 @@ connections:
     - knock2: [Sig+, Sig-, Scr]
   -
     - aux-coolant-pump: [Pos]
-    - pdm-12v-ign-wire: [1]
-    - razor_pdm: [ADIO7]  # TODO: Verify current usage of aux pump
+    - engine-ground-wire: [1]
+    - razor_pdm: [ADIO1]
   -
     - link_a_loom: [Aux2]
     - loom_a_wire: [20]

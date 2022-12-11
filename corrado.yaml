@@ -267,6 +267,6 @@ connections:
     - fuel-pump-pos-wire: [1]
     - razor_pdm: [PWROUT3a]
   -
-    - fuel-pump: [Pos]
-    - fuel-pump-gnd-wire: [1]
     - battery: [-]
+    - fuel-pump-gnd-wire: [1]
+    - fuel-pump: [Pos]

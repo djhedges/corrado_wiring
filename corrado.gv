@@ -19,12 +19,10 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
-    <td port="p1l">1</td>
     <td>+</td>
     <td port="p1r">1</td>
    </tr>
    <tr>
-    <td port="p2l">2</td>
     <td>-</td>
     <td port="p2r">2</td>
    </tr>
@@ -1112,18 +1110,22 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
+    <td port="p1l">1</td>
     <td>Pos</td>
     <td port="p1r">1</td>
    </tr>
    <tr>
+    <td port="p2l">2</td>
     <td>SendingA</td>
     <td port="p2r">2</td>
    </tr>
    <tr>
+    <td port="p3l">3</td>
     <td>SendingB</td>
     <td port="p3r">3</td>
    </tr>
    <tr>
+    <td port="p4l">4</td>
     <td>Gnd</td>
     <td port="p4r">4</td>
    </tr>
@@ -3211,8 +3213,8 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"fuel-pump":p1r:e -- "fuel-pump-gnd-wire":w1:w
-	"fuel-pump-gnd-wire":w1:e -- battery:p2l:w
+	battery:p2r:e -- "fuel-pump-gnd-wire":w1:w
+	"fuel-pump-gnd-wire":w1:e -- "fuel-pump":p1l:w
 	"fuel-pump-gnd-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -3229,11 +3231,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>fuel-pump:1:Pos</td>
+    <td>battery:2:-</td>
     <td>
      1:BK
     </td>
-    <td>battery:2:-</td>
+    <td>fuel-pump:1:Pos</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">

@@ -247,9 +247,9 @@ connections:
     - engine-ground-wire: [1]
     - engine-ground: [Ground]
   -
-    - idle-stablizer-valve: [Pos]
-    - loom_a_wire: [21]
     - link_a_loom: [Aux1]
+    - loom_a_wire: [21]
+    - idle-stablizer-valve: [Pos]
   -
     - idle-stablizer-valve: [Gnd]
     - engine-ground-wire: [1]

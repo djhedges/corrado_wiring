@@ -1056,10 +1056,12 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
+    <td port="p1l">1</td>
     <td>Pos</td>
     <td port="p1r">1</td>
    </tr>
    <tr>
+    <td port="p2l">2</td>
     <td>Gnd</td>
     <td port="p2r">2</td>
    </tr>
@@ -1250,8 +1252,8 @@ graph {
 	link_a_loom:p1r:e -- loom_a_wire:w1:w
 	loom_a_wire:w1:e -- injector4:p2l:w
 	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
-	"idle-stablizer-valve":p1r:e -- loom_a_wire:w21:w
-	loom_a_wire:w21:e -- link_a_loom:p21l:w
+	link_a_loom:p21r:e -- loom_a_wire:w21:w
+	loom_a_wire:w21:e -- "idle-stablizer-valve":p1l:w
 	loom_a_wire [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1632,7 +1634,7 @@ graph {
     <td>
      21:OGBK
     </td>
-    <td>link_a_loom:21:Aux1</td>
+    <td>idle-stablizer-valve:1:Pos</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w21" height="10">

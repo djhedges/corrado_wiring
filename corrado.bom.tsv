@@ -1,5 +1,5 @@
 Id	Description	Qty	Unit	Designators
-1	Cable, 1 wires	0	m	aux-coolant-pump-gnd-wire, aux-coolant-pump-pos-wire, coil-pwr-wire, ecu-battery-gnd-wire, ecu-battery-pos-wire, icm-ground-wire, isv-gnd-wire, isv-pos-wire, vapor-purge-valve-gnd-wire, vapor-purge-valve-pos-wire
+1	Cable, 1 wires	0	m	aux-coolant-pump-gnd-wire, aux-coolant-pump-pos-wire, coil-pwr-wire, ecu-battery-gnd-wire, ecu-battery-pos-wire, fuel-pump-gnd-wire, fuel-pump-pos-wire, icm-ground-wire, isv-gnd-wire, isv-pos-wire, vapor-purge-valve-gnd-wire, vapor-purge-valve-pos-wire
 2	Cable, 3 wires	0	m	icm-to-coil-wire, knock-shield-wire1, knock-shield-wire2
 3	Cable, 34 wires	0	m	loom_a_wire, loom_b_wire
 4	Cable, 6 wires	0	m	injector-pwr-wire
@@ -12,7 +12,8 @@ Id	Description	Qty	Unit	Designators
 11	Connector, 26 pins	1		razor_pdm
 12	Connector, 261205289, 4 pins	1		icm-to-coil
 13	Connector, 261205351, 3 pins	1		icm-to-ecu
-14	Connector, 357972752, 2 pins	1		aux-coolant-pump
-15	Connector, 357972753, 3 pins	1		tps
-16	Connector, 5LA, 34 pins	1		link_a_loom
-17	Connector, 5LB, 34 pins	1		link_b_loom
+14	Connector, 357906231, 4 pins	1		fuel-pump
+15	Connector, 357972752, 2 pins	1		aux-coolant-pump
+16	Connector, 357972753, 3 pins	1		tps
+17	Connector, 5LA, 34 pins	1		link_a_loom
+18	Connector, 5LB, 34 pins	1		link_b_loom

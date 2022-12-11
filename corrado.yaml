@@ -68,6 +68,9 @@ connectors:
   vapor-purge-valve:  # Non-OEM replacement.
     type: 1J0983722
     pinlabels: [Pos, Gnd]
+  fuel-pump:
+    type: 357906231
+    pinlabels: [Pos, SendingA, SendingB, Gnd]
 
 cables:
   loom_a_wire:
@@ -112,6 +115,10 @@ cables:
   vapor-purge-valve-pos-wire:
     colors: [RD]
   vapor-purge-valve-gnd-wire:
+    colors: [BK]
+  fuel-pump-pos-wire:
+    colors: [RD]
+  fuel-pump-gnd-wire:
     colors: [BK]
 
 connections:
@@ -245,3 +252,11 @@ connections:
     - vapor-purge-valve: [Gnd]
     - vapor-purge-valve-gnd-wire: [1]
     - engine-ground: [Ground]  # TODO: Pick a better ground.
+  -
+    - fuel-pump: [Pos]
+    - fuel-pump-pos-wire: [1]
+    - razor_pdm: [PWROUT3a]
+  -
+    - fuel-pump: [Pos]
+    - fuel-pump-gnd-wire: [1]
+    - battery: [-]

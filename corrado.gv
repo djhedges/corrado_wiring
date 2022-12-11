@@ -1253,7 +1253,7 @@ graph {
 	loom_a_wire:w1:e -- injector4:p2l:w
 	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
 	link_a_loom:p21r:e -- loom_a_wire:w21:w
-	loom_a_wire:w21:e -- "idle-stablizer-valve":p1l:w
+	loom_a_wire:w21:e -- "idle-stablizer-valve":p2l:w
 	loom_a_wire [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1634,7 +1634,7 @@ graph {
     <td>
      21:OGBK
     </td>
-    <td>idle-stablizer-valve:1:Pos</td>
+    <td>idle-stablizer-valve:2:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w21" height="10">
@@ -2864,9 +2864,6 @@ graph {
 	"aux-coolant-pump":p2r:e -- "engine-ground-wire":w1:w
 	"engine-ground-wire":w1:e -- "engine-ground":p1l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"idle-stablizer-valve":p2r:e -- "engine-ground-wire":w1:w
-	"engine-ground-wire":w1:e -- "engine-ground":p1l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	"vapor-purge-valve":p2r:e -- "engine-ground-wire":w1:w
 	"engine-ground-wire":w1:e -- "engine-ground":p1l:w
 	"engine-ground-wire" [label=<
@@ -3094,52 +3091,17 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
-	"idle-stablizer-valve-pos-wire" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">idle-stablizer-valve-pos-wire</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">1x</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td><!-- 1_in --></td>
-    <td>
-     1:RD
-    </td>
-    <td><!-- 1_out --></td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	"vapor-purge-valve":p1r:e -- "vapor-purge-valve-pos-wire":w1:w
-	"vapor-purge-valve-pos-wire":w1:e -- razor_pdm:p18l:w
-	"vapor-purge-valve-pos-wire" [label=<
+	"idle-stablizer-valve":p2r:e -- "pdm-12v-ign-wire":w1:w
+	"pdm-12v-ign-wire":w1:e -- razor_pdm:p24l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	"vapor-purge-valve":p1r:e -- "pdm-12v-ign-wire":w1:w
+	"pdm-12v-ign-wire":w1:e -- razor_pdm:p18l:w
+	"pdm-12v-ign-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">vapor-purge-valve-pos-wire</td>
+   <td balign="left">pdm-12v-ign-wire</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -3151,11 +3113,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>vapor-purge-valve:1:Pos</td>
+    <td>idle-stablizer-valve:2:Gnd</td>
     <td>
      1:RD
     </td>
-    <td>razor_pdm:18:ADIO8</td>
+    <td>razor_pdm:24:ADIO7</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">

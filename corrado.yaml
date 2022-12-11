@@ -110,9 +110,7 @@ cables:
     colors: [RD]
   aux-coolant-pump-pos-wire:
     colors: [RD]
-  idle-stablizer-valve-pos-wire:
-    colors: [RD]
-  vapor-purge-valve-pos-wire:
+  pdm-12v-ign-wire:
     colors: [RD]
   fuel-pump-pos-wire:
     colors: [RD]
@@ -249,14 +247,14 @@ connections:
   -
     - link_a_loom: [Aux1]
     - loom_a_wire: [21]
-    - idle-stablizer-valve: [Pos]
+    - idle-stablizer-valve: [Gnd]
   -
     - idle-stablizer-valve: [Gnd]
-    - engine-ground-wire: [1]
-    - engine-ground: [Ground]
+    - pdm-12v-ign-wire: [1]
+    - razor_pdm: [ADIO7]
   -
     - vapor-purge-valve: [Pos]
-    - vapor-purge-valve-pos-wire: [1]
+    - pdm-12v-ign-wire: [1]
     - razor_pdm: [ADIO8]
   -
     - vapor-purge-valve: [Gnd]

@@ -147,7 +147,8 @@ connections:
   -
     - icm-to-coil: [Gnd]
     - icm-ground-wire: [1]
-    - engine-ground: [Ground]
+    - engine-ground: [Ground]  # TODO: Find a better ground so the engine can be pulled without
+                               # disconnecting.
   -
     - coil: [Ubatt]
     - coil-pwr-wire: [1]
@@ -255,7 +256,7 @@ connections:
   -
     - vapor-purge-valve: [Pos]
     - pdm-12v-ign-wire: [1]
-    - razor_pdm: [ADIO1]
+    - razor_pdm: [ADIO7]
   -
     - link_a_loom: [Aux3]
     - loom_a_wire: [19]

@@ -237,7 +237,7 @@ connections:
   -
     - aux-coolant-pump: [Pos]
     - pdm-12v-ign-wire: [1]
-    - razor_pdm: [ADIO1]
+    - razor_pdm: [ADIO7]  # TODO: Verify current usage of aux pump
   -
     - link_a_loom: [Aux2]
     - loom_a_wire: [20]

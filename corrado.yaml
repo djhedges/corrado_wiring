@@ -33,24 +33,34 @@ connectors:
     type: 357972753
     pinlabels: [5v, Sensor, Gnd]  # Old wiring  BKGY 5v, GNWH Sensor, BRW Grnd
   injector1:
+    type: 037906240
     pinlabels: [Pos, Gnd]
   injector2:
+    type: 037906240
     pinlabels: [Pos, Gnd]
   injector3:
+    type: 037906240
     pinlabels: [Pos, Gnd]
   injector4:
+    type: 037906240
     pinlabels: [Pos, Gnd]
   injector5:
+    type: 037906240
     pinlabels: [Pos, Gnd]
   injector6:
+    type: 037906240
     pinlabels: [Pos, Gnd]
   knock1:
+    type: 037906240
     pinlabels: [Sig+, Sig-, Scr]
   knock2:
+    type: 037906240
     pinlabels: [Sig+, Sig-, Scr]
   aux-coolant-pump:
+    type: 357972752
     pinlabels: [Pos, Gnd]
-  vapor-purge-valve:
+  vapor-purge-valve:  # Non-OEM replacement.
+    type: 1J0983722
     pinlabels: [Pos, Gnd]
 
 cables:

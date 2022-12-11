@@ -159,12 +159,12 @@ connections:
     - loom_a_wire: [32, 17, 25]
     - tps: [5v, Sensor, Gnd]
   -
-    - link_a_loom: [+5V, AnVolt2, Shield/Gnd]
-    - loom_a_wire: [32, 22, 7]
+    - link_a_loom: [+5V, Trig1, Shield/Gnd]
+    - loom_a_wire: [32, 8, 7]
     - cam-sensor: [5v, Sensor, Gnd]
   -
-    - link_a_loom: [+5V, AnVolt3, Shield/Gnd]
-    - loom_a_wire: [32, 33, 7]
+    - link_a_loom: [+5V, Trig2, Shield/Gnd]
+    - loom_a_wire: [32, 9, 7]
     - crank-sensor: [5v, Sensor, Gnd]
   -
     - link_b_loom: [Temp3, Ground1]

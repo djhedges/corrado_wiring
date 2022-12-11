@@ -1220,18 +1220,18 @@ graph {
 	edge [color="#000000:#ffff00:#000000:#ffff00:#000000"]
 	link_a_loom:p32r:e -- loom_a_wire:w32:w
 	loom_a_wire:w32:e -- "cam-sensor":p3l:w
-	edge [color="#000000:#999999:#ff0000:#999999:#000000"]
-	link_a_loom:p22r:e -- loom_a_wire:w22:w
-	loom_a_wire:w22:e -- "cam-sensor":p2l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	link_a_loom:p8r:e -- loom_a_wire:w8:w
+	loom_a_wire:w8:e -- "cam-sensor":p2l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_a_loom:p7r:e -- loom_a_wire:w7:w
 	loom_a_wire:w7:e -- "cam-sensor":p1l:w
 	edge [color="#000000:#ffff00:#000000:#ffff00:#000000"]
 	link_a_loom:p32r:e -- loom_a_wire:w32:w
 	loom_a_wire:w32:e -- "crank-sensor":p3l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	link_a_loom:p33r:e -- loom_a_wire:w33:w
-	loom_a_wire:w33:e -- "crank-sensor":p2l:w
+	edge [color="#000000:#0066ff:#ff8000:#0066ff:#000000"]
+	link_a_loom:p9r:e -- loom_a_wire:w9:w
+	loom_a_wire:w9:e -- "crank-sensor":p2l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_a_loom:p7r:e -- loom_a_wire:w7:w
 	loom_a_wire:w7:e -- "crank-sensor":p1l:w
@@ -1393,7 +1393,7 @@ graph {
     <td>
      8:RD
     </td>
-    <td><!-- 8_out --></td>
+    <td>cam-sensor:2:Sensor</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w8" height="10">
@@ -1411,7 +1411,7 @@ graph {
     <td>
      9:BUOG
     </td>
-    <td><!-- 9_out --></td>
+    <td>crank-sensor:2:Sensor</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w9" height="10">
@@ -1645,7 +1645,7 @@ graph {
     <td>
      22:GYRD
     </td>
-    <td>cam-sensor:2:Sensor</td>
+    <td><!-- 22_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w22" height="10">
@@ -1843,7 +1843,7 @@ graph {
     <td>
      33:BK
     </td>
-    <td>crank-sensor:2:Sensor</td>
+    <td><!-- 33_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w33" height="10">

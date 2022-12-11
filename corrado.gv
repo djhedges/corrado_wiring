@@ -1195,12 +1195,6 @@ graph {
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
 	link_a_loom:p34r:e -- loom_a_wire:w34:w
 	loom_a_wire:w34:e -- "cam-sensor":p1l:w
-	edge [color="#000000:#ffff00:#895956:#ffff00:#000000"]
-	link_a_loom:p15r:e -- loom_a_wire:w15:w
-	loom_a_wire:w15:e -- "intake-temp-sensor":p1l:w
-	edge [color="#000000:#ff8000:#8000ff:#ff8000:#000000"]
-	link_a_loom:p25r:e -- loom_a_wire:w25:w
-	loom_a_wire:w25:e -- "intake-temp-sensor":p2l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	link_a_loom:p4r:e -- loom_a_wire:w4:w
 	loom_a_wire:w4:e -- injector1:p2l:w
@@ -1485,7 +1479,7 @@ graph {
     <td>
      15:YEBN
     </td>
-    <td>intake-temp-sensor:1:Sig+</td>
+    <td><!-- 15_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w15" height="10">
@@ -1913,6 +1907,12 @@ graph {
 	link_b_loom:p33r:e -- loom_b_wire:w33:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_b_loom:p34r:e -- loom_b_wire:w34:w
+	edge [color="#000000:#ffff00:#ff0000:#ffff00:#000000"]
+	link_b_loom:p6r:e -- loom_b_wire:w6:w
+	loom_b_wire:w6:e -- "intake-temp-sensor":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_b_loom:p25r:e -- loom_b_wire:w25:w
+	loom_b_wire:w25:e -- "intake-temp-sensor":p2l:w
 	edge [color="#000000:#895956:#ffff00:#895956:#000000"]
 	link_b_loom:p4r:e -- loom_b_wire:w4:w
 	loom_b_wire:w4:e -- injector5:p2l:w
@@ -2047,7 +2047,7 @@ graph {
     <td>
      6:YERD
     </td>
-    <td><!-- 6_out --></td>
+    <td>intake-temp-sensor:1:Sig+</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w6" height="10">
@@ -2389,7 +2389,7 @@ graph {
     <td>
      25:BK
     </td>
-    <td><!-- 25_out --></td>
+    <td>intake-temp-sensor:2:Sig-</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">

@@ -160,8 +160,8 @@ connections:
     - loom_a_wire: [32, 22, 34]
     - cam-sensor: [5v, Sensor, Gnd]
   -
-    - link_a_loom: [Temp1, Ground1]
-    - loom_a_wire: [15, 25]
+    - link_b_loom: [Temp3, Ground1]
+    - loom_b_wire: [6, 25]
     - intake-temp-sensor: [Sig+, Sig-]
   -
     - battery: [+]

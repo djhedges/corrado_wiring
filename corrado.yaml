@@ -34,7 +34,7 @@ connectors:
     pinlabels: [5v, Sensor, Gnd]  # Old wiring  BKGY 5v, GNWH Sensor, BRW Grnd
   cam-sensor:
     type: 037906240
-    pinlabels: [Sensor, Gnd]
+    pinlabels: [5v, Sensor, Gnd]
   crank-sensor:
     type: 037906240
     pinlabels: [5v, Sensor, Gnd]

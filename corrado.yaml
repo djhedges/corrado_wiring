@@ -238,11 +238,11 @@ connections:
     - knock2: [Sig+, Sig-, Scr]
   -
     - aux-coolant-pump: [Pos]
-    - engine-ground-wire: [1]
+    - aux-coolant-pump-pos-wire: [1]
     - razor_pdm: [ADIO1]
   -
     - link_a_loom: [Aux2]
-    - loom_a_wire: [20]
+    - engine-ground-wire: [1]
     - aux-coolant-pump: [Gnd]
   -
     - idle-stablizer-valve: [Pos]

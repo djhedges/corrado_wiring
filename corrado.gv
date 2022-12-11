@@ -1255,9 +1255,6 @@ graph {
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
 	link_a_loom:p1r:e -- loom_a_wire:w1:w
 	loom_a_wire:w1:e -- injector4:p2l:w
-	edge [color="#000000:#ff8000:#895956:#ff8000:#000000"]
-	link_a_loom:p20r:e -- loom_a_wire:w20:w
-	loom_a_wire:w20:e -- "aux-coolant-pump":p2l:w
 	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
 	link_a_loom:p21r:e -- loom_a_wire:w21:w
 	loom_a_wire:w21:e -- "idle-stablizer-valve":p2l:w
@@ -1626,7 +1623,7 @@ graph {
     <td>
      20:OGBN
     </td>
-    <td>aux-coolant-pump:2:Gnd</td>
+    <td><!-- 20_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w20" height="10">
@@ -2627,8 +2624,8 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"aux-coolant-pump":p1r:e -- "engine-ground-wire":w1:w
-	"engine-ground-wire":w1:e -- razor_pdm:p21l:w
+	link_a_loom:p20r:e -- "engine-ground-wire":w1:w
+	"engine-ground-wire":w1:e -- "aux-coolant-pump":p2l:w
 	"engine-ground-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2645,11 +2642,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>aux-coolant-pump:1:Pos</td>
+    <td>link_a_loom:20:Aux2</td>
     <td>
      1:BK
     </td>
-    <td>razor_pdm:21:ADIO1</td>
+    <td>aux-coolant-pump:2:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
@@ -3101,6 +3098,9 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	"aux-coolant-pump":p1r:e -- "aux-coolant-pump-pos-wire":w1:w
+	"aux-coolant-pump-pos-wire":w1:e -- razor_pdm:p21l:w
 	"aux-coolant-pump-pos-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -3117,11 +3117,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td><!-- 1_in --></td>
+    <td>aux-coolant-pump:1:Pos</td>
     <td>
      1:RD
     </td>
-    <td><!-- 1_out --></td>
+    <td>razor_pdm:21:ADIO1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">

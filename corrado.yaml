@@ -81,7 +81,7 @@ connectors:
 cables:
   loom_a_wire:
     wirecount: 34
-    colors: [BNOG, BNRD, BN, BNBK, RD, GN, BK, RD,
+    colors: [BNOG, BNRD, BN, BNBK, RD, RDWH, GN, BK, RD,
              BUOG, BURD, BUBN, BU, WHBK, YE, YEBN, YEBU,
              OG, OGRD, OGBN, OGBK, WHBN, GYRD, GN, BK,
              OGVT, OGBU, OGGN, OGYE, GYBK, GYBN, RDBU, YEBK, BK]

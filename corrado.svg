@@ -359,216 +359,216 @@
 <polygon fill="#ff0000" stroke="transparent" points="1845.5,-2314 1845.5,-2316 2257.5,-2316 2257.5,-2314 1845.5,-2314"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2312 1845.5,-2314 2257.5,-2314 2257.5,-2312 1845.5,-2312"/>
 <text text-anchor="start" x="1869" y="-2298.8" font-family="arial" font-size="14.00">link_a_loom:6:+8V</text>
-<text text-anchor="start" x="2022.5" y="-2298.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;6:GN &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2012" y="-2298.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;6:RDWH &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2291 1845.5,-2293 2257.5,-2293 2257.5,-2291 1845.5,-2291"/>
-<polygon fill="#00ff00" stroke="transparent" points="1845.5,-2289 1845.5,-2291 2257.5,-2291 2257.5,-2289 1845.5,-2289"/>
-<polygon fill="#00ff00" stroke="transparent" points="1845.5,-2287 1845.5,-2289 2257.5,-2289 2257.5,-2287 1845.5,-2287"/>
-<polygon fill="#00ff00" stroke="transparent" points="1845.5,-2285 1845.5,-2287 2257.5,-2287 2257.5,-2285 1845.5,-2285"/>
+<polygon fill="#ff0000" stroke="transparent" points="1845.5,-2289 1845.5,-2291 2257.5,-2291 2257.5,-2289 1845.5,-2289"/>
+<polygon fill="#ffffff" stroke="transparent" points="1845.5,-2287 1845.5,-2289 2257.5,-2289 2257.5,-2287 1845.5,-2287"/>
+<polygon fill="#ff0000" stroke="transparent" points="1845.5,-2285 1845.5,-2287 2257.5,-2287 2257.5,-2285 1845.5,-2285"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2283 1845.5,-2285 2257.5,-2285 2257.5,-2283 1845.5,-2283"/>
 <text text-anchor="start" x="1847.5" y="-2269.8" font-family="arial" font-size="14.00">link_a_loom:7:Shield/Gnd</text>
-<text text-anchor="start" x="2024" y="-2269.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;7:BK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2022.5" y="-2269.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;7:GN &#160;&#160;&#160;</text>
 <text text-anchor="start" x="2125.5" y="-2269.8" font-family="arial" font-size="14.00">cam&#45;sensor:3:Gnd</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2262 1845.5,-2264 2257.5,-2264 2257.5,-2262 1845.5,-2262"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-2260 1845.5,-2262 2257.5,-2262 2257.5,-2260 1845.5,-2260"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-2258 1845.5,-2260 2257.5,-2260 2257.5,-2258 1845.5,-2258"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-2256 1845.5,-2258 2257.5,-2258 2257.5,-2256 1845.5,-2256"/>
+<polygon fill="#00ff00" stroke="transparent" points="1845.5,-2260 1845.5,-2262 2257.5,-2262 2257.5,-2260 1845.5,-2260"/>
+<polygon fill="#00ff00" stroke="transparent" points="1845.5,-2258 1845.5,-2260 2257.5,-2260 2257.5,-2258 1845.5,-2258"/>
+<polygon fill="#00ff00" stroke="transparent" points="1845.5,-2256 1845.5,-2258 2257.5,-2258 2257.5,-2256 1845.5,-2256"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2254 1845.5,-2256 2257.5,-2256 2257.5,-2254 1845.5,-2254"/>
 <text text-anchor="start" x="1866" y="-2240.8" font-family="arial" font-size="14.00">link_a_loom:8:Trig1</text>
-<text text-anchor="start" x="2023.5" y="-2240.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;8:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2024" y="-2240.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;8:BK &#160;&#160;&#160;</text>
 <text text-anchor="start" x="2117" y="-2240.8" font-family="arial" font-size="14.00">cam&#45;sensor:2:Sensor</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2233 1845.5,-2235 2257.5,-2235 2257.5,-2233 1845.5,-2233"/>
-<polygon fill="#ff0000" stroke="transparent" points="1845.5,-2231 1845.5,-2233 2257.5,-2233 2257.5,-2231 1845.5,-2231"/>
-<polygon fill="#ff0000" stroke="transparent" points="1845.5,-2229 1845.5,-2231 2257.5,-2231 2257.5,-2229 1845.5,-2229"/>
-<polygon fill="#ff0000" stroke="transparent" points="1845.5,-2227 1845.5,-2229 2257.5,-2229 2257.5,-2227 1845.5,-2227"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-2231 1845.5,-2233 2257.5,-2233 2257.5,-2231 1845.5,-2231"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-2229 1845.5,-2231 2257.5,-2231 2257.5,-2229 1845.5,-2229"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-2227 1845.5,-2229 2257.5,-2229 2257.5,-2227 1845.5,-2227"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2225 1845.5,-2227 2257.5,-2227 2257.5,-2225 1845.5,-2225"/>
 <text text-anchor="start" x="1866" y="-2211.8" font-family="arial" font-size="14.00">link_a_loom:9:Trig2</text>
-<text text-anchor="start" x="2012.5" y="-2211.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;9:BUOG &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2023.5" y="-2211.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;9:RD &#160;&#160;&#160;</text>
 <text text-anchor="start" x="2114" y="-2211.8" font-family="arial" font-size="14.00">crank&#45;sensor:2:Sensor</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2204 1845.5,-2206 2257.5,-2206 2257.5,-2204 1845.5,-2204"/>
-<polygon fill="#0066ff" stroke="transparent" points="1845.5,-2202 1845.5,-2204 2257.5,-2204 2257.5,-2202 1845.5,-2202"/>
-<polygon fill="#ff8000" stroke="transparent" points="1845.5,-2200 1845.5,-2202 2257.5,-2202 2257.5,-2200 1845.5,-2200"/>
-<polygon fill="#0066ff" stroke="transparent" points="1845.5,-2198 1845.5,-2200 2257.5,-2200 2257.5,-2198 1845.5,-2198"/>
+<polygon fill="#ff0000" stroke="transparent" points="1845.5,-2202 1845.5,-2204 2257.5,-2204 2257.5,-2202 1845.5,-2202"/>
+<polygon fill="#ff0000" stroke="transparent" points="1845.5,-2200 1845.5,-2202 2257.5,-2202 2257.5,-2200 1845.5,-2200"/>
+<polygon fill="#ff0000" stroke="transparent" points="1845.5,-2198 1845.5,-2200 2257.5,-2200 2257.5,-2198 1845.5,-2198"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2196 1845.5,-2198 2257.5,-2198 2257.5,-2196 1845.5,-2196"/>
 <text text-anchor="start" x="1864.5" y="-2182.8" font-family="arial" font-size="14.00">link_a_loom:10:Ign4</text>
-<text text-anchor="start" x="2010.5" y="-2182.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;10:BURD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2009" y="-2182.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;10:BUOG &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2175 1845.5,-2177 2257.5,-2177 2257.5,-2175 1845.5,-2175"/>
 <polygon fill="#0066ff" stroke="transparent" points="1845.5,-2173 1845.5,-2175 2257.5,-2175 2257.5,-2173 1845.5,-2173"/>
-<polygon fill="#ff0000" stroke="transparent" points="1845.5,-2171 1845.5,-2173 2257.5,-2173 2257.5,-2171 1845.5,-2171"/>
+<polygon fill="#ff8000" stroke="transparent" points="1845.5,-2171 1845.5,-2173 2257.5,-2173 2257.5,-2171 1845.5,-2171"/>
 <polygon fill="#0066ff" stroke="transparent" points="1845.5,-2169 1845.5,-2171 2257.5,-2171 2257.5,-2169 1845.5,-2169"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2167 1845.5,-2169 2257.5,-2169 2257.5,-2167 1845.5,-2167"/>
 <text text-anchor="start" x="1864.5" y="-2153.8" font-family="arial" font-size="14.00">link_a_loom:11:Ign3</text>
-<text text-anchor="start" x="2010.5" y="-2153.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;11:BUBN &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2010.5" y="-2153.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;11:BURD &#160;&#160;&#160;</text>
 <text text-anchor="start" x="2108.5" y="-2153.8" font-family="arial" font-size="14.00">icm&#45;to&#45;ecu:3:Transistor3</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2146 1845.5,-2148 2257.5,-2148 2257.5,-2146 1845.5,-2146"/>
 <polygon fill="#0066ff" stroke="transparent" points="1845.5,-2144 1845.5,-2146 2257.5,-2146 2257.5,-2144 1845.5,-2144"/>
-<polygon fill="#895956" stroke="transparent" points="1845.5,-2142 1845.5,-2144 2257.5,-2144 2257.5,-2142 1845.5,-2142"/>
+<polygon fill="#ff0000" stroke="transparent" points="1845.5,-2142 1845.5,-2144 2257.5,-2144 2257.5,-2142 1845.5,-2142"/>
 <polygon fill="#0066ff" stroke="transparent" points="1845.5,-2140 1845.5,-2142 2257.5,-2142 2257.5,-2140 1845.5,-2140"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2138 1845.5,-2140 2257.5,-2140 2257.5,-2138 1845.5,-2138"/>
 <text text-anchor="start" x="1864.5" y="-2124.8" font-family="arial" font-size="14.00">link_a_loom:12:Ign2</text>
-<text text-anchor="start" x="2020" y="-2124.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;12:BU &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2010.5" y="-2124.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;12:BUBN &#160;&#160;&#160;</text>
 <text text-anchor="start" x="2108.5" y="-2124.8" font-family="arial" font-size="14.00">icm&#45;to&#45;ecu:2:Transistor2</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2117 1845.5,-2119 2257.5,-2119 2257.5,-2117 1845.5,-2117"/>
 <polygon fill="#0066ff" stroke="transparent" points="1845.5,-2115 1845.5,-2117 2257.5,-2117 2257.5,-2115 1845.5,-2115"/>
-<polygon fill="#0066ff" stroke="transparent" points="1845.5,-2113 1845.5,-2115 2257.5,-2115 2257.5,-2113 1845.5,-2113"/>
+<polygon fill="#895956" stroke="transparent" points="1845.5,-2113 1845.5,-2115 2257.5,-2115 2257.5,-2113 1845.5,-2113"/>
 <polygon fill="#0066ff" stroke="transparent" points="1845.5,-2111 1845.5,-2113 2257.5,-2113 2257.5,-2111 1845.5,-2111"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2109 1845.5,-2111 2257.5,-2111 2257.5,-2109 1845.5,-2109"/>
 <text text-anchor="start" x="1864.5" y="-2095.8" font-family="arial" font-size="14.00">link_a_loom:13:Ign1</text>
-<text text-anchor="start" x="2009" y="-2095.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;13:WHBK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2020" y="-2095.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;13:BU &#160;&#160;&#160;</text>
 <text text-anchor="start" x="2108.5" y="-2095.8" font-family="arial" font-size="14.00">icm&#45;to&#45;ecu:1:Transistor1</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2088 1845.5,-2090 2257.5,-2090 2257.5,-2088 1845.5,-2088"/>
-<polygon fill="#ffffff" stroke="transparent" points="1845.5,-2086 1845.5,-2088 2257.5,-2088 2257.5,-2086 1845.5,-2086"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-2084 1845.5,-2086 2257.5,-2086 2257.5,-2084 1845.5,-2084"/>
-<polygon fill="#ffffff" stroke="transparent" points="1845.5,-2082 1845.5,-2084 2257.5,-2084 2257.5,-2082 1845.5,-2082"/>
+<polygon fill="#0066ff" stroke="transparent" points="1845.5,-2086 1845.5,-2088 2257.5,-2088 2257.5,-2086 1845.5,-2086"/>
+<polygon fill="#0066ff" stroke="transparent" points="1845.5,-2084 1845.5,-2086 2257.5,-2086 2257.5,-2084 1845.5,-2084"/>
+<polygon fill="#0066ff" stroke="transparent" points="1845.5,-2082 1845.5,-2084 2257.5,-2084 2257.5,-2082 1845.5,-2082"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2080 1845.5,-2082 2257.5,-2082 2257.5,-2080 1845.5,-2080"/>
 <text text-anchor="start" x="1854.5" y="-2066.8" font-family="arial" font-size="14.00">link_a_loom:14:AnVolt4</text>
-<text text-anchor="start" x="2020.5" y="-2066.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;14:YE &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2009" y="-2066.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;14:WHBK &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2059 1845.5,-2061 2257.5,-2061 2257.5,-2059 1845.5,-2059"/>
-<polygon fill="#ffff00" stroke="transparent" points="1845.5,-2057 1845.5,-2059 2257.5,-2059 2257.5,-2057 1845.5,-2057"/>
-<polygon fill="#ffff00" stroke="transparent" points="1845.5,-2055 1845.5,-2057 2257.5,-2057 2257.5,-2055 1845.5,-2055"/>
-<polygon fill="#ffff00" stroke="transparent" points="1845.5,-2053 1845.5,-2055 2257.5,-2055 2257.5,-2053 1845.5,-2053"/>
+<polygon fill="#ffffff" stroke="transparent" points="1845.5,-2057 1845.5,-2059 2257.5,-2059 2257.5,-2057 1845.5,-2057"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-2055 1845.5,-2057 2257.5,-2057 2257.5,-2055 1845.5,-2055"/>
+<polygon fill="#ffffff" stroke="transparent" points="1845.5,-2053 1845.5,-2055 2257.5,-2055 2257.5,-2053 1845.5,-2053"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2051 1845.5,-2053 2257.5,-2053 2257.5,-2051 1845.5,-2051"/>
 <text text-anchor="start" x="1857" y="-2037.8" font-family="arial" font-size="14.00">link_a_loom:15:Temp1</text>
-<text text-anchor="start" x="2011" y="-2037.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;15:YEBN &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2020.5" y="-2037.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;15:YE &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2030 1845.5,-2032 2257.5,-2032 2257.5,-2030 1845.5,-2030"/>
 <polygon fill="#ffff00" stroke="transparent" points="1845.5,-2028 1845.5,-2030 2257.5,-2030 2257.5,-2028 1845.5,-2028"/>
-<polygon fill="#895956" stroke="transparent" points="1845.5,-2026 1845.5,-2028 2257.5,-2028 2257.5,-2026 1845.5,-2026"/>
+<polygon fill="#ffff00" stroke="transparent" points="1845.5,-2026 1845.5,-2028 2257.5,-2028 2257.5,-2026 1845.5,-2026"/>
 <polygon fill="#ffff00" stroke="transparent" points="1845.5,-2024 1845.5,-2026 2257.5,-2026 2257.5,-2024 1845.5,-2024"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2022 1845.5,-2024 2257.5,-2024 2257.5,-2022 1845.5,-2022"/>
 <text text-anchor="start" x="1857" y="-2008.8" font-family="arial" font-size="14.00">link_a_loom:16:Temp2</text>
-<text text-anchor="start" x="2011" y="-2008.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;16:YEBU &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2011" y="-2008.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;16:YEBN &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-2001 1845.5,-2003 2257.5,-2003 2257.5,-2001 1845.5,-2001"/>
 <polygon fill="#ffff00" stroke="transparent" points="1845.5,-1999 1845.5,-2001 2257.5,-2001 2257.5,-1999 1845.5,-1999"/>
-<polygon fill="#0066ff" stroke="transparent" points="1845.5,-1997 1845.5,-1999 2257.5,-1999 2257.5,-1997 1845.5,-1997"/>
+<polygon fill="#895956" stroke="transparent" points="1845.5,-1997 1845.5,-1999 2257.5,-1999 2257.5,-1997 1845.5,-1997"/>
 <polygon fill="#ffff00" stroke="transparent" points="1845.5,-1995 1845.5,-1997 2257.5,-1997 2257.5,-1995 1845.5,-1995"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1993 1845.5,-1995 2257.5,-1995 2257.5,-1993 1845.5,-1993"/>
 <text text-anchor="start" x="1854.5" y="-1979.8" font-family="arial" font-size="14.00">link_a_loom:17:AnVolt1</text>
-<text text-anchor="start" x="2018" y="-1979.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;17:OG &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2011" y="-1979.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;17:YEBU &#160;&#160;&#160;</text>
 <text text-anchor="start" x="2144" y="-1979.8" font-family="arial" font-size="14.00">tps:2:Sensor</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1972 1845.5,-1974 2257.5,-1974 2257.5,-1972 1845.5,-1972"/>
-<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1970 1845.5,-1972 2257.5,-1972 2257.5,-1970 1845.5,-1970"/>
-<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1968 1845.5,-1970 2257.5,-1970 2257.5,-1968 1845.5,-1968"/>
-<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1966 1845.5,-1968 2257.5,-1968 2257.5,-1966 1845.5,-1966"/>
+<polygon fill="#ffff00" stroke="transparent" points="1845.5,-1970 1845.5,-1972 2257.5,-1972 2257.5,-1970 1845.5,-1970"/>
+<polygon fill="#0066ff" stroke="transparent" points="1845.5,-1968 1845.5,-1970 2257.5,-1970 2257.5,-1968 1845.5,-1968"/>
+<polygon fill="#ffff00" stroke="transparent" points="1845.5,-1966 1845.5,-1968 2257.5,-1968 2257.5,-1966 1845.5,-1966"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1964 1845.5,-1966 2257.5,-1966 2257.5,-1964 1845.5,-1964"/>
 <text text-anchor="start" x="1862" y="-1950.8" font-family="arial" font-size="14.00">link_a_loom:18:Aux4</text>
-<text text-anchor="start" x="2008.5" y="-1950.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;18:OGRD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2018" y="-1950.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;18:OG &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1943 1845.5,-1945 2257.5,-1945 2257.5,-1943 1845.5,-1943"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1941 1845.5,-1943 2257.5,-1943 2257.5,-1941 1845.5,-1941"/>
-<polygon fill="#ff0000" stroke="transparent" points="1845.5,-1939 1845.5,-1941 2257.5,-1941 2257.5,-1939 1845.5,-1939"/>
+<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1939 1845.5,-1941 2257.5,-1941 2257.5,-1939 1845.5,-1939"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1937 1845.5,-1939 2257.5,-1939 2257.5,-1937 1845.5,-1937"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1935 1845.5,-1937 2257.5,-1937 2257.5,-1935 1845.5,-1935"/>
 <text text-anchor="start" x="1862" y="-1921.8" font-family="arial" font-size="14.00">link_a_loom:19:Aux3</text>
-<text text-anchor="start" x="2009" y="-1921.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;19:OGBN &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2008.5" y="-1921.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;19:OGRD &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1914 1845.5,-1916 2257.5,-1916 2257.5,-1914 1845.5,-1914"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1912 1845.5,-1914 2257.5,-1914 2257.5,-1912 1845.5,-1912"/>
-<polygon fill="#895956" stroke="transparent" points="1845.5,-1910 1845.5,-1912 2257.5,-1912 2257.5,-1910 1845.5,-1910"/>
+<polygon fill="#ff0000" stroke="transparent" points="1845.5,-1910 1845.5,-1912 2257.5,-1912 2257.5,-1910 1845.5,-1910"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1908 1845.5,-1910 2257.5,-1910 2257.5,-1908 1845.5,-1908"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1906 1845.5,-1908 2257.5,-1908 2257.5,-1906 1845.5,-1906"/>
 <text text-anchor="start" x="1862" y="-1892.8" font-family="arial" font-size="14.00">link_a_loom:20:Aux2</text>
-<text text-anchor="start" x="2009" y="-1892.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;20:OGBK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2009" y="-1892.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;20:OGBN &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1885 1845.5,-1887 2257.5,-1887 2257.5,-1885 1845.5,-1885"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1883 1845.5,-1885 2257.5,-1885 2257.5,-1883 1845.5,-1883"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-1881 1845.5,-1883 2257.5,-1883 2257.5,-1881 1845.5,-1881"/>
+<polygon fill="#895956" stroke="transparent" points="1845.5,-1881 1845.5,-1883 2257.5,-1883 2257.5,-1881 1845.5,-1881"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1879 1845.5,-1881 2257.5,-1881 2257.5,-1879 1845.5,-1879"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1877 1845.5,-1879 2257.5,-1879 2257.5,-1877 1845.5,-1877"/>
 <text text-anchor="start" x="1862" y="-1863.8" font-family="arial" font-size="14.00">link_a_loom:21:Aux1</text>
-<text text-anchor="start" x="2008.5" y="-1863.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;21:WHBN &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2009" y="-1863.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;21:OGBK &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1856 1845.5,-1858 2257.5,-1858 2257.5,-1856 1845.5,-1856"/>
-<polygon fill="#ffffff" stroke="transparent" points="1845.5,-1854 1845.5,-1856 2257.5,-1856 2257.5,-1854 1845.5,-1854"/>
-<polygon fill="#895956" stroke="transparent" points="1845.5,-1852 1845.5,-1854 2257.5,-1854 2257.5,-1852 1845.5,-1852"/>
-<polygon fill="#ffffff" stroke="transparent" points="1845.5,-1850 1845.5,-1852 2257.5,-1852 2257.5,-1850 1845.5,-1850"/>
+<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1854 1845.5,-1856 2257.5,-1856 2257.5,-1854 1845.5,-1854"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-1852 1845.5,-1854 2257.5,-1854 2257.5,-1852 1845.5,-1852"/>
+<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1850 1845.5,-1852 2257.5,-1852 2257.5,-1850 1845.5,-1850"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1848 1845.5,-1850 2257.5,-1850 2257.5,-1848 1845.5,-1848"/>
 <text text-anchor="start" x="1854.5" y="-1834.8" font-family="arial" font-size="14.00">link_a_loom:22:AnVolt2</text>
-<text text-anchor="start" x="2009.5" y="-1834.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;22:GYRD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2008.5" y="-1834.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;22:WHBN &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1827 1845.5,-1829 2257.5,-1829 2257.5,-1827 1845.5,-1827"/>
-<polygon fill="#999999" stroke="transparent" points="1845.5,-1825 1845.5,-1827 2257.5,-1827 2257.5,-1825 1845.5,-1825"/>
-<polygon fill="#ff0000" stroke="transparent" points="1845.5,-1823 1845.5,-1825 2257.5,-1825 2257.5,-1823 1845.5,-1823"/>
-<polygon fill="#999999" stroke="transparent" points="1845.5,-1821 1845.5,-1823 2257.5,-1823 2257.5,-1821 1845.5,-1821"/>
+<polygon fill="#ffffff" stroke="transparent" points="1845.5,-1825 1845.5,-1827 2257.5,-1827 2257.5,-1825 1845.5,-1825"/>
+<polygon fill="#895956" stroke="transparent" points="1845.5,-1823 1845.5,-1825 2257.5,-1825 2257.5,-1823 1845.5,-1823"/>
+<polygon fill="#ffffff" stroke="transparent" points="1845.5,-1821 1845.5,-1823 2257.5,-1823 2257.5,-1821 1845.5,-1821"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1819 1845.5,-1821 2257.5,-1821 2257.5,-1819 1845.5,-1819"/>
 <text text-anchor="start" x="1867" y="-1805.8" font-family="arial" font-size="14.00">link_a_loom:23:DI3</text>
-<text text-anchor="start" x="2019" y="-1805.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;23:GN &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2009.5" y="-1805.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;23:GYRD &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1798 1845.5,-1800 2257.5,-1800 2257.5,-1798 1845.5,-1798"/>
-<polygon fill="#00ff00" stroke="transparent" points="1845.5,-1796 1845.5,-1798 2257.5,-1798 2257.5,-1796 1845.5,-1796"/>
-<polygon fill="#00ff00" stroke="transparent" points="1845.5,-1794 1845.5,-1796 2257.5,-1796 2257.5,-1794 1845.5,-1794"/>
-<polygon fill="#00ff00" stroke="transparent" points="1845.5,-1792 1845.5,-1794 2257.5,-1794 2257.5,-1792 1845.5,-1792"/>
+<polygon fill="#999999" stroke="transparent" points="1845.5,-1796 1845.5,-1798 2257.5,-1798 2257.5,-1796 1845.5,-1796"/>
+<polygon fill="#ff0000" stroke="transparent" points="1845.5,-1794 1845.5,-1796 2257.5,-1796 2257.5,-1794 1845.5,-1794"/>
+<polygon fill="#999999" stroke="transparent" points="1845.5,-1792 1845.5,-1794 2257.5,-1794 2257.5,-1792 1845.5,-1792"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1790 1845.5,-1792 2257.5,-1792 2257.5,-1790 1845.5,-1790"/>
 <text text-anchor="start" x="1853" y="-1776.8" font-family="arial" font-size="14.00">link_a_loom:24:GndOut</text>
-<text text-anchor="start" x="2020.5" y="-1776.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;24:BK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2019" y="-1776.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;24:GN &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1769 1845.5,-1771 2257.5,-1771 2257.5,-1769 1845.5,-1769"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-1767 1845.5,-1769 2257.5,-1769 2257.5,-1767 1845.5,-1767"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-1765 1845.5,-1767 2257.5,-1767 2257.5,-1765 1845.5,-1765"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-1763 1845.5,-1765 2257.5,-1765 2257.5,-1763 1845.5,-1763"/>
+<polygon fill="#00ff00" stroke="transparent" points="1845.5,-1767 1845.5,-1769 2257.5,-1769 2257.5,-1767 1845.5,-1767"/>
+<polygon fill="#00ff00" stroke="transparent" points="1845.5,-1765 1845.5,-1767 2257.5,-1767 2257.5,-1765 1845.5,-1765"/>
+<polygon fill="#00ff00" stroke="transparent" points="1845.5,-1763 1845.5,-1765 2257.5,-1765 2257.5,-1763 1845.5,-1763"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1761 1845.5,-1763 2257.5,-1763 2257.5,-1761 1845.5,-1761"/>
 <text text-anchor="start" x="1851" y="-1747.8" font-family="arial" font-size="14.00">link_a_loom:25:Ground1</text>
-<text text-anchor="start" x="2009.5" y="-1747.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;25:OGVT &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2020.5" y="-1747.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;25:BK &#160;&#160;&#160;</text>
 <text text-anchor="start" x="2152" y="-1747.8" font-family="arial" font-size="14.00">tps:3:Gnd</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1740 1845.5,-1742 2257.5,-1742 2257.5,-1740 1845.5,-1740"/>
-<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1738 1845.5,-1740 2257.5,-1740 2257.5,-1738 1845.5,-1738"/>
-<polygon fill="#8000ff" stroke="transparent" points="1845.5,-1736 1845.5,-1738 2257.5,-1738 2257.5,-1736 1845.5,-1736"/>
-<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1734 1845.5,-1736 2257.5,-1736 2257.5,-1734 1845.5,-1734"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-1738 1845.5,-1740 2257.5,-1740 2257.5,-1738 1845.5,-1738"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-1736 1845.5,-1738 2257.5,-1738 2257.5,-1736 1845.5,-1736"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-1734 1845.5,-1736 2257.5,-1736 2257.5,-1734 1845.5,-1734"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1732 1845.5,-1734 2257.5,-1734 2257.5,-1732 1845.5,-1732"/>
 <text text-anchor="start" x="1862" y="-1718.8" font-family="arial" font-size="14.00">link_a_loom:26:Aux8</text>
-<text text-anchor="start" x="2009" y="-1718.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;26:OGBU &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2009.5" y="-1718.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;26:OGVT &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1711 1845.5,-1713 2257.5,-1713 2257.5,-1711 1845.5,-1711"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1709 1845.5,-1711 2257.5,-1711 2257.5,-1709 1845.5,-1709"/>
-<polygon fill="#0066ff" stroke="transparent" points="1845.5,-1707 1845.5,-1709 2257.5,-1709 2257.5,-1707 1845.5,-1707"/>
+<polygon fill="#8000ff" stroke="transparent" points="1845.5,-1707 1845.5,-1709 2257.5,-1709 2257.5,-1707 1845.5,-1707"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1705 1845.5,-1707 2257.5,-1707 2257.5,-1705 1845.5,-1705"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1703 1845.5,-1705 2257.5,-1705 2257.5,-1703 1845.5,-1703"/>
 <text text-anchor="start" x="1862" y="-1689.8" font-family="arial" font-size="14.00">link_a_loom:27:Aux7</text>
-<text text-anchor="start" x="2007.5" y="-1689.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;27:OGGN &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2009" y="-1689.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;27:OGBU &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1682 1845.5,-1684 2257.5,-1684 2257.5,-1682 1845.5,-1682"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1680 1845.5,-1682 2257.5,-1682 2257.5,-1680 1845.5,-1680"/>
-<polygon fill="#00ff00" stroke="transparent" points="1845.5,-1678 1845.5,-1680 2257.5,-1680 2257.5,-1678 1845.5,-1678"/>
+<polygon fill="#0066ff" stroke="transparent" points="1845.5,-1678 1845.5,-1680 2257.5,-1680 2257.5,-1678 1845.5,-1678"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1676 1845.5,-1678 2257.5,-1678 2257.5,-1676 1845.5,-1676"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1674 1845.5,-1676 2257.5,-1676 2257.5,-1674 1845.5,-1674"/>
 <text text-anchor="start" x="1862" y="-1660.8" font-family="arial" font-size="14.00">link_a_loom:28:Aux6</text>
-<text text-anchor="start" x="2009" y="-1660.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;28:OGYE &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2007.5" y="-1660.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;28:OGGN &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1653 1845.5,-1655 2257.5,-1655 2257.5,-1653 1845.5,-1653"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1651 1845.5,-1653 2257.5,-1653 2257.5,-1651 1845.5,-1651"/>
-<polygon fill="#ffff00" stroke="transparent" points="1845.5,-1649 1845.5,-1651 2257.5,-1651 2257.5,-1649 1845.5,-1649"/>
+<polygon fill="#00ff00" stroke="transparent" points="1845.5,-1649 1845.5,-1651 2257.5,-1651 2257.5,-1649 1845.5,-1649"/>
 <polygon fill="#ff8000" stroke="transparent" points="1845.5,-1647 1845.5,-1649 2257.5,-1649 2257.5,-1647 1845.5,-1647"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1645 1845.5,-1647 2257.5,-1647 2257.5,-1645 1845.5,-1645"/>
 <text text-anchor="start" x="1862" y="-1631.8" font-family="arial" font-size="14.00">link_a_loom:29:Aux5</text>
-<text text-anchor="start" x="2010.5" y="-1631.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;29:GYBK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2009" y="-1631.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;29:OGYE &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1624 1845.5,-1626 2257.5,-1626 2257.5,-1624 1845.5,-1624"/>
-<polygon fill="#999999" stroke="transparent" points="1845.5,-1622 1845.5,-1624 2257.5,-1624 2257.5,-1622 1845.5,-1622"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-1620 1845.5,-1622 2257.5,-1622 2257.5,-1620 1845.5,-1620"/>
-<polygon fill="#999999" stroke="transparent" points="1845.5,-1618 1845.5,-1620 2257.5,-1620 2257.5,-1618 1845.5,-1618"/>
+<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1622 1845.5,-1624 2257.5,-1624 2257.5,-1622 1845.5,-1622"/>
+<polygon fill="#ffff00" stroke="transparent" points="1845.5,-1620 1845.5,-1622 2257.5,-1622 2257.5,-1620 1845.5,-1620"/>
+<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1618 1845.5,-1620 2257.5,-1620 2257.5,-1618 1845.5,-1618"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1616 1845.5,-1618 2257.5,-1618 2257.5,-1616 1845.5,-1616"/>
 <text text-anchor="start" x="1867" y="-1602.8" font-family="arial" font-size="14.00">link_a_loom:30:DI1</text>
-<text text-anchor="start" x="2010" y="-1602.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;30:GYBN &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2010.5" y="-1602.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;30:GYBK &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1595 1845.5,-1597 2257.5,-1597 2257.5,-1595 1845.5,-1595"/>
 <polygon fill="#999999" stroke="transparent" points="1845.5,-1593 1845.5,-1595 2257.5,-1595 2257.5,-1593 1845.5,-1593"/>
-<polygon fill="#895956" stroke="transparent" points="1845.5,-1591 1845.5,-1593 2257.5,-1593 2257.5,-1591 1845.5,-1591"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-1591 1845.5,-1593 2257.5,-1593 2257.5,-1591 1845.5,-1591"/>
 <polygon fill="#999999" stroke="transparent" points="1845.5,-1589 1845.5,-1591 2257.5,-1591 2257.5,-1589 1845.5,-1589"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1587 1845.5,-1589 2257.5,-1589 2257.5,-1587 1845.5,-1587"/>
 <text text-anchor="start" x="1867" y="-1573.8" font-family="arial" font-size="14.00">link_a_loom:31:DI2</text>
-<text text-anchor="start" x="2010.5" y="-1573.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;31:RDBU &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2010" y="-1573.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;31:GYBN &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1566 1845.5,-1568 2257.5,-1568 2257.5,-1566 1845.5,-1566"/>
-<polygon fill="#ff0000" stroke="transparent" points="1845.5,-1564 1845.5,-1566 2257.5,-1566 2257.5,-1564 1845.5,-1564"/>
-<polygon fill="#0066ff" stroke="transparent" points="1845.5,-1562 1845.5,-1564 2257.5,-1564 2257.5,-1562 1845.5,-1562"/>
-<polygon fill="#ff0000" stroke="transparent" points="1845.5,-1560 1845.5,-1562 2257.5,-1562 2257.5,-1560 1845.5,-1560"/>
+<polygon fill="#999999" stroke="transparent" points="1845.5,-1564 1845.5,-1566 2257.5,-1566 2257.5,-1564 1845.5,-1564"/>
+<polygon fill="#895956" stroke="transparent" points="1845.5,-1562 1845.5,-1564 2257.5,-1564 2257.5,-1562 1845.5,-1562"/>
+<polygon fill="#999999" stroke="transparent" points="1845.5,-1560 1845.5,-1562 2257.5,-1562 2257.5,-1560 1845.5,-1560"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1558 1845.5,-1560 2257.5,-1560 2257.5,-1558 1845.5,-1558"/>
 <text text-anchor="start" x="1865" y="-1544.8" font-family="arial" font-size="14.00">link_a_loom:32:+5V</text>
-<text text-anchor="start" x="2011.5" y="-1544.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;32:YEBK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2010.5" y="-1544.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;32:RDBU &#160;&#160;&#160;</text>
 <text text-anchor="start" x="2158" y="-1544.8" font-family="arial" font-size="14.00">tps:1:5v</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1537 1845.5,-1539 2257.5,-1539 2257.5,-1537 1845.5,-1537"/>
-<polygon fill="#ffff00" stroke="transparent" points="1845.5,-1535 1845.5,-1537 2257.5,-1537 2257.5,-1535 1845.5,-1535"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-1533 1845.5,-1535 2257.5,-1535 2257.5,-1533 1845.5,-1533"/>
-<polygon fill="#ffff00" stroke="transparent" points="1845.5,-1531 1845.5,-1533 2257.5,-1533 2257.5,-1531 1845.5,-1531"/>
+<polygon fill="#ff0000" stroke="transparent" points="1845.5,-1535 1845.5,-1537 2257.5,-1537 2257.5,-1535 1845.5,-1535"/>
+<polygon fill="#0066ff" stroke="transparent" points="1845.5,-1533 1845.5,-1535 2257.5,-1535 2257.5,-1533 1845.5,-1533"/>
+<polygon fill="#ff0000" stroke="transparent" points="1845.5,-1531 1845.5,-1533 2257.5,-1533 2257.5,-1531 1845.5,-1531"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1529 1845.5,-1531 2257.5,-1531 2257.5,-1529 1845.5,-1529"/>
 <text text-anchor="start" x="1854.5" y="-1515.8" font-family="arial" font-size="14.00">link_a_loom:33:AnVolt3</text>
-<text text-anchor="start" x="2020.5" y="-1515.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;33:BK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2011.5" y="-1515.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;33:YEBK &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1508 1845.5,-1510 2257.5,-1510 2257.5,-1508 1845.5,-1508"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-1506 1845.5,-1508 2257.5,-1508 2257.5,-1506 1845.5,-1506"/>
+<polygon fill="#ffff00" stroke="transparent" points="1845.5,-1506 1845.5,-1508 2257.5,-1508 2257.5,-1506 1845.5,-1506"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1504 1845.5,-1506 2257.5,-1506 2257.5,-1504 1845.5,-1504"/>
-<polygon fill="#000000" stroke="transparent" points="1845.5,-1502 1845.5,-1504 2257.5,-1504 2257.5,-1502 1845.5,-1502"/>
+<polygon fill="#ffff00" stroke="transparent" points="1845.5,-1502 1845.5,-1504 2257.5,-1504 2257.5,-1502 1845.5,-1502"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1500 1845.5,-1502 2257.5,-1502 2257.5,-1500 1845.5,-1500"/>
 <text text-anchor="start" x="1851" y="-1486.8" font-family="arial" font-size="14.00">link_a_loom:34:Ground2</text>
-<text text-anchor="start" x="2009" y="-1486.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;34:BNOG &#160;&#160;&#160;</text>
+<text text-anchor="start" x="2020.5" y="-1486.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;34:BK &#160;&#160;&#160;</text>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1479 1845.5,-1481 2257.5,-1481 2257.5,-1479 1845.5,-1479"/>
-<polygon fill="#895956" stroke="transparent" points="1845.5,-1477 1845.5,-1479 2257.5,-1479 2257.5,-1477 1845.5,-1477"/>
-<polygon fill="#ff8000" stroke="transparent" points="1845.5,-1475 1845.5,-1477 2257.5,-1477 2257.5,-1475 1845.5,-1475"/>
-<polygon fill="#895956" stroke="transparent" points="1845.5,-1473 1845.5,-1475 2257.5,-1475 2257.5,-1473 1845.5,-1473"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-1477 1845.5,-1479 2257.5,-1479 2257.5,-1477 1845.5,-1477"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-1475 1845.5,-1477 2257.5,-1477 2257.5,-1475 1845.5,-1475"/>
+<polygon fill="#000000" stroke="transparent" points="1845.5,-1473 1845.5,-1475 2257.5,-1475 2257.5,-1473 1845.5,-1473"/>
 <polygon fill="#000000" stroke="transparent" points="1845.5,-1471 1845.5,-1473 2257.5,-1473 2257.5,-1471 1845.5,-1471"/>
 <text text-anchor="start" x="1923.5" y="-1457.8" font-family="arial" font-size="14.00"> </text>
 </g>
@@ -621,36 +621,36 @@
 <g id="edge6" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2227C1759.86,-2230.3 1770.01,-2287.3 1844.5,-2284"/>
-<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2229C1757.9,-2230.65 1768.04,-2287.65 1844.5,-2286"/>
-<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2231C1755.93,-2231 1766.07,-2288 1844.5,-2288"/>
-<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2233C1753.96,-2231.35 1764.1,-2288.35 1844.5,-2290"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2229C1757.9,-2230.65 1768.04,-2287.65 1844.5,-2286"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-2231C1755.93,-2231 1766.07,-2288 1844.5,-2288"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2233C1753.96,-2231.35 1764.1,-2288.35 1844.5,-2290"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2235C1751.99,-2231.7 1762.14,-2288.7 1844.5,-2292"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge7" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2204C1759,-2207.1 1770.79,-2258.1 1844.5,-2255"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2206C1757.05,-2207.55 1768.84,-2258.55 1844.5,-2257"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2208C1755.11,-2208 1766.89,-2259 1844.5,-2259"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2210C1753.16,-2208.45 1764.95,-2259.45 1844.5,-2261"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2206C1757.05,-2207.55 1768.84,-2258.55 1844.5,-2257"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2208C1755.11,-2208 1766.89,-2259 1844.5,-2259"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2210C1753.16,-2208.45 1764.95,-2259.45 1844.5,-2261"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2212C1751.21,-2208.9 1763,-2259.9 1844.5,-2263"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge8" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2181C1758.21,-2183.87 1771.47,-2228.87 1844.5,-2226"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2183C1756.29,-2184.43 1769.55,-2229.43 1844.5,-2228"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2185C1754.37,-2185 1767.63,-2230 1844.5,-2230"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2187C1752.45,-2185.57 1765.71,-2230.57 1844.5,-2232"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2183C1756.29,-2184.43 1769.55,-2229.43 1844.5,-2228"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2185C1754.37,-2185 1767.63,-2230 1844.5,-2230"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2187C1752.45,-2185.57 1765.71,-2230.57 1844.5,-2232"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2189C1750.53,-2186.13 1763.79,-2231.13 1844.5,-2234"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge9" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2158C1757.47,-2160.6 1772.03,-2199.6 1844.5,-2197"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2160C1755.59,-2161.3 1770.15,-2200.3 1844.5,-2199"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-2162C1753.72,-2162 1768.28,-2201 1844.5,-2201"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2164C1751.85,-2162.7 1766.41,-2201.7 1844.5,-2203"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2160C1755.59,-2161.3 1770.15,-2200.3 1844.5,-2199"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2162C1753.72,-2162 1768.28,-2201 1844.5,-2201"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2164C1751.85,-2162.7 1766.41,-2201.7 1844.5,-2203"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2166C1749.97,-2163.4 1764.53,-2202.4 1844.5,-2205"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
@@ -658,7 +658,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2135C1756.77,-2137.28 1772.46,-2170.28 1844.5,-2168"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2137C1754.96,-2138.14 1770.65,-2171.14 1844.5,-2170"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2139C1753.16,-2139 1768.84,-2172 1844.5,-2172"/>
+<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-2139C1753.16,-2139 1768.84,-2172 1844.5,-2172"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2141C1751.35,-2139.86 1767.04,-2172.86 1844.5,-2174"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2143C1749.54,-2140.72 1765.23,-2173.72 1844.5,-2176"/>
 </g>
@@ -667,7 +667,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2112C1756.09,-2113.9 1772.72,-2140.9 1844.5,-2139"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2114C1754.39,-2114.95 1771.02,-2141.95 1844.5,-2141"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-2116C1752.69,-2116 1769.31,-2143 1844.5,-2143"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2116C1752.69,-2116 1769.31,-2143 1844.5,-2143"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2118C1750.98,-2117.05 1767.61,-2144.05 1844.5,-2145"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2120C1749.28,-2118.1 1765.91,-2145.1 1844.5,-2147"/>
 </g>
@@ -676,7 +676,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2089C1755.39,-2090.45 1772.77,-2111.45 1844.5,-2110"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2091C1753.85,-2091.72 1771.23,-2112.72 1844.5,-2112"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2093C1752.31,-2093 1769.69,-2114 1844.5,-2114"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-2093C1752.31,-2093 1769.69,-2114 1844.5,-2114"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2095C1750.77,-2094.28 1768.15,-2115.28 1844.5,-2116"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2097C1749.23,-2095.55 1766.61,-2116.55 1844.5,-2118"/>
 </g>
@@ -684,18 +684,18 @@
 <g id="edge13" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2066C1754.59,-2066.93 1772.54,-2081.93 1844.5,-2081"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-2068C1753.3,-2068.47 1771.26,-2083.47 1844.5,-2083"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2070C1752.02,-2070 1769.98,-2085 1844.5,-2085"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-2072C1750.74,-2071.53 1768.7,-2086.53 1844.5,-2087"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2068C1753.3,-2068.47 1771.26,-2083.47 1844.5,-2083"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2070C1752.02,-2070 1769.98,-2085 1844.5,-2085"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2072C1750.74,-2071.53 1768.7,-2086.53 1844.5,-2087"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2074C1749.46,-2073.07 1767.41,-2088.07 1844.5,-2089"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge14" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2043C1753.59,-2043.41 1771.93,-2052.41 1844.5,-2052"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-2045C1752.71,-2045.2 1771.05,-2054.2 1844.5,-2054"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-2047C1751.83,-2047 1770.17,-2056 1844.5,-2056"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-2049C1750.95,-2048.8 1769.29,-2057.8 1844.5,-2058"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-2045C1752.71,-2045.2 1771.05,-2054.2 1844.5,-2054"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2047C1751.83,-2047 1770.17,-2056 1844.5,-2056"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-2049C1750.95,-2048.8 1769.29,-2057.8 1844.5,-2058"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2051C1750.07,-2050.59 1768.41,-2059.59 1844.5,-2060"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
@@ -703,7 +703,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2020C1752.37,-2020.05 1770.91,-2023.05 1844.5,-2023"/>
 <path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-2022C1752.05,-2022.03 1770.59,-2025.03 1844.5,-2025"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-2024C1751.73,-2024 1770.27,-2027 1844.5,-2027"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-2024C1751.73,-2024 1770.27,-2027 1844.5,-2027"/>
 <path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-2026C1751.41,-2025.97 1769.95,-2028.97 1844.5,-2029"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2028C1751.09,-2027.95 1769.63,-2030.95 1844.5,-2031"/>
 </g>
@@ -712,7 +712,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1997C1751.09,-1997.05 1769.63,-1994.05 1844.5,-1994"/>
 <path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1999C1751.41,-1999.03 1769.95,-1996.03 1844.5,-1996"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2001C1751.73,-2001 1770.27,-1998 1844.5,-1998"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-2001C1751.73,-2001 1770.27,-1998 1844.5,-1998"/>
 <path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-2003C1752.05,-2002.97 1770.59,-1999.97 1844.5,-2000"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2005C1752.37,-2004.95 1770.91,-2001.95 1844.5,-2002"/>
 </g>
@@ -720,9 +720,9 @@
 <g id="edge17" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1973C1750.21,-1973.33 1768.6,-1965.33 1844.5,-1965"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1975C1751.01,-1975.17 1769.39,-1967.17 1844.5,-1967"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1977C1751.81,-1977 1770.19,-1969 1844.5,-1969"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1979C1752.61,-1978.83 1770.99,-1970.83 1844.5,-1971"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1975C1751.01,-1975.17 1769.39,-1967.17 1844.5,-1967"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-1977C1751.81,-1977 1770.19,-1969 1844.5,-1969"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1979C1752.61,-1978.83 1770.99,-1970.83 1844.5,-1971"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1981C1753.4,-1980.67 1771.79,-1972.67 1844.5,-1973"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
@@ -730,7 +730,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1950C1749.53,-1950.84 1767.56,-1936.84 1844.5,-1936"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1952C1750.76,-1952.42 1768.79,-1938.42 1844.5,-1938"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1954C1751.98,-1954 1770.02,-1940 1844.5,-1940"/>
+<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1954C1751.98,-1954 1770.02,-1940 1844.5,-1940"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1956C1753.21,-1955.58 1771.24,-1941.58 1844.5,-1942"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1958C1754.44,-1957.16 1772.47,-1943.16 1844.5,-1944"/>
 </g>
@@ -739,7 +739,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1927C1749.24,-1928.37 1766.74,-1908.37 1844.5,-1907"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1929C1750.75,-1929.68 1768.24,-1909.68 1844.5,-1909"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-1931C1752.25,-1931 1769.75,-1911 1844.5,-1911"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1931C1752.25,-1931 1769.75,-1911 1844.5,-1911"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1933C1753.76,-1932.32 1771.25,-1912.32 1844.5,-1913"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1935C1755.26,-1933.63 1772.76,-1913.63 1844.5,-1915"/>
 </g>
@@ -748,7 +748,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1904C1749.25,-1905.83 1766.02,-1879.83 1844.5,-1878"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1906C1750.94,-1906.92 1767.7,-1880.92 1844.5,-1880"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1908C1752.62,-1908 1769.38,-1882 1844.5,-1882"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-1908C1752.62,-1908 1769.38,-1882 1844.5,-1882"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1910C1754.3,-1909.08 1771.06,-1883.08 1844.5,-1884"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1912C1755.98,-1910.17 1772.75,-1884.17 1844.5,-1886"/>
 </g>
@@ -756,45 +756,45 @@
 <g id="edge21" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1881C1749.49,-1883.22 1765.34,-1851.22 1844.5,-1849"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-1883C1751.28,-1884.11 1767.14,-1852.11 1844.5,-1851"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-1885C1753.07,-1885 1768.93,-1853 1844.5,-1853"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-1887C1754.86,-1885.89 1770.72,-1853.89 1844.5,-1855"/>
+<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1883C1751.28,-1884.11 1767.14,-1852.11 1844.5,-1851"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1885C1753.07,-1885 1768.93,-1853 1844.5,-1853"/>
+<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1887C1754.86,-1885.89 1770.72,-1853.89 1844.5,-1855"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1889C1756.66,-1886.78 1772.51,-1854.78 1844.5,-1857"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge22" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1858C1749.89,-1860.55 1764.65,-1822.55 1844.5,-1820"/>
-<path fill="none" stroke="#999999" stroke-width="2" d="M1677.5,-1860C1751.76,-1861.28 1766.52,-1823.28 1844.5,-1822"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1862C1753.62,-1862 1768.38,-1824 1844.5,-1824"/>
-<path fill="none" stroke="#999999" stroke-width="2" d="M1677.5,-1864C1755.48,-1862.72 1770.24,-1824.72 1844.5,-1826"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-1860C1751.76,-1861.28 1766.52,-1823.28 1844.5,-1822"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-1862C1753.62,-1862 1768.38,-1824 1844.5,-1824"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-1864C1755.48,-1862.72 1770.24,-1824.72 1844.5,-1826"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1866C1757.35,-1863.45 1772.11,-1825.45 1844.5,-1828"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge23" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1835C1750.43,-1837.83 1763.92,-1793.83 1844.5,-1791"/>
-<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-1837C1752.34,-1838.41 1765.83,-1794.41 1844.5,-1793"/>
-<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-1839C1754.26,-1839 1767.74,-1795 1844.5,-1795"/>
-<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-1841C1756.17,-1839.59 1769.66,-1795.59 1844.5,-1797"/>
+<path fill="none" stroke="#999999" stroke-width="2" d="M1677.5,-1837C1752.34,-1838.41 1765.83,-1794.41 1844.5,-1793"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1839C1754.26,-1839 1767.74,-1795 1844.5,-1795"/>
+<path fill="none" stroke="#999999" stroke-width="2" d="M1677.5,-1841C1756.17,-1839.59 1769.66,-1795.59 1844.5,-1797"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1843C1758.08,-1840.17 1771.57,-1796.17 1844.5,-1799"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge24" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1812C1751.09,-1815.06 1763.13,-1765.06 1844.5,-1762"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1814C1753.03,-1815.53 1765.08,-1765.53 1844.5,-1764"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1816C1754.98,-1816 1767.02,-1766 1844.5,-1766"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1818C1756.92,-1816.47 1768.97,-1766.47 1844.5,-1768"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-1814C1753.03,-1815.53 1765.08,-1765.53 1844.5,-1764"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-1816C1754.98,-1816 1767.02,-1766 1844.5,-1766"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-1818C1756.92,-1816.47 1768.97,-1766.47 1844.5,-1768"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1820C1758.87,-1816.94 1770.91,-1766.94 1844.5,-1770"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge25" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1789C1751.85,-1792.27 1762.28,-1736.27 1844.5,-1733"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1791C1753.82,-1792.63 1764.25,-1736.63 1844.5,-1735"/>
-<path fill="none" stroke="#8000ff" stroke-width="2" d="M1677.5,-1793C1755.78,-1793 1766.22,-1737 1844.5,-1737"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1795C1757.75,-1793.37 1768.18,-1737.37 1844.5,-1739"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1791C1753.82,-1792.63 1764.25,-1736.63 1844.5,-1735"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1793C1755.78,-1793 1766.22,-1737 1844.5,-1737"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1795C1757.75,-1793.37 1768.18,-1737.37 1844.5,-1739"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1797C1759.72,-1793.73 1770.15,-1737.73 1844.5,-1741"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
@@ -802,7 +802,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1766C1752.71,-1769.45 1761.37,-1707.45 1844.5,-1704"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1768C1754.69,-1769.72 1763.35,-1707.72 1844.5,-1706"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-1770C1756.67,-1770 1765.33,-1708 1844.5,-1708"/>
+<path fill="none" stroke="#8000ff" stroke-width="2" d="M1677.5,-1770C1756.67,-1770 1765.33,-1708 1844.5,-1708"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1772C1758.65,-1770.28 1767.31,-1708.28 1844.5,-1710"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1774C1760.63,-1770.55 1769.29,-1708.55 1844.5,-1712"/>
 </g>
@@ -811,7 +811,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1743C1753.66,-1746.61 1760.38,-1678.61 1844.5,-1675"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1745C1755.65,-1746.8 1762.37,-1678.8 1844.5,-1677"/>
-<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-1747C1757.64,-1747 1764.36,-1679 1844.5,-1679"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-1747C1757.64,-1747 1764.36,-1679 1844.5,-1679"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1749C1759.63,-1747.2 1766.35,-1679.2 1844.5,-1681"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1751C1761.62,-1747.39 1768.34,-1679.39 1844.5,-1683"/>
 </g>
@@ -820,7 +820,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1720C1754.69,-1723.75 1759.33,-1649.75 1844.5,-1646"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1722C1756.69,-1723.87 1761.32,-1649.87 1844.5,-1648"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1724C1758.68,-1724 1763.32,-1650 1844.5,-1650"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-1724C1758.68,-1724 1763.32,-1650 1844.5,-1650"/>
 <path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1726C1760.68,-1724.13 1765.31,-1650.13 1844.5,-1652"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1728C1762.67,-1724.25 1767.31,-1650.25 1844.5,-1654"/>
 </g>
@@ -828,9 +828,9 @@
 <g id="edge29" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1697C1755.8,-1700.88 1758.2,-1620.88 1844.5,-1617"/>
-<path fill="none" stroke="#999999" stroke-width="2" d="M1677.5,-1699C1757.8,-1700.94 1760.2,-1620.94 1844.5,-1619"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1701C1759.8,-1701 1762.2,-1621 1844.5,-1621"/>
-<path fill="none" stroke="#999999" stroke-width="2" d="M1677.5,-1703C1761.8,-1701.06 1764.2,-1621.06 1844.5,-1623"/>
+<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1699C1757.8,-1700.94 1760.2,-1620.94 1844.5,-1619"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1701C1759.8,-1701 1762.2,-1621 1844.5,-1621"/>
+<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1703C1761.8,-1701.06 1764.2,-1621.06 1844.5,-1623"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1705C1763.8,-1701.12 1766.2,-1621.12 1844.5,-1625"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
@@ -838,7 +838,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1674C1756.99,-1678 1757.01,-1592 1844.5,-1588"/>
 <path fill="none" stroke="#999999" stroke-width="2" d="M1677.5,-1676C1758.99,-1678 1759.01,-1592 1844.5,-1590"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-1678C1760.99,-1678 1761.01,-1592 1844.5,-1592"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1678C1760.99,-1678 1761.01,-1592 1844.5,-1592"/>
 <path fill="none" stroke="#999999" stroke-width="2" d="M1677.5,-1680C1762.99,-1678 1763.01,-1592 1844.5,-1594"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1682C1764.99,-1678 1765.01,-1592 1844.5,-1596"/>
 </g>
@@ -846,45 +846,45 @@
 <g id="edge31" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1651C1758.24,-1655.11 1755.76,-1563.11 1844.5,-1559"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1653C1760.24,-1655.05 1757.76,-1563.05 1844.5,-1561"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-1655C1762.24,-1655 1759.76,-1563 1844.5,-1563"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1657C1764.24,-1654.95 1761.76,-1562.95 1844.5,-1565"/>
+<path fill="none" stroke="#999999" stroke-width="2" d="M1677.5,-1653C1760.24,-1655.05 1757.76,-1563.05 1844.5,-1561"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-1655C1762.24,-1655 1759.76,-1563 1844.5,-1563"/>
+<path fill="none" stroke="#999999" stroke-width="2" d="M1677.5,-1657C1764.24,-1654.95 1761.76,-1562.95 1844.5,-1565"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1659C1766.24,-1654.89 1763.76,-1562.89 1844.5,-1567"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge32" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1628C1759.56,-1632.21 1754.45,-1534.21 1844.5,-1530"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1630C1761.56,-1632.1 1756.44,-1534.1 1844.5,-1532"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1632C1763.56,-1632 1758.44,-1534 1844.5,-1534"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1634C1765.56,-1631.9 1760.44,-1533.9 1844.5,-1536"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1630C1761.56,-1632.1 1756.44,-1534.1 1844.5,-1532"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-1632C1763.56,-1632 1758.44,-1534 1844.5,-1534"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1634C1765.56,-1631.9 1760.44,-1533.9 1844.5,-1536"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1636C1767.55,-1631.79 1762.44,-1533.79 1844.5,-1538"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge33" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1605C1760.95,-1609.3 1753.07,-1505.3 1844.5,-1501"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1607C1762.94,-1609.15 1755.07,-1505.15 1844.5,-1503"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1607C1762.94,-1609.15 1755.07,-1505.15 1844.5,-1503"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1609C1764.94,-1609 1757.06,-1505 1844.5,-1505"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1611C1766.93,-1608.85 1759.06,-1504.85 1844.5,-1507"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1611C1766.93,-1608.85 1759.06,-1504.85 1844.5,-1507"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1613C1768.93,-1608.7 1761.05,-1504.7 1844.5,-1509"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge34" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1582C1762.4,-1586.39 1751.64,-1476.39 1844.5,-1472"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-1584C1764.39,-1586.19 1753.63,-1476.19 1844.5,-1474"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1586C1766.38,-1586 1755.62,-1476 1844.5,-1476"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-1588C1768.37,-1585.81 1757.61,-1475.81 1844.5,-1478"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1584C1764.39,-1586.19 1753.63,-1476.19 1844.5,-1474"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1586C1766.38,-1586 1755.62,-1476 1844.5,-1476"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1588C1768.37,-1585.81 1757.61,-1475.81 1844.5,-1478"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1590C1770.36,-1585.61 1759.6,-1475.61 1844.5,-1480"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge35" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2066C1754.59,-2066.93 1772.54,-2081.93 1844.5,-2081"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-2068C1753.3,-2068.47 1771.26,-2083.47 1844.5,-2083"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2070C1752.02,-2070 1769.98,-2085 1844.5,-2085"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M1677.5,-2072C1750.74,-2071.53 1768.7,-2086.53 1844.5,-2087"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2068C1753.3,-2068.47 1771.26,-2083.47 1844.5,-2083"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2070C1752.02,-2070 1769.98,-2085 1844.5,-2085"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2072C1750.74,-2071.53 1768.7,-2086.53 1844.5,-2087"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2074C1749.46,-2073.07 1767.41,-2088.07 1844.5,-2089"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
@@ -892,7 +892,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2089C1755.39,-2090.45 1772.77,-2111.45 1844.5,-2110"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2091C1753.85,-2091.72 1771.23,-2112.72 1844.5,-2112"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2093C1752.31,-2093 1769.69,-2114 1844.5,-2114"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-2093C1752.31,-2093 1769.69,-2114 1844.5,-2114"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2095C1750.77,-2094.28 1768.15,-2115.28 1844.5,-2116"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2097C1749.23,-2095.55 1766.61,-2116.55 1844.5,-2118"/>
 </g>
@@ -901,7 +901,7 @@
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2112C1756.09,-2113.9 1772.72,-2140.9 1844.5,-2139"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2114C1754.39,-2114.95 1771.02,-2141.95 1844.5,-2141"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M1677.5,-2116C1752.69,-2116 1769.31,-2143 1844.5,-2143"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2116C1752.69,-2116 1769.31,-2143 1844.5,-2143"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2118C1750.98,-2117.05 1767.61,-2144.05 1844.5,-2145"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2120C1749.28,-2118.1 1765.91,-2145.1 1844.5,-2147"/>
 </g>
@@ -909,81 +909,81 @@
 <g id="edge41" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1628C1759.56,-1632.21 1754.45,-1534.21 1844.5,-1530"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1630C1761.56,-1632.1 1756.44,-1534.1 1844.5,-1532"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1632C1763.56,-1632 1758.44,-1534 1844.5,-1534"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1634C1765.56,-1631.9 1760.44,-1533.9 1844.5,-1536"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1630C1761.56,-1632.1 1756.44,-1534.1 1844.5,-1532"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-1632C1763.56,-1632 1758.44,-1534 1844.5,-1534"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1634C1765.56,-1631.9 1760.44,-1533.9 1844.5,-1536"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1636C1767.55,-1631.79 1762.44,-1533.79 1844.5,-1538"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge43" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1973C1750.21,-1973.33 1768.6,-1965.33 1844.5,-1965"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1975C1751.01,-1975.17 1769.39,-1967.17 1844.5,-1967"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1977C1751.81,-1977 1770.19,-1969 1844.5,-1969"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1979C1752.61,-1978.83 1770.99,-1970.83 1844.5,-1971"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1975C1751.01,-1975.17 1769.39,-1967.17 1844.5,-1967"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-1977C1751.81,-1977 1770.19,-1969 1844.5,-1969"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1979C1752.61,-1978.83 1770.99,-1970.83 1844.5,-1971"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1981C1753.4,-1980.67 1771.79,-1972.67 1844.5,-1973"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge45" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1789C1751.85,-1792.27 1762.28,-1736.27 1844.5,-1733"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1791C1753.82,-1792.63 1764.25,-1736.63 1844.5,-1735"/>
-<path fill="none" stroke="#8000ff" stroke-width="2" d="M1677.5,-1793C1755.78,-1793 1766.22,-1737 1844.5,-1737"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-1795C1757.75,-1793.37 1768.18,-1737.37 1844.5,-1739"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1791C1753.82,-1792.63 1764.25,-1736.63 1844.5,-1735"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1793C1755.78,-1793 1766.22,-1737 1844.5,-1737"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1795C1757.75,-1793.37 1768.18,-1737.37 1844.5,-1739"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1797C1759.72,-1793.73 1770.15,-1737.73 1844.5,-1741"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge47" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1628C1759.56,-1632.21 1754.45,-1534.21 1844.5,-1530"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1630C1761.56,-1632.1 1756.44,-1534.1 1844.5,-1532"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1632C1763.56,-1632 1758.44,-1534 1844.5,-1534"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1634C1765.56,-1631.9 1760.44,-1533.9 1844.5,-1536"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1630C1761.56,-1632.1 1756.44,-1534.1 1844.5,-1532"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-1632C1763.56,-1632 1758.44,-1534 1844.5,-1534"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1634C1765.56,-1631.9 1760.44,-1533.9 1844.5,-1536"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1636C1767.55,-1631.79 1762.44,-1533.79 1844.5,-1538"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge49" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2181C1758.21,-2183.87 1771.47,-2228.87 1844.5,-2226"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2183C1756.29,-2184.43 1769.55,-2229.43 1844.5,-2228"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2185C1754.37,-2185 1767.63,-2230 1844.5,-2230"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2187C1752.45,-2185.57 1765.71,-2230.57 1844.5,-2232"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2183C1756.29,-2184.43 1769.55,-2229.43 1844.5,-2228"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2185C1754.37,-2185 1767.63,-2230 1844.5,-2230"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2187C1752.45,-2185.57 1765.71,-2230.57 1844.5,-2232"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2189C1750.53,-2186.13 1763.79,-2231.13 1844.5,-2234"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge51" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2204C1759,-2207.1 1770.79,-2258.1 1844.5,-2255"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2206C1757.05,-2207.55 1768.84,-2258.55 1844.5,-2257"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2208C1755.11,-2208 1766.89,-2259 1844.5,-2259"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2210C1753.16,-2208.45 1764.95,-2259.45 1844.5,-2261"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2206C1757.05,-2207.55 1768.84,-2258.55 1844.5,-2257"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2208C1755.11,-2208 1766.89,-2259 1844.5,-2259"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2210C1753.16,-2208.45 1764.95,-2259.45 1844.5,-2261"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2212C1751.21,-2208.9 1763,-2259.9 1844.5,-2263"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge53" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1628C1759.56,-1632.21 1754.45,-1534.21 1844.5,-1530"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1630C1761.56,-1632.1 1756.44,-1534.1 1844.5,-1532"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1632C1763.56,-1632 1758.44,-1534 1844.5,-1534"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M1677.5,-1634C1765.56,-1631.9 1760.44,-1533.9 1844.5,-1536"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1630C1761.56,-1632.1 1756.44,-1534.1 1844.5,-1532"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-1632C1763.56,-1632 1758.44,-1534 1844.5,-1534"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-1634C1765.56,-1631.9 1760.44,-1533.9 1844.5,-1536"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-1636C1767.55,-1631.79 1762.44,-1533.79 1844.5,-1538"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge55" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2158C1757.47,-2160.6 1772.03,-2199.6 1844.5,-2197"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2160C1755.59,-2161.3 1770.15,-2200.3 1844.5,-2199"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M1677.5,-2162C1753.72,-2162 1768.28,-2201 1844.5,-2201"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M1677.5,-2164C1751.85,-2162.7 1766.41,-2201.7 1844.5,-2203"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2160C1755.59,-2161.3 1770.15,-2200.3 1844.5,-2199"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2162C1753.72,-2162 1768.28,-2201 1844.5,-2201"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M1677.5,-2164C1751.85,-2162.7 1766.41,-2201.7 1844.5,-2203"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2166C1749.97,-2163.4 1764.53,-2202.4 1844.5,-2205"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
 <g id="edge57" class="edge">
 <title>link_a_loom:e&#45;&#45;loom_a_wire:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2204C1759,-2207.1 1770.79,-2258.1 1844.5,-2255"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2206C1757.05,-2207.55 1768.84,-2258.55 1844.5,-2257"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2208C1755.11,-2208 1766.89,-2259 1844.5,-2259"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2210C1753.16,-2208.45 1764.95,-2259.45 1844.5,-2261"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2206C1757.05,-2207.55 1768.84,-2258.55 1844.5,-2257"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2208C1755.11,-2208 1766.89,-2259 1844.5,-2259"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M1677.5,-2210C1753.16,-2208.45 1764.95,-2259.45 1844.5,-2261"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M1677.5,-2212C1751.21,-2208.9 1763,-2259.9 1844.5,-2263"/>
 </g>
 <!-- link_a_loom&#45;&#45;loom_a_wire -->
@@ -2865,9 +2865,9 @@
 <g id="edge36" class="edge">
 <title>loom_a_wire:e&#45;&#45;icm&#45;to&#45;ecu:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2081C2363.22,-2086.13 2310.11,-1905.13 2422.5,-1900"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M2258.5,-2083C2365.14,-2085.56 2312.03,-1904.56 2422.5,-1902"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2085C2367.05,-2085 2313.95,-1904 2422.5,-1904"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M2258.5,-2087C2368.97,-2084.44 2315.86,-1903.44 2422.5,-1906"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-2083C2365.14,-2085.56 2312.03,-1904.56 2422.5,-1902"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-2085C2367.05,-2085 2313.95,-1904 2422.5,-1904"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-2087C2368.97,-2084.44 2315.86,-1903.44 2422.5,-1906"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2089C2370.89,-2083.87 2317.78,-1902.87 2422.5,-1908"/>
 </g>
 <!-- loom_a_wire&#45;&#45;icm&#45;to&#45;ecu -->
@@ -2875,7 +2875,7 @@
 <title>loom_a_wire:e&#45;&#45;icm&#45;to&#45;ecu:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2110C2381.4,-2115.43 2292.13,-1882.43 2422.5,-1877"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-2112C2383.27,-2114.72 2294,-1881.72 2422.5,-1879"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-2114C2385.14,-2114 2295.86,-1881 2422.5,-1881"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M2258.5,-2114C2385.14,-2114 2295.86,-1881 2422.5,-1881"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-2116C2387,-2113.28 2297.73,-1880.28 2422.5,-1883"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2118C2388.87,-2112.57 2299.6,-1879.57 2422.5,-1885"/>
 </g>
@@ -2884,7 +2884,7 @@
 <title>loom_a_wire:e&#45;&#45;icm&#45;to&#45;ecu:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2139C2400.99,-2144.64 2272.71,-1859.64 2422.5,-1854"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-2141C2402.82,-2143.82 2274.54,-1858.82 2422.5,-1856"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M2258.5,-2143C2404.64,-2143 2276.36,-1858 2422.5,-1858"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-2143C2404.64,-2143 2276.36,-1858 2422.5,-1858"/>
 <path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-2145C2406.46,-2142.18 2278.18,-1857.18 2422.5,-1860"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2147C2408.29,-2141.36 2280.01,-1856.36 2422.5,-1862"/>
 </g>
@@ -2892,81 +2892,81 @@
 <g id="edge42" class="edge">
 <title>loom_a_wire:e&#45;&#45;tps:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1530C2388.15,-1535.42 2300.33,-1766.42 2422.5,-1761"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M2258.5,-1532C2386.28,-1534.71 2298.46,-1765.71 2422.5,-1763"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1534C2384.41,-1534 2296.59,-1765 2422.5,-1765"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M2258.5,-1536C2382.54,-1533.29 2294.72,-1764.29 2422.5,-1767"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-1532C2386.28,-1534.71 2298.46,-1765.71 2422.5,-1763"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-1534C2384.41,-1534 2296.59,-1765 2422.5,-1765"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-1536C2382.54,-1533.29 2294.72,-1764.29 2422.5,-1767"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1538C2380.67,-1532.58 2292.85,-1763.58 2422.5,-1769"/>
 </g>
 <!-- loom_a_wire&#45;&#45;tps -->
 <g id="edge44" class="edge">
 <title>loom_a_wire:e&#45;&#45;tps:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1965C2379.22,-1970.4 2294.29,-1743.4 2422.5,-1738"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M2258.5,-1967C2381.09,-1969.7 2296.16,-1742.7 2422.5,-1740"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M2258.5,-1969C2382.96,-1969 2298.04,-1742 2422.5,-1742"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M2258.5,-1971C2384.84,-1968.3 2299.91,-1741.3 2422.5,-1744"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M2258.5,-1967C2381.09,-1969.7 2296.16,-1742.7 2422.5,-1740"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-1969C2382.96,-1969 2298.04,-1742 2422.5,-1742"/>
+<path fill="none" stroke="#ffff00" stroke-width="2" d="M2258.5,-1971C2384.84,-1968.3 2299.91,-1741.3 2422.5,-1744"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1973C2386.71,-1967.6 2301.78,-1740.6 2422.5,-1746"/>
 </g>
 <!-- loom_a_wire&#45;&#45;tps -->
 <g id="edge46" class="edge">
 <title>loom_a_wire:e&#45;&#45;tps:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1733C2328.95,-1734.22 2346.29,-1716.22 2422.5,-1715"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M2258.5,-1735C2330.39,-1735.61 2347.73,-1717.61 2422.5,-1717"/>
-<path fill="none" stroke="#8000ff" stroke-width="2" d="M2258.5,-1737C2331.83,-1737 2349.17,-1719 2422.5,-1719"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M2258.5,-1739C2333.27,-1738.39 2350.61,-1720.39 2422.5,-1721"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1735C2330.39,-1735.61 2347.73,-1717.61 2422.5,-1717"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1737C2331.83,-1737 2349.17,-1719 2422.5,-1719"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1739C2333.27,-1738.39 2350.61,-1720.39 2422.5,-1721"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1741C2334.71,-1739.78 2352.05,-1721.78 2422.5,-1723"/>
 </g>
 <!-- loom_a_wire&#45;&#45;cam&#45;sensor -->
 <g id="edge48" class="edge">
 <title>loom_a_wire:e&#45;&#45;cam&#45;sensor:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1530C2558.91,-1536.21 2128.75,-2184.21 2422.5,-2178"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M2258.5,-1532C2557.25,-1535.11 2127.09,-2183.11 2422.5,-2180"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1534C2555.58,-1534 2125.42,-2182 2422.5,-2182"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M2258.5,-1536C2553.91,-1532.89 2123.75,-2180.89 2422.5,-2184"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-1532C2557.25,-1535.11 2127.09,-2183.11 2422.5,-2180"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-1534C2555.58,-1534 2125.42,-2182 2422.5,-2182"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-1536C2553.91,-1532.89 2123.75,-2180.89 2422.5,-2184"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1538C2552.25,-1531.79 2122.09,-2179.79 2422.5,-2186"/>
 </g>
 <!-- loom_a_wire&#45;&#45;cam&#45;sensor -->
 <g id="edge50" class="edge">
 <title>loom_a_wire:e&#45;&#45;cam&#45;sensor:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2226C2333.94,-2229.71 2339.08,-2158.71 2422.5,-2155"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-2228C2335.93,-2229.86 2341.08,-2158.86 2422.5,-2157"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-2230C2337.93,-2230 2343.07,-2159 2422.5,-2159"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-2232C2339.92,-2230.14 2345.07,-2159.14 2422.5,-2161"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2228C2335.93,-2229.86 2341.08,-2158.86 2422.5,-2157"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2230C2337.93,-2230 2343.07,-2159 2422.5,-2159"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2232C2339.92,-2230.14 2345.07,-2159.14 2422.5,-2161"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2234C2341.92,-2230.29 2347.06,-2159.29 2422.5,-2163"/>
 </g>
 <!-- loom_a_wire&#45;&#45;cam&#45;sensor -->
 <g id="edge52" class="edge">
 <title>loom_a_wire:e&#45;&#45;cam&#45;sensor:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2255C2345.65,-2259.59 2327.43,-2136.59 2422.5,-2132"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2257C2347.63,-2259.29 2329.41,-2136.29 2422.5,-2134"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2259C2349.61,-2259 2331.39,-2136 2422.5,-2136"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2261C2351.59,-2258.71 2333.37,-2135.71 2422.5,-2138"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M2258.5,-2257C2347.63,-2259.29 2329.41,-2136.29 2422.5,-2134"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M2258.5,-2259C2349.61,-2259 2331.39,-2136 2422.5,-2136"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M2258.5,-2261C2351.59,-2258.71 2333.37,-2135.71 2422.5,-2138"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2263C2353.57,-2258.41 2335.35,-2135.41 2422.5,-2140"/>
 </g>
 <!-- loom_a_wire&#45;&#45;crank&#45;sensor -->
 <g id="edge54" class="edge">
 <title>loom_a_wire:e&#45;&#45;crank&#45;sensor:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1530C2499.59,-1536.09 2188.24,-2045.09 2422.5,-2039"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M2258.5,-1532C2497.88,-1535.04 2186.53,-2044.04 2422.5,-2041"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1534C2496.17,-1534 2184.83,-2043 2422.5,-2043"/>
-<path fill="none" stroke="#ffff00" stroke-width="2" d="M2258.5,-1536C2494.47,-1532.96 2183.12,-2041.96 2422.5,-2045"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-1532C2497.88,-1535.04 2186.53,-2044.04 2422.5,-2041"/>
+<path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-1534C2496.17,-1534 2184.83,-2043 2422.5,-2043"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-1536C2494.47,-1532.96 2183.12,-2041.96 2422.5,-2045"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-1538C2492.76,-1531.91 2181.41,-2040.91 2422.5,-2047"/>
 </g>
 <!-- loom_a_wire&#45;&#45;crank&#45;sensor -->
 <g id="edge56" class="edge">
 <title>loom_a_wire:e&#45;&#45;crank&#45;sensor:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2197C2363.22,-2202.13 2310.11,-2021.13 2422.5,-2016"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-2199C2365.14,-2201.56 2312.03,-2020.56 2422.5,-2018"/>
-<path fill="none" stroke="#ff8000" stroke-width="2" d="M2258.5,-2201C2367.05,-2201 2313.95,-2020 2422.5,-2020"/>
-<path fill="none" stroke="#0066ff" stroke-width="2" d="M2258.5,-2203C2368.97,-2200.44 2315.86,-2019.44 2422.5,-2022"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-2199C2365.14,-2201.56 2312.03,-2020.56 2422.5,-2018"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-2201C2367.05,-2201 2313.95,-2020 2422.5,-2020"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M2258.5,-2203C2368.97,-2200.44 2315.86,-2019.44 2422.5,-2022"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2205C2370.89,-2199.87 2317.78,-2018.87 2422.5,-2024"/>
 </g>
 <!-- loom_a_wire&#45;&#45;crank&#45;sensor -->
 <g id="edge58" class="edge">
 <title>loom_a_wire:e&#45;&#45;crank&#45;sensor:w</title>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2255C2392.19,-2260.56 2281.44,-1998.56 2422.5,-1993"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2257C2394.03,-2259.78 2283.28,-1997.78 2422.5,-1995"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2259C2395.88,-2259 2285.12,-1997 2422.5,-1997"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2261C2397.72,-2258.22 2286.97,-1996.22 2422.5,-1999"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M2258.5,-2257C2394.03,-2259.78 2283.28,-1997.78 2422.5,-1995"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M2258.5,-2259C2395.88,-2259 2285.12,-1997 2422.5,-1997"/>
+<path fill="none" stroke="#00ff00" stroke-width="2" d="M2258.5,-2261C2397.72,-2258.22 2286.97,-1996.22 2422.5,-1999"/>
 <path fill="none" stroke="#000000" stroke-width="2" d="M2258.5,-2263C2399.56,-2257.44 2288.81,-1995.44 2422.5,-2001"/>
 </g>
 <!-- loom_a_wire&#45;&#45;injector1 -->

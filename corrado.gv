@@ -3057,7 +3057,7 @@ graph {
 	"pdm-12v-ign-wire":w1:e -- razor_pdm:p24l:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	"vapor-purge-valve":p1r:e -- "pdm-12v-ign-wire":w1:w
-	"pdm-12v-ign-wire":w1:e -- razor_pdm:p21l:w
+	"pdm-12v-ign-wire":w1:e -- razor_pdm:p24l:w
 	"pdm-12v-ign-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>

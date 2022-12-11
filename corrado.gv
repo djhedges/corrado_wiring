@@ -1011,11 +1011,11 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
-	isv [label=<
+	"idle-stablizer-valve" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">isv</td>
+   <td balign="left">idle-stablizer-valve</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -2813,6 +2813,53 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	"aux-coolant-pump":p2r:e -- "engine-ground-wire":w1:w
+	"engine-ground-wire":w1:e -- "engine-ground":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	"idle-stablizer-valve":p2r:e -- "engine-ground-wire":w1:w
+	"engine-ground-wire":w1:e -- "engine-ground":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	"vapor-purge-valve":p2r:e -- "engine-ground-wire":w1:w
+	"engine-ground-wire":w1:e -- "engine-ground":p1l:w
+	"engine-ground-wire" [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">engine-ground-wire</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">1x</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellborder="0">
+   <tr><td>&nbsp;</td></tr>
+   <tr>
+    <td>aux-coolant-pump:2:Gnd</td>
+    <td>
+     1:BK
+    </td>
+    <td>engine-ground:1:Ground</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr><td>&nbsp;</td></tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	injector1:p1r:e -- "injector-pwr-wire":w1:w
 	"injector-pwr-wire":w1:e -- razor_pdm:p14l:w
@@ -3000,55 +3047,14 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"aux-coolant-pump":p2r:e -- "aux-coolant-pump-gnd-wire":w1:w
-	"aux-coolant-pump-gnd-wire":w1:e -- "engine-ground":p1l:w
-	"aux-coolant-pump-gnd-wire" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">aux-coolant-pump-gnd-wire</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">1x</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>aux-coolant-pump:2:Gnd</td>
-    <td>
-     1:BK
-    </td>
-    <td>engine-ground:1:Ground</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	isv:p1r:e -- "isv-pos-wire":w1:w
-	"isv-pos-wire":w1:e -- razor_pdm:p24l:w
-	"isv-pos-wire" [label=<
+	"idle-stablizer-valve":p1r:e -- "idle-stablizer-valve-pos-wire":w1:w
+	"idle-stablizer-valve-pos-wire":w1:e -- razor_pdm:p24l:w
+	"idle-stablizer-valve-pos-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">isv-pos-wire</td>
+   <td balign="left">idle-stablizer-valve-pos-wire</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -3060,7 +3066,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>isv:1:Pos</td>
+    <td>idle-stablizer-valve:1:Pos</td>
     <td>
      1:RD
     </td>
@@ -3073,47 +3079,6 @@ graph {
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	isv:p2r:e -- "isv-gnd-wire":w1:w
-	"isv-gnd-wire":w1:e -- "engine-ground":p1l:w
-	"isv-gnd-wire" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">isv-gnd-wire</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">1x</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>isv:2:Gnd</td>
-    <td>
-     1:BK
-    </td>
-    <td>engine-ground:1:Ground</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -3155,47 +3120,6 @@ graph {
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"vapor-purge-valve":p2r:e -- "vapor-purge-valve-gnd-wire":w1:w
-	"vapor-purge-valve-gnd-wire":w1:e -- "engine-ground":p1l:w
-	"vapor-purge-valve-gnd-wire" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">vapor-purge-valve-gnd-wire</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">1x</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>vapor-purge-valve:2:Gnd</td>
-    <td>
-     1:BK
-    </td>
-    <td>engine-ground:1:Ground</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>

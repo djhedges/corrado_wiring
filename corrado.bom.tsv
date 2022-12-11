@@ -1,9 +1,9 @@
 Id	Description	Qty	Unit	Designators
-1	Cable, 1 wires	0	m	aux-coolant-pump-gnd-wire, aux-coolant-pump-pos-wire, coil-pwr-wire, ecu-battery-gnd-wire, ecu-battery-pos-wire, fuel-pump-gnd-wire, fuel-pump-pos-wire, icm-ground-wire, isv-gnd-wire, isv-pos-wire, vapor-purge-valve-gnd-wire, vapor-purge-valve-pos-wire
+1	Cable, 1 wires	0	m	aux-coolant-pump-pos-wire, coil-pwr-wire, ecu-battery-gnd-wire, ecu-battery-pos-wire, engine-ground-wire, fuel-pump-gnd-wire, fuel-pump-pos-wire, icm-ground-wire, idle-stablizer-valve-pos-wire, vapor-purge-valve-pos-wire
 2	Cable, 3 wires	0	m	icm-to-coil-wire
 3	Cable, 34 wires	0	m	loom_a_wire, loom_b_wire
 4	Cable, 6 wires	0	m	injector-pwr-wire
-5	Connector, 037906240, 2 pins	8		injector1, injector2, injector3, injector4, injector5, injector6, intake-temp-sensor, isv
+5	Connector, 037906240, 2 pins	8		idle-stablizer-valve, injector1, injector2, injector3, injector4, injector5, injector6, intake-temp-sensor
 6	Connector, 037906240, 3 pins	3		cam-sensor, knock1, knock2
 7	Connector, 1 pins	1		engine-ground
 8	Connector, 1287013900, 4 pins	1		coil

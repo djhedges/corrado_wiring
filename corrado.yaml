@@ -65,7 +65,7 @@ connectors:
   aux-coolant-pump:
     type: 357972752
     pinlabels: [Pos, Gnd]
-  isv:  # Idle Stablizer Valve
+  idle-stablizer-valve:
     type: 037906240
     pinlabels: [Pos, Gnd]
   vapor-purge-valve:  # Non-OEM replacement.
@@ -100,21 +100,17 @@ cables:
     colors: [RD]
   ecu-battery-gnd-wire:
     colors: [BK]
+  engine-ground-wire:
+    colors: [BK]
   injector-pwr-wire:
     wirecount: 6
     colors: [RD]
   aux-coolant-pump-pos-wire:
     colors: [RD]
-  aux-coolant-pump-gnd-wire:
-    colors: [BK]
-  isv-pos-wire:
+  idle-stablizer-valve-pos-wire:
     colors: [RD]
-  isv-gnd-wire:
-    colors: [BK]
   vapor-purge-valve-pos-wire:
     colors: [RD]
-  vapor-purge-valve-gnd-wire:
-    colors: [BK]
   fuel-pump-pos-wire:
     colors: [RD]
   fuel-pump-gnd-wire:
@@ -241,15 +237,15 @@ connections:
     - razor_pdm: [ADIO1]
   -
     - aux-coolant-pump: [Gnd]
-    - aux-coolant-pump-gnd-wire: [1]
+    - engine-ground-wire: [1]
     - engine-ground: [Ground]
   -
-    - isv: [Pos]
-    - isv-pos-wire: [1]
+    - idle-stablizer-valve: [Pos]
+    - idle-stablizer-valve-pos-wire: [1]
     - razor_pdm: [ADIO7]
   -
-    - isv: [Gnd]
-    - isv-gnd-wire: [1]
+    - idle-stablizer-valve: [Gnd]
+    - engine-ground-wire: [1]
     - engine-ground: [Ground]
   -
     - vapor-purge-valve: [Pos]
@@ -257,7 +253,7 @@ connections:
     - razor_pdm: [ADIO8]
   -
     - vapor-purge-valve: [Gnd]
-    - vapor-purge-valve-gnd-wire: [1]
+    - engine-ground-wire: [1]
     - engine-ground: [Ground]  # TODO: Pick a better ground.
   -
     - fuel-pump: [Pos]

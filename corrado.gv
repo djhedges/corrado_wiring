@@ -1087,9 +1087,9 @@ graph {
 	edge [color="#000000:#ffff00:#895956:#ffff00:#000000"]
 	link_a_loom:p15r:e -- loom_a_wire:w15:w
 	loom_a_wire:w15:e -- "intake-temp-sensor":p1l:w
-	edge [color="#000000:#999999:#ff0000:#999999:#000000"]
-	link_a_loom:p22r:e -- loom_a_wire:w22:w
-	loom_a_wire:w22:e -- "intake-temp-sensor":p2l:w
+	edge [color="#000000:#ff8000:#8000ff:#ff8000:#000000"]
+	link_a_loom:p25r:e -- loom_a_wire:w25:w
+	loom_a_wire:w25:e -- "intake-temp-sensor":p2l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	link_a_loom:p4r:e -- loom_a_wire:w4:w
 	loom_a_wire:w4:e -- injector1:p2l:w
@@ -1500,7 +1500,7 @@ graph {
     <td>
      22:GYRD
     </td>
-    <td>intake-temp-sensor:2:Sig-</td>
+    <td><!-- 22_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w22" height="10">

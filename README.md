@@ -1,1 +1,3 @@
-# corrado_wiring
+# Corrado Wiring Diagram
+
+[corrado.png](/corrado.png)

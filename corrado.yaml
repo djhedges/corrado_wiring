@@ -78,7 +78,7 @@ connectors:
   idle-stablizer-valve:
     type: 037906240
     pinlabels: [Pos, Gnd]
-  vapor-purge-valve:  # Non-OEM replacement.
+  vapor-purge-valve:  # Non-OEM replacement. Aka Evap.
     type: 1J0983722
     pinlabels: [Pos, Gnd]
   fuel-pump:

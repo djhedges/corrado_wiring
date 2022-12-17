@@ -688,6 +688,37 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
+	"map-sensor" [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">map-sensor</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">101-0162</td>
+   <td balign="left">3-pin</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
+   <tr>
+    <td port="p1l">1</td>
+    <td>Gnd</td>
+   </tr>
+   <tr>
+    <td port="p2l">2</td>
+    <td>Sensor</td>
+   </tr>
+   <tr>
+    <td port="p3l">3</td>
+    <td>5v</td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
 	"cam-sensor" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1225,6 +1256,15 @@ graph {
 	loom_a_wire:w25:e -- tps:p3l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
 	link_a_loom:p32r:e -- loom_a_wire:w32:w
+	loom_a_wire:w32:e -- "map-sensor":p3l:w
+	edge [color="#000000:#ffffff:#895956:#ffffff:#000000"]
+	link_a_loom:p22r:e -- loom_a_wire:w22:w
+	loom_a_wire:w22:e -- "map-sensor":p2l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_a_loom:p34r:e -- loom_a_wire:w34:w
+	loom_a_wire:w34:e -- "map-sensor":p1l:w
+	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
+	link_a_loom:p32r:e -- loom_a_wire:w32:w
 	loom_a_wire:w32:e -- "cam-sensor":p1l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_a_loom:p8r:e -- loom_a_wire:w8:w
@@ -1657,7 +1697,7 @@ graph {
     <td>
      22:WHBN
     </td>
-    <td><!-- 22_out --></td>
+    <td>map-sensor:2:Sensor</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w22" height="10">
@@ -1873,7 +1913,7 @@ graph {
     <td>
      34:BK
     </td>
-    <td><!-- 34_out --></td>
+    <td>map-sensor:1:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">

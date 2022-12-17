@@ -32,6 +32,9 @@ connectors:
   tps:
     type: 357972753
     pinlabels: [5v, Sensor, Gnd]  # Old wiring  BKGY 5v, GNWH Sensor, BRW Grnd
+  map-sensor:
+    type: 101-0162
+    pinlabels: [Gnd, Sensor, 5v]
   cam-sensor:
     type: HT-010404
     pinlabels: [5v, Sensor, Gnd]
@@ -157,6 +160,10 @@ connections:
     - link_a_loom: [+5V, AnVolt1, Ground1]
     - loom_a_wire: [32, 17, 25]
     - tps: [5v, Sensor, Gnd]
+  -
+    - link_a_loom: [+5V, AnVolt2, Ground2]
+    - loom_a_wire: [32, 22, 34]
+    - map-sensor: [5v, Sensor, Gnd]
   -
     - link_a_loom: [+5V, Trig1, Shield/Gnd]
     - loom_a_wire: [32, 8, 7]

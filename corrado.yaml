@@ -195,6 +195,8 @@ connections:
   -
     - link_b_loom: [Temp3, Ground1]
     - loom_b_wire: [6, 25]
+    - bulk-connector: [40, 59]
+    - engine-wire-loom: [40, 59]
     - intake-temp-sensor: [Sig+, Sig-]
   -
     - battery: [+]
@@ -271,10 +273,14 @@ connections:
   -
     - link_b_loom: [Knock1, Shield/Gnd, Shield/Gnd]
     - loom_b_wire: [9, 17, 17]
+    - bulk-connector: [43, 51, 51]
+    - engine-wire-loom: [43, 51, 51]
     - knock1: [Sig+, Sig-, Scr]
   -
     - link_b_loom: [Knock2, Shield/Gnd, Shield/Gnd]
     - loom_b_wire: [8, 17, 17]
+    - bulk-connector: [42, 51, 51]
+    - engine-wire-loom: [42, 51, 51]
     - knock2: [Sig+, Sig-, Scr]
   -
     - aux-coolant-pump: [Pos]
@@ -291,6 +297,8 @@ connections:
   -
     - link_a_loom: [Aux1]
     - loom_a_wire: [21]
+    - bulk-connector: [21]
+    - engine-wire-loom: [21]
     - idle-stablizer-valve: [Gnd]
   -
     - vapor-purge-valve: [Pos]
@@ -299,6 +307,8 @@ connections:
   -
     - link_a_loom: [Aux3]
     - loom_a_wire: [19]
+    - bulk-connector: [19]
+    - engine-wire-loom: [19]
     - vapor-purge-valve: [Gnd]
   -
     - fuel-pump: [Pos]

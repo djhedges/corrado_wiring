@@ -1577,10 +1577,10 @@ graph {
 	loom_a_wire:w1:e -- "bulk-connector":p1l:w
 	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
 	link_a_loom:p21r:e -- loom_a_wire:w21:w
-	loom_a_wire:w21:e -- "idle-stablizer-valve":p2l:w
+	loom_a_wire:w21:e -- "bulk-connector":p21l:w
 	edge [color="#000000:#ff8000:#ff0000:#ff8000:#000000"]
 	link_a_loom:p19r:e -- loom_a_wire:w19:w
-	loom_a_wire:w19:e -- "vapor-purge-valve":p2l:w
+	loom_a_wire:w19:e -- "bulk-connector":p19l:w
 	loom_a_wire [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1925,7 +1925,7 @@ graph {
     <td>
      19:OGRD
     </td>
-    <td>vapor-purge-valve:2:Gnd</td>
+    <td>bulk-connector:19</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w19" height="10">
@@ -1961,7 +1961,7 @@ graph {
     <td>
      21:OGBK
     </td>
-    <td>idle-stablizer-valve:2:Gnd</td>
+    <td>bulk-connector:21</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w21" height="10">
@@ -2283,10 +2283,10 @@ graph {
 	link_b_loom:p34r:e -- loom_b_wire:w34:w
 	edge [color="#000000:#ffff00:#ff0000:#ffff00:#000000"]
 	link_b_loom:p6r:e -- loom_b_wire:w6:w
-	loom_b_wire:w6:e -- "intake-temp-sensor":p1l:w
+	loom_b_wire:w6:e -- "bulk-connector":p40l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_b_loom:p25r:e -- loom_b_wire:w25:w
-	loom_b_wire:w25:e -- "intake-temp-sensor":p2l:w
+	loom_b_wire:w25:e -- "bulk-connector":p59l:w
 	edge [color="#000000:#895956:#ffff00:#895956:#000000"]
 	link_b_loom:p4r:e -- loom_b_wire:w4:w
 	loom_b_wire:w4:e -- "bulk-connector":p38l:w
@@ -2295,22 +2295,22 @@ graph {
 	loom_b_wire:w3:e -- "bulk-connector":p37l:w
 	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
 	link_b_loom:p9r:e -- loom_b_wire:w9:w
-	loom_b_wire:w9:e -- knock1:p1l:w
+	loom_b_wire:w9:e -- "bulk-connector":p43l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_b_loom:p17r:e -- loom_b_wire:w17:w
-	loom_b_wire:w17:e -- knock1:p2l:w
+	loom_b_wire:w17:e -- "bulk-connector":p51l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_b_loom:p17r:e -- loom_b_wire:w17:w
-	loom_b_wire:w17:e -- knock1:p3l:w
+	loom_b_wire:w17:e -- "bulk-connector":p51l:w
 	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
 	link_b_loom:p8r:e -- loom_b_wire:w8:w
-	loom_b_wire:w8:e -- knock2:p1l:w
+	loom_b_wire:w8:e -- "bulk-connector":p42l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_b_loom:p17r:e -- loom_b_wire:w17:w
-	loom_b_wire:w17:e -- knock2:p2l:w
+	loom_b_wire:w17:e -- "bulk-connector":p51l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_b_loom:p17r:e -- loom_b_wire:w17:w
-	loom_b_wire:w17:e -- knock2:p3l:w
+	loom_b_wire:w17:e -- "bulk-connector":p51l:w
 	loom_b_wire [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2421,7 +2421,7 @@ graph {
     <td>
      6:YERD
     </td>
-    <td>intake-temp-sensor:1:Sig+</td>
+    <td>bulk-connector:40</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w6" height="10">
@@ -2457,7 +2457,7 @@ graph {
     <td>
      8:WH
     </td>
-    <td>knock2:1:Sig+</td>
+    <td>bulk-connector:42</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w8" height="10">
@@ -2475,7 +2475,7 @@ graph {
     <td>
      9:WH
     </td>
-    <td>knock1:1:Sig+</td>
+    <td>bulk-connector:43</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w9" height="10">
@@ -2619,7 +2619,7 @@ graph {
     <td>
      17:GN
     </td>
-    <td>knock1:2:Sig-</td>
+    <td>bulk-connector:51</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w17" height="10">
@@ -2763,7 +2763,7 @@ graph {
     <td>
      25:BK
     </td>
-    <td>intake-temp-sensor:2:Sig-</td>
+    <td>bulk-connector:59</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
@@ -2979,6 +2979,12 @@ graph {
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	"bulk-connector":p7r:e -- "engine-wire-loom":w7:w
 	"engine-wire-loom":w7:e -- "crank-sensor":p3l:w
+	edge [color="#000000:#ffff00:#ff0000:#ffff00:#000000"]
+	"bulk-connector":p40r:e -- "engine-wire-loom":w40:w
+	"engine-wire-loom":w40:e -- "intake-temp-sensor":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	"bulk-connector":p59r:e -- "engine-wire-loom":w59:w
+	"engine-wire-loom":w59:e -- "intake-temp-sensor":p2l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	"bulk-connector":p4r:e -- "engine-wire-loom":w4:w
 	"engine-wire-loom":w4:e -- injector1:p2l:w
@@ -2997,6 +3003,30 @@ graph {
 	edge [color="#000000:#895956:#00ff00:#895956:#000000"]
 	"bulk-connector":p37r:e -- "engine-wire-loom":w37:w
 	"engine-wire-loom":w37:e -- injector6:p2l:w
+	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
+	"bulk-connector":p43r:e -- "engine-wire-loom":w43:w
+	"engine-wire-loom":w43:e -- knock1:p1l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	"bulk-connector":p51r:e -- "engine-wire-loom":w51:w
+	"engine-wire-loom":w51:e -- knock1:p2l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	"bulk-connector":p51r:e -- "engine-wire-loom":w51:w
+	"engine-wire-loom":w51:e -- knock1:p3l:w
+	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
+	"bulk-connector":p42r:e -- "engine-wire-loom":w42:w
+	"engine-wire-loom":w42:e -- knock2:p1l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	"bulk-connector":p51r:e -- "engine-wire-loom":w51:w
+	"engine-wire-loom":w51:e -- knock2:p2l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	"bulk-connector":p51r:e -- "engine-wire-loom":w51:w
+	"engine-wire-loom":w51:e -- knock2:p3l:w
+	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
+	"bulk-connector":p21r:e -- "engine-wire-loom":w21:w
+	"engine-wire-loom":w21:e -- "idle-stablizer-valve":p2l:w
+	edge [color="#000000:#ff8000:#ff0000:#ff8000:#000000"]
+	"bulk-connector":p19r:e -- "engine-wire-loom":w19:w
+	"engine-wire-loom":w19:e -- "vapor-purge-valve":p2l:w
 	"engine-wire-loom" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -3337,11 +3367,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 19_in --></td>
+    <td>bulk-connector:19</td>
     <td>
      19:OGRD
     </td>
-    <td><!-- 19_out --></td>
+    <td>vapor-purge-valve:2:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w19" height="10">
@@ -3373,11 +3403,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 21_in --></td>
+    <td>bulk-connector:21</td>
     <td>
      21:OGBK
     </td>
-    <td><!-- 21_out --></td>
+    <td>idle-stablizer-valve:2:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w21" height="10">
@@ -3715,11 +3745,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 40_in --></td>
+    <td>bulk-connector:40</td>
     <td>
      40:YERD
     </td>
-    <td><!-- 40_out --></td>
+    <td>intake-temp-sensor:1:Sig+</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w40" height="10">
@@ -3751,11 +3781,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 42_in --></td>
+    <td>bulk-connector:42</td>
     <td>
      42:WH
     </td>
-    <td><!-- 42_out --></td>
+    <td>knock2:1:Sig+</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w42" height="10">
@@ -3769,11 +3799,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 43_in --></td>
+    <td>bulk-connector:43</td>
     <td>
      43:WH
     </td>
-    <td><!-- 43_out --></td>
+    <td>knock1:1:Sig+</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w43" height="10">
@@ -3913,11 +3943,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 51_in --></td>
+    <td>bulk-connector:51</td>
     <td>
      51:GN
     </td>
-    <td><!-- 51_out --></td>
+    <td>knock1:2:Sig-</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w51" height="10">
@@ -4057,11 +4087,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 59_in --></td>
+    <td>bulk-connector:59</td>
     <td>
      59:BK
     </td>
-    <td><!-- 59_out --></td>
+    <td>intake-temp-sensor:2:Sig-</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w59" height="10">

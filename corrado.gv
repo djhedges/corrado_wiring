@@ -539,7 +539,7 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">66-pin</td>
+   <td balign="left">68-pin</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -808,6 +808,14 @@ graph {
     <td port="p66l">66</td>
     <td port="p66r">66</td>
    </tr>
+   <tr>
+    <td port="p67l">67</td>
+    <td port="p67r">67</td>
+   </tr>
+   <tr>
+    <td port="p68l">68</td>
+    <td port="p68r">68</td>
+   </tr>
   </table>
  </td></tr>
 </table>
@@ -1073,6 +1081,32 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">037906240</td>
+   <td balign="left">2-pin</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
+   <tr>
+    <td port="p1l">1</td>
+    <td>Sig+</td>
+   </tr>
+   <tr>
+    <td port="p2l">2</td>
+    <td>Sig-</td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
+	"oil-temp-sensor" [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">oil-temp-sensor</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">2-pin</td>
   </tr></table>
  </td></tr>
@@ -2287,6 +2321,12 @@ graph {
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_b_loom:p25r:e -- loom_b_wire:w25:w
 	loom_b_wire:w25:e -- "bulk-connector":p59l:w
+	edge [color="#000000:#ffff00:#ff8000:#ffff00:#000000"]
+	link_b_loom:p7r:e -- loom_b_wire:w7:w
+	loom_b_wire:w7:e -- "bulk-connector":p41l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_b_loom:p34r:e -- loom_b_wire:w34:w
+	loom_b_wire:w34:e -- "bulk-connector":p68l:w
 	edge [color="#000000:#895956:#ffff00:#895956:#000000"]
 	link_b_loom:p4r:e -- loom_b_wire:w4:w
 	loom_b_wire:w4:e -- "bulk-connector":p38l:w
@@ -2439,7 +2479,7 @@ graph {
     <td>
      7:YEOG
     </td>
-    <td><!-- 7_out --></td>
+    <td>bulk-connector:41</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w7" height="10">
@@ -2925,7 +2965,7 @@ graph {
     <td>
      34:BK
     </td>
-    <td><!-- 34_out --></td>
+    <td>bulk-connector:68</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">
@@ -2985,6 +3025,12 @@ graph {
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	"bulk-connector":p59r:e -- "engine-wire-loom":w59:w
 	"engine-wire-loom":w59:e -- "intake-temp-sensor":p2l:w
+	edge [color="#000000:#ffff00:#ff8000:#ffff00:#000000"]
+	"bulk-connector":p41r:e -- "engine-wire-loom":w41:w
+	"engine-wire-loom":w41:e -- "oil-temp-sensor":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	"bulk-connector":p68r:e -- "engine-wire-loom":w68:w
+	"engine-wire-loom":w68:e -- "oil-temp-sensor":p2l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	"bulk-connector":p4r:e -- "engine-wire-loom":w4:w
 	"engine-wire-loom":w4:e -- injector1:p2l:w
@@ -3763,11 +3809,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 41_in --></td>
+    <td>bulk-connector:41</td>
     <td>
      41:YEOG
     </td>
-    <td><!-- 41_out --></td>
+    <td>oil-temp-sensor:1:Sig+</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w41" height="10">
@@ -4249,11 +4295,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 68_in --></td>
+    <td>bulk-connector:68</td>
     <td>
      68:BK
     </td>
-    <td><!-- 68_out --></td>
+    <td>oil-temp-sensor:2:Sig-</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w68" height="10">

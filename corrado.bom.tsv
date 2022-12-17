@@ -9,7 +9,7 @@ Id	Description	Qty	Unit	Designators
 8	Connector, 101-0162, 3 pins	1		map-sensor
 9	Connector, 1287013900, 4 pins	1		coil
 10	Connector, 1J0983722, 2 pins	1		vapor-purge-valve
-11	Connector, 2 pins	1		battery
+11	Connector, 2 pins	2		battery, oil-temp-sensor
 12	Connector, 26 pins	1		razor_pdm
 13	Connector, 261205289, 4 pins	1		icm-to-coil
 14	Connector, 261205351, 3 pins	1		icm-to-ecu
@@ -18,5 +18,5 @@ Id	Description	Qty	Unit	Designators
 17	Connector, 357972753, 3 pins	1		tps
 18	Connector, 5LA, 34 pins	1		link_a_loom
 19	Connector, 5LB, 34 pins	1		link_b_loom
-20	Connector, 66 pins	1		bulk-connector
+20	Connector, 68 pins	1		bulk-connector
 21	Connector, HT-010404, 3 pins	4		cam-sensor, crank-sensor, knock1, knock2

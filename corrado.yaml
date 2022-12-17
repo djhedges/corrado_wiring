@@ -19,7 +19,7 @@ connectors:
                 PWROUT1a, ADIO2, ADIO4, ADIO6, ADIO8, PWROUT4a,
                 PWROUT1b, ADIO1, ADIO3, ADIO5, ADIO7, NC3, PWROUT4b]
   bulk-connector:
-    pincount: 66
+    pincount: 68
   icm-to-ecu:
     type: 261205351
     pinlabels: [Transistor1, Transistor2, Transistor3]
@@ -45,6 +45,8 @@ connectors:
     pinlabels: [5v, Sensor, Gnd]
   intake-temp-sensor:
     type: 037906240
+    pinlabels: [Sig+, Sig-]
+  oil-temp-sensor:
     pinlabels: [Sig+, Sig-]
   injector1:
     type: 037906240
@@ -198,6 +200,12 @@ connections:
     - bulk-connector: [40, 59]
     - engine-wire-loom: [40, 59]
     - intake-temp-sensor: [Sig+, Sig-]
+  -
+    - link_b_loom: [Temp4, Ground2]
+    - loom_b_wire: [7, 34]
+    - bulk-connector: [41, 68]
+    - engine-wire-loom: [41, 68]
+    - oil-temp-sensor: [Sig+, Sig-]
   -
     - battery: [+]
     - ecu-battery-pos-wire: [1]

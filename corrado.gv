@@ -1565,16 +1565,16 @@ graph {
 	loom_a_wire:w7:e -- "crank-sensor":p3l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	link_a_loom:p4r:e -- loom_a_wire:w4:w
-	loom_a_wire:w4:e -- "bulk-connector":p1l:w
+	loom_a_wire:w4:e -- "bulk-connector":p4l:w
 	edge [color="#000000:#895956:#895956:#895956:#000000"]
 	link_a_loom:p3r:e -- loom_a_wire:w3:w
-	loom_a_wire:w3:e -- injector2:p2l:w
+	loom_a_wire:w3:e -- "bulk-connector":p3l:w
 	edge [color="#000000:#895956:#ff0000:#895956:#000000"]
 	link_a_loom:p2r:e -- loom_a_wire:w2:w
-	loom_a_wire:w2:e -- injector3:p2l:w
+	loom_a_wire:w2:e -- "bulk-connector":p2l:w
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
 	link_a_loom:p1r:e -- loom_a_wire:w1:w
-	loom_a_wire:w1:e -- injector4:p2l:w
+	loom_a_wire:w1:e -- "bulk-connector":p1l:w
 	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
 	link_a_loom:p21r:e -- loom_a_wire:w21:w
 	loom_a_wire:w21:e -- "idle-stablizer-valve":p2l:w
@@ -1601,7 +1601,7 @@ graph {
     <td>
      1:BNOG
     </td>
-    <td>injector4:2:Gnd</td>
+    <td>bulk-connector:1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
@@ -1619,7 +1619,7 @@ graph {
     <td>
      2:BNRD
     </td>
-    <td>injector3:2:Gnd</td>
+    <td>bulk-connector:2</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="10">
@@ -1637,7 +1637,7 @@ graph {
     <td>
      3:BN
     </td>
-    <td>injector2:2:Gnd</td>
+    <td>bulk-connector:3</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">
@@ -1655,7 +1655,7 @@ graph {
     <td>
      4:BNBK
     </td>
-    <td>bulk-connector:1</td>
+    <td>bulk-connector:4</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="10">
@@ -2289,10 +2289,10 @@ graph {
 	loom_b_wire:w25:e -- "intake-temp-sensor":p2l:w
 	edge [color="#000000:#895956:#ffff00:#895956:#000000"]
 	link_b_loom:p4r:e -- loom_b_wire:w4:w
-	loom_b_wire:w4:e -- injector5:p2l:w
+	loom_b_wire:w4:e -- "bulk-connector":p38l:w
 	edge [color="#000000:#895956:#00ff00:#895956:#000000"]
 	link_b_loom:p3r:e -- loom_b_wire:w3:w
-	loom_b_wire:w3:e -- injector6:p2l:w
+	loom_b_wire:w3:e -- "bulk-connector":p37l:w
 	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
 	link_b_loom:p9r:e -- loom_b_wire:w9:w
 	loom_b_wire:w9:e -- knock1:p1l:w
@@ -2367,7 +2367,7 @@ graph {
     <td>
      3:BNGN
     </td>
-    <td>injector6:2:Gnd</td>
+    <td>bulk-connector:37</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">
@@ -2385,7 +2385,7 @@ graph {
     <td>
      4:BNYE
     </td>
-    <td>injector5:2:Gnd</td>
+    <td>bulk-connector:38</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="10">
@@ -2944,8 +2944,23 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
-	"bulk-connector":p1r:e -- "engine-wire-loom":w4:w
+	"bulk-connector":p4r:e -- "engine-wire-loom":w4:w
 	"engine-wire-loom":w4:e -- injector1:p2l:w
+	edge [color="#000000:#895956:#895956:#895956:#000000"]
+	"bulk-connector":p3r:e -- "engine-wire-loom":w3:w
+	"engine-wire-loom":w3:e -- injector2:p2l:w
+	edge [color="#000000:#895956:#ff0000:#895956:#000000"]
+	"bulk-connector":p2r:e -- "engine-wire-loom":w2:w
+	"engine-wire-loom":w2:e -- injector3:p2l:w
+	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
+	"bulk-connector":p1r:e -- "engine-wire-loom":w1:w
+	"engine-wire-loom":w1:e -- injector4:p2l:w
+	edge [color="#000000:#895956:#ffff00:#895956:#000000"]
+	"bulk-connector":p38r:e -- "engine-wire-loom":w38:w
+	"engine-wire-loom":w38:e -- injector5:p2l:w
+	edge [color="#000000:#895956:#00ff00:#895956:#000000"]
+	"bulk-connector":p37r:e -- "engine-wire-loom":w37:w
+	"engine-wire-loom":w37:e -- injector6:p2l:w
 	"engine-wire-loom" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2962,11 +2977,11 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td><!-- 1_in --></td>
+    <td>bulk-connector:1</td>
     <td>
      1:BNOG
     </td>
-    <td><!-- 1_out --></td>
+    <td>injector4:2:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
@@ -2980,11 +2995,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 2_in --></td>
+    <td>bulk-connector:2</td>
     <td>
      2:BNRD
     </td>
-    <td><!-- 2_out --></td>
+    <td>injector3:2:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="10">
@@ -2998,11 +3013,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 3_in --></td>
+    <td>bulk-connector:3</td>
     <td>
      3:BN
     </td>
-    <td><!-- 3_out --></td>
+    <td>injector2:2:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">
@@ -3016,7 +3031,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:1</td>
+    <td>bulk-connector:4</td>
     <td>
      4:BNBK
     </td>
@@ -3610,11 +3625,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 37_in --></td>
+    <td>bulk-connector:37</td>
     <td>
      37:BNGN
     </td>
-    <td><!-- 37_out --></td>
+    <td>injector6:2:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w37" height="10">
@@ -3628,11 +3643,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 38_in --></td>
+    <td>bulk-connector:38</td>
     <td>
      38:BNYE
     </td>
-    <td><!-- 38_out --></td>
+    <td>injector5:2:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w38" height="10">

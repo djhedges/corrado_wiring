@@ -203,28 +203,38 @@ connections:
   -
     - link_a_loom: [Inj1]
     - loom_a_wire: [4]
-    - bulk-connector: [1]
+    - bulk-connector: [4]
     - engine-wire-loom: [4]
     - injector1: [Gnd]
   -
     - link_a_loom: [Inj2]
     - loom_a_wire: [3]
+    - bulk-connector: [3]
+    - engine-wire-loom: [3]
     - injector2: [Gnd]
   -
     - link_a_loom: [Inj3]
     - loom_a_wire: [2]
+    - bulk-connector: [2]
+    - engine-wire-loom: [2]
     - injector3: [Gnd]
   -
     - link_a_loom: [Inj4]
     - loom_a_wire: [1]
+    - bulk-connector: [1]
+    - engine-wire-loom: [1]
     - injector4: [Gnd]
   -
     - link_b_loom: [Inj5]
     - loom_b_wire: [4]
+    - bulk-connector: [38]
+    - engine-wire-loom: [38]
     - injector5: [Gnd]
   -
     - link_b_loom: [Inj6]
     - loom_b_wire: [3]
+    - bulk-connector: [37]
+    - engine-wire-loom: [37]
     - injector6: [Gnd]
   -
     - injector1: [Pos]

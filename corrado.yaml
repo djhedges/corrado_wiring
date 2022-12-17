@@ -268,4 +268,4 @@ connections:
   -
     - battery: [-]
     - fuel-pump-gnd-wire: [1]
-    - fuel-pump: [Pos]
+    - fuel-pump: [Gnd]

@@ -12,112 +12,112 @@
 <!-- battery -->
 <g id="node1" class="node">
 <title>battery</title>
-<polygon fill="#ffffff" stroke="black" points="50,-1356 0,-1356 0,-1264 50,-1264 50,-1356"/>
-<polygon fill="none" stroke="black" points="0,-1333 0,-1356 50,-1356 50,-1333 0,-1333"/>
-<text text-anchor="start" x="4" y="-1340.8" font-family="arial" font-size="14.00">battery</text>
-<polygon fill="none" stroke="black" points="0,-1310 0,-1333 50,-1333 50,-1310 0,-1310"/>
-<text text-anchor="start" x="9.5" y="-1317.8" font-family="arial" font-size="14.00">2&#45;pin</text>
-<polygon fill="none" stroke="black" points="0,-1287 0,-1310 26,-1310 26,-1287 0,-1287"/>
-<text text-anchor="start" x="8.5" y="-1294.8" font-family="arial" font-size="14.00">+</text>
-<polygon fill="none" stroke="black" points="26,-1287 26,-1310 50,-1310 50,-1287 26,-1287"/>
-<text text-anchor="start" x="34" y="-1294.8" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="0,-1264 0,-1287 26,-1287 26,-1264 0,-1264"/>
-<text text-anchor="start" x="10.5" y="-1271.8" font-family="arial" font-size="14.00">&#45;</text>
-<polygon fill="none" stroke="black" points="26,-1264 26,-1287 50,-1287 50,-1264 26,-1264"/>
-<text text-anchor="start" x="34" y="-1271.8" font-family="arial" font-size="14.00">2</text>
+<polygon fill="#ffffff" stroke="black" points="50,-1543 0,-1543 0,-1451 50,-1451 50,-1543"/>
+<polygon fill="none" stroke="black" points="0,-1520 0,-1543 50,-1543 50,-1520 0,-1520"/>
+<text text-anchor="start" x="4" y="-1527.8" font-family="arial" font-size="14.00">battery</text>
+<polygon fill="none" stroke="black" points="0,-1497 0,-1520 50,-1520 50,-1497 0,-1497"/>
+<text text-anchor="start" x="9.5" y="-1504.8" font-family="arial" font-size="14.00">2&#45;pin</text>
+<polygon fill="none" stroke="black" points="0,-1474 0,-1497 26,-1497 26,-1474 0,-1474"/>
+<text text-anchor="start" x="8.5" y="-1481.8" font-family="arial" font-size="14.00">+</text>
+<polygon fill="none" stroke="black" points="26,-1474 26,-1497 50,-1497 50,-1474 26,-1474"/>
+<text text-anchor="start" x="34" y="-1481.8" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="0,-1451 0,-1474 26,-1474 26,-1451 0,-1451"/>
+<text text-anchor="start" x="10.5" y="-1458.8" font-family="arial" font-size="14.00">&#45;</text>
+<polygon fill="none" stroke="black" points="26,-1451 26,-1474 50,-1474 50,-1451 26,-1451"/>
+<text text-anchor="start" x="34" y="-1458.8" font-family="arial" font-size="14.00">2</text>
 </g>
 <!-- ecu&#45;battery&#45;pos&#45;wire -->
 <g id="node31" class="node">
 <title>ecu&#45;battery&#45;pos&#45;wire</title>
-<polygon fill="#ffffff" stroke="black" points="466.5,-2175.5 203.5,-2175.5 203.5,-2062.5 466.5,-2062.5 466.5,-2175.5"/>
-<polygon fill="none" stroke="black" points="204,-2152 204,-2175 467,-2175 467,-2152 204,-2152"/>
-<text text-anchor="start" x="273.5" y="-2159.8" font-family="arial" font-size="14.00">ecu&#45;battery&#45;pos&#45;wire</text>
-<polygon fill="none" stroke="black" points="204,-2129 204,-2152 467,-2152 467,-2129 204,-2129"/>
-<text text-anchor="start" x="328" y="-2136.8" font-family="arial" font-size="14.00">1x</text>
-<text text-anchor="start" x="236.5" y="-2115.8" font-family="arial" font-size="14.00"> </text>
-<text text-anchor="start" x="206" y="-2096.8" font-family="arial" font-size="14.00">battery:1:+</text>
-<text text-anchor="start" x="275" y="-2096.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
-<text text-anchor="start" x="344" y="-2096.8" font-family="arial" font-size="14.00">link_a_loom:5:+14V</text>
-<polygon fill="#000000" stroke="transparent" points="204,-2089 204,-2091 467,-2091 467,-2089 204,-2089"/>
-<polygon fill="#ff0000" stroke="transparent" points="204,-2087 204,-2089 467,-2089 467,-2087 204,-2087"/>
-<polygon fill="#ff0000" stroke="transparent" points="204,-2085 204,-2087 467,-2087 467,-2085 204,-2085"/>
-<polygon fill="#ff0000" stroke="transparent" points="204,-2083 204,-2085 467,-2085 467,-2083 204,-2083"/>
-<polygon fill="#000000" stroke="transparent" points="204,-2081 204,-2083 467,-2083 467,-2081 204,-2081"/>
-<text text-anchor="start" x="236.5" y="-2067.8" font-family="arial" font-size="14.00"> </text>
+<polygon fill="#ffffff" stroke="black" points="466.5,-2100.5 203.5,-2100.5 203.5,-1987.5 466.5,-1987.5 466.5,-2100.5"/>
+<polygon fill="none" stroke="black" points="204,-2077 204,-2100 467,-2100 467,-2077 204,-2077"/>
+<text text-anchor="start" x="273.5" y="-2084.8" font-family="arial" font-size="14.00">ecu&#45;battery&#45;pos&#45;wire</text>
+<polygon fill="none" stroke="black" points="204,-2054 204,-2077 467,-2077 467,-2054 204,-2054"/>
+<text text-anchor="start" x="328" y="-2061.8" font-family="arial" font-size="14.00">1x</text>
+<text text-anchor="start" x="236.5" y="-2040.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="206" y="-2021.8" font-family="arial" font-size="14.00">battery:1:+</text>
+<text text-anchor="start" x="275" y="-2021.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:RD &#160;&#160;&#160;</text>
+<text text-anchor="start" x="344" y="-2021.8" font-family="arial" font-size="14.00">link_a_loom:5:+14V</text>
+<polygon fill="#000000" stroke="transparent" points="204,-2014 204,-2016 467,-2016 467,-2014 204,-2014"/>
+<polygon fill="#ff0000" stroke="transparent" points="204,-2012 204,-2014 467,-2014 467,-2012 204,-2012"/>
+<polygon fill="#ff0000" stroke="transparent" points="204,-2010 204,-2012 467,-2012 467,-2010 204,-2010"/>
+<polygon fill="#ff0000" stroke="transparent" points="204,-2008 204,-2010 467,-2010 467,-2008 204,-2008"/>
+<polygon fill="#000000" stroke="transparent" points="204,-2006 204,-2008 467,-2008 467,-2006 204,-2006"/>
+<text text-anchor="start" x="236.5" y="-1992.8" font-family="arial" font-size="14.00"> </text>
 </g>
 <!-- battery&#45;&#45;ecu&#45;battery&#45;pos&#45;wire -->
 <g id="edge137" class="edge">
 <title>battery:e&#45;&#45;ecu&#45;battery&#45;pos&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1294C410.02,-1300.32 -150.5,-2088.32 203,-2082"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M50,-1296C408.39,-1299.16 -152.13,-2087.16 203,-2084"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M50,-1298C406.76,-1298 -153.76,-2086 203,-2086"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M50,-1300C405.13,-1296.84 -155.39,-2084.84 203,-2088"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1302C403.5,-1295.68 -157.02,-2083.68 203,-2090"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1481C296.84,-1487.14 -37.09,-2013.14 203,-2007"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M50,-1483C295.16,-1486.07 -38.78,-2012.07 203,-2009"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M50,-1485C293.47,-1485 -40.47,-2011 203,-2011"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M50,-1487C291.78,-1483.93 -42.16,-2009.93 203,-2013"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1489C290.09,-1482.86 -43.84,-2008.86 203,-2015"/>
 </g>
 <!-- ecu&#45;battery&#45;gnd&#45;wire -->
 <g id="node32" class="node">
 <title>ecu&#45;battery&#45;gnd&#45;wire</title>
-<polygon fill="#ffffff" stroke="black" points="476,-1364.5 194,-1364.5 194,-1251.5 476,-1251.5 476,-1364.5"/>
-<polygon fill="none" stroke="black" points="194,-1341 194,-1364 476,-1364 476,-1341 194,-1341"/>
-<text text-anchor="start" x="273" y="-1348.8" font-family="arial" font-size="14.00">ecu&#45;battery&#45;gnd&#45;wire</text>
-<polygon fill="none" stroke="black" points="194,-1318 194,-1341 476,-1341 476,-1318 194,-1318"/>
-<text text-anchor="start" x="327.5" y="-1325.8" font-family="arial" font-size="14.00">1x</text>
-<text text-anchor="start" x="224.5" y="-1304.8" font-family="arial" font-size="14.00"> </text>
-<text text-anchor="start" x="196" y="-1285.8" font-family="arial" font-size="14.00">battery:2:&#45;</text>
-<text text-anchor="start" x="261" y="-1285.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:BK &#160;&#160;&#160;</text>
-<text text-anchor="start" x="329" y="-1285.8" font-family="arial" font-size="14.00">link_a_loom:24:GndOut</text>
-<polygon fill="#000000" stroke="transparent" points="194,-1278 194,-1280 476,-1280 476,-1278 194,-1278"/>
-<polygon fill="#000000" stroke="transparent" points="194,-1276 194,-1278 476,-1278 476,-1276 194,-1276"/>
-<polygon fill="#000000" stroke="transparent" points="194,-1274 194,-1276 476,-1276 476,-1274 194,-1274"/>
-<polygon fill="#000000" stroke="transparent" points="194,-1272 194,-1274 476,-1274 476,-1272 194,-1272"/>
-<polygon fill="#000000" stroke="transparent" points="194,-1270 194,-1272 476,-1272 476,-1270 194,-1270"/>
-<text text-anchor="start" x="224.5" y="-1256.8" font-family="arial" font-size="14.00"> </text>
+<polygon fill="#ffffff" stroke="black" points="476,-1551.5 194,-1551.5 194,-1438.5 476,-1438.5 476,-1551.5"/>
+<polygon fill="none" stroke="black" points="194,-1528 194,-1551 476,-1551 476,-1528 194,-1528"/>
+<text text-anchor="start" x="273" y="-1535.8" font-family="arial" font-size="14.00">ecu&#45;battery&#45;gnd&#45;wire</text>
+<polygon fill="none" stroke="black" points="194,-1505 194,-1528 476,-1528 476,-1505 194,-1505"/>
+<text text-anchor="start" x="327.5" y="-1512.8" font-family="arial" font-size="14.00">1x</text>
+<text text-anchor="start" x="224.5" y="-1491.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="196" y="-1472.8" font-family="arial" font-size="14.00">battery:2:&#45;</text>
+<text text-anchor="start" x="261" y="-1472.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:BK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="329" y="-1472.8" font-family="arial" font-size="14.00">link_a_loom:24:GndOut</text>
+<polygon fill="#000000" stroke="transparent" points="194,-1465 194,-1467 476,-1467 476,-1465 194,-1465"/>
+<polygon fill="#000000" stroke="transparent" points="194,-1463 194,-1465 476,-1465 476,-1463 194,-1463"/>
+<polygon fill="#000000" stroke="transparent" points="194,-1461 194,-1463 476,-1463 476,-1461 194,-1461"/>
+<polygon fill="#000000" stroke="transparent" points="194,-1459 194,-1461 476,-1461 476,-1459 194,-1459"/>
+<polygon fill="#000000" stroke="transparent" points="194,-1457 194,-1459 476,-1459 476,-1457 194,-1457"/>
+<text text-anchor="start" x="224.5" y="-1443.8" font-family="arial" font-size="14.00"> </text>
 </g>
 <!-- battery&#45;&#45;ecu&#45;battery&#45;gnd&#45;wire -->
 <g id="edge139" class="edge">
 <title>battery:e&#45;&#45;ecu&#45;battery&#45;gnd&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M49.26,-1271.07C114,-1259 130,-1259 194.74,-1271.07"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M49.63,-1273.03C114,-1261 130,-1261 194.37,-1273.03"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1275C114,-1263 130,-1263 194,-1275"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50.37,-1276.97C114,-1265 130,-1265 193.63,-1276.97"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50.74,-1278.93C114,-1267 130,-1267 193.26,-1278.93"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M49.26,-1458.07C114,-1446 130,-1446 194.74,-1458.07"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M49.63,-1460.03C114,-1448 130,-1448 194.37,-1460.03"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1462C114,-1450 130,-1450 194,-1462"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50.37,-1463.97C114,-1452 130,-1452 193.63,-1463.97"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50.74,-1465.93C114,-1454 130,-1454 193.26,-1465.93"/>
 </g>
 <!-- battery&#45;&#45;ecu&#45;battery&#45;gnd&#45;wire -->
 <g id="edge141" class="edge">
 <title>battery:e&#45;&#45;ecu&#45;battery&#45;gnd&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50.74,-1271.07C114,-1283 130,-1283 193.26,-1271.07"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50.37,-1273.03C114,-1285 130,-1285 193.63,-1273.03"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1275C114,-1287 130,-1287 194,-1275"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M49.63,-1276.97C114,-1289 130,-1289 194.37,-1276.97"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M49.26,-1278.93C114,-1291 130,-1291 194.74,-1278.93"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50.74,-1458.07C114,-1470 130,-1470 193.26,-1458.07"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50.37,-1460.03C114,-1472 130,-1472 193.63,-1460.03"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1462C114,-1474 130,-1474 194,-1462"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M49.63,-1463.97C114,-1476 130,-1476 194.37,-1463.97"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M49.26,-1465.93C114,-1478 130,-1478 194.74,-1465.93"/>
 </g>
 <!-- fuel&#45;pump&#45;gnd&#45;wire -->
 <g id="node37" class="node">
 <title>fuel&#45;pump&#45;gnd&#45;wire</title>
-<polygon fill="#ffffff" stroke="black" points="453.5,-1112.5 216.5,-1112.5 216.5,-999.5 453.5,-999.5 453.5,-1112.5"/>
-<polygon fill="none" stroke="black" points="217,-1089 217,-1112 454,-1112 454,-1089 217,-1089"/>
-<text text-anchor="start" x="276.5" y="-1096.8" font-family="arial" font-size="14.00">fuel&#45;pump&#45;gnd&#45;wire</text>
-<polygon fill="none" stroke="black" points="217,-1066 217,-1089 454,-1089 454,-1066 217,-1066"/>
-<text text-anchor="start" x="328" y="-1073.8" font-family="arial" font-size="14.00">1x</text>
-<text text-anchor="start" x="247.5" y="-1052.8" font-family="arial" font-size="14.00"> </text>
-<text text-anchor="start" x="219" y="-1033.8" font-family="arial" font-size="14.00">battery:2:&#45;</text>
-<text text-anchor="start" x="284" y="-1033.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:BK &#160;&#160;&#160;</text>
-<text text-anchor="start" x="352" y="-1033.8" font-family="arial" font-size="14.00">fuel&#45;pump:1:Pos</text>
-<polygon fill="#000000" stroke="transparent" points="217,-1026 217,-1028 454,-1028 454,-1026 217,-1026"/>
-<polygon fill="#000000" stroke="transparent" points="217,-1024 217,-1026 454,-1026 454,-1024 217,-1024"/>
-<polygon fill="#000000" stroke="transparent" points="217,-1022 217,-1024 454,-1024 454,-1022 217,-1022"/>
-<polygon fill="#000000" stroke="transparent" points="217,-1020 217,-1022 454,-1022 454,-1020 217,-1020"/>
-<polygon fill="#000000" stroke="transparent" points="217,-1018 217,-1020 454,-1020 454,-1018 217,-1018"/>
-<text text-anchor="start" x="247.5" y="-1004.8" font-family="arial" font-size="14.00"> </text>
+<polygon fill="#ffffff" stroke="black" points="455,-1264.5 215,-1264.5 215,-1151.5 455,-1151.5 455,-1264.5"/>
+<polygon fill="none" stroke="black" points="215,-1241 215,-1264 455,-1264 455,-1241 215,-1241"/>
+<text text-anchor="start" x="276" y="-1248.8" font-family="arial" font-size="14.00">fuel&#45;pump&#45;gnd&#45;wire</text>
+<polygon fill="none" stroke="black" points="215,-1218 215,-1241 455,-1241 455,-1218 215,-1218"/>
+<text text-anchor="start" x="327.5" y="-1225.8" font-family="arial" font-size="14.00">1x</text>
+<text text-anchor="start" x="245.5" y="-1204.8" font-family="arial" font-size="14.00"> </text>
+<text text-anchor="start" x="217" y="-1185.8" font-family="arial" font-size="14.00">battery:2:&#45;</text>
+<text text-anchor="start" x="282" y="-1185.8" font-family="arial" font-size="14.00"> &#160;&#160;&#160;&#160;1:BK &#160;&#160;&#160;</text>
+<text text-anchor="start" x="350" y="-1185.8" font-family="arial" font-size="14.00">fuel&#45;pump:4:Gnd</text>
+<polygon fill="#000000" stroke="transparent" points="215,-1178 215,-1180 455,-1180 455,-1178 215,-1178"/>
+<polygon fill="#000000" stroke="transparent" points="215,-1176 215,-1178 455,-1178 455,-1176 215,-1176"/>
+<polygon fill="#000000" stroke="transparent" points="215,-1174 215,-1176 455,-1176 455,-1174 215,-1174"/>
+<polygon fill="#000000" stroke="transparent" points="215,-1172 215,-1174 455,-1174 455,-1172 215,-1172"/>
+<polygon fill="#000000" stroke="transparent" points="215,-1170 215,-1172 455,-1172 455,-1170 215,-1170"/>
+<text text-anchor="start" x="245.5" y="-1156.8" font-family="arial" font-size="14.00"> </text>
 </g>
 <!-- battery&#45;&#45;fuel&#45;pump&#45;gnd&#45;wire -->
 <g id="edge163" class="edge">
 <title>battery:e&#45;&#45;fuel&#45;pump&#45;gnd&#45;wire:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1271C180.41,-1276.5 78.18,-1024.5 216,-1019"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1273C182.26,-1275.75 80.03,-1023.75 216,-1021"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1275C184.12,-1275 81.88,-1023 216,-1023"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1277C185.97,-1274.25 83.74,-1022.25 216,-1025"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1279C187.82,-1273.5 85.59,-1021.5 216,-1027"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1458C193.27,-1463.65 63.44,-1176.65 214,-1171"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1460C195.09,-1462.82 65.27,-1175.82 214,-1173"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1462C196.91,-1462 67.09,-1175 214,-1175"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1464C198.73,-1461.18 68.91,-1174.18 214,-1177"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M50,-1466C200.56,-1460.35 70.73,-1173.35 214,-1179"/>
 </g>
 <!-- link_a_loom -->
 <g id="node2" class="node">
@@ -3159,29 +3159,29 @@
 <!-- ecu&#45;battery&#45;pos&#45;wire&#45;&#45;link_a_loom -->
 <g id="edge138" class="edge">
 <title>ecu&#45;battery&#45;pos&#45;wire:e&#45;&#45;link_a_loom:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M468,-2082C638.47,-2087.82 464.15,-2427.82 627.5,-2422"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M468,-2084C636.69,-2086.91 462.37,-2426.91 627.5,-2424"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M468,-2086C634.91,-2086 460.59,-2426 627.5,-2426"/>
-<path fill="none" stroke="#ff0000" stroke-width="2" d="M468,-2088C633.13,-2085.09 458.81,-2425.09 627.5,-2428"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M468,-2090C631.35,-2084.18 457.03,-2424.18 627.5,-2430"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M468,-2007C669.08,-2012.98 433.38,-2427.98 627.5,-2422"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M468,-2009C667.34,-2011.99 431.64,-2426.99 627.5,-2424"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M468,-2011C665.6,-2011 429.9,-2426 627.5,-2426"/>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M468,-2013C663.86,-2010.01 428.16,-2425.01 627.5,-2428"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M468,-2015C662.12,-2009.02 426.42,-2424.02 627.5,-2430"/>
 </g>
 <!-- ecu&#45;battery&#45;gnd&#45;wire&#45;&#45;link_a_loom -->
 <g id="edge140" class="edge">
 <title>ecu&#45;battery&#45;gnd&#45;wire:e&#45;&#45;link_a_loom:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1271C803.25,-1277.29 306.82,-1990.29 627.5,-1984"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1273C801.6,-1276.14 305.18,-1989.14 627.5,-1986"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1275C799.96,-1275 303.54,-1988 627.5,-1988"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1277C798.32,-1273.86 301.9,-1986.86 627.5,-1990"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1279C796.68,-1272.71 300.25,-1985.71 627.5,-1992"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1458C722.66,-1464.15 387.59,-1990.15 627.5,-1984"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1460C720.97,-1463.07 385.91,-1989.07 627.5,-1986"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1462C719.28,-1462 384.22,-1988 627.5,-1988"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1464C717.59,-1460.93 382.53,-1986.93 627.5,-1990"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1466C715.91,-1459.85 380.84,-1985.85 627.5,-1992"/>
 </g>
 <!-- ecu&#45;battery&#45;gnd&#45;wire&#45;&#45;link_b_loom -->
 <g id="edge142" class="edge">
 <title>ecu&#45;battery&#45;gnd&#45;wire:e&#45;&#45;link_b_loom:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1271C635.36,-1276.9 453.6,-939.9 620,-934"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1273C637.12,-1275.95 455.36,-938.95 620,-936"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1275C638.88,-1275 457.12,-938 620,-938"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1277C640.64,-1274.05 458.88,-937.05 620,-940"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1279C642.4,-1273.1 460.64,-936.1 620,-942"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1458C714.16,-1464.17 375.12,-940.17 620,-934"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1460C715.84,-1463.09 376.8,-939.09 620,-936"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1462C717.52,-1462 378.48,-938 620,-938"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1464C719.2,-1460.91 380.16,-936.91 620,-940"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M476,-1466C720.88,-1459.83 381.84,-935.83 620,-942"/>
 </g>
 <!-- injector&#45;pwr&#45;wire&#45;&#45;razor_pdm -->
 <g id="edge144" class="edge">
@@ -3276,11 +3276,11 @@
 <!-- fuel&#45;pump&#45;gnd&#45;wire&#45;&#45;fuel&#45;pump -->
 <g id="edge164" class="edge">
 <title>fuel&#45;pump&#45;gnd&#45;wire:e&#45;&#45;fuel&#45;pump:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M455,-1019C674.4,-1024.99 406.15,-555.99 632.5,-550"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M455,-1021C676.14,-1023.99 407.89,-554.99 632.5,-552"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M455,-1023C677.87,-1023 409.63,-554 632.5,-554"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M455,-1025C679.61,-1022.01 411.36,-553.01 632.5,-556"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M455,-1027C681.35,-1021.01 413.1,-552.01 632.5,-558"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M456,-1171C769.64,-1177.21 312.19,-486.21 632.5,-480"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M456,-1173C771.3,-1176.1 313.86,-485.1 632.5,-482"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M456,-1175C772.97,-1175 315.53,-484 632.5,-484"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M456,-1177C774.64,-1173.9 317.2,-482.9 632.5,-486"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M456,-1179C776.31,-1172.79 318.86,-481.79 632.5,-488"/>
 </g>
 </g>
 </svg>

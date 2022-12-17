@@ -18,6 +18,8 @@ connectors:
                 PWROUT2b, NC2, CANL, SENSOR 5V2, SENSOR GND2, PWROUT3b,
                 PWROUT1a, ADIO2, ADIO4, ADIO6, ADIO8, PWROUT4a,
                 PWROUT1b, ADIO1, ADIO3, ADIO5, ADIO7, NC3, PWROUT4b]
+  bulk-connector:
+    pincount: 66
   icm-to-ecu:
     type: 261205351
     pinlabels: [Transistor1, Transistor2, Transistor3]
@@ -91,6 +93,16 @@ cables:
   loom_b_wire:
     wirecount: 34
     colors: [BNVT, BNBU, BNGN, BNYE, RD, YERD, YEOG, WH, WH,
+             BUVT, BUBK, BUGN, BUYE, BUWH, WHRD, WHOG, GN,
+             VT, GYGN, GYYE, GYOG, GN, WHYE, WHGN, BK,
+             VTWH, GYVT, GYWH, GY, GYBU, WHBU, WH, YEGN, BK]
+  engine-wire-loom:
+    wirecount: 68
+    colors: [BNOG, BNRD, BN, BNBK, RD, RDWH, GN, BK, RD,
+             BUOG, BURD, BUBN, BU, WHBK, YE, YEBN, YEBU,
+             OG, OGRD, OGBN, OGBK, WHBN, GYRD, GN, BK,
+             OGVT, OGBU, OGGN, OGYE, GYBK, GYBN, RDBU, YEBK, BK,
+             BNVT, BNBU, BNGN, BNYE, RD, YERD, YEOG, WH, WH,
              BUVT, BUBK, BUGN, BUYE, BUWH, WHRD, WHOG, GN,
              VT, GYGN, GYYE, GYOG, GN, WHYE, WHGN, BK,
              VTWH, GYVT, GYWH, GY, GYBU, WHBU, WH, YEGN, BK]
@@ -191,6 +203,8 @@ connections:
   -
     - link_a_loom: [Inj1]
     - loom_a_wire: [4]
+    - bulk-connector: [1]
+    - engine-wire-loom: [4]
     - injector1: [Gnd]
   -
     - link_a_loom: [Inj2]

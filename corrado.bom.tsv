@@ -2,14 +2,14 @@ Id	Description	Qty	Unit	Designators
 1	Cable, 1 wires	0	m	aux-coolant-pump-pos-wire, coil-pwr-wire, ecu-battery-gnd-wire, ecu-battery-pos-wire, engine-ground-wire, fuel-pump-gnd-wire, fuel-pump-pos-wire, icm-ground-wire, injector-pwr-wire, pdm-12v-ign-wire
 2	Cable, 3 wires	0	m	icm-to-coil-wire
 3	Cable, 34 wires	0	m	loom_a_wire, loom_b_wire
-4	Cable, 6 wires	0	m	engine-pdm-loom
+4	Cable, 4 wires	0	m	engine-pdm-loom
 5	Cable, 68 wires	0	m	engine-ecu-loom
 6	Connector, 037906240, 2 pins	8		idle-stablizer-valve, injector1, injector2, injector3, injector4, injector5, injector6, intake-temp-sensor
 7	Connector, 1 pins	1		engine-ground
 8	Connector, 101-0162, 3 pins	1		map-sensor
 9	Connector, 1287013900, 4 pins	1		coil
 10	Connector, 1J0983722, 2 pins	1		vapor-purge-valve
-11	Connector, 2 pins	2		battery, oil-temp-sensor
+11	Connector, 2 pins	3		battery, coolant-temp-sensor, oil-temp-sensor
 12	Connector, 26 pins	1		razor_pdm
 13	Connector, 261205289, 4 pins	1		icm-to-coil
 14	Connector, 261205351, 3 pins	1		icm-to-ecu

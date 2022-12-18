@@ -50,6 +50,8 @@ connectors:
     pinlabels: [Sig+, Sig-]
   oil-temp-sensor:
     pinlabels: [Sig+, Sig-]
+  coolant-temp-sensor:
+    pinlabels: [Sig+, Sig-]
   injector1:
     type: 037906240
     pinlabels: [Pos, Gnd]
@@ -201,6 +203,12 @@ connections:
     - bulk-ecu-connector: [32, 9, 7]
     - engine-ecu-loom: [32, 9, 7]
     - crank-sensor: [5v, Sensor, Gnd]
+  -
+    - link_a_loom: [Temp1, Ground1]
+    - loom_a_wire: [15, 25]
+    - bulk-ecu-connector: [15, 25]
+    - engine-ecu-loom: [15, 25]
+    - coolant-temp-sensor: [Sig+, Sig-]
   -
     - link_b_loom: [Temp3, Ground1]
     - loom_b_wire: [6, 25]

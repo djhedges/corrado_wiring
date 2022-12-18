@@ -1158,6 +1158,32 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
+	"coolant-temp-sensor" [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">coolant-temp-sensor</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">2-pin</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
+   <tr>
+    <td port="p1l">1</td>
+    <td>Sig+</td>
+   </tr>
+   <tr>
+    <td port="p2l">2</td>
+    <td>Sig-</td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
 	injector1 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1631,6 +1657,12 @@ graph {
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_a_loom:p7r:e -- loom_a_wire:w7:w
 	loom_a_wire:w7:e -- "bulk-ecu-connector":p7l:w
+	edge [color="#000000:#ffff00:#ffff00:#ffff00:#000000"]
+	link_a_loom:p15r:e -- loom_a_wire:w15:w
+	loom_a_wire:w15:e -- "bulk-ecu-connector":p15l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_a_loom:p25r:e -- loom_a_wire:w25:w
+	loom_a_wire:w25:e -- "bulk-ecu-connector":p25l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	link_a_loom:p4r:e -- loom_a_wire:w4:w
 	loom_a_wire:w4:e -- "bulk-ecu-connector":p4l:w
@@ -1921,7 +1953,7 @@ graph {
     <td>
      15:YE
     </td>
-    <td><!-- 15_out --></td>
+    <td>bulk-ecu-connector:15</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w15" height="10">
@@ -3053,6 +3085,12 @@ graph {
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	"bulk-ecu-connector":p7r:e -- "engine-ecu-loom":w7:w
 	"engine-ecu-loom":w7:e -- "crank-sensor":p3l:w
+	edge [color="#000000:#ffff00:#ffff00:#ffff00:#000000"]
+	"bulk-ecu-connector":p15r:e -- "engine-ecu-loom":w15:w
+	"engine-ecu-loom":w15:e -- "coolant-temp-sensor":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	"bulk-ecu-connector":p25r:e -- "engine-ecu-loom":w25:w
+	"engine-ecu-loom":w25:e -- "coolant-temp-sensor":p2l:w
 	edge [color="#000000:#ffff00:#ff0000:#ffff00:#000000"]
 	"bulk-ecu-connector":p40r:e -- "engine-ecu-loom":w40:w
 	"engine-ecu-loom":w40:e -- "intake-temp-sensor":p1l:w
@@ -3375,11 +3413,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 15_in --></td>
+    <td>bulk-ecu-connector:15</td>
     <td>
      15:YE
     </td>
-    <td><!-- 15_out --></td>
+    <td>coolant-temp-sensor:1:Sig+</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w15" height="10">
@@ -4390,7 +4428,7 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">6x</td>
+   <td balign="left">4x</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -4459,42 +4497,6 @@ graph {
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td><!-- 5_in --></td>
-    <td>
-     5:RD
-    </td>
-    <td><!-- 5_out --></td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td><!-- 6_in --></td>
-    <td>
-     6:RD
-    </td>
-    <td><!-- 6_out --></td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w6" height="10">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>

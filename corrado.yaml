@@ -18,8 +18,10 @@ connectors:
                 PWROUT2b, NC2, CANL, SENSOR 5V2, SENSOR GND2, PWROUT3b,
                 PWROUT1a, ADIO2, ADIO4, ADIO6, ADIO8, PWROUT4a,
                 PWROUT1b, ADIO1, ADIO3, ADIO5, ADIO7, NC3, PWROUT4b]
-  bulk-connector:
+  bulk-ecu-connector:
     pincount: 68
+  bulk-pdm-connector:
+    pincount: 4
   icm-to-ecu:
     type: 261205351
     pinlabels: [Transistor1, Transistor2, Transistor3]
@@ -98,7 +100,7 @@ cables:
              BUVT, BUBK, BUGN, BUYE, BUWH, WHRD, WHOG, GN,
              VT, GYGN, GYYE, GYOG, GN, WHYE, WHGN, BK,
              VTWH, GYVT, GYWH, GY, GYBU, WHBU, WH, YEGN, BK]
-  engine-wire-loom:
+  engine-ecu-loom:
     wirecount: 68
     colors: [BNOG, BNRD, BN, BNBK, RD, RDWH, GN, BK, RD,
              BUOG, BURD, BUBN, BU, WHBK, YE, YEBN, YEBU,
@@ -108,6 +110,9 @@ cables:
              BUVT, BUBK, BUGN, BUYE, BUWH, WHRD, WHOG, GN,
              VT, GYGN, GYYE, GYOG, GN, WHYE, WHGN, BK,
              VTWH, GYVT, GYWH, GY, GYBU, WHBU, WH, YEGN, BK]
+  engine-pdm-loom:
+    wirecount: 4
+    colors: [RD]
   engine-ground-wire:
     colors: [BK]
   icm-to-coil-wire:
@@ -123,7 +128,7 @@ cables:
   ecu-battery-gnd-wire:
     colors: [BK]
   injector-pwr-wire:
-    wirecount: 6
+    wirecount: 1
     colors: [RD]
   pdm-12v-ign-wire:
     colors: [RD]
@@ -168,43 +173,45 @@ connections:
                                # disconnecting.
   -
     - coil: [Ubatt]
+    - engine-pdm-loom: [2]
+    - bulk-pdm-connector: [2]
     - coil-pwr-wire: [1]
     - razor_pdm: [PWROUT2a]
   -
     - link_a_loom: [+5V, AnVolt1, Ground1]
     - loom_a_wire: [32, 17, 25]
-    - bulk-connector: [32, 17, 25]
-    - engine-wire-loom: [32, 17, 25]
+    - bulk-ecu-connector: [32, 17, 25]
+    - engine-ecu-loom: [32, 17, 25]
     - tps: [5v, Sensor, Gnd]
   -
     - link_a_loom: [+5V, AnVolt2, Ground2]
     - loom_a_wire: [32, 22, 34]
-    - bulk-connector: [32, 22, 34]
-    - engine-wire-loom: [32, 22, 34]
+    - bulk-ecu-connector: [32, 22, 34]
+    - engine-ecu-loom: [32, 22, 34]
     - map-sensor: [5v, Sensor, Gnd]
   -
     - link_a_loom: [+5V, Trig1, Shield/Gnd]
     - loom_a_wire: [32, 8, 7]
-    - bulk-connector: [32, 8, 7]
-    - engine-wire-loom: [32, 8, 7]
+    - bulk-ecu-connector: [32, 8, 7]
+    - engine-ecu-loom: [32, 8, 7]
     - cam-sensor: [5v, Sensor, Gnd]
   -
     - link_a_loom: [+5V, Trig2, Shield/Gnd]
     - loom_a_wire: [32, 9, 7]
-    - bulk-connector: [32, 9, 7]
-    - engine-wire-loom: [32, 9, 7]
+    - bulk-ecu-connector: [32, 9, 7]
+    - engine-ecu-loom: [32, 9, 7]
     - crank-sensor: [5v, Sensor, Gnd]
   -
     - link_b_loom: [Temp3, Ground1]
     - loom_b_wire: [6, 25]
-    - bulk-connector: [40, 59]
-    - engine-wire-loom: [40, 59]
+    - bulk-ecu-connector: [40, 59]
+    - engine-ecu-loom: [40, 59]
     - intake-temp-sensor: [Sig+, Sig-]
   -
     - link_b_loom: [Temp4, Ground2]
     - loom_b_wire: [7, 34]
-    - bulk-connector: [41, 68]
-    - engine-wire-loom: [41, 68]
+    - bulk-ecu-connector: [41, 68]
+    - engine-ecu-loom: [41, 68]
     - oil-temp-sensor: [Sig+, Sig-]
   -
     - battery: [+]
@@ -221,77 +228,91 @@ connections:
   -
     - link_a_loom: [Inj1]
     - loom_a_wire: [4]
-    - bulk-connector: [4]
-    - engine-wire-loom: [4]
+    - bulk-ecu-connector: [4]
+    - engine-ecu-loom: [4]
     - injector1: [Gnd]
   -
     - link_a_loom: [Inj2]
     - loom_a_wire: [3]
-    - bulk-connector: [3]
-    - engine-wire-loom: [3]
+    - bulk-ecu-connector: [3]
+    - engine-ecu-loom: [3]
     - injector2: [Gnd]
   -
     - link_a_loom: [Inj3]
     - loom_a_wire: [2]
-    - bulk-connector: [2]
-    - engine-wire-loom: [2]
+    - bulk-ecu-connector: [2]
+    - engine-ecu-loom: [2]
     - injector3: [Gnd]
   -
     - link_a_loom: [Inj4]
     - loom_a_wire: [1]
-    - bulk-connector: [1]
-    - engine-wire-loom: [1]
+    - bulk-ecu-connector: [1]
+    - engine-ecu-loom: [1]
     - injector4: [Gnd]
   -
     - link_b_loom: [Inj5]
     - loom_b_wire: [4]
-    - bulk-connector: [38]
-    - engine-wire-loom: [38]
+    - bulk-ecu-connector: [38]
+    - engine-ecu-loom: [38]
     - injector5: [Gnd]
   -
     - link_b_loom: [Inj6]
     - loom_b_wire: [3]
-    - bulk-connector: [37]
-    - engine-wire-loom: [37]
+    - bulk-ecu-connector: [37]
+    - engine-ecu-loom: [37]
     - injector6: [Gnd]
   -
     - injector1: [Pos]
+    - engine-pdm-loom: [1]
+    - bulk-pdm-connector: [1]
     - injector-pwr-wire: [1]
     - razor_pdm: [PWROUT1a]
   -
     - injector2: [Pos]
-    - injector-pwr-wire: [2]
+    - engine-pdm-loom: [1]
+    - bulk-pdm-connector: [1]
+    - injector-pwr-wire: [1]
     - razor_pdm: [PWROUT1a]
   -
     - injector3: [Pos]
-    - injector-pwr-wire: [3]
+    - engine-pdm-loom: [1]
+    - bulk-pdm-connector: [1]
+    - injector-pwr-wire: [1]
     - razor_pdm: [PWROUT1a]
   -
     - injector4: [Pos]
-    - injector-pwr-wire: [4]
+    - engine-pdm-loom: [1]
+    - bulk-pdm-connector: [1]
+    - injector-pwr-wire: [1]
     - razor_pdm: [PWROUT1a]
   -
     - injector5: [Pos]
-    - injector-pwr-wire: [5]
+    - engine-pdm-loom: [1]
+    - bulk-pdm-connector: [1]
+    - injector-pwr-wire: [1]
     - razor_pdm: [PWROUT1a]
   -
     - injector6: [Pos]
-    - injector-pwr-wire: [6]
+    - engine-pdm-loom: [1]
+    - bulk-pdm-connector: [1]
+    - injector-pwr-wire: [1]
     - razor_pdm: [PWROUT1a]
   -
     - link_b_loom: [Knock1, Shield/Gnd, Shield/Gnd]
     - loom_b_wire: [9, 17, 17]
-    - bulk-connector: [43, 51, 51]
-    - engine-wire-loom: [43, 51, 51]
+    - bulk-ecu-connector: [43, 51, 51]
+    - engine-ecu-loom: [43, 51, 51]
     - knock1: [Sig+, Sig-, Scr]
   -
     - link_b_loom: [Knock2, Shield/Gnd, Shield/Gnd]
     - loom_b_wire: [8, 17, 17]
-    - bulk-connector: [42, 51, 51]
-    - engine-wire-loom: [42, 51, 51]
+    - bulk-ecu-connector: [42, 51, 51]
+    - engine-ecu-loom: [42, 51, 51]
     - knock2: [Sig+, Sig-, Scr]
   -
     - aux-coolant-pump: [Pos]
+    - engine-pdm-loom: [3]
+    - bulk-pdm-connector: [3]
     - aux-coolant-pump-pos-wire: [1]
     - razor_pdm: [ADIO1]
   -
@@ -300,23 +321,27 @@ connections:
     - engine-ground: [1]
   -
     - idle-stablizer-valve: [Pos]
+    - engine-pdm-loom: [4]
+    - bulk-pdm-connector: [4]
     - pdm-12v-ign-wire: [1]
     - razor_pdm: [ADIO7]
   -
     - link_a_loom: [Aux1]
     - loom_a_wire: [21]
-    - bulk-connector: [21]
-    - engine-wire-loom: [21]
+    - bulk-ecu-connector: [21]
+    - engine-ecu-loom: [21]
     - idle-stablizer-valve: [Gnd]
   -
     - vapor-purge-valve: [Pos]
+    - engine-pdm-loom: [4]
+    - bulk-pdm-connector: [4]
     - pdm-12v-ign-wire: [1]
     - razor_pdm: [ADIO7]
   -
     - link_a_loom: [Aux3]
     - loom_a_wire: [19]
-    - bulk-connector: [19]
-    - engine-wire-loom: [19]
+    - bulk-ecu-connector: [19]
+    - engine-ecu-loom: [19]
     - vapor-purge-valve: [Gnd]
   -
     - fuel-pump: [Pos]

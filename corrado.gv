@@ -530,11 +530,11 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
-	"bulk-connector" [label=<
+	"bulk-ecu-connector" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">bulk-connector</td>
+   <td balign="left">bulk-ecu-connector</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -815,6 +815,40 @@ graph {
    <tr>
     <td port="p68l">68</td>
     <td port="p68r">68</td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
+	"bulk-pdm-connector" [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">bulk-pdm-connector</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">4-pin</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
+   <tr>
+    <td port="p1l">1</td>
+    <td port="p1r">1</td>
+   </tr>
+   <tr>
+    <td port="p2l">2</td>
+    <td port="p2r">2</td>
+   </tr>
+   <tr>
+    <td port="p3l">3</td>
+    <td port="p3r">3</td>
+   </tr>
+   <tr>
+    <td port="p4l">4</td>
+    <td port="p4r">4</td>
    </tr>
   </table>
  </td></tr>
@@ -1563,58 +1597,58 @@ graph {
 	loom_a_wire:w11:e -- "icm-to-ecu":p3l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
 	link_a_loom:p32r:e -- loom_a_wire:w32:w
-	loom_a_wire:w32:e -- "bulk-connector":p32l:w
+	loom_a_wire:w32:e -- "bulk-ecu-connector":p32l:w
 	edge [color="#000000:#ffff00:#0066ff:#ffff00:#000000"]
 	link_a_loom:p17r:e -- loom_a_wire:w17:w
-	loom_a_wire:w17:e -- "bulk-connector":p17l:w
+	loom_a_wire:w17:e -- "bulk-ecu-connector":p17l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_a_loom:p25r:e -- loom_a_wire:w25:w
-	loom_a_wire:w25:e -- "bulk-connector":p25l:w
+	loom_a_wire:w25:e -- "bulk-ecu-connector":p25l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
 	link_a_loom:p32r:e -- loom_a_wire:w32:w
-	loom_a_wire:w32:e -- "bulk-connector":p32l:w
+	loom_a_wire:w32:e -- "bulk-ecu-connector":p32l:w
 	edge [color="#000000:#ffffff:#895956:#ffffff:#000000"]
 	link_a_loom:p22r:e -- loom_a_wire:w22:w
-	loom_a_wire:w22:e -- "bulk-connector":p22l:w
+	loom_a_wire:w22:e -- "bulk-ecu-connector":p22l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_a_loom:p34r:e -- loom_a_wire:w34:w
-	loom_a_wire:w34:e -- "bulk-connector":p34l:w
+	loom_a_wire:w34:e -- "bulk-ecu-connector":p34l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
 	link_a_loom:p32r:e -- loom_a_wire:w32:w
-	loom_a_wire:w32:e -- "bulk-connector":p32l:w
+	loom_a_wire:w32:e -- "bulk-ecu-connector":p32l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_a_loom:p8r:e -- loom_a_wire:w8:w
-	loom_a_wire:w8:e -- "bulk-connector":p8l:w
+	loom_a_wire:w8:e -- "bulk-ecu-connector":p8l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_a_loom:p7r:e -- loom_a_wire:w7:w
-	loom_a_wire:w7:e -- "bulk-connector":p7l:w
+	loom_a_wire:w7:e -- "bulk-ecu-connector":p7l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
 	link_a_loom:p32r:e -- loom_a_wire:w32:w
-	loom_a_wire:w32:e -- "bulk-connector":p32l:w
+	loom_a_wire:w32:e -- "bulk-ecu-connector":p32l:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	link_a_loom:p9r:e -- loom_a_wire:w9:w
-	loom_a_wire:w9:e -- "bulk-connector":p9l:w
+	loom_a_wire:w9:e -- "bulk-ecu-connector":p9l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_a_loom:p7r:e -- loom_a_wire:w7:w
-	loom_a_wire:w7:e -- "bulk-connector":p7l:w
+	loom_a_wire:w7:e -- "bulk-ecu-connector":p7l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	link_a_loom:p4r:e -- loom_a_wire:w4:w
-	loom_a_wire:w4:e -- "bulk-connector":p4l:w
+	loom_a_wire:w4:e -- "bulk-ecu-connector":p4l:w
 	edge [color="#000000:#895956:#895956:#895956:#000000"]
 	link_a_loom:p3r:e -- loom_a_wire:w3:w
-	loom_a_wire:w3:e -- "bulk-connector":p3l:w
+	loom_a_wire:w3:e -- "bulk-ecu-connector":p3l:w
 	edge [color="#000000:#895956:#ff0000:#895956:#000000"]
 	link_a_loom:p2r:e -- loom_a_wire:w2:w
-	loom_a_wire:w2:e -- "bulk-connector":p2l:w
+	loom_a_wire:w2:e -- "bulk-ecu-connector":p2l:w
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
 	link_a_loom:p1r:e -- loom_a_wire:w1:w
-	loom_a_wire:w1:e -- "bulk-connector":p1l:w
+	loom_a_wire:w1:e -- "bulk-ecu-connector":p1l:w
 	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
 	link_a_loom:p21r:e -- loom_a_wire:w21:w
-	loom_a_wire:w21:e -- "bulk-connector":p21l:w
+	loom_a_wire:w21:e -- "bulk-ecu-connector":p21l:w
 	edge [color="#000000:#ff8000:#ff0000:#ff8000:#000000"]
 	link_a_loom:p19r:e -- loom_a_wire:w19:w
-	loom_a_wire:w19:e -- "bulk-connector":p19l:w
+	loom_a_wire:w19:e -- "bulk-ecu-connector":p19l:w
 	loom_a_wire [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1635,7 +1669,7 @@ graph {
     <td>
      1:BNOG
     </td>
-    <td>bulk-connector:1</td>
+    <td>bulk-ecu-connector:1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
@@ -1653,7 +1687,7 @@ graph {
     <td>
      2:BNRD
     </td>
-    <td>bulk-connector:2</td>
+    <td>bulk-ecu-connector:2</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="10">
@@ -1671,7 +1705,7 @@ graph {
     <td>
      3:BN
     </td>
-    <td>bulk-connector:3</td>
+    <td>bulk-ecu-connector:3</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">
@@ -1689,7 +1723,7 @@ graph {
     <td>
      4:BNBK
     </td>
-    <td>bulk-connector:4</td>
+    <td>bulk-ecu-connector:4</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="10">
@@ -1743,7 +1777,7 @@ graph {
     <td>
      7:GN
     </td>
-    <td>bulk-connector:7</td>
+    <td>bulk-ecu-connector:7</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w7" height="10">
@@ -1761,7 +1795,7 @@ graph {
     <td>
      8:BK
     </td>
-    <td>bulk-connector:8</td>
+    <td>bulk-ecu-connector:8</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w8" height="10">
@@ -1779,7 +1813,7 @@ graph {
     <td>
      9:RD
     </td>
-    <td>bulk-connector:9</td>
+    <td>bulk-ecu-connector:9</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w9" height="10">
@@ -1923,7 +1957,7 @@ graph {
     <td>
      17:YEBU
     </td>
-    <td>bulk-connector:17</td>
+    <td>bulk-ecu-connector:17</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w17" height="10">
@@ -1959,7 +1993,7 @@ graph {
     <td>
      19:OGRD
     </td>
-    <td>bulk-connector:19</td>
+    <td>bulk-ecu-connector:19</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w19" height="10">
@@ -1995,7 +2029,7 @@ graph {
     <td>
      21:OGBK
     </td>
-    <td>bulk-connector:21</td>
+    <td>bulk-ecu-connector:21</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w21" height="10">
@@ -2013,7 +2047,7 @@ graph {
     <td>
      22:WHBN
     </td>
-    <td>bulk-connector:22</td>
+    <td>bulk-ecu-connector:22</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w22" height="10">
@@ -2067,7 +2101,7 @@ graph {
     <td>
      25:BK
     </td>
-    <td>bulk-connector:25</td>
+    <td>bulk-ecu-connector:25</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
@@ -2193,7 +2227,7 @@ graph {
     <td>
      32:RDBU
     </td>
-    <td>bulk-connector:32</td>
+    <td>bulk-ecu-connector:32</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w32" height="10">
@@ -2229,7 +2263,7 @@ graph {
     <td>
      34:BK
     </td>
-    <td>bulk-connector:34</td>
+    <td>bulk-ecu-connector:34</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">
@@ -2317,40 +2351,40 @@ graph {
 	link_b_loom:p34r:e -- loom_b_wire:w34:w
 	edge [color="#000000:#ffff00:#ff0000:#ffff00:#000000"]
 	link_b_loom:p6r:e -- loom_b_wire:w6:w
-	loom_b_wire:w6:e -- "bulk-connector":p40l:w
+	loom_b_wire:w6:e -- "bulk-ecu-connector":p40l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_b_loom:p25r:e -- loom_b_wire:w25:w
-	loom_b_wire:w25:e -- "bulk-connector":p59l:w
+	loom_b_wire:w25:e -- "bulk-ecu-connector":p59l:w
 	edge [color="#000000:#ffff00:#ff8000:#ffff00:#000000"]
 	link_b_loom:p7r:e -- loom_b_wire:w7:w
-	loom_b_wire:w7:e -- "bulk-connector":p41l:w
+	loom_b_wire:w7:e -- "bulk-ecu-connector":p41l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_b_loom:p34r:e -- loom_b_wire:w34:w
-	loom_b_wire:w34:e -- "bulk-connector":p68l:w
+	loom_b_wire:w34:e -- "bulk-ecu-connector":p68l:w
 	edge [color="#000000:#895956:#ffff00:#895956:#000000"]
 	link_b_loom:p4r:e -- loom_b_wire:w4:w
-	loom_b_wire:w4:e -- "bulk-connector":p38l:w
+	loom_b_wire:w4:e -- "bulk-ecu-connector":p38l:w
 	edge [color="#000000:#895956:#00ff00:#895956:#000000"]
 	link_b_loom:p3r:e -- loom_b_wire:w3:w
-	loom_b_wire:w3:e -- "bulk-connector":p37l:w
+	loom_b_wire:w3:e -- "bulk-ecu-connector":p37l:w
 	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
 	link_b_loom:p9r:e -- loom_b_wire:w9:w
-	loom_b_wire:w9:e -- "bulk-connector":p43l:w
+	loom_b_wire:w9:e -- "bulk-ecu-connector":p43l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_b_loom:p17r:e -- loom_b_wire:w17:w
-	loom_b_wire:w17:e -- "bulk-connector":p51l:w
+	loom_b_wire:w17:e -- "bulk-ecu-connector":p51l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_b_loom:p17r:e -- loom_b_wire:w17:w
-	loom_b_wire:w17:e -- "bulk-connector":p51l:w
+	loom_b_wire:w17:e -- "bulk-ecu-connector":p51l:w
 	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
 	link_b_loom:p8r:e -- loom_b_wire:w8:w
-	loom_b_wire:w8:e -- "bulk-connector":p42l:w
+	loom_b_wire:w8:e -- "bulk-ecu-connector":p42l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_b_loom:p17r:e -- loom_b_wire:w17:w
-	loom_b_wire:w17:e -- "bulk-connector":p51l:w
+	loom_b_wire:w17:e -- "bulk-ecu-connector":p51l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	link_b_loom:p17r:e -- loom_b_wire:w17:w
-	loom_b_wire:w17:e -- "bulk-connector":p51l:w
+	loom_b_wire:w17:e -- "bulk-ecu-connector":p51l:w
 	loom_b_wire [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2407,7 +2441,7 @@ graph {
     <td>
      3:BNGN
     </td>
-    <td>bulk-connector:37</td>
+    <td>bulk-ecu-connector:37</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">
@@ -2425,7 +2459,7 @@ graph {
     <td>
      4:BNYE
     </td>
-    <td>bulk-connector:38</td>
+    <td>bulk-ecu-connector:38</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="10">
@@ -2461,7 +2495,7 @@ graph {
     <td>
      6:YERD
     </td>
-    <td>bulk-connector:40</td>
+    <td>bulk-ecu-connector:40</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w6" height="10">
@@ -2479,7 +2513,7 @@ graph {
     <td>
      7:YEOG
     </td>
-    <td>bulk-connector:41</td>
+    <td>bulk-ecu-connector:41</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w7" height="10">
@@ -2497,7 +2531,7 @@ graph {
     <td>
      8:WH
     </td>
-    <td>bulk-connector:42</td>
+    <td>bulk-ecu-connector:42</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w8" height="10">
@@ -2515,7 +2549,7 @@ graph {
     <td>
      9:WH
     </td>
-    <td>bulk-connector:43</td>
+    <td>bulk-ecu-connector:43</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w9" height="10">
@@ -2659,7 +2693,7 @@ graph {
     <td>
      17:GN
     </td>
-    <td>bulk-connector:51</td>
+    <td>bulk-ecu-connector:51</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w17" height="10">
@@ -2803,7 +2837,7 @@ graph {
     <td>
      25:BK
     </td>
-    <td>bulk-connector:59</td>
+    <td>bulk-ecu-connector:59</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
@@ -2965,7 +2999,7 @@ graph {
     <td>
      34:BK
     </td>
-    <td>bulk-connector:68</td>
+    <td>bulk-ecu-connector:68</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">
@@ -2984,100 +3018,100 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
-	"bulk-connector":p32r:e -- "engine-wire-loom":w32:w
-	"engine-wire-loom":w32:e -- tps:p1l:w
+	"bulk-ecu-connector":p32r:e -- "engine-ecu-loom":w32:w
+	"engine-ecu-loom":w32:e -- tps:p1l:w
 	edge [color="#000000:#ffff00:#0066ff:#ffff00:#000000"]
-	"bulk-connector":p17r:e -- "engine-wire-loom":w17:w
-	"engine-wire-loom":w17:e -- tps:p2l:w
+	"bulk-ecu-connector":p17r:e -- "engine-ecu-loom":w17:w
+	"engine-ecu-loom":w17:e -- tps:p2l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"bulk-connector":p25r:e -- "engine-wire-loom":w25:w
-	"engine-wire-loom":w25:e -- tps:p3l:w
+	"bulk-ecu-connector":p25r:e -- "engine-ecu-loom":w25:w
+	"engine-ecu-loom":w25:e -- tps:p3l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
-	"bulk-connector":p32r:e -- "engine-wire-loom":w32:w
-	"engine-wire-loom":w32:e -- "map-sensor":p3l:w
+	"bulk-ecu-connector":p32r:e -- "engine-ecu-loom":w32:w
+	"engine-ecu-loom":w32:e -- "map-sensor":p3l:w
 	edge [color="#000000:#ffffff:#895956:#ffffff:#000000"]
-	"bulk-connector":p22r:e -- "engine-wire-loom":w22:w
-	"engine-wire-loom":w22:e -- "map-sensor":p2l:w
+	"bulk-ecu-connector":p22r:e -- "engine-ecu-loom":w22:w
+	"engine-ecu-loom":w22:e -- "map-sensor":p2l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"bulk-connector":p34r:e -- "engine-wire-loom":w34:w
-	"engine-wire-loom":w34:e -- "map-sensor":p1l:w
+	"bulk-ecu-connector":p34r:e -- "engine-ecu-loom":w34:w
+	"engine-ecu-loom":w34:e -- "map-sensor":p1l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
-	"bulk-connector":p32r:e -- "engine-wire-loom":w32:w
-	"engine-wire-loom":w32:e -- "cam-sensor":p1l:w
+	"bulk-ecu-connector":p32r:e -- "engine-ecu-loom":w32:w
+	"engine-ecu-loom":w32:e -- "cam-sensor":p1l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"bulk-connector":p8r:e -- "engine-wire-loom":w8:w
-	"engine-wire-loom":w8:e -- "cam-sensor":p2l:w
+	"bulk-ecu-connector":p8r:e -- "engine-ecu-loom":w8:w
+	"engine-ecu-loom":w8:e -- "cam-sensor":p2l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
-	"bulk-connector":p7r:e -- "engine-wire-loom":w7:w
-	"engine-wire-loom":w7:e -- "cam-sensor":p3l:w
+	"bulk-ecu-connector":p7r:e -- "engine-ecu-loom":w7:w
+	"engine-ecu-loom":w7:e -- "cam-sensor":p3l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
-	"bulk-connector":p32r:e -- "engine-wire-loom":w32:w
-	"engine-wire-loom":w32:e -- "crank-sensor":p1l:w
+	"bulk-ecu-connector":p32r:e -- "engine-ecu-loom":w32:w
+	"engine-ecu-loom":w32:e -- "crank-sensor":p1l:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	"bulk-connector":p9r:e -- "engine-wire-loom":w9:w
-	"engine-wire-loom":w9:e -- "crank-sensor":p2l:w
+	"bulk-ecu-connector":p9r:e -- "engine-ecu-loom":w9:w
+	"engine-ecu-loom":w9:e -- "crank-sensor":p2l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
-	"bulk-connector":p7r:e -- "engine-wire-loom":w7:w
-	"engine-wire-loom":w7:e -- "crank-sensor":p3l:w
+	"bulk-ecu-connector":p7r:e -- "engine-ecu-loom":w7:w
+	"engine-ecu-loom":w7:e -- "crank-sensor":p3l:w
 	edge [color="#000000:#ffff00:#ff0000:#ffff00:#000000"]
-	"bulk-connector":p40r:e -- "engine-wire-loom":w40:w
-	"engine-wire-loom":w40:e -- "intake-temp-sensor":p1l:w
+	"bulk-ecu-connector":p40r:e -- "engine-ecu-loom":w40:w
+	"engine-ecu-loom":w40:e -- "intake-temp-sensor":p1l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"bulk-connector":p59r:e -- "engine-wire-loom":w59:w
-	"engine-wire-loom":w59:e -- "intake-temp-sensor":p2l:w
+	"bulk-ecu-connector":p59r:e -- "engine-ecu-loom":w59:w
+	"engine-ecu-loom":w59:e -- "intake-temp-sensor":p2l:w
 	edge [color="#000000:#ffff00:#ff8000:#ffff00:#000000"]
-	"bulk-connector":p41r:e -- "engine-wire-loom":w41:w
-	"engine-wire-loom":w41:e -- "oil-temp-sensor":p1l:w
+	"bulk-ecu-connector":p41r:e -- "engine-ecu-loom":w41:w
+	"engine-ecu-loom":w41:e -- "oil-temp-sensor":p1l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"bulk-connector":p68r:e -- "engine-wire-loom":w68:w
-	"engine-wire-loom":w68:e -- "oil-temp-sensor":p2l:w
+	"bulk-ecu-connector":p68r:e -- "engine-ecu-loom":w68:w
+	"engine-ecu-loom":w68:e -- "oil-temp-sensor":p2l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
-	"bulk-connector":p4r:e -- "engine-wire-loom":w4:w
-	"engine-wire-loom":w4:e -- injector1:p2l:w
+	"bulk-ecu-connector":p4r:e -- "engine-ecu-loom":w4:w
+	"engine-ecu-loom":w4:e -- injector1:p2l:w
 	edge [color="#000000:#895956:#895956:#895956:#000000"]
-	"bulk-connector":p3r:e -- "engine-wire-loom":w3:w
-	"engine-wire-loom":w3:e -- injector2:p2l:w
+	"bulk-ecu-connector":p3r:e -- "engine-ecu-loom":w3:w
+	"engine-ecu-loom":w3:e -- injector2:p2l:w
 	edge [color="#000000:#895956:#ff0000:#895956:#000000"]
-	"bulk-connector":p2r:e -- "engine-wire-loom":w2:w
-	"engine-wire-loom":w2:e -- injector3:p2l:w
+	"bulk-ecu-connector":p2r:e -- "engine-ecu-loom":w2:w
+	"engine-ecu-loom":w2:e -- injector3:p2l:w
 	edge [color="#000000:#895956:#ff8000:#895956:#000000"]
-	"bulk-connector":p1r:e -- "engine-wire-loom":w1:w
-	"engine-wire-loom":w1:e -- injector4:p2l:w
+	"bulk-ecu-connector":p1r:e -- "engine-ecu-loom":w1:w
+	"engine-ecu-loom":w1:e -- injector4:p2l:w
 	edge [color="#000000:#895956:#ffff00:#895956:#000000"]
-	"bulk-connector":p38r:e -- "engine-wire-loom":w38:w
-	"engine-wire-loom":w38:e -- injector5:p2l:w
+	"bulk-ecu-connector":p38r:e -- "engine-ecu-loom":w38:w
+	"engine-ecu-loom":w38:e -- injector5:p2l:w
 	edge [color="#000000:#895956:#00ff00:#895956:#000000"]
-	"bulk-connector":p37r:e -- "engine-wire-loom":w37:w
-	"engine-wire-loom":w37:e -- injector6:p2l:w
+	"bulk-ecu-connector":p37r:e -- "engine-ecu-loom":w37:w
+	"engine-ecu-loom":w37:e -- injector6:p2l:w
 	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
-	"bulk-connector":p43r:e -- "engine-wire-loom":w43:w
-	"engine-wire-loom":w43:e -- knock1:p1l:w
+	"bulk-ecu-connector":p43r:e -- "engine-ecu-loom":w43:w
+	"engine-ecu-loom":w43:e -- knock1:p1l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
-	"bulk-connector":p51r:e -- "engine-wire-loom":w51:w
-	"engine-wire-loom":w51:e -- knock1:p2l:w
+	"bulk-ecu-connector":p51r:e -- "engine-ecu-loom":w51:w
+	"engine-ecu-loom":w51:e -- knock1:p2l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
-	"bulk-connector":p51r:e -- "engine-wire-loom":w51:w
-	"engine-wire-loom":w51:e -- knock1:p3l:w
+	"bulk-ecu-connector":p51r:e -- "engine-ecu-loom":w51:w
+	"engine-ecu-loom":w51:e -- knock1:p3l:w
 	edge [color="#000000:#ffffff:#ffffff:#ffffff:#000000"]
-	"bulk-connector":p42r:e -- "engine-wire-loom":w42:w
-	"engine-wire-loom":w42:e -- knock2:p1l:w
+	"bulk-ecu-connector":p42r:e -- "engine-ecu-loom":w42:w
+	"engine-ecu-loom":w42:e -- knock2:p1l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
-	"bulk-connector":p51r:e -- "engine-wire-loom":w51:w
-	"engine-wire-loom":w51:e -- knock2:p2l:w
+	"bulk-ecu-connector":p51r:e -- "engine-ecu-loom":w51:w
+	"engine-ecu-loom":w51:e -- knock2:p2l:w
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
-	"bulk-connector":p51r:e -- "engine-wire-loom":w51:w
-	"engine-wire-loom":w51:e -- knock2:p3l:w
+	"bulk-ecu-connector":p51r:e -- "engine-ecu-loom":w51:w
+	"engine-ecu-loom":w51:e -- knock2:p3l:w
 	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
-	"bulk-connector":p21r:e -- "engine-wire-loom":w21:w
-	"engine-wire-loom":w21:e -- "idle-stablizer-valve":p2l:w
+	"bulk-ecu-connector":p21r:e -- "engine-ecu-loom":w21:w
+	"engine-ecu-loom":w21:e -- "idle-stablizer-valve":p2l:w
 	edge [color="#000000:#ff8000:#ff0000:#ff8000:#000000"]
-	"bulk-connector":p19r:e -- "engine-wire-loom":w19:w
-	"engine-wire-loom":w19:e -- "vapor-purge-valve":p2l:w
-	"engine-wire-loom" [label=<
+	"bulk-ecu-connector":p19r:e -- "engine-ecu-loom":w19:w
+	"engine-ecu-loom":w19:e -- "vapor-purge-valve":p2l:w
+	"engine-ecu-loom" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">engine-wire-loom</td>
+   <td balign="left">engine-ecu-loom</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -3089,7 +3123,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>bulk-connector:1</td>
+    <td>bulk-ecu-connector:1</td>
     <td>
      1:BNOG
     </td>
@@ -3107,7 +3141,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:2</td>
+    <td>bulk-ecu-connector:2</td>
     <td>
      2:BNRD
     </td>
@@ -3125,7 +3159,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:3</td>
+    <td>bulk-ecu-connector:3</td>
     <td>
      3:BN
     </td>
@@ -3143,7 +3177,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:4</td>
+    <td>bulk-ecu-connector:4</td>
     <td>
      4:BNBK
     </td>
@@ -3197,7 +3231,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:7</td>
+    <td>bulk-ecu-connector:7</td>
     <td>
      7:GN
     </td>
@@ -3215,7 +3249,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:8</td>
+    <td>bulk-ecu-connector:8</td>
     <td>
      8:BK
     </td>
@@ -3233,7 +3267,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:9</td>
+    <td>bulk-ecu-connector:9</td>
     <td>
      9:RD
     </td>
@@ -3377,7 +3411,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:17</td>
+    <td>bulk-ecu-connector:17</td>
     <td>
      17:YEBU
     </td>
@@ -3413,7 +3447,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:19</td>
+    <td>bulk-ecu-connector:19</td>
     <td>
      19:OGRD
     </td>
@@ -3449,7 +3483,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:21</td>
+    <td>bulk-ecu-connector:21</td>
     <td>
      21:OGBK
     </td>
@@ -3467,7 +3501,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:22</td>
+    <td>bulk-ecu-connector:22</td>
     <td>
      22:WHBN
     </td>
@@ -3521,7 +3555,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:25</td>
+    <td>bulk-ecu-connector:25</td>
     <td>
      25:BK
     </td>
@@ -3647,7 +3681,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:32</td>
+    <td>bulk-ecu-connector:32</td>
     <td>
      32:RDBU
     </td>
@@ -3683,7 +3717,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:34</td>
+    <td>bulk-ecu-connector:34</td>
     <td>
      34:BK
     </td>
@@ -3737,7 +3771,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:37</td>
+    <td>bulk-ecu-connector:37</td>
     <td>
      37:BNGN
     </td>
@@ -3755,7 +3789,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:38</td>
+    <td>bulk-ecu-connector:38</td>
     <td>
      38:BNYE
     </td>
@@ -3791,7 +3825,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:40</td>
+    <td>bulk-ecu-connector:40</td>
     <td>
      40:YERD
     </td>
@@ -3809,7 +3843,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:41</td>
+    <td>bulk-ecu-connector:41</td>
     <td>
      41:YEOG
     </td>
@@ -3827,7 +3861,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:42</td>
+    <td>bulk-ecu-connector:42</td>
     <td>
      42:WH
     </td>
@@ -3845,7 +3879,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:43</td>
+    <td>bulk-ecu-connector:43</td>
     <td>
      43:WH
     </td>
@@ -3989,7 +4023,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:51</td>
+    <td>bulk-ecu-connector:51</td>
     <td>
      51:GN
     </td>
@@ -4133,7 +4167,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:59</td>
+    <td>bulk-ecu-connector:59</td>
     <td>
      59:BK
     </td>
@@ -4295,7 +4329,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-connector:68</td>
+    <td>bulk-ecu-connector:68</td>
     <td>
      68:BK
     </td>
@@ -4308,6 +4342,164 @@ graph {
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr><td>&nbsp;</td></tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	coil:p4r:e -- "engine-pdm-loom":w2:w
+	"engine-pdm-loom":w2:e -- "bulk-pdm-connector":p2l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	injector1:p1r:e -- "engine-pdm-loom":w1:w
+	"engine-pdm-loom":w1:e -- "bulk-pdm-connector":p1l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	injector2:p1r:e -- "engine-pdm-loom":w1:w
+	"engine-pdm-loom":w1:e -- "bulk-pdm-connector":p1l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	injector3:p1r:e -- "engine-pdm-loom":w1:w
+	"engine-pdm-loom":w1:e -- "bulk-pdm-connector":p1l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	injector4:p1r:e -- "engine-pdm-loom":w1:w
+	"engine-pdm-loom":w1:e -- "bulk-pdm-connector":p1l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	injector5:p1r:e -- "engine-pdm-loom":w1:w
+	"engine-pdm-loom":w1:e -- "bulk-pdm-connector":p1l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	injector6:p1r:e -- "engine-pdm-loom":w1:w
+	"engine-pdm-loom":w1:e -- "bulk-pdm-connector":p1l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	"aux-coolant-pump":p1r:e -- "engine-pdm-loom":w3:w
+	"engine-pdm-loom":w3:e -- "bulk-pdm-connector":p3l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	"idle-stablizer-valve":p1r:e -- "engine-pdm-loom":w4:w
+	"engine-pdm-loom":w4:e -- "bulk-pdm-connector":p4l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	"vapor-purge-valve":p1r:e -- "engine-pdm-loom":w4:w
+	"engine-pdm-loom":w4:e -- "bulk-pdm-connector":p4l:w
+	"engine-pdm-loom" [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">engine-pdm-loom</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">6x</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellborder="0">
+   <tr><td>&nbsp;</td></tr>
+   <tr>
+    <td>injector1:1:Pos</td>
+    <td>
+     1:RD
+    </td>
+    <td>bulk-pdm-connector:1</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>coil:4:Ubatt</td>
+    <td>
+     2:RD
+    </td>
+    <td>bulk-pdm-connector:2</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>aux-coolant-pump:1:Pos</td>
+    <td>
+     3:RD
+    </td>
+    <td>bulk-pdm-connector:3</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td>idle-stablizer-valve:1:Pos</td>
+    <td>
+     4:RD
+    </td>
+    <td>bulk-pdm-connector:4</td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td><!-- 5_in --></td>
+    <td>
+     5:RD
+    </td>
+    <td><!-- 5_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td><!-- 6_in --></td>
+    <td>
+     6:RD
+    </td>
+    <td><!-- 6_out --></td>
+   </tr>
+   <tr>
+    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w6" height="10">
+     <table cellspacing="0" cellborder="0" border="0">
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -4477,7 +4669,7 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	coil:p4r:e -- "coil-pwr-wire":w1:w
+	"bulk-pdm-connector":p2r:e -- "coil-pwr-wire":w1:w
 	"coil-pwr-wire":w1:e -- razor_pdm:p1l:w
 	"coil-pwr-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -4495,7 +4687,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>coil:4:Ubatt</td>
+    <td>bulk-pdm-connector:2</td>
     <td>
      1:RD
     </td>
@@ -4603,23 +4795,23 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector1:p1r:e -- "injector-pwr-wire":w1:w
+	"bulk-pdm-connector":p1r:e -- "injector-pwr-wire":w1:w
 	"injector-pwr-wire":w1:e -- razor_pdm:p14l:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector2:p1r:e -- "injector-pwr-wire":w2:w
-	"injector-pwr-wire":w2:e -- razor_pdm:p14l:w
+	"bulk-pdm-connector":p1r:e -- "injector-pwr-wire":w1:w
+	"injector-pwr-wire":w1:e -- razor_pdm:p14l:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector3:p1r:e -- "injector-pwr-wire":w3:w
-	"injector-pwr-wire":w3:e -- razor_pdm:p14l:w
+	"bulk-pdm-connector":p1r:e -- "injector-pwr-wire":w1:w
+	"injector-pwr-wire":w1:e -- razor_pdm:p14l:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector4:p1r:e -- "injector-pwr-wire":w4:w
-	"injector-pwr-wire":w4:e -- razor_pdm:p14l:w
+	"bulk-pdm-connector":p1r:e -- "injector-pwr-wire":w1:w
+	"injector-pwr-wire":w1:e -- razor_pdm:p14l:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector5:p1r:e -- "injector-pwr-wire":w5:w
-	"injector-pwr-wire":w5:e -- razor_pdm:p14l:w
+	"bulk-pdm-connector":p1r:e -- "injector-pwr-wire":w1:w
+	"injector-pwr-wire":w1:e -- razor_pdm:p14l:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	injector6:p1r:e -- "injector-pwr-wire":w6:w
-	"injector-pwr-wire":w6:e -- razor_pdm:p14l:w
+	"bulk-pdm-connector":p1r:e -- "injector-pwr-wire":w1:w
+	"injector-pwr-wire":w1:e -- razor_pdm:p14l:w
 	"injector-pwr-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -4629,14 +4821,14 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">6x</td>
+   <td balign="left">1x</td>
   </tr></table>
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>injector1:1:Pos</td>
+    <td>bulk-pdm-connector:1</td>
     <td>
      1:RD
     </td>
@@ -4653,106 +4845,16 @@ graph {
      </table>
     </td>
    </tr>
-   <tr>
-    <td>injector2:1:Pos</td>
-    <td>
-     2:RD
-    </td>
-    <td>razor_pdm:14:PWROUT1a</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>injector3:1:Pos</td>
-    <td>
-     3:RD
-    </td>
-    <td>razor_pdm:14:PWROUT1a</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>injector4:1:Pos</td>
-    <td>
-     4:RD
-    </td>
-    <td>razor_pdm:14:PWROUT1a</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>injector5:1:Pos</td>
-    <td>
-     5:RD
-    </td>
-    <td>razor_pdm:14:PWROUT1a</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>injector6:1:Pos</td>
-    <td>
-     6:RD
-    </td>
-    <td>razor_pdm:14:PWROUT1a</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w6" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
    <tr><td>&nbsp;</td></tr>
   </table>
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	"idle-stablizer-valve":p1r:e -- "pdm-12v-ign-wire":w1:w
+	"bulk-pdm-connector":p4r:e -- "pdm-12v-ign-wire":w1:w
 	"pdm-12v-ign-wire":w1:e -- razor_pdm:p24l:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	"vapor-purge-valve":p1r:e -- "pdm-12v-ign-wire":w1:w
+	"bulk-pdm-connector":p4r:e -- "pdm-12v-ign-wire":w1:w
 	"pdm-12v-ign-wire":w1:e -- razor_pdm:p24l:w
 	"pdm-12v-ign-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -4770,7 +4872,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>idle-stablizer-valve:1:Pos</td>
+    <td>bulk-pdm-connector:4</td>
     <td>
      1:RD
     </td>
@@ -4793,7 +4895,7 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	"aux-coolant-pump":p1r:e -- "aux-coolant-pump-pos-wire":w1:w
+	"bulk-pdm-connector":p3r:e -- "aux-coolant-pump-pos-wire":w1:w
 	"aux-coolant-pump-pos-wire":w1:e -- razor_pdm:p21l:w
 	"aux-coolant-pump-pos-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -4811,7 +4913,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>aux-coolant-pump:1:Pos</td>
+    <td>bulk-pdm-connector:3</td>
     <td>
      1:RD
     </td>

@@ -1741,18 +1741,18 @@ graph {
 	edge [color="#000000:#ffff00:#0066ff:#ffff00:#000000"]
 	link_a_loom:p17r:e -- loom_a_wire:w17:w
 	loom_a_wire:w17:e -- "bulk-ecu-connector":p17l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	link_a_loom:p25r:e -- loom_a_wire:w25:w
-	loom_a_wire:w25:e -- "bulk-ecu-connector":p25l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_a_loom:p24r:e -- loom_a_wire:w24:w
+	loom_a_wire:w24:e -- "bulk-ecu-connector":p24l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
 	link_a_loom:p32r:e -- loom_a_wire:w32:w
 	loom_a_wire:w32:e -- "bulk-ecu-connector":p32l:w
 	edge [color="#000000:#ffffff:#895956:#ffffff:#000000"]
 	link_a_loom:p22r:e -- loom_a_wire:w22:w
 	loom_a_wire:w22:e -- "bulk-ecu-connector":p22l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	link_a_loom:p34r:e -- loom_a_wire:w34:w
-	loom_a_wire:w34:e -- "bulk-ecu-connector":p34l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_a_loom:p24r:e -- loom_a_wire:w24:w
+	loom_a_wire:w24:e -- "bulk-ecu-connector":p24l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
 	link_a_loom:p32r:e -- loom_a_wire:w32:w
 	loom_a_wire:w32:e -- "bulk-ecu-connector":p32l:w
@@ -1774,9 +1774,15 @@ graph {
 	edge [color="#000000:#ffff00:#ffff00:#ffff00:#000000"]
 	link_a_loom:p15r:e -- loom_a_wire:w15:w
 	loom_a_wire:w15:e -- "bulk-ecu-connector":p15l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_a_loom:p24r:e -- loom_a_wire:w24:w
+	loom_a_wire:w24:e -- "bulk-ecu-connector":p24l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_a_loom:p25r:e -- loom_a_wire:w25:w
-	loom_a_wire:w25:e -- "bulk-ecu-connector":p25l:w
+	loom_a_wire:w25:e -- "engine-ground":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_a_loom:p34r:e -- loom_a_wire:w34:w
+	loom_a_wire:w34:e -- "engine-ground":p1l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	link_a_loom:p4r:e -- loom_a_wire:w4:w
 	loom_a_wire:w4:e -- "bulk-ecu-connector":p4l:w
@@ -2229,7 +2235,7 @@ graph {
     <td>
      24:GN
     </td>
-    <td><!-- 24_out --></td>
+    <td>bulk-ecu-connector:24</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w24" height="10">
@@ -2247,7 +2253,7 @@ graph {
     <td>
      25:BK
     </td>
-    <td>bulk-ecu-connector:25</td>
+    <td>engine-ground:1:Ground</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
@@ -2409,7 +2415,7 @@ graph {
     <td>
      34:BK
     </td>
-    <td>bulk-ecu-connector:34</td>
+    <td>engine-ground:1:Ground</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">
@@ -2498,15 +2504,21 @@ graph {
 	edge [color="#000000:#ffff00:#ff0000:#ffff00:#000000"]
 	link_b_loom:p6r:e -- loom_b_wire:w6:w
 	loom_b_wire:w6:e -- "bulk-ecu-connector":p40l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	link_b_loom:p25r:e -- loom_b_wire:w25:w
-	loom_b_wire:w25:e -- "bulk-ecu-connector":p59l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_b_loom:p22r:e -- loom_b_wire:w22:w
+	loom_b_wire:w22:e -- "bulk-ecu-connector":p56l:w
 	edge [color="#000000:#ffff00:#ff8000:#ffff00:#000000"]
 	link_b_loom:p7r:e -- loom_b_wire:w7:w
 	loom_b_wire:w7:e -- "bulk-ecu-connector":p41l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	link_b_loom:p22r:e -- loom_b_wire:w22:w
+	loom_b_wire:w22:e -- "bulk-ecu-connector":p56l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	link_b_loom:p25r:e -- loom_b_wire:w25:w
+	loom_b_wire:w25:e -- "engine-ground":p1l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_b_loom:p34r:e -- loom_b_wire:w34:w
-	loom_b_wire:w34:e -- "bulk-ecu-connector":p68l:w
+	loom_b_wire:w34:e -- "engine-ground":p1l:w
 	edge [color="#000000:#895956:#ffff00:#895956:#000000"]
 	link_b_loom:p4r:e -- loom_b_wire:w4:w
 	loom_b_wire:w4:e -- "bulk-ecu-connector":p38l:w
@@ -2929,7 +2941,7 @@ graph {
     <td>
      22:GN
     </td>
-    <td><!-- 22_out --></td>
+    <td>bulk-ecu-connector:56</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w22" height="10">
@@ -2983,7 +2995,7 @@ graph {
     <td>
      25:BK
     </td>
-    <td>bulk-ecu-connector:59</td>
+    <td>engine-ground:1:Ground</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
@@ -3145,7 +3157,7 @@ graph {
     <td>
      34:BK
     </td>
-    <td>bulk-ecu-connector:68</td>
+    <td>engine-ground:1:Ground</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">
@@ -3169,18 +3181,18 @@ graph {
 	edge [color="#000000:#ffff00:#0066ff:#ffff00:#000000"]
 	"bulk-ecu-connector":p17r:e -- "engine-ecu-loom":w17:w
 	"engine-ecu-loom":w17:e -- tps:p2l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"bulk-ecu-connector":p25r:e -- "engine-ecu-loom":w25:w
-	"engine-ecu-loom":w25:e -- tps:p3l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	"bulk-ecu-connector":p24r:e -- "engine-ecu-loom":w24:w
+	"engine-ecu-loom":w24:e -- tps:p3l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
 	"bulk-ecu-connector":p32r:e -- "engine-ecu-loom":w32:w
 	"engine-ecu-loom":w32:e -- "map-sensor":p3l:w
 	edge [color="#000000:#ffffff:#895956:#ffffff:#000000"]
 	"bulk-ecu-connector":p22r:e -- "engine-ecu-loom":w22:w
 	"engine-ecu-loom":w22:e -- "map-sensor":p2l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"bulk-ecu-connector":p34r:e -- "engine-ecu-loom":w34:w
-	"engine-ecu-loom":w34:e -- "map-sensor":p1l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	"bulk-ecu-connector":p24r:e -- "engine-ecu-loom":w24:w
+	"engine-ecu-loom":w24:e -- "map-sensor":p1l:w
 	edge [color="#000000:#ff0000:#0066ff:#ff0000:#000000"]
 	"bulk-ecu-connector":p32r:e -- "engine-ecu-loom":w32:w
 	"engine-ecu-loom":w32:e -- "cam-sensor":p1l:w
@@ -3202,21 +3214,21 @@ graph {
 	edge [color="#000000:#ffff00:#ffff00:#ffff00:#000000"]
 	"bulk-ecu-connector":p15r:e -- "engine-ecu-loom":w15:w
 	"engine-ecu-loom":w15:e -- "coolant-temp-sensor":p1l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"bulk-ecu-connector":p25r:e -- "engine-ecu-loom":w25:w
-	"engine-ecu-loom":w25:e -- "coolant-temp-sensor":p2l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	"bulk-ecu-connector":p24r:e -- "engine-ecu-loom":w24:w
+	"engine-ecu-loom":w24:e -- "coolant-temp-sensor":p2l:w
 	edge [color="#000000:#ffff00:#ff0000:#ffff00:#000000"]
 	"bulk-ecu-connector":p40r:e -- "engine-ecu-loom":w40:w
 	"engine-ecu-loom":w40:e -- "intake-temp-sensor":p1l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"bulk-ecu-connector":p59r:e -- "engine-ecu-loom":w59:w
-	"engine-ecu-loom":w59:e -- "intake-temp-sensor":p2l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	"bulk-ecu-connector":p56r:e -- "engine-ecu-loom":w56:w
+	"engine-ecu-loom":w56:e -- "intake-temp-sensor":p2l:w
 	edge [color="#000000:#ffff00:#ff8000:#ffff00:#000000"]
 	"bulk-ecu-connector":p41r:e -- "engine-ecu-loom":w41:w
 	"engine-ecu-loom":w41:e -- "oil-temp-sensor":p1l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	"bulk-ecu-connector":p68r:e -- "engine-ecu-loom":w68:w
-	"engine-ecu-loom":w68:e -- "oil-temp-sensor":p2l:w
+	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
+	"bulk-ecu-connector":p56r:e -- "engine-ecu-loom":w56:w
+	"engine-ecu-loom":w56:e -- "oil-temp-sensor":p2l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	"bulk-ecu-connector":p4r:e -- "engine-ecu-loom":w4:w
 	"engine-ecu-loom":w4:e -- injector1:p2l:w
@@ -3686,11 +3698,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 24_in --></td>
+    <td>bulk-ecu-connector:24</td>
     <td>
      24:GN
     </td>
-    <td><!-- 24_out --></td>
+    <td>tps:3:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w24" height="10">
@@ -3704,11 +3716,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-ecu-connector:25</td>
+    <td><!-- 25_in --></td>
     <td>
      25:BK
     </td>
-    <td>tps:3:Gnd</td>
+    <td><!-- 25_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
@@ -3866,11 +3878,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-ecu-connector:34</td>
+    <td><!-- 34_in --></td>
     <td>
      34:BK
     </td>
-    <td>map-sensor:1:Gnd</td>
+    <td><!-- 34_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">
@@ -4262,11 +4274,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 56_in --></td>
+    <td>bulk-ecu-connector:56</td>
     <td>
      56:GN
     </td>
-    <td><!-- 56_out --></td>
+    <td>intake-temp-sensor:2:Sig-</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w56" height="10">
@@ -4316,11 +4328,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-ecu-connector:59</td>
+    <td><!-- 59_in --></td>
     <td>
      59:BK
     </td>
-    <td>intake-temp-sensor:2:Sig-</td>
+    <td><!-- 59_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w59" height="10">
@@ -4478,11 +4490,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-ecu-connector:68</td>
+    <td><!-- 68_in --></td>
     <td>
      68:BK
     </td>
-    <td>oil-temp-sensor:2:Sig-</td>
+    <td><!-- 68_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w68" height="10">
@@ -4854,50 +4866,6 @@ graph {
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff0000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor="#FFFFFF" shape=box style=filled]
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	battery:p2r:e -- "ecu-battery-gnd-wire":w1:w
-	"ecu-battery-gnd-wire":w1:e -- link_a_loom:p24l:w
-	edge [color="#000000:#000000:#000000:#000000:#000000"]
-	battery:p2r:e -- "ecu-battery-gnd-wire":w1:w
-	"ecu-battery-gnd-wire":w1:e -- link_b_loom:p22l:w
-	"ecu-battery-gnd-wire" [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">ecu-battery-gnd-wire</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">1x</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>battery:2:-</td>
-    <td>
-     1:BK
-    </td>
-    <td>link_a_loom:24:GndOut</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="10">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>

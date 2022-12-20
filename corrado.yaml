@@ -134,8 +134,6 @@ cables:
     colors: [RD]
   ecu-battery-pos-wire:
     colors: [RD]
-  ecu-battery-gnd-wire:
-    colors: [BK]
   injector-pwr-wire:
     wirecount: 1
     colors: [RD]
@@ -187,16 +185,16 @@ connections:
     - coil-pwr-wire: [1]
     - razor_pdm: [PWROUT2a]
   -
-    - link_a_loom: [+5V, AnVolt1, Ground1]
-    - loom_a_wire: [32, 17, 25]
-    - bulk-ecu-connector: [32, 17, 25]
-    - engine-ecu-loom: [32, 17, 25]
+    - link_a_loom: [+5V, AnVolt1, GndOut]
+    - loom_a_wire: [32, 17, 24]
+    - bulk-ecu-connector: [32, 17, 24]
+    - engine-ecu-loom: [32, 17, 24]
     - tps: [5v, Sensor, Gnd]
   -
-    - link_a_loom: [+5V, AnVolt2, Ground2]
-    - loom_a_wire: [32, 22, 34]
-    - bulk-ecu-connector: [32, 22, 34]
-    - engine-ecu-loom: [32, 22, 34]
+    - link_a_loom: [+5V, AnVolt2, GndOut]
+    - loom_a_wire: [32, 22, 24]
+    - bulk-ecu-connector: [32, 22, 24]
+    - engine-ecu-loom: [32, 22, 24]
     - map-sensor: [5v, Sensor, Gnd]
   -
     - link_a_loom: [+5V, Trig1, Shield/Gnd]
@@ -211,22 +209,22 @@ connections:
     - engine-ecu-loom: [32, 9, 7]
     - crank-sensor: [5v, Sensor, Gnd]
   -
-    - link_a_loom: [Temp1, Ground1]
-    - loom_a_wire: [15, 25]
-    - bulk-ecu-connector: [15, 25]
-    - engine-ecu-loom: [15, 25]
+    - link_a_loom: [Temp1, GndOut]
+    - loom_a_wire: [15, 24]
+    - bulk-ecu-connector: [15, 24]
+    - engine-ecu-loom: [15, 24]
     - coolant-temp-sensor: [Sig+, Sig-]
   -
-    - link_b_loom: [Temp3, Ground1]
-    - loom_b_wire: [6, 25]
-    - bulk-ecu-connector: [40, 59]
-    - engine-ecu-loom: [40, 59]
+    - link_b_loom: [Temp3, GndOut]
+    - loom_b_wire: [6, 22]
+    - bulk-ecu-connector: [40, 56]
+    - engine-ecu-loom: [40, 56]
     - intake-temp-sensor: [Sig+, Sig-]
   -
-    - link_b_loom: [Temp4, Ground2]
-    - loom_b_wire: [7, 34]
-    - bulk-ecu-connector: [41, 68]
-    - engine-ecu-loom: [41, 68]
+    - link_b_loom: [Temp4, GndOut]
+    - loom_b_wire: [7, 22]
+    - bulk-ecu-connector: [41, 56]
+    - engine-ecu-loom: [41, 56]
     - oil-temp-sensor: [Sig+, Sig-]
   -
     - battery: [+]
@@ -237,13 +235,21 @@ connections:
     - ecu-battery-pos-wire: [1]
     - link_b_loom: [+14V Aux9/10]
   -
-    - battery: [-]
-    - ecu-battery-gnd-wire: [1]
-    - link_a_loom: [GndOut]
+    - link_a_loom: [Ground1]
+    - loom_a_wire: [25]
+    - engine-ground: [Ground]
   -
-    - battery: [-]
-    - ecu-battery-gnd-wire: [1]
-    - link_b_loom: [GndOut]
+    - link_a_loom: [Ground2]
+    - loom_a_wire: [34]
+    - engine-ground: [Ground]
+  -
+    - link_b_loom: [Ground1]
+    - loom_b_wire: [25]
+    - engine-ground: [Ground]
+  -
+    - link_b_loom: [Ground2]
+    - loom_b_wire: [34]
+    - engine-ground: [Ground]
   -
     - link_a_loom: [Inj1]
     - loom_a_wire: [4]

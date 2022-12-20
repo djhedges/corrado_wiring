@@ -233,6 +233,10 @@ connections:
     - ecu-battery-pos-wire: [1]
     - link_a_loom: [+14V]
   -
+    - battery: [+]
+    - ecu-battery-pos-wire: [1]
+    - link_b_loom: [+14V Aux9/10]
+  -
     - battery: [-]
     - ecu-battery-gnd-wire: [1]
     - link_a_loom: [GndOut]

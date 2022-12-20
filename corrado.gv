@@ -4822,6 +4822,9 @@ graph {
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	battery:p1r:e -- "ecu-battery-pos-wire":w1:w
 	"ecu-battery-pos-wire":w1:e -- link_a_loom:p5l:w
+	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
+	battery:p1r:e -- "ecu-battery-pos-wire":w1:w
+	"ecu-battery-pos-wire":w1:e -- link_b_loom:p5l:w
 	"ecu-battery-pos-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>

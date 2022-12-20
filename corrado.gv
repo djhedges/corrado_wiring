@@ -1680,7 +1680,7 @@ graph {
 	loom_a_wire:w21:e -- "bulk-ecu-connector":p21l:w
 	edge [color="#000000:#ff8000:#ff0000:#ff8000:#000000"]
 	link_a_loom:p19r:e -- loom_a_wire:w19:w
-	loom_a_wire:w19:e -- "bulk-ecu-connector":p19l:w
+	loom_a_wire:w19:e -- "vapor-purge-valve":p2l:w
 	loom_a_wire [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -2025,7 +2025,7 @@ graph {
     <td>
      19:OGRD
     </td>
-    <td>bulk-ecu-connector:19</td>
+    <td>vapor-purge-valve:2:Gnd</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w19" height="10">
@@ -3142,9 +3142,6 @@ graph {
 	edge [color="#000000:#ff8000:#000000:#ff8000:#000000"]
 	"bulk-ecu-connector":p21r:e -- "engine-ecu-loom":w21:w
 	"engine-ecu-loom":w21:e -- "idle-stablizer-valve":p2l:w
-	edge [color="#000000:#ff8000:#ff0000:#ff8000:#000000"]
-	"bulk-ecu-connector":p19r:e -- "engine-ecu-loom":w19:w
-	"engine-ecu-loom":w19:e -- "vapor-purge-valve":p2l:w
 	"engine-ecu-loom" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -3485,11 +3482,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>bulk-ecu-connector:19</td>
+    <td><!-- 19_in --></td>
     <td>
      19:OGRD
     </td>
-    <td>vapor-purge-valve:2:Gnd</td>
+    <td><!-- 19_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w19" height="10">
@@ -4416,9 +4413,6 @@ graph {
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
 	"idle-stablizer-valve":p1r:e -- "engine-pdm-loom":w4:w
 	"engine-pdm-loom":w4:e -- "bulk-pdm-connector":p4l:w
-	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	"vapor-purge-valve":p1r:e -- "engine-pdm-loom":w4:w
-	"engine-pdm-loom":w4:e -- "bulk-pdm-connector":p4l:w
 	"engine-pdm-loom" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -4856,7 +4850,7 @@ graph {
 	"bulk-pdm-connector":p4r:e -- "pdm-12v-ign-wire":w1:w
 	"pdm-12v-ign-wire":w1:e -- razor_pdm:p24l:w
 	edge [color="#000000:#ff0000:#ff0000:#ff0000:#000000"]
-	"bulk-pdm-connector":p4r:e -- "pdm-12v-ign-wire":w1:w
+	"vapor-purge-valve":p1r:e -- "pdm-12v-ign-wire":w1:w
 	"pdm-12v-ign-wire":w1:e -- razor_pdm:p24l:w
 	"pdm-12v-ign-wire" [label=<
 <table border="0" cellspacing="0" cellpadding="0">

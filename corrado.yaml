@@ -237,18 +237,26 @@ connections:
   -
     - link_a_loom: [Ground1]
     - loom_a_wire: [25]
+    - bulk-ecu-connector: [25]
+    - engine-ecu-loom: [25]
     - engine-ground: [Ground]
   -
     - link_a_loom: [Ground2]
     - loom_a_wire: [34]
+    - bulk-ecu-connector: [34]
+    - engine-ecu-loom: [34]
     - engine-ground: [Ground]
   -
     - link_b_loom: [Ground1]
     - loom_b_wire: [25]
+    - bulk-ecu-connector: [59]
+    - engine-ecu-loom: [59]
     - engine-ground: [Ground]
   -
     - link_b_loom: [Ground2]
     - loom_b_wire: [34]
+    - bulk-ecu-connector: [68]
+    - engine-ecu-loom: [68]
     - engine-ground: [Ground]
   -
     - link_a_loom: [Inj1]

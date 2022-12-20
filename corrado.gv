@@ -1779,10 +1779,10 @@ graph {
 	loom_a_wire:w24:e -- "bulk-ecu-connector":p24l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_a_loom:p25r:e -- loom_a_wire:w25:w
-	loom_a_wire:w25:e -- "engine-ground":p1l:w
+	loom_a_wire:w25:e -- "bulk-ecu-connector":p25l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_a_loom:p34r:e -- loom_a_wire:w34:w
-	loom_a_wire:w34:e -- "engine-ground":p1l:w
+	loom_a_wire:w34:e -- "bulk-ecu-connector":p34l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	link_a_loom:p4r:e -- loom_a_wire:w4:w
 	loom_a_wire:w4:e -- "bulk-ecu-connector":p4l:w
@@ -2253,7 +2253,7 @@ graph {
     <td>
      25:BK
     </td>
-    <td>engine-ground:1:Ground</td>
+    <td>bulk-ecu-connector:25</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
@@ -2415,7 +2415,7 @@ graph {
     <td>
      34:BK
     </td>
-    <td>engine-ground:1:Ground</td>
+    <td>bulk-ecu-connector:34</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">
@@ -2515,10 +2515,10 @@ graph {
 	loom_b_wire:w22:e -- "bulk-ecu-connector":p56l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_b_loom:p25r:e -- loom_b_wire:w25:w
-	loom_b_wire:w25:e -- "engine-ground":p1l:w
+	loom_b_wire:w25:e -- "bulk-ecu-connector":p59l:w
 	edge [color="#000000:#000000:#000000:#000000:#000000"]
 	link_b_loom:p34r:e -- loom_b_wire:w34:w
-	loom_b_wire:w34:e -- "engine-ground":p1l:w
+	loom_b_wire:w34:e -- "bulk-ecu-connector":p68l:w
 	edge [color="#000000:#895956:#ffff00:#895956:#000000"]
 	link_b_loom:p4r:e -- loom_b_wire:w4:w
 	loom_b_wire:w4:e -- "bulk-ecu-connector":p38l:w
@@ -2995,7 +2995,7 @@ graph {
     <td>
      25:BK
     </td>
-    <td>engine-ground:1:Ground</td>
+    <td>bulk-ecu-connector:59</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
@@ -3157,7 +3157,7 @@ graph {
     <td>
      34:BK
     </td>
-    <td>engine-ground:1:Ground</td>
+    <td>bulk-ecu-connector:68</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">
@@ -3229,6 +3229,18 @@ graph {
 	edge [color="#000000:#00ff00:#00ff00:#00ff00:#000000"]
 	"bulk-ecu-connector":p56r:e -- "engine-ecu-loom":w56:w
 	"engine-ecu-loom":w56:e -- "oil-temp-sensor":p2l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	"bulk-ecu-connector":p25r:e -- "engine-ecu-loom":w25:w
+	"engine-ecu-loom":w25:e -- "engine-ground":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	"bulk-ecu-connector":p34r:e -- "engine-ecu-loom":w34:w
+	"engine-ecu-loom":w34:e -- "engine-ground":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	"bulk-ecu-connector":p59r:e -- "engine-ecu-loom":w59:w
+	"engine-ecu-loom":w59:e -- "engine-ground":p1l:w
+	edge [color="#000000:#000000:#000000:#000000:#000000"]
+	"bulk-ecu-connector":p68r:e -- "engine-ecu-loom":w68:w
+	"engine-ecu-loom":w68:e -- "engine-ground":p1l:w
 	edge [color="#000000:#895956:#000000:#895956:#000000"]
 	"bulk-ecu-connector":p4r:e -- "engine-ecu-loom":w4:w
 	"engine-ecu-loom":w4:e -- injector1:p2l:w
@@ -3716,11 +3728,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 25_in --></td>
+    <td>bulk-ecu-connector:25</td>
     <td>
      25:BK
     </td>
-    <td><!-- 25_out --></td>
+    <td>engine-ground:1:Ground</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w25" height="10">
@@ -3878,11 +3890,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 34_in --></td>
+    <td>bulk-ecu-connector:34</td>
     <td>
      34:BK
     </td>
-    <td><!-- 34_out --></td>
+    <td>engine-ground:1:Ground</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w34" height="10">
@@ -4328,11 +4340,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 59_in --></td>
+    <td>bulk-ecu-connector:59</td>
     <td>
      59:BK
     </td>
-    <td><!-- 59_out --></td>
+    <td>engine-ground:1:Ground</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w59" height="10">
@@ -4490,11 +4502,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td><!-- 68_in --></td>
+    <td>bulk-ecu-connector:68</td>
     <td>
      68:BK
     </td>
-    <td><!-- 68_out --></td>
+    <td>engine-ground:1:Ground</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w68" height="10">

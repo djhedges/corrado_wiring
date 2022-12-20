@@ -530,6 +530,120 @@ graph {
  </td></tr>
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
+	labjack [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">labjack</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">24-pin</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
+   <tr>
+    <td port="p1l">1</td>
+    <td>sgnd0</td>
+   </tr>
+   <tr>
+    <td port="p2l">2</td>
+    <td>spc</td>
+   </tr>
+   <tr>
+    <td port="p3l">3</td>
+    <td>sgnd1</td>
+   </tr>
+   <tr>
+    <td port="p4l">4</td>
+    <td>vs0</td>
+   </tr>
+   <tr>
+    <td port="p5l">5</td>
+    <td>fio7</td>
+   </tr>
+   <tr>
+    <td port="p6l">6</td>
+    <td>fio6</td>
+   </tr>
+   <tr>
+    <td port="p7l">7</td>
+    <td>gnd0</td>
+   </tr>
+   <tr>
+    <td port="p8l">8</td>
+    <td>vs1</td>
+   </tr>
+   <tr>
+    <td port="p9l">9</td>
+    <td>fio5</td>
+   </tr>
+   <tr>
+    <td port="p10l">10</td>
+    <td>fio4</td>
+   </tr>
+   <tr>
+    <td port="p11l">11</td>
+    <td>gnd1</td>
+   </tr>
+   <tr>
+    <td port="p12l">12</td>
+    <td>vs2</td>
+   </tr>
+   <tr>
+    <td port="p13l">13</td>
+    <td>vs3</td>
+   </tr>
+   <tr>
+    <td port="p14l">14</td>
+    <td>gnd2</td>
+   </tr>
+   <tr>
+    <td port="p15l">15</td>
+    <td>dac0</td>
+   </tr>
+   <tr>
+    <td port="p16l">16</td>
+    <td>dac1</td>
+   </tr>
+   <tr>
+    <td port="p17l">17</td>
+    <td>vs4</td>
+   </tr>
+   <tr>
+    <td port="p18l">18</td>
+    <td>gnd3</td>
+   </tr>
+   <tr>
+    <td port="p19l">19</td>
+    <td>fio2</td>
+   </tr>
+   <tr>
+    <td port="p20l">20</td>
+    <td>fio3</td>
+   </tr>
+   <tr>
+    <td port="p21l">21</td>
+    <td>vs5</td>
+   </tr>
+   <tr>
+    <td port="p22l">22</td>
+    <td>gnd4</td>
+   </tr>
+   <tr>
+    <td port="p23l">23</td>
+    <td>fio0</td>
+   </tr>
+   <tr>
+    <td port="p24l">24</td>
+    <td>fio1</td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor="#FFFFFF" shape=box style=filled]
 	"bulk-ecu-connector" [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>

@@ -18,6 +18,13 @@ connectors:
                 PWROUT2b, NC2, CANL, SENSOR 5V2, SENSOR GND2, PWROUT3b,
                 PWROUT1a, ADIO2, ADIO4, ADIO6, ADIO8, PWROUT4a,
                 PWROUT1b, ADIO1, ADIO3, ADIO5, ADIO7, NC3, PWROUT4b]
+  labjack:
+    pinlabels: [sgnd0, spc, sgnd1, vs0,
+                fio7, fio6, gnd0, vs1,
+                fio5, fio4, gnd1, vs2,
+                vs3, gnd2, dac0, dac1,
+                vs4, gnd3, fio2, fio3,
+                vs5, gnd4, fio0, fio1]
   bulk-ecu-connector:
     pincount: 68
   bulk-pdm-connector:

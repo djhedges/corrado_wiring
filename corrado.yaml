@@ -132,8 +132,6 @@ cables:
   coil-pwr-wire:
     wirecount: 1
     colors: [RD]
-  ecu-battery-pos-wire:
-    colors: [RD]
   injector-pwr-wire:
     wirecount: 1
     colors: [RD]
@@ -183,7 +181,7 @@ connections:
     - engine-pdm-loom: [2]
     - bulk-pdm-connector: [2]
     - coil-pwr-wire: [1]
-    - razor_pdm: [PWROUT2a]
+    - razor_pdm: [PWROUT4a]
   -
     - link_a_loom: [+5V, AnVolt1, GndOut]
     - loom_a_wire: [32, 17, 24]
@@ -227,13 +225,13 @@ connections:
     - engine-ecu-loom: [41, 56]
     - oil-temp-sensor: [Sig+, Sig-]
   -
-    - battery: [+]
-    - ecu-battery-pos-wire: [1]
     - link_a_loom: [+14V]
+    - loom_a_wire: [5]
+    - razor_pdm: [PWROUT2a]
   -
-    - battery: [+]
-    - ecu-battery-pos-wire: [1]
     - link_b_loom: [+14V Aux9/10]
+    - loom_b_wire: [5]
+    - razor_pdm: [PWROUT2b]
   -
     - link_a_loom: [Ground1]
     - loom_a_wire: [25]

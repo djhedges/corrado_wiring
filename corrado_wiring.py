@@ -36,8 +36,7 @@ Node('razor_pdm', [
     'PWROUT1a', 'ADIO2', 'ADIO4', 'ADIO6', 'ADIO8', 'PWROUT4a',
     'PWROUT1b', 'ADIO1', 'ADIO3', 'ADIO5', 'ADIO7', 'NC3', 'PWROUT4b'
 ])
-# TODO: Connect fuel pump.
-# Node('fuel_pump', ['pos', 'neg'])
+Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 
 AddPath((
   ('battery', 'pos'),
@@ -71,6 +70,16 @@ AddPath((
   ('ign_switch', '2'),
   ('razor_pdm', 'IGNSW'),
 ), 'blue')
+
+AddPath((
+  ('fuel_pump', 'pos'),
+  ('razor_pdm', 'PWROUT2a'),
+), 'red')
+
+AddPath((
+  ('battery', 'neg'),
+  ('fuel_pump', 'gnd'),
+), 'black')
 
 G.layout(prog='dot')
 G.write('corrado_wiring.dot')

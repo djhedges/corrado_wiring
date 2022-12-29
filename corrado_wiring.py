@@ -159,6 +159,10 @@ Node('map_sensor', ['Gnd', 'Sensor', '5v'])
 Node('cam_sensor', ['5v', 'Sensor', 'Gnd'])
 Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
 
+Node('intake_temp_sensor', ['Sig+', 'Sig-'])
+Node('oil_temp_sensor', ['Sig+', 'Sig-'])
+Node('coolant_temp_sensor', ['Sig+', 'Sig-'])
+
 AddPath((
   ('battery', 'pos'),
   ('main_fuse', 'fuse'),
@@ -304,6 +308,43 @@ AddPathWithMap((
   ('deutsch_ecu_connector', '13'),
   ('crank_sensor', 'Gnd'),
 ))
+
+# Intake Temp Sensor
+AddPathWithMap((
+  ('link_ecu_b', 'Temp3'),
+  ('deutsch_ecu_connector', '14'),
+  ('intake_temp_sensor', 'Sig+'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'GndOut'),
+  ('deutsch_ecu_connector', '15'),
+  ('intake_temp_sensor', 'Sig-'),
+))
+
+# Oil Temp Sensor
+AddPathWithMap((
+  ('link_ecu_b', 'Temp4'),
+  ('deutsch_ecu_connector', '16'),
+  ('oil_temp_sensor', 'Sig+'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'GndOut'),
+  ('deutsch_ecu_connector', '17'),
+  ('oil_temp_sensor', 'Sig-'),
+))
+
+# Coolant Temp Sensor
+AddPathWithMap((
+  ('link_ecu_a', 'Temp1'),
+  ('deutsch_ecu_connector', '18'),
+  ('oil_temp_sensor', 'Sig+'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'GndOut'),
+  ('deutsch_ecu_connector', '19'),
+  ('oil_temp_sensor', 'Sig-'),
+))
+
 
 G.layout(prog='dot')
 G.write('corrado_wiring.dot')

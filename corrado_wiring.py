@@ -2,7 +2,7 @@
 
 import pygraphviz as pgv
 
-G = pgv.AGraph(strict=False, ranksep=5)
+G = pgv.AGraph(strict=False, ranksep=2, rankdir='LR')
 
 
 class DeutschConnector(object):
@@ -55,6 +55,7 @@ def AddPath(node_pins, color):
       node, pin = node_pins[i]
       next_node, next_pin = node_pins[i + 1]
       G.add_edge(node, next_node,
+                 label=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
                  tailport=pin, headport=next_pin,
                  color=ParseColor(color), penwidth=2)
 
@@ -460,7 +461,6 @@ AddPath((
   ('aux_coolant_pump', 'Gnd'),
   ('engine_ground', 'Gnd'),
 ), 'black')
-
 
 
 G.layout(prog='dot')

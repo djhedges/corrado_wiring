@@ -40,11 +40,8 @@ def BuildLinkLabel(name, pin_names):
 
 
 class Node(object):
-  def __init__(self, name, pin_names):
-    if name.startswith('link_ecu') or name.startswith('razor_pdm'):
-      label = BuildLinkLabel(name, pin_names)
-    else:
-      label = BuildLabel(name, pin_names)
+  def __init__(self, name, pin_names, label_func=BuildLabel):
+    label = label_func(name, pin_names)
     self.node = G.add_node(name, label=label, shape='record', style='bold')
 
 
@@ -162,8 +159,8 @@ Node('razor_pdm', [
     'PWROUT1b', 'ADIO1', 'ADIO3', 'ADIO5', 'ADIO7', 'NC3', 'PWROUT4b'
 ])
 Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
-Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
-Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
+Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys(), label_func=BuildLinkLabel)
+Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys(), label_func=BuildLinkLabel)
 Node('engine_ground', ['Gnd'])
 Node('deutsch_ecu_connector', list(range(1,32)))
 Node('deutsch_pdm_connector', list(range(1,12)))

@@ -2,7 +2,7 @@
 
 import pygraphviz as pgv
 
-G = pgv.AGraph(strict=False, rankdir='LR', ranksep=10, concentrate='true')
+G = pgv.AGraph(strict=False, rankdir='LR', ranksep=1, concentrate='true')
 
 AEM_GAUGES = ['coolant_temp_gauge', 'transmission_temp_gauge', 'fuel_pressure_gauge']
 AEM_SENSORS = ['aem_coolant_temp_sensor', 'aem_transmission_temp_sensor', 'aem_fuel_pressure_sensor']
@@ -227,6 +227,10 @@ AddPath((
   ('kill_switch', 'starter'),
 ), 'red')
 AddPath((
+  ('alternator', 'sense'),
+  ('kill_switch', 'z'),
+), 'red')
+AddPath((
   ('kill_switch', 'starter'),
   ('kill_switch', 'w'),
   ('kill_switch_resistor', 'resistor'),
@@ -239,6 +243,7 @@ AddPath((
   ('battery', 'neg'),
   ('razor_pdm', 'neg'),
 ), 'black')
+ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'ign_switch', 'alternator', 'kill_switch_reisistor'], 'Kill Switch')
 
 # TODO: Verify blue is not already in use.
 AddPath((

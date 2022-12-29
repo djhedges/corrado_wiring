@@ -296,6 +296,9 @@ AddPathWithMap((
 # MAP Sensor
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt2'),
+  # TODO: Figure out where MAP Sensor will be mounted and
+  # if this will still be connected to the deutsch connector.
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('map_sensor', 'Sensor'),
 ))
 AddPathWithMap((

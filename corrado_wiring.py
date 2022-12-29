@@ -132,7 +132,7 @@ LINK_ECU_B_PIN_COLOR_MAP = {
     'MES': 'blue:black',
     'Ign6': 'blue:green',
     'Ign5': 'blue:yellow',
-    'RE': 'bluewhite',
+    'RE': 'blue:white',
     'Volt6': 'white:red',
     'Volt7': 'white:orange',
     'Shield/Gnd': 'green',
@@ -180,6 +180,7 @@ Node('deutsch_console_connector', list(range(1,16)))
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
+Node('LSU4.9', list(range(1, 7)))
 
 Node('cam_sensor', ['5v', 'Sensor', 'Gnd'])
 Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
@@ -474,6 +475,28 @@ for i in range(1, 3):
     ('deutsch_ecu_connector', DCE.GetFreePin()),
     (f'knock{i}', 'Scr'),
   ))
+
+# LSU4.9
+AddPathWithMap((
+  ('link_ecu_b', 'MES'),
+  ('LSU4.9', 5),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'RE'),
+  ('LSU4.9', 6),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'Heater'),
+  ('LSU4.9', 3),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'IPE'),
+  ('LSU4.9', 2),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'APE'),
+  ('LSU4.9', 1),
+))
 
 # ECU B Grounds
 AddPath((

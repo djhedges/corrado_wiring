@@ -140,6 +140,10 @@ AddPath((
   ('kill_switch', 'battery'),
 ), 'red')
 AddPath((
+  ('battery', 'neg'),
+  ('engine_ground', 'Gnd'),
+), 'black')
+AddPath((
   ('alternator', 'pos'),
   ('kill_switch', 'starter'),
 ), 'red')

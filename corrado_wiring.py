@@ -2,31 +2,84 @@
 
 import pygraphviz as pgv
 
-G = pgv.AGraph()
+G = pgv.AGraph(strict=False)
 
 class Node(object):
   def __init__(self, name, pin_names):
     label = f'{name} '
     for pin_name in pin_names:
       label += f'| <{pin_name}> {pin_name} '
-    G.add_node(name, label=label, ranksep=2.0)
+    self.node = G.add_node(name, label=label, ranksep=2.0)
 
+
+def ParseColor(color):
+  if ':' in color:
+    color += ':' + color.split(':')[0]
+  return f'{color}'
 
 def AddPath(node_pins, color):
   for i in range(len(node_pins) - 1):
       node, pin = node_pins[i]
       next_node, next_pin = node_pins[i + 1]
-      G.add_edge(node, next_node, tailport=pin, headport=next_pin, color=color, penwidth=5)
+      G.add_edge(node, next_node,
+                 tailport=pin, headport=next_pin,
+                 color=ParseColor(color), penwidth=3)
 
+
+def AddPathWithMap(node_pins):
+  node_color_map = {
+    'link_ecu_a': LINK_ECU_A_PIN_COLOR_MAP,
+  }
+  first_node = node_pins[0][0]
+  first_pin = node_pins[0][1]
+  AddPath(node_pins, LINK_ECU_A_PIN_COLOR_MAP[first_pin])
+
+
+LINK_ECU_A_PIN_COLOR_MAP = {
+    'Inj4': 'brown:orange',
+    'Inj3': 'brown:red',
+    'Inj2': 'brown',
+    'Inj1': 'brown:black',
+    '+14V': 'red',
+    '+8V': 'red:white',
+    'Shield/Gnd': 'green',
+    'Trig1': 'black',
+    'Trig2': 'red',
+    'Ign4': 'blue:orange',
+    'Ign3': 'blue:red',
+    'Ign2': 'blue:brown',
+    'Ign1': 'blue',
+    'AnVolt4': 'white:black',
+    'Temp1': 'yellow',
+    'Temp2': 'yellow:brown',
+    'AnVolt1': 'yellow:blue',
+    'Aux4': 'orange',
+    'Aux3': 'orange:red',
+    'Aux2': 'orange:brown',
+    'Aux1': 'orange:black',
+    'AnVolt2': 'white:brown',
+    'DI3': 'grey:red',
+    'GndOut': 'green',
+    'Ground1': 'black',
+    'Aux8': 'orange:VT',
+    'Aux7': 'orange:blue',
+    'Aux6': 'orange:green',
+    'Aux5': 'orange:yellow',
+    'DI1': 'grey:black',
+    'DI2': 'grey:brown',
+    '+5V': 'red:blue',
+    'AnVolt3': 'yellow:black',
+    'Ground2': 'black',
+}
 
 G.node_attr['shape'] = 'record'
+G.node_attr['style'] = 'bold'
 Node('battery', ['pos', 'neg'])
 Node('main_fuse', ['fuse'])
 Node('alternator', ['pos', 'sense'])
 # TODO: Verify the pins match this diagram.
 # https://www.pegasusautoracing.com/document.asp?DocID=TECH00109
 Node('kill_switch', ['battery', 'z', 'w', 'starter'])
-# TODO: Wire ignition coils pdm > z > coils.
 Node('kill_switch_resistor', ['resistor'])
 Node('ign_switch', ['1', '2'])
 Node('razor_pdm', [
@@ -37,6 +90,9 @@ Node('razor_pdm', [
     'PWROUT1b', 'ADIO1', 'ADIO3', 'ADIO5', 'ADIO7', 'NC3', 'PWROUT4b'
 ])
 Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
+Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
+Node('deutch_ecu_connector', [1,2,3])
+Node('tps', ['5v', 'Sensor', 'Gnd'])
 
 AddPath((
   ('battery', 'pos'),
@@ -80,6 +136,22 @@ AddPath((
   ('battery', 'neg'),
   ('fuel_pump', 'gnd'),
 ), 'black')
+
+AddPathWithMap((
+  ('link_ecu_a', 'AnVolt1'),
+  ('deutch_ecu_connector', '1'),
+  ('tps', 'Sensor'),
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
+  ('deutch_ecu_connector', '2'),
+  ('tps', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'GndOut'),
+  ('deutch_ecu_connector', '3'),
+  ('tps', 'Gnd'),
+))
 
 G.layout(prog='dot')
 G.write('corrado_wiring.dot')

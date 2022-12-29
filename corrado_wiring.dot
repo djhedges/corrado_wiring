@@ -1,7 +1,8 @@
-strict graph "" {
+graph "" {
 	graph [bb="0,0,2606,329"];
 	node [label="\N",
-		shape=record
+		shape=record,
+		style=bold
 	];
 	battery	[height=0.51389,
 		label="battery | <pos> pos | <neg> neg ",
@@ -16,8 +17,8 @@ strict graph "" {
 		rects="89,219.5,178,255.5 178,219.5,225,255.5",
 		width=1.8889];
 	battery:pos -- main_fuse:fuse	[color=red,
-		penwidth=5,
-		pos="416,292 416,209.98 299.94,306.1 235,256 227.76,250.41 235.14,237.5 226,237.5"];
+		penwidth=3,
+		pos="416,292 416,209.54 298.17,307.78 234,256 227.03,250.37 234.96,237.5 226,237.5"];
 	razor_pdm	[height=0.51389,
 		label="razor_pdm | <pos> pos | <neg> neg | <PWROUT2a> PWROUT2a | <NC1> NC1 | <CANH> CANH | <IGNSW> IGNSW | <SENSOR 5V1> SENSOR 5V1 | <SENSOR \
 GND1> SENSOR GND1 | <PWROUT3a> PWROUT3a | <PWROUT2b> PWROUT2b | <NC2> NC2 | <CANL> CANL | <SENSOR 5V2> SENSOR 5V2 | <SENSOR GND2> \
@@ -32,7 +33,7 @@ PWROUT4a | <PWROUT1b> PWROUT1b | <ADIO1> ADIO1 | <ADIO3> ADIO3 | <ADIO5> ADIO5 |
 0.5,2606,36.5",
 		width=31.972];
 	battery:neg -- razor_pdm:neg	[color=black,
-		penwidth=5,
+		penwidth=3,
 		pos="458,292 458,178.67 458,150.33 458,37"];
 	fuel_pump	[height=0.51389,
 		label="fuel_pump | <pos> pos | <SendingA> SendingA | <SendingB> SendingB | <gnd> gnd ",
@@ -41,8 +42,8 @@ PWROUT4a | <PWROUT1b> PWROUT1b | <ADIO1> ADIO1 | <ADIO3> ADIO3 | <ADIO5> ADIO5 |
 		rects="485.5,146.5,576.5,182.5 576.5,146.5,617.5,182.5 617.5,146.5,702.5,182.5 702.5,146.5,788.5,182.5 788.5,146.5,832.5,182.5",
 		width=4.8194];
 	battery:neg -- fuel_pump:gnd	[color=black,
-		penwidth=5,
-		pos="481,310.5 559.62,310.5 811,261.62 811,183"];
+		penwidth=3,
+		pos="481,310.5 489.96,310.5 482.41,298.07 489,292 600.11,189.62 811,334.09 811,183"];
 	kill_switch	[height=0.51389,
 		label="kill_switch | <battery> battery | <z> z | <w> w | <starter> starter ",
 		pos="246,164.5",
@@ -50,16 +51,16 @@ PWROUT4a | <PWROUT1b> PWROUT1b | <ADIO1> ADIO1 | <ADIO3> ADIO3 | <ADIO5> ADIO5 |
 		rects="106,146.5,198,182.5 198,146.5,267,182.5 267,146.5,291,182.5 291,146.5,320,182.5 320,146.5,386,182.5",
 		width=3.8889];
 	main_fuse:fuse -- kill_switch:battery	[color=red,
-		penwidth=5,
+		penwidth=3,
 		pos="202,219 202,198.17 232,203.83 232,183"];
 	fuel_pump:pos -- razor_pdm:PWROUT2a	[color=red,
-		penwidth=5,
+		penwidth=3,
 		pos="597,146 597,89.135 530,93.865 530,37"];
 	kill_switch:starter -- razor_pdm:pos	[color=red,
-		penwidth=5,
+		penwidth=3,
 		pos="387,164.5 445.11,164.5 416,95.114 416,37"];
 	kill_switch:starter -- kill_switch:w	[color=red,
-		penwidth=5,
+		penwidth=3,
 		pos="386.03,177.1 399.25,180.02 404,175.82 404,164.5 404,148.15 366.61,146.65 320.29,160"];
 	kill_switch_resistor	[height=0.51389,
 		label="kill_switch_resistor | <resistor> resistor ",
@@ -68,7 +69,7 @@ PWROUT4a | <PWROUT1b> PWROUT1b | <ADIO1> ADIO1 | <ADIO3> ADIO3 | <ADIO5> ADIO5 |
 		rects="162,73.5,316,109.5 316,73.5,388,109.5",
 		width=3.1389];
 	kill_switch:w -- kill_switch_resistor:resistor	[color=red,
-		penwidth=5,
+		penwidth=3,
 		pos="306,146 306,120.04 352,135.96 352,110"];
 	ign_switch	[height=0.51389,
 		label="ign_switch | <1> 1 | <2> 2 ",
@@ -77,10 +78,10 @@ PWROUT4a | <PWROUT1b> PWROUT1b | <ADIO1> ADIO1 | <ADIO3> ADIO3 | <ADIO5> ADIO5 |
 		rects="0,73.5,92,109.5 92,73.5,118,109.5 118,73.5,144,109.5",
 		width=2];
 	kill_switch:z -- ign_switch:1	[color=blue,
-		penwidth=5,
+		penwidth=3,
 		pos="279,146 279,67.029 105,188.97 105,110"];
 	ign_switch:2 -- razor_pdm:IGNSW	[color=blue,
-		penwidth=5,
+		penwidth=3,
 		pos="145,91.5 153.96,91.5 145.67,78.152 153,73 205,36.437 724,100.57 724,37"];
 	alternator	[height=0.51389,
 		label="alternator | <pos> pos | <sense> sense ",
@@ -89,6 +90,51 @@ PWROUT4a | <PWROUT1b> PWROUT1b | <ADIO1> ADIO1 | <ADIO3> ADIO3 | <ADIO5> ADIO5 |
 		rects="243.5,219.5,332.5,255.5 332.5,219.5,373.5,255.5 373.5,219.5,430.5,255.5",
 		width=2.5972];
 	alternator:pos -- kill_switch:starter	[color=red,
-		penwidth=5,
+		penwidth=3,
 		pos="353,219 353,203 353,199 353,183"];
+	link_ecu_a	[height=0.51389,
+		label="link_ecu_a | <Inj4> Inj4 | <Inj3> Inj3 | <Inj2> Inj2 | <Inj1> Inj1 | <+14V> +14V | <+8V> +8V | <Shield/Gnd> Shield/Gnd | <Trig1> \
+Trig1 | <Trig2> Trig2 | <Ign4> Ign4 | <Ign3> Ign3 | <Ign2> Ign2 | <Ign1> Ign1 | <AnVolt4> AnVolt4 | <Temp1> Temp1 | <Temp2> Temp2 | <\
+AnVolt1> AnVolt1 | <Aux4> Aux4 | <Aux3> Aux3 | <Aux2> Aux2 | <Aux1> Aux1 | <AnVolt2> AnVolt2 | <DI3> DI3 | <GndOut> GndOut | <Ground1> \
+Ground1 | <Aux8> Aux8 | <Aux7> Aux7 | <Aux6> Aux6 | <Aux5> Aux5 | <DI1> DI1 | <DI2> DI2 | <+5V> +5V | <AnVolt3> AnVolt3 | <Ground2> \
+Ground2 ",
+		pos="1505,310.5",
+		ranksep=2.0,
+		rects="498,292.5,587,328.5 587,292.5,631,328.5 631,292.5,675,328.5 675,292.5,719,328.5 719,292.5,763,328.5 763,292.5,819,328.5 819,292.5,\
+866,328.5 866,292.5,961,328.5 961,292.5,1016,328.5 1016,292.5,1071,328.5 1071,292.5,1120,328.5 1120,292.5,1169,328.5 1169,292.5,\
+1218,328.5 1218,292.5,1267,328.5 1267,292.5,1339,328.5 1339,292.5,1404,328.5 1404,292.5,1469,328.5 1469,292.5,1541,328.5 1541,292.5,\
+1594,328.5 1594,292.5,1647,328.5 1647,292.5,1700,328.5 1700,292.5,1753,328.5 1753,292.5,1825,328.5 1825,292.5,1867,328.5 1867,292.5,\
+1939,328.5 1939,292.5,2018,328.5 2018,292.5,2071,328.5 2071,292.5,2124,328.5 2124,292.5,2177,328.5 2177,292.5,2230,328.5 2230,292.5,\
+2272,328.5 2272,292.5,2314,328.5 2314,292.5,2361,328.5 2361,292.5,2433,328.5 2433,292.5,2512,328.5",
+		width=27.972];
+	deutch_ecu_connector	[height=0.51389,
+		label="deutch_ecu_connector | <1> 1 | <2> 2 | <3> 3 ",
+		pos="1790,237.5",
+		ranksep=2.0,
+		rects="1664,219.5,1838,255.5 1838,219.5,1864,255.5 1864,219.5,1890,255.5 1890,219.5,1916,255.5",
+		width=3.5];
+	link_ecu_a:AnVolt1 -- deutch_ecu_connector:1	[color="yellow:blue:yellow",
+		penwidth=3,
+		pos="1505,292 1505,137.39 1851,410.61 1851,256"];
+	link_ecu_a:"+5V" -- deutch_ecu_connector:2	[color="red:blue:red",
+		penwidth=3,
+		pos="2338,292 2338,86.487 1877,461.51 1877,256"];
+	link_ecu_a:GndOut -- deutch_ecu_connector:3	[color=green,
+		penwidth=3,
+		pos="1903,292 1903,276 1903,272 1903,256"];
+	tps	[height=0.51389,
+		label="tps | <5v> 5v | <Sensor> Sensor | <Gnd> Gnd ",
+		pos="1837,164.5",
+		ranksep=2.0,
+		rects="1744.5,146.5,1783.5,182.5 1783.5,146.5,1817.5,182.5 1817.5,146.5,1883.5,182.5 1883.5,146.5,1929.5,182.5",
+		width=2.5694];
+	deutch_ecu_connector:1 -- tps:Sensor	[color="yellow:blue:yellow",
+		penwidth=3,
+		pos="1851,219 1851,203 1851,199 1851,183"];
+	deutch_ecu_connector:2 -- tps:"5v"	[color="red:blue:red",
+		penwidth=3,
+		pos="1877,219 1877,181.22 1800,220.78 1800,183"];
+	deutch_ecu_connector:3 -- tps:Gnd	[color=green,
+		penwidth=3,
+		pos="1903,219 1903,202.9 1907,199.1 1907,183"];
 }

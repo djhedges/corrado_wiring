@@ -4,6 +4,20 @@ import pygraphviz as pgv
 
 G = pgv.AGraph(strict=False)
 
+
+class DeutschConnector(object):
+
+  def __init__(self):
+    self.index = 0
+
+  def GetFreePin(self):
+    self.index += 1
+    return self.index
+
+DCE = DeutschConnector()
+DCP = DeutschConnector()
+
+
 def BuildLabel(name, pin_names):
   label = f'{name} '
   for pin_name in pin_names:
@@ -151,7 +165,8 @@ Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
 Node('engine_ground', ['Gnd'])
-Node('deutsch_ecu_connector', list(range(1,24)))
+Node('deutsch_ecu_connector', list(range(1,32)))
+Node('deutsch_pdm_connector', list(range(1,12)))
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
@@ -162,6 +177,9 @@ Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
 Node('oil_temp_sensor', ['Sig+', 'Sig-'])
 Node('coolant_temp_sensor', ['Sig+', 'Sig-'])
+
+for i in range(1, 7):
+    Node(f'injector{i}', ['Pos', 'Gnd'])
 
 AddPath((
   ('battery', 'pos'),
@@ -222,128 +240,146 @@ AddPathWithMap((
 # ECU Grounds
 AddPath((
   ('link_ecu_a', 'Ground1'),
-  ('deutsch_ecu_connector', '1'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_a', 'Ground2'),
-  ('deutsch_ecu_connector', '2'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_b', 'Ground1'),
-  ('deutsch_ecu_connector', '3'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_b', 'Ground2'),
-  ('deutsch_ecu_connector', '4'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('engine_ground', 'Gnd'),
 ), 'black')
 
 # TPS
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt1'),
-  ('deutsch_ecu_connector', '5'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('tps', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', '6'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('tps', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', '7'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('tps', 'Gnd'),
 ))
 
 # MAP Sensor
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt2'),
-  ('deutsch_ecu_connector', '8'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('map_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', '9'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('map_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', '10'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('map_sensor', 'Gnd'),
 ))
 
 # Cam Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Trig1'),
-  ('deutsch_ecu_connector', '11'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('cam_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', '12'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('cam_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
-  ('deutsch_ecu_connector', '13'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('cam_sensor', 'Gnd'),
 ))
 
 # Crank Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Trig2'),
-  ('deutsch_ecu_connector', '11'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('crank_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', '12'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('crank_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
-  ('deutsch_ecu_connector', '13'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('crank_sensor', 'Gnd'),
 ))
 
 # Intake Temp Sensor
 AddPathWithMap((
   ('link_ecu_b', 'Temp3'),
-  ('deutsch_ecu_connector', '14'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('intake_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  ('deutsch_ecu_connector', '15'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('intake_temp_sensor', 'Sig-'),
 ))
 
 # Oil Temp Sensor
 AddPathWithMap((
   ('link_ecu_b', 'Temp4'),
-  ('deutsch_ecu_connector', '16'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('oil_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  ('deutsch_ecu_connector', '17'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('oil_temp_sensor', 'Sig-'),
 ))
 
 # Coolant Temp Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Temp1'),
-  ('deutsch_ecu_connector', '18'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('oil_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', '19'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('oil_temp_sensor', 'Sig-'),
 ))
+
+# Injectors
+inj_pwr_pin = DCP.GetFreePin()
+AddPath((
+  ('razor_pdm', 'PWROUT1a'),
+  ('deutsch_pdm_connector', inj_pwr_pin),
+), 'red')
+for i in range(1, 7):
+  AddPath((
+    ('deutsch_pdm_connector', inj_pwr_pin),
+    (f'injector{i}', 'Pos'),
+  ), 'red')
+  a_or_b = 'a' if i < 5 else 'b'
+  AddPathWithMap((
+    (f'link_ecu_{a_or_b}', f'Inj{i}'),
+    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    (f'injector{i}', 'Gnd'),
+  ))
 
 
 G.layout(prog='dot')

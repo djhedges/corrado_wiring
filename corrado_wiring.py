@@ -128,6 +128,7 @@ Node('razor_pdm', [
 ])
 Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
+Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
 Node('deutsch_ecu_connector', [1,2,3])
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 

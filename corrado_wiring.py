@@ -421,7 +421,7 @@ AddPathWithMap((
   ('map_sensor', 'Gnd'),
 ))
 
-# ECU Grounds
+# ECU A Grounds
 AddPath((
   ('link_ecu_a', 'Ground1'),
   ('deutsch_ecu_connector', DCE.GetFreePin()),
@@ -432,34 +432,6 @@ AddPath((
   ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('engine_ground', 'Gnd'),
 ), 'black')
-AddPath((
-  ('link_ecu_b', 'Ground1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('engine_ground', 'Gnd'),
-), 'black')
-AddPath((
-  ('link_ecu_b', 'Ground2'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('engine_ground', 'Gnd'),
-), 'black')
-
-# Knock Sensors
-for i in range(1, 3):
-  AddPathWithMap((
-    ('link_ecu_b', f'Knock{i}'),
-    ('deutsch_ecu_connector', DCE.GetFreePin()),
-    (f'knock{i}', 'Sig+'),
-  ))
-  AddPathWithMap((
-    ('link_ecu_b', 'Shield/Gnd'),
-    ('deutsch_ecu_connector', DCE.GetFreePin()),
-    (f'knock{i}', 'Sig-'),
-  ))
-  AddPathWithMap((
-    ('link_ecu_b', 'Shield/Gnd'),
-    ('deutsch_ecu_connector', DCE.GetFreePin()),
-    (f'knock{i}', 'Scr'),
-  ))
 
 # Intake Temp Sensor
 AddPathWithMap((
@@ -484,6 +456,36 @@ AddPathWithMap((
   ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('oil_temp_sensor', 'Sig-'),
 ))
+
+# Knock Sensors
+for i in range(1, 3):
+  AddPathWithMap((
+    ('link_ecu_b', f'Knock{i}'),
+    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    (f'knock{i}', 'Sig+'),
+  ))
+  AddPathWithMap((
+    ('link_ecu_b', 'Shield/Gnd'),
+    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    (f'knock{i}', 'Sig-'),
+  ))
+  AddPathWithMap((
+    ('link_ecu_b', 'Shield/Gnd'),
+    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    (f'knock{i}', 'Scr'),
+  ))
+
+# ECU B Grounds
+AddPath((
+  ('link_ecu_b', 'Ground1'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('engine_ground', 'Gnd'),
+), 'black')
+AddPath((
+  ('link_ecu_b', 'Ground2'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('engine_ground', 'Gnd'),
+), 'black')
 
 # Idle Stablizer Valve
 AddPath((

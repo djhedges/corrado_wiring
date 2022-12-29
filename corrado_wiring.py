@@ -59,6 +59,9 @@ def AddPath(node_pins, color):
                  tailport=pin, headport=next_pin,
                  color=ParseColor(color), penwidth=2)
 
+def ClusterNodes(nodes, label):
+  G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color='grey', label=label)
+
 
 def AddPathWithMap(node_pins):
   node_color_map = {
@@ -174,7 +177,7 @@ Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
 
 Node('knock1', ['Sig+', 'Sig-', 'Scr'])
 Node('knock2', ['Sig+', 'Sig-', 'Scr'])
-G.add_subgraph(['knock1', 'knock2'], name='cluster_knock', style='filled', color='grey', label='Knock Sensors')
+ClusterNodes(['knock1', 'knock2'], 'Knock Sensors')
 
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
 Node('oil_temp_sensor', ['Sig+', 'Sig-'])
@@ -185,11 +188,12 @@ Node('vapor_purge_valve', ['Pos', 'Gnd'])
 
 for i in range(1, 7):
     Node(f'injector{i}', ['Pos', 'Gnd'])
-G.add_subgraph([f'injector{i}' for i in range(1, 7)], name='cluster_injectors', style='filled', color='grey', label='Injectors')
+ClusterNodes([f'injector{i}' for i in range(1, 7)], 'Injectors')
 
 Node('icm', ['Transistor1ecu', 'Transistor2ecu', 'Transistor3ecu',
              'Transistor3coil', 'Gnd', 'Transistor2coil', 'Transistor1coil'])
 Node('coil', ['Coil3', 'Coil2', 'Coil1', 'Ubatt'])
+ClusterNodes(['icm', 'coil'], label='Coilpack')
 
 Node('aux_coolant_pump', ['Pos', 'Gnd'])
 

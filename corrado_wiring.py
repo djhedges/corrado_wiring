@@ -2,7 +2,10 @@
 
 import pygraphviz as pgv
 
-G = pgv.AGraph(strict=False, rankdir='LR', concentrate=True)
+G = pgv.AGraph(strict=False, rankdir='LR', ranksep=10)
+
+AEM_GAUGES = ['coolant_temp_gauge', 'transmission_temp_gauge', 'fuel_pressure_gauge']
+AEM_SENSORS = ['aem_coolant_temp_sensor', 'aem_transmission_temp_sensor', 'aem_fuel_pressure_sensor']
 
 
 class DeutschConnector(object):
@@ -17,6 +20,8 @@ class DeutschConnector(object):
 DCE = DeutschConnector()
 DCP = DeutschConnector()
 DCC = DeutschConnector()  # Console (keypad & gauges)
+DCC_PWR = DCC.GetFreePin()
+DCC_GND = DCC.GetFreePin()
 
 
 def BuildLabel(name, pin_names):
@@ -60,7 +65,7 @@ def AddPath(node_pins, color):
                  label=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
                  labeltooltip=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
                  color=ParseColor(color),
-                 penwidth=2)
+                 penwidth=2.5)
 
 def ClusterNodes(nodes, label):
   G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color='grey', label=label)
@@ -165,14 +170,13 @@ Node('razor_pdm', [
     'PWROUT1a', 'ADIO2', 'ADIO4', 'ADIO6', 'ADIO8', 'PWROUT4a',
     'PWROUT1b', 'ADIO1', 'ADIO3', 'ADIO5', 'ADIO7', 'NC3', 'PWROUT4b'
 ])
-Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())#, label_func=BuildLinkLabel)
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())#, label_func=BuildLinkLabel)
 Node('link_keypad', [1, 2, 3, 4])
 Node('engine_ground', ['Gnd'])
 Node('deutsch_ecu_connector', list(range(1,48)))
 Node('deutsch_pdm_connector', list(range(1,5)))
-Node('deutsch_console_connector', list(range(1,5)))
+Node('deutsch_console_connector', list(range(1,16)))
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
@@ -191,6 +195,14 @@ Node('coolant_temp_sensor', ['Sig+', 'Sig-'])
 Node('idle_stablizer_valve', ['Pos', 'Gnd'])
 Node('vapor_purge_valve', ['Pos', 'Gnd'])
 
+Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
+Node('aux_coolant_pump', ['Pos', 'Gnd'])
+
+for aem_gauge in AEM_GAUGES:
+  Node(aem_gauge, ['Ground', '12v', 'RS232', '5vOut', 'Sig+', 'Sig-'])
+for aem_sensor in AEM_SENSORS:
+  Node(aem_sensor, ['Sig+', 'Sig-'])
+
 for i in range(1, 7):
     Node(f'injector{i}', ['Pos', 'Gnd'])
 ClusterNodes([f'injector{i}' for i in range(1, 7)], 'Injectors')
@@ -199,8 +211,6 @@ Node('icm', ['Transistor1ecu', 'Transistor2ecu', 'Transistor3ecu',
              'Transistor3coil', 'Gnd', 'Transistor2coil', 'Transistor1coil'])
 Node('coil', ['Coil3', 'Coil2', 'Coil1', 'Ubatt'])
 ClusterNodes(['icm', 'coil'], label='Coilpack')
-
-Node('aux_coolant_pump', ['Pos', 'Gnd'])
 
 AddPath((
   ('battery', 'pos'),
@@ -262,12 +272,12 @@ AddPathWithMap((
 # Keypad
 AddPath((
   ('razor_pdm', 'ADIO3'),
-  ('deutsch_console_connector', DCC.GetFreePin()),
+  ('deutsch_console_connector', DCC_PWR),
   ('link_keypad', 1),
 ), 'red')
 AddPath((
   ('battery', 'neg'),
-  ('deutsch_console_connector', DCC.GetFreePin()),
+  ('deutsch_console_connector', DCC_GND),
   ('link_keypad', 2),
 ), 'black')
 
@@ -506,6 +516,28 @@ AddPath((
   ('aux_coolant_pump', 'Gnd'),
   ('engine_ground', 'Gnd'),
 ), 'black')
+
+# Gauages
+for aem_gauge in AEM_GAUGES:
+  AddPath((
+    (aem_gauge, '12v'),
+    ('deutsch_console_connector', DCC_PWR),
+  ), 'red')
+  AddPath((
+    (aem_gauge, 'Ground'),
+    ('deutsch_console_connector', DCC_GND),
+  ), 'black')
+for i, aem_sensor in enumerate(AEM_SENSORS):
+  for sign in ('+', '-'):
+    AddPath((
+      (AEM_GAUGES[i], f'Sig{sign}'),
+      ('deutsch_console_connector', DCP.GetFreePin()),
+      ('deutsch_ecu_connector', DCE.GetFreePin()),
+      (aem_sensor, f'Sig{sign}'),
+    ), 'white')  # TODO: Decide on wire color.
+ClusterNodes(AEM_GAUGES + ['link_keypad'], 'Console')
+ClusterNodes(AEM_SENSORS, 'AEM Sensors')
+
 
 
 G.layout(prog='dot')

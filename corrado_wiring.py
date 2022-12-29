@@ -157,6 +157,14 @@ Node('razor_pdm', [
 ])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
+Node('labjack', [
+    'sgnd0', ' spc', ' sgnd1', ' vs0',
+    'fio7', ' fio6', ' gnd0', ' vs1',
+    'fio5', ' fio4', ' gnd1', ' vs2',
+    'vs3', ' gnd2', ' dac0', ' dac1',
+    'vs4', ' gnd3', ' fio2', ' fio3',
+    'vs5', ' gnd4', ' fio0', ' fio1',
+])
 Node('link_keypad', [1, 2, 3, 4])
 Node('engine_ground', ['Gnd'])
 Node('deutsch_ecu_connector', list(range(1,48)))
@@ -557,6 +565,22 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
 ClusterNodes(AEM_GAUGES + ['link_keypad'], 'Console')
 ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 
+# Labjack
+AddPath((
+  ('coolant_temp_gauge', '5vOut'),
+  ('deutsch_console_connector', DCP.GetFreePin()),
+  ('labjack', 'fio0'),
+), color='white') # TODO: Decide on wire color.
+AddPath((
+  ('fuel_pressure_gauge', '5vOut'),
+  ('deutsch_console_connector', DCP.GetFreePin()),
+  ('labjack', 'fio6'),
+), color='white') # TODO: Decide on wire color.
+AddPath((
+  ('transmission_temp_gauge', '5vOut'),
+  ('deutsch_console_connector', DCP.GetFreePin()),
+  ('labjack', 'fio7'),
+), color='white') # TODO: Decide on wire color.
 
 
 G.layout(prog='dot')

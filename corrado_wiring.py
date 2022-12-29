@@ -296,7 +296,6 @@ AddPathWithMap((
 # MAP Sensor
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt2'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('map_sensor', 'Sensor'),
 ))
 AddPathWithMap((

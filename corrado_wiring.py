@@ -57,6 +57,7 @@ def AddPath(node_pins, color):
       G.add_edge(node, next_node,
                  tailport=pin, headport=next_pin,
                  label=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
+                 labeltooltip=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
                  color=ParseColor(color),
                  penwidth=2)
 
@@ -485,3 +486,4 @@ AddPath((
 G.layout(prog='dot')
 G.write('corrado_wiring.dot')
 G.draw('corrado_wiring.png')
+G.draw('corrado_wiring.svg')

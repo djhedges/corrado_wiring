@@ -196,6 +196,8 @@ for aem_gauge in AEM_GAUGES:
   Node(aem_gauge, ['Ground', '12v', 'RS232', '5vOut', 'Sig+', 'Sig-'])
 for aem_sensor in AEM_SENSORS:
   Node(aem_sensor, ['Sig+', 'Sig-'])
+Node('front_brake_pressure', ['0v', '5v', 'Sig'])
+Node('rear_brake_pressure', ['0v', '5v', 'Sig'])
 
 for i in range(1, 7):
     Node(f'injector{i}', ['Pos', 'Gnd'])
@@ -571,6 +573,34 @@ AddPath((
   ('deutsch_console_connector', DCP.GetFreePin()),
   ('labjack', 'fio0'),
 ), color='white') # TODO: Decide on wire color.
+
+## Brake Pressure Sensors
+AddPath((
+  ('front_brake_pressure', 'Sig'),
+  ('labjack', 'fio2'),
+), color='white')
+AddPath((
+  ('rear_brake_pressure', 'Sig'),
+  ('labjack', 'fio3'),
+), color='white')
+AddPath((
+  ('front_brake_pressure', '5v'),
+  ('labjack', 'dac0'),
+), color='white')
+AddPath((
+  ('rear_brake_pressure', '5v'),
+  ('labjack', 'dac0'),
+), color='white')
+AddPath((
+  ('front_brake_pressure', '0v'),
+  ('labjack', 'gnd3'),
+), color='white')
+AddPath((
+  ('rear_brake_pressure', '0v'),
+  ('labjack', 'gnd3'),
+), color='white')
+## /Brake Pressure Sensors
+
 AddPath((
   ('fuel_pressure_gauge', '5vOut'),
   ('deutsch_console_connector', DCP.GetFreePin()),
@@ -581,6 +611,7 @@ AddPath((
   ('deutsch_console_connector', DCP.GetFreePin()),
   ('labjack', 'fio7'),
 ), color='white') # TODO: Decide on wire color.
+# /Labjack
 
 
 G.layout(prog='dot')

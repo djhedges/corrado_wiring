@@ -2,7 +2,7 @@
 
 import pygraphviz as pgv
 
-G = pgv.AGraph(strict=False, rankdir='LR', ranksep=10)
+G = pgv.AGraph(strict=False, rankdir='LR', ranksep=10, concentrate='true')
 
 AEM_GAUGES = ['coolant_temp_gauge', 'transmission_temp_gauge', 'fuel_pressure_gauge']
 AEM_SENSORS = ['aem_coolant_temp_sensor', 'aem_transmission_temp_sensor', 'aem_fuel_pressure_sensor']

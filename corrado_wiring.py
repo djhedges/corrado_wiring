@@ -16,6 +16,7 @@ class DeutschConnector(object):
 
 DCE = DeutschConnector()
 DCP = DeutschConnector()
+DCC = DeutschConnector()  # Console (keypad & gauges)
 
 
 def BuildLabel(name, pin_names):
@@ -167,9 +168,11 @@ Node('razor_pdm', [
 Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())#, label_func=BuildLinkLabel)
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())#, label_func=BuildLinkLabel)
+Node('link_keypad', [1, 2, 3, 4])
 Node('engine_ground', ['Gnd'])
 Node('deutsch_ecu_connector', list(range(1,48)))
 Node('deutsch_pdm_connector', list(range(1,5)))
+Node('deutsch_console_connector', list(range(1,5)))
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
@@ -265,6 +268,28 @@ AddPathWithMap((
   ('razor_pdm', 'CANL'),
   ('link_ecu_b', 'DI9/CAN2L'),
 ))
+AddPathWithMap((
+  ('link_keypad', '4'),
+  ('deutsch_console_connector', DCC.GetFreePin()),
+  ('link_ecu_b', 'DI10/CAN2H'),
+))
+AddPathWithMap((
+  ('link_keypad', '3'),
+  ('deutsch_console_connector', DCC.GetFreePin()),
+  ('link_ecu_b', 'DI9/CAN2L'),
+))
+
+# Keypad
+AddPath((
+  ('razor_pdm', 'ADIO3'),
+  ('deutsch_console_connector', DCC.GetFreePin()),
+  ('link_keypad', 1),
+), 'red')
+AddPath((
+  ('battery', 'neg'),
+  ('deutsch_console_connector', DCC.GetFreePin()),
+  ('link_keypad', 2),
+), 'black')
 
 # ECU Grounds
 AddPath((

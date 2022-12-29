@@ -243,7 +243,7 @@ AddPath((
   ('battery', 'neg'),
   ('razor_pdm', 'neg'),
 ), 'black')
-ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'ign_switch', 'alternator', 'kill_switch_reisistor'], 'Kill Switch')
+ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'ign_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
 
 # TODO: Verify blue is not already in use.
 AddPath((

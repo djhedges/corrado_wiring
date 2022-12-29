@@ -156,6 +156,9 @@ Node('deutsch_ecu_connector', list(range(1,24)))
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
 
+Node('cam_sensor', ['5v', 'Sensor', 'Gnd'])
+Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
+
 AddPath((
   ('battery', 'pos'),
   ('main_fuse', 'fuse'),
@@ -266,6 +269,40 @@ AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
   ('deutsch_ecu_connector', '10'),
   ('map_sensor', 'Gnd'),
+))
+
+# Cam Sensor
+AddPathWithMap((
+  ('link_ecu_a', 'Trig1'),
+  ('deutsch_ecu_connector', '11'),
+  ('cam_sensor', 'Sensor'),
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
+  ('deutsch_ecu_connector', '12'),
+  ('cam_sensor', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'Shield/Gnd'),
+  ('deutsch_ecu_connector', '13'),
+  ('cam_sensor', 'Gnd'),
+))
+
+# Crank Sensor
+AddPathWithMap((
+  ('link_ecu_a', 'Trig2'),
+  ('deutsch_ecu_connector', '11'),
+  ('crank_sensor', 'Sensor'),
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
+  ('deutsch_ecu_connector', '12'),
+  ('crank_sensor', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'Shield/Gnd'),
+  ('deutsch_ecu_connector', '13'),
+  ('crank_sensor', 'Gnd'),
 ))
 
 G.layout(prog='dot')

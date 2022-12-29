@@ -159,8 +159,8 @@ Node('razor_pdm', [
     'PWROUT1b', 'ADIO1', 'ADIO3', 'ADIO5', 'ADIO7', 'NC3', 'PWROUT4b'
 ])
 Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
-Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys(), label_func=BuildLinkLabel)
-Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys(), label_func=BuildLinkLabel)
+Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())#, label_func=BuildLinkLabel)
+Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())#, label_func=BuildLinkLabel)
 Node('engine_ground', ['Gnd'])
 Node('deutsch_ecu_connector', list(range(1,48)))
 Node('deutsch_pdm_connector', list(range(1,5)))
@@ -177,6 +177,9 @@ Node('knock2', ['Sig+', 'Sig-', 'Scr'])
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
 Node('oil_temp_sensor', ['Sig+', 'Sig-'])
 Node('coolant_temp_sensor', ['Sig+', 'Sig-'])
+
+Node('idle_stablizer_valve', ['Pos', 'Gnd'])
+Node('vapor_purge_valve', ['Pos', 'Gnd'])
 
 for i in range(1, 7):
     Node(f'injector{i}', ['Pos', 'Gnd'])
@@ -380,13 +383,35 @@ AddPathWithMap((
 AddPathWithMap((
   ('link_ecu_a', 'Temp1'),
   ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('oil_temp_sensor', 'Sig+'),
+  ('coolant_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
   ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('oil_temp_sensor', 'Sig-'),
+  ('coolant_temp_sensor', 'Sig-'),
 ))
+
+# Idle Stablizer Valve
+AddPath((
+  ('razor_pdm', 'ADIO7'),
+  ('deutsch_pdm_connector', DCP.GetFreePin()),
+  ('idle_stablizer_valve', 'Pos'),
+), 'red')  # TODO: Decide on color.
+AddPath((
+  ('idle_stablizer_valve', 'Gnd'),
+  ('engine_ground', 'Gnd'),
+), 'black')
+
+# Purge Valve
+AddPath((
+  ('razor_pdm', 'ADIO5'),
+  ('deutsch_pdm_connector', DCP.GetFreePin()),
+  ('vapor_purge_valve', 'Pos'),
+), 'red')  # TODO: Decide on color.
+AddPath((
+  ('vapor_purge_valve', 'Gnd'),
+  ('engine_ground', 'Gnd'),
+), 'black')
 
 # Injectors
 inj_pwr_pin = DCP.GetFreePin()

@@ -163,7 +163,7 @@ Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys(), label_func=BuildLinkLabel)
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys(), label_func=BuildLinkLabel)
 Node('engine_ground', ['Gnd'])
 Node('deutsch_ecu_connector', list(range(1,32)))
-Node('deutsch_pdm_connector', list(range(1,12)))
+Node('deutsch_pdm_connector', list(range(1,5)))
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
@@ -181,6 +181,8 @@ for i in range(1, 7):
 Node('icm', ['Transistor1ecu', 'Transistor2ecu', 'Transistor3ecu',
              'Transistor3coil', 'Gnd', 'Transistor2coil', 'Transistor1coil'])
 Node('coil', ['Coil3', 'Coil2', 'Coil1', 'Ubatt'])
+
+Node('aux_coolant_pump', ['Pos', 'Gnd'])
 
 AddPath((
   ('battery', 'pos'),
@@ -400,6 +402,18 @@ for i in range(1, 4):
     ('icm', f'Transistor{i}coil'),
     ('coil', f'Coil{i}'),
   ), 'white')  # TODO: Decide on wire color.
+
+# Aux Coolant Pump
+AddPath((
+  ('razor_pdm', 'ADIO1'),
+  ('deutsch_pdm_connector', DCP.GetFreePin()),
+  ('aux_coolant_pump', 'Pos'),
+), 'red')
+AddPath((
+  ('aux_coolant_pump', 'Gnd'),
+  ('engine_ground', 'Gnd'),
+), 'black')
+
 
 
 G.layout(prog='dot')

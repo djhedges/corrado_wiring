@@ -9,37 +9,97 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 2668.5)">
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-2668.5 5459.53,-2668.5 5459.53,4 -4,4"/>
 <g id="clust1" class="cluster">
-<title>cluster_Knock Sensors</title>
-<polygon fill="grey" stroke="grey" points="5265.53,-426.64 5265.53,-669.64 5387.53,-669.64 5387.53,-426.64 5265.53,-426.64"/>
-<text text-anchor="middle" x="5326.53" y="-654.44" font-family="Times,serif" font-size="14.00">Knock Sensors</text>
-</g>
-<g id="clust2" class="cluster">
-<title>cluster_Kill Switch</title>
-<polygon fill="grey" stroke="grey" points="87.53,-239.64 87.53,-413.64 2490.53,-413.64 2490.53,-239.64 87.53,-239.64"/>
-<text text-anchor="middle" x="1289.04" y="-398.44" font-family="Times,serif" font-size="14.00">Kill Switch</text>
-</g>
-<g id="clust3" class="cluster">
-<title>cluster_Coilpack</title>
-<polygon fill="grey" stroke="grey" points="4321.03,-2212.6 4321.03,-2435.6 5363.03,-2435.6 5363.03,-2212.6 4321.03,-2212.6"/>
-<text text-anchor="middle" x="4842.03" y="-2420.4" font-family="Times,serif" font-size="14.00">Coilpack</text>
-</g>
-<g id="clust4" class="cluster">
-<title>cluster_Console</title>
-<polygon fill="grey" stroke="grey" points="1301.54,-421.64 1301.54,-1116.6 1520.54,-1116.6 1520.54,-421.64 1301.54,-421.64"/>
-<text text-anchor="middle" x="1411.04" y="-1101.4" font-family="Times,serif" font-size="14.00">Console</text>
-</g>
-<g id="clust5" class="cluster">
-<title>cluster_AEM Sensors</title>
-<polygon fill="grey" stroke="grey" points="5196.53,-66.63 5196.53,-351.64 5455.53,-351.64 5455.53,-66.63 5196.53,-66.63"/>
-<text text-anchor="middle" x="5326.03" y="-336.44" font-family="Times,serif" font-size="14.00">AEM Sensors</text>
-</g>
-<g id="clust6" class="cluster">
 <title>cluster_Injectors</title>
 <polygon fill="grey" stroke="grey" points="5278.03,-677.64 5278.03,-1226.6 5374.03,-1226.6 5374.03,-677.64 5278.03,-677.64"/>
 <text text-anchor="middle" x="5326.03" y="-1211.4" font-family="Times,serif" font-size="14.00">Injectors</text>
 </g>
-<!-- knock1 -->
+<g id="clust2" class="cluster">
+<title>cluster_Knock Sensors</title>
+<polygon fill="grey" stroke="grey" points="5265.53,-426.64 5265.53,-669.64 5387.53,-669.64 5387.53,-426.64 5265.53,-426.64"/>
+<text text-anchor="middle" x="5326.53" y="-654.44" font-family="Times,serif" font-size="14.00">Knock Sensors</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_Console</title>
+<polygon fill="grey" stroke="grey" points="1301.54,-421.64 1301.54,-1116.6 1520.54,-1116.6 1520.54,-421.64 1301.54,-421.64"/>
+<text text-anchor="middle" x="1411.04" y="-1101.4" font-family="Times,serif" font-size="14.00">Console</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_AEM Sensors</title>
+<polygon fill="grey" stroke="grey" points="5196.53,-66.63 5196.53,-351.64 5455.53,-351.64 5455.53,-66.63 5196.53,-66.63"/>
+<text text-anchor="middle" x="5326.03" y="-336.44" font-family="Times,serif" font-size="14.00">AEM Sensors</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_Kill Switch</title>
+<polygon fill="grey" stroke="grey" points="87.53,-239.64 87.53,-413.64 2490.53,-413.64 2490.53,-239.64 87.53,-239.64"/>
+<text text-anchor="middle" x="1289.04" y="-398.44" font-family="Times,serif" font-size="14.00">Kill Switch</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_Coilpack</title>
+<polygon fill="grey" stroke="grey" points="4321.03,-2212.6 4321.03,-2435.6 5363.03,-2435.6 5363.03,-2212.6 4321.03,-2212.6"/>
+<text text-anchor="middle" x="4842.03" y="-2420.4" font-family="Times,serif" font-size="14.00">Coilpack</text>
+</g>
+<!-- injector1 -->
 <g id="node1" class="node">
+<title>injector1</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-1125.6 5286.03,-1195.6 5366.03,-1195.6 5366.03,-1125.6 5286.03,-1125.6"/>
+<text text-anchor="middle" x="5326.03" y="-1180.4" font-family="Times,serif" font-size="14.00">injector1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-1172.6 5366.03,-1172.6 "/>
+<text text-anchor="middle" x="5326.03" y="-1157.4" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-1149.6 5366.03,-1149.6 "/>
+<text text-anchor="middle" x="5326.03" y="-1133.9" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector2 -->
+<g id="node2" class="node">
+<title>injector2</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-1037.6 5286.03,-1107.6 5366.03,-1107.6 5366.03,-1037.6 5286.03,-1037.6"/>
+<text text-anchor="middle" x="5326.03" y="-1092.4" font-family="Times,serif" font-size="14.00">injector2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-1084.6 5366.03,-1084.6 "/>
+<text text-anchor="middle" x="5326.03" y="-1069.4" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-1061.6 5366.03,-1061.6 "/>
+<text text-anchor="middle" x="5326.03" y="-1045.9" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector3 -->
+<g id="node3" class="node">
+<title>injector3</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-949.64 5286.03,-1019.64 5366.03,-1019.64 5366.03,-949.64 5286.03,-949.64"/>
+<text text-anchor="middle" x="5326.03" y="-1004.44" font-family="Times,serif" font-size="14.00">injector3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-996.64 5366.03,-996.64 "/>
+<text text-anchor="middle" x="5326.03" y="-981.44" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-973.64 5366.03,-973.64 "/>
+<text text-anchor="middle" x="5326.03" y="-957.94" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector4 -->
+<g id="node4" class="node">
+<title>injector4</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-773.64 5286.03,-843.64 5366.03,-843.64 5366.03,-773.64 5286.03,-773.64"/>
+<text text-anchor="middle" x="5326.03" y="-828.44" font-family="Times,serif" font-size="14.00">injector4</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-820.64 5366.03,-820.64 "/>
+<text text-anchor="middle" x="5326.03" y="-805.44" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-797.64 5366.03,-797.64 "/>
+<text text-anchor="middle" x="5326.03" y="-781.94" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector5 -->
+<g id="node5" class="node">
+<title>injector5</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-685.64 5286.03,-755.64 5366.03,-755.64 5366.03,-685.64 5286.03,-685.64"/>
+<text text-anchor="middle" x="5326.03" y="-740.44" font-family="Times,serif" font-size="14.00">injector5</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-732.64 5366.03,-732.64 "/>
+<text text-anchor="middle" x="5326.03" y="-717.44" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-709.64 5366.03,-709.64 "/>
+<text text-anchor="middle" x="5326.03" y="-693.94" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector6 -->
+<g id="node6" class="node">
+<title>injector6</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-861.64 5286.03,-931.64 5366.03,-931.64 5366.03,-861.64 5286.03,-861.64"/>
+<text text-anchor="middle" x="5326.03" y="-916.44" font-family="Times,serif" font-size="14.00">injector6</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-908.64 5366.03,-908.64 "/>
+<text text-anchor="middle" x="5326.03" y="-893.44" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-885.64 5366.03,-885.64 "/>
+<text text-anchor="middle" x="5326.03" y="-869.94" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- knock1 -->
+<g id="node7" class="node">
 <title>knock1</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="5292.53,-545.14 5292.53,-638.14 5359.53,-638.14 5359.53,-545.14 5292.53,-545.14"/>
 <text text-anchor="middle" x="5326.03" y="-622.94" font-family="Times,serif" font-size="14.00">knock1</text>
@@ -51,7 +111,7 @@
 <text text-anchor="middle" x="5326.03" y="-553.44" font-family="Times,serif" font-size="14.00">Scr</text>
 </g>
 <!-- knock2 -->
-<g id="node2" class="node">
+<g id="node8" class="node">
 <title>knock2</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="5292.53,-434.14 5292.53,-527.14 5359.53,-527.14 5359.53,-434.14 5292.53,-434.14"/>
 <text text-anchor="middle" x="5326.03" y="-511.94" font-family="Times,serif" font-size="14.00">knock2</text>
@@ -62,8 +122,300 @@
 <polyline fill="none" stroke="black" stroke-width="2" points="5292.53,-458.14 5359.53,-458.14 "/>
 <text text-anchor="middle" x="5326.03" y="-442.44" font-family="Times,serif" font-size="14.00">Scr</text>
 </g>
+<!-- link_keypad -->
+<g id="node9" class="node">
+<title>link_keypad</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="1360.54,-969.64 1360.54,-1085.64 1461.54,-1085.64 1461.54,-969.64 1360.54,-969.64"/>
+<text text-anchor="middle" x="1411.04" y="-1070.44" font-family="Times,serif" font-size="14.00">link_keypad</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1360.54,-1062.64 1461.54,-1062.64 "/>
+<text text-anchor="middle" x="1411.04" y="-1047.44" font-family="Times,serif" font-size="14.00">1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1360.54,-1039.64 1461.54,-1039.64 "/>
+<text text-anchor="middle" x="1411.04" y="-1024.44" font-family="Times,serif" font-size="14.00">2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1360.54,-1016.64 1461.54,-1016.64 "/>
+<text text-anchor="middle" x="1411.04" y="-1001.44" font-family="Times,serif" font-size="14.00">3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1360.54,-993.64 1461.54,-993.64 "/>
+<text text-anchor="middle" x="1411.04" y="-977.94" font-family="Times,serif" font-size="14.00">4</text>
+</g>
+<!-- deutsch_console_connector -->
+<g id="node26" class="node">
+<title>deutsch_console_connector</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="2300.54,-709.14 2300.54,-1078.14 2510.54,-1078.14 2510.54,-709.14 2300.54,-709.14"/>
+<text text-anchor="middle" x="2405.54" y="-1062.94" font-family="Times,serif" font-size="14.00">deutsch_console_connector</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-1055.14 2510.54,-1055.14 "/>
+<text text-anchor="middle" x="2405.54" y="-1039.94" font-family="Times,serif" font-size="14.00">1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-1032.14 2510.54,-1032.14 "/>
+<text text-anchor="middle" x="2405.54" y="-1016.94" font-family="Times,serif" font-size="14.00">2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-1009.14 2510.54,-1009.14 "/>
+<text text-anchor="middle" x="2405.54" y="-993.94" font-family="Times,serif" font-size="14.00">3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-986.14 2510.54,-986.14 "/>
+<text text-anchor="middle" x="2405.54" y="-970.94" font-family="Times,serif" font-size="14.00">4</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-963.14 2510.54,-963.14 "/>
+<text text-anchor="middle" x="2405.54" y="-947.94" font-family="Times,serif" font-size="14.00">5</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-940.14 2510.54,-940.14 "/>
+<text text-anchor="middle" x="2405.54" y="-924.94" font-family="Times,serif" font-size="14.00">6</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-917.14 2510.54,-917.14 "/>
+<text text-anchor="middle" x="2405.54" y="-901.94" font-family="Times,serif" font-size="14.00">7</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-894.14 2510.54,-894.14 "/>
+<text text-anchor="middle" x="2405.54" y="-878.94" font-family="Times,serif" font-size="14.00">8</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-871.14 2510.54,-871.14 "/>
+<text text-anchor="middle" x="2405.54" y="-855.94" font-family="Times,serif" font-size="14.00">9</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-848.14 2510.54,-848.14 "/>
+<text text-anchor="middle" x="2405.54" y="-832.94" font-family="Times,serif" font-size="14.00">10</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-825.14 2510.54,-825.14 "/>
+<text text-anchor="middle" x="2405.54" y="-809.94" font-family="Times,serif" font-size="14.00">11</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-802.14 2510.54,-802.14 "/>
+<text text-anchor="middle" x="2405.54" y="-786.94" font-family="Times,serif" font-size="14.00">12</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-779.14 2510.54,-779.14 "/>
+<text text-anchor="middle" x="2405.54" y="-763.94" font-family="Times,serif" font-size="14.00">13</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-756.14 2510.54,-756.14 "/>
+<text text-anchor="middle" x="2405.54" y="-740.94" font-family="Times,serif" font-size="14.00">14</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-733.14 2510.54,-733.14 "/>
+<text text-anchor="middle" x="2405.54" y="-717.44" font-family="Times,serif" font-size="14.00">15</text>
+</g>
+<!-- link_keypad&#45;&#45;deutsch_console_connector -->
+<g id="edge17" class="edge">
+<title>link_keypad:4&#45;&#45;deutsch_console_connector:4</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1463.04,-977.64C1547.35,-979.73 1563.75,-1010.01 1640.97,-1016.66 1867.89,-1041.3 1928.79,-1051.35 2152.93,-1016.68 2216.91,-1009.14 2227.71,-973.48 2299.53,-970.64"/>
+<path fill="none" stroke="grey" stroke-width="2.5" d="M1463.04,-979.64C1545.59,-980.68 1561.99,-1010.96 1640.75,-1018.65 1867.56,-1043.27 1928.46,-1053.32 2153.23,-1018.66 2218.82,-1009.72 2229.62,-974.06 2299.53,-972.64"/>
+<path fill="none" stroke="violet" stroke-width="2.5" d="M1463.04,-981.64C1543.83,-981.64 1560.23,-1011.92 1640.53,-1020.64 1867.24,-1045.25 1928.13,-1055.3 2153.53,-1020.64 2220.73,-1010.3 2231.53,-974.64 2299.53,-974.64"/>
+<path fill="none" stroke="grey" stroke-width="2.5" d="M1463.04,-983.64C1542.08,-982.59 1558.48,-1012.87 1640.32,-1022.62 1866.91,-1047.22 1927.81,-1057.27 2153.84,-1022.61 2222.65,-1010.88 2233.45,-975.22 2299.53,-976.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1463.04,-985.64C1540.32,-983.54 1556.72,-1013.82 1640.1,-1024.61 1866.58,-1049.19 1927.48,-1059.24 2154.14,-1024.59 2224.56,-1011.46 2235.36,-975.8 2299.53,-978.64"/>
+<g id="a_edge17&#45;label"><a xlink:title="link_keypad:4&lt;grey:violet&gt;deutsch_console_connector:4">
+<text text-anchor="middle" x="1897.04" y="-1047.4" font-family="Times,serif" font-size="14.00">link_keypad:4&lt;grey:violet&gt;deutsch_console_connector:4</text>
+</a>
+</g>
+</g>
+<!-- link_keypad&#45;&#45;deutsch_console_connector -->
+<g id="edge18" class="edge">
+<title>link_keypad:3&#45;&#45;deutsch_console_connector:5</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1463.04,-1000.64C1539.74,-1000.64 2077.24,-987.87 2153.05,-978.67 2216,-972.6 2229.8,-949.58 2299.53,-947.64"/>
+<path fill="none" stroke="grey" stroke-width="2.5" d="M1463.04,-1002.64C1539.79,-1002.64 2077.29,-989.87 2153.29,-980.65 2217.72,-973.63 2231.52,-950.61 2299.53,-949.64"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M1463.04,-1004.64C1539.84,-1004.64 2077.33,-991.87 2153.53,-982.64 2219.43,-974.66 2233.23,-951.64 2299.53,-951.64"/>
+<path fill="none" stroke="grey" stroke-width="2.5" d="M1463.04,-1006.64C1539.88,-1006.64 2077.38,-993.87 2153.78,-984.62 2221.15,-975.68 2234.95,-952.66 2299.53,-953.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1463.04,-1008.64C1539.93,-1008.63 2077.43,-995.86 2154.02,-986.61 2222.87,-976.71 2236.67,-953.69 2299.53,-955.64"/>
+<g id="a_edge18&#45;label"><a xlink:title="link_keypad:3&lt;grey:white&gt;deutsch_console_connector:5">
+<text text-anchor="middle" x="1897.04" y="-1005.44" font-family="Times,serif" font-size="14.00">link_keypad:3&lt;grey:white&gt;deutsch_console_connector:5</text>
+</a>
+</g>
+</g>
+<!-- coolant_temp_gauge -->
+<g id="node10" class="node">
+<title>coolant_temp_gauge</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="1330.04,-789.64 1330.04,-951.64 1492.04,-951.64 1492.04,-789.64 1330.04,-789.64"/>
+<text text-anchor="middle" x="1411.04" y="-936.44" font-family="Times,serif" font-size="14.00">coolant_temp_gauge</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-928.64 1492.04,-928.64 "/>
+<text text-anchor="middle" x="1411.04" y="-913.44" font-family="Times,serif" font-size="14.00">Ground</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-905.64 1492.04,-905.64 "/>
+<text text-anchor="middle" x="1411.04" y="-890.44" font-family="Times,serif" font-size="14.00">12v</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-882.64 1492.04,-882.64 "/>
+<text text-anchor="middle" x="1411.04" y="-867.44" font-family="Times,serif" font-size="14.00">RS232</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-859.64 1492.04,-859.64 "/>
+<text text-anchor="middle" x="1411.04" y="-844.44" font-family="Times,serif" font-size="14.00">5vOut</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-836.64 1492.04,-836.64 "/>
+<text text-anchor="middle" x="1411.04" y="-821.44" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-813.64 1492.04,-813.64 "/>
+<text text-anchor="middle" x="1411.04" y="-797.94" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
+<!-- coolant_temp_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge19" class="edge">
+<title>coolant_temp_gauge:12v&#45;&#45;deutsch_console_connector:1</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-891.64C1545.86,-892.62 1560.16,-916.88 1588.21,-959.54 1650.24,-1057.21 1553.34,-1140.71 1641.79,-1209.04 1684.88,-1244.4 2101.58,-1232.2 2152.71,-1208.77 2241.44,-1170.53 2199.04,-1044.27 2299.53,-1041.64"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M1493.04,-893.64C1544.13,-893.64 1558.43,-917.9 1586.54,-960.64 1648.93,-1055.7 1552.03,-1139.2 1640.54,-1210.6 1684.94,-1246.4 2101.63,-1234.2 2153.53,-1210.6 2243.34,-1169.9 2200.94,-1043.64 2299.53,-1043.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-895.64C1542.41,-894.65 1556.71,-918.91 1584.86,-961.73 1647.63,-1054.18 1550.73,-1137.68 1639.28,-1212.15 1684.99,-1248.4 2101.69,-1236.2 2154.36,-1212.42 2245.23,-1169.26 2202.83,-1043 2299.53,-1045.64"/>
+<g id="a_edge19&#45;label"><a xlink:title="coolant_temp_gauge:12v&lt;red&gt;deutsch_console_connector:1">
+<text text-anchor="middle" x="1897.04" y="-1237.4" font-family="Times,serif" font-size="14.00">coolant_temp_gauge:12v&lt;red&gt;deutsch_console_connector:1</text>
+</a>
+</g>
+</g>
+<!-- coolant_temp_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge20" class="edge">
+<title>coolant_temp_gauge:Ground&#45;&#45;deutsch_console_connector:2</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-914.64C1561.36,-915.47 1575.86,-935.73 1640.77,-942.65 1866.02,-969.51 1928.52,-921.49 2153.93,-965.67 2223.18,-980.66 2232.48,-1020.18 2299.53,-1018.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-916.64C1559.74,-916.64 1574.24,-936.9 1640.54,-944.64 1867.24,-971.1 1929.74,-923.08 2153.53,-967.64 2221.23,-981.12 2230.53,-1020.64 2299.53,-1020.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-918.64C1558.11,-917.8 1572.61,-938.06 1640.3,-946.62 1868.45,-972.68 1930.95,-924.66 2153.14,-969.6 2219.29,-981.57 2228.59,-1021.09 2299.53,-1022.64"/>
+<g id="a_edge20&#45;label"><a xlink:title="coolant_temp_gauge:Ground&lt;black&gt;deutsch_console_connector:2">
+<text text-anchor="middle" x="1897.04" y="-971.44" font-family="Times,serif" font-size="14.00">coolant_temp_gauge:Ground&lt;black&gt;deutsch_console_connector:2</text>
+</a>
+</g>
+</g>
+<!-- coolant_temp_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge21" class="edge">
+<title>coolant_temp_gauge:Sig+&#45;&#45;deutsch_console_connector:6</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-822.64C1570.03,-824.63 1570.23,-886.6 1641.07,-904.71 1658.29,-909.53 2281.29,-926.64 2299.53,-926.64"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M1493.04,-824.64C1568.04,-824.64 1568.24,-886.61 1640.54,-906.64 1658.24,-911.53 2281.23,-928.64 2299.53,-928.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-826.64C1566.04,-824.64 1566.24,-886.61 1640,-908.56 1658.18,-913.53 2281.18,-930.64 2299.53,-930.64"/>
+<g id="a_edge21&#45;label"><a xlink:title="coolant_temp_gauge:Sig+&lt;white&gt;deutsch_console_connector:6">
+<text text-anchor="middle" x="1897.04" y="-929.44" font-family="Times,serif" font-size="14.00">coolant_temp_gauge:Sig+&lt;white&gt;deutsch_console_connector:6</text>
+</a>
+</g>
+</g>
+<!-- coolant_temp_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge22" class="edge">
+<title>coolant_temp_gauge:Sig&#45;&#45;&#45;deutsch_console_connector:7</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-799.64C1567.02,-801.42 1572.42,-851.89 1640.99,-866.69 1751.42,-892.83 2039.72,-876.54 2153.69,-885.64 2220.01,-891.31 2235.41,-904.1 2299.53,-903.64"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M1493.04,-801.64C1565.03,-801.64 1570.43,-852.11 1640.53,-868.64 1751.53,-894.83 2039.83,-878.54 2153.53,-887.64 2218.73,-892.85 2234.13,-905.64 2299.53,-905.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-803.64C1563.05,-801.85 1568.45,-852.32 1640.08,-870.58 1751.65,-896.82 2039.95,-880.53 2153.38,-889.63 2217.46,-894.38 2232.86,-907.17 2299.53,-907.64"/>
+<g id="a_edge22&#45;label"><a xlink:title="coolant_temp_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:7">
+<text text-anchor="middle" x="1897.04" y="-891.44" font-family="Times,serif" font-size="14.00">coolant_temp_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:7</text>
+</a>
+</g>
+</g>
+<!-- transmission_temp_gauge -->
+<g id="node11" class="node">
+<title>transmission_temp_gauge</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="1309.54,-609.64 1309.54,-771.64 1512.54,-771.64 1512.54,-609.64 1309.54,-609.64"/>
+<text text-anchor="middle" x="1411.04" y="-756.44" font-family="Times,serif" font-size="14.00">transmission_temp_gauge</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-748.64 1512.54,-748.64 "/>
+<text text-anchor="middle" x="1411.04" y="-733.44" font-family="Times,serif" font-size="14.00">Ground</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-725.64 1512.54,-725.64 "/>
+<text text-anchor="middle" x="1411.04" y="-710.44" font-family="Times,serif" font-size="14.00">12v</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-702.64 1512.54,-702.64 "/>
+<text text-anchor="middle" x="1411.04" y="-687.44" font-family="Times,serif" font-size="14.00">RS232</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-679.64 1512.54,-679.64 "/>
+<text text-anchor="middle" x="1411.04" y="-664.44" font-family="Times,serif" font-size="14.00">5vOut</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-656.64 1512.54,-656.64 "/>
+<text text-anchor="middle" x="1411.04" y="-641.44" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-633.64 1512.54,-633.64 "/>
+<text text-anchor="middle" x="1411.04" y="-617.94" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
+<!-- transmission_temp_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge23" class="edge">
+<title>transmission_temp_gauge:12v&#45;&#45;deutsch_console_connector:1</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-711.64C1559.85,-713.07 1568.15,-741.19 1588.31,-779.71 1628.59,-857.79 1577.19,-1110.2 1641.85,-1165.09 1683.45,-1202 2099.95,-1184.2 2152.85,-1164.72 2231.27,-1137.88 2212.77,-1044.02 2299.53,-1041.64"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M1514.04,-713.64C1557.93,-713.64 1566.23,-741.76 1586.53,-780.64 1626.63,-857.39 1575.24,-1109.8 1640.54,-1166.6 1683.54,-1204 2100.03,-1186.2 2153.53,-1166.6 2233.23,-1137.5 2214.73,-1043.64 2299.53,-1043.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-715.64C1556.02,-714.2 1564.32,-742.32 1584.76,-781.56 1624.68,-856.99 1573.28,-1109.4 1639.22,-1168.11 1683.62,-1205.99 2100.12,-1188.19 2154.22,-1168.47 2235.2,-1137.11 2216.7,-1043.25 2299.53,-1045.64"/>
+<g id="a_edge23&#45;label"><a xlink:title="transmission_temp_gauge:12v&lt;red&gt;deutsch_console_connector:1">
+<text text-anchor="middle" x="1897.04" y="-1192.4" font-family="Times,serif" font-size="14.00">transmission_temp_gauge:12v&lt;red&gt;deutsch_console_connector:1</text>
+</a>
+</g>
+</g>
+<!-- transmission_temp_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge24" class="edge">
+<title>transmission_temp_gauge:Ground&#45;&#45;deutsch_console_connector:2</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-734.64C1553.69,-736.21 1558.39,-757.51 1587.74,-779.04 1614.62,-800.58 1612.32,-818.39 1641.3,-828.79 1745.46,-872.27 2050.36,-798.01 2154.41,-847.84 2245.43,-893.81 2201.53,-1021.29 2299.53,-1018.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-736.64C1551.74,-736.64 1556.44,-757.94 1586.54,-780.64 1612.64,-800.33 1610.34,-818.14 1640.54,-830.64 1745.93,-874.22 2050.84,-799.96 2153.53,-849.64 2243.54,-893.16 2199.64,-1020.64 2299.53,-1020.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-738.64C1549.78,-737.07 1554.48,-758.37 1585.33,-782.23 1610.65,-800.07 1608.35,-817.88 1639.77,-832.48 1746.41,-876.16 2051.31,-801.9 2152.66,-851.44 2241.64,-892.5 2197.74,-1019.98 2299.53,-1022.64"/>
+<g id="a_edge24&#45;label"><a xlink:title="transmission_temp_gauge:Ground&lt;black&gt;deutsch_console_connector:2">
+<text text-anchor="middle" x="1897.04" y="-853.44" font-family="Times,serif" font-size="14.00">transmission_temp_gauge:Ground&lt;black&gt;deutsch_console_connector:2</text>
+</a>
+</g>
+</g>
+<!-- transmission_temp_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge25" class="edge">
+<title>transmission_temp_gauge:Sig+&#45;&#45;deutsch_console_connector:8</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-642.64C1590.49,-645.04 1573.29,-727.38 1641.28,-752.78 1746.16,-795.03 2045.26,-738.49 2154.19,-775.75 2230.82,-803.83 2221.82,-881.87 2299.53,-879.64"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M1514.04,-644.64C1588.54,-644.64 1571.34,-726.98 1640.54,-754.64 1746.54,-797 2045.64,-740.46 2153.53,-777.64 2228.84,-803.6 2219.84,-881.64 2299.53,-881.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-646.64C1586.58,-644.23 1569.38,-726.57 1639.79,-756.49 1746.91,-798.96 2046.01,-742.42 2152.88,-779.53 2226.85,-803.37 2217.85,-881.41 2299.53,-883.64"/>
+<g id="a_edge25&#45;label"><a xlink:title="transmission_temp_gauge:Sig+&lt;white&gt;deutsch_console_connector:8">
+<text text-anchor="middle" x="1897.04" y="-781.44" font-family="Times,serif" font-size="14.00">transmission_temp_gauge:Sig+&lt;white&gt;deutsch_console_connector:8</text>
+</a>
+</g>
+</g>
+<!-- transmission_temp_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge26" class="edge">
+<title>transmission_temp_gauge:Sig&#45;&#45;&#45;deutsch_console_connector:9</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-619.64C1586.32,-621.92 1576.22,-693.43 1641.2,-714.75 1747.64,-752.78 2046.74,-692.58 2154.26,-733.77 2234.6,-766.59 2216.7,-859.02 2299.53,-856.64"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M1514.04,-621.64C1584.34,-621.64 1574.24,-693.15 1640.54,-716.64 1748.04,-754.74 2047.13,-694.54 2153.53,-735.64 2232.64,-766.21 2214.74,-858.64 2299.53,-858.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-623.64C1582.35,-621.36 1572.25,-692.87 1639.87,-718.52 1748.43,-756.7 2047.53,-696.5 2152.81,-737.5 2230.67,-765.83 2212.77,-858.26 2299.53,-860.64"/>
+<g id="a_edge26&#45;label"><a xlink:title="transmission_temp_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:9">
+<text text-anchor="middle" x="1897.04" y="-739.44" font-family="Times,serif" font-size="14.00">transmission_temp_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:9</text>
+</a>
+</g>
+</g>
+<!-- fuel_pressure_gauge -->
+<g id="node12" class="node">
+<title>fuel_pressure_gauge</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="1329.04,-429.64 1329.04,-591.64 1493.04,-591.64 1493.04,-429.64 1329.04,-429.64"/>
+<text text-anchor="middle" x="1411.04" y="-576.44" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-568.64 1493.04,-568.64 "/>
+<text text-anchor="middle" x="1411.04" y="-553.44" font-family="Times,serif" font-size="14.00">Ground</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-545.64 1493.04,-545.64 "/>
+<text text-anchor="middle" x="1411.04" y="-530.44" font-family="Times,serif" font-size="14.00">12v</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-522.64 1493.04,-522.64 "/>
+<text text-anchor="middle" x="1411.04" y="-507.44" font-family="Times,serif" font-size="14.00">RS232</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-499.64 1493.04,-499.64 "/>
+<text text-anchor="middle" x="1411.04" y="-484.44" font-family="Times,serif" font-size="14.00">5vOut</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-476.64 1493.04,-476.64 "/>
+<text text-anchor="middle" x="1411.04" y="-461.44" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-453.64 1493.04,-453.64 "/>
+<text text-anchor="middle" x="1411.04" y="-437.94" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
+<!-- fuel_pressure_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge27" class="edge">
+<title>fuel_pressure_gauge:12v&#45;&#45;deutsch_console_connector:1</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-531.64C1546.48,-532.5 1562.48,-555.72 1588.26,-599.62 1640.38,-689.51 1565.88,-991.03 1641.86,-1057.1 1682.97,-1094.5 2096.47,-1059.6 2153.43,-1056.6 2217.44,-1053.69 2233.14,-1042.03 2299.53,-1041.64"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M1494.04,-533.64C1544.84,-533.64 1560.84,-556.86 1586.53,-600.64 1638.44,-689.03 1563.94,-990.55 1640.54,-1058.6 1683.13,-1096.5 2096.64,-1061.6 2153.53,-1058.6 2218.63,-1055.3 2234.34,-1043.64 2299.53,-1043.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-535.64C1543.19,-534.77 1559.19,-557.99 1584.81,-601.65 1636.49,-688.55 1561.99,-990.07 1639.21,-1060.09 1683.3,-1098.49 2096.8,-1063.59 2153.64,-1060.59 2219.83,-1056.9 2235.53,-1045.24 2299.53,-1045.64"/>
+<g id="a_edge27&#45;label"><a xlink:title="fuel_pressure_gauge:12v&lt;red&gt;deutsch_console_connector:1">
+<text text-anchor="middle" x="1897.04" y="-1080.4" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge:12v&lt;red&gt;deutsch_console_connector:1</text>
+</a>
+</g>
+</g>
+<!-- fuel_pressure_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge28" class="edge">
+<title>fuel_pressure_gauge:Ground&#45;&#45;deutsch_console_connector:2</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-554.64C1540.46,-554.86 1558.16,-564.05 1588.06,-599.35 1645.02,-669.85 1572.22,-739.25 1641.77,-791.06 1685.13,-825.93 2103.23,-782.35 2154.49,-809.88 2254.87,-866.66 2188.07,-1021.43 2299.53,-1018.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-556.64C1539.54,-556.64 1557.24,-565.83 1586.54,-600.64 1643.63,-668.41 1570.83,-737.81 1640.54,-792.64 1685.34,-827.92 2103.43,-784.34 2153.53,-811.64 2253.03,-865.87 2186.23,-1020.64 2299.53,-1020.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-558.64C1538.61,-558.41 1556.31,-567.6 1585.01,-601.92 1642.25,-666.96 1569.45,-736.36 1639.3,-794.21 1685.54,-829.91 2103.64,-786.33 2152.58,-813.39 2251.2,-865.07 2184.4,-1019.84 2299.53,-1022.64"/>
+<g id="a_edge28&#45;label"><a xlink:title="fuel_pressure_gauge:Ground&lt;black&gt;deutsch_console_connector:2">
+<text text-anchor="middle" x="1897.04" y="-815.44" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge:Ground&lt;black&gt;deutsch_console_connector:2</text>
+</a>
+</g>
+</g>
+<!-- fuel_pressure_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge29" class="edge">
+<title>fuel_pressure_gauge:Sig+&#45;&#45;deutsch_console_connector:10</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-462.64C1553.59,-464.23 1591.99,-650.41 1641.5,-676.88 1690.39,-704.17 2100.79,-673.58 2154.31,-695.79 2237.78,-732.65 2212.18,-836.12 2299.53,-833.64"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M1494.04,-464.64C1551.63,-464.64 1590.03,-650.82 1640.53,-678.64 1690.54,-706.17 2100.93,-675.58 2153.54,-697.64 2235.84,-732.17 2210.23,-835.64 2299.53,-835.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-466.64C1549.68,-465.04 1588.08,-651.22 1639.57,-680.39 1690.68,-708.16 2101.08,-677.57 2152.76,-699.48 2233.89,-731.69 2208.29,-835.16 2299.53,-837.64"/>
+<g id="a_edge29&#45;label"><a xlink:title="fuel_pressure_gauge:Sig+&lt;white&gt;deutsch_console_connector:10">
+<text text-anchor="middle" x="1897.04" y="-701.44" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge:Sig+&lt;white&gt;deutsch_console_connector:10</text>
+</a>
+</g>
+</g>
+<!-- fuel_pressure_gauge&#45;&#45;deutsch_console_connector -->
+<g id="edge30" class="edge">
+<title>fuel_pressure_gauge:Sig&#45;&#45;&#45;deutsch_console_connector:11</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-439.64C1605.69,-442.39 1545.29,-590.03 1641.47,-638.87 1740.83,-692.05 2049.03,-610.88 2154.36,-657.81 2241.15,-698.78 2207.45,-813.2 2299.53,-810.64"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M1494.04,-441.64C1603.84,-441.64 1543.44,-589.28 1640.54,-640.64 1741.33,-693.99 2049.54,-612.82 2153.53,-659.64 2239.24,-698.22 2205.54,-812.64 2299.53,-812.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-443.64C1601.98,-440.88 1541.58,-588.52 1639.6,-642.4 1741.84,-695.92 2050.04,-614.75 2152.71,-661.46 2237.32,-697.65 2203.62,-812.07 2299.53,-814.64"/>
+<g id="a_edge30&#45;label"><a xlink:title="fuel_pressure_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:11">
+<text text-anchor="middle" x="1897.04" y="-663.44" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:11</text>
+</a>
+</g>
+</g>
+<!-- aem_coolant_temp_sensor -->
+<g id="node13" class="node">
+<title>aem_coolant_temp_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5224.53,-250.64 5224.53,-320.64 5427.53,-320.64 5427.53,-250.64 5224.53,-250.64"/>
+<text text-anchor="middle" x="5326.03" y="-305.44" font-family="Times,serif" font-size="14.00">aem_coolant_temp_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5224.53,-297.64 5427.53,-297.64 "/>
+<text text-anchor="middle" x="5326.03" y="-282.44" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5224.53,-274.64 5427.53,-274.64 "/>
+<text text-anchor="middle" x="5326.03" y="-258.94" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
+<!-- aem_transmission_temp_sensor -->
+<g id="node14" class="node">
+<title>aem_transmission_temp_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5204.53,-162.64 5204.53,-232.64 5447.53,-232.64 5447.53,-162.64 5204.53,-162.64"/>
+<text text-anchor="middle" x="5326.03" y="-217.44" font-family="Times,serif" font-size="14.00">aem_transmission_temp_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5204.53,-209.64 5447.53,-209.64 "/>
+<text text-anchor="middle" x="5326.03" y="-194.44" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5204.53,-186.64 5447.53,-186.64 "/>
+<text text-anchor="middle" x="5326.03" y="-170.94" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
+<!-- aem_fuel_pressure_sensor -->
+<g id="node15" class="node">
+<title>aem_fuel_pressure_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5224.03,-74.63 5224.03,-144.63 5428.03,-144.63 5428.03,-74.63 5224.03,-74.63"/>
+<text text-anchor="middle" x="5326.03" y="-129.44" font-family="Times,serif" font-size="14.00">aem_fuel_pressure_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5224.03,-121.63 5428.03,-121.63 "/>
+<text text-anchor="middle" x="5326.03" y="-106.43" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5224.03,-98.63 5428.03,-98.63 "/>
+<text text-anchor="middle" x="5326.03" y="-82.93" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
 <!-- battery -->
-<g id="node3" class="node">
+<g id="node16" class="node">
 <title>battery</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="95.53,-311.64 95.53,-381.64 164.53,-381.64 164.53,-311.64 95.53,-311.64"/>
 <text text-anchor="middle" x="130.03" y="-366.44" font-family="Times,serif" font-size="14.00">battery</text>
@@ -73,7 +425,7 @@
 <text text-anchor="middle" x="130.03" y="-319.94" font-family="Times,serif" font-size="14.00">neg</text>
 </g>
 <!-- main_fuse -->
-<g id="node4" class="node">
+<g id="node17" class="node">
 <title>main_fuse</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="605.03,-335.14 605.03,-382.14 694.03,-382.14 694.03,-335.14 605.03,-335.14"/>
 <text text-anchor="middle" x="649.53" y="-366.94" font-family="Times,serif" font-size="14.00">main_fuse</text>
@@ -189,42 +541,6 @@
 </a>
 </g>
 </g>
-<!-- deutsch_console_connector -->
-<g id="node26" class="node">
-<title>deutsch_console_connector</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2300.54,-709.14 2300.54,-1078.14 2510.54,-1078.14 2510.54,-709.14 2300.54,-709.14"/>
-<text text-anchor="middle" x="2405.54" y="-1062.94" font-family="Times,serif" font-size="14.00">deutsch_console_connector</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-1055.14 2510.54,-1055.14 "/>
-<text text-anchor="middle" x="2405.54" y="-1039.94" font-family="Times,serif" font-size="14.00">1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-1032.14 2510.54,-1032.14 "/>
-<text text-anchor="middle" x="2405.54" y="-1016.94" font-family="Times,serif" font-size="14.00">2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-1009.14 2510.54,-1009.14 "/>
-<text text-anchor="middle" x="2405.54" y="-993.94" font-family="Times,serif" font-size="14.00">3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-986.14 2510.54,-986.14 "/>
-<text text-anchor="middle" x="2405.54" y="-970.94" font-family="Times,serif" font-size="14.00">4</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-963.14 2510.54,-963.14 "/>
-<text text-anchor="middle" x="2405.54" y="-947.94" font-family="Times,serif" font-size="14.00">5</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-940.14 2510.54,-940.14 "/>
-<text text-anchor="middle" x="2405.54" y="-924.94" font-family="Times,serif" font-size="14.00">6</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-917.14 2510.54,-917.14 "/>
-<text text-anchor="middle" x="2405.54" y="-901.94" font-family="Times,serif" font-size="14.00">7</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-894.14 2510.54,-894.14 "/>
-<text text-anchor="middle" x="2405.54" y="-878.94" font-family="Times,serif" font-size="14.00">8</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-871.14 2510.54,-871.14 "/>
-<text text-anchor="middle" x="2405.54" y="-855.94" font-family="Times,serif" font-size="14.00">9</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-848.14 2510.54,-848.14 "/>
-<text text-anchor="middle" x="2405.54" y="-832.94" font-family="Times,serif" font-size="14.00">10</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-825.14 2510.54,-825.14 "/>
-<text text-anchor="middle" x="2405.54" y="-809.94" font-family="Times,serif" font-size="14.00">11</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-802.14 2510.54,-802.14 "/>
-<text text-anchor="middle" x="2405.54" y="-786.94" font-family="Times,serif" font-size="14.00">12</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-779.14 2510.54,-779.14 "/>
-<text text-anchor="middle" x="2405.54" y="-763.94" font-family="Times,serif" font-size="14.00">13</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-756.14 2510.54,-756.14 "/>
-<text text-anchor="middle" x="2405.54" y="-740.94" font-family="Times,serif" font-size="14.00">14</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="2300.54,-733.14 2510.54,-733.14 "/>
-<text text-anchor="middle" x="2405.54" y="-717.44" font-family="Times,serif" font-size="14.00">15</text>
-</g>
 <!-- battery&#45;&#45;deutsch_console_connector -->
 <g id="edge13" class="edge">
 <title>battery:neg&#45;&#45;deutsch_console_connector:2</title>
@@ -262,7 +578,7 @@
 </g>
 </g>
 <!-- kill_switch -->
-<g id="node5" class="node">
+<g id="node18" class="node">
 <title>kill_switch</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1365.04,-266.64 1365.04,-382.64 1457.04,-382.64 1457.04,-266.64 1365.04,-266.64"/>
 <text text-anchor="middle" x="1411.04" y="-367.44" font-family="Times,serif" font-size="14.00">kill_switch</text>
@@ -298,7 +614,7 @@
 </g>
 </g>
 <!-- kill_switch_resistor -->
-<g id="node6" class="node">
+<g id="node19" class="node">
 <title>kill_switch_resistor</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="2328.54,-247.14 2328.54,-294.14 2482.54,-294.14 2482.54,-247.14 2328.54,-247.14"/>
 <text text-anchor="middle" x="2405.54" y="-278.94" font-family="Times,serif" font-size="14.00">kill_switch_resistor</text>
@@ -317,7 +633,7 @@
 </g>
 </g>
 <!-- ign_switch -->
-<g id="node7" class="node">
+<g id="node20" class="node">
 <title>ign_switch</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="2359.54,-312.64 2359.54,-382.64 2451.54,-382.64 2451.54,-312.64 2359.54,-312.64"/>
 <text text-anchor="middle" x="2405.54" y="-367.44" font-family="Times,serif" font-size="14.00">ign_switch</text>
@@ -378,7 +694,7 @@
 </g>
 </g>
 <!-- alternator -->
-<g id="node8" class="node">
+<g id="node21" class="node">
 <title>alternator</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="605.03,-247.64 605.03,-317.64 694.03,-317.64 694.03,-247.64 605.03,-247.64"/>
 <text text-anchor="middle" x="649.53" y="-302.44" font-family="Times,serif" font-size="14.00">alternator</text>
@@ -399,7 +715,7 @@
 </g>
 </g>
 <!-- icm -->
-<g id="node9" class="node">
+<g id="node22" class="node">
 <title>icm</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="4329.03,-2220.1 4329.03,-2405.1 4453.03,-2405.1 4453.03,-2220.1 4329.03,-2220.1"/>
 <text text-anchor="middle" x="4391.03" y="-2389.9" font-family="Times,serif" font-size="14.00">icm</text>
@@ -419,7 +735,7 @@
 <text text-anchor="middle" x="4391.03" y="-2228.4" font-family="Times,serif" font-size="14.00">Transistor1coil</text>
 </g>
 <!-- coil -->
-<g id="node10" class="node">
+<g id="node23" class="node">
 <title>coil</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="5297.03,-2220.6 5297.03,-2336.6 5355.03,-2336.6 5355.03,-2220.6 5297.03,-2220.6"/>
 <text text-anchor="middle" x="5326.03" y="-2321.4" font-family="Times,serif" font-size="14.00">coil</text>
@@ -475,322 +791,6 @@
 <text text-anchor="middle" x="4891.53" y="-2209.4" font-family="Times,serif" font-size="14.00">icm:Gnd&lt;black&gt;engine_ground:Gnd</text>
 </a>
 </g>
-</g>
-<!-- link_keypad -->
-<g id="node11" class="node">
-<title>link_keypad</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1360.54,-969.64 1360.54,-1085.64 1461.54,-1085.64 1461.54,-969.64 1360.54,-969.64"/>
-<text text-anchor="middle" x="1411.04" y="-1070.44" font-family="Times,serif" font-size="14.00">link_keypad</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1360.54,-1062.64 1461.54,-1062.64 "/>
-<text text-anchor="middle" x="1411.04" y="-1047.44" font-family="Times,serif" font-size="14.00">1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1360.54,-1039.64 1461.54,-1039.64 "/>
-<text text-anchor="middle" x="1411.04" y="-1024.44" font-family="Times,serif" font-size="14.00">2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1360.54,-1016.64 1461.54,-1016.64 "/>
-<text text-anchor="middle" x="1411.04" y="-1001.44" font-family="Times,serif" font-size="14.00">3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1360.54,-993.64 1461.54,-993.64 "/>
-<text text-anchor="middle" x="1411.04" y="-977.94" font-family="Times,serif" font-size="14.00">4</text>
-</g>
-<!-- link_keypad&#45;&#45;deutsch_console_connector -->
-<g id="edge17" class="edge">
-<title>link_keypad:4&#45;&#45;deutsch_console_connector:4</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1463.04,-977.64C1547.35,-979.73 1563.75,-1010.01 1640.97,-1016.66 1867.89,-1041.3 1928.79,-1051.35 2152.93,-1016.68 2216.91,-1009.14 2227.71,-973.48 2299.53,-970.64"/>
-<path fill="none" stroke="grey" stroke-width="2.5" d="M1463.04,-979.64C1545.59,-980.68 1561.99,-1010.96 1640.75,-1018.65 1867.56,-1043.27 1928.46,-1053.32 2153.23,-1018.66 2218.82,-1009.72 2229.62,-974.06 2299.53,-972.64"/>
-<path fill="none" stroke="violet" stroke-width="2.5" d="M1463.04,-981.64C1543.83,-981.64 1560.23,-1011.92 1640.53,-1020.64 1867.24,-1045.25 1928.13,-1055.3 2153.53,-1020.64 2220.73,-1010.3 2231.53,-974.64 2299.53,-974.64"/>
-<path fill="none" stroke="grey" stroke-width="2.5" d="M1463.04,-983.64C1542.08,-982.59 1558.48,-1012.87 1640.32,-1022.62 1866.91,-1047.22 1927.81,-1057.27 2153.84,-1022.61 2222.65,-1010.88 2233.45,-975.22 2299.53,-976.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1463.04,-985.64C1540.32,-983.54 1556.72,-1013.82 1640.1,-1024.61 1866.58,-1049.19 1927.48,-1059.24 2154.14,-1024.59 2224.56,-1011.46 2235.36,-975.8 2299.53,-978.64"/>
-<g id="a_edge17&#45;label"><a xlink:title="link_keypad:4&lt;grey:violet&gt;deutsch_console_connector:4">
-<text text-anchor="middle" x="1897.04" y="-1047.4" font-family="Times,serif" font-size="14.00">link_keypad:4&lt;grey:violet&gt;deutsch_console_connector:4</text>
-</a>
-</g>
-</g>
-<!-- link_keypad&#45;&#45;deutsch_console_connector -->
-<g id="edge18" class="edge">
-<title>link_keypad:3&#45;&#45;deutsch_console_connector:5</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1463.04,-1000.64C1539.74,-1000.64 2077.24,-987.87 2153.05,-978.67 2216,-972.6 2229.8,-949.58 2299.53,-947.64"/>
-<path fill="none" stroke="grey" stroke-width="2.5" d="M1463.04,-1002.64C1539.79,-1002.64 2077.29,-989.87 2153.29,-980.65 2217.72,-973.63 2231.52,-950.61 2299.53,-949.64"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M1463.04,-1004.64C1539.84,-1004.64 2077.33,-991.87 2153.53,-982.64 2219.43,-974.66 2233.23,-951.64 2299.53,-951.64"/>
-<path fill="none" stroke="grey" stroke-width="2.5" d="M1463.04,-1006.64C1539.88,-1006.64 2077.38,-993.87 2153.78,-984.62 2221.15,-975.68 2234.95,-952.66 2299.53,-953.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1463.04,-1008.64C1539.93,-1008.63 2077.43,-995.86 2154.02,-986.61 2222.87,-976.71 2236.67,-953.69 2299.53,-955.64"/>
-<g id="a_edge18&#45;label"><a xlink:title="link_keypad:3&lt;grey:white&gt;deutsch_console_connector:5">
-<text text-anchor="middle" x="1897.04" y="-1005.44" font-family="Times,serif" font-size="14.00">link_keypad:3&lt;grey:white&gt;deutsch_console_connector:5</text>
-</a>
-</g>
-</g>
-<!-- coolant_temp_gauge -->
-<g id="node12" class="node">
-<title>coolant_temp_gauge</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1330.04,-789.64 1330.04,-951.64 1492.04,-951.64 1492.04,-789.64 1330.04,-789.64"/>
-<text text-anchor="middle" x="1411.04" y="-936.44" font-family="Times,serif" font-size="14.00">coolant_temp_gauge</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-928.64 1492.04,-928.64 "/>
-<text text-anchor="middle" x="1411.04" y="-913.44" font-family="Times,serif" font-size="14.00">Ground</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-905.64 1492.04,-905.64 "/>
-<text text-anchor="middle" x="1411.04" y="-890.44" font-family="Times,serif" font-size="14.00">12v</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-882.64 1492.04,-882.64 "/>
-<text text-anchor="middle" x="1411.04" y="-867.44" font-family="Times,serif" font-size="14.00">RS232</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-859.64 1492.04,-859.64 "/>
-<text text-anchor="middle" x="1411.04" y="-844.44" font-family="Times,serif" font-size="14.00">5vOut</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-836.64 1492.04,-836.64 "/>
-<text text-anchor="middle" x="1411.04" y="-821.44" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1330.04,-813.64 1492.04,-813.64 "/>
-<text text-anchor="middle" x="1411.04" y="-797.94" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- coolant_temp_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge19" class="edge">
-<title>coolant_temp_gauge:12v&#45;&#45;deutsch_console_connector:1</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-891.64C1545.86,-892.62 1560.16,-916.88 1588.21,-959.54 1650.24,-1057.21 1553.34,-1140.71 1641.79,-1209.04 1684.88,-1244.4 2101.58,-1232.2 2152.71,-1208.77 2241.44,-1170.53 2199.04,-1044.27 2299.53,-1041.64"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M1493.04,-893.64C1544.13,-893.64 1558.43,-917.9 1586.54,-960.64 1648.93,-1055.7 1552.03,-1139.2 1640.54,-1210.6 1684.94,-1246.4 2101.63,-1234.2 2153.53,-1210.6 2243.34,-1169.9 2200.94,-1043.64 2299.53,-1043.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-895.64C1542.41,-894.65 1556.71,-918.91 1584.86,-961.73 1647.63,-1054.18 1550.73,-1137.68 1639.28,-1212.15 1684.99,-1248.4 2101.69,-1236.2 2154.36,-1212.42 2245.23,-1169.26 2202.83,-1043 2299.53,-1045.64"/>
-<g id="a_edge19&#45;label"><a xlink:title="coolant_temp_gauge:12v&lt;red&gt;deutsch_console_connector:1">
-<text text-anchor="middle" x="1897.04" y="-1237.4" font-family="Times,serif" font-size="14.00">coolant_temp_gauge:12v&lt;red&gt;deutsch_console_connector:1</text>
-</a>
-</g>
-</g>
-<!-- coolant_temp_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge20" class="edge">
-<title>coolant_temp_gauge:Ground&#45;&#45;deutsch_console_connector:2</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-914.64C1561.36,-915.47 1575.86,-935.73 1640.77,-942.65 1866.02,-969.51 1928.52,-921.49 2153.93,-965.67 2223.18,-980.66 2232.48,-1020.18 2299.53,-1018.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-916.64C1559.74,-916.64 1574.24,-936.9 1640.54,-944.64 1867.24,-971.1 1929.74,-923.08 2153.53,-967.64 2221.23,-981.12 2230.53,-1020.64 2299.53,-1020.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-918.64C1558.11,-917.8 1572.61,-938.06 1640.3,-946.62 1868.45,-972.68 1930.95,-924.66 2153.14,-969.6 2219.29,-981.57 2228.59,-1021.09 2299.53,-1022.64"/>
-<g id="a_edge20&#45;label"><a xlink:title="coolant_temp_gauge:Ground&lt;black&gt;deutsch_console_connector:2">
-<text text-anchor="middle" x="1897.04" y="-971.44" font-family="Times,serif" font-size="14.00">coolant_temp_gauge:Ground&lt;black&gt;deutsch_console_connector:2</text>
-</a>
-</g>
-</g>
-<!-- coolant_temp_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge21" class="edge">
-<title>coolant_temp_gauge:Sig+&#45;&#45;deutsch_console_connector:6</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-822.64C1570.03,-824.63 1570.23,-886.6 1641.07,-904.71 1658.29,-909.53 2281.29,-926.64 2299.53,-926.64"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M1493.04,-824.64C1568.04,-824.64 1568.24,-886.61 1640.54,-906.64 1658.24,-911.53 2281.23,-928.64 2299.53,-928.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-826.64C1566.04,-824.64 1566.24,-886.61 1640,-908.56 1658.18,-913.53 2281.18,-930.64 2299.53,-930.64"/>
-<g id="a_edge21&#45;label"><a xlink:title="coolant_temp_gauge:Sig+&lt;white&gt;deutsch_console_connector:6">
-<text text-anchor="middle" x="1897.04" y="-929.44" font-family="Times,serif" font-size="14.00">coolant_temp_gauge:Sig+&lt;white&gt;deutsch_console_connector:6</text>
-</a>
-</g>
-</g>
-<!-- coolant_temp_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge22" class="edge">
-<title>coolant_temp_gauge:Sig&#45;&#45;&#45;deutsch_console_connector:7</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-799.64C1567.02,-801.42 1572.42,-851.89 1640.99,-866.69 1751.42,-892.83 2039.72,-876.54 2153.69,-885.64 2220.01,-891.31 2235.41,-904.1 2299.53,-903.64"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M1493.04,-801.64C1565.03,-801.64 1570.43,-852.11 1640.53,-868.64 1751.53,-894.83 2039.83,-878.54 2153.53,-887.64 2218.73,-892.85 2234.13,-905.64 2299.53,-905.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1493.04,-803.64C1563.05,-801.85 1568.45,-852.32 1640.08,-870.58 1751.65,-896.82 2039.95,-880.53 2153.38,-889.63 2217.46,-894.38 2232.86,-907.17 2299.53,-907.64"/>
-<g id="a_edge22&#45;label"><a xlink:title="coolant_temp_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:7">
-<text text-anchor="middle" x="1897.04" y="-891.44" font-family="Times,serif" font-size="14.00">coolant_temp_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:7</text>
-</a>
-</g>
-</g>
-<!-- transmission_temp_gauge -->
-<g id="node13" class="node">
-<title>transmission_temp_gauge</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1309.54,-609.64 1309.54,-771.64 1512.54,-771.64 1512.54,-609.64 1309.54,-609.64"/>
-<text text-anchor="middle" x="1411.04" y="-756.44" font-family="Times,serif" font-size="14.00">transmission_temp_gauge</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-748.64 1512.54,-748.64 "/>
-<text text-anchor="middle" x="1411.04" y="-733.44" font-family="Times,serif" font-size="14.00">Ground</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-725.64 1512.54,-725.64 "/>
-<text text-anchor="middle" x="1411.04" y="-710.44" font-family="Times,serif" font-size="14.00">12v</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-702.64 1512.54,-702.64 "/>
-<text text-anchor="middle" x="1411.04" y="-687.44" font-family="Times,serif" font-size="14.00">RS232</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-679.64 1512.54,-679.64 "/>
-<text text-anchor="middle" x="1411.04" y="-664.44" font-family="Times,serif" font-size="14.00">5vOut</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-656.64 1512.54,-656.64 "/>
-<text text-anchor="middle" x="1411.04" y="-641.44" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1309.54,-633.64 1512.54,-633.64 "/>
-<text text-anchor="middle" x="1411.04" y="-617.94" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- transmission_temp_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge23" class="edge">
-<title>transmission_temp_gauge:12v&#45;&#45;deutsch_console_connector:1</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-711.64C1559.85,-713.07 1568.15,-741.19 1588.31,-779.71 1628.59,-857.79 1577.19,-1110.2 1641.85,-1165.09 1683.45,-1202 2099.95,-1184.2 2152.85,-1164.72 2231.27,-1137.88 2212.77,-1044.02 2299.53,-1041.64"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M1514.04,-713.64C1557.93,-713.64 1566.23,-741.76 1586.53,-780.64 1626.63,-857.39 1575.24,-1109.8 1640.54,-1166.6 1683.54,-1204 2100.03,-1186.2 2153.53,-1166.6 2233.23,-1137.5 2214.73,-1043.64 2299.53,-1043.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-715.64C1556.02,-714.2 1564.32,-742.32 1584.76,-781.56 1624.68,-856.99 1573.28,-1109.4 1639.22,-1168.11 1683.62,-1205.99 2100.12,-1188.19 2154.22,-1168.47 2235.2,-1137.11 2216.7,-1043.25 2299.53,-1045.64"/>
-<g id="a_edge23&#45;label"><a xlink:title="transmission_temp_gauge:12v&lt;red&gt;deutsch_console_connector:1">
-<text text-anchor="middle" x="1897.04" y="-1192.4" font-family="Times,serif" font-size="14.00">transmission_temp_gauge:12v&lt;red&gt;deutsch_console_connector:1</text>
-</a>
-</g>
-</g>
-<!-- transmission_temp_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge24" class="edge">
-<title>transmission_temp_gauge:Ground&#45;&#45;deutsch_console_connector:2</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-734.64C1553.69,-736.21 1558.39,-757.51 1587.74,-779.04 1614.62,-800.58 1612.32,-818.39 1641.3,-828.79 1745.46,-872.27 2050.36,-798.01 2154.41,-847.84 2245.43,-893.81 2201.53,-1021.29 2299.53,-1018.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-736.64C1551.74,-736.64 1556.44,-757.94 1586.54,-780.64 1612.64,-800.33 1610.34,-818.14 1640.54,-830.64 1745.93,-874.22 2050.84,-799.96 2153.53,-849.64 2243.54,-893.16 2199.64,-1020.64 2299.53,-1020.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-738.64C1549.78,-737.07 1554.48,-758.37 1585.33,-782.23 1610.65,-800.07 1608.35,-817.88 1639.77,-832.48 1746.41,-876.16 2051.31,-801.9 2152.66,-851.44 2241.64,-892.5 2197.74,-1019.98 2299.53,-1022.64"/>
-<g id="a_edge24&#45;label"><a xlink:title="transmission_temp_gauge:Ground&lt;black&gt;deutsch_console_connector:2">
-<text text-anchor="middle" x="1897.04" y="-853.44" font-family="Times,serif" font-size="14.00">transmission_temp_gauge:Ground&lt;black&gt;deutsch_console_connector:2</text>
-</a>
-</g>
-</g>
-<!-- transmission_temp_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge25" class="edge">
-<title>transmission_temp_gauge:Sig+&#45;&#45;deutsch_console_connector:8</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-642.64C1590.49,-645.04 1573.29,-727.38 1641.28,-752.78 1746.16,-795.03 2045.26,-738.49 2154.19,-775.75 2230.82,-803.83 2221.82,-881.87 2299.53,-879.64"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M1514.04,-644.64C1588.54,-644.64 1571.34,-726.98 1640.54,-754.64 1746.54,-797 2045.64,-740.46 2153.53,-777.64 2228.84,-803.6 2219.84,-881.64 2299.53,-881.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-646.64C1586.58,-644.23 1569.38,-726.57 1639.79,-756.49 1746.91,-798.96 2046.01,-742.42 2152.88,-779.53 2226.85,-803.37 2217.85,-881.41 2299.53,-883.64"/>
-<g id="a_edge25&#45;label"><a xlink:title="transmission_temp_gauge:Sig+&lt;white&gt;deutsch_console_connector:8">
-<text text-anchor="middle" x="1897.04" y="-781.44" font-family="Times,serif" font-size="14.00">transmission_temp_gauge:Sig+&lt;white&gt;deutsch_console_connector:8</text>
-</a>
-</g>
-</g>
-<!-- transmission_temp_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge26" class="edge">
-<title>transmission_temp_gauge:Sig&#45;&#45;&#45;deutsch_console_connector:9</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-619.64C1586.32,-621.92 1576.22,-693.43 1641.2,-714.75 1747.64,-752.78 2046.74,-692.58 2154.26,-733.77 2234.6,-766.59 2216.7,-859.02 2299.53,-856.64"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M1514.04,-621.64C1584.34,-621.64 1574.24,-693.15 1640.54,-716.64 1748.04,-754.74 2047.13,-694.54 2153.53,-735.64 2232.64,-766.21 2214.74,-858.64 2299.53,-858.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1514.04,-623.64C1582.35,-621.36 1572.25,-692.87 1639.87,-718.52 1748.43,-756.7 2047.53,-696.5 2152.81,-737.5 2230.67,-765.83 2212.77,-858.26 2299.53,-860.64"/>
-<g id="a_edge26&#45;label"><a xlink:title="transmission_temp_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:9">
-<text text-anchor="middle" x="1897.04" y="-739.44" font-family="Times,serif" font-size="14.00">transmission_temp_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:9</text>
-</a>
-</g>
-</g>
-<!-- fuel_pressure_gauge -->
-<g id="node14" class="node">
-<title>fuel_pressure_gauge</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1329.04,-429.64 1329.04,-591.64 1493.04,-591.64 1493.04,-429.64 1329.04,-429.64"/>
-<text text-anchor="middle" x="1411.04" y="-576.44" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-568.64 1493.04,-568.64 "/>
-<text text-anchor="middle" x="1411.04" y="-553.44" font-family="Times,serif" font-size="14.00">Ground</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-545.64 1493.04,-545.64 "/>
-<text text-anchor="middle" x="1411.04" y="-530.44" font-family="Times,serif" font-size="14.00">12v</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-522.64 1493.04,-522.64 "/>
-<text text-anchor="middle" x="1411.04" y="-507.44" font-family="Times,serif" font-size="14.00">RS232</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-499.64 1493.04,-499.64 "/>
-<text text-anchor="middle" x="1411.04" y="-484.44" font-family="Times,serif" font-size="14.00">5vOut</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-476.64 1493.04,-476.64 "/>
-<text text-anchor="middle" x="1411.04" y="-461.44" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="1329.04,-453.64 1493.04,-453.64 "/>
-<text text-anchor="middle" x="1411.04" y="-437.94" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- fuel_pressure_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge27" class="edge">
-<title>fuel_pressure_gauge:12v&#45;&#45;deutsch_console_connector:1</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-531.64C1546.48,-532.5 1562.48,-555.72 1588.26,-599.62 1640.38,-689.51 1565.88,-991.03 1641.86,-1057.1 1682.97,-1094.5 2096.47,-1059.6 2153.43,-1056.6 2217.44,-1053.69 2233.14,-1042.03 2299.53,-1041.64"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M1494.04,-533.64C1544.84,-533.64 1560.84,-556.86 1586.53,-600.64 1638.44,-689.03 1563.94,-990.55 1640.54,-1058.6 1683.13,-1096.5 2096.64,-1061.6 2153.53,-1058.6 2218.63,-1055.3 2234.34,-1043.64 2299.53,-1043.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-535.64C1543.19,-534.77 1559.19,-557.99 1584.81,-601.65 1636.49,-688.55 1561.99,-990.07 1639.21,-1060.09 1683.3,-1098.49 2096.8,-1063.59 2153.64,-1060.59 2219.83,-1056.9 2235.53,-1045.24 2299.53,-1045.64"/>
-<g id="a_edge27&#45;label"><a xlink:title="fuel_pressure_gauge:12v&lt;red&gt;deutsch_console_connector:1">
-<text text-anchor="middle" x="1897.04" y="-1080.4" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge:12v&lt;red&gt;deutsch_console_connector:1</text>
-</a>
-</g>
-</g>
-<!-- fuel_pressure_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge28" class="edge">
-<title>fuel_pressure_gauge:Ground&#45;&#45;deutsch_console_connector:2</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-554.64C1540.46,-554.86 1558.16,-564.05 1588.06,-599.35 1645.02,-669.85 1572.22,-739.25 1641.77,-791.06 1685.13,-825.93 2103.23,-782.35 2154.49,-809.88 2254.87,-866.66 2188.07,-1021.43 2299.53,-1018.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-556.64C1539.54,-556.64 1557.24,-565.83 1586.54,-600.64 1643.63,-668.41 1570.83,-737.81 1640.54,-792.64 1685.34,-827.92 2103.43,-784.34 2153.53,-811.64 2253.03,-865.87 2186.23,-1020.64 2299.53,-1020.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-558.64C1538.61,-558.41 1556.31,-567.6 1585.01,-601.92 1642.25,-666.96 1569.45,-736.36 1639.3,-794.21 1685.54,-829.91 2103.64,-786.33 2152.58,-813.39 2251.2,-865.07 2184.4,-1019.84 2299.53,-1022.64"/>
-<g id="a_edge28&#45;label"><a xlink:title="fuel_pressure_gauge:Ground&lt;black&gt;deutsch_console_connector:2">
-<text text-anchor="middle" x="1897.04" y="-815.44" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge:Ground&lt;black&gt;deutsch_console_connector:2</text>
-</a>
-</g>
-</g>
-<!-- fuel_pressure_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge29" class="edge">
-<title>fuel_pressure_gauge:Sig+&#45;&#45;deutsch_console_connector:10</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-462.64C1553.59,-464.23 1591.99,-650.41 1641.5,-676.88 1690.39,-704.17 2100.79,-673.58 2154.31,-695.79 2237.78,-732.65 2212.18,-836.12 2299.53,-833.64"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M1494.04,-464.64C1551.63,-464.64 1590.03,-650.82 1640.53,-678.64 1690.54,-706.17 2100.93,-675.58 2153.54,-697.64 2235.84,-732.17 2210.23,-835.64 2299.53,-835.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-466.64C1549.68,-465.04 1588.08,-651.22 1639.57,-680.39 1690.68,-708.16 2101.08,-677.57 2152.76,-699.48 2233.89,-731.69 2208.29,-835.16 2299.53,-837.64"/>
-<g id="a_edge29&#45;label"><a xlink:title="fuel_pressure_gauge:Sig+&lt;white&gt;deutsch_console_connector:10">
-<text text-anchor="middle" x="1897.04" y="-701.44" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge:Sig+&lt;white&gt;deutsch_console_connector:10</text>
-</a>
-</g>
-</g>
-<!-- fuel_pressure_gauge&#45;&#45;deutsch_console_connector -->
-<g id="edge30" class="edge">
-<title>fuel_pressure_gauge:Sig&#45;&#45;&#45;deutsch_console_connector:11</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-439.64C1605.69,-442.39 1545.29,-590.03 1641.47,-638.87 1740.83,-692.05 2049.03,-610.88 2154.36,-657.81 2241.15,-698.78 2207.45,-813.2 2299.53,-810.64"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M1494.04,-441.64C1603.84,-441.64 1543.44,-589.28 1640.54,-640.64 1741.33,-693.99 2049.54,-612.82 2153.53,-659.64 2239.24,-698.22 2205.54,-812.64 2299.53,-812.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1494.04,-443.64C1601.98,-440.88 1541.58,-588.52 1639.6,-642.4 1741.84,-695.92 2050.04,-614.75 2152.71,-661.46 2237.32,-697.65 2203.62,-812.07 2299.53,-814.64"/>
-<g id="a_edge30&#45;label"><a xlink:title="fuel_pressure_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:11">
-<text text-anchor="middle" x="1897.04" y="-663.44" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge:Sig&#45;&lt;white&gt;deutsch_console_connector:11</text>
-</a>
-</g>
-</g>
-<!-- aem_coolant_temp_sensor -->
-<g id="node15" class="node">
-<title>aem_coolant_temp_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5224.53,-250.64 5224.53,-320.64 5427.53,-320.64 5427.53,-250.64 5224.53,-250.64"/>
-<text text-anchor="middle" x="5326.03" y="-305.44" font-family="Times,serif" font-size="14.00">aem_coolant_temp_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5224.53,-297.64 5427.53,-297.64 "/>
-<text text-anchor="middle" x="5326.03" y="-282.44" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5224.53,-274.64 5427.53,-274.64 "/>
-<text text-anchor="middle" x="5326.03" y="-258.94" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- aem_transmission_temp_sensor -->
-<g id="node16" class="node">
-<title>aem_transmission_temp_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5204.53,-162.64 5204.53,-232.64 5447.53,-232.64 5447.53,-162.64 5204.53,-162.64"/>
-<text text-anchor="middle" x="5326.03" y="-217.44" font-family="Times,serif" font-size="14.00">aem_transmission_temp_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5204.53,-209.64 5447.53,-209.64 "/>
-<text text-anchor="middle" x="5326.03" y="-194.44" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5204.53,-186.64 5447.53,-186.64 "/>
-<text text-anchor="middle" x="5326.03" y="-170.94" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- aem_fuel_pressure_sensor -->
-<g id="node17" class="node">
-<title>aem_fuel_pressure_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5224.03,-74.63 5224.03,-144.63 5428.03,-144.63 5428.03,-74.63 5224.03,-74.63"/>
-<text text-anchor="middle" x="5326.03" y="-129.44" font-family="Times,serif" font-size="14.00">aem_fuel_pressure_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5224.03,-121.63 5428.03,-121.63 "/>
-<text text-anchor="middle" x="5326.03" y="-106.43" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5224.03,-98.63 5428.03,-98.63 "/>
-<text text-anchor="middle" x="5326.03" y="-82.93" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- injector1 -->
-<g id="node18" class="node">
-<title>injector1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-1125.6 5286.03,-1195.6 5366.03,-1195.6 5366.03,-1125.6 5286.03,-1125.6"/>
-<text text-anchor="middle" x="5326.03" y="-1180.4" font-family="Times,serif" font-size="14.00">injector1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-1172.6 5366.03,-1172.6 "/>
-<text text-anchor="middle" x="5326.03" y="-1157.4" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-1149.6 5366.03,-1149.6 "/>
-<text text-anchor="middle" x="5326.03" y="-1133.9" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector2 -->
-<g id="node19" class="node">
-<title>injector2</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-1037.6 5286.03,-1107.6 5366.03,-1107.6 5366.03,-1037.6 5286.03,-1037.6"/>
-<text text-anchor="middle" x="5326.03" y="-1092.4" font-family="Times,serif" font-size="14.00">injector2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-1084.6 5366.03,-1084.6 "/>
-<text text-anchor="middle" x="5326.03" y="-1069.4" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-1061.6 5366.03,-1061.6 "/>
-<text text-anchor="middle" x="5326.03" y="-1045.9" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector3 -->
-<g id="node20" class="node">
-<title>injector3</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-949.64 5286.03,-1019.64 5366.03,-1019.64 5366.03,-949.64 5286.03,-949.64"/>
-<text text-anchor="middle" x="5326.03" y="-1004.44" font-family="Times,serif" font-size="14.00">injector3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-996.64 5366.03,-996.64 "/>
-<text text-anchor="middle" x="5326.03" y="-981.44" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-973.64 5366.03,-973.64 "/>
-<text text-anchor="middle" x="5326.03" y="-957.94" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector4 -->
-<g id="node21" class="node">
-<title>injector4</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-773.64 5286.03,-843.64 5366.03,-843.64 5366.03,-773.64 5286.03,-773.64"/>
-<text text-anchor="middle" x="5326.03" y="-828.44" font-family="Times,serif" font-size="14.00">injector4</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-820.64 5366.03,-820.64 "/>
-<text text-anchor="middle" x="5326.03" y="-805.44" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-797.64 5366.03,-797.64 "/>
-<text text-anchor="middle" x="5326.03" y="-781.94" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector5 -->
-<g id="node22" class="node">
-<title>injector5</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-685.64 5286.03,-755.64 5366.03,-755.64 5366.03,-685.64 5286.03,-685.64"/>
-<text text-anchor="middle" x="5326.03" y="-740.44" font-family="Times,serif" font-size="14.00">injector5</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-732.64 5366.03,-732.64 "/>
-<text text-anchor="middle" x="5326.03" y="-717.44" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-709.64 5366.03,-709.64 "/>
-<text text-anchor="middle" x="5326.03" y="-693.94" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector6 -->
-<g id="node23" class="node">
-<title>injector6</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5286.03,-861.64 5286.03,-931.64 5366.03,-931.64 5366.03,-861.64 5286.03,-861.64"/>
-<text text-anchor="middle" x="5326.03" y="-916.44" font-family="Times,serif" font-size="14.00">injector6</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-908.64 5366.03,-908.64 "/>
-<text text-anchor="middle" x="5326.03" y="-893.44" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5286.03,-885.64 5366.03,-885.64 "/>
-<text text-anchor="middle" x="5326.03" y="-869.94" font-family="Times,serif" font-size="14.00">Gnd</text>
 </g>
 <!-- razor_pdm&#45;&#45;coil -->
 <g id="edge31" class="edge">
@@ -1065,17 +1065,6 @@
 </a>
 </g>
 </g>
-<!-- deutsch_console_connector&#45;&#45;ign_switch -->
-<g id="edge42" class="edge">
-<title>deutsch_console_connector:3&#45;&#45;ign_switch:2</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M2511.53,-995.64C2541.84,-997.72 2530.24,-731.08 2509.06,-708.48 2299.97,-475.47 2018.47,-873.47 1803.55,-640.48 1666.96,-485.19 2011.56,-471.9 2206.94,-410.73 2259.98,-394.36 2415.38,-421.27 2450.05,-381.3 2466.79,-363 2476.39,-324.16 2452.53,-326.64"/>
-<path fill="none" stroke="blue" stroke-width="2.5" d="M2511.53,-997.64C2543.84,-997.64 2532.24,-731 2510.53,-707.14 2298.34,-474.32 2016.83,-872.32 1805.04,-639.14 1667.04,-487.19 2011.63,-473.9 2207.53,-412.64 2259.63,-396.33 2415.03,-423.24 2451.53,-382.64 2468.74,-363.48 2478.34,-324.64 2452.53,-324.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M2511.53,-999.64C2545.83,-997.55 2534.23,-730.91 2512.01,-705.79 2296.7,-473.16 2015.2,-871.16 1806.52,-637.79 1667.11,-489.18 2011.71,-475.89 2208.13,-414.54 2259.29,-398.3 2414.69,-425.21 2453.02,-383.97 2470.68,-363.96 2480.28,-325.12 2452.53,-322.64"/>
-<g id="a_edge42&#45;label"><a xlink:title="deutsch_console_connector:3&lt;blue&gt;ign_switch:2">
-<text text-anchor="middle" x="1897.04" y="-627.94" font-family="Times,serif" font-size="14.00">deutsch_console_connector:3&lt;blue&gt;ign_switch:2</text>
-</a>
-</g>
-</g>
 <!-- deutsch_console_connector&#45;&#45;link_keypad -->
 <g id="edge43" class="edge">
 <title>deutsch_console_connector:1&#45;&#45;link_keypad:1</title>
@@ -1095,6 +1084,17 @@
 <path fill="none" stroke="black" stroke-width="2.5" d="M2299.53,-1018.64C2215.26,-1020.96 2229.36,-1108.12 2152.88,-1132.71 2099.65,-1151.2 1695.45,-1147.9 1641.07,-1132.67 1553.83,-1110.08 1557.13,-1027.72 1463.04,-1025.64"/>
 <g id="a_edge44&#45;label"><a xlink:title="deutsch_console_connector:2&lt;black&gt;link_keypad:2">
 <text text-anchor="middle" x="1897.04" y="-1151.4" font-family="Times,serif" font-size="14.00">deutsch_console_connector:2&lt;black&gt;link_keypad:2</text>
+</a>
+</g>
+</g>
+<!-- deutsch_console_connector&#45;&#45;ign_switch -->
+<g id="edge42" class="edge">
+<title>deutsch_console_connector:3&#45;&#45;ign_switch:2</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M2511.53,-995.64C2541.84,-997.72 2530.24,-731.08 2509.06,-708.48 2299.97,-475.47 2018.47,-873.47 1803.55,-640.48 1666.96,-485.19 2011.56,-471.9 2206.94,-410.73 2259.98,-394.36 2415.38,-421.27 2450.05,-381.3 2466.79,-363 2476.39,-324.16 2452.53,-326.64"/>
+<path fill="none" stroke="blue" stroke-width="2.5" d="M2511.53,-997.64C2543.84,-997.64 2532.24,-731 2510.53,-707.14 2298.34,-474.32 2016.83,-872.32 1805.04,-639.14 1667.04,-487.19 2011.63,-473.9 2207.53,-412.64 2259.63,-396.33 2415.03,-423.24 2451.53,-382.64 2468.74,-363.48 2478.34,-324.64 2452.53,-324.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M2511.53,-999.64C2545.83,-997.55 2534.23,-730.91 2512.01,-705.79 2296.7,-473.16 2015.2,-871.16 1806.52,-637.79 1667.11,-489.18 2011.71,-475.89 2208.13,-414.54 2259.29,-398.3 2414.69,-425.21 2453.02,-383.97 2470.68,-363.96 2480.28,-325.12 2452.53,-322.64"/>
+<g id="a_edge42&#45;label"><a xlink:title="deutsch_console_connector:3&lt;blue&gt;ign_switch:2">
+<text text-anchor="middle" x="1897.04" y="-627.94" font-family="Times,serif" font-size="14.00">deutsch_console_connector:3&lt;blue&gt;ign_switch:2</text>
 </a>
 </g>
 </g>
@@ -1301,17 +1301,6 @@
 </a>
 </g>
 </g>
-<!-- deutsch_pdm_connector&#45;&#45;alternator -->
-<g id="edge60" class="edge">
-<title>deutsch_pdm_connector:1&#45;&#45;alternator:sense</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M2310.53,-550.64C2235.89,-550.63 1695.09,-511.12 1641.89,-561.11 1550.43,-643.97 1681.13,-1035.79 1587.88,-1122.08 1528.6,-1175.08 1308.5,-1149.58 1234.84,-1122.47 1011.84,-1040.28 940.38,-985.14 827.77,-775.58 733.38,-595.87 870.81,-500.34 773.78,-326.6 751.61,-286.03 739.81,-260.47 695.53,-261.64"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M2310.53,-548.64C2236.03,-548.64 1695.24,-509.13 1640.54,-559.64 1548.53,-644.61 1679.23,-1036.43 1586.53,-1120.6 1528.83,-1173.1 1308.73,-1147.6 1235.54,-1120.6 1013.06,-1038.7 941.61,-983.56 829.53,-774.64 734.52,-597.52 871.95,-501.99 775.53,-325.64 753.42,-285.2 741.62,-259.64 695.53,-259.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M2310.53,-546.64C2236.18,-546.64 1695.38,-507.13 1639.18,-558.17 1546.64,-645.24 1677.34,-1037.06 1585.19,-1119.12 1529.07,-1171.11 1308.97,-1145.61 1236.23,-1118.72 1014.29,-1037.11 942.83,-981.97 831.3,-773.69 735.67,-599.16 873.1,-503.63 777.29,-324.68 755.24,-284.36 743.44,-258.8 695.53,-257.64"/>
-<g id="a_edge60&#45;label"><a xlink:title="deutsch_pdm_connector:1&lt;red&gt;alternator:sense">
-<text text-anchor="middle" x="1411.04" y="-1155.4" font-family="Times,serif" font-size="14.00">deutsch_pdm_connector:1&lt;red&gt;alternator:sense</text>
-</a>
-</g>
-</g>
 <!-- deutsch_pdm_connector&#45;&#45;injector1 -->
 <g id="edge54" class="edge">
 <title>deutsch_pdm_connector:2&#45;&#45;injector1:Pos</title>
@@ -1378,6 +1367,17 @@
 <path fill="none" stroke="black" stroke-width="2.5" d="M3424.58,-527.64C3528.27,-525.52 3555.37,-527.8 3657.92,-507.6 3684,-501.69 3688.4,-493.39 3711.84,-490.61 3759.14,-483.32 4542.84,-481.32 4577.19,-513.12 4693.41,-615.03 4515.41,-752.89 4631.19,-861.12 4740.33,-959.09 5139.33,-898.73 5284.64,-898.64"/>
 <g id="a_edge59&#45;label"><a xlink:title="deutsch_pdm_connector:2&lt;red&gt;injector6:Pos">
 <text text-anchor="middle" x="3930.53" y="-492.44" font-family="Times,serif" font-size="14.00">deutsch_pdm_connector:2&lt;red&gt;injector6:Pos</text>
+</a>
+</g>
+</g>
+<!-- deutsch_pdm_connector&#45;&#45;alternator -->
+<g id="edge60" class="edge">
+<title>deutsch_pdm_connector:1&#45;&#45;alternator:sense</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M2310.53,-550.64C2235.89,-550.63 1695.09,-511.12 1641.89,-561.11 1550.43,-643.97 1681.13,-1035.79 1587.88,-1122.08 1528.6,-1175.08 1308.5,-1149.58 1234.84,-1122.47 1011.84,-1040.28 940.38,-985.14 827.77,-775.58 733.38,-595.87 870.81,-500.34 773.78,-326.6 751.61,-286.03 739.81,-260.47 695.53,-261.64"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M2310.53,-548.64C2236.03,-548.64 1695.24,-509.13 1640.54,-559.64 1548.53,-644.61 1679.23,-1036.43 1586.53,-1120.6 1528.83,-1173.1 1308.73,-1147.6 1235.54,-1120.6 1013.06,-1038.7 941.61,-983.56 829.53,-774.64 734.52,-597.52 871.95,-501.99 775.53,-325.64 753.42,-285.2 741.62,-259.64 695.53,-259.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M2310.53,-546.64C2236.18,-546.64 1695.38,-507.13 1639.18,-558.17 1546.64,-645.24 1677.34,-1037.06 1585.19,-1119.12 1529.07,-1171.11 1308.97,-1145.61 1236.23,-1118.72 1014.29,-1037.11 942.83,-981.97 831.3,-773.69 735.67,-599.16 873.1,-503.63 777.29,-324.68 755.24,-284.36 743.44,-258.8 695.53,-257.64"/>
+<g id="a_edge60&#45;label"><a xlink:title="deutsch_pdm_connector:1&lt;red&gt;alternator:sense">
+<text text-anchor="middle" x="1411.04" y="-1155.4" font-family="Times,serif" font-size="14.00">deutsch_pdm_connector:1&lt;red&gt;alternator:sense</text>
 </a>
 </g>
 </g>
@@ -1962,6 +1962,82 @@
 </a>
 </g>
 </g>
+<!-- deutsch_ecu_connector&#45;&#45;injector1 -->
+<g id="edge112" class="edge">
+<title>deutsch_ecu_connector:1&#45;&#45;injector1:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1914.6C4808.07,-1921.17 4384.47,-1416.47 4629.87,-1192.61 4852.68,-999.05 4996.68,-1134.68 5285.03,-1133.6"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1916.6C4809.6,-1919.88 4386,-1415.18 4631.2,-1194.1 4851.31,-1000.51 4995.31,-1136.14 5285.03,-1135.6"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1918.6C4811.14,-1918.6 4387.53,-1413.9 4632.53,-1195.6 4849.93,-1001.97 4993.93,-1137.6 5285.03,-1137.6"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1920.6C4812.67,-1917.31 4389.07,-1412.61 4633.87,-1197.09 4848.56,-1003.42 4992.56,-1139.05 5285.03,-1139.6"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1922.6C4814.2,-1916.02 4390.6,-1411.32 4635.2,-1198.58 4847.19,-1004.88 4991.19,-1140.51 5285.03,-1141.6"/>
+<g id="a_edge112&#45;label"><a xlink:title="deutsch_ecu_connector:1&lt;brown:black&gt;injector1:Gnd">
+<text text-anchor="middle" x="4891.53" y="-1199.4" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:1&lt;brown:black&gt;injector1:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;injector2 -->
+<g id="edge113" class="edge">
+<title>deutsch_ecu_connector:2&#45;&#45;injector2:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1893.6C4853.33,-1896.91 4349.83,-1317.21 4631.23,-1071.08 4853.55,-881.49 4996.35,-1048.3 5285.03,-1047.6"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1895.6C4854.83,-1895.6 4351.33,-1315.9 4632.53,-1072.6 4852.04,-882.79 4994.84,-1049.6 5285.03,-1049.6"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1897.6C4856.34,-1894.28 4352.84,-1314.58 4633.84,-1074.11 4850.52,-884.09 4993.32,-1050.9 5285.03,-1051.6"/>
+<g id="a_edge113&#45;label"><a xlink:title="deutsch_ecu_connector:2&lt;brown&gt;injector2:Gnd">
+<text text-anchor="middle" x="4891.53" y="-1076.4" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:2&lt;brown&gt;injector2:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;injector3 -->
+<g id="edge114" class="edge">
+<title>deutsch_ecu_connector:3&#45;&#45;injector3:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1868.6C4683.88,-1873.65 4472.78,-1097.45 4629.94,-960.59 4743.84,-865.73 5140.94,-957.74 5285.03,-957.64"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1870.6C4685.81,-1873.12 4474.71,-1096.92 4631.24,-962.11 4743.39,-867.68 5140.49,-959.69 5285.03,-959.64"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4483.03,-1872.6C4687.73,-1872.6 4476.64,-1096.4 4632.53,-963.64 4742.93,-869.63 5140.03,-961.64 5285.03,-961.64"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1874.6C4689.66,-1872.07 4478.56,-1095.87 4633.83,-965.16 4742.48,-871.57 5139.58,-963.58 5285.03,-963.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1876.6C4691.59,-1871.55 4480.49,-1095.35 4635.13,-966.68 4742.03,-873.52 5139.13,-965.53 5285.03,-965.64"/>
+<g id="a_edge114&#45;label"><a xlink:title="deutsch_ecu_connector:3&lt;brown:red&gt;injector3:Gnd">
+<text text-anchor="middle" x="4891.53" y="-967.44" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:3&lt;brown:red&gt;injector3:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;injector4 -->
+<g id="edge115" class="edge">
+<title>deutsch_ecu_connector:4&#45;&#45;injector4:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1845.6C4707.59,-1850.7 4461.29,-989.17 4629.81,-829.7 4739.55,-729.75 5140.15,-781.67 5285.03,-781.64"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1847.6C4709.51,-1850.15 4463.21,-988.62 4631.17,-831.17 4739.29,-731.73 5139.89,-783.65 5285.03,-783.64"/>
+<path fill="none" stroke="orange" stroke-width="2.5" d="M4483.03,-1849.6C4711.43,-1849.6 4465.13,-988.07 4632.53,-832.64 4739.04,-733.72 5139.64,-785.64 5285.03,-785.64"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1851.6C4713.36,-1849.05 4467.06,-987.52 4633.9,-834.1 4738.78,-735.7 5139.38,-787.62 5285.03,-787.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1853.6C4715.28,-1848.5 4468.98,-986.97 4635.26,-835.57 4738.52,-737.68 5139.12,-789.6 5285.03,-789.64"/>
+<g id="a_edge115&#45;label"><a xlink:title="deutsch_ecu_connector:4&lt;brown:orange&gt;injector4:Gnd">
+<text text-anchor="middle" x="4891.53" y="-836.44" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:4&lt;brown:orange&gt;injector4:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;injector5 -->
+<g id="edge116" class="edge">
+<title>deutsch_ecu_connector:5&#45;&#45;injector5:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1822.6C4719.9,-1827.72 4454,-920.44 4629.78,-750.73 4685.29,-699.56 5212.19,-693.64 5285.03,-693.64"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1824.6C4721.82,-1827.16 4455.92,-919.88 4631.16,-752.18 4685.31,-701.56 5212.21,-695.64 5285.03,-695.64"/>
+<path fill="none" stroke="yellow" stroke-width="2.5" d="M4483.03,-1826.6C4723.74,-1826.6 4457.84,-919.32 4632.53,-753.64 4685.34,-703.56 5212.24,-697.64 5285.03,-697.64"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1828.6C4725.65,-1826.03 4459.75,-918.75 4633.91,-755.09 4685.36,-705.56 5212.26,-699.64 5285.03,-699.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1830.6C4727.57,-1825.47 4461.67,-918.19 4635.29,-756.54 4685.38,-707.56 5212.28,-701.64 5285.03,-701.64"/>
+<g id="a_edge116&#45;label"><a xlink:title="deutsch_ecu_connector:5&lt;brown:yellow&gt;injector5:Gnd">
+<text text-anchor="middle" x="4891.53" y="-757.44" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:5&lt;brown:yellow&gt;injector5:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;injector6 -->
+<g id="edge117" class="edge">
+<title>deutsch_ecu_connector:6&#45;&#45;injector6:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1799.6C4682.17,-1804.63 4476.77,-1038.32 4629.88,-899.64 4741.8,-802.4 5140.6,-869.69 5285.03,-869.64"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1801.6C4684.1,-1804.11 4478.7,-1037.8 4631.21,-901.14 4741.47,-804.37 5140.27,-871.66 5285.03,-871.64"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4483.03,-1803.6C4686.04,-1803.6 4480.64,-1037.29 4632.54,-902.64 4741.14,-806.35 5139.93,-873.64 5285.03,-873.64"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1805.6C4687.97,-1803.08 4482.57,-1036.77 4633.86,-904.13 4740.8,-808.32 5139.6,-875.61 5285.03,-875.64"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1807.6C4689.9,-1802.56 4484.5,-1036.25 4635.19,-905.63 4740.47,-810.29 5139.27,-877.58 5285.03,-877.64"/>
+<g id="a_edge117&#45;label"><a xlink:title="deutsch_ecu_connector:6&lt;brown:green&gt;injector6:Gnd">
+<text text-anchor="middle" x="4891.53" y="-906.44" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:6&lt;brown:green&gt;injector6:Gnd</text>
+</a>
+</g>
+</g>
 <!-- deutsch_ecu_connector&#45;&#45;knock1 -->
 <g id="edge106" class="edge">
 <title>deutsch_ecu_connector:24&#45;&#45;knock1:Sig+</title>
@@ -2091,82 +2167,6 @@
 <path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1091.6C4604.31,-1088.9 4554.61,-954.48 4580.49,-839.07 4598.53,-757.08 4573.63,-146.55 4633.9,-91.1 4727.87,-1.95 5091.37,-88.58 5223.03,-88.63"/>
 <g id="a_edge123&#45;label"><a xlink:title="deutsch_ecu_connector:37&lt;white&gt;aem_fuel_pressure_sensor:Sig&#45;">
 <text text-anchor="middle" x="4891.53" y="-93.43" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:37&lt;white&gt;aem_fuel_pressure_sensor:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;injector1 -->
-<g id="edge112" class="edge">
-<title>deutsch_ecu_connector:1&#45;&#45;injector1:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1914.6C4808.07,-1921.17 4384.47,-1416.47 4629.87,-1192.61 4852.68,-999.05 4996.68,-1134.68 5285.03,-1133.6"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1916.6C4809.6,-1919.88 4386,-1415.18 4631.2,-1194.1 4851.31,-1000.51 4995.31,-1136.14 5285.03,-1135.6"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1918.6C4811.14,-1918.6 4387.53,-1413.9 4632.53,-1195.6 4849.93,-1001.97 4993.93,-1137.6 5285.03,-1137.6"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1920.6C4812.67,-1917.31 4389.07,-1412.61 4633.87,-1197.09 4848.56,-1003.42 4992.56,-1139.05 5285.03,-1139.6"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1922.6C4814.2,-1916.02 4390.6,-1411.32 4635.2,-1198.58 4847.19,-1004.88 4991.19,-1140.51 5285.03,-1141.6"/>
-<g id="a_edge112&#45;label"><a xlink:title="deutsch_ecu_connector:1&lt;brown:black&gt;injector1:Gnd">
-<text text-anchor="middle" x="4891.53" y="-1199.4" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:1&lt;brown:black&gt;injector1:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;injector2 -->
-<g id="edge113" class="edge">
-<title>deutsch_ecu_connector:2&#45;&#45;injector2:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1893.6C4853.33,-1896.91 4349.83,-1317.21 4631.23,-1071.08 4853.55,-881.49 4996.35,-1048.3 5285.03,-1047.6"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1895.6C4854.83,-1895.6 4351.33,-1315.9 4632.53,-1072.6 4852.04,-882.79 4994.84,-1049.6 5285.03,-1049.6"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1897.6C4856.34,-1894.28 4352.84,-1314.58 4633.84,-1074.11 4850.52,-884.09 4993.32,-1050.9 5285.03,-1051.6"/>
-<g id="a_edge113&#45;label"><a xlink:title="deutsch_ecu_connector:2&lt;brown&gt;injector2:Gnd">
-<text text-anchor="middle" x="4891.53" y="-1076.4" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:2&lt;brown&gt;injector2:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;injector3 -->
-<g id="edge114" class="edge">
-<title>deutsch_ecu_connector:3&#45;&#45;injector3:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1868.6C4683.88,-1873.65 4472.78,-1097.45 4629.94,-960.59 4743.84,-865.73 5140.94,-957.74 5285.03,-957.64"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1870.6C4685.81,-1873.12 4474.71,-1096.92 4631.24,-962.11 4743.39,-867.68 5140.49,-959.69 5285.03,-959.64"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4483.03,-1872.6C4687.73,-1872.6 4476.64,-1096.4 4632.53,-963.64 4742.93,-869.63 5140.03,-961.64 5285.03,-961.64"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1874.6C4689.66,-1872.07 4478.56,-1095.87 4633.83,-965.16 4742.48,-871.57 5139.58,-963.58 5285.03,-963.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1876.6C4691.59,-1871.55 4480.49,-1095.35 4635.13,-966.68 4742.03,-873.52 5139.13,-965.53 5285.03,-965.64"/>
-<g id="a_edge114&#45;label"><a xlink:title="deutsch_ecu_connector:3&lt;brown:red&gt;injector3:Gnd">
-<text text-anchor="middle" x="4891.53" y="-967.44" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:3&lt;brown:red&gt;injector3:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;injector4 -->
-<g id="edge115" class="edge">
-<title>deutsch_ecu_connector:4&#45;&#45;injector4:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1845.6C4707.59,-1850.7 4461.29,-989.17 4629.81,-829.7 4739.55,-729.75 5140.15,-781.67 5285.03,-781.64"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1847.6C4709.51,-1850.15 4463.21,-988.62 4631.17,-831.17 4739.29,-731.73 5139.89,-783.65 5285.03,-783.64"/>
-<path fill="none" stroke="orange" stroke-width="2.5" d="M4483.03,-1849.6C4711.43,-1849.6 4465.13,-988.07 4632.53,-832.64 4739.04,-733.72 5139.64,-785.64 5285.03,-785.64"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1851.6C4713.36,-1849.05 4467.06,-987.52 4633.9,-834.1 4738.78,-735.7 5139.38,-787.62 5285.03,-787.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1853.6C4715.28,-1848.5 4468.98,-986.97 4635.26,-835.57 4738.52,-737.68 5139.12,-789.6 5285.03,-789.64"/>
-<g id="a_edge115&#45;label"><a xlink:title="deutsch_ecu_connector:4&lt;brown:orange&gt;injector4:Gnd">
-<text text-anchor="middle" x="4891.53" y="-836.44" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:4&lt;brown:orange&gt;injector4:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;injector5 -->
-<g id="edge116" class="edge">
-<title>deutsch_ecu_connector:5&#45;&#45;injector5:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1822.6C4719.9,-1827.72 4454,-920.44 4629.78,-750.73 4685.29,-699.56 5212.19,-693.64 5285.03,-693.64"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1824.6C4721.82,-1827.16 4455.92,-919.88 4631.16,-752.18 4685.31,-701.56 5212.21,-695.64 5285.03,-695.64"/>
-<path fill="none" stroke="yellow" stroke-width="2.5" d="M4483.03,-1826.6C4723.74,-1826.6 4457.84,-919.32 4632.53,-753.64 4685.34,-703.56 5212.24,-697.64 5285.03,-697.64"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1828.6C4725.65,-1826.03 4459.75,-918.75 4633.91,-755.09 4685.36,-705.56 5212.26,-699.64 5285.03,-699.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1830.6C4727.57,-1825.47 4461.67,-918.19 4635.29,-756.54 4685.38,-707.56 5212.28,-701.64 5285.03,-701.64"/>
-<g id="a_edge116&#45;label"><a xlink:title="deutsch_ecu_connector:5&lt;brown:yellow&gt;injector5:Gnd">
-<text text-anchor="middle" x="4891.53" y="-757.44" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:5&lt;brown:yellow&gt;injector5:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;injector6 -->
-<g id="edge117" class="edge">
-<title>deutsch_ecu_connector:6&#45;&#45;injector6:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1799.6C4682.17,-1804.63 4476.77,-1038.32 4629.88,-899.64 4741.8,-802.4 5140.6,-869.69 5285.03,-869.64"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1801.6C4684.1,-1804.11 4478.7,-1037.8 4631.21,-901.14 4741.47,-804.37 5140.27,-871.66 5285.03,-871.64"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4483.03,-1803.6C4686.04,-1803.6 4480.64,-1037.29 4632.54,-902.64 4741.14,-806.35 5139.93,-873.64 5285.03,-873.64"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4483.03,-1805.6C4687.97,-1803.08 4482.57,-1036.77 4633.86,-904.13 4740.8,-808.32 5139.6,-875.61 5285.03,-875.64"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4483.03,-1807.6C4689.9,-1802.56 4484.5,-1036.25 4635.19,-905.63 4740.47,-810.29 5139.27,-877.58 5285.03,-877.64"/>
-<g id="a_edge117&#45;label"><a xlink:title="deutsch_ecu_connector:6&lt;brown:green&gt;injector6:Gnd">
-<text text-anchor="middle" x="4891.53" y="-906.44" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:6&lt;brown:green&gt;injector6:Gnd</text>
 </a>
 </g>
 </g>

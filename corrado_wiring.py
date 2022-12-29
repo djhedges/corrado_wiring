@@ -7,81 +7,6 @@ G = pgv.AGraph(strict=False, rankdir='LR', ranksep=1.5, concentrate='true')
 AEM_GAUGES = ['coolant_temp_gauge', 'transmission_temp_gauge', 'fuel_pressure_gauge']
 AEM_SENSORS = ['aem_coolant_temp_sensor', 'aem_transmission_temp_sensor', 'aem_fuel_pressure_sensor']
 
-
-class DeutschConnector(object):
-
-  def __init__(self):
-    self.index = 0
-
-  def GetFreePin(self):
-    self.index += 1
-    return self.index
-
-DCE = DeutschConnector()
-DCP = DeutschConnector()
-DCC = DeutschConnector()  # Console (keypad & gauges)
-DCC_PWR = DCC.GetFreePin()
-DCC_GND = DCC.GetFreePin()
-
-
-def BuildLabel(name, pin_names):
-  label = f'{name} '
-  for pin_name in pin_names:
-    label += f'| <{pin_name}> {pin_name} '
-  return label
-
-
-def BuildLinkLabel(name, pin_names):
-  bracket_index = (9, 17, 25)
-  label = f'{name} | '
-  label += '{ '
-  for i, pin_name in enumerate(pin_names):
-    if i in bracket_index:
-      label += '} | {'
-    else:
-      label += ' | '
-    label += f'<{pin_name}> {pin_name} '
-  label += '} '
-  return label
-
-
-class Node(object):
-  def __init__(self, name, pin_names, label_func=BuildLabel):
-    label = label_func(name, pin_names)
-    self.node = G.add_node(name, label=label, shape='record', style='bold')
-
-
-def ParseColor(color):
-  if ':' in color:
-    color += ':' + color.split(':')[0]
-  return f'black:{color}:black'
-
-def AddPath(node_pins, color):
-  for i in range(len(node_pins) - 1):
-      node, pin = node_pins[i]
-      next_node, next_pin = node_pins[i + 1]
-      G.add_edge(node, next_node,
-                 tailport=pin, headport=next_pin,
-                 label=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
-                 labeltooltip=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
-                 color=ParseColor(color),
-                 penwidth=2.5)
-
-def ClusterNodes(nodes, label):
-  G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color='grey', label=label)
-
-
-def AddPathWithMap(node_pins):
-  node_color_map = {
-    'link_ecu_a': LINK_ECU_A_PIN_COLOR_MAP,
-    'link_ecu_b': LINK_ECU_B_PIN_COLOR_MAP,
-  }
-  for node, pin in node_pins:
-      color = node_color_map.get(node,{}).get(pin)
-      if color:
-        AddPath(node_pins, color)
-        break
-
 LINK_ECU_A_PIN_COLOR_MAP = {
     'Inj4': 'brown:orange',
     'Inj3': 'brown:red',
@@ -155,6 +80,66 @@ LINK_ECU_B_PIN_COLOR_MAP = {
     'Ground2': 'black',
 }
 
+
+class DeutschConnector(object):
+
+  def __init__(self):
+    self.index = 0
+
+  def GetFreePin(self):
+    self.index += 1
+    return self.index
+
+DCE = DeutschConnector()
+DCP = DeutschConnector()
+DCC = DeutschConnector()  # Console (keypad & gauges)
+DCC_PWR = DCC.GetFreePin()
+DCC_GND = DCC.GetFreePin()
+
+
+def BuildLabel(name, pin_names):
+  label = f'{name} '
+  for pin_name in pin_names:
+    label += f'| <{pin_name}> {pin_name} '
+  return label
+
+
+class Node(object):
+  def __init__(self, name, pin_names):
+    self.node = G.add_node(name, label=BuildLabel(name, pin_names), shape='record', style='bold')
+
+
+def ParseColor(color):
+  if ':' in color:
+    color += ':' + color.split(':')[0]
+  return f'black:{color}:black'
+
+def AddPath(node_pins, color):
+  for i in range(len(node_pins) - 1):
+      node, pin = node_pins[i]
+      next_node, next_pin = node_pins[i + 1]
+      G.add_edge(node, next_node,
+                 tailport=pin, headport=next_pin,
+                 label=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
+                 labeltooltip=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
+                 color=ParseColor(color),
+                 penwidth=2.5)
+
+def ClusterNodes(nodes, label):
+  G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color='grey', label=label)
+
+
+def AddPathWithMap(node_pins):
+  node_color_map = {
+    'link_ecu_a': LINK_ECU_A_PIN_COLOR_MAP,
+    'link_ecu_b': LINK_ECU_B_PIN_COLOR_MAP,
+  }
+  for node, pin in node_pins:
+      color = node_color_map.get(node,{}).get(pin)
+      if color:
+        AddPath(node_pins, color)
+        break
+
 Node('battery', ['pos', 'neg'])
 Node('main_fuse', ['fuse'])
 Node('alternator', ['pos', 'sense'])
@@ -170,8 +155,8 @@ Node('razor_pdm', [
     'PWROUT1a', 'ADIO2', 'ADIO4', 'ADIO6', 'ADIO8', 'PWROUT4a',
     'PWROUT1b', 'ADIO1', 'ADIO3', 'ADIO5', 'ADIO7', 'NC3', 'PWROUT4b'
 ])
-Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())#, label_func=BuildLinkLabel)
-Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())#, label_func=BuildLinkLabel)
+Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
+Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
 Node('link_keypad', [1, 2, 3, 4])
 Node('engine_ground', ['Gnd'])
 Node('deutsch_ecu_connector', list(range(1,48)))

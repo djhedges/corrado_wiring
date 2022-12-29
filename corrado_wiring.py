@@ -55,9 +55,10 @@ def AddPath(node_pins, color):
       node, pin = node_pins[i]
       next_node, next_pin = node_pins[i + 1]
       G.add_edge(node, next_node,
-                 label=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
                  tailport=pin, headport=next_pin,
-                 color=ParseColor(color), penwidth=2)
+                 label=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
+                 color=ParseColor(color),
+                 penwidth=2)
 
 def ClusterNodes(nodes, label):
   G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color='grey', label=label)
@@ -252,6 +253,16 @@ AddPathWithMap((
 AddPathWithMap((
   ('razor_pdm', 'PWROUT2b'),
   ('link_ecu_b', '+14V Aux9/10'),
+))
+
+# CAN
+AddPathWithMap((
+  ('razor_pdm', 'CANH'),
+  ('link_ecu_b', 'DI10/CAN2H'),
+))
+AddPathWithMap((
+  ('razor_pdm', 'CANL'),
+  ('link_ecu_b', 'DI9/CAN2L'),
 ))
 
 # ECU Grounds

@@ -1,19 +1,27 @@
 strict graph "" {
-	graph [bb="0,0,98.696,130"];
+	graph [bb="0,0,175,183"];
 	node [label="\N",
 		shape=record
 	];
-	battery	[height=0.65278,
-		label="{battery | {<pos> + |<neg> - }}",
-		pos="49.196,106.5",
-		rects="14.696,106.5,83.696,129.5 14.696,83.5,52.696,106.5 52.696,83.5,83.696,106.5",
-		width=0.95833];
-	fuel_pump	[height=0.65278,
-		label="{fuel pump | {<pos> + |<neg> - }}",
-		pos="54.196,23.5",
-		rects="9.6958,23.5,98.696,46.5 9.6958,0.5,57.696,23.5 57.696,0.5,98.696,23.5",
-		width=1.2361];
-	battery:pos -- fuel_pump:pos	[color=red,
+	battery	[height=0.51389,
+		label="battery | <pos> pos | <neg> neg ",
+		pos="98.5,164.5",
+		rects="22,146.5,91,182.5 91,146.5,132,182.5 132,146.5,175,182.5",
+		width=2.125];
+	connector	[height=0.51389,
+		label="connector | <1> 1 | <2> 2 ",
+		pos="80.5,91.5",
+		rects="11,73.5,98,109.5 98,73.5,124,109.5 124,73.5,150,109.5",
+		width=1.9306];
+	battery:pos -- connector:1	[color=red,
 		penwidth=5,
-		pos="33.196,83 33.196,63.77 15.027,65.324 9.1958,47 4.4095,31.959 -7.5883,11.5 8.1958,11.5"];
+		pos="111.5,146 111.5,130 111.5,126 111.5,110"];
+	fuel_pump	[height=0.51389,
+		label="fuel_pump | <pos> pos | <neg> neg ",
+		pos="87.5,18.5",
+		rects="0,0.5,91,36.5 91,0.5,132,36.5 132,0.5,175,36.5",
+		width=2.4306];
+	connector:1 -- fuel_pump:pos	[color=red,
+		penwidth=5,
+		pos="111.5,73 111.5,57 111.5,53 111.5,37"];
 }

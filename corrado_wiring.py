@@ -174,6 +174,7 @@ Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
 
 Node('knock1', ['Sig+', 'Sig-', 'Scr'])
 Node('knock2', ['Sig+', 'Sig-', 'Scr'])
+G.add_subgraph(['knock1', 'knock2'], name='cluster_knock', style='filled', color='grey', label='Knock Sensors')
 
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
 Node('oil_temp_sensor', ['Sig+', 'Sig-'])
@@ -184,6 +185,7 @@ Node('vapor_purge_valve', ['Pos', 'Gnd'])
 
 for i in range(1, 7):
     Node(f'injector{i}', ['Pos', 'Gnd'])
+G.add_subgraph([f'injector{i}' for i in range(1, 7)], name='cluster_injectors', style='filled', color='grey', label='Injectors')
 
 Node('icm', ['Transistor1ecu', 'Transistor2ecu', 'Transistor3ecu',
              'Transistor3coil', 'Gnd', 'Transistor2coil', 'Transistor1coil'])

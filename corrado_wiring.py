@@ -320,6 +320,7 @@ for i in range(1, 7):
   ))
 
 # Cam Sensor
+DCE_5v = DCE.GetFreePin()
 AddPathWithMap((
   ('link_ecu_a', 'Trig1'),
   ('deutsch_ecu_connector', DCE.GetFreePin()),
@@ -327,7 +328,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_ecu_connector', DCE_5v),
   ('cam_sensor', '5v'),
 ))
 AddPathWithMap((
@@ -344,7 +345,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_ecu_connector', DCE_5v),
   ('crank_sensor', '5v'),
 ))
 AddPathWithMap((
@@ -384,6 +385,42 @@ AddPathWithMap((
   ('coolant_temp_sensor', 'Sig-'),
 ))
 
+# TPS
+AddPathWithMap((
+  ('link_ecu_a', 'AnVolt1'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('tps', 'Sensor'),
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
+  ('deutsch_ecu_connector', DCE_5v),
+  ('tps', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'GndOut'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('tps', 'Gnd'),
+))
+
+# MAP Sensor
+AddPathWithMap((
+  ('link_ecu_a', 'AnVolt2'),
+  # TODO: Figure out where MAP Sensor will be mounted and
+  # if this will still be connected to the deutsch connector.
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('map_sensor', 'Sensor'),
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
+  ('deutsch_ecu_connector', DCE_5v),
+  ('map_sensor', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'GndOut'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('map_sensor', 'Gnd'),
+))
+
 # ECU Grounds
 AddPath((
   ('link_ecu_a', 'Ground1'),
@@ -405,42 +442,6 @@ AddPath((
   ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('engine_ground', 'Gnd'),
 ), 'black')
-
-# TPS
-AddPathWithMap((
-  ('link_ecu_a', 'AnVolt1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('tps', 'Sensor'),
-))
-AddPathWithMap((
-  ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('tps', '5v'),
-))
-AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('tps', 'Gnd'),
-))
-
-# MAP Sensor
-AddPathWithMap((
-  ('link_ecu_a', 'AnVolt2'),
-  # TODO: Figure out where MAP Sensor will be mounted and
-  # if this will still be connected to the deutsch connector.
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('map_sensor', 'Sensor'),
-))
-AddPathWithMap((
-  ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('map_sensor', '5v'),
-))
-AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('map_sensor', 'Gnd'),
-))
 
 # Knock Sensors
 for i in range(1, 3):

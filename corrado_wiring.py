@@ -301,6 +301,89 @@ AddPathWithMap((
   ('link_ecu_b', 'DI9/CAN2L'),
 ))
 
+# Injectors
+inj_pwr_pin = DCP.GetFreePin()
+AddPath((
+  ('razor_pdm', 'PWROUT1a'),
+  ('deutsch_pdm_connector', inj_pwr_pin),
+), 'red')
+for i in range(1, 7):
+  AddPath((
+    ('deutsch_pdm_connector', inj_pwr_pin),
+    (f'injector{i}', 'Pos'),
+  ), 'red')
+  a_or_b = 'a' if i < 5 else 'b'
+  AddPathWithMap((
+    (f'link_ecu_{a_or_b}', f'Inj{i}'),
+    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    (f'injector{i}', 'Gnd'),
+  ))
+
+# Cam Sensor
+AddPathWithMap((
+  ('link_ecu_a', 'Trig1'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('cam_sensor', 'Sensor'),
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('cam_sensor', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'Shield/Gnd'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('cam_sensor', 'Gnd'),
+))
+
+# Crank Sensor
+AddPathWithMap((
+  ('link_ecu_a', 'Trig2'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('crank_sensor', 'Sensor'),
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('crank_sensor', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'Shield/Gnd'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('crank_sensor', 'Gnd'),
+))
+
+# Coils
+AddPath((
+  ('razor_pdm', 'PWROUT4a'),
+  ('coil', 'Ubatt'),
+), 'red')
+AddPath((
+  ('icm', 'Gnd'),
+  ('engine_ground', 'Gnd'),
+), 'black')
+for i in range(1, 4):
+  AddPathWithMap((
+    ('link_ecu_a', f'Ign{i}'),
+    ('icm', f'Transistor{i}ecu'),
+  ))
+  AddPath((
+    ('icm', f'Transistor{i}coil'),
+    ('coil', f'Coil{i}'),
+  ), 'white')  # TODO: Decide on wire color.
+
+# Coolant Temp Sensor
+AddPathWithMap((
+  ('link_ecu_a', 'Temp1'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('coolant_temp_sensor', 'Sig+'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'GndOut'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('coolant_temp_sensor', 'Sig-'),
+))
+
 # ECU Grounds
 AddPath((
   ('link_ecu_a', 'Ground1'),
@@ -359,40 +442,6 @@ AddPathWithMap((
   ('map_sensor', 'Gnd'),
 ))
 
-# Cam Sensor
-AddPathWithMap((
-  ('link_ecu_a', 'Trig1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('cam_sensor', 'Sensor'),
-))
-AddPathWithMap((
-  ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('cam_sensor', '5v'),
-))
-AddPathWithMap((
-  ('link_ecu_a', 'Shield/Gnd'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('cam_sensor', 'Gnd'),
-))
-
-# Crank Sensor
-AddPathWithMap((
-  ('link_ecu_a', 'Trig2'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('crank_sensor', 'Sensor'),
-))
-AddPathWithMap((
-  ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('crank_sensor', '5v'),
-))
-AddPathWithMap((
-  ('link_ecu_a', 'Shield/Gnd'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('crank_sensor', 'Gnd'),
-))
-
 # Knock Sensors
 for i in range(1, 3):
   AddPathWithMap((
@@ -435,18 +484,6 @@ AddPathWithMap((
   ('oil_temp_sensor', 'Sig-'),
 ))
 
-# Coolant Temp Sensor
-AddPathWithMap((
-  ('link_ecu_a', 'Temp1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('coolant_temp_sensor', 'Sig+'),
-))
-AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('coolant_temp_sensor', 'Sig-'),
-))
-
 # Idle Stablizer Valve
 AddPath((
   ('razor_pdm', 'ADIO7'),
@@ -468,43 +505,6 @@ AddPath((
   ('vapor_purge_valve', 'Gnd'),
   ('engine_ground', 'Gnd'),
 ), 'black')
-
-# Injectors
-inj_pwr_pin = DCP.GetFreePin()
-AddPath((
-  ('razor_pdm', 'PWROUT1a'),
-  ('deutsch_pdm_connector', inj_pwr_pin),
-), 'red')
-for i in range(1, 7):
-  AddPath((
-    ('deutsch_pdm_connector', inj_pwr_pin),
-    (f'injector{i}', 'Pos'),
-  ), 'red')
-  a_or_b = 'a' if i < 5 else 'b'
-  AddPathWithMap((
-    (f'link_ecu_{a_or_b}', f'Inj{i}'),
-    ('deutsch_ecu_connector', DCE.GetFreePin()),
-    (f'injector{i}', 'Gnd'),
-  ))
-
-# Coils
-AddPath((
-  ('razor_pdm', 'PWROUT4a'),
-  ('coil', 'Ubatt'),
-), 'red')
-AddPath((
-  ('icm', 'Gnd'),
-  ('engine_ground', 'Gnd'),
-), 'black')
-for i in range(1, 4):
-  AddPathWithMap((
-    ('link_ecu_a', f'Ign{i}'),
-    ('icm', f'Transistor{i}ecu'),
-  ))
-  AddPath((
-    ('icm', f'Transistor{i}coil'),
-    ('coil', f'Coil{i}'),
-  ), 'white')  # TODO: Decide on wire color.
 
 # Aux Coolant Pump
 AddPath((

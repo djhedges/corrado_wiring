@@ -2,7 +2,7 @@
 
 import pygraphviz as pgv
 
-G = pgv.AGraph(strict=False, rankdir='LR', ranksep=1, concentrate='true')
+G = pgv.AGraph(strict=False, rankdir='LR', ranksep=1.5, concentrate='true')
 
 AEM_GAUGES = ['coolant_temp_gauge', 'transmission_temp_gauge', 'fuel_pressure_gauge']
 AEM_SENSORS = ['aem_coolant_temp_sensor', 'aem_transmission_temp_sensor', 'aem_fuel_pressure_sensor']
@@ -175,7 +175,7 @@ Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())#, label_func=BuildLinkLabel)
 Node('link_keypad', [1, 2, 3, 4])
 Node('engine_ground', ['Gnd'])
 Node('deutsch_ecu_connector', list(range(1,48)))
-Node('deutsch_pdm_connector', list(range(1,5)))
+Node('deutsch_pdm_connector', list(range(1,7)))
 Node('deutsch_console_connector', list(range(1,16)))
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
@@ -228,6 +228,7 @@ AddPath((
 ), 'red')
 AddPath((
   ('alternator', 'sense'),
+  ('deutsch_pdm_connector', DCP.GetFreePin()),
   ('kill_switch', 'z'),
 ), 'red')
 AddPath((
@@ -251,8 +252,8 @@ AddPath((
   ('ign_switch', '1'),
 ), 'blue')
 AddPath((
-  ('ign_switch', '2'),
   ('razor_pdm', 'IGNSW'),
+  ('ign_switch', '2'),
 ), 'blue')
 
 # Fuel Pump

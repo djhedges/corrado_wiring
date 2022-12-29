@@ -253,6 +253,7 @@ AddPath((
 ), 'blue')
 AddPath((
   ('razor_pdm', 'IGNSW'),
+  ('deutsch_console_connector', DCC.GetFreePin()),
   ('ign_switch', '2'),
 ), 'blue')
 

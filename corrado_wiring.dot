@@ -50,6 +50,30 @@ Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil
 			penwidth=2.5,
 			pos="4374.5,2218 4748.7,2218 4842.3,2225 5216.5,2225"];
 	}
+	subgraph "cluster_Knock Sensors" {
+		graph [bb="5186,974.04,5308,1217",
+			color=grey,
+			label="Knock Sensors",
+			lheight=0.21,
+			lp="5247,1205.5",
+			lwidth=1.47,
+			style=filled
+		];
+		knock1	[height=1.2917,
+			label="knock1 | <Sig+> Sig+ | <Sig-> Sig- | <Scr> Scr ",
+			pos="5246.5,1139",
+			rects="5213,1162,5280,1185 5213,1139,5280,1162 5213,1116,5280,1139 5213,1093,5280,1116",
+			shape=record,
+			style=bold,
+			width=0.93056];
+		knock2	[height=1.2917,
+			label="knock2 | <Sig+> Sig+ | <Sig-> Sig- | <Scr> Scr ",
+			pos="5246.5,1028",
+			rects="5213,1051,5280,1074 5213,1028,5280,1051 5213,1005,5280,1028 5213,982.04,5280,1005",
+			shape=record,
+			style=bold,
+			width=0.93056];
+	}
 	subgraph cluster_Injectors {
 		graph [bb="5198.5,417.04,5294.5,966.04",
 			color=grey,
@@ -101,30 +125,6 @@ Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil
 			shape=record,
 			style=bold,
 			width=1.1111];
-	}
-	subgraph "cluster_Knock Sensors" {
-		graph [bb="5186,974.04,5308,1217",
-			color=grey,
-			label="Knock Sensors",
-			lheight=0.21,
-			lp="5247,1205.5",
-			lwidth=1.47,
-			style=filled
-		];
-		knock1	[height=1.2917,
-			label="knock1 | <Sig+> Sig+ | <Sig-> Sig- | <Scr> Scr ",
-			pos="5246.5,1139",
-			rects="5213,1162,5280,1185 5213,1139,5280,1162 5213,1116,5280,1139 5213,1093,5280,1116",
-			shape=record,
-			style=bold,
-			width=0.93056];
-		knock2	[height=1.2917,
-			label="knock2 | <Sig+> Sig+ | <Sig-> Sig- | <Scr> Scr ",
-			pos="5246.5,1028",
-			rects="5213,1051,5280,1074 5213,1028,5280,1051 5213,1005,5280,1028 5213,982.04,5280,1005",
-			shape=record,
-			style=bold,
-			width=0.93056];
 	}
 	subgraph "cluster_Kill Switch" {
 		graph [bb="8,89.041,2411,263.04",
@@ -375,13 +375,13 @@ PWROUT4a | <PWROUT1b> PWROUT1b | <ADIO1> ADIO1 | <ADIO3> ADIO3 | <ADIO5> ADIO5 |
 		shape=record,
 		style=bold,
 		width=2.6111];
-	alternator:sense -- deutsch_pdm_connector:1	[color="black:red:black",
-		label="alternator:sense<red>deutsch_pdm_connector:1",
-		labeltooltip="alternator:sense<red>deutsch_pdm_connector:1",
-		lp="1331.5,280.54",
+	kill_switch:z -- deutsch_pdm_connector:1	[color="black:red:black",
+		label="kill_switch:z<red>deutsch_pdm_connector:1",
+		labeltooltip="kill_switch:z<red>deutsch_pdm_connector:1",
+		lp="1817.5,335.54",
 		penwidth=2.5,
-		pos="616,109.04 691.94,109.04 679.28,187.38 750,215.04 828.56,245.77 1432.8,232.96 1507,273.04 1541.6,291.71 1526.2,324.75 1561,343.04 \
-1611.5,369.61 2017.3,364.64 2074,371.04 2144.4,378.98 2160.2,398.04 2231,398.04"];
+		pos="1378.5,173.04 1444,173.04 1455.9,204.17 1507,245.04 1535,267.44 1528.6,289.71 1561,305.04 1664.2,353.79 1962.9,301.79 2074,328.04 \
+2148.4,345.62 2154.6,398.04 2231,398.04"];
 	link_keypad:4 -- deutsch_console_connector:3	[color="black:grey:violet:grey:black",
 		label="link_keypad:4<grey:violet>deutsch_console_connector:3",
 		labeltooltip="link_keypad:4<grey:violet>deutsch_console_connector:3",
@@ -713,13 +713,13 @@ APE> APE | <AN Volt5> AN Volt5 | <Ground2> Ground2 ",
 		lp="3851,462.54",
 		penwidth=2.5,
 		pos="3345,459.04 4171.6,443.56 4378.6,460.04 5205.2,460.04"];
-	deutsch_pdm_connector:1 -- kill_switch:z	[color="black:red:black",
-		label="deutsch_pdm_connector:1<red>kill_switch:z",
-		labeltooltip="deutsch_pdm_connector:1<red>kill_switch:z",
-		lp="1817.5,335.54",
+	deutsch_pdm_connector:1 -- alternator:sense	[color="black:red:black",
+		label="deutsch_pdm_connector:1<red>alternator:sense",
+		labeltooltip="deutsch_pdm_connector:1<red>alternator:sense",
+		lp="1331.5,280.54",
 		penwidth=2.5,
-		pos="2231,398.04 2154.6,398.04 2148.4,345.62 2074,328.04 1962.9,301.79 1664.2,353.79 1561,305.04 1528.6,289.71 1535,267.44 1507,245.04 \
-1455.9,204.17 1444,173.04 1378.5,173.04"];
+		pos="2231,398.04 2160.2,398.04 2144.4,378.98 2074,371.04 2017.3,364.64 1611.5,369.61 1561,343.04 1526.2,324.75 1541.6,291.71 1507,273.04 \
+1432.8,232.96 828.56,245.77 750,215.04 679.28,187.38 691.94,109.04 616,109.04"];
 	idle_stablizer_valve	[height=0.97222,
 		label="idle_stablizer_valve | <Pos> Pos | <Gnd> Gnd ",
 		pos="3344,337.04",

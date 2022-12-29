@@ -227,9 +227,9 @@ AddPath((
   ('kill_switch', 'starter'),
 ), 'red')
 AddPath((
-  ('alternator', 'sense'),
-  ('deutsch_pdm_connector', DCP.GetFreePin()),
   ('kill_switch', 'z'),
+  ('deutsch_pdm_connector', DCP.GetFreePin()),
+  ('alternator', 'sense'),
 ), 'red')
 AddPath((
   ('kill_switch', 'starter'),

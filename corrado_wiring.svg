@@ -14,14 +14,14 @@
 <text text-anchor="middle" x="4754.5" y="-2414.94" font-family="Times,serif" font-size="14.00">Coilpack</text>
 </g>
 <g id="clust2" class="cluster">
-<title>cluster_Injectors</title>
-<polygon fill="grey" stroke="grey" points="5190.5,-494.18 5190.5,-1043.18 5286.5,-1043.18 5286.5,-494.18 5190.5,-494.18"/>
-<text text-anchor="middle" x="5238.5" y="-1027.98" font-family="Times,serif" font-size="14.00">Injectors</text>
-</g>
-<g id="clust3" class="cluster">
 <title>cluster_Knock Sensors</title>
 <polygon fill="grey" stroke="grey" points="5178,-1051.18 5178,-1294.14 5300,-1294.14 5300,-1051.18 5178,-1051.18"/>
 <text text-anchor="middle" x="5239" y="-1278.94" font-family="Times,serif" font-size="14.00">Knock Sensors</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_Injectors</title>
+<polygon fill="grey" stroke="grey" points="5190.5,-494.18 5190.5,-1043.18 5286.5,-1043.18 5286.5,-494.18 5190.5,-494.18"/>
+<text text-anchor="middle" x="5238.5" y="-1027.98" font-family="Times,serif" font-size="14.00">Injectors</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_Kill Switch</title>
@@ -124,68 +124,8 @@
 </a>
 </g>
 </g>
-<!-- injector1 -->
-<g id="node3" class="node">
-<title>injector1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-942.18 5198.5,-1012.18 5278.5,-1012.18 5278.5,-942.18 5198.5,-942.18"/>
-<text text-anchor="middle" x="5238.5" y="-996.98" font-family="Times,serif" font-size="14.00">injector1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-989.18 5278.5,-989.18 "/>
-<text text-anchor="middle" x="5238.5" y="-973.98" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-966.18 5278.5,-966.18 "/>
-<text text-anchor="middle" x="5238.5" y="-950.48" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector2 -->
-<g id="node4" class="node">
-<title>injector2</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-678.18 5198.5,-748.18 5278.5,-748.18 5278.5,-678.18 5198.5,-678.18"/>
-<text text-anchor="middle" x="5238.5" y="-732.98" font-family="Times,serif" font-size="14.00">injector2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-725.18 5278.5,-725.18 "/>
-<text text-anchor="middle" x="5238.5" y="-709.98" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-702.18 5278.5,-702.18 "/>
-<text text-anchor="middle" x="5238.5" y="-686.48" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector3 -->
-<g id="node5" class="node">
-<title>injector3</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-590.18 5198.5,-660.18 5278.5,-660.18 5278.5,-590.18 5198.5,-590.18"/>
-<text text-anchor="middle" x="5238.5" y="-644.98" font-family="Times,serif" font-size="14.00">injector3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-637.18 5278.5,-637.18 "/>
-<text text-anchor="middle" x="5238.5" y="-621.98" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-614.18 5278.5,-614.18 "/>
-<text text-anchor="middle" x="5238.5" y="-598.48" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector4 -->
-<g id="node6" class="node">
-<title>injector4</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-854.18 5198.5,-924.18 5278.5,-924.18 5278.5,-854.18 5198.5,-854.18"/>
-<text text-anchor="middle" x="5238.5" y="-908.98" font-family="Times,serif" font-size="14.00">injector4</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-901.18 5278.5,-901.18 "/>
-<text text-anchor="middle" x="5238.5" y="-885.98" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-878.18 5278.5,-878.18 "/>
-<text text-anchor="middle" x="5238.5" y="-862.48" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector5 -->
-<g id="node7" class="node">
-<title>injector5</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-766.18 5198.5,-836.18 5278.5,-836.18 5278.5,-766.18 5198.5,-766.18"/>
-<text text-anchor="middle" x="5238.5" y="-820.98" font-family="Times,serif" font-size="14.00">injector5</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-813.18 5278.5,-813.18 "/>
-<text text-anchor="middle" x="5238.5" y="-797.98" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-790.18 5278.5,-790.18 "/>
-<text text-anchor="middle" x="5238.5" y="-774.48" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector6 -->
-<g id="node8" class="node">
-<title>injector6</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-502.18 5198.5,-572.18 5278.5,-572.18 5278.5,-502.18 5198.5,-502.18"/>
-<text text-anchor="middle" x="5238.5" y="-556.98" font-family="Times,serif" font-size="14.00">injector6</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-549.18 5278.5,-549.18 "/>
-<text text-anchor="middle" x="5238.5" y="-533.98" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-526.18 5278.5,-526.18 "/>
-<text text-anchor="middle" x="5238.5" y="-510.48" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
 <!-- knock1 -->
-<g id="node9" class="node">
+<g id="node3" class="node">
 <title>knock1</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="5205,-1169.64 5205,-1262.64 5272,-1262.64 5272,-1169.64 5205,-1169.64"/>
 <text text-anchor="middle" x="5238.5" y="-1247.44" font-family="Times,serif" font-size="14.00">knock1</text>
@@ -197,7 +137,7 @@
 <text text-anchor="middle" x="5238.5" y="-1177.94" font-family="Times,serif" font-size="14.00">Scr</text>
 </g>
 <!-- knock2 -->
-<g id="node10" class="node">
+<g id="node4" class="node">
 <title>knock2</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="5205,-1058.64 5205,-1151.64 5272,-1151.64 5272,-1058.64 5205,-1058.64"/>
 <text text-anchor="middle" x="5238.5" y="-1136.44" font-family="Times,serif" font-size="14.00">knock2</text>
@@ -207,6 +147,66 @@
 <text text-anchor="middle" x="5238.5" y="-1090.44" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
 <polyline fill="none" stroke="black" stroke-width="2" points="5205,-1082.64 5272,-1082.64 "/>
 <text text-anchor="middle" x="5238.5" y="-1066.94" font-family="Times,serif" font-size="14.00">Scr</text>
+</g>
+<!-- injector1 -->
+<g id="node5" class="node">
+<title>injector1</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-942.18 5198.5,-1012.18 5278.5,-1012.18 5278.5,-942.18 5198.5,-942.18"/>
+<text text-anchor="middle" x="5238.5" y="-996.98" font-family="Times,serif" font-size="14.00">injector1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-989.18 5278.5,-989.18 "/>
+<text text-anchor="middle" x="5238.5" y="-973.98" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-966.18 5278.5,-966.18 "/>
+<text text-anchor="middle" x="5238.5" y="-950.48" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector2 -->
+<g id="node6" class="node">
+<title>injector2</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-678.18 5198.5,-748.18 5278.5,-748.18 5278.5,-678.18 5198.5,-678.18"/>
+<text text-anchor="middle" x="5238.5" y="-732.98" font-family="Times,serif" font-size="14.00">injector2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-725.18 5278.5,-725.18 "/>
+<text text-anchor="middle" x="5238.5" y="-709.98" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-702.18 5278.5,-702.18 "/>
+<text text-anchor="middle" x="5238.5" y="-686.48" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector3 -->
+<g id="node7" class="node">
+<title>injector3</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-590.18 5198.5,-660.18 5278.5,-660.18 5278.5,-590.18 5198.5,-590.18"/>
+<text text-anchor="middle" x="5238.5" y="-644.98" font-family="Times,serif" font-size="14.00">injector3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-637.18 5278.5,-637.18 "/>
+<text text-anchor="middle" x="5238.5" y="-621.98" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-614.18 5278.5,-614.18 "/>
+<text text-anchor="middle" x="5238.5" y="-598.48" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector4 -->
+<g id="node8" class="node">
+<title>injector4</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-854.18 5198.5,-924.18 5278.5,-924.18 5278.5,-854.18 5198.5,-854.18"/>
+<text text-anchor="middle" x="5238.5" y="-908.98" font-family="Times,serif" font-size="14.00">injector4</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-901.18 5278.5,-901.18 "/>
+<text text-anchor="middle" x="5238.5" y="-885.98" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-878.18 5278.5,-878.18 "/>
+<text text-anchor="middle" x="5238.5" y="-862.48" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector5 -->
+<g id="node9" class="node">
+<title>injector5</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-766.18 5198.5,-836.18 5278.5,-836.18 5278.5,-766.18 5198.5,-766.18"/>
+<text text-anchor="middle" x="5238.5" y="-820.98" font-family="Times,serif" font-size="14.00">injector5</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-813.18 5278.5,-813.18 "/>
+<text text-anchor="middle" x="5238.5" y="-797.98" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-790.18 5278.5,-790.18 "/>
+<text text-anchor="middle" x="5238.5" y="-774.48" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector6 -->
+<g id="node10" class="node">
+<title>injector6</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5198.5,-502.18 5198.5,-572.18 5278.5,-572.18 5278.5,-502.18 5198.5,-502.18"/>
+<text text-anchor="middle" x="5238.5" y="-556.98" font-family="Times,serif" font-size="14.00">injector6</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-549.18 5278.5,-549.18 "/>
+<text text-anchor="middle" x="5238.5" y="-533.98" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5198.5,-526.18 5278.5,-526.18 "/>
+<text text-anchor="middle" x="5238.5" y="-510.48" font-family="Times,serif" font-size="14.00">Gnd</text>
 </g>
 <!-- battery -->
 <g id="node11" class="node">
@@ -483,27 +483,6 @@
 </a>
 </g>
 </g>
-<!-- alternator -->
-<g id="node16" class="node">
-<title>alternator</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="517.5,-174.18 517.5,-244.18 606.5,-244.18 606.5,-174.18 517.5,-174.18"/>
-<text text-anchor="middle" x="562" y="-228.98" font-family="Times,serif" font-size="14.00">alternator</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="517.5,-221.18 606.5,-221.18 "/>
-<text text-anchor="middle" x="562" y="-205.98" font-family="Times,serif" font-size="14.00">pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="517.5,-198.18 606.5,-198.18 "/>
-<text text-anchor="middle" x="562" y="-182.48" font-family="Times,serif" font-size="14.00">sense</text>
-</g>
-<!-- alternator&#45;&#45;kill_switch -->
-<g id="edge9" class="edge">
-<title>alternator:pos&#45;&#45;kill_switch:starter</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M608,-207.18C904.99,-207.19 979.25,-202.19 1276.5,-202.18"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M608,-209.18C905.12,-209.18 979.38,-204.18 1276.5,-204.18"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M608,-211.18C905.25,-211.18 979.51,-206.18 1276.5,-206.18"/>
-<g id="a_edge9&#45;label"><a xlink:title="alternator:pos&lt;red&gt;kill_switch:starter">
-<text text-anchor="middle" x="918" y="-212.98" font-family="Times,serif" font-size="14.00">alternator:pos&lt;red&gt;kill_switch:starter</text>
-</a>
-</g>
-</g>
 <!-- deutsch_pdm_connector -->
 <g id="node28" class="node">
 <title>deutsch_pdm_connector</title>
@@ -522,14 +501,35 @@
 <polyline fill="none" stroke="black" stroke-width="2" points="2224,-372.18 2412,-372.18 "/>
 <text text-anchor="middle" x="2318" y="-356.48" font-family="Times,serif" font-size="14.00">6</text>
 </g>
-<!-- alternator&#45;&#45;deutsch_pdm_connector -->
+<!-- kill_switch&#45;&#45;deutsch_pdm_connector -->
 <g id="edge16" class="edge">
-<title>alternator:sense&#45;&#45;deutsch_pdm_connector:1</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M608,-184.18C685.91,-186.5 673.25,-264.84 742.73,-290.32 820.52,-320.91 1424.76,-308.1 1499.95,-348.42 1535.41,-369.7 1520.01,-402.74 1553.93,-418.41 1603.48,-444.75 2009.28,-439.78 2066.22,-446.19 2137.94,-454.84 2153.74,-473.9 2223,-473.18"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M608,-186.18C683.94,-186.18 671.28,-264.52 742,-292.18 820.56,-322.91 1424.8,-310.1 1499,-350.18 1533.6,-368.85 1518.2,-401.89 1553,-420.18 1603.5,-446.75 2009.3,-441.78 2066,-448.18 2136.4,-456.12 2152.2,-475.18 2223,-475.18"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M608,-188.18C681.97,-185.86 669.31,-264.2 741.27,-294.04 820.6,-324.91 1424.84,-312.1 1498.05,-351.94 1531.79,-368.01 1516.39,-401.05 1552.07,-421.95 1603.52,-448.75 2009.32,-443.78 2065.78,-450.17 2134.86,-457.4 2150.66,-476.46 2223,-477.18"/>
-<g id="a_edge16&#45;label"><a xlink:title="alternator:sense&lt;red&gt;deutsch_pdm_connector:1">
-<text text-anchor="middle" x="1323.5" y="-353.98" font-family="Times,serif" font-size="14.00">alternator:sense&lt;red&gt;deutsch_pdm_connector:1</text>
+<title>kill_switch:z&#45;&#45;deutsch_pdm_connector:1</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1370.5,-248.18C1437.87,-249.47 1449.77,-280.6 1500.25,-320.62 1528.92,-345.13 1522.52,-367.4 1553.85,-380.37 1655.86,-428.96 1954.56,-376.96 2066.46,-403.23 2142.39,-422.53 2148.59,-474.95 2223,-473.18"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M1370.5,-250.18C1436,-250.18 1447.9,-281.31 1499,-322.18 1527,-344.58 1520.6,-366.85 1553,-382.18 1656.2,-430.93 1954.9,-378.93 2066,-405.18 2140.4,-422.76 2146.6,-475.18 2223,-475.18"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1370.5,-252.18C1434.13,-250.9 1446.03,-282.03 1497.75,-323.74 1525.08,-344.03 1518.68,-366.3 1552.15,-383.99 1656.54,-432.9 1955.24,-380.9 2065.54,-407.13 2138.41,-423 2144.61,-475.42 2223,-477.18"/>
+<g id="a_edge16&#45;label"><a xlink:title="kill_switch:z&lt;red&gt;deutsch_pdm_connector:1">
+<text text-anchor="middle" x="1809.5" y="-408.98" font-family="Times,serif" font-size="14.00">kill_switch:z&lt;red&gt;deutsch_pdm_connector:1</text>
+</a>
+</g>
+</g>
+<!-- alternator -->
+<g id="node16" class="node">
+<title>alternator</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="517.5,-174.18 517.5,-244.18 606.5,-244.18 606.5,-174.18 517.5,-174.18"/>
+<text text-anchor="middle" x="562" y="-228.98" font-family="Times,serif" font-size="14.00">alternator</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="517.5,-221.18 606.5,-221.18 "/>
+<text text-anchor="middle" x="562" y="-205.98" font-family="Times,serif" font-size="14.00">pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="517.5,-198.18 606.5,-198.18 "/>
+<text text-anchor="middle" x="562" y="-182.48" font-family="Times,serif" font-size="14.00">sense</text>
+</g>
+<!-- alternator&#45;&#45;kill_switch -->
+<g id="edge9" class="edge">
+<title>alternator:pos&#45;&#45;kill_switch:starter</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M608,-207.18C904.99,-207.19 979.25,-202.19 1276.5,-202.18"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M608,-209.18C905.12,-209.18 979.38,-204.18 1276.5,-204.18"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M608,-211.18C905.25,-211.18 979.51,-206.18 1276.5,-206.18"/>
+<g id="a_edge9&#45;label"><a xlink:title="alternator:pos&lt;red&gt;kill_switch:starter">
+<text text-anchor="middle" x="918" y="-212.98" font-family="Times,serif" font-size="14.00">alternator:pos&lt;red&gt;kill_switch:starter</text>
 </a>
 </g>
 </g>
@@ -1356,14 +1356,14 @@
 </a>
 </g>
 </g>
-<!-- deutsch_pdm_connector&#45;&#45;kill_switch -->
+<!-- deutsch_pdm_connector&#45;&#45;alternator -->
 <g id="edge59" class="edge">
-<title>deutsch_pdm_connector:1&#45;&#45;kill_switch:z</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M2223,-477.18C2144.61,-475.42 2138.41,-423 2065.54,-407.13 1955.24,-380.9 1656.54,-432.9 1552.15,-383.99 1518.68,-366.3 1525.08,-344.03 1497.75,-323.74 1446.03,-282.03 1434.13,-250.9 1370.5,-252.18"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M2223,-475.18C2146.6,-475.18 2140.4,-422.76 2066,-405.18 1954.9,-378.93 1656.2,-430.93 1553,-382.18 1520.6,-366.85 1527,-344.58 1499,-322.18 1447.9,-281.31 1436,-250.18 1370.5,-250.18"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M2223,-473.18C2148.59,-474.95 2142.39,-422.53 2066.46,-403.23 1954.56,-376.96 1655.86,-428.96 1553.85,-380.37 1522.52,-367.4 1528.92,-345.13 1500.25,-320.62 1449.77,-280.6 1437.87,-249.47 1370.5,-248.18"/>
-<g id="a_edge59&#45;label"><a xlink:title="deutsch_pdm_connector:1&lt;red&gt;kill_switch:z">
-<text text-anchor="middle" x="1809.5" y="-408.98" font-family="Times,serif" font-size="14.00">deutsch_pdm_connector:1&lt;red&gt;kill_switch:z</text>
+<title>deutsch_pdm_connector:1&#45;&#45;alternator:sense</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M2223,-477.18C2150.66,-476.46 2134.86,-457.4 2065.78,-450.17 2009.32,-443.78 1603.52,-448.75 1552.07,-421.95 1516.39,-401.05 1531.79,-368.01 1498.05,-351.94 1424.84,-312.1 820.6,-324.91 741.27,-294.04 669.31,-264.2 681.97,-185.86 608,-188.18"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M2223,-475.18C2152.2,-475.18 2136.4,-456.12 2066,-448.18 2009.3,-441.78 1603.5,-446.75 1553,-420.18 1518.2,-401.89 1533.6,-368.85 1499,-350.18 1424.8,-310.1 820.56,-322.91 742,-292.18 671.28,-264.52 683.94,-186.18 608,-186.18"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M2223,-473.18C2153.74,-473.9 2137.94,-454.84 2066.22,-446.19 2009.28,-439.78 1603.48,-444.75 1553.93,-418.41 1520.01,-402.74 1535.41,-369.7 1499.95,-348.42 1424.76,-308.1 820.52,-320.91 742.73,-290.32 673.25,-264.84 685.91,-186.5 608,-184.18"/>
+<g id="a_edge59&#45;label"><a xlink:title="deutsch_pdm_connector:1&lt;red&gt;alternator:sense">
+<text text-anchor="middle" x="1323.5" y="-353.98" font-family="Times,serif" font-size="14.00">deutsch_pdm_connector:1&lt;red&gt;alternator:sense</text>
 </a>
 </g>
 </g>
@@ -1948,6 +1948,72 @@
 </a>
 </g>
 </g>
+<!-- deutsch_ecu_connector&#45;&#45;knock1 -->
+<g id="edge105" class="edge">
+<title>deutsch_ecu_connector:24&#45;&#45;knock1:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1361.14C4472.71,-1363.28 4467.51,-1290.38 4544.39,-1264.24 4654.96,-1229.25 4948.36,-1252.45 5062.84,-1243.15 5124.45,-1238.58 5139.35,-1226.58 5203.5,-1226.14"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4395.5,-1363.14C4474.7,-1363.14 4469.5,-1290.24 4545,-1266.14 4654.8,-1231.24 4948.2,-1254.44 5063,-1245.14 5125.7,-1240.14 5140.6,-1228.14 5203.5,-1228.14"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1365.14C4476.69,-1363 4471.49,-1290.1 4545.61,-1268.05 4654.64,-1233.23 4948.04,-1256.43 5063.16,-1247.13 5126.95,-1241.7 5141.85,-1229.7 5203.5,-1230.14"/>
+<g id="a_edge105&#45;label"><a xlink:title="deutsch_ecu_connector:24&lt;white&gt;knock1:Sig+">
+<text text-anchor="middle" x="4804" y="-1269.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:24&lt;white&gt;knock1:Sig+</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;knock1 -->
+<g id="edge106" class="edge">
+<title>deutsch_ecu_connector:25&#45;&#45;knock1:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1338.14C4477.12,-1340.44 4464.32,-1254.54 4544.33,-1224.26 4562.15,-1218.04 5185.15,-1202.14 5203.5,-1202.14"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4395.5,-1340.14C4479.1,-1340.14 4466.3,-1254.24 4545,-1226.14 4562.2,-1220.04 5185.2,-1204.14 5203.5,-1204.14"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1342.14C4481.08,-1339.85 4468.28,-1253.95 4545.67,-1228.02 4562.25,-1222.04 5185.25,-1206.14 5203.5,-1206.14"/>
+<g id="a_edge106&#45;label"><a xlink:title="deutsch_ecu_connector:25&lt;green&gt;knock1:Sig&#45;">
+<text text-anchor="middle" x="4804" y="-1229.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:25&lt;green&gt;knock1:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;knock1 -->
+<g id="edge107" class="edge">
+<title>deutsch_ecu_connector:26&#45;&#45;knock1:Scr</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1315.14C4481.04,-1317.54 4461.14,-1220.44 4544.3,-1187.27 4613.57,-1161.44 5130.37,-1179.14 5203.5,-1179.14"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4395.5,-1317.14C4483,-1317.14 4463.1,-1220.04 4545,-1189.14 4613.5,-1163.44 5130.3,-1181.14 5203.5,-1181.14"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1319.14C4484.96,-1316.74 4465.06,-1219.64 4545.7,-1191.01 4613.43,-1165.44 5130.23,-1183.14 5203.5,-1183.14"/>
+<g id="a_edge107&#45;label"><a xlink:title="deutsch_ecu_connector:26&lt;green&gt;knock1:Scr">
+<text text-anchor="middle" x="4804" y="-1192.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:26&lt;green&gt;knock1:Scr</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;knock2 -->
+<g id="edge108" class="edge">
+<title>deutsch_ecu_connector:27&#45;&#45;knock2:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1292.14C4483.65,-1294.59 4459.95,-1192.49 4544.23,-1155.3 4598.2,-1132.94 5005.5,-1132.34 5062.86,-1128.15 5124.53,-1123.89 5139.83,-1115.39 5203.5,-1115.14"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4395.5,-1294.14C4485.6,-1294.14 4461.9,-1192.04 4545,-1157.14 4598.2,-1134.94 5005.5,-1134.34 5063,-1130.14 5125.5,-1125.64 5140.8,-1117.14 5203.5,-1117.14"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1296.14C4487.55,-1293.69 4463.85,-1191.59 4545.77,-1158.99 4598.2,-1136.94 5005.5,-1136.34 5063.14,-1132.14 5126.47,-1127.39 5141.77,-1118.89 5203.5,-1119.14"/>
+<g id="a_edge108&#45;label"><a xlink:title="deutsch_ecu_connector:27&lt;white&gt;knock2:Sig+">
+<text text-anchor="middle" x="4804" y="-1160.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:27&lt;white&gt;knock2:Sig+</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;knock2 -->
+<g id="edge109" class="edge">
+<title>deutsch_ecu_connector:28&#45;&#45;knock2:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1269.14C4490.89,-1271.72 4454.39,-1151.72 4544.18,-1109.32 4611.75,-1079.14 5130.35,-1091.14 5203.5,-1091.14"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4395.5,-1271.14C4492.8,-1271.14 4456.3,-1151.14 4545,-1111.14 4611.7,-1081.14 5130.3,-1093.14 5203.5,-1093.14"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1273.14C4494.71,-1270.56 4458.21,-1150.56 4545.82,-1112.96 4611.65,-1083.14 5130.25,-1095.14 5203.5,-1095.14"/>
+<g id="a_edge109&#45;label"><a xlink:title="deutsch_ecu_connector:28&lt;green&gt;knock2:Sig&#45;">
+<text text-anchor="middle" x="4804" y="-1114.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:28&lt;green&gt;knock2:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;knock2 -->
+<g id="edge110" class="edge">
+<title>deutsch_ecu_connector:29&#45;&#45;knock2:Scr</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1246.14C4496.21,-1248.8 4450.01,-1116.1 4544.16,-1070.37 4811.94,-947.62 4912.34,-1068.91 5203.5,-1068.18"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4395.5,-1248.14C4498.1,-1248.14 4451.9,-1115.44 4545,-1072.18 4810.4,-948.89 4910.8,-1070.18 5203.5,-1070.18"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1250.14C4499.99,-1247.48 4453.79,-1114.78 4545.84,-1073.99 4808.86,-950.17 4909.26,-1071.46 5203.5,-1072.18"/>
+<g id="a_edge110&#45;label"><a xlink:title="deutsch_ecu_connector:29&lt;green&gt;knock2:Scr">
+<text text-anchor="middle" x="4804" y="-1075.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:29&lt;green&gt;knock2:Scr</text>
+</a>
+</g>
+</g>
 <!-- deutsch_ecu_connector&#45;&#45;injector1 -->
 <g id="edge111" class="edge">
 <title>deutsch_ecu_connector:1&#45;&#45;injector1:Gnd</title>
@@ -2021,72 +2087,6 @@
 <path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1782.14C4751.57,-1775.58 4334.77,-1276.78 4548.19,-1000.6 4698.14,-796.51 4895.94,-940.93 5066.07,-742.74 5112.9,-680.83 5070.1,-638.95 5112.3,-583.45 5140.58,-542.11 5151.88,-515.76 5197.5,-518.18"/>
 <g id="a_edge116&#45;label"><a xlink:title="deutsch_ecu_connector:6&lt;brown:green&gt;injector6:Gnd">
 <text text-anchor="middle" x="4804" y="-1001.98" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:6&lt;brown:green&gt;injector6:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;knock1 -->
-<g id="edge105" class="edge">
-<title>deutsch_ecu_connector:24&#45;&#45;knock1:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1361.14C4472.71,-1363.28 4467.51,-1290.38 4544.39,-1264.24 4654.96,-1229.25 4948.36,-1252.45 5062.84,-1243.15 5124.45,-1238.58 5139.35,-1226.58 5203.5,-1226.14"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4395.5,-1363.14C4474.7,-1363.14 4469.5,-1290.24 4545,-1266.14 4654.8,-1231.24 4948.2,-1254.44 5063,-1245.14 5125.7,-1240.14 5140.6,-1228.14 5203.5,-1228.14"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1365.14C4476.69,-1363 4471.49,-1290.1 4545.61,-1268.05 4654.64,-1233.23 4948.04,-1256.43 5063.16,-1247.13 5126.95,-1241.7 5141.85,-1229.7 5203.5,-1230.14"/>
-<g id="a_edge105&#45;label"><a xlink:title="deutsch_ecu_connector:24&lt;white&gt;knock1:Sig+">
-<text text-anchor="middle" x="4804" y="-1269.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:24&lt;white&gt;knock1:Sig+</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;knock1 -->
-<g id="edge106" class="edge">
-<title>deutsch_ecu_connector:25&#45;&#45;knock1:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1338.14C4477.12,-1340.44 4464.32,-1254.54 4544.33,-1224.26 4562.15,-1218.04 5185.15,-1202.14 5203.5,-1202.14"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4395.5,-1340.14C4479.1,-1340.14 4466.3,-1254.24 4545,-1226.14 4562.2,-1220.04 5185.2,-1204.14 5203.5,-1204.14"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1342.14C4481.08,-1339.85 4468.28,-1253.95 4545.67,-1228.02 4562.25,-1222.04 5185.25,-1206.14 5203.5,-1206.14"/>
-<g id="a_edge106&#45;label"><a xlink:title="deutsch_ecu_connector:25&lt;green&gt;knock1:Sig&#45;">
-<text text-anchor="middle" x="4804" y="-1229.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:25&lt;green&gt;knock1:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;knock1 -->
-<g id="edge107" class="edge">
-<title>deutsch_ecu_connector:26&#45;&#45;knock1:Scr</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1315.14C4481.04,-1317.54 4461.14,-1220.44 4544.3,-1187.27 4613.57,-1161.44 5130.37,-1179.14 5203.5,-1179.14"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4395.5,-1317.14C4483,-1317.14 4463.1,-1220.04 4545,-1189.14 4613.5,-1163.44 5130.3,-1181.14 5203.5,-1181.14"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1319.14C4484.96,-1316.74 4465.06,-1219.64 4545.7,-1191.01 4613.43,-1165.44 5130.23,-1183.14 5203.5,-1183.14"/>
-<g id="a_edge107&#45;label"><a xlink:title="deutsch_ecu_connector:26&lt;green&gt;knock1:Scr">
-<text text-anchor="middle" x="4804" y="-1192.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:26&lt;green&gt;knock1:Scr</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;knock2 -->
-<g id="edge108" class="edge">
-<title>deutsch_ecu_connector:27&#45;&#45;knock2:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1292.14C4483.65,-1294.59 4459.95,-1192.49 4544.23,-1155.3 4598.2,-1132.94 5005.5,-1132.34 5062.86,-1128.15 5124.53,-1123.89 5139.83,-1115.39 5203.5,-1115.14"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4395.5,-1294.14C4485.6,-1294.14 4461.9,-1192.04 4545,-1157.14 4598.2,-1134.94 5005.5,-1134.34 5063,-1130.14 5125.5,-1125.64 5140.8,-1117.14 5203.5,-1117.14"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1296.14C4487.55,-1293.69 4463.85,-1191.59 4545.77,-1158.99 4598.2,-1136.94 5005.5,-1136.34 5063.14,-1132.14 5126.47,-1127.39 5141.77,-1118.89 5203.5,-1119.14"/>
-<g id="a_edge108&#45;label"><a xlink:title="deutsch_ecu_connector:27&lt;white&gt;knock2:Sig+">
-<text text-anchor="middle" x="4804" y="-1160.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:27&lt;white&gt;knock2:Sig+</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;knock2 -->
-<g id="edge109" class="edge">
-<title>deutsch_ecu_connector:28&#45;&#45;knock2:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1269.14C4490.89,-1271.72 4454.39,-1151.72 4544.18,-1109.32 4611.75,-1079.14 5130.35,-1091.14 5203.5,-1091.14"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4395.5,-1271.14C4492.8,-1271.14 4456.3,-1151.14 4545,-1111.14 4611.7,-1081.14 5130.3,-1093.14 5203.5,-1093.14"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1273.14C4494.71,-1270.56 4458.21,-1150.56 4545.82,-1112.96 4611.65,-1083.14 5130.25,-1095.14 5203.5,-1095.14"/>
-<g id="a_edge109&#45;label"><a xlink:title="deutsch_ecu_connector:28&lt;green&gt;knock2:Sig&#45;">
-<text text-anchor="middle" x="4804" y="-1114.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:28&lt;green&gt;knock2:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;knock2 -->
-<g id="edge110" class="edge">
-<title>deutsch_ecu_connector:29&#45;&#45;knock2:Scr</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1246.14C4496.21,-1248.8 4450.01,-1116.1 4544.16,-1070.37 4811.94,-947.62 4912.34,-1068.91 5203.5,-1068.18"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4395.5,-1248.14C4498.1,-1248.14 4451.9,-1115.44 4545,-1072.18 4810.4,-948.89 4910.8,-1070.18 5203.5,-1070.18"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4395.5,-1250.14C4499.99,-1247.48 4453.79,-1114.78 4545.84,-1073.99 4808.86,-950.17 4909.26,-1071.46 5203.5,-1072.18"/>
-<g id="a_edge110&#45;label"><a xlink:title="deutsch_ecu_connector:29&lt;green&gt;knock2:Scr">
-<text text-anchor="middle" x="4804" y="-1075.94" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:29&lt;green&gt;knock2:Scr</text>
 </a>
 </g>
 </g>

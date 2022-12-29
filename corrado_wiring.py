@@ -151,8 +151,10 @@ Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
 Node('engine_ground', ['Gnd'])
-Node('deutsch_ecu_connector', list(range(1,10)))
+Node('deutsch_ecu_connector', list(range(1,24)))
+
 Node('tps', ['5v', 'Sensor', 'Gnd'])
+Node('map_sensor', ['Gnd', 'Sensor', '5v'])
 
 AddPath((
   ('battery', 'pos'),
@@ -232,6 +234,7 @@ AddPath((
   ('engine_ground', 'Gnd'),
 ), 'black')
 
+# TPS
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt1'),
   ('deutsch_ecu_connector', '5'),
@@ -246,6 +249,23 @@ AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
   ('deutsch_ecu_connector', '7'),
   ('tps', 'Gnd'),
+))
+
+# MAP Sensor
+AddPathWithMap((
+  ('link_ecu_a', 'AnVolt2'),
+  ('deutsch_ecu_connector', '8'),
+  ('map_sensor', 'Sensor'),
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
+  ('deutsch_ecu_connector', '9'),
+  ('map_sensor', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'GndOut'),
+  ('deutsch_ecu_connector', '10'),
+  ('map_sensor', 'Gnd'),
 ))
 
 G.layout(prog='dot')

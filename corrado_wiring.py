@@ -91,7 +91,7 @@ Node('razor_pdm', [
 ])
 Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
-Node('deutch_ecu_connector', [1,2,3])
+Node('deutsch_ecu_connector', [1,2,3])
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 
 AddPath((
@@ -139,17 +139,17 @@ AddPath((
 
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt1'),
-  ('deutch_ecu_connector', '1'),
+  ('deutsch_ecu_connector', '1'),
   ('tps', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutch_ecu_connector', '2'),
+  ('deutsch_ecu_connector', '2'),
   ('tps', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  ('deutch_ecu_connector', '3'),
+  ('deutsch_ecu_connector', '3'),
   ('tps', 'Gnd'),
 ))
 

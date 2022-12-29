@@ -162,7 +162,7 @@ Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys(), label_func=BuildLinkLabel)
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys(), label_func=BuildLinkLabel)
 Node('engine_ground', ['Gnd'])
-Node('deutsch_ecu_connector', list(range(1,32)))
+Node('deutsch_ecu_connector', list(range(1,48)))
 Node('deutsch_pdm_connector', list(range(1,5)))
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
@@ -170,6 +170,9 @@ Node('map_sensor', ['Gnd', 'Sensor', '5v'])
 
 Node('cam_sensor', ['5v', 'Sensor', 'Gnd'])
 Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
+
+Node('knock1', ['Sig+', 'Sig-', 'Scr'])
+Node('knock2', ['Sig+', 'Sig-', 'Scr'])
 
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
 Node('oil_temp_sensor', ['Sig+', 'Sig-'])
@@ -221,6 +224,7 @@ AddPath((
   ('razor_pdm', 'IGNSW'),
 ), 'blue')
 
+# Fuel Pump
 AddPath((
   ('fuel_pump', 'pos'),
   ('razor_pdm', 'PWROUT2a'),
@@ -329,6 +333,24 @@ AddPathWithMap((
   ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('crank_sensor', 'Gnd'),
 ))
+
+# Knock Sensors
+for i in range(1, 3):
+  AddPathWithMap((
+    ('link_ecu_b', f'Knock{i}'),
+    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    (f'knock{i}', 'Sig+'),
+  ))
+  AddPathWithMap((
+    ('link_ecu_b', 'Shield/Gnd'),
+    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    (f'knock{i}', 'Sig-'),
+  ))
+  AddPathWithMap((
+    ('link_ecu_b', 'Shield/Gnd'),
+    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    (f'knock{i}', 'Scr'),
+  ))
 
 # Intake Temp Sensor
 AddPathWithMap((

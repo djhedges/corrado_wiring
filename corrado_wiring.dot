@@ -1,27 +1,81 @@
 strict graph "" {
-	graph [bb="0,0,175,183"];
+	graph [bb="0,0,2570,329"];
 	node [label="\N",
 		shape=record
 	];
 	battery	[height=0.51389,
 		label="battery | <pos> pos | <neg> neg ",
-		pos="98.5,164.5",
-		rects="22,146.5,91,182.5 91,146.5,132,182.5 132,146.5,175,182.5",
+		pos="319,310.5",
+		ranksep=2.0,
+		rects="242.5,292.5,311.5,328.5 311.5,292.5,352.5,328.5 352.5,292.5,395.5,328.5",
 		width=2.125];
-	connector	[height=0.51389,
-		label="connector | <1> 1 | <2> 2 ",
-		pos="80.5,91.5",
-		rects="11,73.5,98,109.5 98,73.5,124,109.5 124,73.5,150,109.5",
-		width=1.9306];
-	battery:pos -- connector:1	[color=red,
+	main_fuse	[height=0.51389,
+		label="main_fuse | <fuse> fuse ",
+		pos="180,237.5",
+		ranksep=2.0,
+		rects="112,219.5,201,255.5 201,219.5,248,255.5",
+		width=1.8889];
+	battery:pos -- main_fuse:fuse	[color=red,
 		penwidth=5,
-		pos="111.5,146 111.5,130 111.5,126 111.5,110"];
-	fuel_pump	[height=0.51389,
-		label="fuel_pump | <pos> pos | <neg> neg ",
-		pos="87.5,18.5",
-		rects="0,0.5,91,36.5 91,0.5,132,36.5 132,0.5,175,36.5",
-		width=2.4306];
-	connector:1 -- fuel_pump:pos	[color=red,
+		pos="332,292 332,255.43 283.86,281.86 258,256 251.53,249.53 258.14,237.5 249,237.5"];
+	razor_pdm	[height=0.51389,
+		label="razor_pdm | <pos> pos | <neg> neg | <PWROUT2a> PWROUT2a | <NC1> NC1 | <CANH> CANH | <IGNSW> IGNSW | <SENSOR 5V1> SENSOR 5V1 | <SENSOR \
+GND1> SENSOR GND1 | <PWROUT3a,PWROUT2b> PWROUT3a,PWROUT2b | <NC2> NC2 | <CANL> CANL | <SENSOR 5V2> SENSOR 5V2 | <SENSOR GND2> SENSOR \
+GND2 | <PWROUT3b,PWROUT1a> PWROUT3b,PWROUT1a | <ADIO2> ADIO2 | <ADIO4> ADIO4 | <ADIO6> ADIO6 | <ADIO8> ADIO8 | <PWROUT4a,PWROUT1b> \
+PWROUT4a,PWROUT1b | <ADIO1> ADIO1 | <ADIO3> ADIO3 | <ADIO5> ADIO5 | <ADIO7> ADIO7 | <NC3> NC3 | <PWROUT4b> PWROUT4b ",
+		pos="1437,18.5",
+		ranksep=2.0,
+		rects="304,0.5,396,36.5 396,0.5,437,36.5 437,0.5,480,36.5 480,0.5,581,36.5 581,0.5,629,36.5 629,0.5,690,36.5 690,0.5,759,36.5 759,0.5,872,\
+36.5 872,0.5,1000,36.5 1000,0.5,1190,36.5 1190,0.5,1238,36.5 1238,0.5,1296,36.5 1296,0.5,1409,36.5 1409,0.5,1537,36.5 1537,0.5,1727,\
+36.5 1727,0.5,1790,36.5 1790,0.5,1853,36.5 1853,0.5,1916,36.5 1916,0.5,1979,36.5 1979,0.5,2169,36.5 2169,0.5,2232,36.5 2232,0.5,\
+2295,36.5 2295,0.5,2358,36.5 2358,0.5,2421,36.5 2421,0.5,2469,36.5 2469,0.5,2570,36.5",
+		width=31.472];
+	battery:neg -- razor_pdm:neg	[color=black,
 		penwidth=5,
-		pos="111.5,73 111.5,57 111.5,53 111.5,37"];
+		pos="397,310.5 521.54,310.5 458,161.54 458,37"];
+	kill_switch	[height=0.51389,
+		label="kill_switch | <battery> battery | <z> z | <w> w | <starter> starter ",
+		pos="269,164.5",
+		ranksep=2.0,
+		rects="129,146.5,221,182.5 221,146.5,290,182.5 290,146.5,314,182.5 314,146.5,343,182.5 343,146.5,409,182.5",
+		width=3.8889];
+	main_fuse:fuse -- kill_switch:battery	[color=red,
+		penwidth=5,
+		pos="225,219 225,198.17 255,203.83 255,183"];
+	kill_switch:starter -- razor_pdm:pos	[color=red,
+		penwidth=5,
+		pos="376,146 376,127.48 389.93,127.12 397,110 409.79,79.009 416,70.525 416,37"];
+	kill_switch:starter -- kill_switch:w	[color=red,
+		penwidth=5,
+		pos="409.03,177.1 422.25,180.02 427,175.82 427,164.5 427,148.15 389.61,146.65 343.29,160"];
+	kill_switch_resistor	[height=0.51389,
+		label="kill_switch_resistor | <resistor> resistor ",
+		pos="275,91.5",
+		ranksep=2.0,
+		rects="162,73.5,316,109.5 316,73.5,388,109.5",
+		width=3.1389];
+	kill_switch:w -- kill_switch_resistor:resistor	[color=red,
+		penwidth=5,
+		pos="329,146 329,127.01 352,128.99 352,110"];
+	ign_switch	[height=0.51389,
+		label="ign_switch | <1> 1 | <2> 2 ",
+		pos="72,91.5",
+		ranksep=2.0,
+		rects="0,73.5,92,109.5 92,73.5,118,109.5 118,73.5,144,109.5",
+		width=2];
+	kill_switch:z -- ign_switch:1	[color=blue,
+		penwidth=5,
+		pos="302,146 302,56.995 105,199.01 105,110"];
+	ign_switch:2 -- razor_pdm:IGNSW	[color=blue,
+		penwidth=5,
+		pos="145,91.5 153.96,91.5 145.67,78.152 153,73 205,36.437 724,100.57 724,37"];
+	alternator	[height=0.51389,
+		label="alternator | <pos> pos | <sense> sense ",
+		pos="360,237.5",
+		ranksep=2.0,
+		rects="266.5,219.5,355.5,255.5 355.5,219.5,396.5,255.5 396.5,219.5,453.5,255.5",
+		width=2.5972];
+	alternator:pos -- kill_switch:starter	[color=red,
+		penwidth=5,
+		pos="376,219 376,203 376,199 376,183"];
 }

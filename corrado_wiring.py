@@ -4,11 +4,33 @@ import pygraphviz as pgv
 
 G = pgv.AGraph(strict=False)
 
+def BuildLabel(name, pin_names):
+  label = f'{name} '
+  for pin_name in pin_names:
+    label += f'| <{pin_name}> {pin_name} '
+  return label
+
+
+def BuildLinkLabel(name, pin_names):
+  bracket_index = (9, 17, 25)
+  label = f'{name} | '
+  label += '{ '
+  for i, pin_name in enumerate(pin_names):
+    if i in bracket_index:
+      label += '} | {'
+    else:
+      label += ' | '
+    label += f'<{pin_name}> {pin_name} '
+  label += '} '
+  return label
+
+
 class Node(object):
   def __init__(self, name, pin_names):
-    label = f'{name} '
-    for pin_name in pin_names:
-      label += f'| <{pin_name}> {pin_name} '
+    if name.startswith('link_ecu') or name.startswith('razor_pdm'):
+      label = BuildLinkLabel(name, pin_names)
+    else:
+      label = BuildLabel(name, pin_names)
     self.node = G.add_node(name, label=label, ranksep=2.0)
 
 

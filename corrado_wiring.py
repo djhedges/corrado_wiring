@@ -32,10 +32,10 @@ def AddPathWithMap(node_pins):
     'link_ecu_b': LINK_ECU_B_PIN_COLOR_MAP,
   }
   for node, pin in node_pins:
-      color = node_color_map.get(node)[pin]
+      color = node_color_map.get(node,{}).get(pin)
       if color:
         AddPath(node_pins, color)
-      break
+        break
 
 LINK_ECU_A_PIN_COLOR_MAP = {
     'Inj4': 'brown:orange',
@@ -130,7 +130,8 @@ Node('razor_pdm', [
 Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
-Node('deutsch_ecu_connector', [1,2,3])
+Node('engine_ground', ['Gnd'])
+Node('deutsch_ecu_connector', list(range(1,10)))
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 
 AddPath((
@@ -175,29 +176,51 @@ AddPath((
   ('fuel_pump', 'gnd'),
 ), 'black')
 
+# ECU Power
 AddPathWithMap((
-  ('link_ecu_a', '+14V'),
   ('razor_pdm', 'PWROUT2a'),
+  ('link_ecu_a', '+14V'),
+))
+AddPathWithMap((
+  ('razor_pdm', 'PWROUT2b'),
+  ('link_ecu_b', '+14V Aux9/10'),
 ))
 
-AddPathWithMap((
-  ('link_ecu_b', '+14V Aux9/10'),
-  ('razor_pdm', 'PWROUT2b'),
-))
+# ECU Grounds
+AddPath((
+  ('link_ecu_a', 'Ground1'),
+  ('deutsch_ecu_connector', '1'),
+  ('engine_ground', 'Gnd'),
+), 'black')
+AddPath((
+  ('link_ecu_a', 'Ground2'),
+  ('deutsch_ecu_connector', '2'),
+  ('engine_ground', 'Gnd'),
+), 'black')
+AddPath((
+  ('link_ecu_b', 'Ground1'),
+  ('deutsch_ecu_connector', '3'),
+  ('engine_ground', 'Gnd'),
+), 'black')
+AddPath((
+  ('link_ecu_b', 'Ground2'),
+  ('deutsch_ecu_connector', '4'),
+  ('engine_ground', 'Gnd'),
+), 'black')
 
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt1'),
-  ('deutsch_ecu_connector', '1'),
+  ('deutsch_ecu_connector', '5'),
   ('tps', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', '2'),
+  ('deutsch_ecu_connector', '6'),
   ('tps', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', '3'),
+  ('deutsch_ecu_connector', '7'),
   ('tps', 'Gnd'),
 ))
 

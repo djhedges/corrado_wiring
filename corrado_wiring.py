@@ -180,7 +180,7 @@ for i in range(1, 7):
 
 Node('icm', ['Transistor1ecu', 'Transistor2ecu', 'Transistor3ecu',
              'Transistor3coil', 'Gnd', 'Transistor2coil', 'Transistor1coil'])
-Node('coil', ['Coil3', 'Coil2', 'Coil1'])
+Node('coil', ['Coil3', 'Coil2', 'Coil1', 'Ubatt'])
 
 AddPath((
   ('battery', 'pos'),
@@ -383,6 +383,10 @@ for i in range(1, 7):
   ))
 
 # Coils
+AddPath((
+  ('razor_pdm', 'PWROUT4a'),
+  ('coil', 'Ubatt'),
+), 'red')
 AddPath((
   ('icm', 'Gnd'),
   ('engine_ground', 'Gnd'),

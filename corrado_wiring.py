@@ -2,7 +2,7 @@
 
 import pygraphviz as pgv
 
-G = pgv.AGraph(strict=False, ranksep=2, rankdir='LR')
+G = pgv.AGraph(strict=False, rankdir='LR')
 
 
 class DeutschConnector(object):

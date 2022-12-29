@@ -5,4 +5,6 @@
 * [corrado_wiring.png](/corrado_wiring.png)
 * [corrado_wiring.svg](/corrado_wiring.svg)
 
+[diagram](/corrado_wiring.png)
+
 Earlier diagram work can be found in wireviz/ but it was abandonded in favor using pygraphviz.

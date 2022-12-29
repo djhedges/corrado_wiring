@@ -2,7 +2,7 @@
 
 import pygraphviz as pgv
 
-G = pgv.AGraph(strict=False, rankdir='LR')
+G = pgv.AGraph(strict=False, rankdir='LR', concentrate=True)
 
 
 class DeutschConnector(object):
@@ -259,6 +259,18 @@ AddPathWithMap((
   ('link_ecu_b', '+14V Aux9/10'),
 ))
 
+# Keypad
+AddPath((
+  ('razor_pdm', 'ADIO3'),
+  ('deutsch_console_connector', DCC.GetFreePin()),
+  ('link_keypad', 1),
+), 'red')
+AddPath((
+  ('battery', 'neg'),
+  ('deutsch_console_connector', DCC.GetFreePin()),
+  ('link_keypad', 2),
+), 'black')
+
 # CAN
 AddPathWithMap((
   ('razor_pdm', 'CANH'),
@@ -278,18 +290,6 @@ AddPathWithMap((
   ('deutsch_console_connector', DCC.GetFreePin()),
   ('link_ecu_b', 'DI9/CAN2L'),
 ))
-
-# Keypad
-AddPath((
-  ('razor_pdm', 'ADIO3'),
-  ('deutsch_console_connector', DCC.GetFreePin()),
-  ('link_keypad', 1),
-), 'red')
-AddPath((
-  ('battery', 'neg'),
-  ('deutsch_console_connector', DCC.GetFreePin()),
-  ('link_keypad', 2),
-), 'black')
 
 # ECU Grounds
 AddPath((
@@ -510,5 +510,7 @@ AddPath((
 
 G.layout(prog='dot')
 G.write('corrado_wiring.dot')
+print('Rendering PNG')
 G.draw('corrado_wiring.png')
+print('Rendering SVG')
 G.draw('corrado_wiring.svg')

@@ -48,7 +48,7 @@ class Node(object):
 def ParseColor(color):
   if ':' in color:
     color += ':' + color.split(':')[0]
-  return f'{color}'
+  return f'black:{color}:black'
 
 def AddPath(node_pins, color):
   for i in range(len(node_pins) - 1):
@@ -56,7 +56,7 @@ def AddPath(node_pins, color):
       next_node, next_pin = node_pins[i + 1]
       G.add_edge(node, next_node,
                  tailport=pin, headport=next_pin,
-                 color=ParseColor(color), penwidth=3)
+                 color=ParseColor(color), penwidth=2)
 
 
 def AddPathWithMap(node_pins):
@@ -177,6 +177,10 @@ Node('coolant_temp_sensor', ['Sig+', 'Sig-'])
 
 for i in range(1, 7):
     Node(f'injector{i}', ['Pos', 'Gnd'])
+
+Node('icm', ['Transistor1ecu', 'Transistor2ecu', 'Transistor3ecu',
+             'Transistor3coil', 'Gnd', 'Transistor2coil', 'Transistor1coil'])
+Node('coil', ['Coil3', 'Coil2', 'Coil1'])
 
 AddPath((
   ('battery', 'pos'),
@@ -377,6 +381,21 @@ for i in range(1, 7):
     ('deutsch_ecu_connector', DCE.GetFreePin()),
     (f'injector{i}', 'Gnd'),
   ))
+
+# Coils
+AddPath((
+  ('icm', 'Gnd'),
+  ('engine_ground', 'Gnd'),
+), 'black')
+for i in range(1, 4):
+  AddPathWithMap((
+    ('link_ecu_a', f'Ign{i}'),
+    ('icm', f'Transistor{i}ecu'),
+  ))
+  AddPath((
+    ('icm', f'Transistor{i}coil'),
+    ('coil', f'Coil{i}'),
+  ), 'white')  # TODO: Decide on wire color.
 
 
 G.layout(prog='dot')

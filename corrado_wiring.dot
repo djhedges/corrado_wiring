@@ -1,20 +1,19 @@
 graph "" {
 	graph [bb="0,0,1134.8,936"];
-	node [label="\N",
-		shape=record,
-		style=bold
-	];
+	node [label="\N"];
 	battery	[height=0.51389,
 		label="battery | <pos> pos | <neg> neg ",
 		pos="128,917.5",
-		ranksep=2.0,
 		rects="51.5,899.5,120.5,935.5 120.5,899.5,161.5,935.5 161.5,899.5,204.5,935.5",
+		shape=record,
+		style=bold,
 		width=2.125];
 	main_fuse	[height=0.51389,
 		label="main_fuse | <fuse> fuse ",
 		pos="68,844.5",
-		ranksep=2.0,
 		rects="0,826.5,89,862.5 89,826.5,136,862.5",
+		shape=record,
+		style=bold,
 		width=1.8889];
 	battery:pos -- main_fuse:fuse	[color=red,
 		penwidth=3,
@@ -26,12 +25,13 @@ graph "" {
 ADIO8> ADIO8  | <PWROUT4a> PWROUT4a  | <PWROUT1b> PWROUT1b  | <ADIO1> ADIO1  | <ADIO3> ADIO3  | <ADIO5> ADIO5 } | {<ADIO7> ADIO7  | <\
 NC3> NC3  | <PWROUT4b> PWROUT4b } ",
 		pos="571,528.5",
-		ranksep=2.0,
 		rects="296,413.5,388,643.5 388,620.5,516,643.5 388,597.5,516,620.5 388,574.5,516,597.5 388,551.5,516,574.5 388,528.5,516,551.5 388,505.5,\
 516,528.5 388,482.5,516,505.5 388,459.5,516,482.5 388,436.5,516,459.5 388,413.5,516,436.5 516,615.5,644,643.5 516,586.5,644,615.5 \
 516,557.5,644,586.5 516,528.5,644,557.5 516,500.5,644,528.5 516,471.5,644,500.5 516,442.5,644,471.5 516,413.5,644,442.5 644,615.5,\
 745,643.5 644,586.5,745,615.5 644,557.5,745,586.5 644,528.5,745,557.5 644,500.5,745,528.5 644,471.5,745,500.5 644,442.5,745,471.5 \
 644,413.5,745,442.5 745,567.5,846,643.5 745,490.5,846,567.5 745,413.5,846,490.5",
+		shape=record,
+		style=bold,
 		width=7.6389];
 	battery:neg -- razor_pdm:neg	[color=black,
 		penwidth=3,
@@ -39,8 +39,9 @@ NC3> NC3  | <PWROUT4b> PWROUT4b } ",
 	fuel_pump	[height=0.51389,
 		label="fuel_pump | <pos> pos | <SendingA> SendingA | <SendingB> SendingB | <gnd> gnd ",
 		pos="403,771.5",
-		ranksep=2.0,
 		rects="229.5,753.5,320.5,789.5 320.5,753.5,361.5,789.5 361.5,753.5,446.5,789.5 446.5,753.5,532.5,789.5 532.5,753.5,576.5,789.5",
+		shape=record,
+		style=bold,
 		width=4.8194];
 	battery:neg -- fuel_pump:gnd	[color=black,
 		penwidth=3,
@@ -48,8 +49,9 @@ NC3> NC3  | <PWROUT4b> PWROUT4b } ",
 	engine_ground	[height=0.51389,
 		label="engine_ground | <Gnd> Gnd ",
 		pos="782,18.5",
-		ranksep=2.0,
 		rects="698,0.5,820,36.5 820,0.5,866,36.5",
+		shape=record,
+		style=bold,
 		width=2.3333];
 	battery:neg -- engine_ground:Gnd	[color=black,
 		penwidth=3,
@@ -58,8 +60,9 @@ NC3> NC3  | <PWROUT4b> PWROUT4b } ",
 	kill_switch	[height=0.51389,
 		label="kill_switch | <battery> battery | <z> z | <w> w | <starter> starter ",
 		pos="735,771.5",
-		ranksep=2.0,
 		rects="595,753.5,687,789.5 687,753.5,756,789.5 756,753.5,780,789.5 780,753.5,809,789.5 809,753.5,875,789.5",
+		shape=record,
+		style=bold,
 		width=3.8889];
 	main_fuse:fuse -- kill_switch:battery	[color=red,
 		penwidth=3,
@@ -71,13 +74,14 @@ Temp2> Temp2  | <AnVolt1> AnVolt1 } | {<Aux4> Aux4  | <Aux3> Aux3  | <Aux2> Aux2
 GndOut> GndOut  | <Ground1> Ground1 } | {<Aux8> Aux8  | <Aux7> Aux7  | <Aux6> Aux6  | <Aux5> Aux5  | <DI1> DI1  | <DI2> DI2  | <+\
 5V> +5V  | <AnVolt3> AnVolt3  | <Ground2> Ground2 } ",
 		pos="909,261.5",
-		ranksep=2.0,
 		rects="702,146.5,791,376.5 791,353.5,886,376.5 791,330.5,886,353.5 791,307.5,886,330.5 791,284.5,886,307.5 791,261.5,886,284.5 791,238.5,\
 886,261.5 791,215.5,886,238.5 791,192.5,886,215.5 791,169.5,886,192.5 791,146.5,886,169.5 886,348.5,958,376.5 886,319.5,958,348.5 \
 886,290.5,958,319.5 886,261.5,958,290.5 886,233.5,958,261.5 886,204.5,958,233.5 886,175.5,958,204.5 886,146.5,958,175.5 958,348.5,\
 1037,376.5 958,319.5,1037,348.5 958,290.5,1037,319.5 958,261.5,1037,290.5 958,233.5,1037,261.5 958,204.5,1037,233.5 958,175.5,1037,\
 204.5 958,146.5,1037,175.5 1037,351.5,1116,376.5 1037,325.5,1116,351.5 1037,300.5,1116,325.5 1037,274.5,1116,300.5 1037,249.5,1116,\
 274.5 1037,223.5,1116,249.5 1037,198.5,1116,223.5 1037,172.5,1116,198.5 1037,146.5,1116,172.5",
+		shape=record,
+		style=bold,
 		width=5.75];
 	razor_pdm:PWROUT2a -- link_ecu_a:"+14V"	[color=red,
 		penwidth=3,
@@ -89,13 +93,14 @@ Volt6  | <Volt7> Volt7  | <Shield/Gnd> Shield/Gnd } | {<Aux9> Aux9  | <DI6> DI6 
 An Volt8> An Volt8  | <An Volt9> An Volt9  | <Ground1> Ground1 } | {<Aux10> Aux10  | <DI10/CAN2H> DI10/CAN2H  | <DI9/CAN2L> DI9/\
 CAN2L  | <DI8> DI8  | <DI7> DI7  | <IPE> IPE  | <APE> APE  | <AN Volt5> AN Volt5  | <Ground2> Ground2 } ",
 		pos="438,261.5",
-		ranksep=2.0,
 		rects="192,146.5,282,376.5 282,353.5,401,376.5 282,330.5,401,353.5 282,307.5,401,330.5 282,284.5,401,307.5 282,261.5,401,284.5 282,238.5,\
 401,261.5 282,215.5,401,238.5 282,192.5,401,215.5 282,169.5,401,192.5 282,146.5,401,169.5 401,348.5,496,376.5 401,319.5,496,348.5 \
 401,290.5,496,319.5 401,261.5,496,290.5 401,233.5,496,261.5 401,204.5,496,233.5 401,175.5,496,204.5 401,146.5,496,175.5 496,348.5,\
 575,376.5 496,319.5,575,348.5 496,290.5,575,319.5 496,261.5,575,290.5 496,233.5,575,261.5 496,204.5,575,233.5 496,175.5,575,204.5 \
 496,146.5,575,175.5 575,351.5,684,376.5 575,325.5,684,351.5 575,300.5,684,325.5 575,274.5,684,300.5 575,249.5,684,274.5 575,223.5,\
 684,249.5 575,198.5,684,223.5 575,172.5,684,198.5 575,146.5,684,172.5",
+		shape=record,
+		style=bold,
 		width=6.8333];
 	razor_pdm:PWROUT2b -- link_ecu_b:"+14V Aux9/10"	[color=red,
 		penwidth=3,
@@ -113,8 +118,9 @@ CAN2L  | <DI8> DI8  | <DI7> DI7  | <IPE> IPE  | <APE> APE  | <AN Volt5> AN Volt5
 	kill_switch_resistor	[height=0.51389,
 		label="kill_switch_resistor | <resistor> resistor ",
 		pos="701,698.5",
-		ranksep=2.0,
 		rects="588,680.5,742,716.5 742,680.5,814,716.5",
+		shape=record,
+		style=bold,
 		width=3.1389];
 	kill_switch:w -- kill_switch_resistor:resistor	[color=red,
 		penwidth=3,
@@ -122,8 +128,9 @@ CAN2L  | <DI8> DI8  | <DI7> DI7  | <IPE> IPE  | <APE> APE  | <AN Volt5> AN Volt5
 	ign_switch	[height=0.51389,
 		label="ign_switch | <1> 1 | <2> 2 ",
 		pos="470,698.5",
-		ranksep=2.0,
 		rects="398,680.5,490,716.5 490,680.5,516,716.5 516,680.5,542,716.5",
+		shape=record,
+		style=bold,
 		width=2];
 	kill_switch:z -- ign_switch:1	[color=blue,
 		penwidth=3,
@@ -131,9 +138,10 @@ CAN2L  | <DI8> DI8  | <DI7> DI7  | <IPE> IPE  | <APE> APE  | <AN Volt5> AN Volt5
 	deutsch_ecu_connector	[height=0.51389,
 		label="deutsch_ecu_connector | <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 ",
 		pos="843,91.5",
-		ranksep=2.0,
 		rects="635,73.5,817,109.5 817,73.5,843,109.5 843,73.5,869,109.5 869,73.5,895,109.5 895,73.5,921,109.5 921,73.5,947,109.5 947,73.5,973,109.5 \
 973,73.5,999,109.5 999,73.5,1025,109.5 1025,73.5,1051,109.5",
+		shape=record,
+		style=bold,
 		width=5.7778];
 	link_ecu_a:Ground1 -- deutsch_ecu_connector:1	[color=black,
 		penwidth=3,
@@ -162,8 +170,9 @@ CAN2L  | <DI8> DI8  | <DI7> DI7  | <IPE> IPE  | <APE> APE  | <AN Volt5> AN Volt5
 	alternator	[height=0.51389,
 		label="alternator | <pos> pos | <sense> sense ",
 		pos="826,844.5",
-		ranksep=2.0,
 		rects="732.5,826.5,821.5,862.5 821.5,826.5,862.5,862.5 862.5,826.5,919.5,862.5",
+		shape=record,
+		style=bold,
 		width=2.5972];
 	alternator:pos -- kill_switch:starter	[color=red,
 		penwidth=3,
@@ -183,8 +192,9 @@ CAN2L  | <DI8> DI8  | <DI7> DI7  | <IPE> IPE  | <APE> APE  | <AN Volt5> AN Volt5
 	tps	[height=0.51389,
 		label="tps | <5v> 5v | <Sensor> Sensor | <Gnd> Gnd ",
 		pos="976,18.5",
-		ranksep=2.0,
 		rects="883.5,0.5,922.5,36.5 922.5,0.5,956.5,36.5 956.5,0.5,1022.5,36.5 1022.5,0.5,1068.5,36.5",
+		shape=record,
+		style=bold,
 		width=2.5694];
 	deutsch_ecu_connector:5 -- tps:Sensor	[color="yellow:blue:yellow",
 		penwidth=3,

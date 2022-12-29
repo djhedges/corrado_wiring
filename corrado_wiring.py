@@ -31,7 +31,7 @@ class Node(object):
       label = BuildLinkLabel(name, pin_names)
     else:
       label = BuildLabel(name, pin_names)
-    self.node = G.add_node(name, label=label, ranksep=2.0)
+    self.node = G.add_node(name, label=label, shape='record', style='bold')
 
 
 def ParseColor(color):
@@ -132,8 +132,6 @@ LINK_ECU_B_PIN_COLOR_MAP = {
     'Ground2': 'black',
 }
 
-G.node_attr['shape'] = 'record'
-G.node_attr['style'] = 'bold'
 Node('battery', ['pos', 'neg'])
 Node('main_fuse', ['fuse'])
 Node('alternator', ['pos', 'sense'])

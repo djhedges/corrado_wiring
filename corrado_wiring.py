@@ -180,7 +180,7 @@ Node('deutsch_console_connector', list(range(1,16)))
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
-Node('LSU4.9', list(range(1, 7)))
+Node('LSU4.2', ['Vs', 'CalR', 'H+', 'H-', 'Vs/Ip', 'Ip'])
 
 Node('cam_sensor', ['5v', 'Sensor', 'Gnd'])
 Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
@@ -476,26 +476,27 @@ for i in range(1, 3):
     (f'knock{i}', 'Scr'),
   ))
 
-# LSU4.9
+# LSU4.2
+# https://wbo2.com/cable/lsuconns.htm
 AddPathWithMap((
   ('link_ecu_b', 'MES'),
-  ('LSU4.9', 5),
+  ('LSU4.2', 'CalR',),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'RE'),
-  ('LSU4.9', 6),
+  ('LSU4.2', 'Vs'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'Heater'),
-  ('LSU4.9', 3),
+  ('LSU4.2', 'H-'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'IPE'),
-  ('LSU4.9', 2),
+  ('LSU4.2', 'Vs/Ip'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'APE'),
-  ('LSU4.9', 1),
+  ('LSU4.2', 'Ip'),
 ))
 
 # ECU B Grounds

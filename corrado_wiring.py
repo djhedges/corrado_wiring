@@ -231,7 +231,7 @@ AddPath((
 # Fuel Pump
 AddPath((
   ('fuel_pump', 'pos'),
-  ('razor_pdm', 'PWROUT2a'),
+  ('razor_pdm', 'PWROUT3a'),
 ), 'red')
 AddPath((
   ('battery', 'neg'),

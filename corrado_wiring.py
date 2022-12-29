@@ -29,6 +29,7 @@ def AddPath(node_pins, color):
 def AddPathWithMap(node_pins):
   node_color_map = {
     'link_ecu_a': LINK_ECU_A_PIN_COLOR_MAP,
+    'link_ecu_b': LINK_ECU_B_PIN_COLOR_MAP,
   }
   first_node = node_pins[0][0]
   first_pin = node_pins[0][1]
@@ -69,6 +70,42 @@ LINK_ECU_A_PIN_COLOR_MAP = {
     'DI2': 'grey:brown',
     '+5V': 'red:blue',
     'AnVolt3': 'yellow:black',
+    'Ground2': 'black',
+}
+LINK_ECU_B_PIN_COLOR_MAP = {
+    'Inj8': 'brown:violet',
+    'Inj7': 'brown:blue',
+    'Inj6': 'brown:green',
+    'Inj5': 'brown:yellow',
+    '+14V Aux9/10': 'red',
+    'Temp3': 'yellow:red',
+    'Temp4': 'yellow:orange',
+    'Knock2': 'white',
+    'Knock1': 'white',
+    'Heater': 'blue:violet',
+    'MES': 'blue:black',
+    'Ign6': 'blue:green',
+    'Ign5': 'blue:yellow',
+    'RE': 'bluewhite',
+    'Volt6': 'white:red',
+    'Volt7': 'white:orange',
+    'Shield/Gnd': 'green',
+    'Aux9': 'violet',
+    'DI6': 'grey:green',
+    'DI5': 'grey:yellow',
+    'DI4': 'grey:orange',
+    'GndOut': 'green',
+    'An Volt8': 'white:yellow',
+    'An Volt9': 'white:green',
+    'Ground1': 'black',
+    'Aux10': 'violet:white',
+    'DI10/CAN2H': 'grey:violet',
+    'DI9/CAN2L': 'grey:white',
+    'DI8': 'grey',
+    'DI7': 'grey:blue',
+    'IPE': 'white:blue',
+    'APE': 'white',
+    'AN Volt5': 'yellow:green',
     'Ground2': 'black',
 }
 
@@ -117,7 +154,7 @@ AddPath((
   ('razor_pdm', 'neg'),
 ), 'black')
 
-# TODO: Verify blue is not in use for IGNSW.
+# TODO: Verify blue is not already in use.
 AddPath((
   ('kill_switch', 'z'),
   ('ign_switch', '1'),

@@ -31,10 +31,11 @@ def AddPathWithMap(node_pins):
     'link_ecu_a': LINK_ECU_A_PIN_COLOR_MAP,
     'link_ecu_b': LINK_ECU_B_PIN_COLOR_MAP,
   }
-  first_node = node_pins[0][0]
-  first_pin = node_pins[0][1]
-  AddPath(node_pins, LINK_ECU_A_PIN_COLOR_MAP[first_pin])
-
+  for node, pin in node_pins:
+      color = node_color_map.get(node)[pin]
+      if color:
+        AddPath(node_pins, color)
+      break
 
 LINK_ECU_A_PIN_COLOR_MAP = {
     'Inj4': 'brown:orange',
@@ -169,11 +170,20 @@ AddPath((
   ('fuel_pump', 'pos'),
   ('razor_pdm', 'PWROUT2a'),
 ), 'red')
-
 AddPath((
   ('battery', 'neg'),
   ('fuel_pump', 'gnd'),
 ), 'black')
+
+AddPathWithMap((
+  ('link_ecu_a', '+14V'),
+  ('razor_pdm', 'PWROUT2a'),
+))
+
+AddPathWithMap((
+  ('link_ecu_b', '+14V Aux9/10'),
+  ('razor_pdm', 'PWROUT2b'),
+))
 
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt1'),

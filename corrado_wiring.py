@@ -157,6 +157,13 @@ Node('razor_pdm', [
 ])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
+Node('link_keypad', [1, 2, 3, 4])
+Node('engine_ground', ['Gnd'])
+
+Node('deutsch_ecu_connector', list(range(1,48)))
+Node('deutsch_pdm_connector', list(range(1,7)))
+Node('deutsch_console_connector', list(range(1,16)))
+
 Node('labjack', [
     'sgnd0', ' spc', ' sgnd1', ' vs0',
     'fio7', ' fio6', ' gnd0', ' vs1',
@@ -165,11 +172,7 @@ Node('labjack', [
     'vs4', ' gnd3', ' fio2', ' fio3',
     'vs5', ' gnd4', ' fio0', ' fio1',
 ])
-Node('link_keypad', [1, 2, 3, 4])
-Node('engine_ground', ['Gnd'])
-Node('deutsch_ecu_connector', list(range(1,48)))
-Node('deutsch_pdm_connector', list(range(1,7)))
-Node('deutsch_console_connector', list(range(1,16)))
+Node('usb_hub', ['+', '_', '-'])
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
@@ -515,7 +518,7 @@ AddPath((
 
 # Idle Stablizer Valve
 AddPath((
-  ('razor_pdm', 'ADIO7'),
+  ('razor_pdm', 'ADIO2'),
   ('deutsch_pdm_connector', DCP.GetFreePin()),
   ('idle_stablizer_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
@@ -567,6 +570,16 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
 ClusterNodes(AEM_GAUGES + ['link_keypad'], 'Console')
 ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 
+# USB Hub
+AddPath((
+  ('razor_pdm', 'ADIO7'),
+  ('usb_hub', '+'),
+), 'red')
+AddPath((
+  ('battery', 'neg'),
+  ('usb_hub', '-'),
+), 'red')
+
 # Labjack
 AddPath((
   ('coolant_temp_gauge', '5vOut'),
@@ -612,9 +625,11 @@ AddPath((
   ('labjack', 'fio7'),
 ), color='white') # TODO: Decide on wire color.
 # /Labjack
+ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
 
 
 G.layout(prog='dot')
+print('Rendering DOT')
 G.write('corrado_wiring.dot')
 print('Rendering PNG')
 G.draw('corrado_wiring.png')

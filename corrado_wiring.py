@@ -645,12 +645,9 @@ AddPath((
 # /Labjack
 
 ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
-ClusterNodes(['link_ecu_a', 'link_ecu_b', 'deutsch_ecu_connector'], 'ECU')
-ClusterNodes(['razor_pdm', 'deutsch_pdm_connector'], 'PDM')
-ClusterNodes(['knock1', 'knock2'], 'Knock Sensors')
 ClusterNodes([f'injector{i}' for i in range(1, 7)], 'Injectors')
 ClusterNodes(['icm', 'coil'], label='Coilpack')
-ClusterNodes(AEM_GAUGES + ['link_keypad', 'deutsch_console_connector', 'ign_switch'], 'Console')
+ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch'], 'Console')
 ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
 

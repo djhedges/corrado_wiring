@@ -164,9 +164,6 @@ Node('deutsch_ecu_connector', list(range(1,48)))
 Node('deutsch_pdm_connector', list(range(1,7)))
 Node('deutsch_console_connector', list(range(1,16)))
 
-ClusterNodes(['link_ecu_a', 'link_ecu_b', 'deutsch_ecu_connector'], 'ECU')
-ClusterNodes(['razor_pdm', 'deutsch_pdm_connector'], 'PDM')
-
 Node('labjack', [
     'sgnd0', ' spc', ' sgnd1', ' vs0',
     'fio7', ' fio6', ' gnd0', ' vs1',
@@ -186,7 +183,6 @@ Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
 
 Node('knock1', ['Sig+', 'Sig-', 'Scr'])
 Node('knock2', ['Sig+', 'Sig-', 'Scr'])
-ClusterNodes(['knock1', 'knock2'], 'Knock Sensors')
 
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
 Node('oil_temp_sensor', ['Sig+', 'Sig-'])
@@ -207,12 +203,10 @@ Node('rear_brake_pressure', ['0v', '5v', 'Sig'])
 
 for i in range(1, 7):
     Node(f'injector{i}', ['Pos', 'Gnd'])
-ClusterNodes([f'injector{i}' for i in range(1, 7)], 'Injectors')
 
 Node('icm', ['Transistor1ecu', 'Transistor2ecu', 'Transistor3ecu',
              'Transistor3coil', 'Gnd', 'Transistor2coil', 'Transistor1coil'])
 Node('coil', ['Coil3', 'Coil2', 'Coil1', 'Ubatt'])
-ClusterNodes(['icm', 'coil'], label='Coilpack')
 
 AddPath((
   ('battery', 'pos'),
@@ -224,8 +218,8 @@ AddPath((
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
-  ('alternator', 'pos'),
   ('kill_switch', 'starter'),
+  ('alternator', 'pos'),
 ), 'red')
 AddPath((
   ('kill_switch', 'z'),
@@ -245,7 +239,6 @@ AddPath((
   ('battery', 'neg'),
   ('razor_pdm', 'neg'),
 ), 'black')
-ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'ign_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
 
 # TODO: Verify blue is not already in use.
 AddPath((
@@ -253,9 +246,9 @@ AddPath((
   ('ign_switch', '1'),
 ), 'blue')
 AddPath((
-  ('ign_switch', '2'),
-  ('deutsch_console_connector', DCC.GetFreePin()),
   ('razor_pdm', 'IGNSW'),
+  ('deutsch_console_connector', DCC.GetFreePin()),
+  ('ign_switch', '2'),
 ), 'blue')
 
 # Fuel Pump
@@ -570,8 +563,6 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
       ('deutsch_ecu_connector', DCE.GetFreePin()),
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
-ClusterNodes(AEM_GAUGES + ['link_keypad', 'deutsch_console_connector'], 'Console')
-ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 
 # USB Hub
 AddPath((
@@ -628,6 +619,15 @@ AddPath((
   ('labjack', 'fio7'),
 ), color='white') # TODO: Decide on wire color.
 # /Labjack
+
+ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
+ClusterNodes(['link_ecu_a', 'link_ecu_b', 'deutsch_ecu_connector'], 'ECU')
+ClusterNodes(['razor_pdm', 'deutsch_pdm_connector'], 'PDM')
+ClusterNodes(['knock1', 'knock2'], 'Knock Sensors')
+ClusterNodes([f'injector{i}' for i in range(1, 7)], 'Injectors')
+ClusterNodes(['icm', 'coil'], label='Coilpack')
+ClusterNodes(AEM_GAUGES + ['link_keypad', 'deutsch_console_connector', 'ign_switch'], 'Console')
+ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
 
 

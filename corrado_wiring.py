@@ -12,7 +12,29 @@
 
 import pygraphviz as pgv
 
-G = pgv.AGraph(strict=False, rankdir='LR', ranksep=1.5, concentrate='true')
+
+class PerNodeGraphs(pgv.AGraph):
+
+  def __init__(self, *args, **kwargs):
+    super().__init__(*args, **kwargs)
+    self.initial_args = args
+    self.initial_kwargs = kwargs
+    self.add_node_kwargs = {}
+    self.node_graph = {}
+
+  def add_node(self, node, **kwargs):
+    super().add_node(node, **kwargs)
+    self.add_node_kwargs[node] = kwargs
+    self.node_graph[node] = pgv.AGraph(*self.initial_args, **self.initial_kwargs)
+    self.node_graph[node].add_node(node, **kwargs)
+
+  def add_edge(self, node, next_node, **kwargs):
+    super().add_edge(node, next_node, **kwargs)
+    for n in (node, next_node):
+      graph = self.node_graph[n]
+      graph.add_edge(node, next_node, **kwargs)
+
+G = PerNodeGraphs(strict=False, rankdir='LR', ranksep=1.5, concentrate='true')
 
 AEM_GAUGES = ['coolant_temp_gauge', 'transmission_temp_gauge', 'fuel_pressure_gauge']
 AEM_SENSORS = ['aem_coolant_temp_sensor', 'aem_transmission_temp_sensor', 'aem_fuel_pressure_sensor']
@@ -670,3 +692,11 @@ print('Rendering PNG')
 G.draw('corrado_wiring.png')
 print('Rendering SVG')
 G.draw('corrado_wiring.svg')
+
+# Adds neighbor pins to per node graphs.
+for node, graph in G.node_graph.items():
+  for neighbor in G.neighbors(node):
+    graph.add_node(neighbor, **G.add_node_kwargs[neighbor])
+  graph.layout(prog='dot')
+  print(f'Rendering {node} PNG')
+  graph.draw(f'{node}.png')

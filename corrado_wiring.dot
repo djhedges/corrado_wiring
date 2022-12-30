@@ -50,6 +50,116 @@ Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil
 			penwidth=2.5,
 			pos="4922,3288.4 5110,3288.4 5579.5,3318.4 5767.5,3318.4"];
 	}
+	subgraph "cluster_AEM Sensors" {
+		graph [bb="5668,1179.4,5927,1464.4",
+			color=grey,
+			label="AEM Sensors",
+			lheight=0.21,
+			lp="5797.5,1452.9",
+			lwidth=1.35,
+			style=filled
+		];
+		aem_coolant_temp_sensor	[height=0.97222,
+			label="aem_coolant_temp_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
+			pos="5797.5,1398.4",
+			rects="5696,1409.9,5899,1432.9 5696,1386.9,5899,1409.9 5696,1363.9,5899,1386.9",
+			shape=record,
+			style=bold,
+			width=2.8194];
+		aem_transmission_temp_sensor	[height=0.97222,
+			label="aem_transmission_temp_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
+			pos="5797.5,1310.4",
+			rects="5676,1321.9,5919,1344.9 5676,1298.9,5919,1321.9 5676,1275.9,5919,1298.9",
+			shape=record,
+			style=bold,
+			width=3.375];
+		aem_fuel_pressure_sensor	[height=0.97222,
+			label="aem_fuel_pressure_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
+			pos="5797.5,1222.4",
+			rects="5695.5,1233.9,5899.5,1256.9 5695.5,1210.9,5899.5,1233.9 5695.5,1187.9,5899.5,1210.9",
+			shape=record,
+			style=bold,
+			width=2.8333];
+	}
+	subgraph cluster_Console {
+		graph [bb="1778,608.41,1997,1391.4",
+			color=grey,
+			label=Console,
+			lheight=0.21,
+			lp="1887.5,1379.9",
+			lwidth=0.79,
+			style=filled
+		];
+		ign_switch	[height=0.97222,
+			label="ign_switch | <1> 1 | <2> 2 ",
+			pos="1887.5,1191.4",
+			rects="1841.5,1202.9,1933.5,1225.9 1841.5,1179.9,1933.5,1202.9 1841.5,1156.9,1933.5,1179.9",
+			shape=record,
+			style=bold,
+			width=1.2778];
+		link_keypad	[height=1.6111,
+			label="link_keypad | <1> 1 | <2> 2 | <3> 3 | <4> 4 ",
+			pos="1887.5,1302.4",
+			rects="1837,1336.9,1938,1359.9 1837,1313.9,1938,1336.9 1837,1290.9,1938,1313.9 1837,1267.9,1938,1290.9 1837,1244.9,1938,1267.9",
+			shape=record,
+			style=bold,
+			width=1.4028];
+		coolant_temp_gauge	[height=2.25,
+			label="coolant_temp_gauge | <Ground> Ground | <12v> 12v | <RS232> RS232 | <5vOut> 5vOut | <Sig+> Sig+ | <Sig-> Sig- ",
+			pos="1887.5,1057.4",
+			rects="1806.5,1114.9,1968.5,1137.9 1806.5,1091.9,1968.5,1114.9 1806.5,1068.9,1968.5,1091.9 1806.5,1045.9,1968.5,1068.9 1806.5,1022.9,1968.5,\
+1045.9 1806.5,999.91,1968.5,1022.9 1806.5,976.91,1968.5,999.91",
+			shape=record,
+			style=bold,
+			width=2.25];
+		transmission_temp_gauge	[height=2.25,
+			label="transmission_temp_gauge | <Ground> Ground | <12v> 12v | <RS232> RS232 | <5vOut> 5vOut | <Sig+> Sig+ | <Sig-> Sig- ",
+			pos="1887.5,877.41",
+			rects="1786,934.91,1989,957.91 1786,911.91,1989,934.91 1786,888.91,1989,911.91 1786,865.91,1989,888.91 1786,842.91,1989,865.91 1786,819.91,\
+1989,842.91 1786,796.91,1989,819.91",
+			shape=record,
+			style=bold,
+			width=2.8194];
+		fuel_pressure_gauge	[height=2.25,
+			label="fuel_pressure_gauge | <Ground> Ground | <12v> 12v | <RS232> RS232 | <5vOut> 5vOut | <Sig+> Sig+ | <Sig-> Sig- ",
+			pos="1887.5,697.41",
+			rects="1805.5,754.91,1969.5,777.91 1805.5,731.91,1969.5,754.91 1805.5,708.91,1969.5,731.91 1805.5,685.91,1969.5,708.91 1805.5,662.91,1969.5,\
+685.91 1805.5,639.91,1969.5,662.91 1805.5,616.91,1969.5,639.91",
+			shape=record,
+			style=bold,
+			width=2.2778];
+	}
+	subgraph "cluster_Exit Speed" {
+		graph [bb="3839,99.407,3934,826.41",
+			color=grey,
+			label="Exit Speed",
+			lheight=0.21,
+			lp="3886.5,814.91",
+			lwidth=1.10,
+			style=filled
+		];
+		labjack	[height=8,
+			label="labjack | <sgnd0> sgnd0 | < spc>  spc | < sgnd1>  sgnd1 | < vs0>  vs0 | <fio7> fio7 | < fio6>  fio6 | < gnd0>  gnd0 | < vs1>  vs1 | <\
+fio5> fio5 | < fio4>  fio4 | < gnd1>  gnd1 | < vs2>  vs2 | <vs3> vs3 | < gnd2>  gnd2 | < dac0>  dac0 | < dac1>  dac1 | <vs4> vs4 | < \
+gnd3>  gnd3 | < fio2>  fio2 | < fio3>  fio3 | <vs5> vs5 | < gnd4>  gnd4 | < fio0>  fio0 | < fio1>  fio1 ",
+			pos="3886,395.41",
+			rects="3852.5,659.91,3919.5,682.91 3852.5,636.91,3919.5,659.91 3852.5,613.91,3919.5,636.91 3852.5,590.91,3919.5,613.91 3852.5,567.91,3919.5,\
+590.91 3852.5,544.91,3919.5,567.91 3852.5,521.91,3919.5,544.91 3852.5,498.91,3919.5,521.91 3852.5,475.91,3919.5,498.91 3852.5,452.91,\
+3919.5,475.91 3852.5,429.91,3919.5,452.91 3852.5,406.91,3919.5,429.91 3852.5,383.91,3919.5,406.91 3852.5,360.91,3919.5,383.91 3852.5,\
+337.91,3919.5,360.91 3852.5,314.91,3919.5,337.91 3852.5,291.91,3919.5,314.91 3852.5,268.91,3919.5,291.91 3852.5,245.91,3919.5,268.91 \
+3852.5,222.91,3919.5,245.91 3852.5,199.91,3919.5,222.91 3852.5,176.91,3919.5,199.91 3852.5,153.91,3919.5,176.91 3852.5,130.91,3919.5,\
+153.91 3852.5,107.91,3919.5,130.91",
+			shape=record,
+			style=bold,
+			width=0.93056];
+		usb_hub	[height=1.2917,
+			label="usb_hub | <+> + | <_> _ | <-> - ",
+			pos="3886,748.41",
+			rects="3848,771.41,3924,794.41 3848,748.41,3924,771.41 3848,725.41,3924,748.41 3848,702.41,3924,725.41",
+			shape=record,
+			style=bold,
+			width=1.0556];
+	}
 	subgraph cluster_Injectors {
 		graph [bb="5749.5,2689.4,5845.5,3238.4",
 			color=grey,
@@ -101,116 +211,6 @@ Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil
 			shape=record,
 			style=bold,
 			width=1.1111];
-	}
-	subgraph cluster_Console {
-		graph [bb="1778,608.41,1997,1391.4",
-			color=grey,
-			label=Console,
-			lheight=0.21,
-			lp="1887.5,1379.9",
-			lwidth=0.79,
-			style=filled
-		];
-		ign_switch	[height=0.97222,
-			label="ign_switch | <1> 1 | <2> 2 ",
-			pos="1887.5,1191.4",
-			rects="1841.5,1202.9,1933.5,1225.9 1841.5,1179.9,1933.5,1202.9 1841.5,1156.9,1933.5,1179.9",
-			shape=record,
-			style=bold,
-			width=1.2778];
-		link_keypad	[height=1.6111,
-			label="link_keypad | <1> 1 | <2> 2 | <3> 3 | <4> 4 ",
-			pos="1887.5,1302.4",
-			rects="1837,1336.9,1938,1359.9 1837,1313.9,1938,1336.9 1837,1290.9,1938,1313.9 1837,1267.9,1938,1290.9 1837,1244.9,1938,1267.9",
-			shape=record,
-			style=bold,
-			width=1.4028];
-		coolant_temp_gauge	[height=2.25,
-			label="coolant_temp_gauge | <Ground> Ground | <12v> 12v | <RS232> RS232 | <5vOut> 5vOut | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="1887.5,1057.4",
-			rects="1806.5,1114.9,1968.5,1137.9 1806.5,1091.9,1968.5,1114.9 1806.5,1068.9,1968.5,1091.9 1806.5,1045.9,1968.5,1068.9 1806.5,1022.9,1968.5,\
-1045.9 1806.5,999.91,1968.5,1022.9 1806.5,976.91,1968.5,999.91",
-			shape=record,
-			style=bold,
-			width=2.25];
-		transmission_temp_gauge	[height=2.25,
-			label="transmission_temp_gauge | <Ground> Ground | <12v> 12v | <RS232> RS232 | <5vOut> 5vOut | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="1887.5,877.41",
-			rects="1786,934.91,1989,957.91 1786,911.91,1989,934.91 1786,888.91,1989,911.91 1786,865.91,1989,888.91 1786,842.91,1989,865.91 1786,819.91,\
-1989,842.91 1786,796.91,1989,819.91",
-			shape=record,
-			style=bold,
-			width=2.8194];
-		fuel_pressure_gauge	[height=2.25,
-			label="fuel_pressure_gauge | <Ground> Ground | <12v> 12v | <RS232> RS232 | <5vOut> 5vOut | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="1887.5,697.41",
-			rects="1805.5,754.91,1969.5,777.91 1805.5,731.91,1969.5,754.91 1805.5,708.91,1969.5,731.91 1805.5,685.91,1969.5,708.91 1805.5,662.91,1969.5,\
-685.91 1805.5,639.91,1969.5,662.91 1805.5,616.91,1969.5,639.91",
-			shape=record,
-			style=bold,
-			width=2.2778];
-	}
-	subgraph "cluster_AEM Sensors" {
-		graph [bb="5668,1179.4,5927,1464.4",
-			color=grey,
-			label="AEM Sensors",
-			lheight=0.21,
-			lp="5797.5,1452.9",
-			lwidth=1.35,
-			style=filled
-		];
-		aem_coolant_temp_sensor	[height=0.97222,
-			label="aem_coolant_temp_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="5797.5,1398.4",
-			rects="5696,1409.9,5899,1432.9 5696,1386.9,5899,1409.9 5696,1363.9,5899,1386.9",
-			shape=record,
-			style=bold,
-			width=2.8194];
-		aem_transmission_temp_sensor	[height=0.97222,
-			label="aem_transmission_temp_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="5797.5,1310.4",
-			rects="5676,1321.9,5919,1344.9 5676,1298.9,5919,1321.9 5676,1275.9,5919,1298.9",
-			shape=record,
-			style=bold,
-			width=3.375];
-		aem_fuel_pressure_sensor	[height=0.97222,
-			label="aem_fuel_pressure_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="5797.5,1222.4",
-			rects="5695.5,1233.9,5899.5,1256.9 5695.5,1210.9,5899.5,1233.9 5695.5,1187.9,5899.5,1210.9",
-			shape=record,
-			style=bold,
-			width=2.8333];
-	}
-	subgraph "cluster_Exit Speed" {
-		graph [bb="3839,99.407,3934,826.41",
-			color=grey,
-			label="Exit Speed",
-			lheight=0.21,
-			lp="3886.5,814.91",
-			lwidth=1.10,
-			style=filled
-		];
-		labjack	[height=8,
-			label="labjack | <sgnd0> sgnd0 | < spc>  spc | < sgnd1>  sgnd1 | < vs0>  vs0 | <fio7> fio7 | < fio6>  fio6 | < gnd0>  gnd0 | < vs1>  vs1 | <\
-fio5> fio5 | < fio4>  fio4 | < gnd1>  gnd1 | < vs2>  vs2 | <vs3> vs3 | < gnd2>  gnd2 | < dac0>  dac0 | < dac1>  dac1 | <vs4> vs4 | < \
-gnd3>  gnd3 | < fio2>  fio2 | < fio3>  fio3 | <vs5> vs5 | < gnd4>  gnd4 | < fio0>  fio0 | < fio1>  fio1 ",
-			pos="3886,395.41",
-			rects="3852.5,659.91,3919.5,682.91 3852.5,636.91,3919.5,659.91 3852.5,613.91,3919.5,636.91 3852.5,590.91,3919.5,613.91 3852.5,567.91,3919.5,\
-590.91 3852.5,544.91,3919.5,567.91 3852.5,521.91,3919.5,544.91 3852.5,498.91,3919.5,521.91 3852.5,475.91,3919.5,498.91 3852.5,452.91,\
-3919.5,475.91 3852.5,429.91,3919.5,452.91 3852.5,406.91,3919.5,429.91 3852.5,383.91,3919.5,406.91 3852.5,360.91,3919.5,383.91 3852.5,\
-337.91,3919.5,360.91 3852.5,314.91,3919.5,337.91 3852.5,291.91,3919.5,314.91 3852.5,268.91,3919.5,291.91 3852.5,245.91,3919.5,268.91 \
-3852.5,222.91,3919.5,245.91 3852.5,199.91,3919.5,222.91 3852.5,176.91,3919.5,199.91 3852.5,153.91,3919.5,176.91 3852.5,130.91,3919.5,\
-153.91 3852.5,107.91,3919.5,130.91",
-			shape=record,
-			style=bold,
-			width=0.93056];
-		usb_hub	[height=1.2917,
-			label="usb_hub | <+> + | <_> _ | <-> - ",
-			pos="3886,748.41",
-			rects="3848,771.41,3924,794.41 3848,748.41,3924,771.41 3848,725.41,3924,748.41 3848,702.41,3924,725.41",
-			shape=record,
-			style=bold,
-			width=1.0556];
 	}
 	subgraph "cluster_Kill Switch" {
 		graph [bb="8,2370.4,1972.5,2544.4",

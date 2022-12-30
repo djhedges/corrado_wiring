@@ -14,9 +14,9 @@
 <text text-anchor="middle" x="5303.8" y="-3628.93" font-family="Times,serif" font-size="14.00">Coilpack</text>
 </g>
 <g id="clust2" class="cluster">
-<title>cluster_Injectors</title>
-<polygon fill="grey" stroke="grey" points="5741.5,-2864.13 5741.5,-3413.13 5837.5,-3413.13 5837.5,-2864.13 5741.5,-2864.13"/>
-<text text-anchor="middle" x="5789.5" y="-3397.93" font-family="Times,serif" font-size="14.00">Injectors</text>
+<title>cluster_AEM Sensors</title>
+<polygon fill="grey" stroke="grey" points="5660,-1354.13 5660,-1639.13 5919,-1639.13 5919,-1354.13 5660,-1354.13"/>
+<text text-anchor="middle" x="5789.5" y="-1623.93" font-family="Times,serif" font-size="14.00">AEM Sensors</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_Console</title>
@@ -24,14 +24,14 @@
 <text text-anchor="middle" x="1879.5" y="-1550.93" font-family="Times,serif" font-size="14.00">Console</text>
 </g>
 <g id="clust4" class="cluster">
-<title>cluster_AEM Sensors</title>
-<polygon fill="grey" stroke="grey" points="5660,-1354.13 5660,-1639.13 5919,-1639.13 5919,-1354.13 5660,-1354.13"/>
-<text text-anchor="middle" x="5789.5" y="-1623.93" font-family="Times,serif" font-size="14.00">AEM Sensors</text>
-</g>
-<g id="clust5" class="cluster">
 <title>cluster_Exit Speed</title>
 <polygon fill="grey" stroke="grey" points="3831,-274.14 3831,-1001.14 3926,-1001.14 3926,-274.14 3831,-274.14"/>
 <text text-anchor="middle" x="3878.5" y="-985.94" font-family="Times,serif" font-size="14.00">Exit Speed</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_Injectors</title>
+<polygon fill="grey" stroke="grey" points="5741.5,-2864.13 5741.5,-3413.13 5837.5,-3413.13 5837.5,-2864.13 5741.5,-2864.13"/>
+<text text-anchor="middle" x="5789.5" y="-3397.93" font-family="Times,serif" font-size="14.00">Injectors</text>
 </g>
 <g id="clust6" class="cluster">
 <title>cluster_Kill Switch</title>
@@ -124,68 +124,38 @@
 </a>
 </g>
 </g>
-<!-- injector1 -->
+<!-- aem_coolant_temp_sensor -->
 <g id="node3" class="node">
-<title>injector1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-3312.13 5749.5,-3382.13 5829.5,-3382.13 5829.5,-3312.13 5749.5,-3312.13"/>
-<text text-anchor="middle" x="5789.5" y="-3366.93" font-family="Times,serif" font-size="14.00">injector1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3359.13 5829.5,-3359.13 "/>
-<text text-anchor="middle" x="5789.5" y="-3343.93" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3336.13 5829.5,-3336.13 "/>
-<text text-anchor="middle" x="5789.5" y="-3320.43" font-family="Times,serif" font-size="14.00">Gnd</text>
+<title>aem_coolant_temp_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5688,-1538.13 5688,-1608.13 5891,-1608.13 5891,-1538.13 5688,-1538.13"/>
+<text text-anchor="middle" x="5789.5" y="-1592.93" font-family="Times,serif" font-size="14.00">aem_coolant_temp_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5688,-1585.13 5891,-1585.13 "/>
+<text text-anchor="middle" x="5789.5" y="-1569.93" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5688,-1562.13 5891,-1562.13 "/>
+<text text-anchor="middle" x="5789.5" y="-1546.43" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
 </g>
-<!-- injector2 -->
+<!-- aem_transmission_temp_sensor -->
 <g id="node4" class="node">
-<title>injector2</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-3224.13 5749.5,-3294.13 5829.5,-3294.13 5829.5,-3224.13 5749.5,-3224.13"/>
-<text text-anchor="middle" x="5789.5" y="-3278.93" font-family="Times,serif" font-size="14.00">injector2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3271.13 5829.5,-3271.13 "/>
-<text text-anchor="middle" x="5789.5" y="-3255.93" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3248.13 5829.5,-3248.13 "/>
-<text text-anchor="middle" x="5789.5" y="-3232.43" font-family="Times,serif" font-size="14.00">Gnd</text>
+<title>aem_transmission_temp_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5668,-1450.13 5668,-1520.13 5911,-1520.13 5911,-1450.13 5668,-1450.13"/>
+<text text-anchor="middle" x="5789.5" y="-1504.93" font-family="Times,serif" font-size="14.00">aem_transmission_temp_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5668,-1497.13 5911,-1497.13 "/>
+<text text-anchor="middle" x="5789.5" y="-1481.93" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5668,-1474.13 5911,-1474.13 "/>
+<text text-anchor="middle" x="5789.5" y="-1458.43" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
 </g>
-<!-- injector3 -->
+<!-- aem_fuel_pressure_sensor -->
 <g id="node5" class="node">
-<title>injector3</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-3136.13 5749.5,-3206.13 5829.5,-3206.13 5829.5,-3136.13 5749.5,-3136.13"/>
-<text text-anchor="middle" x="5789.5" y="-3190.93" font-family="Times,serif" font-size="14.00">injector3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3183.13 5829.5,-3183.13 "/>
-<text text-anchor="middle" x="5789.5" y="-3167.93" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3160.13 5829.5,-3160.13 "/>
-<text text-anchor="middle" x="5789.5" y="-3144.43" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector4 -->
-<g id="node6" class="node">
-<title>injector4</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-3048.13 5749.5,-3118.13 5829.5,-3118.13 5829.5,-3048.13 5749.5,-3048.13"/>
-<text text-anchor="middle" x="5789.5" y="-3102.93" font-family="Times,serif" font-size="14.00">injector4</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3095.13 5829.5,-3095.13 "/>
-<text text-anchor="middle" x="5789.5" y="-3079.93" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3072.13 5829.5,-3072.13 "/>
-<text text-anchor="middle" x="5789.5" y="-3056.43" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector5 -->
-<g id="node7" class="node">
-<title>injector5</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-2960.13 5749.5,-3030.13 5829.5,-3030.13 5829.5,-2960.13 5749.5,-2960.13"/>
-<text text-anchor="middle" x="5789.5" y="-3014.93" font-family="Times,serif" font-size="14.00">injector5</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3007.13 5829.5,-3007.13 "/>
-<text text-anchor="middle" x="5789.5" y="-2991.93" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-2984.13 5829.5,-2984.13 "/>
-<text text-anchor="middle" x="5789.5" y="-2968.43" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- injector6 -->
-<g id="node8" class="node">
-<title>injector6</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-2872.13 5749.5,-2942.13 5829.5,-2942.13 5829.5,-2872.13 5749.5,-2872.13"/>
-<text text-anchor="middle" x="5789.5" y="-2926.93" font-family="Times,serif" font-size="14.00">injector6</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-2919.13 5829.5,-2919.13 "/>
-<text text-anchor="middle" x="5789.5" y="-2903.93" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-2896.13 5829.5,-2896.13 "/>
-<text text-anchor="middle" x="5789.5" y="-2880.43" font-family="Times,serif" font-size="14.00">Gnd</text>
+<title>aem_fuel_pressure_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5687.5,-1362.13 5687.5,-1432.13 5891.5,-1432.13 5891.5,-1362.13 5687.5,-1362.13"/>
+<text text-anchor="middle" x="5789.5" y="-1416.93" font-family="Times,serif" font-size="14.00">aem_fuel_pressure_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5687.5,-1409.13 5891.5,-1409.13 "/>
+<text text-anchor="middle" x="5789.5" y="-1393.93" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5687.5,-1386.13 5891.5,-1386.13 "/>
+<text text-anchor="middle" x="5789.5" y="-1370.43" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
 </g>
 <!-- ign_switch -->
-<g id="node9" class="node">
+<g id="node6" class="node">
 <title>ign_switch</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1833.5,-1331.13 1833.5,-1401.13 1925.5,-1401.13 1925.5,-1331.13 1833.5,-1331.13"/>
 <text text-anchor="middle" x="1879.5" y="-1385.93" font-family="Times,serif" font-size="14.00">ign_switch</text>
@@ -195,7 +165,7 @@
 <text text-anchor="middle" x="1879.5" y="-1339.43" font-family="Times,serif" font-size="14.00">2</text>
 </g>
 <!-- link_keypad -->
-<g id="node10" class="node">
+<g id="node7" class="node">
 <title>link_keypad</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1829,-1419.13 1829,-1535.13 1930,-1535.13 1930,-1419.13 1829,-1419.13"/>
 <text text-anchor="middle" x="1879.5" y="-1519.93" font-family="Times,serif" font-size="14.00">link_keypad</text>
@@ -271,7 +241,7 @@
 </g>
 </g>
 <!-- coolant_temp_gauge -->
-<g id="node11" class="node">
+<g id="node8" class="node">
 <title>coolant_temp_gauge</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1798.5,-1151.13 1798.5,-1313.13 1960.5,-1313.13 1960.5,-1151.13 1798.5,-1151.13"/>
 <text text-anchor="middle" x="1879.5" y="-1297.93" font-family="Times,serif" font-size="14.00">coolant_temp_gauge</text>
@@ -344,7 +314,7 @@
 </g>
 </g>
 <!-- transmission_temp_gauge -->
-<g id="node12" class="node">
+<g id="node9" class="node">
 <title>transmission_temp_gauge</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1778,-971.14 1778,-1133.14 1981,-1133.14 1981,-971.14 1778,-971.14"/>
 <text text-anchor="middle" x="1879.5" y="-1117.94" font-family="Times,serif" font-size="14.00">transmission_temp_gauge</text>
@@ -417,7 +387,7 @@
 </g>
 </g>
 <!-- fuel_pressure_gauge -->
-<g id="node13" class="node">
+<g id="node10" class="node">
 <title>fuel_pressure_gauge</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1797.5,-791.14 1797.5,-953.14 1961.5,-953.14 1961.5,-791.14 1797.5,-791.14"/>
 <text text-anchor="middle" x="1879.5" y="-937.94" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge</text>
@@ -489,38 +459,8 @@
 </a>
 </g>
 </g>
-<!-- aem_coolant_temp_sensor -->
-<g id="node14" class="node">
-<title>aem_coolant_temp_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5688,-1538.13 5688,-1608.13 5891,-1608.13 5891,-1538.13 5688,-1538.13"/>
-<text text-anchor="middle" x="5789.5" y="-1592.93" font-family="Times,serif" font-size="14.00">aem_coolant_temp_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5688,-1585.13 5891,-1585.13 "/>
-<text text-anchor="middle" x="5789.5" y="-1569.93" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5688,-1562.13 5891,-1562.13 "/>
-<text text-anchor="middle" x="5789.5" y="-1546.43" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- aem_transmission_temp_sensor -->
-<g id="node15" class="node">
-<title>aem_transmission_temp_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5668,-1450.13 5668,-1520.13 5911,-1520.13 5911,-1450.13 5668,-1450.13"/>
-<text text-anchor="middle" x="5789.5" y="-1504.93" font-family="Times,serif" font-size="14.00">aem_transmission_temp_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5668,-1497.13 5911,-1497.13 "/>
-<text text-anchor="middle" x="5789.5" y="-1481.93" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5668,-1474.13 5911,-1474.13 "/>
-<text text-anchor="middle" x="5789.5" y="-1458.43" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- aem_fuel_pressure_sensor -->
-<g id="node16" class="node">
-<title>aem_fuel_pressure_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5687.5,-1362.13 5687.5,-1432.13 5891.5,-1432.13 5891.5,-1362.13 5687.5,-1362.13"/>
-<text text-anchor="middle" x="5789.5" y="-1416.93" font-family="Times,serif" font-size="14.00">aem_fuel_pressure_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5687.5,-1409.13 5891.5,-1409.13 "/>
-<text text-anchor="middle" x="5789.5" y="-1393.93" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5687.5,-1386.13 5891.5,-1386.13 "/>
-<text text-anchor="middle" x="5789.5" y="-1370.43" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
 <!-- labjack -->
-<g id="node17" class="node">
+<g id="node11" class="node">
 <title>labjack</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="3844.5,-282.14 3844.5,-858.14 3911.5,-858.14 3911.5,-282.14 3844.5,-282.14"/>
 <text text-anchor="middle" x="3878" y="-842.94" font-family="Times,serif" font-size="14.00">labjack</text>
@@ -574,7 +514,7 @@
 <text text-anchor="middle" x="3878" y="-290.44" font-family="Times,serif" font-size="14.00">fio1</text>
 </g>
 <!-- usb_hub -->
-<g id="node18" class="node">
+<g id="node12" class="node">
 <title>usb_hub</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="3840,-876.64 3840,-969.64 3916,-969.64 3916,-876.64 3840,-876.64"/>
 <text text-anchor="middle" x="3878" y="-954.44" font-family="Times,serif" font-size="14.00">usb_hub</text>
@@ -584,6 +524,66 @@
 <text text-anchor="middle" x="3878" y="-908.44" font-family="Times,serif" font-size="14.00">_</text>
 <polyline fill="none" stroke="black" stroke-width="2" points="3840,-900.64 3916,-900.64 "/>
 <text text-anchor="middle" x="3878" y="-884.94" font-family="Times,serif" font-size="14.00">&#45;</text>
+</g>
+<!-- injector1 -->
+<g id="node13" class="node">
+<title>injector1</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-3312.13 5749.5,-3382.13 5829.5,-3382.13 5829.5,-3312.13 5749.5,-3312.13"/>
+<text text-anchor="middle" x="5789.5" y="-3366.93" font-family="Times,serif" font-size="14.00">injector1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3359.13 5829.5,-3359.13 "/>
+<text text-anchor="middle" x="5789.5" y="-3343.93" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3336.13 5829.5,-3336.13 "/>
+<text text-anchor="middle" x="5789.5" y="-3320.43" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector2 -->
+<g id="node14" class="node">
+<title>injector2</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-3224.13 5749.5,-3294.13 5829.5,-3294.13 5829.5,-3224.13 5749.5,-3224.13"/>
+<text text-anchor="middle" x="5789.5" y="-3278.93" font-family="Times,serif" font-size="14.00">injector2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3271.13 5829.5,-3271.13 "/>
+<text text-anchor="middle" x="5789.5" y="-3255.93" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3248.13 5829.5,-3248.13 "/>
+<text text-anchor="middle" x="5789.5" y="-3232.43" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector3 -->
+<g id="node15" class="node">
+<title>injector3</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-3136.13 5749.5,-3206.13 5829.5,-3206.13 5829.5,-3136.13 5749.5,-3136.13"/>
+<text text-anchor="middle" x="5789.5" y="-3190.93" font-family="Times,serif" font-size="14.00">injector3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3183.13 5829.5,-3183.13 "/>
+<text text-anchor="middle" x="5789.5" y="-3167.93" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3160.13 5829.5,-3160.13 "/>
+<text text-anchor="middle" x="5789.5" y="-3144.43" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector4 -->
+<g id="node16" class="node">
+<title>injector4</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-3048.13 5749.5,-3118.13 5829.5,-3118.13 5829.5,-3048.13 5749.5,-3048.13"/>
+<text text-anchor="middle" x="5789.5" y="-3102.93" font-family="Times,serif" font-size="14.00">injector4</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3095.13 5829.5,-3095.13 "/>
+<text text-anchor="middle" x="5789.5" y="-3079.93" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3072.13 5829.5,-3072.13 "/>
+<text text-anchor="middle" x="5789.5" y="-3056.43" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector5 -->
+<g id="node17" class="node">
+<title>injector5</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-2960.13 5749.5,-3030.13 5829.5,-3030.13 5829.5,-2960.13 5749.5,-2960.13"/>
+<text text-anchor="middle" x="5789.5" y="-3014.93" font-family="Times,serif" font-size="14.00">injector5</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-3007.13 5829.5,-3007.13 "/>
+<text text-anchor="middle" x="5789.5" y="-2991.93" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-2984.13 5829.5,-2984.13 "/>
+<text text-anchor="middle" x="5789.5" y="-2968.43" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- injector6 -->
+<g id="node18" class="node">
+<title>injector6</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5749.5,-2872.13 5749.5,-2942.13 5829.5,-2942.13 5829.5,-2872.13 5749.5,-2872.13"/>
+<text text-anchor="middle" x="5789.5" y="-2926.93" font-family="Times,serif" font-size="14.00">injector6</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-2919.13 5829.5,-2919.13 "/>
+<text text-anchor="middle" x="5789.5" y="-2903.93" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5749.5,-2896.13 5829.5,-2896.13 "/>
+<text text-anchor="middle" x="5789.5" y="-2880.43" font-family="Times,serif" font-size="14.00">Gnd</text>
 </g>
 <!-- battery -->
 <g id="node19" class="node">
@@ -2150,6 +2150,72 @@
 </a>
 </g>
 </g>
+<!-- deutsch_ecu_connector&#45;&#45;aem_coolant_temp_sensor -->
+<g id="edge124" class="edge">
+<title>deutsch_ecu_connector:34&#45;&#45;aem_coolant_temp_sensor:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1765.13C5035.06,-1767.61 5008.26,-1660.11 5095.18,-1619.31 5110.85,-1612.44 5669.85,-1571.14 5686.5,-1571.13"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1767.13C5037,-1767.13 5010.2,-1659.63 5096,-1621.13 5111,-1614.43 5670,-1573.13 5686.5,-1573.13"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1769.13C5038.94,-1766.65 5012.14,-1659.15 5096.82,-1622.95 5111.15,-1616.42 5670.15,-1575.12 5686.5,-1575.13"/>
+<g id="a_edge124&#45;label"><a xlink:title="deutsch_ecu_connector:34&lt;white&gt;aem_coolant_temp_sensor:Sig+">
+<text text-anchor="middle" x="5355" y="-1624.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:34&lt;white&gt;aem_coolant_temp_sensor:Sig+</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;aem_coolant_temp_sensor -->
+<g id="edge125" class="edge">
+<title>deutsch_ecu_connector:35&#45;&#45;aem_coolant_temp_sensor:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1742.13C5047.82,-1744.81 4997.92,-1606.01 5095.13,-1557.33 5155.28,-1528.73 5620.98,-1548.13 5686.5,-1548.13"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1744.13C5049.7,-1744.13 4999.8,-1605.33 5096,-1559.13 5155.2,-1530.73 5620.9,-1550.13 5686.5,-1550.13"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1746.13C5051.58,-1743.45 5001.68,-1604.65 5096.87,-1560.93 5155.12,-1532.73 5620.82,-1552.13 5686.5,-1552.13"/>
+<g id="a_edge125&#45;label"><a xlink:title="deutsch_ecu_connector:35&lt;white&gt;aem_coolant_temp_sensor:Sig&#45;">
+<text text-anchor="middle" x="5355" y="-1562.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:35&lt;white&gt;aem_coolant_temp_sensor:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;aem_transmission_temp_sensor -->
+<g id="edge126" class="edge">
+<title>deutsch_ecu_connector:36&#45;&#45;aem_transmission_temp_sensor:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1719.13C5052.03,-1721.85 4996.33,-1576.95 5095.06,-1522.36 5102.87,-1518.43 5658.47,-1483.13 5666.5,-1483.13"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1721.13C5053.9,-1721.13 4998.2,-1576.23 5096,-1524.13 5103,-1520.43 5658.6,-1485.13 5666.5,-1485.13"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1723.13C5055.77,-1720.41 5000.07,-1575.51 5096.94,-1525.9 5103.13,-1522.43 5658.73,-1487.13 5666.5,-1487.13"/>
+<g id="a_edge126&#45;label"><a xlink:title="deutsch_ecu_connector:36&lt;white&gt;aem_transmission_temp_sensor:Sig+">
+<text text-anchor="middle" x="5355" y="-1527.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:36&lt;white&gt;aem_transmission_temp_sensor:Sig+</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;aem_transmission_temp_sensor -->
+<g id="edge127" class="edge">
+<title>deutsch_ecu_connector:37&#45;&#45;aem_transmission_temp_sensor:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1696.13C5063.58,-1698.95 4986.58,-1528.35 5095.05,-1467.37 5207.72,-1406.76 5540.02,-1460.16 5666.5,-1460.13"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1698.13C5065.4,-1698.13 4988.4,-1527.53 5096,-1469.13 5207.4,-1408.73 5539.7,-1462.13 5666.5,-1462.13"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1700.13C5067.22,-1697.31 4990.22,-1526.71 5096.95,-1470.89 5207.08,-1410.7 5539.38,-1464.1 5666.5,-1464.13"/>
+<g id="a_edge127&#45;label"><a xlink:title="deutsch_ecu_connector:37&lt;white&gt;aem_transmission_temp_sensor:Sig&#45;">
+<text text-anchor="middle" x="5355" y="-1472.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:37&lt;white&gt;aem_transmission_temp_sensor:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;aem_fuel_pressure_sensor -->
+<g id="edge128" class="edge">
+<title>deutsch_ecu_connector:38&#45;&#45;aem_fuel_pressure_sensor:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1673.13C5073.01,-1676.02 4980.81,-1489.22 5094.98,-1419.41 5103.03,-1414.93 5678.23,-1395.13 5686.5,-1395.13"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1675.13C5074.8,-1675.13 4982.6,-1488.33 5096,-1421.13 5103.1,-1416.93 5678.3,-1397.13 5686.5,-1397.13"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1677.13C5076.59,-1674.24 4984.39,-1487.44 5097.02,-1422.85 5103.17,-1418.93 5678.37,-1399.13 5686.5,-1399.13"/>
+<g id="a_edge128&#45;label"><a xlink:title="deutsch_ecu_connector:38&lt;white&gt;aem_fuel_pressure_sensor:Sig+">
+<text text-anchor="middle" x="5355" y="-1424.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:38&lt;white&gt;aem_fuel_pressure_sensor:Sig+</text>
+</a>
+</g>
+</g>
+<!-- deutsch_ecu_connector&#45;&#45;aem_fuel_pressure_sensor -->
+<g id="edge129" class="edge">
+<title>deutsch_ecu_connector:39&#45;&#45;aem_fuel_pressure_sensor:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1650.13C5079.53,-1653.05 4975.23,-1452.45 5094.98,-1379.41 5323.46,-1246.18 5425.56,-1372.88 5686.5,-1372.13"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1652.13C5081.3,-1652.13 4977,-1451.53 5096,-1381.13 5321.9,-1247.43 5424,-1374.13 5686.5,-1374.13"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1654.13C5083.07,-1651.21 4978.77,-1450.61 5097.02,-1382.85 5320.34,-1248.68 5422.44,-1375.38 5686.5,-1376.13"/>
+<g id="a_edge129&#45;label"><a xlink:title="deutsch_ecu_connector:39&lt;white&gt;aem_fuel_pressure_sensor:Sig&#45;">
+<text text-anchor="middle" x="5355" y="-1384.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:39&lt;white&gt;aem_fuel_pressure_sensor:Sig&#45;</text>
+</a>
+</g>
+</g>
 <!-- deutsch_ecu_connector&#45;&#45;injector1 -->
 <g id="edge118" class="edge">
 <title>deutsch_ecu_connector:1&#45;&#45;injector1:Gnd</title>
@@ -2223,72 +2289,6 @@
 <path fill="none" stroke="black" stroke-width="2.5" d="M4943,-2416.13C5042.52,-2411.78 5009.12,-2789.78 5093.6,-2855.33 5212.76,-2943.09 5603.86,-2888.09 5748.5,-2888.13"/>
 <g id="a_edge123&#45;label"><a xlink:title="deutsch_ecu_connector:6&lt;brown:green&gt;injector6:Gnd">
 <text text-anchor="middle" x="5355" y="-2904.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:6&lt;brown:green&gt;injector6:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;aem_coolant_temp_sensor -->
-<g id="edge124" class="edge">
-<title>deutsch_ecu_connector:34&#45;&#45;aem_coolant_temp_sensor:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1765.13C5035.06,-1767.61 5008.26,-1660.11 5095.18,-1619.31 5110.85,-1612.44 5669.85,-1571.14 5686.5,-1571.13"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1767.13C5037,-1767.13 5010.2,-1659.63 5096,-1621.13 5111,-1614.43 5670,-1573.13 5686.5,-1573.13"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1769.13C5038.94,-1766.65 5012.14,-1659.15 5096.82,-1622.95 5111.15,-1616.42 5670.15,-1575.12 5686.5,-1575.13"/>
-<g id="a_edge124&#45;label"><a xlink:title="deutsch_ecu_connector:34&lt;white&gt;aem_coolant_temp_sensor:Sig+">
-<text text-anchor="middle" x="5355" y="-1624.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:34&lt;white&gt;aem_coolant_temp_sensor:Sig+</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;aem_coolant_temp_sensor -->
-<g id="edge125" class="edge">
-<title>deutsch_ecu_connector:35&#45;&#45;aem_coolant_temp_sensor:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1742.13C5047.82,-1744.81 4997.92,-1606.01 5095.13,-1557.33 5155.28,-1528.73 5620.98,-1548.13 5686.5,-1548.13"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1744.13C5049.7,-1744.13 4999.8,-1605.33 5096,-1559.13 5155.2,-1530.73 5620.9,-1550.13 5686.5,-1550.13"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1746.13C5051.58,-1743.45 5001.68,-1604.65 5096.87,-1560.93 5155.12,-1532.73 5620.82,-1552.13 5686.5,-1552.13"/>
-<g id="a_edge125&#45;label"><a xlink:title="deutsch_ecu_connector:35&lt;white&gt;aem_coolant_temp_sensor:Sig&#45;">
-<text text-anchor="middle" x="5355" y="-1562.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:35&lt;white&gt;aem_coolant_temp_sensor:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;aem_transmission_temp_sensor -->
-<g id="edge126" class="edge">
-<title>deutsch_ecu_connector:36&#45;&#45;aem_transmission_temp_sensor:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1719.13C5052.03,-1721.85 4996.33,-1576.95 5095.06,-1522.36 5102.87,-1518.43 5658.47,-1483.13 5666.5,-1483.13"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1721.13C5053.9,-1721.13 4998.2,-1576.23 5096,-1524.13 5103,-1520.43 5658.6,-1485.13 5666.5,-1485.13"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1723.13C5055.77,-1720.41 5000.07,-1575.51 5096.94,-1525.9 5103.13,-1522.43 5658.73,-1487.13 5666.5,-1487.13"/>
-<g id="a_edge126&#45;label"><a xlink:title="deutsch_ecu_connector:36&lt;white&gt;aem_transmission_temp_sensor:Sig+">
-<text text-anchor="middle" x="5355" y="-1527.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:36&lt;white&gt;aem_transmission_temp_sensor:Sig+</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;aem_transmission_temp_sensor -->
-<g id="edge127" class="edge">
-<title>deutsch_ecu_connector:37&#45;&#45;aem_transmission_temp_sensor:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1696.13C5063.58,-1698.95 4986.58,-1528.35 5095.05,-1467.37 5207.72,-1406.76 5540.02,-1460.16 5666.5,-1460.13"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1698.13C5065.4,-1698.13 4988.4,-1527.53 5096,-1469.13 5207.4,-1408.73 5539.7,-1462.13 5666.5,-1462.13"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1700.13C5067.22,-1697.31 4990.22,-1526.71 5096.95,-1470.89 5207.08,-1410.7 5539.38,-1464.1 5666.5,-1464.13"/>
-<g id="a_edge127&#45;label"><a xlink:title="deutsch_ecu_connector:37&lt;white&gt;aem_transmission_temp_sensor:Sig&#45;">
-<text text-anchor="middle" x="5355" y="-1472.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:37&lt;white&gt;aem_transmission_temp_sensor:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;aem_fuel_pressure_sensor -->
-<g id="edge128" class="edge">
-<title>deutsch_ecu_connector:38&#45;&#45;aem_fuel_pressure_sensor:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1673.13C5073.01,-1676.02 4980.81,-1489.22 5094.98,-1419.41 5103.03,-1414.93 5678.23,-1395.13 5686.5,-1395.13"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1675.13C5074.8,-1675.13 4982.6,-1488.33 5096,-1421.13 5103.1,-1416.93 5678.3,-1397.13 5686.5,-1397.13"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1677.13C5076.59,-1674.24 4984.39,-1487.44 5097.02,-1422.85 5103.17,-1418.93 5678.37,-1399.13 5686.5,-1399.13"/>
-<g id="a_edge128&#45;label"><a xlink:title="deutsch_ecu_connector:38&lt;white&gt;aem_fuel_pressure_sensor:Sig+">
-<text text-anchor="middle" x="5355" y="-1424.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:38&lt;white&gt;aem_fuel_pressure_sensor:Sig+</text>
-</a>
-</g>
-</g>
-<!-- deutsch_ecu_connector&#45;&#45;aem_fuel_pressure_sensor -->
-<g id="edge129" class="edge">
-<title>deutsch_ecu_connector:39&#45;&#45;aem_fuel_pressure_sensor:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1650.13C5079.53,-1653.05 4975.23,-1452.45 5094.98,-1379.41 5323.46,-1246.18 5425.56,-1372.88 5686.5,-1372.13"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4943,-1652.13C5081.3,-1652.13 4977,-1451.53 5096,-1381.13 5321.9,-1247.43 5424,-1374.13 5686.5,-1374.13"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4943,-1654.13C5083.07,-1651.21 4978.77,-1450.61 5097.02,-1382.85 5320.34,-1248.68 5422.44,-1375.38 5686.5,-1376.13"/>
-<g id="a_edge129&#45;label"><a xlink:title="deutsch_ecu_connector:39&lt;white&gt;aem_fuel_pressure_sensor:Sig&#45;">
-<text text-anchor="middle" x="5355" y="-1384.93" font-family="Times,serif" font-size="14.00">deutsch_ecu_connector:39&lt;white&gt;aem_fuel_pressure_sensor:Sig&#45;</text>
 </a>
 </g>
 </g>

@@ -164,6 +164,9 @@ Node('deutsch_ecu_connector', list(range(1,48)))
 Node('deutsch_pdm_connector', list(range(1,7)))
 Node('deutsch_console_connector', list(range(1,16)))
 
+ClusterNodes(['link_ecu_a', 'link_ecu_b', 'deutsch_ecu_connector'], 'ECU')
+ClusterNodes(['razor_pdm', 'deutsch_pdm_connector'], 'PDM')
+
 Node('labjack', [
     'sgnd0', ' spc', ' sgnd1', ' vs0',
     'fio7', ' fio6', ' gnd0', ' vs1',
@@ -250,9 +253,9 @@ AddPath((
   ('ign_switch', '1'),
 ), 'blue')
 AddPath((
-  ('razor_pdm', 'IGNSW'),
-  ('deutsch_console_connector', DCC.GetFreePin()),
   ('ign_switch', '2'),
+  ('deutsch_console_connector', DCC.GetFreePin()),
+  ('razor_pdm', 'IGNSW'),
 ), 'blue')
 
 # Fuel Pump
@@ -567,7 +570,7 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
       ('deutsch_ecu_connector', DCE.GetFreePin()),
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
-ClusterNodes(AEM_GAUGES + ['link_keypad'], 'Console')
+ClusterNodes(AEM_GAUGES + ['link_keypad', 'deutsch_console_connector'], 'Console')
 ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 
 # USB Hub

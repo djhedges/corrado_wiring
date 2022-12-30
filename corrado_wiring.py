@@ -3,7 +3,6 @@
 # TODOs:
 # Traqmate
 # Oil pressure sensor
-# Oil pressure switches?
 # Radiator Fan
 # Pi
 # Cameras
@@ -136,8 +135,8 @@ def AddPath(node_pins, color):
                  color=ParseColor(color),
                  penwidth=2.5)
 
-def ClusterNodes(nodes, label):
-  G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color='grey', label=label)
+def ClusterNodes(nodes, label, color='grey'):
+  G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color=color, label=label)
 
 
 def AddPathWithMap(node_pins):
@@ -198,6 +197,8 @@ Node('knock2', ['Sig+', 'Sig-', 'Scr'])
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
 Node('oil_temp_sensor', ['Sig+', 'Sig-'])
 Node('coolant_temp_sensor', ['Sig+', 'Sig-'])
+Node('oil_switch_0.25_bar', ['Switch'])
+Node('oil_switch_1.40_bar', ['Switch'])
 
 Node('idle_stablizer_valve', ['Pos', 'Gnd'])
 Node('vapor_purge_valve', ['Pos', 'Gnd'])
@@ -488,6 +489,30 @@ for i in range(1, 3):
     (f'knock{i}', 'Scr'),
   ))
 
+# Oil Pressure Switches
+AddPathWithMap((
+  ('link_ecu_b', 'An Volt8'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('oil_switch_0.25_bar', 'Switch'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'An Volt9'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('oil_switch_1.40_bar', 'Switch'),
+))
+
+# ECU B Grounds
+AddPath((
+  ('link_ecu_b', 'Ground1'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('engine_ground', 'Gnd'),
+), 'black')
+AddPath((
+  ('link_ecu_b', 'Ground2'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('engine_ground', 'Gnd'),
+), 'black')
+
 # LSU4.2
 # https://wbo2.com/cable/lsuconns.htm
 AddPathWithMap((
@@ -510,18 +535,6 @@ AddPathWithMap((
   ('link_ecu_b', 'APE'),
   ('LSU4.2', 'Ip'),
 ))
-
-# ECU B Grounds
-AddPath((
-  ('link_ecu_b', 'Ground1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('engine_ground', 'Gnd'),
-), 'black')
-AddPath((
-  ('link_ecu_b', 'Ground2'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('engine_ground', 'Gnd'),
-), 'black')
 
 # Idle Stablizer Valve
 AddPath((
@@ -640,6 +653,29 @@ ClusterNodes(['icm', 'coil'], label='Coilpack')
 ClusterNodes(AEM_GAUGES + ['link_keypad', 'deutsch_console_connector', 'ign_switch'], 'Console')
 ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
+ClusterNodes([
+  'engine_ground',
+  'deutsch_ecu_connector',
+  'deutsch_pdm_connector',
+  'icm',
+  'coil',
+  'LSU4.2',
+  'oil_switch_0.25_bar',
+  'oil_switch_1.40_bar',
+  'knock1',
+  'knock2',
+  'cam_sensor',
+  'crank_sensor',
+  'tps',
+  'map_sensor',
+  'oil_temp_sensor',
+  'coolant_temp_sensor',
+  'intake_temp_sensor',
+  'idle_stablizer_valve',
+  'vapor_purge_valve',
+  'aux_coolant_pump',
+] + AEM_SENSORS + [f'injector{i}' for i in range(1, 7)],
+'Engine', color='cyan')
 
 
 G.layout(prog='dot')

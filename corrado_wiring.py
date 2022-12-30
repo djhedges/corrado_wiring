@@ -12,12 +12,7 @@
 
 import pygraphviz as pgv
 
-def NewGraph():
-  return pgv.AGraph(strict=False, rankdir='LR', ranksep=1.5, concentrate='true')
-
-G = NewGraph()
-
-RECORDED = {}
+G = pgv.AGraph(strict=False, rankdir='LR', ranksep=1.5, concentrate='true')
 
 AEM_GAUGES = ['coolant_temp_gauge', 'transmission_temp_gauge', 'fuel_pressure_gauge']
 AEM_SENSORS = ['aem_coolant_temp_sensor', 'aem_transmission_temp_sensor', 'aem_fuel_pressure_sensor']
@@ -118,31 +113,10 @@ def BuildLabel(name, pin_names):
     label += f'| <{pin_name}> {pin_name} '
   return label
 
-def record(func):
-  """Record function and args per node for later per node diagrams."""
-  def wrapper(*args, **kwargs):
-    if isinstance(args[0], Node):
-      node = args[1]
-      RECORDED.setdefault(node, []).append((func, args, kwargs))
-    else:
-      if isinstance(args[0], list) or isinstance(args[0], tuple):  # [nodes]
-        if isinstance(args[0][0], list) or isinstance(args[0][0], tuple):  # (nodes, pins)
-          for node, _ in args[0]:
-            RECORDED.setdefault(node, []).append((func, args, kwargs))
-        else:  # node
-          for node in args[0]:
-            RECORDED.setdefault(node, []).append((func, args, kwargs))
-      else:
-        node = args[0]
-        RECORDED.setdefault(node, []).append((func, args, kwargs))
-    func(*args, **kwargs)
-  return wrapper
 
 class Node(object):
-
-  @record
   def __init__(self, name, pin_names):
-    G.add_node(name, label=BuildLabel(name, pin_names), shape='record', style='bold')
+    self.node = G.add_node(name, label=BuildLabel(name, pin_names), shape='record', style='bold')
 
 
 def ParseColor(color):
@@ -150,7 +124,6 @@ def ParseColor(color):
     color += ':' + color.split(':')[0]
   return f'black:{color}:black'
 
-@record
 def AddPath(node_pins, color):
   for i in range(len(node_pins) - 1):
       node, pin = node_pins[i]
@@ -162,9 +135,9 @@ def AddPath(node_pins, color):
                  color=ParseColor(color),
                  penwidth=2.5)
 
-@record
 def ClusterNodes(nodes, label, color='grey'):
   G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color=color, label=label)
+
 
 def AddPathWithMap(node_pins):
   node_color_map = {
@@ -697,18 +670,3 @@ print('Rendering PNG')
 G.draw('corrado_wiring.png')
 print('Rendering SVG')
 G.draw('corrado_wiring.svg')
-
-for node in RECORDED:
-  G = NewGraph()
-  for node in RECORDED:
-    node_func, node_args, node_kwargs = RECORDED[node][0]
-    node_func(*node_args, **node_kwargs)
-  for func, args, kwargs in RECORDED[node]:
-    func(*args, **kwargs)
-  G.layout(prog='dot')
-  print(f'Rendering {node} DOT')
-  G.write(f'{node}.dot')
-  print(f'Rendering {node} PNG')
-  G.draw(f'{node}.png')
-  print(f'Rendering {node} SVG')
-  G.draw(f'{node}.svg')

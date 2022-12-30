@@ -653,30 +653,6 @@ ClusterNodes(['icm', 'coil'], label='Coilpack')
 ClusterNodes(AEM_GAUGES + ['link_keypad', 'deutsch_console_connector', 'ign_switch'], 'Console')
 ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
-ClusterNodes([
-  'engine_ground',
-  'deutsch_ecu_connector',
-  'deutsch_pdm_connector',
-  'icm',
-  'coil',
-  'LSU4.2',
-  'oil_switch_0.25_bar',
-  'oil_switch_1.40_bar',
-  'knock1',
-  'knock2',
-  'cam_sensor',
-  'crank_sensor',
-  'tps',
-  'map_sensor',
-  'oil_temp_sensor',
-  'coolant_temp_sensor',
-  'intake_temp_sensor',
-  'idle_stablizer_valve',
-  'vapor_purge_valve',
-  'aux_coolant_pump',
-] + AEM_SENSORS + [f'injector{i}' for i in range(1, 7)],
-'Engine', color='cyan')
-
 
 G.layout(prog='dot')
 print('Rendering DOT')

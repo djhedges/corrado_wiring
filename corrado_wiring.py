@@ -1,5 +1,13 @@
 #!/usr/bin/python3
 
+# TODOs:
+# Traqmate
+# Oil pressure sensor
+# Oil pressure switches?
+# Radiator Fan
+# Pi
+# Cameras
+
 import pygraphviz as pgv
 
 G = pgv.AGraph(strict=False, rankdir='LR', ranksep=1.5, concentrate='true')
@@ -572,7 +580,7 @@ AddPath((
 AddPath((
   ('battery', 'neg'),
   ('usb_hub', '-'),
-), 'red')
+), 'black')
 
 # Labjack
 AddPath((

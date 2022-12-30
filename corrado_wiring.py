@@ -653,6 +653,7 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
     ), 'white')  # TODO: Decide on wire color.
 
 # Traqmate
+# TODO: Figure out RPM signal source.
 AddPath((
   ('razor_pdm', 'ADIO7'),
   ('traqmate', 'pos'),

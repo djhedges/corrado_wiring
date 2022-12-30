@@ -8,6 +8,8 @@
 # Pi
 # Cameras
 # 4G Router
+# WBO2
+# EGT
 
 import pygraphviz as pgv
 

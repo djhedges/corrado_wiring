@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 # TODOs:
-# Traqmate
 # Oil pressure sensor
 # Pi
 # Cameras
@@ -195,6 +194,8 @@ Node('deutsch_ecu_connector', list(range(1,48)))
 Node('deutsch_pdm_connector', list(range(1,13)))
 Node('deutsch_console_connector', list(range(1,25)))
 
+Node('acc_ground', ['ground'])
+Node('traqmate', ['pos', 'gnd', 'rpm'])
 Node('labjack', [
     'sgnd0', ' spc', ' sgnd1', ' vs0',
     'fio7', ' fio6', ' gnd0', ' vs1',
@@ -311,12 +312,13 @@ AddPathWithMap((
 
 # Keypad
 AddPath((
-  ('razor_pdm', 'ADIO3'),
+  ('razor_pdm', 'ADIO7'),
   ('deutsch_console_connector', DCC_PWR),
   ('link_keypad', 1),
 ), 'red')
 AddPath((
   ('battery', 'neg'),
+  ('acc_ground', 'ground'),
   ('deutsch_console_connector', DCC_GND),
   ('link_keypad', 2),
 ), 'black')
@@ -650,6 +652,17 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
 
+# Traqmate
+AddPath((
+  ('razor_pdm', 'ADIO7'),
+  ('traqmate', 'pos'),
+), 'red')
+AddPath((
+  ('battery', 'neg'),
+  ('acc_ground', 'ground'),
+  ('traqmate', 'gnd'),
+), 'black')
+
 # USB Hub
 AddPath((
   ('razor_pdm', 'ADIO7'),
@@ -657,6 +670,7 @@ AddPath((
 ), 'red')
 AddPath((
   ('battery', 'neg'),
+  ('acc_ground', 'ground'),
   ('usb_hub', '-'),
 ), 'black')
 

@@ -3,7 +3,6 @@
 # TODOs:
 # Traqmate
 # Oil pressure sensor
-# Radiator Fan
 # Pi
 # Cameras
 # 4G Router
@@ -122,8 +121,8 @@ class DeutschConnector(object):
     self.index += 1
     return self.index
 
-DCE = DeutschConnector()
-DCP = DeutschConnector()
+DCE = DeutschConnector()  # ECU
+DCP = DeutschConnector()  # PDM
 DCC = DeutschConnector()  # Console (keypad & gauges)
 DCC_PWR = DCC.GetFreePin()
 DCC_GND = DCC.GetFreePin()
@@ -193,8 +192,8 @@ Node('link_keypad', [1, 2, 3, 4])
 Node('engine_ground', ['Gnd'])
 
 Node('deutsch_ecu_connector', list(range(1,48)))
-Node('deutsch_pdm_connector', list(range(1,7)))
-Node('deutsch_console_connector', list(range(1,16)))
+Node('deutsch_pdm_connector', list(range(1,13)))
+Node('deutsch_console_connector', list(range(1,25)))
 
 Node('labjack', [
     'sgnd0', ' spc', ' sgnd1', ' vs0',
@@ -228,6 +227,10 @@ Node('positive_crank_valve', ['Pos', 'Gnd'])
 
 Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 Node('aux_coolant_pump', ['Pos', 'Gnd'])
+
+Node('spal_fan_1', ['pos', 'gnd'])
+Node('spal_fan_2', ['pos', 'gnd'])
+Node('deutsch_fan_connector', [1, 2, 3, 4])
 
 for aem_gauge in AEM_GAUGES:
   Node(aem_gauge, ['Ground', '12v', 'RS232', '5vOut', 'Sig+', 'Sig-'])
@@ -289,7 +292,7 @@ AddPath((
 # Fuel Pump
 AddPath((
   ('fuel_pump', 'pos'),
-  ('razor_pdm', 'PWROUT3a'),
+  ('razor_pdm', 'PWROUT1b'),
 ), 'red')
 AddPath((
   ('battery', 'neg'),
@@ -393,7 +396,7 @@ AddPathWithMap((
 
 # Coils
 AddPath((
-  ('razor_pdm', 'PWROUT4a'),
+  ('razor_pdm', 'PWROUT3a'),
   ('coil', 'Ubatt'),
 ), 'red')
 AddPath((
@@ -602,6 +605,31 @@ AddPath((
   ('aux_coolant_pump', 'Gnd'),
   ('engine_ground', 'Gnd'),
 ), 'black')
+
+# Fans
+AddPath((
+  ('razor_pdm', 'PWROUT4a'),
+  ('deutsch_pdm_connector', DCP.GetFreePin()),
+  ('deutsch_fan_connector', 1),
+  ('spal_fan_1', 'pos'),
+), 'red')
+AddPath((
+  ('razor_pdm', 'PWROUT4b'),
+  ('deutsch_pdm_connector', DCP.GetFreePin()),
+  ('deutsch_fan_connector', 2),
+  ('spal_fan_2', 'pos'),
+), 'red')
+AddPath((
+  ('engine_ground', 'Gnd'),
+  ('deutsch_fan_connector', 3),
+  ('spal_fan_1', 'gnd'),
+), 'black')
+AddPath((
+  ('engine_ground', 'Gnd'),
+  ('deutsch_fan_connector', 4),
+  ('spal_fan_2', 'gnd'),
+), 'black')
+
 
 # Gauages
 for aem_gauge in AEM_GAUGES:

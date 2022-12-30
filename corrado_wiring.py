@@ -126,14 +126,14 @@ def ParseColor(color):
 
 def AddPath(node_pins, color):
   for i in range(len(node_pins) - 1):
-      node, pin = node_pins[i]
-      next_node, next_pin = node_pins[i + 1]
-      G.add_edge(node, next_node,
-                 tailport=pin, headport=next_pin,
-                 label=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
-                 labeltooltip=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
-                 color=ParseColor(color),
-                 penwidth=2.5)
+    node, pin = node_pins[i]
+    next_node, next_pin = node_pins[i + 1]
+    G.add_edge(node, next_node,
+               tailport=pin, headport=next_pin,
+               label=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
+               labeltooltip=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
+               color=ParseColor(color),
+               penwidth=2.5)
 
 def ClusterNodes(nodes, label, color='grey'):
   G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color=color, label=label)
@@ -145,10 +145,10 @@ def AddPathWithMap(node_pins):
     'link_ecu_b': LINK_ECU_B_PIN_COLOR_MAP,
   }
   for node, pin in node_pins:
-      color = node_color_map.get(node,{}).get(pin)
-      if color:
-        AddPath(node_pins, color)
-        break
+    color = node_color_map.get(node,{}).get(pin)
+    if color:
+      AddPath(node_pins, color)
+      break
 
 Node('battery', ['pos', 'neg'])
 Node('main_fuse', ['fuse'])

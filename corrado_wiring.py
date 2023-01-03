@@ -222,6 +222,7 @@ Node('knock2', ['Sig+', 'Sig-', 'Scr'])
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
 Node('oil_temp_sensor', ['Sig+', 'Sig-'])
 Node('coolant_temp_sensor', ['Sig+', 'Sig-'])
+Node('coolant_low_sensor', ['Sig+', 'Sig-'])
 Node('oil_switch_0.25_bar', ['Switch'])
 Node('oil_switch_1.40_bar', ['Switch'])
 
@@ -432,6 +433,18 @@ AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
   ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('coolant_temp_sensor', 'Sig-'),
+))
+
+# Coolant Low Sensor
+AddPathWithMap((
+  ('link_ecu_a', 'Aux4'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('coolant_low_sensor', 'Sig+'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'GndOut'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('coolant_low_sensor', 'Sig-'),
 ))
 
 # TPS
@@ -738,7 +751,7 @@ ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
 # Ensures any deleted nodes are removed and not lingering around.
 png_files = []
 for filename in os.listdir():
-  if 'corrado_wiring.png' in png_files and filename.endswith('.png'):
+  if 'corrado_wiring.py' in png_files and filename.endswith('.png'):
    os.rename(filename, os.path.join('/tmp/', filename))
 
 G.layout(prog='dot')

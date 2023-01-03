@@ -5,6 +5,51 @@ graph "" {
 		ranksep=1.5
 	];
 	node [label="\N"];
+	subgraph cluster_Coilpack {
+		graph [bb="4754,3391.9,5824.5,3614.9",
+			color=grey,
+			label=Coilpack,
+			lheight=0.21,
+			lp="5289.2,3603.4",
+			lwidth=0.85,
+			style=filled
+		];
+		icm	[height=2.5694,
+			label="icm | <Transistor1ecu> Transistor1ecu | <Transistor2ecu> Transistor2ecu | <Transistor3ecu> Transistor3ecu | <Transistor3coil> Transistor3coil | <\
+Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil ",
+			pos="4824,3491.9",
+			rects="4762,3560.9,4886,3583.9 4762,3537.9,4886,3560.9 4762,3514.9,4886,3537.9 4762,3491.9,4886,3514.9 4762,3468.9,4886,3491.9 4762,3445.9,\
+4886,3468.9 4762,3422.9,4886,3445.9 4762,3399.9,4886,3422.9",
+			shape=record,
+			style=bold,
+			width=1.7222];
+		coil	[height=1.6111,
+			label="coil | <Coil3> Coil3 | <Coil2> Coil2 | <Coil1> Coil1 | <Ubatt> Ubatt ",
+			pos="5787.5,3487.9",
+			rects="5758.5,3522.4,5816.5,3545.4 5758.5,3499.4,5816.5,3522.4 5758.5,3476.4,5816.5,3499.4 5758.5,3453.4,5816.5,3476.4 5758.5,3430.4,5816.5,\
+3453.4",
+			shape=record,
+			style=bold,
+			width=0.80556];
+		icm:Transistor3coil -- coil:Coil3	[color="black:white:black",
+			label="icm:Transistor3coil<white>coil:Coil3",
+			labeltooltip="icm:Transistor3coil<white>coil:Coil3",
+			lp="5328,3516.4",
+			penwidth=2.5,
+			pos="4887,3479.9 4967.9,3479.9 4988.1,3483.9 5069,3486.9 5375,3498.1 5451.3,3510.9 5757.5,3510.9"];
+		icm:Transistor1coil -- coil:Coil1	[color="black:white:black",
+			label="icm:Transistor1coil<white>coil:Coil1",
+			labeltooltip="icm:Transistor1coil<white>coil:Coil1",
+			lp="5328,3440.4",
+			penwidth=2.5,
+			pos="4887,3410.9 5198.3,3410.9 5277.6,3399.2 5587,3432.9 5663.6,3441.2 5680.4,3464.9 5757.5,3464.9"];
+		icm:Transistor2coil -- coil:Coil2	[color="black:white:black",
+			label="icm:Transistor2coil<white>coil:Coil2",
+			labeltooltip="icm:Transistor2coil<white>coil:Coil2",
+			lp="5328,3475.4",
+			penwidth=2.5,
+			pos="4887,3433.9 4968.1,3433.9 4988,3443.2 5069,3447.9 5299,3461.2 5357.3,3450 5587,3467.9 5663.1,3473.8 5681.2,3487.9 5757.5,3487.9"];
+	}
 	subgraph cluster_Console {
 		graph [bb="1743,691.88,1962,1474.9",
 			color=grey,
@@ -52,51 +97,6 @@ graph "" {
 			shape=record,
 			style=bold,
 			width=2.2778];
-	}
-	subgraph cluster_Coilpack {
-		graph [bb="4754,3391.9,5824.5,3614.9",
-			color=grey,
-			label=Coilpack,
-			lheight=0.21,
-			lp="5289.2,3603.4",
-			lwidth=0.85,
-			style=filled
-		];
-		icm	[height=2.5694,
-			label="icm | <Transistor1ecu> Transistor1ecu | <Transistor2ecu> Transistor2ecu | <Transistor3ecu> Transistor3ecu | <Transistor3coil> Transistor3coil | <\
-Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil ",
-			pos="4824,3491.9",
-			rects="4762,3560.9,4886,3583.9 4762,3537.9,4886,3560.9 4762,3514.9,4886,3537.9 4762,3491.9,4886,3514.9 4762,3468.9,4886,3491.9 4762,3445.9,\
-4886,3468.9 4762,3422.9,4886,3445.9 4762,3399.9,4886,3422.9",
-			shape=record,
-			style=bold,
-			width=1.7222];
-		coil	[height=1.6111,
-			label="coil | <Coil3> Coil3 | <Coil2> Coil2 | <Coil1> Coil1 | <Ubatt> Ubatt ",
-			pos="5787.5,3487.9",
-			rects="5758.5,3522.4,5816.5,3545.4 5758.5,3499.4,5816.5,3522.4 5758.5,3476.4,5816.5,3499.4 5758.5,3453.4,5816.5,3476.4 5758.5,3430.4,5816.5,\
-3453.4",
-			shape=record,
-			style=bold,
-			width=0.80556];
-		icm:Transistor3coil -- coil:Coil3	[color="black:white:black",
-			label="icm:Transistor3coil<white>coil:Coil3",
-			labeltooltip="icm:Transistor3coil<white>coil:Coil3",
-			lp="5328,3516.4",
-			penwidth=2.5,
-			pos="4887,3479.9 4967.9,3479.9 4988.1,3483.9 5069,3486.9 5375,3498.1 5451.3,3510.9 5757.5,3510.9"];
-		icm:Transistor1coil -- coil:Coil1	[color="black:white:black",
-			label="icm:Transistor1coil<white>coil:Coil1",
-			labeltooltip="icm:Transistor1coil<white>coil:Coil1",
-			lp="5328,3440.4",
-			penwidth=2.5,
-			pos="4887,3410.9 5198.3,3410.9 5277.6,3399.2 5587,3432.9 5663.6,3441.2 5680.4,3464.9 5757.5,3464.9"];
-		icm:Transistor2coil -- coil:Coil2	[color="black:white:black",
-			label="icm:Transistor2coil<white>coil:Coil2",
-			labeltooltip="icm:Transistor2coil<white>coil:Coil2",
-			lp="5328,3475.4",
-			penwidth=2.5,
-			pos="4887,3433.9 4968.1,3433.9 4988,3443.2 5069,3447.9 5299,3461.2 5357.3,3450 5587,3467.9 5663.1,3473.8 5681.2,3487.9 5757.5,3487.9"];
 	}
 	subgraph "cluster_Exit Speed" {
 		graph [bb="3804,55.883,3899,781.88",

@@ -9,14 +9,14 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 3767.16)">
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-3767.16 7806.9,-3767.16 7806.9,4 -4,4"/>
 <g id="clust1" class="cluster">
-<title>cluster_Console</title>
-<polygon fill="grey" stroke="grey" points="1735,-745.74 1735,-1528.76 1954,-1528.76 1954,-745.74 1735,-745.74"/>
-<text text-anchor="middle" x="1844.5" y="-1513.56" font-family="Times,serif" font-size="14.00">Console</text>
-</g>
-<g id="clust2" class="cluster">
 <title>cluster_Coilpack</title>
 <polygon fill="grey" stroke="grey" points="4746,-3445.76 4746,-3668.76 5816.5,-3668.76 5816.5,-3445.76 4746,-3445.76"/>
 <text text-anchor="middle" x="5281.2" y="-3653.56" font-family="Times,serif" font-size="14.00">Coilpack</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_Console</title>
+<polygon fill="grey" stroke="grey" points="1735,-745.74 1735,-1528.76 1954,-1528.76 1954,-745.74 1735,-745.74"/>
+<text text-anchor="middle" x="1844.5" y="-1513.56" font-family="Times,serif" font-size="14.00">Console</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_Exit Speed</title>
@@ -38,8 +38,94 @@
 <polygon fill="grey" stroke="grey" points="0,-3036.76 0,-3210.76 1929.5,-3210.76 1929.5,-3036.76 0,-3036.76"/>
 <text text-anchor="middle" x="964.75" y="-3195.56" font-family="Times,serif" font-size="14.00">Kill Switch</text>
 </g>
-<!-- ign_switch -->
+<!-- icm -->
 <g id="node1" class="node">
+<title>icm</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="4754,-3453.26 4754,-3638.26 4878,-3638.26 4878,-3453.26 4754,-3453.26"/>
+<text text-anchor="middle" x="4816" y="-3623.06" font-family="Times,serif" font-size="14.00">icm</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3615.26 4878,-3615.26 "/>
+<text text-anchor="middle" x="4816" y="-3600.06" font-family="Times,serif" font-size="14.00">Transistor1ecu</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3592.26 4878,-3592.26 "/>
+<text text-anchor="middle" x="4816" y="-3577.06" font-family="Times,serif" font-size="14.00">Transistor2ecu</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3569.26 4878,-3569.26 "/>
+<text text-anchor="middle" x="4816" y="-3554.06" font-family="Times,serif" font-size="14.00">Transistor3ecu</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3546.26 4878,-3546.26 "/>
+<text text-anchor="middle" x="4816" y="-3531.06" font-family="Times,serif" font-size="14.00">Transistor3coil</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3523.26 4878,-3523.26 "/>
+<text text-anchor="middle" x="4816" y="-3508.06" font-family="Times,serif" font-size="14.00">Gnd</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3500.26 4878,-3500.26 "/>
+<text text-anchor="middle" x="4816" y="-3485.06" font-family="Times,serif" font-size="14.00">Transistor2coil</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3477.26 4878,-3477.26 "/>
+<text text-anchor="middle" x="4816" y="-3461.56" font-family="Times,serif" font-size="14.00">Transistor1coil</text>
+</g>
+<!-- coil -->
+<g id="node2" class="node">
+<title>coil</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5750.5,-3483.76 5750.5,-3599.76 5808.5,-3599.76 5808.5,-3483.76 5750.5,-3483.76"/>
+<text text-anchor="middle" x="5779.5" y="-3584.56" font-family="Times,serif" font-size="14.00">coil</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5750.5,-3576.76 5808.5,-3576.76 "/>
+<text text-anchor="middle" x="5779.5" y="-3561.56" font-family="Times,serif" font-size="14.00">Coil3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5750.5,-3553.76 5808.5,-3553.76 "/>
+<text text-anchor="middle" x="5779.5" y="-3538.56" font-family="Times,serif" font-size="14.00">Coil2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5750.5,-3530.76 5808.5,-3530.76 "/>
+<text text-anchor="middle" x="5779.5" y="-3515.56" font-family="Times,serif" font-size="14.00">Coil1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5750.5,-3507.76 5808.5,-3507.76 "/>
+<text text-anchor="middle" x="5779.5" y="-3492.06" font-family="Times,serif" font-size="14.00">Ubatt</text>
+</g>
+<!-- icm&#45;&#45;coil -->
+<g id="edge1" class="edge">
+<title>icm:Transistor3coil&#45;&#45;coil:Coil3</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3531.76C4960.29,-3531.79 4980.49,-3535.79 5061.07,-3538.76 5367.33,-3549.98 5443.63,-3562.78 5749.5,-3562.76"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4879,-3533.76C4959.9,-3533.76 4980.1,-3537.76 5061,-3540.76 5367,-3551.96 5443.3,-3564.76 5749.5,-3564.76"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3535.76C4959.51,-3535.72 4979.71,-3539.72 5060.93,-3542.75 5366.67,-3553.93 5442.97,-3566.73 5749.5,-3566.76"/>
+<g id="a_edge1&#45;label"><a xlink:title="icm:Transistor3coil&lt;white&gt;coil:Coil3">
+<text text-anchor="middle" x="5320" y="-3566.56" font-family="Times,serif" font-size="14.00">icm:Transistor3coil&lt;white&gt;coil:Coil3</text>
+</a>
+</g>
+</g>
+<!-- icm&#45;&#45;coil -->
+<g id="edge2" class="edge">
+<title>icm:Transistor1coil&#45;&#45;coil:Coil1</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3462.76C5190.01,-3462.78 5269.31,-3451.08 5579.22,-3484.77 5657.23,-3493.9 5674.03,-3517.6 5749.5,-3516.76"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4879,-3464.76C5190.3,-3464.76 5269.6,-3453.06 5579,-3486.76 5655.6,-3495.06 5672.4,-3518.76 5749.5,-3518.76"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3466.76C5190.59,-3466.73 5269.89,-3455.03 5578.78,-3488.74 5653.97,-3496.21 5670.77,-3519.91 5749.5,-3520.76"/>
+<g id="a_edge2&#45;label"><a xlink:title="icm:Transistor1coil&lt;white&gt;coil:Coil1">
+<text text-anchor="middle" x="5320" y="-3490.56" font-family="Times,serif" font-size="14.00">icm:Transistor1coil&lt;white&gt;coil:Coil1</text>
+</a>
+</g>
+</g>
+<!-- icm&#45;&#45;coil -->
+<g id="edge3" class="edge">
+<title>icm:Transistor2coil&#45;&#45;coil:Coil2</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3485.76C4960.95,-3485.94 4980.85,-3495.24 5061.12,-3499.76 5290.62,-3513.09 5348.92,-3501.89 5579.16,-3519.76 5656.33,-3526.08 5674.43,-3540.18 5749.5,-3539.76"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4879,-3487.76C4960.1,-3487.76 4980,-3497.06 5061,-3501.76 5291,-3515.06 5349.3,-3503.86 5579,-3521.76 5655.1,-3527.66 5673.2,-3541.76 5749.5,-3541.76"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3489.76C4959.25,-3489.57 4979.15,-3498.87 5060.88,-3503.75 5291.38,-3517.02 5349.68,-3505.82 5578.84,-3523.75 5653.87,-3529.23 5671.97,-3543.33 5749.5,-3543.76"/>
+<g id="a_edge3&#45;label"><a xlink:title="icm:Transistor2coil&lt;white&gt;coil:Coil2">
+<text text-anchor="middle" x="5320" y="-3525.56" font-family="Times,serif" font-size="14.00">icm:Transistor2coil&lt;white&gt;coil:Coil2</text>
+</a>
+</g>
+</g>
+<!-- engine_bay_ground -->
+<g id="node29" class="node">
+<title>engine_bay_ground</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="6407,-705.24 6407,-752.24 6562,-752.24 6562,-705.24 6407,-705.24"/>
+<text text-anchor="middle" x="6484.5" y="-737.04" font-family="Times,serif" font-size="14.00">engine_bay_ground</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="6407,-729.24 6562,-729.24 "/>
+<text text-anchor="middle" x="6484.5" y="-713.54" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- icm&#45;&#45;engine_bay_ground -->
+<g id="edge18" class="edge">
+<title>icm:Gnd&#45;&#45;engine_bay_ground:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3508.76C4960.59,-3509.9 4976.59,-3475.9 5060.71,-3462.78 5108.61,-3455.86 5889.41,-3457.96 5924.7,-3427.24 6656.85,-2804.22 6212.25,-2258.22 6351.02,-1303.47 6360.5,-1239.04 6339.5,-716.82 6407,-714.74"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3510.76C4962.4,-3510.76 4978.4,-3476.76 5061,-3464.76 5108.6,-3457.86 5889.4,-3459.96 5926,-3428.76 6658.4,-2802.96 6213.8,-2256.96 6353,-1303.76 6362.5,-1238.96 6341.5,-716.74 6407,-716.74"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3512.76C4964.21,-3511.61 4980.21,-3477.61 5061.29,-3466.74 5108.59,-3459.86 5889.39,-3461.96 5927.3,-3430.28 6659.95,-2801.69 6215.35,-2255.69 6354.98,-1304.05 6364.5,-1238.88 6343.5,-716.66 6407,-718.74"/>
+<g id="a_edge18&#45;label"><a xlink:title="icm:Gnd&lt;black&gt;engine_bay_ground:Gnd">
+<text text-anchor="middle" x="5779.5" y="-3455.56" font-family="Times,serif" font-size="14.00">icm:Gnd&lt;black&gt;engine_bay_ground:Gnd</text>
+</a>
+</g>
+</g>
+<!-- ign_switch -->
+<g id="node3" class="node">
 <title>ign_switch</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1798.5,-1427.76 1798.5,-1497.76 1890.5,-1497.76 1890.5,-1427.76 1798.5,-1427.76"/>
 <text text-anchor="middle" x="1844.5" y="-1482.56" font-family="Times,serif" font-size="14.00">ign_switch</text>
@@ -49,7 +135,7 @@
 <text text-anchor="middle" x="1844.5" y="-1436.06" font-family="Times,serif" font-size="14.00">2</text>
 </g>
 <!-- link_keypad -->
-<g id="node2" class="node">
+<g id="node4" class="node">
 <title>link_keypad</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1794,-1293.76 1794,-1409.76 1895,-1409.76 1895,-1293.76 1794,-1293.76"/>
 <text text-anchor="middle" x="1844.5" y="-1394.56" font-family="Times,serif" font-size="14.00">link_keypad</text>
@@ -143,7 +229,7 @@
 </g>
 </g>
 <!-- coolant_temp_gauge -->
-<g id="node3" class="node">
+<g id="node5" class="node">
 <title>coolant_temp_gauge</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1763.5,-1113.76 1763.5,-1275.76 1925.5,-1275.76 1925.5,-1113.76 1763.5,-1113.76"/>
 <text text-anchor="middle" x="1844.5" y="-1260.56" font-family="Times,serif" font-size="14.00">coolant_temp_gauge</text>
@@ -216,7 +302,7 @@
 </g>
 </g>
 <!-- transmission_temp_gauge -->
-<g id="node4" class="node">
+<g id="node6" class="node">
 <title>transmission_temp_gauge</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1743,-933.74 1743,-1095.74 1946,-1095.74 1946,-933.74 1743,-933.74"/>
 <text text-anchor="middle" x="1844.5" y="-1080.54" font-family="Times,serif" font-size="14.00">transmission_temp_gauge</text>
@@ -289,7 +375,7 @@
 </g>
 </g>
 <!-- fuel_pressure_gauge -->
-<g id="node5" class="node">
+<g id="node7" class="node">
 <title>fuel_pressure_gauge</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1762.5,-753.74 1762.5,-915.74 1926.5,-915.74 1926.5,-753.74 1762.5,-753.74"/>
 <text text-anchor="middle" x="1844.5" y="-900.54" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge</text>
@@ -358,92 +444,6 @@
 <path fill="none" stroke="black" stroke-width="2.5" d="M1927.5,-813.74C1995.7,-811.78 1996.8,-757.82 2059.48,-743.68 2114.44,-729.91 2520.64,-721.1 2572.21,-743.57 2657.99,-778.68 2622.49,-896.16 2719,-898.74"/>
 <g id="a_edge35&#45;label"><a xlink:title="fuel_pressure_gauge:5vOut&lt;white&gt;deutsch_console_connector:16">
 <text text-anchor="middle" x="2316" y="-745.54" font-family="Times,serif" font-size="14.00">fuel_pressure_gauge:5vOut&lt;white&gt;deutsch_console_connector:16</text>
-</a>
-</g>
-</g>
-<!-- icm -->
-<g id="node6" class="node">
-<title>icm</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="4754,-3453.26 4754,-3638.26 4878,-3638.26 4878,-3453.26 4754,-3453.26"/>
-<text text-anchor="middle" x="4816" y="-3623.06" font-family="Times,serif" font-size="14.00">icm</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3615.26 4878,-3615.26 "/>
-<text text-anchor="middle" x="4816" y="-3600.06" font-family="Times,serif" font-size="14.00">Transistor1ecu</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3592.26 4878,-3592.26 "/>
-<text text-anchor="middle" x="4816" y="-3577.06" font-family="Times,serif" font-size="14.00">Transistor2ecu</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3569.26 4878,-3569.26 "/>
-<text text-anchor="middle" x="4816" y="-3554.06" font-family="Times,serif" font-size="14.00">Transistor3ecu</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3546.26 4878,-3546.26 "/>
-<text text-anchor="middle" x="4816" y="-3531.06" font-family="Times,serif" font-size="14.00">Transistor3coil</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3523.26 4878,-3523.26 "/>
-<text text-anchor="middle" x="4816" y="-3508.06" font-family="Times,serif" font-size="14.00">Gnd</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3500.26 4878,-3500.26 "/>
-<text text-anchor="middle" x="4816" y="-3485.06" font-family="Times,serif" font-size="14.00">Transistor2coil</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4754,-3477.26 4878,-3477.26 "/>
-<text text-anchor="middle" x="4816" y="-3461.56" font-family="Times,serif" font-size="14.00">Transistor1coil</text>
-</g>
-<!-- coil -->
-<g id="node7" class="node">
-<title>coil</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5750.5,-3483.76 5750.5,-3599.76 5808.5,-3599.76 5808.5,-3483.76 5750.5,-3483.76"/>
-<text text-anchor="middle" x="5779.5" y="-3584.56" font-family="Times,serif" font-size="14.00">coil</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5750.5,-3576.76 5808.5,-3576.76 "/>
-<text text-anchor="middle" x="5779.5" y="-3561.56" font-family="Times,serif" font-size="14.00">Coil3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5750.5,-3553.76 5808.5,-3553.76 "/>
-<text text-anchor="middle" x="5779.5" y="-3538.56" font-family="Times,serif" font-size="14.00">Coil2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5750.5,-3530.76 5808.5,-3530.76 "/>
-<text text-anchor="middle" x="5779.5" y="-3515.56" font-family="Times,serif" font-size="14.00">Coil1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5750.5,-3507.76 5808.5,-3507.76 "/>
-<text text-anchor="middle" x="5779.5" y="-3492.06" font-family="Times,serif" font-size="14.00">Ubatt</text>
-</g>
-<!-- icm&#45;&#45;coil -->
-<g id="edge1" class="edge">
-<title>icm:Transistor3coil&#45;&#45;coil:Coil3</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3531.76C4960.29,-3531.79 4980.49,-3535.79 5061.07,-3538.76 5367.33,-3549.98 5443.63,-3562.78 5749.5,-3562.76"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4879,-3533.76C4959.9,-3533.76 4980.1,-3537.76 5061,-3540.76 5367,-3551.96 5443.3,-3564.76 5749.5,-3564.76"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3535.76C4959.51,-3535.72 4979.71,-3539.72 5060.93,-3542.75 5366.67,-3553.93 5442.97,-3566.73 5749.5,-3566.76"/>
-<g id="a_edge1&#45;label"><a xlink:title="icm:Transistor3coil&lt;white&gt;coil:Coil3">
-<text text-anchor="middle" x="5320" y="-3566.56" font-family="Times,serif" font-size="14.00">icm:Transistor3coil&lt;white&gt;coil:Coil3</text>
-</a>
-</g>
-</g>
-<!-- icm&#45;&#45;coil -->
-<g id="edge2" class="edge">
-<title>icm:Transistor1coil&#45;&#45;coil:Coil1</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3462.76C5190.01,-3462.78 5269.31,-3451.08 5579.22,-3484.77 5657.23,-3493.9 5674.03,-3517.6 5749.5,-3516.76"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4879,-3464.76C5190.3,-3464.76 5269.6,-3453.06 5579,-3486.76 5655.6,-3495.06 5672.4,-3518.76 5749.5,-3518.76"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3466.76C5190.59,-3466.73 5269.89,-3455.03 5578.78,-3488.74 5653.97,-3496.21 5670.77,-3519.91 5749.5,-3520.76"/>
-<g id="a_edge2&#45;label"><a xlink:title="icm:Transistor1coil&lt;white&gt;coil:Coil1">
-<text text-anchor="middle" x="5320" y="-3490.56" font-family="Times,serif" font-size="14.00">icm:Transistor1coil&lt;white&gt;coil:Coil1</text>
-</a>
-</g>
-</g>
-<!-- icm&#45;&#45;coil -->
-<g id="edge3" class="edge">
-<title>icm:Transistor2coil&#45;&#45;coil:Coil2</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3485.76C4960.95,-3485.94 4980.85,-3495.24 5061.12,-3499.76 5290.62,-3513.09 5348.92,-3501.89 5579.16,-3519.76 5656.33,-3526.08 5674.43,-3540.18 5749.5,-3539.76"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4879,-3487.76C4960.1,-3487.76 4980,-3497.06 5061,-3501.76 5291,-3515.06 5349.3,-3503.86 5579,-3521.76 5655.1,-3527.66 5673.2,-3541.76 5749.5,-3541.76"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3489.76C4959.25,-3489.57 4979.15,-3498.87 5060.88,-3503.75 5291.38,-3517.02 5349.68,-3505.82 5578.84,-3523.75 5653.87,-3529.23 5671.97,-3543.33 5749.5,-3543.76"/>
-<g id="a_edge3&#45;label"><a xlink:title="icm:Transistor2coil&lt;white&gt;coil:Coil2">
-<text text-anchor="middle" x="5320" y="-3525.56" font-family="Times,serif" font-size="14.00">icm:Transistor2coil&lt;white&gt;coil:Coil2</text>
-</a>
-</g>
-</g>
-<!-- engine_bay_ground -->
-<g id="node29" class="node">
-<title>engine_bay_ground</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="6407,-705.24 6407,-752.24 6562,-752.24 6562,-705.24 6407,-705.24"/>
-<text text-anchor="middle" x="6484.5" y="-737.04" font-family="Times,serif" font-size="14.00">engine_bay_ground</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="6407,-729.24 6562,-729.24 "/>
-<text text-anchor="middle" x="6484.5" y="-713.54" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- icm&#45;&#45;engine_bay_ground -->
-<g id="edge18" class="edge">
-<title>icm:Gnd&#45;&#45;engine_bay_ground:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3508.76C4960.59,-3509.9 4976.59,-3475.9 5060.71,-3462.78 5108.61,-3455.86 5889.41,-3457.96 5924.7,-3427.24 6656.85,-2804.22 6212.25,-2258.22 6351.02,-1303.47 6360.5,-1239.04 6339.5,-716.82 6407,-714.74"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3510.76C4962.4,-3510.76 4978.4,-3476.76 5061,-3464.76 5108.6,-3457.86 5889.4,-3459.96 5926,-3428.76 6658.4,-2802.96 6213.8,-2256.96 6353,-1303.76 6362.5,-1238.96 6341.5,-716.74 6407,-716.74"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4879,-3512.76C4964.21,-3511.61 4980.21,-3477.61 5061.29,-3466.74 5108.59,-3459.86 5889.39,-3461.96 5927.3,-3430.28 6659.95,-2801.69 6215.35,-2255.69 6354.98,-1304.05 6364.5,-1238.88 6343.5,-716.66 6407,-718.74"/>
-<g id="a_edge18&#45;label"><a xlink:title="icm:Gnd&lt;black&gt;engine_bay_ground:Gnd">
-<text text-anchor="middle" x="5779.5" y="-3455.56" font-family="Times,serif" font-size="14.00">icm:Gnd&lt;black&gt;engine_bay_ground:Gnd</text>
 </a>
 </g>
 </g>

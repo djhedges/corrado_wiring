@@ -8,6 +8,7 @@
 # WBO2
 # EGT
 
+import os
 import pygraphviz as pgv
 
 
@@ -733,6 +734,12 @@ ClusterNodes(['icm', 'coil'], label='Coilpack')
 ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch'], 'Console')
 ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
+
+# Ensures any deleted nodes are removed and not lingering around.
+png_files = []
+for filename in os.listdir():
+  if 'corrado_wiring.png' in png_files and filename.endswith('.png'):
+   os.rename(filename, os.path.join('/tmp/', filename))
 
 G.layout(prog='dot')
 print('Rendering DOT')

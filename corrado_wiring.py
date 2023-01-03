@@ -628,12 +628,12 @@ AddPath((
   ('spal_fan_2', 'pos'),
 ), 'red')
 AddPath((
-  ('engine_ground', 'Gnd'),
+  ('engine_bay_ground', 'Gnd'),
   ('deutsch_fan_connector', 3),
   ('spal_fan_1', 'gnd'),
 ), 'black')
 AddPath((
-  ('engine_ground', 'Gnd'),
+  ('engine_bay_ground', 'Gnd'),
   ('deutsch_fan_connector', 4),
   ('spal_fan_2', 'gnd'),
 ), 'black')

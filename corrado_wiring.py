@@ -12,6 +12,7 @@ import pygraphviz as pgv
 
 
 class PerNodeGraphs(pgv.AGraph):
+  """Memorizes args for recreating per node graphs and images at the end."""
 
   def __init__(self, *args, **kwargs):
     super().__init__(*args, **kwargs)
@@ -189,6 +190,7 @@ Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
 Node('link_keypad', [1, 2, 3, 4])
 Node('engine_ground', ['Gnd'])
+Node('engine_bary_ground', ['Gnd'])
 
 Node('deutsch_ecu_connector', list(range(1,48)))
 Node('deutsch_pdm_connector', list(range(1,13)))
@@ -255,6 +257,10 @@ AddPath((
 AddPath((
   ('battery', 'neg'),
   ('engine_ground', 'Gnd'),
+), 'black')
+AddPath((
+  ('engine_ground', 'Gnd'),
+  ('engine_bay_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('kill_switch', 'starter'),
@@ -403,7 +409,7 @@ AddPath((
 ), 'red')
 AddPath((
   ('icm', 'Gnd'),
-  ('engine_ground', 'Gnd'),
+  ('engine_bay_ground', 'Gnd'),
 ), 'black')
 for i in range(1, 4):
   AddPathWithMap((

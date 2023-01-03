@@ -749,9 +749,9 @@ ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
 
 # Ensures any deleted nodes are removed and not lingering around.
-png_files = []
+cwd_files = os.listdir()
 for filename in os.listdir():
-  if 'corrado_wiring.py' in png_files and filename.endswith('.png'):
+  if 'corrado_wiring.py' in cwd_files and filename.endswith('.png'):
    os.rename(filename, os.path.join('/tmp/', filename))
 
 G.layout(prog='dot')

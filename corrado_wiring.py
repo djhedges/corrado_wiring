@@ -113,22 +113,6 @@ LINK_ECU_B_PIN_COLOR_MAP = {
 }
 
 
-class DeutschConnector(object):
-
-  def __init__(self):
-    self.index = 0
-
-  def GetFreePin(self):
-    self.index += 1
-    return self.index
-
-DCE = DeutschConnector()  # ECU
-DCP = DeutschConnector()  # PDM
-DCC = DeutschConnector()  # Console (keypad & gauges)
-DCC_PWR = DCC.GetFreePin()
-DCC_GND = DCC.GetFreePin()
-
-
 def BuildLabel(name, pin_names):
   label = f'{name} '
   for pin_name in pin_names:
@@ -139,6 +123,36 @@ def BuildLabel(name, pin_names):
 class Node(object):
   def __init__(self, name, pin_names):
     self.node = G.add_node(name, label=BuildLabel(name, pin_names), shape='record', style='bold')
+
+
+class DeutschConnector(object):
+
+  def __init__(self, name, total_pins, high_pins=None):
+    self.node = Node(name, list(range(1, total_pins + 1)))
+    self.index = 0
+    self.high_index = 0
+    self.high_pins = high_pins or []
+
+  def GetFreePin(self):
+    self.index += 1
+    while self.index in self.high_pins:
+      self.index += 1
+    return self.index
+
+  def GetHighPin(self):
+    self.high_index += 1
+    while self.high_index not in self.high_pins:
+      self.high_index += 1
+    return self.high_index
+
+
+# 47 pin connect https://www.ptmotorsport.com.au/product/deutsch-47-pin-bulk-head-connector-kit/
+# TODO: Finalize on connector choices.
+DCE = DeutschConnector('deutsch_ecu_connector', 47, high_pins=[1,2,3,4,34])  # ECU
+DCP = DeutschConnector('deutsch_pdm_connector', 47, high_pins=[1,2,3,4,34])  # PDM
+DCC = DeutschConnector('deutsch_console_connector', 24)  # Console (keypad & gauges)
+DCC_PWR = DCC.GetFreePin()
+DCC_GND = DCC.GetFreePin()
 
 
 def ParseColor(color):
@@ -192,10 +206,6 @@ Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
 Node('link_keypad', [1, 2, 3, 4])
 Node('engine_ground', ['Gnd'])
 Node('engine_bay_ground', ['Gnd'])
-
-Node('deutsch_ecu_connector', list(range(1,48)))
-Node('deutsch_pdm_connector', list(range(1,13)))
-Node('deutsch_console_connector', list(range(1,25)))
 
 Node('acc_ground', ['ground'])
 Node('traqmate', ['pos', 'gnd', 'rpm'])

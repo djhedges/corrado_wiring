@@ -221,7 +221,6 @@ Node('knock2', ['Sig+', 'Sig-', 'Scr'])
 
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
 Node('oil_temp_sensor', ['Sig+', 'Sig-'])
-Node('coolant_temp_sensor', ['Sig+', 'Sig-'])
 Node('coolant_low_sensor', ['Sig+', 'Sig-'])
 Node('oil_switch_0.25_bar', ['Switch'])
 Node('oil_switch_1.40_bar', ['Switch'])
@@ -422,18 +421,6 @@ for i in range(1, 4):
     ('icm', f'Transistor{i}coil'),
     ('coil', f'Coil{i}'),
   ), 'white')  # TODO: Decide on wire color.
-
-# Coolant Temp Sensor
-AddPathWithMap((
-  ('link_ecu_a', 'Temp1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('coolant_temp_sensor', 'Sig+'),
-))
-AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('coolant_temp_sensor', 'Sig-'),
-))
 
 # Coolant Low Sensor
 AddPathWithMap((

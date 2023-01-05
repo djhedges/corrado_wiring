@@ -663,13 +663,8 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
 AddPath((
   ('link_ecu_a', 'Temp1'),
   ('deutsch_console_connector', DCP.GetFreePin()),
-  ('aem_coolant_temp_sensor', 'Sig+'),
+  ('aem_coolant_temp_sensor', '5vOut'),
 ), 'white') # TODO: Decide on wire color.
-AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
-  ('deutsch_console_connector', DCP.GetFreePin()),
-  ('aem_coolant_temp_sensor', 'Sig-'),
-))
 
 # Traqmate
 # TODO: Figure out RPM signal source.

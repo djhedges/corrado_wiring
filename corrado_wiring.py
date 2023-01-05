@@ -148,9 +148,10 @@ class DeutschConnector(object):
 
 # 47 pin connect https://www.ptmotorsport.com.au/product/deutsch-47-pin-bulk-head-connector-kit/
 # TODO: Finalize on connector choices.
-DCE = DeutschConnector('deutsch_ecu_connector', 47, high_pins=[1,2,3,4,34])  # ECU
-DCP = DeutschConnector('deutsch_pdm_connector', 47, high_pins=[1,2,3,4,34])  # PDM
-DCC = DeutschConnector('deutsch_console_connector', 24)  # Console (keypad & gauges)
+DCA = DeutschConnector('deutsch_bulk_a_connector', 47, high_pins=[1,2,3,4,34])  # ECU A Loom
+DCB = DeutschConnector('deutsch_bulk_b_connector', 47, high_pins=[1,2,3,4,34])  # ECU B Loom
+DCP = DeutschConnector('deutsch_pdm_connector', 12)
+DCC = DeutschConnector('deutsch_console_connector', 16)  # Console (keypad & gauges)
 DCC_PWR = DCC.GetFreePin()
 DCC_GND = DCC.GetFreePin()
 
@@ -372,44 +373,45 @@ for i in range(1, 7):
     (f'injector{i}', 'Pos'),
   ), 'red')
   a_or_b = 'a' if i < 5 else 'b'
+  connector = DCA if i < 5 else DCB
   AddPathWithMap((
     (f'link_ecu_{a_or_b}', f'Inj{i}'),
-    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    (f'deutsch_bulk_{a_or_b}_connector', connector.GetFreePin()),
     (f'injector{i}', 'Gnd'),
   ))
 
 # Cam Sensor
-DCE_5v = DCE.GetFreePin()
+DCA_5v = DCA.GetFreePin()
 AddPathWithMap((
   ('link_ecu_a', 'Trig1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('cam_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', DCE_5v),
+  ('deutsch_bulk_a_connector', DCA_5v),
   ('cam_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('cam_sensor', 'Gnd'),
 ))
 
 # Crank Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Trig2'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('crank_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', DCE_5v),
+  ('deutsch_bulk_a_connector', DCA_5v),
   ('crank_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('crank_sensor', 'Gnd'),
 ))
 
@@ -425,7 +427,7 @@ AddPath((
 for i in range(1, 4):
   AddPathWithMap((
     ('link_ecu_a', f'Ign{i}'),
-    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    ('deutsch_bulk_a_connector', DCA.GetFreePin()),
     ('icm', f'Transistor{i}ecu'),
   ))
   AddPath((
@@ -436,29 +438,29 @@ for i in range(1, 4):
 # Coolant Low Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Aux4'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('coolant_low_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('coolant_low_sensor', 'Sig-'),
 ))
 
 # TPS
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('tps', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', DCE_5v),
+  ('deutsch_bulk_a_connector', DCA_5v),
   ('tps', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('tps', 'Gnd'),
 ))
 
@@ -467,65 +469,65 @@ AddPathWithMap((
   ('link_ecu_a', 'AnVolt2'),
   # TODO: Figure out where MAP Sensor will be mounted and
   # if this will still be connected to the deutsch connector.
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('map_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  ('deutsch_ecu_connector', DCE_5v),
+  ('deutsch_bulk_a_connector', DCA_5v),
   ('map_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('map_sensor', 'Gnd'),
 ))
 
 # Oil Pressure Switches
 AddPathWithMap((
   ('link_ecu_a', 'DI1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('oil_switch_0.25_bar', 'Switch'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'DI2'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('oil_switch_1.40_bar', 'Switch'),
 ))
 
 # ECU A Grounds
 AddPath((
   ('link_ecu_a', 'Ground1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_a', 'Ground2'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_a_connector', DCA.GetFreePin()),
   ('engine_ground', 'Gnd'),
 ), 'black')
 
 # Intake Temp Sensor
 AddPathWithMap((
   ('link_ecu_b', 'Temp3'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('intake_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('intake_temp_sensor', 'Sig-'),
 ))
 
 # Oil Temp Sensor
 AddPathWithMap((
   ('link_ecu_b', 'Temp4'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('oil_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('oil_temp_sensor', 'Sig-'),
 ))
 
@@ -533,29 +535,29 @@ AddPathWithMap((
 for i in range(1, 3):
   AddPathWithMap((
     ('link_ecu_b', f'Knock{i}'),
-    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    ('deutsch_bulk_b_connector', DCB.GetFreePin()),
     (f'knock{i}', 'Sig+'),
   ))
   AddPathWithMap((
     ('link_ecu_b', 'Shield/Gnd'),
-    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    ('deutsch_bulk_b_connector', DCB.GetFreePin()),
     (f'knock{i}', 'Sig-'),
   ))
   AddPathWithMap((
     ('link_ecu_b', 'Shield/Gnd'),
-    ('deutsch_ecu_connector', DCE.GetFreePin()),
+    ('deutsch_bulk_b_connector', DCB.GetFreePin()),
     (f'knock{i}', 'Scr'),
   ))
 
 # ECU B Grounds
 AddPath((
   ('link_ecu_b', 'Ground1'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_b', 'Ground2'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('engine_ground', 'Gnd'),
 ), 'black')
 
@@ -563,27 +565,27 @@ AddPath((
 # https://wbo2.com/cable/lsuconns.htm
 AddPathWithMap((
   ('link_ecu_b', 'MES'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('LSU4.2', 'CalR',),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'RE'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('LSU4.2', 'Vs'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'Heater'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('LSU4.2', 'H-'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'IPE'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('LSU4.2', 'Vs/Ip'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'APE'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('deutsch_bulk_b_connector', DCB.GetFreePin()),
   ('LSU4.2', 'Ip'),
 ))
 
@@ -656,7 +658,7 @@ AddPath((
 ), 'black')
 
 
-# Gauages
+# AEM Gauages
 for aem_gauge in AEM_GAUGES:
   AddPath((
     (aem_gauge, '12v'),
@@ -670,13 +672,13 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
   for sign in ('+', '-'):
     AddPath((
       (AEM_GAUGES[i], f'Sig{sign}'),
-      ('deutsch_console_connector', DCP.GetFreePin()),
-      ('deutsch_ecu_connector', DCE.GetFreePin()),
+      ('deutsch_console_connector', DCC.GetFreePin()),
+      ('deutsch_bulk_b_connector', DCB.GetFreePin()),
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
 AddPath((
   ('link_ecu_a', 'Temp1'),
-  ('deutsch_console_connector', DCP.GetFreePin()),
+  ('deutsch_console_connector', DCC.GetFreePin()),
   ('coolant_temp_gauge', '5vOut'),
 ), 'white') # TODO: Decide on wire color.
 

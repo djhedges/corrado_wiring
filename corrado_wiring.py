@@ -471,6 +471,18 @@ AddPathWithMap((
   ('map_sensor', 'Gnd'),
 ))
 
+# Oil Pressure Switches
+AddPathWithMap((
+  ('link_ecu_a', 'DI1'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('oil_switch_0.25_bar', 'Switch'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'DI2'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
+  ('oil_switch_1.40_bar', 'Switch'),
+))
+
 # ECU A Grounds
 AddPath((
   ('link_ecu_a', 'Ground1'),
@@ -524,18 +536,6 @@ for i in range(1, 3):
     ('deutsch_ecu_connector', DCE.GetFreePin()),
     (f'knock{i}', 'Scr'),
   ))
-
-# Oil Pressure Switches
-AddPathWithMap((
-  ('link_ecu_b', 'An Volt8'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('oil_switch_0.25_bar', 'Switch'),
-))
-AddPathWithMap((
-  ('link_ecu_b', 'An Volt9'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
-  ('oil_switch_1.40_bar', 'Switch'),
-))
 
 # ECU B Grounds
 AddPath((

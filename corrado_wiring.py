@@ -415,7 +415,7 @@ AddPath((
 for i in range(1, 4):
   AddPathWithMap((
     ('link_ecu_a', f'Ign{i}'),
-  ('deutsch_ecu_connector', DCE.GetFreePin()),
+    ('deutsch_ecu_connector', DCE.GetFreePin()),
     ('icm', f'Transistor{i}ecu'),
   ))
   AddPath((
@@ -553,22 +553,27 @@ AddPath((
 # https://wbo2.com/cable/lsuconns.htm
 AddPathWithMap((
   ('link_ecu_b', 'MES'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('LSU4.2', 'CalR',),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'RE'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('LSU4.2', 'Vs'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'Heater'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('LSU4.2', 'H-'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'IPE'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('LSU4.2', 'Vs/Ip'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'APE'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
   ('LSU4.2', 'Ip'),
 ))
 

@@ -415,6 +415,7 @@ AddPath((
 for i in range(1, 4):
   AddPathWithMap((
     ('link_ecu_a', f'Ign{i}'),
+  ('deutsch_ecu_connector', DCE.GetFreePin()),
     ('icm', f'Transistor{i}ecu'),
   ))
   AddPath((

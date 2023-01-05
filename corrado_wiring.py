@@ -659,6 +659,18 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
 
+# AEM Coolant Temp Sensor
+AddPath((
+  ('link_ecu_a', 'Temp1'),
+  ('deutsch_console_connector', DCP.GetFreePin()),
+  ('aem_coolant_temp_sensor', 'Sig+'),
+), 'white') # TODO: Decide on wire color.
+AddPathWithMap((
+  ('link_ecu_a', 'GndOut'),
+  ('deutsch_console_connector', DCP.GetFreePin()),
+  ('aem_coolant_temp_sensor', 'Sig-'),
+))
+
 # Traqmate
 # TODO: Figure out RPM signal source.
 AddPath((
@@ -729,6 +741,7 @@ AddPath((
 # /Labjack
 
 ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
+ClusterNodes(['razor_pdm', 'link_ecu_a', 'link_ecu_b'], 'Link ECU & PDM')
 ClusterNodes([f'injector{i}' for i in range(1, 7)], 'Injectors')
 ClusterNodes(['icm', 'coil'], label='Coilpack')
 ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch'], 'Console')

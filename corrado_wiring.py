@@ -731,13 +731,6 @@ AddPath((
   ('usb_hub', '-'),
 ), 'black')
 
-# Labjack
-AddPath((
-  ('coolant_temp_gauge', '5vOut'),
-  DCP.GetFreePin(),
-  ('labjack', 'fio0'),
-), color='white') # TODO: Decide on wire color.
-
 ## Brake Pressure Sensors
 AddPathWithMap((
   ('link_ecu_b', 'An Volt8'),
@@ -765,14 +758,20 @@ AddPathWithMap((
 ))
 ## /Brake Pressure Sensors
 
+# Labjack
+AddPath((
+  ('coolant_temp_gauge', '5vOut'),
+  DCC.GetFreePin(),
+  ('labjack', 'fio0'),
+), color='white') # TODO: Decide on wire color.
 AddPath((
   ('fuel_pressure_gauge', '5vOut'),
-  DCP.GetFreePin(),
+  DCC.GetFreePin(),
   ('labjack', 'fio6'),
 ), color='white') # TODO: Decide on wire color.
 AddPath((
   ('transmission_temp_gauge', '5vOut'),
-  DCP.GetFreePin(),
+  DCC.GetFreePin(),
   ('labjack', 'fio7'),
 ), color='white') # TODO: Decide on wire color.
 # /Labjack

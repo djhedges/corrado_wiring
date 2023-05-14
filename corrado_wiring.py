@@ -2,11 +2,18 @@
 
 # TODOs:
 # Oil pressure sensor
+# Oil pressure switches
 # Pi
 # Cameras
 # 4G Router
 # WBO2
 # EGT
+# Reverse?
+# Stater solenoid
+# Clutch switch?
+# Transponder 2 pin
+# Alternator to Starter (m8) (kill switch?)
+# Alternator one wire sense
 
 import os
 import pygraphviz as pgv

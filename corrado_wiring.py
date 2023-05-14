@@ -214,10 +214,13 @@ Node('razor_pdm', [
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
 Node('link_keypad', [1, 2, 3, 4])
+
+# Grounds
 Node('engine_ground', ['Gnd'])
 Node('engine_bay_ground', ['Gnd'])
-
 Node('acc_ground', ['ground'])
+Node('trunk_ground', ['ground'])
+
 Node('traqmate', ['pos', 'gnd', 'rpm'])
 Node('labjack', [
     'sgnd0', ' spc', ' sgnd1', ' vs0',
@@ -249,6 +252,7 @@ Node('idle_stablizer_valve', ['Pos', 'Gnd'])
 Node('vapor_purge_valve', ['Pos', 'Gnd'])
 Node('positive_crank_valve', ['Pos', 'Gnd'])
 
+Node('brake_lights', ['pos', 'gnd'])
 Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
 Node('aux_coolant_pump', ['Pos', 'Gnd'])
 
@@ -316,13 +320,27 @@ AddPath((
   ('ign_switch', '2'),
 ), 'blue')
 
+# Brake Lights
+AddPath((
+  ('battery', 'neg'),
+  ('trunk_ground', 'ground'),
+), 'black')
+AddPath((
+  ('brake_lights', 'pos'),
+  ('razor_pdm', 'ADIO8'),
+), 'red')
+AddPath((
+  ('trunk_ground', 'ground'),
+  ('brake_lights', 'gnd'),
+), 'black')
+
 # Fuel Pump
 AddPath((
   ('fuel_pump', 'pos'),
   ('razor_pdm', 'PWROUT1b'),
 ), 'red')
 AddPath((
-  ('battery', 'neg'),
+  ('trunk_ground', 'neg'),
   ('fuel_pump', 'gnd'),
 ), 'black')
 
@@ -721,30 +739,30 @@ AddPath((
 ), color='white') # TODO: Decide on wire color.
 
 ## Brake Pressure Sensors
-AddPath((
+AddPathWithMap((
+  ('link_ecu_b', 'An Volt8'),
   ('front_brake_pressure', 'Sig'),
-  ('labjack', 'fio2'),
-), color='white')
-AddPath((
+))
+AddPathWithMap((
+  ('link_ecu_b', 'An Volt9'),
   ('rear_brake_pressure', 'Sig'),
-  ('labjack', 'fio3'),
-), color='white')
-AddPath((
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
   ('front_brake_pressure', '5v'),
-  ('labjack', 'dac0'),
-), color='white')
-AddPath((
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
   ('rear_brake_pressure', '5v'),
-  ('labjack', 'dac0'),
-), color='white')
-AddPath((
+))
+AddPathWithMap((
+  ('link_ecu_a', 'Shield/Gnd'),
   ('front_brake_pressure', '0v'),
-  ('labjack', 'gnd3'),
-), color='white')
-AddPath((
+))
+AddPathWithMap((
+  ('link_ecu_a', 'Shield/Gnd'),
   ('rear_brake_pressure', '0v'),
-  ('labjack', 'gnd3'),
-), color='white')
+))
 ## /Brake Pressure Sensors
 
 AddPath((

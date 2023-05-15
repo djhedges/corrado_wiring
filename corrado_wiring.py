@@ -272,6 +272,7 @@ for i in range(1, 7):
 Node('icm', ['Transistor1ecu', 'Transistor2ecu', 'Transistor3ecu',
              'Transistor3coil', 'Gnd', 'Transistor2coil', 'Transistor1coil'])
 Node('coil', ['Coil3', 'Coil2', 'Coil1', 'Ubatt'])
+Node('wiper', ['high', 'low', 'park', 'gnd'])
 
 AddPath((
   ('battery', 'pos'),
@@ -460,6 +461,20 @@ for i in range(1, 4):
     ('icm', f'Transistor{i}coil'),
     ('coil', f'Coil{i}'),
   ), 'white')  # TODO: Decide on wire color.
+
+# Wiper Motor
+AddPath((
+  ('razor_pdm', 'ADIO6'),
+  ('wiper', 'high'),
+), 'red')
+AddPath((
+  ('razor_pdm', 'ADIO8'),
+  ('wiper', 'park'),
+), 'white')  # TODO: Decide on wire color.
+AddPath((
+  ('wiper', 'gnd'),
+  ('engine_bay_ground', 'Gnd'),
+), 'black')
 
 # Coolant Low Sensor
 AddPathWithMap((

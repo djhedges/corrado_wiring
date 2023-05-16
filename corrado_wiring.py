@@ -159,6 +159,7 @@ class DeutschConnector(object):
 DCA = DeutschConnector('deutsch_bulk_a_connector', 47, high_pins=[1,2,3,4,34])  # ECU A Loom
 DCB = DeutschConnector('deutsch_bulk_b_connector', 47, high_pins=[1,2,3,4,34])  # ECU B Loom
 DCP = DeutschConnector('deutsch_pdm_connector', 12)
+DCE = DeutschConnector('deutsch_engine_connector', 29)
 DCC = DeutschConnector('deutsch_console_connector', 16)  # Console (keypad & gauges)
 DCC_PWR = DCC.GetFreePin()
 DCC_GND = DCC.GetFreePin()
@@ -411,16 +412,19 @@ DCA_5v = DCA.GetFreePin()
 AddPathWithMap((
   ('link_ecu_a', 'Trig1'),
   DCA.GetFreePin(),
+  DCE.GetFreePin(),
   ('cam_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
   DCA_5v,
+  DCE.GetFreePin(),
   ('cam_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
   DCA.GetFreePin(),
+  DCE.GetFreePin(),
   ('cam_sensor', 'Gnd'),
 ))
 
@@ -428,16 +432,19 @@ AddPathWithMap((
 AddPathWithMap((
   ('link_ecu_a', 'Trig2'),
   DCA.GetFreePin(),
+  DCE.GetFreePin(),
   ('crank_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
   DCA_5v,
+  DCE.GetFreePin(),
   ('crank_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
   DCA.GetFreePin(),
+  DCE.GetFreePin(),
   ('crank_sensor', 'Gnd'),
 ))
 
@@ -491,16 +498,19 @@ AddPathWithMap((
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt1'),
   DCA.GetFreePin(),
+  DCE.GetFreePin(),
   ('tps', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
   DCA_5v,
+  DCE.GetFreePin(),
   ('tps', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
   DCA.GetFreePin(),
+  DCE.GetFreePin(),
   ('tps', 'Gnd'),
 ))
 
@@ -527,11 +537,13 @@ AddPathWithMap((
 AddPathWithMap((
   ('link_ecu_a', 'DI1'),
   DCA.GetFreePin(),
+  DCE.GetFreePin(),
   ('oil_switch_0.25_bar', 'Switch'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'DI2'),
   DCA.GetFreePin(),
+  DCE.GetFreePin(),
   ('oil_switch_1.40_bar', 'Switch'),
 ))
 
@@ -539,11 +551,13 @@ AddPathWithMap((
 AddPath((
   ('link_ecu_a', 'Ground1'),
   DCA.GetFreePin(),
+  DCE.GetFreePin(),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_a', 'Ground2'),
   DCA.GetFreePin(),
+  DCE.GetFreePin(),
   ('engine_ground', 'Gnd'),
 ), 'black')
 
@@ -551,11 +565,13 @@ AddPath((
 AddPathWithMap((
   ('link_ecu_b', 'Temp3'),
   DCB.GetFreePin(),
+  DCE.GetFreePin(),
   ('intake_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
   DCB.GetFreePin(),
+  DCE.GetFreePin(),
   ('intake_temp_sensor', 'Sig-'),
 ))
 
@@ -563,11 +579,13 @@ AddPathWithMap((
 AddPathWithMap((
   ('link_ecu_b', 'Temp4'),
   DCB.GetFreePin(),
+  DCE.GetFreePin(),
   ('oil_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
   DCB.GetFreePin(),
+  DCE.GetFreePin(),
   ('oil_temp_sensor', 'Sig-'),
 ))
 
@@ -576,16 +594,19 @@ for i in range(1, 3):
   AddPathWithMap((
     ('link_ecu_b', f'Knock{i}'),
     DCB.GetFreePin(),
+    DCE.GetFreePin(),
     (f'knock{i}', 'Sig+'),
   ))
   AddPathWithMap((
     ('link_ecu_b', 'Shield/Gnd'),
     DCB.GetFreePin(),
+    DCE.GetFreePin(),
     (f'knock{i}', 'Sig-'),
   ))
   AddPathWithMap((
     ('link_ecu_b', 'Shield/Gnd'),
     DCB.GetFreePin(),
+    DCE.GetFreePin(),
     (f'knock{i}', 'Scr'),
   ))
 
@@ -593,11 +614,13 @@ for i in range(1, 3):
 AddPath((
   ('link_ecu_b', 'Ground1'),
   DCB.GetFreePin(),
+  DCE.GetFreePin(),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_b', 'Ground2'),
   DCB.GetFreePin(),
+  DCE.GetFreePin(),
   ('engine_ground', 'Gnd'),
 ), 'black')
 
@@ -633,6 +656,7 @@ AddPathWithMap((
 AddPath((
   ('razor_pdm', 'ADIO2'),
   DCP.GetFreePin(),
+  DCE.GetFreePin(),
   ('idle_stablizer_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
 AddPath((
@@ -648,17 +672,19 @@ AddPath((
 ), 'red')  # TODO: Decide on color.
 AddPath((
   ('vapor_purge_valve', 'Gnd'),
-  ('engine_ground', 'Gnd'),
+  ('engine_bay_ground', 'Gnd'),
 ), 'black')
 
 # Aux Coolant Pump
 AddPath((
   ('razor_pdm', 'ADIO1'),
   DCP.GetFreePin(),
+  DCE.GetFreePin(),
   ('aux_coolant_pump', 'Pos'),
 ), 'red')
 AddPath((
   ('aux_coolant_pump', 'Gnd'),
+  DCE.GetFreePin(),
   ('engine_ground', 'Gnd'),
 ), 'black')
 
@@ -787,10 +813,11 @@ ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch'], 'Console')
 ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
 ClusterNodes([
+    'deutsch_engine_connector',
     'cam_sensor', 'crank_sensor', 'tps', 
     'oil_switch_0.25_bar',  'oil_switch_1.40_bar', 'oil_temp_sensor',
     'intake_temp_sensor', 'knock1', 'knock2', 'engine_ground',
-    'idle_stablizer_valve', 'vapor_purge_valve', 'aux_coolant_pump',
+    'idle_stablizer_valve', 'aux_coolant_pump',
     ] + [f'injector{i}' for i in range(1, 7)], 'Engine')
 
 # Ensures any deleted nodes are removed and not lingering around.

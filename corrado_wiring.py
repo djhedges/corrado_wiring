@@ -159,7 +159,7 @@ class DeutschConnector(object):
 DCA = DeutschConnector('deutsch_bulk_a_connector', 47, high_pins=[1,2,3,4,34])  # ECU A Loom
 DCB = DeutschConnector('deutsch_bulk_b_connector', 47, high_pins=[1,2,3,4,34])  # ECU B Loom
 DCP = DeutschConnector('deutsch_pdm_connector', 12)
-DCE = DeutschConnector('deutsch_engine_connector', 29)
+DCE = DeutschConnector('deutsch_engine_connector', 47)
 DCC = DeutschConnector('deutsch_console_connector', 16)  # Console (keypad & gauges)
 DCC_PWR = DCC.GetFreePin()
 DCC_GND = DCC.GetFreePin()
@@ -404,6 +404,7 @@ for i in range(1, 7):
   AddPathWithMap((
     (f'link_ecu_{a_or_b}', f'Inj{i}'),
     connector.GetFreePin(),
+    DCE.GetFreePin(),
     (f'injector{i}', 'Gnd'),
   ))
 
@@ -729,6 +730,7 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
       (AEM_GAUGES[i], f'Sig{sign}'),
       DCC.GetFreePin(),
       DCB.GetFreePin(),
+      DCE.GetFreePin(),
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
 AddPath((
@@ -807,10 +809,8 @@ AddPath((
 
 ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
 ClusterNodes(['razor_pdm', 'link_ecu_a', 'link_ecu_b'], 'Link ECU & PDM')
-ClusterNodes([f'injector{i}' for i in range(1, 7)], 'Injectors')
 ClusterNodes(['icm', 'coil'], label='Coilpack')
 ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch'], 'Console')
-ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
 ClusterNodes([
     'deutsch_engine_connector',
@@ -818,7 +818,7 @@ ClusterNodes([
     'oil_switch_0.25_bar',  'oil_switch_1.40_bar', 'oil_temp_sensor',
     'intake_temp_sensor', 'knock1', 'knock2', 'engine_ground',
     'idle_stablizer_valve', 'aux_coolant_pump',
-    ] + [f'injector{i}' for i in range(1, 7)], 'Engine')
+    ] + AEM_SENSORS + [f'injector{i}' for i in range(1, 7)], 'Engine')
 
 # Ensures any deleted nodes are removed and not lingering around.
 cwd_files = os.listdir()

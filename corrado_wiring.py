@@ -250,7 +250,6 @@ Node('oil_switch_1.40_bar', ['Switch'])
 
 Node('idle_stablizer_valve', ['Pos', 'Gnd'])
 Node('vapor_purge_valve', ['Pos', 'Gnd'])
-Node('positive_crank_valve', ['Pos', 'Gnd'])
 
 Node('brake_lights', ['pos', 'gnd'])
 Node('fuel_pump', ['pos', 'SendingA', 'SendingB', 'gnd'])
@@ -649,17 +648,6 @@ AddPath((
 ), 'red')  # TODO: Decide on color.
 AddPath((
   ('vapor_purge_valve', 'Gnd'),
-  ('engine_ground', 'Gnd'),
-), 'black')
-
-# PCV Valve
-AddPath((
-  ('razor_pdm', 'ADIO4'),
-  DCP.GetFreePin(),
-  ('positive_crank_valve', 'Pos'),
-), 'red')  # TODO: Decide on color.
-AddPath((
-  ('positive_crank_valve', 'Gnd'),
   ('engine_ground', 'Gnd'),
 ), 'black')
 

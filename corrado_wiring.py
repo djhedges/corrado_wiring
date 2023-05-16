@@ -786,6 +786,12 @@ ClusterNodes(['icm', 'coil'], label='Coilpack')
 ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch'], 'Console')
 ClusterNodes(AEM_SENSORS, 'AEM Sensors')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
+ClusterNodes([
+    'cam_sensor', 'crank_sensor', 'tps', 
+    'oil_switch_0.25_bar',  'oil_switch_1.40_bar', 'oil_temp_sensor',
+    'intake_temp_sensor', 'knock1', 'knock2', 'engine_ground',
+    'idle_stablizer_valve', 'vapor_purge_valve', 'aux_coolant_pump',
+    ] + [f'injector{i}' for i in range(1, 7)], 'Engine')
 
 # Ensures any deleted nodes are removed and not lingering around.
 cwd_files = os.listdir()

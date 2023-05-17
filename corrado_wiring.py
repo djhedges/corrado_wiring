@@ -215,7 +215,11 @@ Node('razor_pdm', [
 ])
 Node('link_ecu_a', LINK_ECU_A_PIN_COLOR_MAP.keys())
 Node('link_ecu_b', LINK_ECU_B_PIN_COLOR_MAP.keys())
-Node('link_keypad', [1, 2, 3, 4])
+Node('link_keypad', 
+     ['+12V',      # Pin1/Red
+      'Ground',    # Pin2/Black
+      'CAN Low',   # Pin3/Blue
+      'CAN High']) # Pin4/White
 
 # Grounds
 Node('engine_ground', ['Gnd'])
@@ -360,13 +364,13 @@ AddPathWithMap((
 AddPath((
   ('razor_pdm', 'ADIO6'),
   DCC_PWR,
-  ('link_keypad', '1'),
+  ('link_keypad', '+12V'),
 ), 'red')
 AddPath((
   ('battery', 'neg'),
   ('acc_ground', 'ground'),
   DCC_GND,
-  ('link_keypad', '2'),
+  ('link_keypad', 'Ground'),
 ), 'black')
 
 # CAN
@@ -379,12 +383,12 @@ AddPathWithMap((
   ('link_ecu_b', 'DI9/CAN2L'),
 ))
 AddPathWithMap((
-  ('link_keypad', '4'),
+  ('link_keypad', 'CAN High'),
   DCC.GetFreePin(),
   ('link_ecu_b', 'DI10/CAN2H'),
 ))
 AddPathWithMap((
-  ('link_keypad', '3'),
+  ('link_keypad', 'CAN Low'),
   DCC.GetFreePin(),
   ('link_ecu_b', 'DI9/CAN2L'),
 ))

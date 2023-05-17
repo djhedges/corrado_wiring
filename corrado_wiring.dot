@@ -22,7 +22,7 @@ graph "" {
 			style=bold,
 			width=1.2778];
 		link_keypad	[height=1.6111,
-			label="link_keypad | <1> 1 | <2> 2 | <3> 3 | <4> 4 ",
+			label="link_keypad | <+12V> +12V | <Ground> Ground | <CAN Low> CAN Low | <CAN High> CAN High ",
 			pos="1755.5,1069.5",
 			rects="1705,1104,1806,1127 1705,1081,1806,1104 1705,1058,1806,1081 1705,1035,1806,1058 1705,1012,1806,1035",
 			shape=record,
@@ -52,35 +52,6 @@ graph "" {
 			shape=record,
 			style=bold,
 			width=2.2778];
-	}
-	subgraph "cluster_Exit Speed" {
-		graph [bb="3596.5,3274.5,3691.5,4000.5",
-			color=grey,
-			label="Exit Speed",
-			lheight=0.21,
-			lp="3644,3989",
-			lwidth=1.10,
-			style=filled
-		];
-		labjack	[height=8,
-			label="labjack | <sgnd0> sgnd0 | < spc>  spc | < sgnd1>  sgnd1 | < vs0>  vs0 | <fio7> fio7 | < fio6>  fio6 | < gnd0>  gnd0 | < vs1>  vs1 | <\
-fio5> fio5 | < fio4>  fio4 | < gnd1>  gnd1 | < vs2>  vs2 | <vs3> vs3 | < gnd2>  gnd2 | < dac0>  dac0 | < dac1>  dac1 | <vs4> vs4 | < \
-gnd3>  gnd3 | < fio2>  fio2 | < fio3>  fio3 | <vs5> vs5 | < gnd4>  gnd4 | < fio0>  fio0 | < fio1>  fio1 ",
-			pos="3643.5,3681.5",
-			rects="3610,3946,3677,3969 3610,3923,3677,3946 3610,3900,3677,3923 3610,3877,3677,3900 3610,3854,3677,3877 3610,3831,3677,3854 3610,3808,\
-3677,3831 3610,3785,3677,3808 3610,3762,3677,3785 3610,3739,3677,3762 3610,3716,3677,3739 3610,3693,3677,3716 3610,3670,3677,3693 \
-3610,3647,3677,3670 3610,3624,3677,3647 3610,3601,3677,3624 3610,3578,3677,3601 3610,3555,3677,3578 3610,3532,3677,3555 3610,3509,\
-3677,3532 3610,3486,3677,3509 3610,3463,3677,3486 3610,3440,3677,3463 3610,3417,3677,3440 3610,3394,3677,3417",
-			shape=record,
-			style=bold,
-			width=0.93056];
-		usb_hub	[height=1.2917,
-			label="usb_hub | <+> + | <_> _ | <-> - ",
-			pos="3643.5,3328.5",
-			rects="3605.5,3351.5,3681.5,3374.5 3605.5,3328.5,3681.5,3351.5 3605.5,3305.5,3681.5,3328.5 3605.5,3282.5,3681.5,3305.5",
-			shape=record,
-			style=bold,
-			width=1.0556];
 	}
 	subgraph cluster_Coilpack {
 		graph [bb="4541.5,1222.5,5606,1445.5",
@@ -125,6 +96,35 @@ Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil
 			lp="5038.5,1292",
 			penwidth=2.5,
 			pos="4674.5,1264.5 5058.9,1264.5 5154.6,1288.5 5539,1288.5"];
+	}
+	subgraph "cluster_Exit Speed" {
+		graph [bb="3596.5,3274.5,3691.5,4000.5",
+			color=grey,
+			label="Exit Speed",
+			lheight=0.21,
+			lp="3644,3989",
+			lwidth=1.10,
+			style=filled
+		];
+		labjack	[height=8,
+			label="labjack | <sgnd0> sgnd0 | < spc>  spc | < sgnd1>  sgnd1 | < vs0>  vs0 | <fio7> fio7 | < fio6>  fio6 | < gnd0>  gnd0 | < vs1>  vs1 | <\
+fio5> fio5 | < fio4>  fio4 | < gnd1>  gnd1 | < vs2>  vs2 | <vs3> vs3 | < gnd2>  gnd2 | < dac0>  dac0 | < dac1>  dac1 | <vs4> vs4 | < \
+gnd3>  gnd3 | < fio2>  fio2 | < fio3>  fio3 | <vs5> vs5 | < gnd4>  gnd4 | < fio0>  fio0 | < fio1>  fio1 ",
+			pos="3643.5,3681.5",
+			rects="3610,3946,3677,3969 3610,3923,3677,3946 3610,3900,3677,3923 3610,3877,3677,3900 3610,3854,3677,3877 3610,3831,3677,3854 3610,3808,\
+3677,3831 3610,3785,3677,3808 3610,3762,3677,3785 3610,3739,3677,3762 3610,3716,3677,3739 3610,3693,3677,3716 3610,3670,3677,3693 \
+3610,3647,3677,3670 3610,3624,3677,3647 3610,3601,3677,3624 3610,3578,3677,3601 3610,3555,3677,3578 3610,3532,3677,3555 3610,3509,\
+3677,3532 3610,3486,3677,3509 3610,3463,3677,3486 3610,3440,3677,3463 3610,3417,3677,3440 3610,3394,3677,3417",
+			shape=record,
+			style=bold,
+			width=0.93056];
+		usb_hub	[height=1.2917,
+			label="usb_hub | <+> + | <_> _ | <-> - ",
+			pos="3643.5,3328.5",
+			rects="3605.5,3351.5,3681.5,3374.5 3605.5,3328.5,3681.5,3351.5 3605.5,3305.5,3681.5,3328.5 3605.5,3282.5,3681.5,3305.5",
+			shape=record,
+			style=bold,
+			width=1.0556];
 	}
 	subgraph "cluster_Link ECU & PDM" {
 		graph [bb="1683.5,1411.5,2748,3080.5",
@@ -1295,16 +1295,16 @@ APE> APE | <AN Volt5> AN Volt5 | <Ground2> Ground2 ",
 		lp="6016.5,757.02",
 		penwidth=2.5,
 		pos="4674.5,1287.5 4721.8,1287.5 4724.6,1255.5 4768,1236.5 5434,945.62 5591.7,689.15 6318,715.52"];
-	link_keypad:4 -- deutsch_console_connector:4	[color="black:grey:violet:grey:black",
-		label="link_keypad:4<grey:violet>deutsch_console_connector:4",
-		labeltooltip="link_keypad:4<grey:violet>deutsch_console_connector:4",
+	link_keypad:"CAN High" -- deutsch_console_connector:4	[color="black:grey:violet:grey:black",
+		label="link_keypad:CAN High<grey:violet>deutsch_console_connector:4",
+		labeltooltip="link_keypad:CAN High<grey:violet>deutsch_console_connector:4",
 		lp="2227,954.02",
 		penwidth=2.5,
 		pos="1807.5,1023.5 1856.6,1023.5 1872.8,1026 1916,1002.5 1946.4,986.02 1938.2,960.04 1970,946.52 2022.6,924.19 2430.7,925.97 2484,946.52 \
 2534.6,966.05 2520.2,1028.5 2574.5,1028.5"];
-	link_keypad:3 -- deutsch_console_connector:5	[color="black:grey:white:grey:black",
-		label="link_keypad:3<grey:white>deutsch_console_connector:5",
-		labeltooltip="link_keypad:3<grey:white>deutsch_console_connector:5",
+	link_keypad:"CAN Low" -- deutsch_console_connector:5	[color="black:grey:white:grey:black",
+		label="link_keypad:CAN Low<grey:white>deutsch_console_connector:5",
+		labeltooltip="link_keypad:CAN Low<grey:white>deutsch_console_connector:5",
 		lp="2227,874.02",
 		penwidth=2.5,
 		pos="1807.5,1046.5 1859.5,1046.5 1879.3,1039.5 1916,1002.5 1961.8,956.37 1916.2,903.05 1970,866.52 1993.6,850.48 2458.9,852.91 2484,866.52 \
@@ -1581,15 +1581,15 @@ APE> APE | <AN Volt5> AN Volt5 | <Ground2> Ground2 ",
 		penwidth=2.5,
 		pos="2574.5,1051.5 2469.2,1051.5 2571.5,891.07 2484,832.52 2436.5,800.77 2020.3,805.43 1970,832.52 1931.6,853.22 1952.4,890.4 1916,914.52 \
 1873.2,942.88 1853.8,935.52 1802.5,935.52"];
-	deutsch_console_connector:1 -- link_keypad:1	[color="black:red:black",
-		label="deutsch_console_connector:1<red>link_keypad:1",
-		labeltooltip="deutsch_console_connector:1<red>link_keypad:1",
+	deutsch_console_connector:1 -- link_keypad:"+12V"	[color="black:red:black",
+		label="deutsch_console_connector:1<red>link_keypad:+12V",
+		labeltooltip="deutsch_console_connector:1<red>link_keypad:+12V",
 		lp="2227,1134",
 		penwidth=2.5,
 		pos="2574.5,1097.5 2533.7,1097.5 2524.7,1110 2484,1113.5 2256.4,1133.5 2198,1128.2 1970,1113.5 1897.3,1108.8 1880.3,1092.5 1807.5,1092.5"];
-	deutsch_console_connector:2 -- link_keypad:2	[color="black:black:black",
-		label="deutsch_console_connector:2<black>link_keypad:2",
-		labeltooltip="deutsch_console_connector:2<black>link_keypad:2",
+	deutsch_console_connector:2 -- link_keypad:Ground	[color="black:black:black",
+		label="deutsch_console_connector:2<black>link_keypad:Ground",
+		labeltooltip="deutsch_console_connector:2<black>link_keypad:Ground",
 		lp="2227,1064",
 		penwidth=2.5,
 		pos="2574.5,1074.5 2533.5,1074.5 2524.8,1060.5 2484,1056.5 2256.7,1034.1 2198.3,1047.4 1970,1056.5 1897.6,1059.4 1880,1069.5 1807.5,1069.5"];

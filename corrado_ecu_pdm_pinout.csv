@@ -57,16 +57,20 @@ link_ecu_b:Temp3,intake_temp_sensor:Sig+
 link_ecu_b:Temp4,oil_temp_sensor:Sig+
 razor_pdm:ADIO1,aux_coolant_pump:Pos
 razor_pdm:ADIO2,idle_stablizer_valve:Pos
+razor_pdm:ADIO3,brake_lights:pos
 razor_pdm:ADIO5,vapor_purge_valve:Pos
-razor_pdm:ADIO6,wiper:high
+razor_pdm:ADIO6,traqmate:pos
 razor_pdm:ADIO7,link_keypad:1
-razor_pdm:ADIO7,traqmate:pos
 razor_pdm:ADIO7,usb_hub:+
-razor_pdm:ADIO8,brake_lights:pos
+razor_pdm:ADIO7,wiper:high
 razor_pdm:ADIO8,wiper:park
+razor_pdm:CANH,link_ecu_b:DI10/CAN2H
+razor_pdm:CANL,link_ecu_b:DI9/CAN2L
 razor_pdm:IGNSW,ign_switch:2
 razor_pdm:PWROUT1a,deutsch_pdm_connector:2
 razor_pdm:PWROUT1b,fuel_pump:pos
+razor_pdm:PWROUT2a,link_ecu_a:+14V
+razor_pdm:PWROUT2b,link_ecu_b:+14V Aux9/10
 razor_pdm:PWROUT3a,coil:Ubatt
 razor_pdm:PWROUT4a,spal_fan_1:pos
 razor_pdm:PWROUT4b,spal_fan_2:pos

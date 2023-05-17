@@ -330,7 +330,7 @@ AddPath((
 ), 'black')
 AddPath((
   ('brake_lights', 'pos'),
-  ('razor_pdm', 'ADIO8'),
+  ('razor_pdm', 'ADIO3'),
 ), 'red')
 AddPath((
   ('trunk_ground', 'ground'),
@@ -473,7 +473,7 @@ for i in range(1, 4):
 
 # Wiper Motor
 AddPath((
-  ('razor_pdm', 'ADIO6'),
+  ('razor_pdm', 'ADIO7'),
   ('wiper', 'high'),
 ), 'red')
 AddPath((
@@ -744,7 +744,7 @@ AddPath((
 # Traqmate
 # TODO: Figure out RPM signal source.
 AddPath((
-  ('razor_pdm', 'ADIO7'),
+  ('razor_pdm', 'ADIO6'),
   ('traqmate', 'pos'),
 ), 'red')
 AddPath((
@@ -838,10 +838,15 @@ G.draw('corrado_wiring.svg')
 print('Writing corrado_ecu_pdm_pinout.csv')
 with open('corrado_ecu_pdm_pinout.csv', 'w', newline='') as csv_file:
   writer = csv.writer(csv_file)
+  dupe_rows = []
   for i, row in enumerate(CSV_ROWS):
     if 'link_ecu' in row[1] or 'razor_pdm' in row[1]:
       CSV_ROWS[i] = (row[1], row[0])  # Swap so ECU/PDM is first.
-  for row in sorted(CSV_ROWS):
+    if (('link_ecu' in row[0] or 'link_ecu' in row[1]) and 
+        ('razor_pdm' in row[0] or 'razor_pdm' in row[1]) and
+        row not in CSV_ROWS):
+      dupe_rows.append(row)  # Duplicate row to provide a clear indication of used pins in first column.
+  for row in sorted(CSV_ROWS + dupe_rows):
     if 'link_ecu' in row[0] or 'razor_pdm' in row[0]: # Filter on ECU/PDM.
       writer.writerow(row)
 

@@ -329,7 +329,7 @@ AddPath((
 ), 'black')
 AddPath((
   ('brake_lights', 'pos'),
-  ('razor_pdm', 'ADIO3'),
+  ('razor_pdm', 'ADIO1'),
 ), 'red')
 AddPath((
   ('trunk_ground', 'ground'),
@@ -358,7 +358,7 @@ AddPathWithMap((
 
 # Keypad
 AddPath((
-  ('razor_pdm', 'ADIO7'),
+  ('razor_pdm', 'ADIO6'),
   DCC_PWR,
   ('link_keypad', '1'),
 ), 'red')
@@ -668,7 +668,7 @@ AddPath((
 
 # Purge Valve
 AddPath((
-  ('razor_pdm', 'ADIO5'),
+  ('razor_pdm', 'ADIO3'),
   DCP.GetFreePin(),
   ('vapor_purge_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
@@ -679,7 +679,7 @@ AddPath((
 
 # Aux Coolant Pump
 AddPath((
-  ('razor_pdm', 'ADIO1'),
+  ('razor_pdm', 'ADIO5'),
   DCP.GetFreePin(),
   DCE.GetFreePin(),
   ('aux_coolant_pump', 'Pos'),
@@ -754,7 +754,7 @@ AddPath((
 
 # USB Hub
 AddPath((
-  ('razor_pdm', 'ADIO7'),
+  ('razor_pdm', 'ADIO6'),
   ('usb_hub', '+'),
 ), 'red')
 AddPath((

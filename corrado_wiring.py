@@ -166,7 +166,6 @@ DCC_PWR = DCC.GetFreePin()
 DCC_GND = DCC.GetFreePin()
 DCF = DeutschConnector('deutsch_fan_connector', 4)
 
-
 def ParseColor(color):
   if ':' in color:
     color += ':' + color.split(':')[0]
@@ -846,6 +845,8 @@ with open('corrado_ecu_pdm_pinout.csv', 'w', newline='') as csv_file:
         ('razor_pdm' in row[0] or 'razor_pdm' in row[1]) and
         row not in CSV_ROWS):
       dupe_rows.append(row)  # Duplicate row to provide a clear indication of used pins in first column.
+    if row[1] == ':'.join(inj_pwr_pin):
+      CSV_ROWS[i] = (row[0], 'injectors:Pos')
   for row in sorted(CSV_ROWS + dupe_rows):
     if 'link_ecu' in row[0] or 'razor_pdm' in row[0]: # Filter on ECU/PDM.
       writer.writerow(row)

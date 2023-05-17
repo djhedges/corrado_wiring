@@ -14,24 +14,24 @@
 <text text-anchor="middle" x="1747.5" y="-1365.79" font-family="Times,serif" font-size="14.00">Console</text>
 </g>
 <g id="clust2" class="cluster">
-<title>cluster_Coilpack</title>
-<polygon fill="grey" stroke="grey" points="4533.5,-1216.03 4533.5,-1438.99 5598,-1438.99 5598,-1216.03 4533.5,-1216.03"/>
-<text text-anchor="middle" x="5065.8" y="-1423.79" font-family="Times,serif" font-size="14.00">Coilpack</text>
-</g>
-<g id="clust3" class="cluster">
-<title>cluster_Engine</title>
-<polygon fill="grey" stroke="grey" points="4493,-1476.99 4493,-3583.99 6380,-3583.99 6380,-1476.99 4493,-1476.99"/>
-<text text-anchor="middle" x="5436.5" y="-3568.79" font-family="Times,serif" font-size="14.00">Engine</text>
-</g>
-<g id="clust4" class="cluster">
 <title>cluster_Exit Speed</title>
 <polygon fill="grey" stroke="grey" points="3588.5,-3267.99 3588.5,-3993.99 3683.5,-3993.99 3683.5,-3267.99 3588.5,-3267.99"/>
 <text text-anchor="middle" x="3636" y="-3978.79" font-family="Times,serif" font-size="14.00">Exit Speed</text>
 </g>
-<g id="clust5" class="cluster">
+<g id="clust3" class="cluster">
+<title>cluster_Coilpack</title>
+<polygon fill="grey" stroke="grey" points="4533.5,-1216.03 4533.5,-1438.99 5598,-1438.99 5598,-1216.03 4533.5,-1216.03"/>
+<text text-anchor="middle" x="5065.8" y="-1423.79" font-family="Times,serif" font-size="14.00">Coilpack</text>
+</g>
+<g id="clust4" class="cluster">
 <title>cluster_Link ECU &amp; PDM</title>
 <polygon fill="grey" stroke="grey" points="1675.5,-1413.99 1675.5,-3082.99 2740,-3082.99 2740,-1413.99 1675.5,-1413.99"/>
 <text text-anchor="middle" x="2207.8" y="-3067.79" font-family="Times,serif" font-size="14.00">Link ECU &amp; PDM</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_Engine</title>
+<polygon fill="grey" stroke="grey" points="4493,-1476.99 4493,-3583.99 6380,-3583.99 6380,-1476.99 4493,-1476.99"/>
+<text text-anchor="middle" x="5436.5" y="-3568.79" font-family="Times,serif" font-size="14.00">Engine</text>
 </g>
 <g id="clust6" class="cluster">
 <title>cluster_Kill Switch</title>
@@ -345,8 +345,74 @@
 </a>
 </g>
 </g>
-<!-- icm -->
+<!-- labjack -->
 <g id="node6" class="node">
+<title>labjack</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="3602,-3386.99 3602,-3962.99 3669,-3962.99 3669,-3386.99 3602,-3386.99"/>
+<text text-anchor="middle" x="3635.5" y="-3947.79" font-family="Times,serif" font-size="14.00">labjack</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3939.99 3669,-3939.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3924.79" font-family="Times,serif" font-size="14.00">sgnd0</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3916.99 3669,-3916.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3901.79" font-family="Times,serif" font-size="14.00">spc</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3893.99 3669,-3893.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3878.79" font-family="Times,serif" font-size="14.00">sgnd1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3870.99 3669,-3870.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3855.79" font-family="Times,serif" font-size="14.00">vs0</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3847.99 3669,-3847.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3832.79" font-family="Times,serif" font-size="14.00">fio7</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3824.99 3669,-3824.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3809.79" font-family="Times,serif" font-size="14.00">fio6</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3801.99 3669,-3801.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3786.79" font-family="Times,serif" font-size="14.00">gnd0</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3778.99 3669,-3778.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3763.79" font-family="Times,serif" font-size="14.00">vs1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3755.99 3669,-3755.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3740.79" font-family="Times,serif" font-size="14.00">fio5</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3732.99 3669,-3732.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3717.79" font-family="Times,serif" font-size="14.00">fio4</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3709.99 3669,-3709.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3694.79" font-family="Times,serif" font-size="14.00">gnd1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3686.99 3669,-3686.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3671.79" font-family="Times,serif" font-size="14.00">vs2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3663.99 3669,-3663.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3648.79" font-family="Times,serif" font-size="14.00">vs3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3640.99 3669,-3640.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3625.79" font-family="Times,serif" font-size="14.00">gnd2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3617.99 3669,-3617.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3602.79" font-family="Times,serif" font-size="14.00">dac0</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3594.99 3669,-3594.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3579.79" font-family="Times,serif" font-size="14.00">dac1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3571.99 3669,-3571.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3556.79" font-family="Times,serif" font-size="14.00">vs4</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3548.99 3669,-3548.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3533.79" font-family="Times,serif" font-size="14.00">gnd3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3525.99 3669,-3525.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3510.79" font-family="Times,serif" font-size="14.00">fio2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3502.99 3669,-3502.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3487.79" font-family="Times,serif" font-size="14.00">fio3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3479.99 3669,-3479.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3464.79" font-family="Times,serif" font-size="14.00">vs5</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3456.99 3669,-3456.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3441.79" font-family="Times,serif" font-size="14.00">gnd4</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3433.99 3669,-3433.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3418.79" font-family="Times,serif" font-size="14.00">fio0</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3410.99 3669,-3410.99 "/>
+<text text-anchor="middle" x="3635.5" y="-3395.29" font-family="Times,serif" font-size="14.00">fio1</text>
+</g>
+<!-- usb_hub -->
+<g id="node7" class="node">
+<title>usb_hub</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="3597.5,-3275.49 3597.5,-3368.49 3673.5,-3368.49 3673.5,-3275.49 3597.5,-3275.49"/>
+<text text-anchor="middle" x="3635.5" y="-3353.29" font-family="Times,serif" font-size="14.00">usb_hub</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3597.5,-3345.49 3673.5,-3345.49 "/>
+<text text-anchor="middle" x="3635.5" y="-3330.29" font-family="Times,serif" font-size="14.00">+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3597.5,-3322.49 3673.5,-3322.49 "/>
+<text text-anchor="middle" x="3635.5" y="-3307.29" font-family="Times,serif" font-size="14.00">_</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="3597.5,-3299.49 3673.5,-3299.49 "/>
+<text text-anchor="middle" x="3635.5" y="-3283.79" font-family="Times,serif" font-size="14.00">&#45;</text>
+</g>
+<!-- icm -->
+<g id="node8" class="node">
 <title>icm</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="4541.5,-1223.49 4541.5,-1408.49 4665.5,-1408.49 4665.5,-1223.49 4541.5,-1223.49"/>
 <text text-anchor="middle" x="4603.5" y="-1393.29" font-family="Times,serif" font-size="14.00">icm</text>
@@ -366,7 +432,7 @@
 <text text-anchor="middle" x="4603.5" y="-1231.79" font-family="Times,serif" font-size="14.00">Transistor1coil</text>
 </g>
 <!-- coil -->
-<g id="node7" class="node">
+<g id="node9" class="node">
 <title>coil</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="5532,-1223.99 5532,-1339.99 5590,-1339.99 5590,-1223.99 5532,-1223.99"/>
 <text text-anchor="middle" x="5561" y="-1324.79" font-family="Times,serif" font-size="14.00">coil</text>
@@ -431,890 +497,8 @@
 </a>
 </g>
 </g>
-<!-- deutsch_engine_connector -->
-<g id="node8" class="node">
-<title>deutsch_engine_connector</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="4501,-1748.49 4501,-2853.49 4706,-2853.49 4706,-1748.49 4501,-1748.49"/>
-<text text-anchor="middle" x="4603.5" y="-2838.29" font-family="Times,serif" font-size="14.00">deutsch_engine_connector</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2830.49 4706,-2830.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2815.29" font-family="Times,serif" font-size="14.00">1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2807.49 4706,-2807.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2792.29" font-family="Times,serif" font-size="14.00">2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2784.49 4706,-2784.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2769.29" font-family="Times,serif" font-size="14.00">3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2761.49 4706,-2761.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2746.29" font-family="Times,serif" font-size="14.00">4</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2738.49 4706,-2738.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2723.29" font-family="Times,serif" font-size="14.00">5</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2715.49 4706,-2715.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2700.29" font-family="Times,serif" font-size="14.00">6</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2692.49 4706,-2692.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2677.29" font-family="Times,serif" font-size="14.00">7</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2669.49 4706,-2669.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2654.29" font-family="Times,serif" font-size="14.00">8</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2646.49 4706,-2646.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2631.29" font-family="Times,serif" font-size="14.00">9</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2623.49 4706,-2623.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2608.29" font-family="Times,serif" font-size="14.00">10</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2600.49 4706,-2600.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2585.29" font-family="Times,serif" font-size="14.00">11</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2577.49 4706,-2577.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2562.29" font-family="Times,serif" font-size="14.00">12</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2554.49 4706,-2554.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2539.29" font-family="Times,serif" font-size="14.00">13</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2531.49 4706,-2531.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2516.29" font-family="Times,serif" font-size="14.00">14</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2508.49 4706,-2508.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2493.29" font-family="Times,serif" font-size="14.00">15</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2485.49 4706,-2485.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2470.29" font-family="Times,serif" font-size="14.00">16</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2462.49 4706,-2462.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2447.29" font-family="Times,serif" font-size="14.00">17</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2439.49 4706,-2439.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2424.29" font-family="Times,serif" font-size="14.00">18</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2416.49 4706,-2416.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2401.29" font-family="Times,serif" font-size="14.00">19</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2393.49 4706,-2393.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2378.29" font-family="Times,serif" font-size="14.00">20</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2370.49 4706,-2370.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2355.29" font-family="Times,serif" font-size="14.00">21</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2347.49 4706,-2347.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2332.29" font-family="Times,serif" font-size="14.00">22</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2324.49 4706,-2324.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2309.29" font-family="Times,serif" font-size="14.00">23</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2301.49 4706,-2301.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2286.29" font-family="Times,serif" font-size="14.00">24</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2278.49 4706,-2278.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2263.29" font-family="Times,serif" font-size="14.00">25</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2255.49 4706,-2255.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2240.29" font-family="Times,serif" font-size="14.00">26</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2232.49 4706,-2232.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2217.29" font-family="Times,serif" font-size="14.00">27</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2209.49 4706,-2209.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2194.29" font-family="Times,serif" font-size="14.00">28</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2186.49 4706,-2186.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2171.29" font-family="Times,serif" font-size="14.00">29</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2163.49 4706,-2163.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2148.29" font-family="Times,serif" font-size="14.00">30</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2140.49 4706,-2140.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2125.29" font-family="Times,serif" font-size="14.00">31</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2117.49 4706,-2117.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2102.29" font-family="Times,serif" font-size="14.00">32</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2094.49 4706,-2094.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2079.29" font-family="Times,serif" font-size="14.00">33</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2071.49 4706,-2071.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2056.29" font-family="Times,serif" font-size="14.00">34</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2048.49 4706,-2048.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2033.29" font-family="Times,serif" font-size="14.00">35</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2025.49 4706,-2025.49 "/>
-<text text-anchor="middle" x="4603.5" y="-2010.29" font-family="Times,serif" font-size="14.00">36</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2002.49 4706,-2002.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1987.29" font-family="Times,serif" font-size="14.00">37</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1979.49 4706,-1979.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1964.29" font-family="Times,serif" font-size="14.00">38</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1956.49 4706,-1956.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1941.29" font-family="Times,serif" font-size="14.00">39</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1933.49 4706,-1933.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1918.29" font-family="Times,serif" font-size="14.00">40</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1910.49 4706,-1910.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1895.29" font-family="Times,serif" font-size="14.00">41</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1887.49 4706,-1887.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1872.29" font-family="Times,serif" font-size="14.00">42</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1864.49 4706,-1864.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1849.29" font-family="Times,serif" font-size="14.00">43</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1841.49 4706,-1841.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1826.29" font-family="Times,serif" font-size="14.00">44</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1818.49 4706,-1818.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1803.29" font-family="Times,serif" font-size="14.00">45</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1795.49 4706,-1795.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1780.29" font-family="Times,serif" font-size="14.00">46</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1772.49 4706,-1772.49 "/>
-<text text-anchor="middle" x="4603.5" y="-1756.79" font-family="Times,serif" font-size="14.00">47</text>
-</g>
-<!-- engine_ground -->
-<g id="node9" class="node">
-<title>engine_ground</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="6250,-1996.49 6250,-2043.49 6372,-2043.49 6372,-1996.49 6250,-1996.49"/>
-<text text-anchor="middle" x="6311" y="-2028.29" font-family="Times,serif" font-size="14.00">engine_ground</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="6250,-2020.49 6372,-2020.49 "/>
-<text text-anchor="middle" x="6311" y="-2004.79" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;engine_ground -->
-<g id="edge4" class="edge">
-<title>deutsch_engine_connector:34&#45;&#45;engine_ground:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2056.99C4834.28,-2060.29 4658.78,-1856.39 4758.72,-1770.45 4773.3,-1758.89 5992.4,-1756.49 6008.48,-1765.25"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2058.99C4835.8,-2058.99 4660.3,-1855.09 4760,-1771.99 4773.3,-1760.89 5992.4,-1758.49 6007.5,-1766.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2060.99C4837.32,-2057.69 4661.82,-1853.79 4761.28,-1773.53 4773.3,-1762.89 5992.4,-1760.49 6006.52,-1768.73"/>
-<g id="a_edge4&#45;label"><a xlink:title="deutsch_engine_connector:34&lt;black&gt;engine_ground:Gnd">
-<text text-anchor="middle" x="5561" y="-1765.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:34&lt;black&gt;engine_ground:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;engine_ground -->
-<g id="edge5" class="edge">
-<title>deutsch_engine_connector:18&#45;&#45;engine_ground:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2425.99C4747.86,-2428.74 4726.26,-2482.44 4760.92,-2498.21 4859.51,-2549.29 5663.81,-2555.19 5766.23,-2512.14 5905.6,-2455.91 5862.3,-2322.21 6006.82,-2268.11"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2427.99C4746,-2427.99 4724.4,-2481.69 4760,-2499.99 4859.5,-2551.29 5663.8,-2557.19 5767,-2513.99 5907.5,-2455.29 5864.2,-2321.59 6007.5,-2269.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2429.99C4744.14,-2427.24 4722.54,-2480.94 4759.08,-2501.77 4859.49,-2553.29 5663.79,-2559.19 5767.77,-2515.84 5909.4,-2454.67 5866.1,-2320.97 6008.18,-2271.87"/>
-<g id="a_edge5&#45;label"><a xlink:title="deutsch_engine_connector:18&lt;black&gt;engine_ground:Gnd">
-<text text-anchor="middle" x="5561" y="-2545.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:18&lt;black&gt;engine_ground:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;engine_ground -->
-<g id="edge6" class="edge">
-<title>deutsch_engine_connector:19&#45;&#45;engine_ground:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2402.99C4742.22,-2405.54 4730.42,-2447.14 4760.79,-2458.15 4862.9,-2501.99 5661.7,-2503.79 5766.32,-2466.11 5895.34,-2421.67 5875.24,-2317.17 6006.82,-2268.11"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2404.99C4740.3,-2404.99 4728.5,-2446.59 4760,-2459.99 4862.9,-2503.99 5661.7,-2505.79 5767,-2467.99 5897.3,-2421.29 5877.2,-2316.79 6007.5,-2269.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2406.99C4738.38,-2404.44 4726.58,-2446.04 4759.21,-2461.83 4862.9,-2505.99 5661.7,-2507.79 5767.68,-2469.87 5899.26,-2420.91 5879.16,-2316.41 6008.18,-2271.87"/>
-<g id="a_edge6&#45;label"><a xlink:title="deutsch_engine_connector:19&lt;black&gt;engine_ground:Gnd">
-<text text-anchor="middle" x="5561" y="-2497.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:19&lt;black&gt;engine_ground:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;engine_ground -->
-<g id="edge7" class="edge">
-<title>deutsch_engine_connector:30&#45;&#45;engine_ground:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2148.99C4755.14,-2151.94 4714.54,-2077.14 4758.97,-2048.27 4856.05,-1990.49 5662.75,-2012.59 5767.72,-2053.13 5902.68,-2107.15 5874.48,-2318.65 6006.83,-2268.11"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2150.99C4756.9,-2150.99 4716.3,-2076.19 4760,-2049.99 4856,-1992.49 5662.7,-2014.59 5767,-2054.99 5900.7,-2106.89 5872.5,-2318.39 6007.5,-2269.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2152.99C4758.66,-2150.04 4718.06,-2075.24 4761.03,-2051.71 4855.95,-1994.49 5662.65,-2016.59 5766.28,-2056.85 5898.72,-2106.63 5870.52,-2318.13 6008.17,-2271.87"/>
-<g id="a_edge7&#45;label"><a xlink:title="deutsch_engine_connector:30&lt;black&gt;engine_ground:Gnd">
-<text text-anchor="middle" x="5561" y="-2058.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:30&lt;black&gt;engine_ground:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;engine_ground -->
-<g id="edge8" class="edge">
-<title>deutsch_engine_connector:31&#45;&#45;engine_ground:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M6008.82,-2268.11C6081.82,-2242.49 6168.72,-2008.29 6249.47,-2005.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2125.99C4761.58,-2129.02 4710.38,-2043.42 4758.9,-2009.32 4783.38,-1993.69 5741.48,-1984.49 5767.82,-1996.17 5916.05,-2064.73 5857.65,-2325.33 6006.82,-2268.11"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M6009.5,-2269.99C6083.7,-2243.19 6170.6,-2008.99 6249.5,-2007.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2127.99C4763.3,-2127.99 4712.1,-2042.39 4760,-2010.99 4783.4,-1995.69 5741.5,-1986.49 5767,-1997.99 5914.1,-2064.29 5855.7,-2324.89 6007.5,-2269.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M6010.18,-2271.87C6085.58,-2243.89 6172.48,-2009.69 6249.53,-2009.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2129.99C4765.02,-2126.96 4713.82,-2041.36 4761.1,-2012.66 4783.42,-1997.69 5741.52,-1988.49 5766.18,-1999.81 5912.15,-2063.85 5853.75,-2324.45 6008.18,-2271.87"/>
-<g id="a_edge8&#45;label"><a xlink:title="deutsch_engine_connector:31&lt;black&gt;engine_ground:Gnd">
-<text text-anchor="middle" x="5561" y="-2001.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:31&lt;black&gt;engine_ground:Gnd</text>
-</a>
-</g>
-</g>
-<!-- tps -->
-<g id="node10" class="node">
-<title>tps</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5528,-2709.49 5528,-2802.49 5594,-2802.49 5594,-2709.49 5528,-2709.49"/>
-<text text-anchor="middle" x="5561" y="-2787.29" font-family="Times,serif" font-size="14.00">tps</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5528,-2779.49 5594,-2779.49 "/>
-<text text-anchor="middle" x="5561" y="-2764.29" font-family="Times,serif" font-size="14.00">5v</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5528,-2756.49 5594,-2756.49 "/>
-<text text-anchor="middle" x="5561" y="-2741.29" font-family="Times,serif" font-size="14.00">Sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5528,-2733.49 5594,-2733.49 "/>
-<text text-anchor="middle" x="5561" y="-2717.79" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;tps -->
-<g id="edge9" class="edge">
-<title>deutsch_engine_connector:15&#45;&#45;tps:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2494.99C4771.88,-2498.08 4709.28,-2594.98 4761.16,-2629.36 4808.95,-2663.8 5244.85,-2631 5301.73,-2653.13 5332.26,-2666.97 5328.06,-2688.87 5355.8,-2699.16 5424.79,-2729.96 5449.19,-2719.16 5527,-2718.99"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2496.99C4770.2,-2496.99 4707.6,-2593.89 4760,-2630.99 4809.1,-2665.79 5245,-2632.99 5301,-2654.99 5330.3,-2666.59 5326.1,-2688.49 5355,-2700.99 5425.6,-2731.79 5450,-2720.99 5527,-2720.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2498.99C4768.52,-2495.9 4705.92,-2592.8 4758.84,-2632.62 4809.25,-2667.78 5245.15,-2634.98 5300.27,-2656.85 5328.34,-2666.21 5324.14,-2688.11 5354.2,-2702.82 5426.41,-2733.62 5450.81,-2722.82 5527,-2722.99"/>
-<g id="a_edge9&#45;label"><a xlink:title="deutsch_engine_connector:15&lt;green&gt;tps:Gnd">
-<text text-anchor="middle" x="5030.5" y="-2658.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:15&lt;green&gt;tps:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;tps -->
-<g id="edge10" class="edge">
-<title>deutsch_engine_connector:13&#45;&#45;tps:Sensor</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2538.99C4786.45,-2545.32 4701.75,-2663.72 4762.42,-2704.8 4784.03,-2722.19 5271.03,-2725.49 5301.2,-2727 5402.71,-2732.28 5427.61,-2740.18 5527,-2739.99"/>
-<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2540.99C4784.83,-2544.15 4700.13,-2662.55 4761.21,-2706.4 4784.01,-2724.19 5271.01,-2727.49 5301.1,-2728.99 5402.1,-2734.18 5427,-2742.08 5527,-2741.99"/>
-<path fill="none" stroke="blue" stroke-width="2.5" d="M4706,-2542.99C4783.2,-2542.99 4698.5,-2661.39 4760,-2707.99 4784,-2726.19 5271,-2729.49 5301,-2730.99 5401.5,-2736.09 5426.4,-2743.99 5527,-2743.99"/>
-<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2544.99C4781.57,-2541.83 4696.87,-2660.23 4758.79,-2709.58 4783.99,-2728.19 5270.99,-2731.49 5300.9,-2732.99 5400.9,-2738 5425.8,-2745.9 5527,-2745.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2546.99C4779.95,-2540.66 4695.25,-2659.06 4757.58,-2711.18 4783.97,-2730.19 5270.97,-2733.49 5300.8,-2734.98 5400.29,-2739.9 5425.19,-2747.8 5527,-2747.99"/>
-<g id="a_edge10&#45;label"><a xlink:title="deutsch_engine_connector:13&lt;yellow:blue&gt;tps:Sensor">
-<text text-anchor="middle" x="5030.5" y="-2734.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:13&lt;yellow:blue&gt;tps:Sensor</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;tps -->
-<g id="edge11" class="edge">
-<title>deutsch_engine_connector:14&#45;&#45;tps:5v</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2515.99C4780.2,-2522.25 4706.1,-2630.55 4762.36,-2666.76 4808.35,-2701.5 5241.65,-2673.9 5301.74,-2685.06 5409.48,-2707.71 5424.48,-2767.01 5527,-2763.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2517.99C4778.55,-2521.12 4704.45,-2629.42 4761.18,-2668.37 4808.47,-2703.49 5241.77,-2675.89 5301.37,-2687.02 5407.54,-2708.2 5422.54,-2767.5 5527,-2765.99"/>
-<path fill="none" stroke="blue" stroke-width="2.5" d="M4706,-2519.99C4776.9,-2519.99 4702.8,-2628.29 4760,-2669.99 4808.6,-2705.49 5241.9,-2677.89 5301,-2688.99 5405.6,-2708.69 5420.6,-2767.99 5527,-2767.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2521.99C4775.25,-2518.86 4701.15,-2627.16 4758.82,-2671.61 4808.73,-2707.49 5242.03,-2679.89 5300.63,-2690.96 5403.66,-2709.18 5418.66,-2768.48 5527,-2769.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2523.99C4773.6,-2517.73 4699.5,-2626.03 4757.64,-2673.22 4808.85,-2709.48 5242.15,-2681.88 5300.26,-2692.92 5401.72,-2709.67 5416.72,-2768.97 5527,-2771.99"/>
-<g id="a_edge11&#45;label"><a xlink:title="deutsch_engine_connector:14&lt;red:blue&gt;tps:5v">
-<text text-anchor="middle" x="5030.5" y="-2692.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:14&lt;red:blue&gt;tps:5v</text>
-</a>
-</g>
-</g>
-<!-- cam_sensor -->
-<g id="node11" class="node">
-<title>cam_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5511,-2931.49 5511,-3024.49 5611,-3024.49 5611,-2931.49 5511,-2931.49"/>
-<text text-anchor="middle" x="5561" y="-3009.29" font-family="Times,serif" font-size="14.00">cam_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5511,-3001.49 5611,-3001.49 "/>
-<text text-anchor="middle" x="5561" y="-2986.29" font-family="Times,serif" font-size="14.00">5v</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5511,-2978.49 5611,-2978.49 "/>
-<text text-anchor="middle" x="5561" y="-2963.29" font-family="Times,serif" font-size="14.00">Sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5511,-2955.49 5611,-2955.49 "/>
-<text text-anchor="middle" x="5561" y="-2939.79" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;cam_sensor -->
-<g id="edge12" class="edge">
-<title>deutsch_engine_connector:9&#45;&#45;cam_sensor:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2632.99C4810.36,-2636.24 4682.16,-2795.94 4761.27,-2858.45 4806.24,-2896.3 5244.14,-2861 5301.67,-2881.1 5331.19,-2893.19 5329.29,-2912.09 5355.75,-2921.13 5418.85,-2947.07 5439.95,-2941.07 5510,-2940.99"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2634.99C4808.8,-2634.99 4680.6,-2794.69 4760,-2859.99 4806.4,-2898.29 5244.3,-2862.99 5301,-2882.99 5329.2,-2892.99 5327.3,-2911.89 5355,-2922.99 5419.4,-2948.99 5440.5,-2942.99 5510,-2942.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2636.99C4807.24,-2633.74 4679.04,-2793.44 4758.73,-2861.53 4806.56,-2900.28 5244.46,-2864.98 5300.33,-2884.88 5327.21,-2892.79 5325.31,-2911.69 5354.25,-2924.85 5419.95,-2950.91 5441.05,-2944.91 5510,-2944.99"/>
-<g id="a_edge12&#45;label"><a xlink:title="deutsch_engine_connector:9&lt;green&gt;cam_sensor:Gnd">
-<text text-anchor="middle" x="5030.5" y="-2886.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:9&lt;green&gt;cam_sensor:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;cam_sensor -->
-<g id="edge13" class="edge">
-<title>deutsch_engine_connector:7&#45;&#45;cam_sensor:Sensor</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2678.99C4823.34,-2682.27 4673.04,-2862.57 4761.29,-2934.46 4823.62,-2987.79 5426.52,-2963.99 5510,-2963.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2680.99C4821.8,-2680.99 4671.5,-2861.29 4760,-2935.99 4823.7,-2989.79 5426.6,-2965.99 5510,-2965.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2682.99C4820.26,-2679.71 4669.96,-2860.01 4758.71,-2937.52 4823.78,-2991.79 5426.68,-2967.99 5510,-2967.99"/>
-<g id="a_edge13&#45;label"><a xlink:title="deutsch_engine_connector:7&lt;black&gt;cam_sensor:Sensor">
-<text text-anchor="middle" x="5030.5" y="-2974.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:7&lt;black&gt;cam_sensor:Sensor</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;cam_sensor -->
-<g id="edge14" class="edge">
-<title>deutsch_engine_connector:8&#45;&#45;cam_sensor:5v</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2653.99C4818.39,-2660.53 4678.89,-2830.73 4762.55,-2894.91 4783.15,-2913.19 5271.35,-2907.49 5301.74,-2913.06 5401.58,-2934.21 5415.48,-2989.01 5510,-2985.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2655.99C4816.85,-2659.26 4677.35,-2829.46 4761.28,-2896.45 4783.18,-2915.19 5271.38,-2909.49 5301.37,-2915.02 5399.64,-2934.7 5413.54,-2989.5 5510,-2987.99"/>
-<path fill="none" stroke="blue" stroke-width="2.5" d="M4706,-2657.99C4815.3,-2657.99 4675.8,-2828.19 4760,-2897.99 4783.2,-2917.19 5271.4,-2911.49 5301,-2916.99 5397.7,-2935.19 5411.6,-2989.99 5510,-2989.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2659.99C4813.75,-2656.72 4674.25,-2826.92 4758.72,-2899.53 4783.22,-2919.19 5271.42,-2913.49 5300.63,-2918.96 5395.76,-2935.68 5409.66,-2990.48 5510,-2991.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2661.99C4812.21,-2655.45 4672.71,-2825.65 4757.45,-2901.07 4783.25,-2921.19 5271.45,-2915.49 5300.26,-2920.92 5393.82,-2936.17 5407.72,-2990.97 5510,-2993.99"/>
-<g id="a_edge14&#45;label"><a xlink:title="deutsch_engine_connector:8&lt;red:blue&gt;cam_sensor:5v">
-<text text-anchor="middle" x="5030.5" y="-2920.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:8&lt;red:blue&gt;cam_sensor:5v</text>
-</a>
-</g>
-</g>
-<!-- crank_sensor -->
-<g id="node12" class="node">
-<title>crank_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5506,-2820.49 5506,-2913.49 5616,-2913.49 5616,-2820.49 5506,-2820.49"/>
-<text text-anchor="middle" x="5561" y="-2898.29" font-family="Times,serif" font-size="14.00">crank_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5506,-2890.49 5616,-2890.49 "/>
-<text text-anchor="middle" x="5561" y="-2875.29" font-family="Times,serif" font-size="14.00">5v</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5506,-2867.49 5616,-2867.49 "/>
-<text text-anchor="middle" x="5561" y="-2852.29" font-family="Times,serif" font-size="14.00">Sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5506,-2844.49 5616,-2844.49 "/>
-<text text-anchor="middle" x="5561" y="-2828.79" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;crank_sensor -->
-<g id="edge15" class="edge">
-<title>deutsch_engine_connector:12&#45;&#45;crank_sensor:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2563.99C4791.11,-2567.18 4695.71,-2695.98 4761.23,-2744.41 4807.34,-2781 5244.44,-2746 5301.7,-2767.12 5331.68,-2780.07 5328.78,-2800.27 5355.78,-2810.15 5416.31,-2836.48 5437.11,-2830.08 5505,-2829.99"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2565.99C4789.5,-2565.99 4694.1,-2694.79 4760,-2745.99 4807.5,-2782.99 5244.6,-2747.99 5301,-2768.99 5329.7,-2779.79 5326.8,-2799.99 5355,-2811.99 5416.9,-2838.39 5437.7,-2831.99 5505,-2831.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2567.99C4787.89,-2564.8 4692.49,-2693.6 4758.77,-2747.57 4807.66,-2784.98 5244.76,-2749.98 5300.3,-2770.86 5327.72,-2779.51 5324.82,-2799.71 5354.22,-2813.83 5417.49,-2840.3 5438.29,-2833.9 5505,-2833.99"/>
-<g id="a_edge15&#45;label"><a xlink:title="deutsch_engine_connector:12&lt;green&gt;crank_sensor:Gnd">
-<text text-anchor="middle" x="5030.5" y="-2772.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:12&lt;green&gt;crank_sensor:Gnd</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;crank_sensor -->
-<g id="edge16" class="edge">
-<title>deutsch_engine_connector:10&#45;&#45;crank_sensor:Sensor</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2609.99C4803.97,-2613.23 4686.67,-2762.63 4761.26,-2820.44 4783.41,-2838.99 5270.91,-2841.69 5301.09,-2842.99 5392.2,-2847.25 5414.7,-2853.05 5505,-2852.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2611.99C4802.4,-2611.99 4685.1,-2761.39 4760,-2821.99 4783.4,-2840.99 5270.9,-2843.69 5301,-2844.99 5391.7,-2849.19 5414.2,-2854.99 5505,-2854.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2613.99C4800.83,-2610.75 4683.53,-2760.15 4758.74,-2823.54 4783.39,-2842.99 5270.89,-2845.69 5300.91,-2846.99 5391.2,-2851.13 5413.7,-2856.93 5505,-2856.99"/>
-<g id="a_edge16&#45;label"><a xlink:title="deutsch_engine_connector:10&lt;red&gt;crank_sensor:Sensor">
-<text text-anchor="middle" x="5030.5" y="-2848.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:10&lt;red&gt;crank_sensor:Sensor</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;crank_sensor -->
-<g id="edge17" class="edge">
-<title>deutsch_engine_connector:11&#45;&#45;crank_sensor:5v</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2584.99C4799.08,-2591.42 4692.58,-2730.72 4762.48,-2780.85 4783.55,-2798.69 5271.45,-2793.19 5301.78,-2799.07 5399.81,-2821.05 5412.11,-2878.15 5505,-2874.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2586.99C4797.49,-2590.2 4690.99,-2729.5 4761.24,-2782.42 4783.58,-2800.69 5271.48,-2795.19 5301.39,-2801.03 5397.86,-2821.47 5410.16,-2878.57 5505,-2876.99"/>
-<path fill="none" stroke="blue" stroke-width="2.5" d="M4706,-2588.99C4795.9,-2588.99 4689.4,-2728.29 4760,-2783.99 4783.6,-2802.69 5271.5,-2797.19 5301,-2802.99 5395.9,-2821.89 5408.2,-2878.99 5505,-2878.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2590.99C4794.31,-2587.78 4687.81,-2727.08 4758.76,-2785.56 4783.62,-2804.69 5271.52,-2799.19 5300.61,-2804.95 5393.94,-2822.31 5406.24,-2879.41 5505,-2880.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2592.99C4792.72,-2586.56 4686.22,-2725.86 4757.52,-2787.13 4783.65,-2806.69 5271.55,-2801.19 5300.22,-2806.91 5391.99,-2822.73 5404.29,-2879.83 5505,-2882.99"/>
-<g id="a_edge17&#45;label"><a xlink:title="deutsch_engine_connector:11&lt;red:blue&gt;crank_sensor:5v">
-<text text-anchor="middle" x="5030.5" y="-2806.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:11&lt;red:blue&gt;crank_sensor:5v</text>
-</a>
-</g>
-</g>
-<!-- knock1 -->
-<g id="node13" class="node">
-<title>knock1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5527.5,-2189.49 5527.5,-2282.49 5594.5,-2282.49 5594.5,-2189.49 5527.5,-2189.49"/>
-<text text-anchor="middle" x="5561" y="-2267.29" font-family="Times,serif" font-size="14.00">knock1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2259.49 5594.5,-2259.49 "/>
-<text text-anchor="middle" x="5561" y="-2244.29" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2236.49 5594.5,-2236.49 "/>
-<text text-anchor="middle" x="5561" y="-2221.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2213.49 5594.5,-2213.49 "/>
-<text text-anchor="middle" x="5561" y="-2197.79" font-family="Times,serif" font-size="14.00">Scr</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;knock1 -->
-<g id="edge18" class="edge">
-<title>deutsch_engine_connector:26&#45;&#45;knock1:Scr</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2240.99C4734.73,-2243.33 4729.03,-2210.53 4759.34,-2198.1 4873.75,-2158.41 5181.05,-2197.81 5301,-2197.99 5401.06,-2198.29 5426.06,-2198.99 5526,-2198.99"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2242.99C4736.7,-2242.99 4731,-2210.19 4760,-2199.99 4873.5,-2160.39 5180.8,-2199.79 5301,-2199.99 5401,-2200.29 5426,-2200.99 5526,-2200.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2244.99C4738.67,-2242.65 4732.97,-2209.85 4760.66,-2201.88 4873.25,-2162.37 5180.55,-2201.77 5301,-2201.99 5400.94,-2202.29 5425.94,-2202.99 5526,-2202.99"/>
-<g id="a_edge18&#45;label"><a xlink:title="deutsch_engine_connector:26&lt;green&gt;knock1:Scr">
-<text text-anchor="middle" x="5030.5" y="-2203.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:26&lt;green&gt;knock1:Scr</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;knock1 -->
-<g id="edge19" class="edge">
-<title>deutsch_engine_connector:24&#45;&#45;knock1:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2286.99C5070.07,-2287.17 5160.27,-2246.17 5526,-2245.99"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-2288.99C5070.9,-2288.99 5161.1,-2247.99 5526,-2247.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2290.99C5071.73,-2290.81 5161.93,-2249.81 5526,-2249.99"/>
-<g id="a_edge19&#45;label"><a xlink:title="deutsch_engine_connector:24&lt;white&gt;knock1:Sig+">
-<text text-anchor="middle" x="5030.5" y="-2291.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:24&lt;white&gt;knock1:Sig+</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;knock1 -->
-<g id="edge20" class="edge">
-<title>deutsch_engine_connector:25&#45;&#45;knock1:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2263.99C4731.7,-2266.02 4731.3,-2242.42 4759.47,-2233.06 4842.14,-2210.49 5440.94,-2221.99 5526,-2221.99"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2265.99C4733.7,-2265.99 4733.3,-2242.39 4760,-2234.99 4842.1,-2212.49 5440.9,-2223.99 5526,-2223.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2267.99C4735.7,-2265.96 4735.3,-2242.36 4760.53,-2236.92 4842.06,-2214.49 5440.86,-2225.99 5526,-2225.99"/>
-<g id="a_edge20&#45;label"><a xlink:title="deutsch_engine_connector:25&lt;green&gt;knock1:Sig&#45;">
-<text text-anchor="middle" x="5030.5" y="-2238.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:25&lt;green&gt;knock1:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- knock2 -->
-<g id="node14" class="node">
-<title>knock2</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5527.5,-2078.49 5527.5,-2171.49 5594.5,-2171.49 5594.5,-2078.49 5527.5,-2078.49"/>
-<text text-anchor="middle" x="5561" y="-2156.29" font-family="Times,serif" font-size="14.00">knock2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2148.49 5594.5,-2148.49 "/>
-<text text-anchor="middle" x="5561" y="-2133.29" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2125.49 5594.5,-2125.49 "/>
-<text text-anchor="middle" x="5561" y="-2110.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2102.49 5594.5,-2102.49 "/>
-<text text-anchor="middle" x="5561" y="-2086.79" font-family="Times,serif" font-size="14.00">Scr</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;knock2 -->
-<g id="edge21" class="edge">
-<title>deutsch_engine_connector:29&#45;&#45;knock2:Scr</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2171.99C4750.1,-2174.86 4718.2,-2109.26 4759.02,-2084.24 4908.88,-2000.93 5356.18,-2088.03 5526,-2087.99"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2173.99C4751.9,-2173.99 4720,-2108.39 4760,-2085.99 4908.5,-2002.89 5355.8,-2089.99 5526,-2089.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2175.99C4753.7,-2173.12 4721.8,-2107.52 4760.98,-2087.74 4908.12,-2004.85 5355.42,-2091.95 5526,-2091.99"/>
-<g id="a_edge21&#45;label"><a xlink:title="deutsch_engine_connector:29&lt;green&gt;knock2:Scr">
-<text text-anchor="middle" x="5030.5" y="-2089.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:29&lt;green&gt;knock2:Scr</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;knock2 -->
-<g id="edge22" class="edge">
-<title>deutsch_engine_connector:27&#45;&#45;knock2:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2217.99C4738.98,-2220.56 4726.28,-2177.96 4759.18,-2161.17 4798.77,-2143.59 5483.37,-2134.99 5526,-2134.99"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-2219.99C4740.9,-2219.99 4728.2,-2177.39 4760,-2162.99 4798.8,-2145.59 5483.4,-2136.99 5526,-2136.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2221.99C4742.82,-2219.42 4730.12,-2176.82 4760.82,-2164.81 4798.83,-2147.59 5483.43,-2138.99 5526,-2138.99"/>
-<g id="a_edge22&#45;label"><a xlink:title="deutsch_engine_connector:27&lt;white&gt;knock2:Sig+">
-<text text-anchor="middle" x="5030.5" y="-2166.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:27&lt;white&gt;knock2:Sig+</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;knock2 -->
-<g id="edge23" class="edge">
-<title>deutsch_engine_connector:28&#45;&#45;knock2:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2194.99C4745.56,-2197.77 4721.46,-2140.97 4759.07,-2119.22 4835.5,-2079.59 5441,-2110.99 5526,-2110.99"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2196.99C4747.4,-2196.99 4723.3,-2140.19 4760,-2120.99 4835.4,-2081.59 5440.9,-2112.99 5526,-2112.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2198.99C4749.24,-2196.21 4725.14,-2139.41 4760.93,-2122.76 4835.3,-2083.59 5440.8,-2114.99 5526,-2114.99"/>
-<g id="a_edge23&#45;label"><a xlink:title="deutsch_engine_connector:28&lt;green&gt;knock2:Sig&#45;">
-<text text-anchor="middle" x="5030.5" y="-2124.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:28&lt;green&gt;knock2:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- intake_temp_sensor -->
-<g id="node15" class="node">
-<title>intake_temp_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5482,-2388.99 5482,-2458.99 5640,-2458.99 5640,-2388.99 5482,-2388.99"/>
-<text text-anchor="middle" x="5561" y="-2443.79" font-family="Times,serif" font-size="14.00">intake_temp_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5482,-2435.99 5640,-2435.99 "/>
-<text text-anchor="middle" x="5561" y="-2420.79" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5482,-2412.99 5640,-2412.99 "/>
-<text text-anchor="middle" x="5561" y="-2397.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;intake_temp_sensor -->
-<g id="edge24" class="edge">
-<title>deutsch_engine_connector:21&#45;&#45;intake_temp_sensor:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2356.99C4971.28,-2357.05 5037.08,-2373.15 5301.11,-2387.99 5381.61,-2392.69 5401.51,-2399.09 5481,-2398.99"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2358.99C4970.8,-2358.99 5036.6,-2375.09 5301,-2389.99 5381,-2394.59 5400.9,-2400.99 5481,-2400.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2360.99C4970.32,-2360.93 5036.12,-2377.03 5300.89,-2391.99 5380.39,-2396.49 5400.29,-2402.89 5481,-2402.99"/>
-<g id="a_edge24&#45;label"><a xlink:title="deutsch_engine_connector:21&lt;green&gt;intake_temp_sensor:Sig&#45;">
-<text text-anchor="middle" x="5030.5" y="-2393.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:21&lt;green&gt;intake_temp_sensor:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;intake_temp_sensor -->
-<g id="edge25" class="edge">
-<title>deutsch_engine_connector:20&#45;&#45;intake_temp_sensor:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2377.99C4736.06,-2381.45 4738.46,-2398.95 4760.85,-2401.08 5071.23,-2469.81 5158.43,-2420.51 5481,-2419.99"/>
-<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2379.99C4734.08,-2381.72 4736.48,-2399.22 4760.43,-2403.04 5072.22,-2471.55 5159.42,-2422.25 5481,-2421.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2381.99C4732.1,-2381.99 4734.5,-2399.49 4760,-2404.99 5073.2,-2473.29 5160.4,-2423.99 5481,-2423.99"/>
-<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2383.99C4730.12,-2382.26 4732.52,-2399.76 4759.57,-2406.94 5074.18,-2475.03 5161.38,-2425.73 5481,-2425.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2385.99C4728.14,-2382.53 4730.54,-2400.03 4759.15,-2408.9 5075.17,-2476.77 5162.37,-2427.47 5481,-2427.99"/>
-<g id="a_edge25&#45;label"><a xlink:title="deutsch_engine_connector:20&lt;yellow:red&gt;intake_temp_sensor:Sig+">
-<text text-anchor="middle" x="5030.5" y="-2444.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:20&lt;yellow:red&gt;intake_temp_sensor:Sig+</text>
-</a>
-</g>
-</g>
-<!-- oil_temp_sensor -->
-<g id="node16" class="node">
-<title>oil_temp_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5495.5,-2300.99 5495.5,-2370.99 5626.5,-2370.99 5626.5,-2300.99 5495.5,-2300.99"/>
-<text text-anchor="middle" x="5561" y="-2355.79" font-family="Times,serif" font-size="14.00">oil_temp_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5495.5,-2347.99 5626.5,-2347.99 "/>
-<text text-anchor="middle" x="5561" y="-2332.79" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5495.5,-2324.99 5626.5,-2324.99 "/>
-<text text-anchor="middle" x="5561" y="-2309.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;oil_temp_sensor -->
-<g id="edge26" class="edge">
-<title>deutsch_engine_connector:23&#45;&#45;oil_temp_sensor:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2310.99C5056.2,-2310.99 5143.8,-2310.99 5494,-2310.99"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2312.99C5056.2,-2312.99 5143.8,-2312.99 5494,-2312.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2314.99C5056.2,-2314.99 5143.8,-2314.99 5494,-2314.99"/>
-<g id="a_edge26&#45;label"><a xlink:title="deutsch_engine_connector:23&lt;green&gt;oil_temp_sensor:Sig&#45;">
-<text text-anchor="middle" x="5030.5" y="-2316.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:23&lt;green&gt;oil_temp_sensor:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;oil_temp_sensor -->
-<g id="edge27" class="edge">
-<title>deutsch_engine_connector:22&#45;&#45;oil_temp_sensor:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2331.99C5056.2,-2331.99 5143.8,-2331.99 5494,-2331.99"/>
-<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2333.99C5056.2,-2333.99 5143.8,-2333.99 5494,-2333.99"/>
-<path fill="none" stroke="orange" stroke-width="2.5" d="M4706,-2335.99C5056.2,-2335.99 5143.8,-2335.99 5494,-2335.99"/>
-<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2337.99C5056.2,-2337.99 5143.8,-2337.99 5494,-2337.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2339.99C5056.2,-2339.99 5143.8,-2339.99 5494,-2339.99"/>
-<g id="a_edge27&#45;label"><a xlink:title="deutsch_engine_connector:22&lt;yellow:orange&gt;oil_temp_sensor:Sig+">
-<text text-anchor="middle" x="5030.5" y="-2339.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:22&lt;yellow:orange&gt;oil_temp_sensor:Sig+</text>
-</a>
-</g>
-</g>
-<!-- oil_switch_0.25_bar -->
-<g id="node17" class="node">
-<title>oil_switch_0.25_bar</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5483,-2644.49 5483,-2691.49 5639,-2691.49 5639,-2644.49 5483,-2644.49"/>
-<text text-anchor="middle" x="5561" y="-2676.29" font-family="Times,serif" font-size="14.00">oil_switch_0.25_bar</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5483,-2668.49 5639,-2668.49 "/>
-<text text-anchor="middle" x="5561" y="-2652.79" font-family="Times,serif" font-size="14.00">Switch</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;oil_switch_0.25_bar -->
-<g id="edge28" class="edge">
-<title>deutsch_engine_connector:16&#45;&#45;oil_switch_0.25_bar:Switch</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2469.99C4766.73,-2476.04 4715.93,-2561.14 4762.23,-2587.67 4809.71,-2620.59 5241.81,-2600.09 5301.79,-2612.07 5329.7,-2619.35 5333.8,-2627.85 5356.01,-2632.12 5411.71,-2646.75 5426.31,-2652.25 5482,-2651.99"/>
-<path fill="none" stroke="grey" stroke-width="2.5" d="M4706,-2471.99C4765.02,-2475.02 4714.22,-2560.12 4761.12,-2589.33 4809.81,-2622.59 5241.91,-2602.09 5301.4,-2614.03 5327.9,-2620.22 5332,-2628.72 5355.5,-2634.05 5411.01,-2648.62 5425.61,-2654.12 5482,-2653.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2473.99C4763.3,-2473.99 4712.5,-2559.09 4760,-2590.99 4809.9,-2624.59 5242,-2604.09 5301,-2615.99 5326.1,-2621.09 5330.2,-2629.59 5355,-2635.99 5410.3,-2650.49 5424.9,-2655.99 5482,-2655.99"/>
-<path fill="none" stroke="grey" stroke-width="2.5" d="M4706,-2475.99C4761.58,-2472.96 4710.78,-2558.06 4758.88,-2592.65 4809.99,-2626.59 5242.09,-2606.09 5300.6,-2617.95 5324.3,-2621.96 5328.4,-2630.46 5354.5,-2637.93 5409.59,-2652.36 5424.19,-2657.86 5482,-2657.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2477.99C4759.87,-2471.94 4709.07,-2557.04 4757.77,-2594.31 4810.09,-2628.59 5242.19,-2608.09 5300.21,-2619.91 5322.5,-2622.83 5326.6,-2631.33 5353.99,-2639.86 5408.89,-2654.23 5423.49,-2659.73 5482,-2659.99"/>
-<g id="a_edge28&#45;label"><a xlink:title="deutsch_engine_connector:16&lt;grey:black&gt;oil_switch_0.25_bar:Switch">
-<text text-anchor="middle" x="5030.5" y="-2619.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:16&lt;grey:black&gt;oil_switch_0.25_bar:Switch</text>
-</a>
-</g>
-</g>
-<!-- oil_switch_1.40_bar -->
-<g id="node18" class="node">
-<title>oil_switch_1.40_bar</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5483,-2579.49 5483,-2626.49 5639,-2626.49 5639,-2579.49 5483,-2579.49"/>
-<text text-anchor="middle" x="5561" y="-2611.29" font-family="Times,serif" font-size="14.00">oil_switch_1.40_bar</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5483,-2603.49 5639,-2603.49 "/>
-<text text-anchor="middle" x="5561" y="-2587.79" font-family="Times,serif" font-size="14.00">Switch</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;oil_switch_1.40_bar -->
-<g id="edge29" class="edge">
-<title>deutsch_engine_connector:17&#45;&#45;oil_switch_1.40_bar:Switch</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2446.99C4759.24,-2452.86 4721.34,-2524.56 4762.12,-2545.6 4810.92,-2576.89 5240.82,-2568.09 5301.26,-2572 5383.25,-2577.79 5403.05,-2587.39 5482,-2586.99"/>
-<path fill="none" stroke="grey" stroke-width="2.5" d="M4706,-2448.99C4757.47,-2451.92 4719.57,-2523.62 4761.06,-2547.29 4810.96,-2578.89 5240.86,-2570.09 5301.13,-2573.99 5382.37,-2579.59 5402.17,-2589.19 5482,-2588.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2450.99C4755.7,-2450.99 4717.8,-2522.69 4760,-2548.99 4811,-2580.89 5240.9,-2572.09 5301,-2575.99 5381.5,-2581.39 5401.3,-2590.99 5482,-2590.99"/>
-<path fill="none" stroke="grey" stroke-width="2.5" d="M4706,-2452.99C4753.93,-2450.06 4716.03,-2521.76 4758.94,-2550.69 4811.04,-2582.89 5240.94,-2574.09 5300.87,-2577.99 5380.63,-2583.19 5400.43,-2592.79 5482,-2592.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2454.99C4752.16,-2449.12 4714.26,-2520.82 4757.88,-2552.38 4811.08,-2584.89 5240.98,-2576.09 5300.74,-2579.98 5379.75,-2584.99 5399.55,-2594.59 5482,-2594.99"/>
-<g id="a_edge29&#45;label"><a xlink:title="deutsch_engine_connector:17&lt;grey:brown&gt;oil_switch_1.40_bar:Switch">
-<text text-anchor="middle" x="5030.5" y="-2579.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:17&lt;grey:brown&gt;oil_switch_1.40_bar:Switch</text>
-</a>
-</g>
-</g>
-<!-- idle_stablizer_valve -->
-<g id="node19" class="node">
-<title>idle_stablizer_valve</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5483,-1887.99 5483,-1957.99 5639,-1957.99 5639,-1887.99 5483,-1887.99"/>
-<text text-anchor="middle" x="5561" y="-1942.79" font-family="Times,serif" font-size="14.00">idle_stablizer_valve</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5483,-1934.99 5639,-1934.99 "/>
-<text text-anchor="middle" x="5561" y="-1919.79" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5483,-1911.99 5639,-1911.99 "/>
-<text text-anchor="middle" x="5561" y="-1896.29" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;idle_stablizer_valve -->
-<g id="edge30" class="edge">
-<title>deutsch_engine_connector:32&#45;&#45;idle_stablizer_valve:Pos</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2102.99C4767.31,-2106.07 4707.21,-2011.97 4758.83,-1972.37 4890.6,-1877.9 5321.4,-1921 5482,-1920.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2104.99C4769,-2104.99 4708.9,-2010.89 4760,-1973.99 4890.4,-1879.89 5321.2,-1922.99 5482,-1922.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2106.99C4770.69,-2103.91 4710.59,-2009.81 4761.17,-1975.61 4890.2,-1881.88 5321,-1924.98 5482,-1924.99"/>
-<g id="a_edge30&#45;label"><a xlink:title="deutsch_engine_connector:32&lt;red&gt;idle_stablizer_valve:Pos">
-<text text-anchor="middle" x="5030.5" y="-1977.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:32&lt;red&gt;idle_stablizer_valve:Pos</text>
-</a>
-</g>
-</g>
-<!-- aux_coolant_pump -->
-<g id="node20" class="node">
-<title>aux_coolant_pump</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5487,-1799.99 5487,-1869.99 5635,-1869.99 5635,-1799.99 5487,-1799.99"/>
-<text text-anchor="middle" x="5561" y="-1854.79" font-family="Times,serif" font-size="14.00">aux_coolant_pump</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5487,-1846.99 5635,-1846.99 "/>
-<text text-anchor="middle" x="5561" y="-1831.79" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5487,-1823.99 5635,-1823.99 "/>
-<text text-anchor="middle" x="5561" y="-1808.29" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;aux_coolant_pump -->
-<g id="edge31" class="edge">
-<title>deutsch_engine_connector:33&#45;&#45;aux_coolant_pump:Pos</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2079.99C4791.3,-2083.19 4691.1,-1950.29 4758.73,-1892.44 4791.2,-1866.39 5445.4,-1832.99 5486,-1832.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2081.99C4792.9,-2081.99 4692.7,-1949.09 4760,-1893.99 4791.3,-1868.39 5445.5,-1834.99 5486,-1834.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2083.99C4794.5,-2080.79 4694.3,-1947.89 4761.27,-1895.54 4791.4,-1870.39 5445.6,-1836.99 5486,-1836.99"/>
-<g id="a_edge31&#45;label"><a xlink:title="deutsch_engine_connector:33&lt;red&gt;aux_coolant_pump:Pos">
-<text text-anchor="middle" x="5030.5" y="-1897.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:33&lt;red&gt;aux_coolant_pump:Pos</text>
-</a>
-</g>
-</g>
-<!-- aem_coolant_temp_sensor -->
-<g id="node21" class="node">
-<title>aem_coolant_temp_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5459.5,-1660.99 5459.5,-1730.99 5662.5,-1730.99 5662.5,-1660.99 5459.5,-1660.99"/>
-<text text-anchor="middle" x="5561" y="-1715.79" font-family="Times,serif" font-size="14.00">aem_coolant_temp_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5459.5,-1707.99 5662.5,-1707.99 "/>
-<text text-anchor="middle" x="5561" y="-1692.79" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5459.5,-1684.99 5662.5,-1684.99 "/>
-<text text-anchor="middle" x="5561" y="-1669.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;aem_coolant_temp_sensor -->
-<g id="edge32" class="edge">
-<title>deutsch_engine_connector:36&#45;&#45;aem_coolant_temp_sensor:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2010.99C4845.7,-2014.31 4652.3,-1794.31 4758.68,-1698.49 4818.49,-1646.89 5380.49,-1670.99 5458,-1670.99"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-2012.99C4847.2,-2012.99 4653.8,-1792.99 4760,-1699.99 4818.4,-1648.89 5380.4,-1672.99 5458,-1672.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2014.99C4848.7,-2011.67 4655.3,-1791.67 4761.32,-1701.49 4818.31,-1650.89 5380.31,-1674.99 5458,-1674.99"/>
-<g id="a_edge32&#45;label"><a xlink:title="deutsch_engine_connector:36&lt;white&gt;aem_coolant_temp_sensor:Sig&#45;">
-<text text-anchor="middle" x="5030.5" y="-1703.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:36&lt;white&gt;aem_coolant_temp_sensor:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;aem_coolant_temp_sensor -->
-<g id="edge33" class="edge">
-<title>deutsch_engine_connector:35&#45;&#45;aem_coolant_temp_sensor:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2033.99C4835.19,-2037.3 4660.49,-1834.8 4758.68,-1745.49 4805.26,-1705.19 5241.06,-1718.39 5300.82,-1713 5369.79,-1707.1 5386.49,-1694.4 5458,-1693.99"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-2035.99C4836.7,-2035.99 4662,-1833.49 4760,-1746.99 4805.2,-1707.19 5241,-1720.39 5301,-1714.99 5371,-1708.69 5387.7,-1695.99 5458,-1695.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2037.99C4838.21,-2034.68 4663.51,-1832.18 4761.32,-1748.49 4805.14,-1709.19 5240.94,-1722.39 5301.18,-1716.98 5372.21,-1710.28 5388.91,-1697.58 5458,-1697.99"/>
-<g id="a_edge33&#45;label"><a xlink:title="deutsch_engine_connector:35&lt;white&gt;aem_coolant_temp_sensor:Sig+">
-<text text-anchor="middle" x="5030.5" y="-1750.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:35&lt;white&gt;aem_coolant_temp_sensor:Sig+</text>
-</a>
-</g>
-</g>
-<!-- aem_transmission_temp_sensor -->
-<g id="node22" class="node">
-<title>aem_transmission_temp_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5439.5,-1572.99 5439.5,-1642.99 5682.5,-1642.99 5682.5,-1572.99 5439.5,-1572.99"/>
-<text text-anchor="middle" x="5561" y="-1627.79" font-family="Times,serif" font-size="14.00">aem_transmission_temp_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5439.5,-1619.99 5682.5,-1619.99 "/>
-<text text-anchor="middle" x="5561" y="-1604.79" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5439.5,-1596.99 5682.5,-1596.99 "/>
-<text text-anchor="middle" x="5561" y="-1581.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;aem_transmission_temp_sensor -->
-<g id="edge34" class="edge">
-<title>deutsch_engine_connector:38&#45;&#45;aem_transmission_temp_sensor:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1964.99C4787.58,-1967.55 4695.28,-1650.75 4758.68,-1593.49 4816.75,-1543.3 5362.85,-1583 5438,-1582.99"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-1966.99C4789.5,-1966.99 4697.2,-1650.19 4760,-1594.99 4816.6,-1545.29 5362.7,-1584.99 5438,-1584.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1968.99C4791.42,-1966.43 4699.12,-1649.63 4761.32,-1596.49 4816.45,-1547.28 5362.55,-1586.98 5438,-1586.99"/>
-<g id="a_edge34&#45;label"><a xlink:title="deutsch_engine_connector:38&lt;white&gt;aem_transmission_temp_sensor:Sig&#45;">
-<text text-anchor="middle" x="5030.5" y="-1598.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:38&lt;white&gt;aem_transmission_temp_sensor:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;aem_transmission_temp_sensor -->
-<g id="edge35" class="edge">
-<title>deutsch_engine_connector:37&#45;&#45;aem_transmission_temp_sensor:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1987.99C4780.97,-1990.52 4701.07,-1700.22 4758.66,-1646.51 4787.95,-1620.69 5400.25,-1605.99 5438,-1605.99"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-1989.99C4782.9,-1989.99 4703,-1699.69 4760,-1647.99 4788,-1622.69 5400.3,-1607.99 5438,-1607.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1991.99C4784.83,-1989.46 4704.93,-1699.16 4761.34,-1649.47 4788.05,-1624.69 5400.35,-1609.99 5438,-1609.99"/>
-<g id="a_edge35&#45;label"><a xlink:title="deutsch_engine_connector:37&lt;white&gt;aem_transmission_temp_sensor:Sig+">
-<text text-anchor="middle" x="5030.5" y="-1651.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:37&lt;white&gt;aem_transmission_temp_sensor:Sig+</text>
-</a>
-</g>
-</g>
-<!-- aem_fuel_pressure_sensor -->
-<g id="node23" class="node">
-<title>aem_fuel_pressure_sensor</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5459,-1484.99 5459,-1554.99 5663,-1554.99 5663,-1484.99 5459,-1484.99"/>
-<text text-anchor="middle" x="5561" y="-1539.79" font-family="Times,serif" font-size="14.00">aem_fuel_pressure_sensor</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5459,-1531.99 5663,-1531.99 "/>
-<text text-anchor="middle" x="5561" y="-1516.79" font-family="Times,serif" font-size="14.00">Sig+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5459,-1508.99 5663,-1508.99 "/>
-<text text-anchor="middle" x="5561" y="-1493.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;aem_fuel_pressure_sensor -->
-<g id="edge36" class="edge">
-<title>deutsch_engine_connector:40&#45;&#45;aem_fuel_pressure_sensor:Sig&#45;</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1918.99C4796.19,-1921.57 4689.39,-1571.97 4758.67,-1508.5 4817.94,-1456.29 5380.54,-1494.99 5458,-1494.99"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-1920.99C4798.1,-1920.99 4691.3,-1571.39 4760,-1509.99 4817.8,-1458.29 5380.4,-1496.99 5458,-1496.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1922.99C4800.01,-1920.41 4693.21,-1570.81 4761.33,-1511.48 4817.66,-1460.29 5380.26,-1498.99 5458,-1498.99"/>
-<g id="a_edge36&#45;label"><a xlink:title="deutsch_engine_connector:40&lt;white&gt;aem_fuel_pressure_sensor:Sig&#45;">
-<text text-anchor="middle" x="5030.5" y="-1513.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:40&lt;white&gt;aem_fuel_pressure_sensor:Sig&#45;</text>
-</a>
-</g>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;aem_fuel_pressure_sensor -->
-<g id="edge37" class="edge">
-<title>deutsch_engine_connector:39&#45;&#45;aem_fuel_pressure_sensor:Sig+</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1941.99C4792.48,-1944.56 4692.78,-1610.06 4758.65,-1548.51 4767.13,-1541.49 5448.23,-1517.99 5458,-1517.99"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-1943.99C4794.4,-1943.99 4694.7,-1609.49 4760,-1549.99 4767.2,-1543.49 5448.3,-1519.99 5458,-1519.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1945.99C4796.32,-1943.42 4696.62,-1608.92 4761.35,-1551.47 4767.27,-1545.49 5448.37,-1521.99 5458,-1521.99"/>
-<g id="a_edge37&#45;label"><a xlink:title="deutsch_engine_connector:39&lt;white&gt;aem_fuel_pressure_sensor:Sig+">
-<text text-anchor="middle" x="5030.5" y="-1553.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:39&lt;white&gt;aem_fuel_pressure_sensor:Sig+</text>
-</a>
-</g>
-</g>
-<!-- injector1 -->
-<g id="node24" class="node">
-<title>injector1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3482.99 5521,-3552.99 5601,-3552.99 5601,-3482.99 5521,-3482.99"/>
-<text text-anchor="middle" x="5561" y="-3537.79" font-family="Times,serif" font-size="14.00">injector1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3529.99 5601,-3529.99 "/>
-<text text-anchor="middle" x="5561" y="-3514.79" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3506.99 5601,-3506.99 "/>
-<text text-anchor="middle" x="5561" y="-3491.29" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;injector1 -->
-<g id="edge38" class="edge">
-<title>deutsch_engine_connector:1&#45;&#45;injector1:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2814.99C4847.18,-2820.31 4666.18,-3339.61 4762.82,-3432.15 4997.79,-3670.75 5178.39,-3492.15 5520,-3490.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2816.99C4845.29,-2819.65 4664.29,-3338.95 4761.41,-3433.57 4999.19,-3672.17 5179.79,-3493.57 5520,-3492.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2818.99C4843.4,-2818.99 4662.4,-3338.29 4760,-3434.99 5000.6,-3673.59 5181.2,-3494.99 5520,-3494.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2820.99C4841.51,-2818.33 4660.51,-3337.63 4758.59,-3436.41 5002.01,-3675.01 5182.61,-3496.41 5520,-3496.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2822.99C4839.62,-2817.67 4658.62,-3336.97 4757.18,-3437.83 5003.41,-3676.43 5184.01,-3497.83 5520,-3498.99"/>
-<g id="a_edge38&#45;label"><a xlink:title="deutsch_engine_connector:1&lt;brown:black&gt;injector1:Gnd">
-<text text-anchor="middle" x="5030.5" y="-3562.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:1&lt;brown:black&gt;injector1:Gnd</text>
-</a>
-</g>
-</g>
-<!-- injector2 -->
-<g id="node25" class="node">
-<title>injector2</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3394.99 5521,-3464.99 5601,-3464.99 5601,-3394.99 5521,-3394.99"/>
-<text text-anchor="middle" x="5561" y="-3449.79" font-family="Times,serif" font-size="14.00">injector2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3441.99 5601,-3441.99 "/>
-<text text-anchor="middle" x="5561" y="-3426.79" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3418.99 5601,-3418.99 "/>
-<text text-anchor="middle" x="5561" y="-3403.29" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;injector2 -->
-<g id="edge39" class="edge">
-<title>deutsch_engine_connector:2&#45;&#45;injector2:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2793.99C4828.5,-2796.62 4676.3,-3251.62 4761.41,-3334.57 4880.09,-3453.6 5350.19,-3405 5520,-3404.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2795.99C4826.6,-2795.99 4674.4,-3250.99 4760,-3335.99 4880.3,-3455.59 5350.4,-3406.99 5520,-3406.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2797.99C4824.7,-2795.36 4672.5,-3250.36 4758.59,-3337.41 4880.51,-3457.58 5350.61,-3408.98 5520,-3408.99"/>
-<g id="a_edge39&#45;label"><a xlink:title="deutsch_engine_connector:2&lt;brown&gt;injector2:Gnd">
-<text text-anchor="middle" x="5030.5" y="-3419.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:2&lt;brown&gt;injector2:Gnd</text>
-</a>
-</g>
-</g>
-<!-- injector3 -->
-<g id="node26" class="node">
-<title>injector3</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3306.99 5521,-3376.99 5601,-3376.99 5601,-3306.99 5521,-3306.99"/>
-<text text-anchor="middle" x="5561" y="-3361.79" font-family="Times,serif" font-size="14.00">injector3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3353.99 5601,-3353.99 "/>
-<text text-anchor="middle" x="5561" y="-3338.79" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3330.99 5601,-3330.99 "/>
-<text text-anchor="middle" x="5561" y="-3315.29" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;injector3 -->
-<g id="edge40" class="edge">
-<title>deutsch_engine_connector:3&#45;&#45;injector3:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2768.99C4819.6,-2774.23 4684.7,-3189.13 4762.77,-3261.11 4820.98,-3318.79 5435.28,-3314.99 5520,-3314.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2770.99C4817.7,-2773.61 4682.8,-3188.51 4761.39,-3262.55 4820.99,-3320.79 5435.29,-3316.99 5520,-3316.99"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2772.99C4815.8,-2772.99 4680.9,-3187.89 4760,-3263.99 4821,-3322.79 5435.3,-3318.99 5520,-3318.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2774.99C4813.9,-2772.37 4679,-3187.27 4758.61,-3265.43 4821.01,-3324.79 5435.31,-3320.99 5520,-3320.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2776.99C4812,-2771.75 4677.1,-3186.65 4757.23,-3266.87 4821.02,-3326.79 5435.32,-3322.99 5520,-3322.99"/>
-<g id="a_edge40&#45;label"><a xlink:title="deutsch_engine_connector:3&lt;brown:red&gt;injector3:Gnd">
-<text text-anchor="middle" x="5030.5" y="-3320.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:3&lt;brown:red&gt;injector3:Gnd</text>
-</a>
-</g>
-</g>
-<!-- injector4 -->
-<g id="node27" class="node">
-<title>injector4</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3218.99 5521,-3288.99 5601,-3288.99 5601,-3218.99 5521,-3218.99"/>
-<text text-anchor="middle" x="5561" y="-3273.79" font-family="Times,serif" font-size="14.00">injector4</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3265.99 5601,-3265.99 "/>
-<text text-anchor="middle" x="5561" y="-3250.79" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3242.99 5601,-3242.99 "/>
-<text text-anchor="middle" x="5561" y="-3227.29" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;injector4 -->
-<g id="edge41" class="edge">
-<title>deutsch_engine_connector:4&#45;&#45;injector4:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2745.99C4804.33,-2751.16 4695.33,-3108.06 4762.76,-3169.09 4882.21,-3284.82 5350.11,-3227.02 5520,-3226.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2747.99C4802.41,-2750.57 4693.41,-3107.47 4761.38,-3170.54 4882.45,-3286.81 5350.35,-3229.01 5520,-3228.99"/>
-<path fill="none" stroke="orange" stroke-width="2.5" d="M4706,-2749.99C4800.5,-2749.99 4691.5,-3106.89 4760,-3171.99 4882.7,-3288.79 5350.6,-3230.99 5520,-3230.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2751.99C4798.59,-2749.41 4689.59,-3106.31 4758.62,-3173.44 4882.95,-3290.77 5350.85,-3232.97 5520,-3232.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2753.99C4796.67,-2748.82 4687.67,-3105.72 4757.24,-3174.89 4883.19,-3292.76 5351.09,-3234.96 5520,-3234.99"/>
-<g id="a_edge41&#45;label"><a xlink:title="deutsch_engine_connector:4&lt;brown:orange&gt;injector4:Gnd">
-<text text-anchor="middle" x="5030.5" y="-3248.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:4&lt;brown:orange&gt;injector4:Gnd</text>
-</a>
-</g>
-</g>
-<!-- injector5 -->
-<g id="node28" class="node">
-<title>injector5</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3130.99 5521,-3200.99 5601,-3200.99 5601,-3130.99 5521,-3130.99"/>
-<text text-anchor="middle" x="5561" y="-3185.79" font-family="Times,serif" font-size="14.00">injector5</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3177.99 5601,-3177.99 "/>
-<text text-anchor="middle" x="5561" y="-3162.79" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3154.99 5601,-3154.99 "/>
-<text text-anchor="middle" x="5561" y="-3139.29" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;injector5 -->
-<g id="edge42" class="edge">
-<title>deutsch_engine_connector:5&#45;&#45;injector5:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2722.99C4790.05,-2728.07 4705.05,-3030.47 4762.72,-3081.06 4883.62,-3195.42 5350.12,-3139.02 5520,-3138.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2724.99C4788.13,-2727.53 4703.13,-3029.93 4761.36,-3082.53 4883.86,-3197.4 5350.36,-3141 5520,-3140.99"/>
-<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2726.99C4786.2,-2726.99 4701.2,-3029.39 4760,-3083.99 4884.1,-3199.39 5350.6,-3142.99 5520,-3142.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2728.99C4784.27,-2726.45 4699.27,-3028.85 4758.64,-3085.45 4884.34,-3201.38 5350.84,-3144.98 5520,-3144.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2730.99C4782.35,-2725.91 4697.35,-3028.31 4757.28,-3086.92 4884.58,-3203.36 5351.08,-3146.96 5520,-3146.99"/>
-<g id="a_edge42&#45;label"><a xlink:title="deutsch_engine_connector:5&lt;brown:yellow&gt;injector5:Gnd">
-<text text-anchor="middle" x="5030.5" y="-3159.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:5&lt;brown:yellow&gt;injector5:Gnd</text>
-</a>
-</g>
-</g>
-<!-- injector6 -->
-<g id="node29" class="node">
-<title>injector6</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3042.99 5521,-3112.99 5601,-3112.99 5601,-3042.99 5521,-3042.99"/>
-<text text-anchor="middle" x="5561" y="-3097.79" font-family="Times,serif" font-size="14.00">injector6</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3089.99 5601,-3089.99 "/>
-<text text-anchor="middle" x="5561" y="-3074.79" font-family="Times,serif" font-size="14.00">Pos</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3066.99 5601,-3066.99 "/>
-<text text-anchor="middle" x="5561" y="-3051.29" font-family="Times,serif" font-size="14.00">Gnd</text>
-</g>
-<!-- deutsch_engine_connector&#45;&#45;injector6 -->
-<g id="edge43" class="edge">
-<title>deutsch_engine_connector:6&#45;&#45;injector6:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2699.99C4838.43,-2706.6 4667.03,-2905.9 4762.68,-2987.02 4885.38,-3099.71 5350.08,-3051.01 5520,-3050.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2701.99C4836.92,-2705.29 4665.52,-2904.59 4761.34,-2988.51 4885.59,-3101.7 5350.29,-3053 5520,-3052.99"/>
-<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2703.99C4835.4,-2703.99 4664,-2903.29 4760,-2989.99 4885.8,-3103.69 5350.5,-3054.99 5520,-3054.99"/>
-<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2705.99C4833.88,-2702.69 4662.48,-2901.99 4758.66,-2991.47 4886.01,-3105.68 5350.71,-3056.98 5520,-3056.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2707.99C4832.37,-2701.38 4660.97,-2900.68 4757.32,-2992.96 4886.22,-3107.67 5350.92,-3058.97 5520,-3058.99"/>
-<g id="a_edge43&#45;label"><a xlink:title="deutsch_engine_connector:6&lt;brown:green&gt;injector6:Gnd">
-<text text-anchor="middle" x="5030.5" y="-3068.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:6&lt;brown:green&gt;injector6:Gnd</text>
-</a>
-</g>
-</g>
-<!-- engine_ground&#45;&#45;engine_bay_ground -->
-<g id="edge146" class="edge">
-<title>engine_ground:Gnd&#45;&#45;engine_bay_ground:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M6373,-2005.99C7301.76,-2009.11 5927.56,-4039.11 6853,-4035.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M6373,-2007.99C7300.1,-2007.99 5925.9,-4037.99 6853,-4037.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M6373,-2009.99C7298.44,-2006.87 5924.24,-4036.87 6853,-4039.99"/>
-<g id="a_edge146&#45;label"><a xlink:title="engine_ground:Gnd&lt;black&gt;engine_bay_ground:Gnd">
-<text text-anchor="middle" x="6612.5" y="-4031.79" font-family="Times,serif" font-size="14.00">engine_ground:Gnd&lt;black&gt;engine_bay_ground:Gnd</text>
-</a>
-</g>
-</g>
-<!-- idle_stablizer_valve&#45;&#45;engine_ground -->
-<g id="edge44" class="edge">
-<title>idle_stablizer_valve:Gnd&#45;&#45;engine_ground:Gnd</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M5640,-1897.99C5917.05,-1899.03 5976.45,-2007.03 6250,-2005.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M5640,-1899.99C5915.3,-1899.99 5974.7,-2007.99 6250,-2007.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M5640,-1901.99C5913.55,-1900.95 5972.95,-2008.95 6250,-2009.99"/>
-<g id="a_edge44&#45;label"><a xlink:title="idle_stablizer_valve:Gnd&lt;black&gt;engine_ground:Gnd">
-<text text-anchor="middle" x="6008.5" y="-2009.79" font-family="Times,serif" font-size="14.00">idle_stablizer_valve:Gnd&lt;black&gt;engine_ground:Gnd</text>
-</a>
-</g>
-</g>
-<!-- aux_coolant_pump&#45;&#45;deutsch_engine_connector -->
-<g id="edge45" class="edge">
-<title>aux_coolant_pump:Gnd&#45;&#45;deutsch_engine_connector:34</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M5486,-1813.99C5324.2,-1813.95 4885,-1724.45 4761.26,-1825.54 4678.25,-1890.23 4814.75,-2057.73 4706,-2060.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M5486,-1811.99C5324.6,-1811.99 4885.4,-1722.49 4760,-1823.99 4676.7,-1891.49 4813.2,-2058.99 4706,-2058.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M5486,-1809.99C5325,-1810.03 4885.8,-1720.53 4758.74,-1822.44 4675.15,-1892.75 4811.65,-2060.25 4706,-2056.99"/>
-<g id="a_edge45&#45;label"><a xlink:title="aux_coolant_pump:Gnd&lt;black&gt;deutsch_engine_connector:34">
-<text text-anchor="middle" x="5030.5" y="-1827.79" font-family="Times,serif" font-size="14.00">aux_coolant_pump:Gnd&lt;black&gt;deutsch_engine_connector:34</text>
-</a>
-</g>
-</g>
-<!-- labjack -->
-<g id="node30" class="node">
-<title>labjack</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="3602,-3386.99 3602,-3962.99 3669,-3962.99 3669,-3386.99 3602,-3386.99"/>
-<text text-anchor="middle" x="3635.5" y="-3947.79" font-family="Times,serif" font-size="14.00">labjack</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3939.99 3669,-3939.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3924.79" font-family="Times,serif" font-size="14.00">sgnd0</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3916.99 3669,-3916.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3901.79" font-family="Times,serif" font-size="14.00">spc</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3893.99 3669,-3893.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3878.79" font-family="Times,serif" font-size="14.00">sgnd1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3870.99 3669,-3870.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3855.79" font-family="Times,serif" font-size="14.00">vs0</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3847.99 3669,-3847.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3832.79" font-family="Times,serif" font-size="14.00">fio7</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3824.99 3669,-3824.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3809.79" font-family="Times,serif" font-size="14.00">fio6</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3801.99 3669,-3801.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3786.79" font-family="Times,serif" font-size="14.00">gnd0</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3778.99 3669,-3778.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3763.79" font-family="Times,serif" font-size="14.00">vs1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3755.99 3669,-3755.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3740.79" font-family="Times,serif" font-size="14.00">fio5</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3732.99 3669,-3732.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3717.79" font-family="Times,serif" font-size="14.00">fio4</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3709.99 3669,-3709.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3694.79" font-family="Times,serif" font-size="14.00">gnd1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3686.99 3669,-3686.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3671.79" font-family="Times,serif" font-size="14.00">vs2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3663.99 3669,-3663.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3648.79" font-family="Times,serif" font-size="14.00">vs3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3640.99 3669,-3640.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3625.79" font-family="Times,serif" font-size="14.00">gnd2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3617.99 3669,-3617.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3602.79" font-family="Times,serif" font-size="14.00">dac0</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3594.99 3669,-3594.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3579.79" font-family="Times,serif" font-size="14.00">dac1</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3571.99 3669,-3571.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3556.79" font-family="Times,serif" font-size="14.00">vs4</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3548.99 3669,-3548.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3533.79" font-family="Times,serif" font-size="14.00">gnd3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3525.99 3669,-3525.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3510.79" font-family="Times,serif" font-size="14.00">fio2</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3502.99 3669,-3502.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3487.79" font-family="Times,serif" font-size="14.00">fio3</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3479.99 3669,-3479.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3464.79" font-family="Times,serif" font-size="14.00">vs5</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3456.99 3669,-3456.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3441.79" font-family="Times,serif" font-size="14.00">gnd4</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3433.99 3669,-3433.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3418.79" font-family="Times,serif" font-size="14.00">fio0</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3602,-3410.99 3669,-3410.99 "/>
-<text text-anchor="middle" x="3635.5" y="-3395.29" font-family="Times,serif" font-size="14.00">fio1</text>
-</g>
-<!-- usb_hub -->
-<g id="node31" class="node">
-<title>usb_hub</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="3597.5,-3275.49 3597.5,-3368.49 3673.5,-3368.49 3673.5,-3275.49 3597.5,-3275.49"/>
-<text text-anchor="middle" x="3635.5" y="-3353.29" font-family="Times,serif" font-size="14.00">usb_hub</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3597.5,-3345.49 3673.5,-3345.49 "/>
-<text text-anchor="middle" x="3635.5" y="-3330.29" font-family="Times,serif" font-size="14.00">+</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3597.5,-3322.49 3673.5,-3322.49 "/>
-<text text-anchor="middle" x="3635.5" y="-3307.29" font-family="Times,serif" font-size="14.00">_</text>
-<polyline fill="none" stroke="black" stroke-width="2" points="3597.5,-3299.49 3673.5,-3299.49 "/>
-<text text-anchor="middle" x="3635.5" y="-3283.79" font-family="Times,serif" font-size="14.00">&#45;</text>
-</g>
 <!-- razor_pdm -->
-<g id="node32" class="node">
+<g id="node10" class="node">
 <title>razor_pdm</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="1683.5,-2363.99 1683.5,-3031.99 1811.5,-3031.99 1811.5,-2363.99 1683.5,-2363.99"/>
 <text text-anchor="middle" x="1747.5" y="-3016.79" font-family="Times,serif" font-size="14.00">razor_pdm</text>
@@ -1375,17 +559,6 @@
 <polyline fill="none" stroke="black" stroke-width="2" points="1683.5,-2387.99 1811.5,-2387.99 "/>
 <text text-anchor="middle" x="1747.5" y="-2372.29" font-family="Times,serif" font-size="14.00">PWROUT4b</text>
 </g>
-<!-- razor_pdm&#45;&#45;coil -->
-<g id="edge64" class="edge">
-<title>razor_pdm:PWROUT3a&#45;&#45;coil:Ubatt</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2810.99C2080.39,-2813.58 1762.79,-1792.68 1960.64,-1606.53 2046.27,-1528.1 2386.07,-1647.9 2474.78,-1578.41 2536.37,-1533.79 2468.67,-1464.39 2528.72,-1411.45 2629.74,-1330.04 2716.94,-1453.84 2813.75,-1373.43 2867.82,-1332.83 2811.62,-1270.83 2867.81,-1226.42 2957.26,-1161.19 3280.66,-1273.3 3357.62,-1198.58 3438.99,-1122.67 3326.99,-770.24 3411.66,-692.54 3561.51,-560.39 3664.01,-661.75 3858.31,-692.05 4631.92,-815.41 4751.32,-1235.48 5531,-1234.03"/>
-<path fill="none" stroke="red" stroke-width="2.5" d="M1812.5,-2812.99C2082.3,-2812.99 1764.7,-1792.09 1962,-1607.99 2045.6,-1529.99 2385.4,-1649.79 2476,-1579.99 2537.8,-1532.39 2470.1,-1462.99 2530,-1412.99 2628.1,-1331.19 2715.3,-1454.99 2815,-1374.99 2869.3,-1331.49 2813.1,-1269.49 2869,-1228.03 2956.6,-1163.08 3280,-1275.19 3359,-1200.03 3440.9,-1122.06 3328.9,-769.63 3413,-694.03 3560.1,-561.81 3662.6,-663.17 3858,-694.03 4630,-815.96 4749.4,-1236.03 5531,-1236.03"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2814.99C2084.21,-2812.4 1766.61,-1791.5 1963.36,-1609.45 2044.93,-1531.88 2384.73,-1651.68 2477.22,-1581.57 2539.23,-1530.99 2471.53,-1461.59 2531.28,-1414.53 2626.46,-1332.34 2713.66,-1456.14 2816.25,-1376.55 2870.78,-1330.15 2814.58,-1268.15 2870.19,-1229.64 2955.94,-1164.97 3279.34,-1277.08 3360.38,-1201.48 3442.81,-1121.45 3330.81,-769.02 3414.34,-695.52 3558.69,-563.23 3661.19,-664.59 3857.69,-696.01 4628.08,-816.51 4747.48,-1236.58 5531,-1238.03"/>
-<g id="a_edge64&#45;label"><a xlink:title="razor_pdm:PWROUT3a&lt;red&gt;coil:Ubatt">
-<text text-anchor="middle" x="3635.5" y="-697.83" font-family="Times,serif" font-size="14.00">razor_pdm:PWROUT3a&lt;red&gt;coil:Ubatt</text>
-</a>
-</g>
-</g>
 <!-- razor_pdm&#45;&#45;usb_hub -->
 <g id="edge65" class="edge">
 <title>razor_pdm:ADIO7&#45;&#45;usb_hub:+</title>
@@ -1397,8 +570,19 @@
 </a>
 </g>
 </g>
+<!-- razor_pdm&#45;&#45;coil -->
+<g id="edge64" class="edge">
+<title>razor_pdm:PWROUT3a&#45;&#45;coil:Ubatt</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2810.99C2080.39,-2813.58 1762.79,-1792.68 1960.64,-1606.53 2046.27,-1528.1 2386.07,-1647.9 2474.78,-1578.41 2536.37,-1533.79 2468.67,-1464.39 2528.72,-1411.45 2629.74,-1330.04 2716.94,-1453.84 2813.75,-1373.43 2867.82,-1332.83 2811.62,-1270.83 2867.81,-1226.42 2957.26,-1161.19 3280.66,-1273.3 3357.62,-1198.58 3438.99,-1122.67 3326.99,-770.24 3411.66,-692.54 3561.51,-560.39 3664.01,-661.75 3858.31,-692.05 4631.92,-815.41 4751.32,-1235.48 5531,-1234.03"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M1812.5,-2812.99C2082.3,-2812.99 1764.7,-1792.09 1962,-1607.99 2045.6,-1529.99 2385.4,-1649.79 2476,-1579.99 2537.8,-1532.39 2470.1,-1462.99 2530,-1412.99 2628.1,-1331.19 2715.3,-1454.99 2815,-1374.99 2869.3,-1331.49 2813.1,-1269.49 2869,-1228.03 2956.6,-1163.08 3280,-1275.19 3359,-1200.03 3440.9,-1122.06 3328.9,-769.63 3413,-694.03 3560.1,-561.81 3662.6,-663.17 3858,-694.03 4630,-815.96 4749.4,-1236.03 5531,-1236.03"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2814.99C2084.21,-2812.4 1766.61,-1791.5 1963.36,-1609.45 2044.93,-1531.88 2384.73,-1651.68 2477.22,-1581.57 2539.23,-1530.99 2471.53,-1461.59 2531.28,-1414.53 2626.46,-1332.34 2713.66,-1456.14 2816.25,-1376.55 2870.78,-1330.15 2814.58,-1268.15 2870.19,-1229.64 2955.94,-1164.97 3279.34,-1277.08 3360.38,-1201.48 3442.81,-1121.45 3330.81,-769.02 3414.34,-695.52 3558.69,-563.23 3661.19,-664.59 3857.69,-696.01 4628.08,-816.51 4747.48,-1236.58 5531,-1238.03"/>
+<g id="a_edge64&#45;label"><a xlink:title="razor_pdm:PWROUT3a&lt;red&gt;coil:Ubatt">
+<text text-anchor="middle" x="3635.5" y="-697.83" font-family="Times,serif" font-size="14.00">razor_pdm:PWROUT3a&lt;red&gt;coil:Ubatt</text>
+</a>
+</g>
+</g>
 <!-- link_ecu_a -->
-<g id="node33" class="node">
+<g id="node11" class="node">
 <title>link_ecu_a</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="2625,-2245.99 2625,-3051.99 2720,-3051.99 2720,-2245.99 2625,-2245.99"/>
 <text text-anchor="middle" x="2672.5" y="-3036.79" font-family="Times,serif" font-size="14.00">link_ecu_a</text>
@@ -1472,18 +656,18 @@
 <text text-anchor="middle" x="2672.5" y="-2254.29" font-family="Times,serif" font-size="14.00">Ground2</text>
 </g>
 <!-- razor_pdm&#45;&#45;link_ecu_a -->
-<g id="edge46" class="edge">
+<g id="edge4" class="edge">
 <title>razor_pdm:PWROUT2a&#45;&#45;link_ecu_a:+14V</title>
 <path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2948.99C2172.54,-2949.07 2262.34,-2923.07 2623.5,-2922.99"/>
 <path fill="none" stroke="red" stroke-width="2.5" d="M1812.5,-2950.99C2173.1,-2950.99 2262.9,-2924.99 2623.5,-2924.99"/>
 <path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2952.99C2173.66,-2952.91 2263.46,-2926.91 2623.5,-2926.99"/>
-<g id="a_edge46&#45;label"><a xlink:title="razor_pdm:PWROUT2a&lt;red&gt;link_ecu_a:+14V">
+<g id="a_edge4&#45;label"><a xlink:title="razor_pdm:PWROUT2a&lt;red&gt;link_ecu_a:+14V">
 <text text-anchor="middle" x="2219" y="-2952.79" font-family="Times,serif" font-size="14.00">razor_pdm:PWROUT2a&lt;red&gt;link_ecu_a:+14V</text>
 </a>
 </g>
 </g>
 <!-- link_ecu_b -->
-<g id="node34" class="node">
+<g id="node12" class="node">
 <title>link_ecu_b</title>
 <polygon fill="none" stroke="black" stroke-width="2" points="2613,-1421.99 2613,-2227.99 2732,-2227.99 2732,-1421.99 2613,-1421.99"/>
 <text text-anchor="middle" x="2672.5" y="-2212.79" font-family="Times,serif" font-size="14.00">link_ecu_b</text>
@@ -1557,38 +741,38 @@
 <text text-anchor="middle" x="2672.5" y="-1430.29" font-family="Times,serif" font-size="14.00">Ground2</text>
 </g>
 <!-- razor_pdm&#45;&#45;link_ecu_b -->
-<g id="edge47" class="edge">
+<g id="edge5" class="edge">
 <title>razor_pdm:PWROUT2b&#45;&#45;link_ecu_b:+14V Aux9/10</title>
 <path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2787.99C1956.52,-2790.91 1861.12,-2605.81 1960.53,-2496.63 1968.15,-2488.59 2599.85,-2099.29 2611.5,-2098.99"/>
 <path fill="none" stroke="red" stroke-width="2.5" d="M1812.5,-2789.99C1958.3,-2789.99 1862.9,-2604.89 1962,-2497.99 1969.2,-2490.29 2600.9,-2100.99 2611.5,-2100.99"/>
 <path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2791.99C1960.08,-2789.07 1864.68,-2603.97 1963.47,-2499.35 1970.25,-2491.99 2601.95,-2102.69 2611.5,-2102.99"/>
-<g id="a_edge47&#45;label"><a xlink:title="razor_pdm:PWROUT2b&lt;red&gt;link_ecu_b:+14V Aux9/10">
+<g id="a_edge5&#45;label"><a xlink:title="razor_pdm:PWROUT2b&lt;red&gt;link_ecu_b:+14V Aux9/10">
 <text text-anchor="middle" x="2219" y="-2501.79" font-family="Times,serif" font-size="14.00">razor_pdm:PWROUT2b&lt;red&gt;link_ecu_b:+14V Aux9/10</text>
 </a>
 </g>
 </g>
 <!-- razor_pdm&#45;&#45;link_ecu_b -->
-<g id="edge48" class="edge">
+<g id="edge6" class="edge">
 <title>razor_pdm:CANH&#45;&#45;link_ecu_b:DI10/CAN2H</title>
 <path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2900.99C2152.45,-2901.91 2282.35,-2794.21 2472.68,-2510.76 2587.12,-2342.86 2401.42,-1595.96 2611.5,-1590.99"/>
 <path fill="none" stroke="grey" stroke-width="2.5" d="M1812.5,-2902.99C2153.72,-2903.45 2283.62,-2795.75 2474.34,-2511.87 2589.06,-2342.37 2403.36,-1595.47 2611.5,-1592.99"/>
 <path fill="none" stroke="violet" stroke-width="2.5" d="M1812.5,-2904.99C2155,-2904.99 2284.9,-2797.29 2476,-2512.99 2591,-2341.89 2405.3,-1594.99 2611.5,-1594.99"/>
 <path fill="none" stroke="grey" stroke-width="2.5" d="M1812.5,-2906.99C2156.28,-2906.53 2286.18,-2798.83 2477.66,-2514.11 2592.94,-2341.41 2407.24,-1594.51 2611.5,-1596.99"/>
 <path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2908.99C2157.55,-2908.07 2287.45,-2800.37 2479.32,-2515.22 2594.88,-2340.92 2409.18,-1594.02 2611.5,-1598.99"/>
-<g id="a_edge48&#45;label"><a xlink:title="razor_pdm:CANH&lt;grey:violet&gt;link_ecu_b:DI10/CAN2H">
+<g id="a_edge6&#45;label"><a xlink:title="razor_pdm:CANH&lt;grey:violet&gt;link_ecu_b:DI10/CAN2H">
 <text text-anchor="middle" x="2219" y="-2897.79" font-family="Times,serif" font-size="14.00">razor_pdm:CANH&lt;grey:violet&gt;link_ecu_b:DI10/CAN2H</text>
 </a>
 </g>
 </g>
 <!-- razor_pdm&#45;&#45;link_ecu_b -->
-<g id="edge49" class="edge">
+<g id="edge7" class="edge">
 <title>razor_pdm:CANL&#45;&#45;link_ecu_b:DI9/CAN2L</title>
 <path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2739.99C2074.62,-2746.42 1786.62,-2370.32 1958.96,-2163.39 2126.32,-1973.38 2307.72,-2120.28 2473.09,-1939.25 2592.76,-1816.79 2433.06,-1574.19 2611.5,-1567.99"/>
 <path fill="none" stroke="grey" stroke-width="2.5" d="M1812.5,-2741.99C2076.21,-2745.21 1788.21,-2369.11 1960.48,-2164.69 2125.06,-1974.94 2306.46,-2121.84 2474.54,-1940.62 2594.43,-1815.69 2434.73,-1573.09 2611.5,-1569.99"/>
 <path fill="none" stroke="white" stroke-width="2.5" d="M1812.5,-2743.99C2077.8,-2743.99 1789.8,-2367.89 1962,-2165.99 2123.8,-1976.49 2305.2,-2123.39 2476,-1941.99 2596.1,-1814.59 2436.4,-1571.99 2611.5,-1571.99"/>
 <path fill="none" stroke="grey" stroke-width="2.5" d="M1812.5,-2745.99C2079.39,-2742.77 1791.39,-2366.67 1963.52,-2167.29 2122.54,-1978.04 2303.94,-2124.94 2477.46,-1943.36 2597.77,-1813.49 2438.07,-1570.89 2611.5,-1573.99"/>
 <path fill="none" stroke="black" stroke-width="2.5" d="M1812.5,-2747.99C2080.98,-2741.56 1792.98,-2365.46 1965.04,-2168.59 2121.28,-1979.6 2302.68,-2126.5 2478.91,-1944.73 2599.44,-1812.39 2439.74,-1569.79 2611.5,-1575.99"/>
-<g id="a_edge49&#45;label"><a xlink:title="razor_pdm:CANL&lt;grey:white&gt;link_ecu_b:DI9/CAN2L">
+<g id="a_edge7&#45;label"><a xlink:title="razor_pdm:CANL&lt;grey:white&gt;link_ecu_b:DI9/CAN2L">
 <text text-anchor="middle" x="2219" y="-2169.79" font-family="Times,serif" font-size="14.00">razor_pdm:CANL&lt;grey:white&gt;link_ecu_b:DI9/CAN2L</text>
 </a>
 </g>
@@ -2605,6 +1789,822 @@
 </a>
 </g>
 </g>
+<!-- deutsch_engine_connector -->
+<g id="node13" class="node">
+<title>deutsch_engine_connector</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="4501,-1748.49 4501,-2853.49 4706,-2853.49 4706,-1748.49 4501,-1748.49"/>
+<text text-anchor="middle" x="4603.5" y="-2838.29" font-family="Times,serif" font-size="14.00">deutsch_engine_connector</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2830.49 4706,-2830.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2815.29" font-family="Times,serif" font-size="14.00">1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2807.49 4706,-2807.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2792.29" font-family="Times,serif" font-size="14.00">2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2784.49 4706,-2784.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2769.29" font-family="Times,serif" font-size="14.00">3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2761.49 4706,-2761.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2746.29" font-family="Times,serif" font-size="14.00">4</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2738.49 4706,-2738.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2723.29" font-family="Times,serif" font-size="14.00">5</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2715.49 4706,-2715.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2700.29" font-family="Times,serif" font-size="14.00">6</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2692.49 4706,-2692.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2677.29" font-family="Times,serif" font-size="14.00">7</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2669.49 4706,-2669.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2654.29" font-family="Times,serif" font-size="14.00">8</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2646.49 4706,-2646.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2631.29" font-family="Times,serif" font-size="14.00">9</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2623.49 4706,-2623.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2608.29" font-family="Times,serif" font-size="14.00">10</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2600.49 4706,-2600.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2585.29" font-family="Times,serif" font-size="14.00">11</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2577.49 4706,-2577.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2562.29" font-family="Times,serif" font-size="14.00">12</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2554.49 4706,-2554.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2539.29" font-family="Times,serif" font-size="14.00">13</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2531.49 4706,-2531.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2516.29" font-family="Times,serif" font-size="14.00">14</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2508.49 4706,-2508.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2493.29" font-family="Times,serif" font-size="14.00">15</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2485.49 4706,-2485.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2470.29" font-family="Times,serif" font-size="14.00">16</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2462.49 4706,-2462.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2447.29" font-family="Times,serif" font-size="14.00">17</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2439.49 4706,-2439.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2424.29" font-family="Times,serif" font-size="14.00">18</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2416.49 4706,-2416.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2401.29" font-family="Times,serif" font-size="14.00">19</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2393.49 4706,-2393.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2378.29" font-family="Times,serif" font-size="14.00">20</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2370.49 4706,-2370.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2355.29" font-family="Times,serif" font-size="14.00">21</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2347.49 4706,-2347.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2332.29" font-family="Times,serif" font-size="14.00">22</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2324.49 4706,-2324.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2309.29" font-family="Times,serif" font-size="14.00">23</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2301.49 4706,-2301.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2286.29" font-family="Times,serif" font-size="14.00">24</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2278.49 4706,-2278.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2263.29" font-family="Times,serif" font-size="14.00">25</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2255.49 4706,-2255.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2240.29" font-family="Times,serif" font-size="14.00">26</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2232.49 4706,-2232.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2217.29" font-family="Times,serif" font-size="14.00">27</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2209.49 4706,-2209.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2194.29" font-family="Times,serif" font-size="14.00">28</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2186.49 4706,-2186.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2171.29" font-family="Times,serif" font-size="14.00">29</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2163.49 4706,-2163.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2148.29" font-family="Times,serif" font-size="14.00">30</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2140.49 4706,-2140.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2125.29" font-family="Times,serif" font-size="14.00">31</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2117.49 4706,-2117.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2102.29" font-family="Times,serif" font-size="14.00">32</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2094.49 4706,-2094.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2079.29" font-family="Times,serif" font-size="14.00">33</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2071.49 4706,-2071.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2056.29" font-family="Times,serif" font-size="14.00">34</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2048.49 4706,-2048.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2033.29" font-family="Times,serif" font-size="14.00">35</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2025.49 4706,-2025.49 "/>
+<text text-anchor="middle" x="4603.5" y="-2010.29" font-family="Times,serif" font-size="14.00">36</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-2002.49 4706,-2002.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1987.29" font-family="Times,serif" font-size="14.00">37</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1979.49 4706,-1979.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1964.29" font-family="Times,serif" font-size="14.00">38</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1956.49 4706,-1956.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1941.29" font-family="Times,serif" font-size="14.00">39</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1933.49 4706,-1933.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1918.29" font-family="Times,serif" font-size="14.00">40</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1910.49 4706,-1910.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1895.29" font-family="Times,serif" font-size="14.00">41</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1887.49 4706,-1887.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1872.29" font-family="Times,serif" font-size="14.00">42</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1864.49 4706,-1864.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1849.29" font-family="Times,serif" font-size="14.00">43</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1841.49 4706,-1841.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1826.29" font-family="Times,serif" font-size="14.00">44</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1818.49 4706,-1818.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1803.29" font-family="Times,serif" font-size="14.00">45</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1795.49 4706,-1795.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1780.29" font-family="Times,serif" font-size="14.00">46</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="4501,-1772.49 4706,-1772.49 "/>
+<text text-anchor="middle" x="4603.5" y="-1756.79" font-family="Times,serif" font-size="14.00">47</text>
+</g>
+<!-- engine_ground -->
+<g id="node14" class="node">
+<title>engine_ground</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="6250,-1996.49 6250,-2043.49 6372,-2043.49 6372,-1996.49 6250,-1996.49"/>
+<text text-anchor="middle" x="6311" y="-2028.29" font-family="Times,serif" font-size="14.00">engine_ground</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="6250,-2020.49 6372,-2020.49 "/>
+<text text-anchor="middle" x="6311" y="-2004.79" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;engine_ground -->
+<g id="edge8" class="edge">
+<title>deutsch_engine_connector:34&#45;&#45;engine_ground:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2056.99C4834.28,-2060.29 4658.78,-1856.39 4758.72,-1770.45 4773.3,-1758.89 5992.4,-1756.49 6008.48,-1765.25"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2058.99C4835.8,-2058.99 4660.3,-1855.09 4760,-1771.99 4773.3,-1760.89 5992.4,-1758.49 6007.5,-1766.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2060.99C4837.32,-2057.69 4661.82,-1853.79 4761.28,-1773.53 4773.3,-1762.89 5992.4,-1760.49 6006.52,-1768.73"/>
+<g id="a_edge8&#45;label"><a xlink:title="deutsch_engine_connector:34&lt;black&gt;engine_ground:Gnd">
+<text text-anchor="middle" x="5561" y="-1765.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:34&lt;black&gt;engine_ground:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;engine_ground -->
+<g id="edge9" class="edge">
+<title>deutsch_engine_connector:18&#45;&#45;engine_ground:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2425.99C4747.86,-2428.74 4726.26,-2482.44 4760.92,-2498.21 4859.51,-2549.29 5663.81,-2555.19 5766.23,-2512.14 5905.6,-2455.91 5862.3,-2322.21 6006.82,-2268.11"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2427.99C4746,-2427.99 4724.4,-2481.69 4760,-2499.99 4859.5,-2551.29 5663.8,-2557.19 5767,-2513.99 5907.5,-2455.29 5864.2,-2321.59 6007.5,-2269.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2429.99C4744.14,-2427.24 4722.54,-2480.94 4759.08,-2501.77 4859.49,-2553.29 5663.79,-2559.19 5767.77,-2515.84 5909.4,-2454.67 5866.1,-2320.97 6008.18,-2271.87"/>
+<g id="a_edge9&#45;label"><a xlink:title="deutsch_engine_connector:18&lt;black&gt;engine_ground:Gnd">
+<text text-anchor="middle" x="5561" y="-2545.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:18&lt;black&gt;engine_ground:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;engine_ground -->
+<g id="edge10" class="edge">
+<title>deutsch_engine_connector:19&#45;&#45;engine_ground:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2402.99C4742.22,-2405.54 4730.42,-2447.14 4760.79,-2458.15 4862.9,-2501.99 5661.7,-2503.79 5766.32,-2466.11 5895.34,-2421.67 5875.24,-2317.17 6006.82,-2268.11"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2404.99C4740.3,-2404.99 4728.5,-2446.59 4760,-2459.99 4862.9,-2503.99 5661.7,-2505.79 5767,-2467.99 5897.3,-2421.29 5877.2,-2316.79 6007.5,-2269.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2406.99C4738.38,-2404.44 4726.58,-2446.04 4759.21,-2461.83 4862.9,-2505.99 5661.7,-2507.79 5767.68,-2469.87 5899.26,-2420.91 5879.16,-2316.41 6008.18,-2271.87"/>
+<g id="a_edge10&#45;label"><a xlink:title="deutsch_engine_connector:19&lt;black&gt;engine_ground:Gnd">
+<text text-anchor="middle" x="5561" y="-2497.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:19&lt;black&gt;engine_ground:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;engine_ground -->
+<g id="edge11" class="edge">
+<title>deutsch_engine_connector:30&#45;&#45;engine_ground:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2148.99C4755.14,-2151.94 4714.54,-2077.14 4758.97,-2048.27 4856.05,-1990.49 5662.75,-2012.59 5767.72,-2053.13 5902.68,-2107.15 5874.48,-2318.65 6006.83,-2268.11"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2150.99C4756.9,-2150.99 4716.3,-2076.19 4760,-2049.99 4856,-1992.49 5662.7,-2014.59 5767,-2054.99 5900.7,-2106.89 5872.5,-2318.39 6007.5,-2269.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2152.99C4758.66,-2150.04 4718.06,-2075.24 4761.03,-2051.71 4855.95,-1994.49 5662.65,-2016.59 5766.28,-2056.85 5898.72,-2106.63 5870.52,-2318.13 6008.17,-2271.87"/>
+<g id="a_edge11&#45;label"><a xlink:title="deutsch_engine_connector:30&lt;black&gt;engine_ground:Gnd">
+<text text-anchor="middle" x="5561" y="-2058.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:30&lt;black&gt;engine_ground:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;engine_ground -->
+<g id="edge12" class="edge">
+<title>deutsch_engine_connector:31&#45;&#45;engine_ground:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M6008.82,-2268.11C6081.82,-2242.49 6168.72,-2008.29 6249.47,-2005.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2125.99C4761.58,-2129.02 4710.38,-2043.42 4758.9,-2009.32 4783.38,-1993.69 5741.48,-1984.49 5767.82,-1996.17 5916.05,-2064.73 5857.65,-2325.33 6006.82,-2268.11"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M6009.5,-2269.99C6083.7,-2243.19 6170.6,-2008.99 6249.5,-2007.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2127.99C4763.3,-2127.99 4712.1,-2042.39 4760,-2010.99 4783.4,-1995.69 5741.5,-1986.49 5767,-1997.99 5914.1,-2064.29 5855.7,-2324.89 6007.5,-2269.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M6010.18,-2271.87C6085.58,-2243.89 6172.48,-2009.69 6249.53,-2009.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2129.99C4765.02,-2126.96 4713.82,-2041.36 4761.1,-2012.66 4783.42,-1997.69 5741.52,-1988.49 5766.18,-1999.81 5912.15,-2063.85 5853.75,-2324.45 6008.18,-2271.87"/>
+<g id="a_edge12&#45;label"><a xlink:title="deutsch_engine_connector:31&lt;black&gt;engine_ground:Gnd">
+<text text-anchor="middle" x="5561" y="-2001.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:31&lt;black&gt;engine_ground:Gnd</text>
+</a>
+</g>
+</g>
+<!-- tps -->
+<g id="node15" class="node">
+<title>tps</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5528,-2709.49 5528,-2802.49 5594,-2802.49 5594,-2709.49 5528,-2709.49"/>
+<text text-anchor="middle" x="5561" y="-2787.29" font-family="Times,serif" font-size="14.00">tps</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5528,-2779.49 5594,-2779.49 "/>
+<text text-anchor="middle" x="5561" y="-2764.29" font-family="Times,serif" font-size="14.00">5v</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5528,-2756.49 5594,-2756.49 "/>
+<text text-anchor="middle" x="5561" y="-2741.29" font-family="Times,serif" font-size="14.00">Sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5528,-2733.49 5594,-2733.49 "/>
+<text text-anchor="middle" x="5561" y="-2717.79" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;tps -->
+<g id="edge13" class="edge">
+<title>deutsch_engine_connector:15&#45;&#45;tps:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2494.99C4771.88,-2498.08 4709.28,-2594.98 4761.16,-2629.36 4808.95,-2663.8 5244.85,-2631 5301.73,-2653.13 5332.26,-2666.97 5328.06,-2688.87 5355.8,-2699.16 5424.79,-2729.96 5449.19,-2719.16 5527,-2718.99"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2496.99C4770.2,-2496.99 4707.6,-2593.89 4760,-2630.99 4809.1,-2665.79 5245,-2632.99 5301,-2654.99 5330.3,-2666.59 5326.1,-2688.49 5355,-2700.99 5425.6,-2731.79 5450,-2720.99 5527,-2720.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2498.99C4768.52,-2495.9 4705.92,-2592.8 4758.84,-2632.62 4809.25,-2667.78 5245.15,-2634.98 5300.27,-2656.85 5328.34,-2666.21 5324.14,-2688.11 5354.2,-2702.82 5426.41,-2733.62 5450.81,-2722.82 5527,-2722.99"/>
+<g id="a_edge13&#45;label"><a xlink:title="deutsch_engine_connector:15&lt;green&gt;tps:Gnd">
+<text text-anchor="middle" x="5030.5" y="-2658.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:15&lt;green&gt;tps:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;tps -->
+<g id="edge14" class="edge">
+<title>deutsch_engine_connector:13&#45;&#45;tps:Sensor</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2538.99C4786.45,-2545.32 4701.75,-2663.72 4762.42,-2704.8 4784.03,-2722.19 5271.03,-2725.49 5301.2,-2727 5402.71,-2732.28 5427.61,-2740.18 5527,-2739.99"/>
+<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2540.99C4784.83,-2544.15 4700.13,-2662.55 4761.21,-2706.4 4784.01,-2724.19 5271.01,-2727.49 5301.1,-2728.99 5402.1,-2734.18 5427,-2742.08 5527,-2741.99"/>
+<path fill="none" stroke="blue" stroke-width="2.5" d="M4706,-2542.99C4783.2,-2542.99 4698.5,-2661.39 4760,-2707.99 4784,-2726.19 5271,-2729.49 5301,-2730.99 5401.5,-2736.09 5426.4,-2743.99 5527,-2743.99"/>
+<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2544.99C4781.57,-2541.83 4696.87,-2660.23 4758.79,-2709.58 4783.99,-2728.19 5270.99,-2731.49 5300.9,-2732.99 5400.9,-2738 5425.8,-2745.9 5527,-2745.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2546.99C4779.95,-2540.66 4695.25,-2659.06 4757.58,-2711.18 4783.97,-2730.19 5270.97,-2733.49 5300.8,-2734.98 5400.29,-2739.9 5425.19,-2747.8 5527,-2747.99"/>
+<g id="a_edge14&#45;label"><a xlink:title="deutsch_engine_connector:13&lt;yellow:blue&gt;tps:Sensor">
+<text text-anchor="middle" x="5030.5" y="-2734.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:13&lt;yellow:blue&gt;tps:Sensor</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;tps -->
+<g id="edge15" class="edge">
+<title>deutsch_engine_connector:14&#45;&#45;tps:5v</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2515.99C4780.2,-2522.25 4706.1,-2630.55 4762.36,-2666.76 4808.35,-2701.5 5241.65,-2673.9 5301.74,-2685.06 5409.48,-2707.71 5424.48,-2767.01 5527,-2763.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2517.99C4778.55,-2521.12 4704.45,-2629.42 4761.18,-2668.37 4808.47,-2703.49 5241.77,-2675.89 5301.37,-2687.02 5407.54,-2708.2 5422.54,-2767.5 5527,-2765.99"/>
+<path fill="none" stroke="blue" stroke-width="2.5" d="M4706,-2519.99C4776.9,-2519.99 4702.8,-2628.29 4760,-2669.99 4808.6,-2705.49 5241.9,-2677.89 5301,-2688.99 5405.6,-2708.69 5420.6,-2767.99 5527,-2767.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2521.99C4775.25,-2518.86 4701.15,-2627.16 4758.82,-2671.61 4808.73,-2707.49 5242.03,-2679.89 5300.63,-2690.96 5403.66,-2709.18 5418.66,-2768.48 5527,-2769.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2523.99C4773.6,-2517.73 4699.5,-2626.03 4757.64,-2673.22 4808.85,-2709.48 5242.15,-2681.88 5300.26,-2692.92 5401.72,-2709.67 5416.72,-2768.97 5527,-2771.99"/>
+<g id="a_edge15&#45;label"><a xlink:title="deutsch_engine_connector:14&lt;red:blue&gt;tps:5v">
+<text text-anchor="middle" x="5030.5" y="-2692.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:14&lt;red:blue&gt;tps:5v</text>
+</a>
+</g>
+</g>
+<!-- cam_sensor -->
+<g id="node16" class="node">
+<title>cam_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5511,-2931.49 5511,-3024.49 5611,-3024.49 5611,-2931.49 5511,-2931.49"/>
+<text text-anchor="middle" x="5561" y="-3009.29" font-family="Times,serif" font-size="14.00">cam_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5511,-3001.49 5611,-3001.49 "/>
+<text text-anchor="middle" x="5561" y="-2986.29" font-family="Times,serif" font-size="14.00">5v</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5511,-2978.49 5611,-2978.49 "/>
+<text text-anchor="middle" x="5561" y="-2963.29" font-family="Times,serif" font-size="14.00">Sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5511,-2955.49 5611,-2955.49 "/>
+<text text-anchor="middle" x="5561" y="-2939.79" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;cam_sensor -->
+<g id="edge16" class="edge">
+<title>deutsch_engine_connector:9&#45;&#45;cam_sensor:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2632.99C4810.36,-2636.24 4682.16,-2795.94 4761.27,-2858.45 4806.24,-2896.3 5244.14,-2861 5301.67,-2881.1 5331.19,-2893.19 5329.29,-2912.09 5355.75,-2921.13 5418.85,-2947.07 5439.95,-2941.07 5510,-2940.99"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2634.99C4808.8,-2634.99 4680.6,-2794.69 4760,-2859.99 4806.4,-2898.29 5244.3,-2862.99 5301,-2882.99 5329.2,-2892.99 5327.3,-2911.89 5355,-2922.99 5419.4,-2948.99 5440.5,-2942.99 5510,-2942.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2636.99C4807.24,-2633.74 4679.04,-2793.44 4758.73,-2861.53 4806.56,-2900.28 5244.46,-2864.98 5300.33,-2884.88 5327.21,-2892.79 5325.31,-2911.69 5354.25,-2924.85 5419.95,-2950.91 5441.05,-2944.91 5510,-2944.99"/>
+<g id="a_edge16&#45;label"><a xlink:title="deutsch_engine_connector:9&lt;green&gt;cam_sensor:Gnd">
+<text text-anchor="middle" x="5030.5" y="-2886.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:9&lt;green&gt;cam_sensor:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;cam_sensor -->
+<g id="edge17" class="edge">
+<title>deutsch_engine_connector:7&#45;&#45;cam_sensor:Sensor</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2678.99C4823.34,-2682.27 4673.04,-2862.57 4761.29,-2934.46 4823.62,-2987.79 5426.52,-2963.99 5510,-2963.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2680.99C4821.8,-2680.99 4671.5,-2861.29 4760,-2935.99 4823.7,-2989.79 5426.6,-2965.99 5510,-2965.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2682.99C4820.26,-2679.71 4669.96,-2860.01 4758.71,-2937.52 4823.78,-2991.79 5426.68,-2967.99 5510,-2967.99"/>
+<g id="a_edge17&#45;label"><a xlink:title="deutsch_engine_connector:7&lt;black&gt;cam_sensor:Sensor">
+<text text-anchor="middle" x="5030.5" y="-2974.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:7&lt;black&gt;cam_sensor:Sensor</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;cam_sensor -->
+<g id="edge18" class="edge">
+<title>deutsch_engine_connector:8&#45;&#45;cam_sensor:5v</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2653.99C4818.39,-2660.53 4678.89,-2830.73 4762.55,-2894.91 4783.15,-2913.19 5271.35,-2907.49 5301.74,-2913.06 5401.58,-2934.21 5415.48,-2989.01 5510,-2985.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2655.99C4816.85,-2659.26 4677.35,-2829.46 4761.28,-2896.45 4783.18,-2915.19 5271.38,-2909.49 5301.37,-2915.02 5399.64,-2934.7 5413.54,-2989.5 5510,-2987.99"/>
+<path fill="none" stroke="blue" stroke-width="2.5" d="M4706,-2657.99C4815.3,-2657.99 4675.8,-2828.19 4760,-2897.99 4783.2,-2917.19 5271.4,-2911.49 5301,-2916.99 5397.7,-2935.19 5411.6,-2989.99 5510,-2989.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2659.99C4813.75,-2656.72 4674.25,-2826.92 4758.72,-2899.53 4783.22,-2919.19 5271.42,-2913.49 5300.63,-2918.96 5395.76,-2935.68 5409.66,-2990.48 5510,-2991.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2661.99C4812.21,-2655.45 4672.71,-2825.65 4757.45,-2901.07 4783.25,-2921.19 5271.45,-2915.49 5300.26,-2920.92 5393.82,-2936.17 5407.72,-2990.97 5510,-2993.99"/>
+<g id="a_edge18&#45;label"><a xlink:title="deutsch_engine_connector:8&lt;red:blue&gt;cam_sensor:5v">
+<text text-anchor="middle" x="5030.5" y="-2920.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:8&lt;red:blue&gt;cam_sensor:5v</text>
+</a>
+</g>
+</g>
+<!-- crank_sensor -->
+<g id="node17" class="node">
+<title>crank_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5506,-2820.49 5506,-2913.49 5616,-2913.49 5616,-2820.49 5506,-2820.49"/>
+<text text-anchor="middle" x="5561" y="-2898.29" font-family="Times,serif" font-size="14.00">crank_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5506,-2890.49 5616,-2890.49 "/>
+<text text-anchor="middle" x="5561" y="-2875.29" font-family="Times,serif" font-size="14.00">5v</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5506,-2867.49 5616,-2867.49 "/>
+<text text-anchor="middle" x="5561" y="-2852.29" font-family="Times,serif" font-size="14.00">Sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5506,-2844.49 5616,-2844.49 "/>
+<text text-anchor="middle" x="5561" y="-2828.79" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;crank_sensor -->
+<g id="edge19" class="edge">
+<title>deutsch_engine_connector:12&#45;&#45;crank_sensor:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2563.99C4791.11,-2567.18 4695.71,-2695.98 4761.23,-2744.41 4807.34,-2781 5244.44,-2746 5301.7,-2767.12 5331.68,-2780.07 5328.78,-2800.27 5355.78,-2810.15 5416.31,-2836.48 5437.11,-2830.08 5505,-2829.99"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2565.99C4789.5,-2565.99 4694.1,-2694.79 4760,-2745.99 4807.5,-2782.99 5244.6,-2747.99 5301,-2768.99 5329.7,-2779.79 5326.8,-2799.99 5355,-2811.99 5416.9,-2838.39 5437.7,-2831.99 5505,-2831.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2567.99C4787.89,-2564.8 4692.49,-2693.6 4758.77,-2747.57 4807.66,-2784.98 5244.76,-2749.98 5300.3,-2770.86 5327.72,-2779.51 5324.82,-2799.71 5354.22,-2813.83 5417.49,-2840.3 5438.29,-2833.9 5505,-2833.99"/>
+<g id="a_edge19&#45;label"><a xlink:title="deutsch_engine_connector:12&lt;green&gt;crank_sensor:Gnd">
+<text text-anchor="middle" x="5030.5" y="-2772.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:12&lt;green&gt;crank_sensor:Gnd</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;crank_sensor -->
+<g id="edge20" class="edge">
+<title>deutsch_engine_connector:10&#45;&#45;crank_sensor:Sensor</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2609.99C4803.97,-2613.23 4686.67,-2762.63 4761.26,-2820.44 4783.41,-2838.99 5270.91,-2841.69 5301.09,-2842.99 5392.2,-2847.25 5414.7,-2853.05 5505,-2852.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2611.99C4802.4,-2611.99 4685.1,-2761.39 4760,-2821.99 4783.4,-2840.99 5270.9,-2843.69 5301,-2844.99 5391.7,-2849.19 5414.2,-2854.99 5505,-2854.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2613.99C4800.83,-2610.75 4683.53,-2760.15 4758.74,-2823.54 4783.39,-2842.99 5270.89,-2845.69 5300.91,-2846.99 5391.2,-2851.13 5413.7,-2856.93 5505,-2856.99"/>
+<g id="a_edge20&#45;label"><a xlink:title="deutsch_engine_connector:10&lt;red&gt;crank_sensor:Sensor">
+<text text-anchor="middle" x="5030.5" y="-2848.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:10&lt;red&gt;crank_sensor:Sensor</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;crank_sensor -->
+<g id="edge21" class="edge">
+<title>deutsch_engine_connector:11&#45;&#45;crank_sensor:5v</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2584.99C4799.08,-2591.42 4692.58,-2730.72 4762.48,-2780.85 4783.55,-2798.69 5271.45,-2793.19 5301.78,-2799.07 5399.81,-2821.05 5412.11,-2878.15 5505,-2874.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2586.99C4797.49,-2590.2 4690.99,-2729.5 4761.24,-2782.42 4783.58,-2800.69 5271.48,-2795.19 5301.39,-2801.03 5397.86,-2821.47 5410.16,-2878.57 5505,-2876.99"/>
+<path fill="none" stroke="blue" stroke-width="2.5" d="M4706,-2588.99C4795.9,-2588.99 4689.4,-2728.29 4760,-2783.99 4783.6,-2802.69 5271.5,-2797.19 5301,-2802.99 5395.9,-2821.89 5408.2,-2878.99 5505,-2878.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2590.99C4794.31,-2587.78 4687.81,-2727.08 4758.76,-2785.56 4783.62,-2804.69 5271.52,-2799.19 5300.61,-2804.95 5393.94,-2822.31 5406.24,-2879.41 5505,-2880.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2592.99C4792.72,-2586.56 4686.22,-2725.86 4757.52,-2787.13 4783.65,-2806.69 5271.55,-2801.19 5300.22,-2806.91 5391.99,-2822.73 5404.29,-2879.83 5505,-2882.99"/>
+<g id="a_edge21&#45;label"><a xlink:title="deutsch_engine_connector:11&lt;red:blue&gt;crank_sensor:5v">
+<text text-anchor="middle" x="5030.5" y="-2806.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:11&lt;red:blue&gt;crank_sensor:5v</text>
+</a>
+</g>
+</g>
+<!-- knock1 -->
+<g id="node18" class="node">
+<title>knock1</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5527.5,-2189.49 5527.5,-2282.49 5594.5,-2282.49 5594.5,-2189.49 5527.5,-2189.49"/>
+<text text-anchor="middle" x="5561" y="-2267.29" font-family="Times,serif" font-size="14.00">knock1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2259.49 5594.5,-2259.49 "/>
+<text text-anchor="middle" x="5561" y="-2244.29" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2236.49 5594.5,-2236.49 "/>
+<text text-anchor="middle" x="5561" y="-2221.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2213.49 5594.5,-2213.49 "/>
+<text text-anchor="middle" x="5561" y="-2197.79" font-family="Times,serif" font-size="14.00">Scr</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;knock1 -->
+<g id="edge22" class="edge">
+<title>deutsch_engine_connector:26&#45;&#45;knock1:Scr</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2240.99C4734.73,-2243.33 4729.03,-2210.53 4759.34,-2198.1 4873.75,-2158.41 5181.05,-2197.81 5301,-2197.99 5401.06,-2198.29 5426.06,-2198.99 5526,-2198.99"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2242.99C4736.7,-2242.99 4731,-2210.19 4760,-2199.99 4873.5,-2160.39 5180.8,-2199.79 5301,-2199.99 5401,-2200.29 5426,-2200.99 5526,-2200.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2244.99C4738.67,-2242.65 4732.97,-2209.85 4760.66,-2201.88 4873.25,-2162.37 5180.55,-2201.77 5301,-2201.99 5400.94,-2202.29 5425.94,-2202.99 5526,-2202.99"/>
+<g id="a_edge22&#45;label"><a xlink:title="deutsch_engine_connector:26&lt;green&gt;knock1:Scr">
+<text text-anchor="middle" x="5030.5" y="-2203.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:26&lt;green&gt;knock1:Scr</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;knock1 -->
+<g id="edge23" class="edge">
+<title>deutsch_engine_connector:24&#45;&#45;knock1:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2286.99C5070.07,-2287.17 5160.27,-2246.17 5526,-2245.99"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-2288.99C5070.9,-2288.99 5161.1,-2247.99 5526,-2247.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2290.99C5071.73,-2290.81 5161.93,-2249.81 5526,-2249.99"/>
+<g id="a_edge23&#45;label"><a xlink:title="deutsch_engine_connector:24&lt;white&gt;knock1:Sig+">
+<text text-anchor="middle" x="5030.5" y="-2291.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:24&lt;white&gt;knock1:Sig+</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;knock1 -->
+<g id="edge24" class="edge">
+<title>deutsch_engine_connector:25&#45;&#45;knock1:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2263.99C4731.7,-2266.02 4731.3,-2242.42 4759.47,-2233.06 4842.14,-2210.49 5440.94,-2221.99 5526,-2221.99"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2265.99C4733.7,-2265.99 4733.3,-2242.39 4760,-2234.99 4842.1,-2212.49 5440.9,-2223.99 5526,-2223.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2267.99C4735.7,-2265.96 4735.3,-2242.36 4760.53,-2236.92 4842.06,-2214.49 5440.86,-2225.99 5526,-2225.99"/>
+<g id="a_edge24&#45;label"><a xlink:title="deutsch_engine_connector:25&lt;green&gt;knock1:Sig&#45;">
+<text text-anchor="middle" x="5030.5" y="-2238.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:25&lt;green&gt;knock1:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- knock2 -->
+<g id="node19" class="node">
+<title>knock2</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5527.5,-2078.49 5527.5,-2171.49 5594.5,-2171.49 5594.5,-2078.49 5527.5,-2078.49"/>
+<text text-anchor="middle" x="5561" y="-2156.29" font-family="Times,serif" font-size="14.00">knock2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2148.49 5594.5,-2148.49 "/>
+<text text-anchor="middle" x="5561" y="-2133.29" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2125.49 5594.5,-2125.49 "/>
+<text text-anchor="middle" x="5561" y="-2110.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5527.5,-2102.49 5594.5,-2102.49 "/>
+<text text-anchor="middle" x="5561" y="-2086.79" font-family="Times,serif" font-size="14.00">Scr</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;knock2 -->
+<g id="edge25" class="edge">
+<title>deutsch_engine_connector:29&#45;&#45;knock2:Scr</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2171.99C4750.1,-2174.86 4718.2,-2109.26 4759.02,-2084.24 4908.88,-2000.93 5356.18,-2088.03 5526,-2087.99"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2173.99C4751.9,-2173.99 4720,-2108.39 4760,-2085.99 4908.5,-2002.89 5355.8,-2089.99 5526,-2089.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2175.99C4753.7,-2173.12 4721.8,-2107.52 4760.98,-2087.74 4908.12,-2004.85 5355.42,-2091.95 5526,-2091.99"/>
+<g id="a_edge25&#45;label"><a xlink:title="deutsch_engine_connector:29&lt;green&gt;knock2:Scr">
+<text text-anchor="middle" x="5030.5" y="-2089.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:29&lt;green&gt;knock2:Scr</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;knock2 -->
+<g id="edge26" class="edge">
+<title>deutsch_engine_connector:27&#45;&#45;knock2:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2217.99C4738.98,-2220.56 4726.28,-2177.96 4759.18,-2161.17 4798.77,-2143.59 5483.37,-2134.99 5526,-2134.99"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-2219.99C4740.9,-2219.99 4728.2,-2177.39 4760,-2162.99 4798.8,-2145.59 5483.4,-2136.99 5526,-2136.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2221.99C4742.82,-2219.42 4730.12,-2176.82 4760.82,-2164.81 4798.83,-2147.59 5483.43,-2138.99 5526,-2138.99"/>
+<g id="a_edge26&#45;label"><a xlink:title="deutsch_engine_connector:27&lt;white&gt;knock2:Sig+">
+<text text-anchor="middle" x="5030.5" y="-2166.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:27&lt;white&gt;knock2:Sig+</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;knock2 -->
+<g id="edge27" class="edge">
+<title>deutsch_engine_connector:28&#45;&#45;knock2:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2194.99C4745.56,-2197.77 4721.46,-2140.97 4759.07,-2119.22 4835.5,-2079.59 5441,-2110.99 5526,-2110.99"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2196.99C4747.4,-2196.99 4723.3,-2140.19 4760,-2120.99 4835.4,-2081.59 5440.9,-2112.99 5526,-2112.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2198.99C4749.24,-2196.21 4725.14,-2139.41 4760.93,-2122.76 4835.3,-2083.59 5440.8,-2114.99 5526,-2114.99"/>
+<g id="a_edge27&#45;label"><a xlink:title="deutsch_engine_connector:28&lt;green&gt;knock2:Sig&#45;">
+<text text-anchor="middle" x="5030.5" y="-2124.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:28&lt;green&gt;knock2:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- intake_temp_sensor -->
+<g id="node20" class="node">
+<title>intake_temp_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5482,-2388.99 5482,-2458.99 5640,-2458.99 5640,-2388.99 5482,-2388.99"/>
+<text text-anchor="middle" x="5561" y="-2443.79" font-family="Times,serif" font-size="14.00">intake_temp_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5482,-2435.99 5640,-2435.99 "/>
+<text text-anchor="middle" x="5561" y="-2420.79" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5482,-2412.99 5640,-2412.99 "/>
+<text text-anchor="middle" x="5561" y="-2397.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;intake_temp_sensor -->
+<g id="edge28" class="edge">
+<title>deutsch_engine_connector:21&#45;&#45;intake_temp_sensor:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2356.99C4971.28,-2357.05 5037.08,-2373.15 5301.11,-2387.99 5381.61,-2392.69 5401.51,-2399.09 5481,-2398.99"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2358.99C4970.8,-2358.99 5036.6,-2375.09 5301,-2389.99 5381,-2394.59 5400.9,-2400.99 5481,-2400.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2360.99C4970.32,-2360.93 5036.12,-2377.03 5300.89,-2391.99 5380.39,-2396.49 5400.29,-2402.89 5481,-2402.99"/>
+<g id="a_edge28&#45;label"><a xlink:title="deutsch_engine_connector:21&lt;green&gt;intake_temp_sensor:Sig&#45;">
+<text text-anchor="middle" x="5030.5" y="-2393.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:21&lt;green&gt;intake_temp_sensor:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;intake_temp_sensor -->
+<g id="edge29" class="edge">
+<title>deutsch_engine_connector:20&#45;&#45;intake_temp_sensor:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2377.99C4736.06,-2381.45 4738.46,-2398.95 4760.85,-2401.08 5071.23,-2469.81 5158.43,-2420.51 5481,-2419.99"/>
+<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2379.99C4734.08,-2381.72 4736.48,-2399.22 4760.43,-2403.04 5072.22,-2471.55 5159.42,-2422.25 5481,-2421.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2381.99C4732.1,-2381.99 4734.5,-2399.49 4760,-2404.99 5073.2,-2473.29 5160.4,-2423.99 5481,-2423.99"/>
+<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2383.99C4730.12,-2382.26 4732.52,-2399.76 4759.57,-2406.94 5074.18,-2475.03 5161.38,-2425.73 5481,-2425.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2385.99C4728.14,-2382.53 4730.54,-2400.03 4759.15,-2408.9 5075.17,-2476.77 5162.37,-2427.47 5481,-2427.99"/>
+<g id="a_edge29&#45;label"><a xlink:title="deutsch_engine_connector:20&lt;yellow:red&gt;intake_temp_sensor:Sig+">
+<text text-anchor="middle" x="5030.5" y="-2444.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:20&lt;yellow:red&gt;intake_temp_sensor:Sig+</text>
+</a>
+</g>
+</g>
+<!-- oil_temp_sensor -->
+<g id="node21" class="node">
+<title>oil_temp_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5495.5,-2300.99 5495.5,-2370.99 5626.5,-2370.99 5626.5,-2300.99 5495.5,-2300.99"/>
+<text text-anchor="middle" x="5561" y="-2355.79" font-family="Times,serif" font-size="14.00">oil_temp_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5495.5,-2347.99 5626.5,-2347.99 "/>
+<text text-anchor="middle" x="5561" y="-2332.79" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5495.5,-2324.99 5626.5,-2324.99 "/>
+<text text-anchor="middle" x="5561" y="-2309.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;oil_temp_sensor -->
+<g id="edge30" class="edge">
+<title>deutsch_engine_connector:23&#45;&#45;oil_temp_sensor:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2310.99C5056.2,-2310.99 5143.8,-2310.99 5494,-2310.99"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2312.99C5056.2,-2312.99 5143.8,-2312.99 5494,-2312.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2314.99C5056.2,-2314.99 5143.8,-2314.99 5494,-2314.99"/>
+<g id="a_edge30&#45;label"><a xlink:title="deutsch_engine_connector:23&lt;green&gt;oil_temp_sensor:Sig&#45;">
+<text text-anchor="middle" x="5030.5" y="-2316.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:23&lt;green&gt;oil_temp_sensor:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;oil_temp_sensor -->
+<g id="edge31" class="edge">
+<title>deutsch_engine_connector:22&#45;&#45;oil_temp_sensor:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2331.99C5056.2,-2331.99 5143.8,-2331.99 5494,-2331.99"/>
+<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2333.99C5056.2,-2333.99 5143.8,-2333.99 5494,-2333.99"/>
+<path fill="none" stroke="orange" stroke-width="2.5" d="M4706,-2335.99C5056.2,-2335.99 5143.8,-2335.99 5494,-2335.99"/>
+<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2337.99C5056.2,-2337.99 5143.8,-2337.99 5494,-2337.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2339.99C5056.2,-2339.99 5143.8,-2339.99 5494,-2339.99"/>
+<g id="a_edge31&#45;label"><a xlink:title="deutsch_engine_connector:22&lt;yellow:orange&gt;oil_temp_sensor:Sig+">
+<text text-anchor="middle" x="5030.5" y="-2339.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:22&lt;yellow:orange&gt;oil_temp_sensor:Sig+</text>
+</a>
+</g>
+</g>
+<!-- oil_switch_0.25_bar -->
+<g id="node22" class="node">
+<title>oil_switch_0.25_bar</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5483,-2644.49 5483,-2691.49 5639,-2691.49 5639,-2644.49 5483,-2644.49"/>
+<text text-anchor="middle" x="5561" y="-2676.29" font-family="Times,serif" font-size="14.00">oil_switch_0.25_bar</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5483,-2668.49 5639,-2668.49 "/>
+<text text-anchor="middle" x="5561" y="-2652.79" font-family="Times,serif" font-size="14.00">Switch</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;oil_switch_0.25_bar -->
+<g id="edge32" class="edge">
+<title>deutsch_engine_connector:16&#45;&#45;oil_switch_0.25_bar:Switch</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2469.99C4766.73,-2476.04 4715.93,-2561.14 4762.23,-2587.67 4809.71,-2620.59 5241.81,-2600.09 5301.79,-2612.07 5329.7,-2619.35 5333.8,-2627.85 5356.01,-2632.12 5411.71,-2646.75 5426.31,-2652.25 5482,-2651.99"/>
+<path fill="none" stroke="grey" stroke-width="2.5" d="M4706,-2471.99C4765.02,-2475.02 4714.22,-2560.12 4761.12,-2589.33 4809.81,-2622.59 5241.91,-2602.09 5301.4,-2614.03 5327.9,-2620.22 5332,-2628.72 5355.5,-2634.05 5411.01,-2648.62 5425.61,-2654.12 5482,-2653.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2473.99C4763.3,-2473.99 4712.5,-2559.09 4760,-2590.99 4809.9,-2624.59 5242,-2604.09 5301,-2615.99 5326.1,-2621.09 5330.2,-2629.59 5355,-2635.99 5410.3,-2650.49 5424.9,-2655.99 5482,-2655.99"/>
+<path fill="none" stroke="grey" stroke-width="2.5" d="M4706,-2475.99C4761.58,-2472.96 4710.78,-2558.06 4758.88,-2592.65 4809.99,-2626.59 5242.09,-2606.09 5300.6,-2617.95 5324.3,-2621.96 5328.4,-2630.46 5354.5,-2637.93 5409.59,-2652.36 5424.19,-2657.86 5482,-2657.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2477.99C4759.87,-2471.94 4709.07,-2557.04 4757.77,-2594.31 4810.09,-2628.59 5242.19,-2608.09 5300.21,-2619.91 5322.5,-2622.83 5326.6,-2631.33 5353.99,-2639.86 5408.89,-2654.23 5423.49,-2659.73 5482,-2659.99"/>
+<g id="a_edge32&#45;label"><a xlink:title="deutsch_engine_connector:16&lt;grey:black&gt;oil_switch_0.25_bar:Switch">
+<text text-anchor="middle" x="5030.5" y="-2619.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:16&lt;grey:black&gt;oil_switch_0.25_bar:Switch</text>
+</a>
+</g>
+</g>
+<!-- oil_switch_1.40_bar -->
+<g id="node23" class="node">
+<title>oil_switch_1.40_bar</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5483,-2579.49 5483,-2626.49 5639,-2626.49 5639,-2579.49 5483,-2579.49"/>
+<text text-anchor="middle" x="5561" y="-2611.29" font-family="Times,serif" font-size="14.00">oil_switch_1.40_bar</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5483,-2603.49 5639,-2603.49 "/>
+<text text-anchor="middle" x="5561" y="-2587.79" font-family="Times,serif" font-size="14.00">Switch</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;oil_switch_1.40_bar -->
+<g id="edge33" class="edge">
+<title>deutsch_engine_connector:17&#45;&#45;oil_switch_1.40_bar:Switch</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2446.99C4759.24,-2452.86 4721.34,-2524.56 4762.12,-2545.6 4810.92,-2576.89 5240.82,-2568.09 5301.26,-2572 5383.25,-2577.79 5403.05,-2587.39 5482,-2586.99"/>
+<path fill="none" stroke="grey" stroke-width="2.5" d="M4706,-2448.99C4757.47,-2451.92 4719.57,-2523.62 4761.06,-2547.29 4810.96,-2578.89 5240.86,-2570.09 5301.13,-2573.99 5382.37,-2579.59 5402.17,-2589.19 5482,-2588.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2450.99C4755.7,-2450.99 4717.8,-2522.69 4760,-2548.99 4811,-2580.89 5240.9,-2572.09 5301,-2575.99 5381.5,-2581.39 5401.3,-2590.99 5482,-2590.99"/>
+<path fill="none" stroke="grey" stroke-width="2.5" d="M4706,-2452.99C4753.93,-2450.06 4716.03,-2521.76 4758.94,-2550.69 4811.04,-2582.89 5240.94,-2574.09 5300.87,-2577.99 5380.63,-2583.19 5400.43,-2592.79 5482,-2592.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2454.99C4752.16,-2449.12 4714.26,-2520.82 4757.88,-2552.38 4811.08,-2584.89 5240.98,-2576.09 5300.74,-2579.98 5379.75,-2584.99 5399.55,-2594.59 5482,-2594.99"/>
+<g id="a_edge33&#45;label"><a xlink:title="deutsch_engine_connector:17&lt;grey:brown&gt;oil_switch_1.40_bar:Switch">
+<text text-anchor="middle" x="5030.5" y="-2579.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:17&lt;grey:brown&gt;oil_switch_1.40_bar:Switch</text>
+</a>
+</g>
+</g>
+<!-- idle_stablizer_valve -->
+<g id="node24" class="node">
+<title>idle_stablizer_valve</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5483,-1887.99 5483,-1957.99 5639,-1957.99 5639,-1887.99 5483,-1887.99"/>
+<text text-anchor="middle" x="5561" y="-1942.79" font-family="Times,serif" font-size="14.00">idle_stablizer_valve</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5483,-1934.99 5639,-1934.99 "/>
+<text text-anchor="middle" x="5561" y="-1919.79" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5483,-1911.99 5639,-1911.99 "/>
+<text text-anchor="middle" x="5561" y="-1896.29" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;idle_stablizer_valve -->
+<g id="edge34" class="edge">
+<title>deutsch_engine_connector:32&#45;&#45;idle_stablizer_valve:Pos</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2102.99C4767.31,-2106.07 4707.21,-2011.97 4758.83,-1972.37 4890.6,-1877.9 5321.4,-1921 5482,-1920.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2104.99C4769,-2104.99 4708.9,-2010.89 4760,-1973.99 4890.4,-1879.89 5321.2,-1922.99 5482,-1922.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2106.99C4770.69,-2103.91 4710.59,-2009.81 4761.17,-1975.61 4890.2,-1881.88 5321,-1924.98 5482,-1924.99"/>
+<g id="a_edge34&#45;label"><a xlink:title="deutsch_engine_connector:32&lt;red&gt;idle_stablizer_valve:Pos">
+<text text-anchor="middle" x="5030.5" y="-1977.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:32&lt;red&gt;idle_stablizer_valve:Pos</text>
+</a>
+</g>
+</g>
+<!-- aux_coolant_pump -->
+<g id="node25" class="node">
+<title>aux_coolant_pump</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5487,-1799.99 5487,-1869.99 5635,-1869.99 5635,-1799.99 5487,-1799.99"/>
+<text text-anchor="middle" x="5561" y="-1854.79" font-family="Times,serif" font-size="14.00">aux_coolant_pump</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5487,-1846.99 5635,-1846.99 "/>
+<text text-anchor="middle" x="5561" y="-1831.79" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5487,-1823.99 5635,-1823.99 "/>
+<text text-anchor="middle" x="5561" y="-1808.29" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;aux_coolant_pump -->
+<g id="edge35" class="edge">
+<title>deutsch_engine_connector:33&#45;&#45;aux_coolant_pump:Pos</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2079.99C4791.3,-2083.19 4691.1,-1950.29 4758.73,-1892.44 4791.2,-1866.39 5445.4,-1832.99 5486,-1832.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2081.99C4792.9,-2081.99 4692.7,-1949.09 4760,-1893.99 4791.3,-1868.39 5445.5,-1834.99 5486,-1834.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2083.99C4794.5,-2080.79 4694.3,-1947.89 4761.27,-1895.54 4791.4,-1870.39 5445.6,-1836.99 5486,-1836.99"/>
+<g id="a_edge35&#45;label"><a xlink:title="deutsch_engine_connector:33&lt;red&gt;aux_coolant_pump:Pos">
+<text text-anchor="middle" x="5030.5" y="-1897.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:33&lt;red&gt;aux_coolant_pump:Pos</text>
+</a>
+</g>
+</g>
+<!-- aem_coolant_temp_sensor -->
+<g id="node26" class="node">
+<title>aem_coolant_temp_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5459.5,-1660.99 5459.5,-1730.99 5662.5,-1730.99 5662.5,-1660.99 5459.5,-1660.99"/>
+<text text-anchor="middle" x="5561" y="-1715.79" font-family="Times,serif" font-size="14.00">aem_coolant_temp_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5459.5,-1707.99 5662.5,-1707.99 "/>
+<text text-anchor="middle" x="5561" y="-1692.79" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5459.5,-1684.99 5662.5,-1684.99 "/>
+<text text-anchor="middle" x="5561" y="-1669.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;aem_coolant_temp_sensor -->
+<g id="edge36" class="edge">
+<title>deutsch_engine_connector:36&#45;&#45;aem_coolant_temp_sensor:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2010.99C4845.7,-2014.31 4652.3,-1794.31 4758.68,-1698.49 4818.49,-1646.89 5380.49,-1670.99 5458,-1670.99"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-2012.99C4847.2,-2012.99 4653.8,-1792.99 4760,-1699.99 4818.4,-1648.89 5380.4,-1672.99 5458,-1672.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2014.99C4848.7,-2011.67 4655.3,-1791.67 4761.32,-1701.49 4818.31,-1650.89 5380.31,-1674.99 5458,-1674.99"/>
+<g id="a_edge36&#45;label"><a xlink:title="deutsch_engine_connector:36&lt;white&gt;aem_coolant_temp_sensor:Sig&#45;">
+<text text-anchor="middle" x="5030.5" y="-1703.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:36&lt;white&gt;aem_coolant_temp_sensor:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;aem_coolant_temp_sensor -->
+<g id="edge37" class="edge">
+<title>deutsch_engine_connector:35&#45;&#45;aem_coolant_temp_sensor:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2033.99C4835.19,-2037.3 4660.49,-1834.8 4758.68,-1745.49 4805.26,-1705.19 5241.06,-1718.39 5300.82,-1713 5369.79,-1707.1 5386.49,-1694.4 5458,-1693.99"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-2035.99C4836.7,-2035.99 4662,-1833.49 4760,-1746.99 4805.2,-1707.19 5241,-1720.39 5301,-1714.99 5371,-1708.69 5387.7,-1695.99 5458,-1695.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2037.99C4838.21,-2034.68 4663.51,-1832.18 4761.32,-1748.49 4805.14,-1709.19 5240.94,-1722.39 5301.18,-1716.98 5372.21,-1710.28 5388.91,-1697.58 5458,-1697.99"/>
+<g id="a_edge37&#45;label"><a xlink:title="deutsch_engine_connector:35&lt;white&gt;aem_coolant_temp_sensor:Sig+">
+<text text-anchor="middle" x="5030.5" y="-1750.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:35&lt;white&gt;aem_coolant_temp_sensor:Sig+</text>
+</a>
+</g>
+</g>
+<!-- aem_transmission_temp_sensor -->
+<g id="node27" class="node">
+<title>aem_transmission_temp_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5439.5,-1572.99 5439.5,-1642.99 5682.5,-1642.99 5682.5,-1572.99 5439.5,-1572.99"/>
+<text text-anchor="middle" x="5561" y="-1627.79" font-family="Times,serif" font-size="14.00">aem_transmission_temp_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5439.5,-1619.99 5682.5,-1619.99 "/>
+<text text-anchor="middle" x="5561" y="-1604.79" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5439.5,-1596.99 5682.5,-1596.99 "/>
+<text text-anchor="middle" x="5561" y="-1581.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;aem_transmission_temp_sensor -->
+<g id="edge38" class="edge">
+<title>deutsch_engine_connector:38&#45;&#45;aem_transmission_temp_sensor:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1964.99C4787.58,-1967.55 4695.28,-1650.75 4758.68,-1593.49 4816.75,-1543.3 5362.85,-1583 5438,-1582.99"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-1966.99C4789.5,-1966.99 4697.2,-1650.19 4760,-1594.99 4816.6,-1545.29 5362.7,-1584.99 5438,-1584.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1968.99C4791.42,-1966.43 4699.12,-1649.63 4761.32,-1596.49 4816.45,-1547.28 5362.55,-1586.98 5438,-1586.99"/>
+<g id="a_edge38&#45;label"><a xlink:title="deutsch_engine_connector:38&lt;white&gt;aem_transmission_temp_sensor:Sig&#45;">
+<text text-anchor="middle" x="5030.5" y="-1598.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:38&lt;white&gt;aem_transmission_temp_sensor:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;aem_transmission_temp_sensor -->
+<g id="edge39" class="edge">
+<title>deutsch_engine_connector:37&#45;&#45;aem_transmission_temp_sensor:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1987.99C4780.97,-1990.52 4701.07,-1700.22 4758.66,-1646.51 4787.95,-1620.69 5400.25,-1605.99 5438,-1605.99"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-1989.99C4782.9,-1989.99 4703,-1699.69 4760,-1647.99 4788,-1622.69 5400.3,-1607.99 5438,-1607.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1991.99C4784.83,-1989.46 4704.93,-1699.16 4761.34,-1649.47 4788.05,-1624.69 5400.35,-1609.99 5438,-1609.99"/>
+<g id="a_edge39&#45;label"><a xlink:title="deutsch_engine_connector:37&lt;white&gt;aem_transmission_temp_sensor:Sig+">
+<text text-anchor="middle" x="5030.5" y="-1651.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:37&lt;white&gt;aem_transmission_temp_sensor:Sig+</text>
+</a>
+</g>
+</g>
+<!-- aem_fuel_pressure_sensor -->
+<g id="node28" class="node">
+<title>aem_fuel_pressure_sensor</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5459,-1484.99 5459,-1554.99 5663,-1554.99 5663,-1484.99 5459,-1484.99"/>
+<text text-anchor="middle" x="5561" y="-1539.79" font-family="Times,serif" font-size="14.00">aem_fuel_pressure_sensor</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5459,-1531.99 5663,-1531.99 "/>
+<text text-anchor="middle" x="5561" y="-1516.79" font-family="Times,serif" font-size="14.00">Sig+</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5459,-1508.99 5663,-1508.99 "/>
+<text text-anchor="middle" x="5561" y="-1493.29" font-family="Times,serif" font-size="14.00">Sig&#45;</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;aem_fuel_pressure_sensor -->
+<g id="edge40" class="edge">
+<title>deutsch_engine_connector:40&#45;&#45;aem_fuel_pressure_sensor:Sig&#45;</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1918.99C4796.19,-1921.57 4689.39,-1571.97 4758.67,-1508.5 4817.94,-1456.29 5380.54,-1494.99 5458,-1494.99"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-1920.99C4798.1,-1920.99 4691.3,-1571.39 4760,-1509.99 4817.8,-1458.29 5380.4,-1496.99 5458,-1496.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1922.99C4800.01,-1920.41 4693.21,-1570.81 4761.33,-1511.48 4817.66,-1460.29 5380.26,-1498.99 5458,-1498.99"/>
+<g id="a_edge40&#45;label"><a xlink:title="deutsch_engine_connector:40&lt;white&gt;aem_fuel_pressure_sensor:Sig&#45;">
+<text text-anchor="middle" x="5030.5" y="-1513.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:40&lt;white&gt;aem_fuel_pressure_sensor:Sig&#45;</text>
+</a>
+</g>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;aem_fuel_pressure_sensor -->
+<g id="edge41" class="edge">
+<title>deutsch_engine_connector:39&#45;&#45;aem_fuel_pressure_sensor:Sig+</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1941.99C4792.48,-1944.56 4692.78,-1610.06 4758.65,-1548.51 4767.13,-1541.49 5448.23,-1517.99 5458,-1517.99"/>
+<path fill="none" stroke="white" stroke-width="2.5" d="M4706,-1943.99C4794.4,-1943.99 4694.7,-1609.49 4760,-1549.99 4767.2,-1543.49 5448.3,-1519.99 5458,-1519.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-1945.99C4796.32,-1943.42 4696.62,-1608.92 4761.35,-1551.47 4767.27,-1545.49 5448.37,-1521.99 5458,-1521.99"/>
+<g id="a_edge41&#45;label"><a xlink:title="deutsch_engine_connector:39&lt;white&gt;aem_fuel_pressure_sensor:Sig+">
+<text text-anchor="middle" x="5030.5" y="-1553.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:39&lt;white&gt;aem_fuel_pressure_sensor:Sig+</text>
+</a>
+</g>
+</g>
+<!-- injector1 -->
+<g id="node29" class="node">
+<title>injector1</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3482.99 5521,-3552.99 5601,-3552.99 5601,-3482.99 5521,-3482.99"/>
+<text text-anchor="middle" x="5561" y="-3537.79" font-family="Times,serif" font-size="14.00">injector1</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3529.99 5601,-3529.99 "/>
+<text text-anchor="middle" x="5561" y="-3514.79" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3506.99 5601,-3506.99 "/>
+<text text-anchor="middle" x="5561" y="-3491.29" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;injector1 -->
+<g id="edge42" class="edge">
+<title>deutsch_engine_connector:1&#45;&#45;injector1:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2814.99C4847.18,-2820.31 4666.18,-3339.61 4762.82,-3432.15 4997.79,-3670.75 5178.39,-3492.15 5520,-3490.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2816.99C4845.29,-2819.65 4664.29,-3338.95 4761.41,-3433.57 4999.19,-3672.17 5179.79,-3493.57 5520,-3492.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2818.99C4843.4,-2818.99 4662.4,-3338.29 4760,-3434.99 5000.6,-3673.59 5181.2,-3494.99 5520,-3494.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2820.99C4841.51,-2818.33 4660.51,-3337.63 4758.59,-3436.41 5002.01,-3675.01 5182.61,-3496.41 5520,-3496.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2822.99C4839.62,-2817.67 4658.62,-3336.97 4757.18,-3437.83 5003.41,-3676.43 5184.01,-3497.83 5520,-3498.99"/>
+<g id="a_edge42&#45;label"><a xlink:title="deutsch_engine_connector:1&lt;brown:black&gt;injector1:Gnd">
+<text text-anchor="middle" x="5030.5" y="-3562.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:1&lt;brown:black&gt;injector1:Gnd</text>
+</a>
+</g>
+</g>
+<!-- injector2 -->
+<g id="node30" class="node">
+<title>injector2</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3394.99 5521,-3464.99 5601,-3464.99 5601,-3394.99 5521,-3394.99"/>
+<text text-anchor="middle" x="5561" y="-3449.79" font-family="Times,serif" font-size="14.00">injector2</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3441.99 5601,-3441.99 "/>
+<text text-anchor="middle" x="5561" y="-3426.79" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3418.99 5601,-3418.99 "/>
+<text text-anchor="middle" x="5561" y="-3403.29" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;injector2 -->
+<g id="edge43" class="edge">
+<title>deutsch_engine_connector:2&#45;&#45;injector2:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2793.99C4828.5,-2796.62 4676.3,-3251.62 4761.41,-3334.57 4880.09,-3453.6 5350.19,-3405 5520,-3404.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2795.99C4826.6,-2795.99 4674.4,-3250.99 4760,-3335.99 4880.3,-3455.59 5350.4,-3406.99 5520,-3406.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2797.99C4824.7,-2795.36 4672.5,-3250.36 4758.59,-3337.41 4880.51,-3457.58 5350.61,-3408.98 5520,-3408.99"/>
+<g id="a_edge43&#45;label"><a xlink:title="deutsch_engine_connector:2&lt;brown&gt;injector2:Gnd">
+<text text-anchor="middle" x="5030.5" y="-3419.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:2&lt;brown&gt;injector2:Gnd</text>
+</a>
+</g>
+</g>
+<!-- injector3 -->
+<g id="node31" class="node">
+<title>injector3</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3306.99 5521,-3376.99 5601,-3376.99 5601,-3306.99 5521,-3306.99"/>
+<text text-anchor="middle" x="5561" y="-3361.79" font-family="Times,serif" font-size="14.00">injector3</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3353.99 5601,-3353.99 "/>
+<text text-anchor="middle" x="5561" y="-3338.79" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3330.99 5601,-3330.99 "/>
+<text text-anchor="middle" x="5561" y="-3315.29" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;injector3 -->
+<g id="edge44" class="edge">
+<title>deutsch_engine_connector:3&#45;&#45;injector3:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2768.99C4819.6,-2774.23 4684.7,-3189.13 4762.77,-3261.11 4820.98,-3318.79 5435.28,-3314.99 5520,-3314.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2770.99C4817.7,-2773.61 4682.8,-3188.51 4761.39,-3262.55 4820.99,-3320.79 5435.29,-3316.99 5520,-3316.99"/>
+<path fill="none" stroke="red" stroke-width="2.5" d="M4706,-2772.99C4815.8,-2772.99 4680.9,-3187.89 4760,-3263.99 4821,-3322.79 5435.3,-3318.99 5520,-3318.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2774.99C4813.9,-2772.37 4679,-3187.27 4758.61,-3265.43 4821.01,-3324.79 5435.31,-3320.99 5520,-3320.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2776.99C4812,-2771.75 4677.1,-3186.65 4757.23,-3266.87 4821.02,-3326.79 5435.32,-3322.99 5520,-3322.99"/>
+<g id="a_edge44&#45;label"><a xlink:title="deutsch_engine_connector:3&lt;brown:red&gt;injector3:Gnd">
+<text text-anchor="middle" x="5030.5" y="-3320.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:3&lt;brown:red&gt;injector3:Gnd</text>
+</a>
+</g>
+</g>
+<!-- injector4 -->
+<g id="node32" class="node">
+<title>injector4</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3218.99 5521,-3288.99 5601,-3288.99 5601,-3218.99 5521,-3218.99"/>
+<text text-anchor="middle" x="5561" y="-3273.79" font-family="Times,serif" font-size="14.00">injector4</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3265.99 5601,-3265.99 "/>
+<text text-anchor="middle" x="5561" y="-3250.79" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3242.99 5601,-3242.99 "/>
+<text text-anchor="middle" x="5561" y="-3227.29" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;injector4 -->
+<g id="edge45" class="edge">
+<title>deutsch_engine_connector:4&#45;&#45;injector4:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2745.99C4804.33,-2751.16 4695.33,-3108.06 4762.76,-3169.09 4882.21,-3284.82 5350.11,-3227.02 5520,-3226.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2747.99C4802.41,-2750.57 4693.41,-3107.47 4761.38,-3170.54 4882.45,-3286.81 5350.35,-3229.01 5520,-3228.99"/>
+<path fill="none" stroke="orange" stroke-width="2.5" d="M4706,-2749.99C4800.5,-2749.99 4691.5,-3106.89 4760,-3171.99 4882.7,-3288.79 5350.6,-3230.99 5520,-3230.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2751.99C4798.59,-2749.41 4689.59,-3106.31 4758.62,-3173.44 4882.95,-3290.77 5350.85,-3232.97 5520,-3232.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2753.99C4796.67,-2748.82 4687.67,-3105.72 4757.24,-3174.89 4883.19,-3292.76 5351.09,-3234.96 5520,-3234.99"/>
+<g id="a_edge45&#45;label"><a xlink:title="deutsch_engine_connector:4&lt;brown:orange&gt;injector4:Gnd">
+<text text-anchor="middle" x="5030.5" y="-3248.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:4&lt;brown:orange&gt;injector4:Gnd</text>
+</a>
+</g>
+</g>
+<!-- injector5 -->
+<g id="node33" class="node">
+<title>injector5</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3130.99 5521,-3200.99 5601,-3200.99 5601,-3130.99 5521,-3130.99"/>
+<text text-anchor="middle" x="5561" y="-3185.79" font-family="Times,serif" font-size="14.00">injector5</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3177.99 5601,-3177.99 "/>
+<text text-anchor="middle" x="5561" y="-3162.79" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3154.99 5601,-3154.99 "/>
+<text text-anchor="middle" x="5561" y="-3139.29" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;injector5 -->
+<g id="edge46" class="edge">
+<title>deutsch_engine_connector:5&#45;&#45;injector5:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2722.99C4790.05,-2728.07 4705.05,-3030.47 4762.72,-3081.06 4883.62,-3195.42 5350.12,-3139.02 5520,-3138.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2724.99C4788.13,-2727.53 4703.13,-3029.93 4761.36,-3082.53 4883.86,-3197.4 5350.36,-3141 5520,-3140.99"/>
+<path fill="none" stroke="yellow" stroke-width="2.5" d="M4706,-2726.99C4786.2,-2726.99 4701.2,-3029.39 4760,-3083.99 4884.1,-3199.39 5350.6,-3142.99 5520,-3142.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2728.99C4784.27,-2726.45 4699.27,-3028.85 4758.64,-3085.45 4884.34,-3201.38 5350.84,-3144.98 5520,-3144.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2730.99C4782.35,-2725.91 4697.35,-3028.31 4757.28,-3086.92 4884.58,-3203.36 5351.08,-3146.96 5520,-3146.99"/>
+<g id="a_edge46&#45;label"><a xlink:title="deutsch_engine_connector:5&lt;brown:yellow&gt;injector5:Gnd">
+<text text-anchor="middle" x="5030.5" y="-3159.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:5&lt;brown:yellow&gt;injector5:Gnd</text>
+</a>
+</g>
+</g>
+<!-- injector6 -->
+<g id="node34" class="node">
+<title>injector6</title>
+<polygon fill="none" stroke="black" stroke-width="2" points="5521,-3042.99 5521,-3112.99 5601,-3112.99 5601,-3042.99 5521,-3042.99"/>
+<text text-anchor="middle" x="5561" y="-3097.79" font-family="Times,serif" font-size="14.00">injector6</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3089.99 5601,-3089.99 "/>
+<text text-anchor="middle" x="5561" y="-3074.79" font-family="Times,serif" font-size="14.00">Pos</text>
+<polyline fill="none" stroke="black" stroke-width="2" points="5521,-3066.99 5601,-3066.99 "/>
+<text text-anchor="middle" x="5561" y="-3051.29" font-family="Times,serif" font-size="14.00">Gnd</text>
+</g>
+<!-- deutsch_engine_connector&#45;&#45;injector6 -->
+<g id="edge47" class="edge">
+<title>deutsch_engine_connector:6&#45;&#45;injector6:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2699.99C4838.43,-2706.6 4667.03,-2905.9 4762.68,-2987.02 4885.38,-3099.71 5350.08,-3051.01 5520,-3050.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2701.99C4836.92,-2705.29 4665.52,-2904.59 4761.34,-2988.51 4885.59,-3101.7 5350.29,-3053 5520,-3052.99"/>
+<path fill="none" stroke="green" stroke-width="2.5" d="M4706,-2703.99C4835.4,-2703.99 4664,-2903.29 4760,-2989.99 4885.8,-3103.69 5350.5,-3054.99 5520,-3054.99"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M4706,-2705.99C4833.88,-2702.69 4662.48,-2901.99 4758.66,-2991.47 4886.01,-3105.68 5350.71,-3056.98 5520,-3056.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M4706,-2707.99C4832.37,-2701.38 4660.97,-2900.68 4757.32,-2992.96 4886.22,-3107.67 5350.92,-3058.97 5520,-3058.99"/>
+<g id="a_edge47&#45;label"><a xlink:title="deutsch_engine_connector:6&lt;brown:green&gt;injector6:Gnd">
+<text text-anchor="middle" x="5030.5" y="-3068.79" font-family="Times,serif" font-size="14.00">deutsch_engine_connector:6&lt;brown:green&gt;injector6:Gnd</text>
+</a>
+</g>
+</g>
+<!-- engine_ground&#45;&#45;engine_bay_ground -->
+<g id="edge146" class="edge">
+<title>engine_ground:Gnd&#45;&#45;engine_bay_ground:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M6373,-2005.99C7301.76,-2009.11 5927.56,-4039.11 6853,-4035.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M6373,-2007.99C7300.1,-2007.99 5925.9,-4037.99 6853,-4037.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M6373,-2009.99C7298.44,-2006.87 5924.24,-4036.87 6853,-4039.99"/>
+<g id="a_edge146&#45;label"><a xlink:title="engine_ground:Gnd&lt;black&gt;engine_bay_ground:Gnd">
+<text text-anchor="middle" x="6612.5" y="-4031.79" font-family="Times,serif" font-size="14.00">engine_ground:Gnd&lt;black&gt;engine_bay_ground:Gnd</text>
+</a>
+</g>
+</g>
+<!-- idle_stablizer_valve&#45;&#45;engine_ground -->
+<g id="edge48" class="edge">
+<title>idle_stablizer_valve:Gnd&#45;&#45;engine_ground:Gnd</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M5640,-1897.99C5917.05,-1899.03 5976.45,-2007.03 6250,-2005.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M5640,-1899.99C5915.3,-1899.99 5974.7,-2007.99 6250,-2007.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M5640,-1901.99C5913.55,-1900.95 5972.95,-2008.95 6250,-2009.99"/>
+<g id="a_edge48&#45;label"><a xlink:title="idle_stablizer_valve:Gnd&lt;black&gt;engine_ground:Gnd">
+<text text-anchor="middle" x="6008.5" y="-2009.79" font-family="Times,serif" font-size="14.00">idle_stablizer_valve:Gnd&lt;black&gt;engine_ground:Gnd</text>
+</a>
+</g>
+</g>
+<!-- aux_coolant_pump&#45;&#45;deutsch_engine_connector -->
+<g id="edge49" class="edge">
+<title>aux_coolant_pump:Gnd&#45;&#45;deutsch_engine_connector:34</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M5486,-1813.99C5324.2,-1813.95 4885,-1724.45 4761.26,-1825.54 4678.25,-1890.23 4814.75,-2057.73 4706,-2060.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M5486,-1811.99C5324.6,-1811.99 4885.4,-1722.49 4760,-1823.99 4676.7,-1891.49 4813.2,-2058.99 4706,-2058.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M5486,-1809.99C5325,-1810.03 4885.8,-1720.53 4758.74,-1822.44 4675.15,-1892.75 4811.65,-2060.25 4706,-2056.99"/>
+<g id="a_edge49&#45;label"><a xlink:title="aux_coolant_pump:Gnd&lt;black&gt;deutsch_engine_connector:34">
+<text text-anchor="middle" x="5030.5" y="-1827.79" font-family="Times,serif" font-size="14.00">aux_coolant_pump:Gnd&lt;black&gt;deutsch_engine_connector:34</text>
+</a>
+</g>
+</g>
 <!-- battery -->
 <g id="node35" class="node">
 <title>battery</title>
@@ -2614,6 +2614,17 @@
 <text text-anchor="middle" x="42.5" y="-3130.79" font-family="Times,serif" font-size="14.00">pos</text>
 <polyline fill="none" stroke="black" stroke-width="2" points="8,-3122.99 77,-3122.99 "/>
 <text text-anchor="middle" x="42.5" y="-3107.29" font-family="Times,serif" font-size="14.00">neg</text>
+</g>
+<!-- battery&#45;&#45;razor_pdm -->
+<g id="edge55" class="edge">
+<title>battery:neg&#45;&#45;razor_pdm:neg</title>
+<path fill="none" stroke="black" stroke-width="2.5" d="M77,-3108.99C791.91,-3109.42 965.11,-2972.42 1682.5,-2971.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M77,-3110.99C793.15,-3110.99 966.35,-2973.99 1682.5,-2973.99"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M77,-3112.99C794.39,-3112.56 967.59,-2975.56 1682.5,-2975.99"/>
+<g id="a_edge55&#45;label"><a xlink:title="battery:neg&lt;black&gt;razor_pdm:neg">
+<text text-anchor="middle" x="817" y="-3077.79" font-family="Times,serif" font-size="14.00">battery:neg&lt;black&gt;razor_pdm:neg</text>
+</a>
+</g>
 </g>
 <!-- battery&#45;&#45;engine_ground -->
 <g id="edge56" class="edge">
@@ -2629,17 +2640,6 @@
 <path fill="none" stroke="black" stroke-width="2.5" d="M541.72,-528.61C1219.36,-1.38 1615.76,-415.1 2475.87,-472.03 3095.55,-512.04 3434.95,-202.2 3856.54,-653.4 3974.42,-777.12 3785.52,-1306.92 3910.62,-1428.43 3949.21,-1464.69 5720.71,-1455.49 5766.12,-1477.79 5916.05,-1548.72 5859.85,-1683.22 6006.51,-1768.73"/>
 <g id="a_edge56&#45;label"><a xlink:title="battery:neg&lt;black&gt;engine_ground:Gnd">
 <text text-anchor="middle" x="2672.5" y="-477.83" font-family="Times,serif" font-size="14.00">battery:neg&lt;black&gt;engine_ground:Gnd</text>
-</a>
-</g>
-</g>
-<!-- battery&#45;&#45;razor_pdm -->
-<g id="edge55" class="edge">
-<title>battery:neg&#45;&#45;razor_pdm:neg</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M77,-3108.99C791.91,-3109.42 965.11,-2972.42 1682.5,-2971.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M77,-3110.99C793.15,-3110.99 966.35,-2973.99 1682.5,-2973.99"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M77,-3112.99C794.39,-3112.56 967.59,-2975.56 1682.5,-2975.99"/>
-<g id="a_edge55&#45;label"><a xlink:title="battery:neg&lt;black&gt;razor_pdm:neg">
-<text text-anchor="middle" x="817" y="-3077.79" font-family="Times,serif" font-size="14.00">battery:neg&lt;black&gt;razor_pdm:neg</text>
 </a>
 </g>
 </g>

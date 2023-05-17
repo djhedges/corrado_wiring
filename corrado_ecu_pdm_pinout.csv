@@ -58,7 +58,7 @@ link_ecu_b:Temp4,oil_temp_sensor:Sig+
 razor_pdm:ADIO1,brake_lights:pos
 razor_pdm:ADIO2,idle_stablizer_valve:Pos
 razor_pdm:ADIO3,vapor_purge_valve:Pos
-razor_pdm:ADIO5,aux_coolant_pump:Pos
+razor_pdm:ADIO4,aux_coolant_pump:Pos
 razor_pdm:ADIO6,link_keypad:1
 razor_pdm:ADIO6,traqmate:pos
 razor_pdm:ADIO6,usb_hub:+

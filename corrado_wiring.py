@@ -679,7 +679,7 @@ AddPath((
 
 # Aux Coolant Pump
 AddPath((
-  ('razor_pdm', 'ADIO5'),
+  ('razor_pdm', 'ADIO4'),
   DCP.GetFreePin(),
   DCE.GetFreePin(),
   ('aux_coolant_pump', 'Pos'),

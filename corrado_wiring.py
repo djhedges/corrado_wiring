@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
 # TODOs:
-# Oil pressure sensor
-# Oil pressure switches
+# Oil gauges 
 # Pi
 # Cameras
 # 4G Router
@@ -15,6 +14,7 @@
 # Alternator to Starter (m8) (kill switch?)
 # Alternator one wire sense
 
+import csv
 import os
 import pygraphviz as pgv
 
@@ -42,6 +42,8 @@ class PerNodeGraphs(pgv.AGraph):
       graph.add_edge(node, next_node, **kwargs)
 
 G = PerNodeGraphs(strict=False, rankdir='LR', ranksep=1.5, concentrate='true')
+CSV_FILE = open('corrado_pinout.csv', 'w', newline='')
+CSV = csv.writer(CSV_FILE)
 
 AEM_GAUGES = ['coolant_temp_gauge', 'transmission_temp_gauge', 'fuel_pressure_gauge']
 AEM_SENSORS = ['aem_coolant_temp_sensor', 'aem_transmission_temp_sensor', 'aem_fuel_pressure_sensor']
@@ -145,7 +147,7 @@ class DeutschConnector(object):
     self.index += 1
     while self.index in self.high_pins:
       self.index += 1
-    return self.name, self.index
+    return self.name, str(self.index)
 
   def GetHighPin(self):
     self.high_index += 1
@@ -181,6 +183,8 @@ def AddPath(node_pins, color):
                labeltooltip=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
                color=ParseColor(color),
                penwidth=2.5)
+  print(node_pins)
+  CSV.writerow((':'.join(node_pins[0]), ':'.join(node_pins[-1])))
 
 def ClusterNodes(nodes, label, color='grey'):
   G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color=color, label=label)
@@ -359,13 +363,13 @@ AddPathWithMap((
 AddPath((
   ('razor_pdm', 'ADIO7'),
   DCC_PWR,
-  ('link_keypad', 1),
+  ('link_keypad', '1'),
 ), 'red')
 AddPath((
   ('battery', 'neg'),
   ('acc_ground', 'ground'),
   DCC_GND,
-  ('link_keypad', 2),
+  ('link_keypad', '2'),
 ), 'black')
 
 # CAN

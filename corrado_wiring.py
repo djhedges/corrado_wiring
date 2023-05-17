@@ -42,8 +42,7 @@ class PerNodeGraphs(pgv.AGraph):
       graph.add_edge(node, next_node, **kwargs)
 
 G = PerNodeGraphs(strict=False, rankdir='LR', ranksep=1.5, concentrate='true')
-CSV_FILE = open('corrado_pinout.csv', 'w', newline='')
-CSV = csv.writer(CSV_FILE)
+CSV_ROWS = []
 
 AEM_GAUGES = ['coolant_temp_gauge', 'transmission_temp_gauge', 'fuel_pressure_gauge']
 AEM_SENSORS = ['aem_coolant_temp_sensor', 'aem_transmission_temp_sensor', 'aem_fuel_pressure_sensor']
@@ -183,8 +182,7 @@ def AddPath(node_pins, color):
                labeltooltip=f'{node}:{pin}<{color}>{next_node}:{next_pin}',
                color=ParseColor(color),
                penwidth=2.5)
-  print(node_pins)
-  CSV.writerow((':'.join(node_pins[0]), ':'.join(node_pins[-1])))
+  CSV_ROWS.append((':'.join(node_pins[0]), ':'.join(node_pins[-1])))
 
 def ClusterNodes(nodes, label, color='grey'):
   G.add_subgraph(nodes, name=f'cluster_{label}', style='filled', color=color, label=label)
@@ -837,6 +835,15 @@ print('Rendering PNG')
 G.draw('corrado_wiring.png')
 print('Rendering SVG')
 G.draw('corrado_wiring.svg')
+print('Writing corrado_ecu_pdm_pinout.csv')
+with open('corrado_ecu_pdm_pinout.csv', 'w', newline='') as csv_file:
+  writer = csv.writer(csv_file)
+  for i, row in enumerate(CSV_ROWS):
+    if 'link_ecu' in row[1] or 'razor_pdm' in row[1]:
+      CSV_ROWS[i] = (row[1], row[0])  # Swap so ECU/PDM is first.
+  for row in sorted(CSV_ROWS):
+    if 'link_ecu' in row[0] or 'razor_pdm' in row[0]: # Filter on ECU/PDM.
+      writer.writerow(row)
 
 # Adds neighbor pins to per node graphs.
 for node, graph in G.node_graph.items():

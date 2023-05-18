@@ -1,3 +1,4 @@
+-,-
 link_ecu_a:+14V,razor_pdm:PWROUT2a
 link_ecu_a:+5V,cam_sensor:5v
 link_ecu_a:+5V,crank_sensor:5v

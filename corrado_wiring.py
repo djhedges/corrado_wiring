@@ -841,7 +841,7 @@ G.draw('corrado_wiring.svg')
 print('Writing corrado_ecu_pdm_pinout.csv')
 with open('corrado_ecu_pdm_pinout.csv', 'w', newline='') as csv_file:
   writer = csv.writer(csv_file)
-  write.write('-', '-')
+  writer.writerow(('-', '-'))
   dupe_rows = []
   for i, row in enumerate(CSV_ROWS):
     if 'link_ecu' in row[1] or 'razor_pdm' in row[1]:

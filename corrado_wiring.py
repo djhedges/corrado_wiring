@@ -240,7 +240,7 @@ Node('usb_hub', ['+', '_', '-'])
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
-Node('LSU4.2', ['Vs', 'CalR', 'H+', 'H-', 'Vs/Ip', 'Ip'])
+Node('LSU4.9', ['APE', 'IPE', 'Heater', 'Heater Power', 'MES', 'RE'])
 
 Node('cam_sensor', ['5v', 'Sensor', 'Gnd'])
 Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
@@ -630,32 +630,38 @@ AddPath((
   ('engine_ground', 'Gnd'),
 ), 'black')
 
-# LSU4.2
-# https://wbo2.com/cable/lsuconns.htm
+# LSU4.9
+# Quick start guide
+# https://dealers.linkecu.com/can-lambda
+AddPathWithMap((
+  ('link_ecu_b', 'Heater'),
+  DCB.GetFreePin(),
+  ('LSU4.9', 'Heater'),
+))
 AddPathWithMap((
   ('link_ecu_b', 'MES'),
   DCB.GetFreePin(),
-  ('LSU4.2', 'CalR',),
+  ('LSU4.9', 'MES',),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'RE'),
   DCB.GetFreePin(),
-  ('LSU4.2', 'Vs'),
-))
-AddPathWithMap((
-  ('link_ecu_b', 'Heater'),
-  DCB.GetFreePin(),
-  ('LSU4.2', 'H-'),
+  ('LSU4.9', 'RE'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'IPE'),
   DCB.GetFreePin(),
-  ('LSU4.2', 'Vs/Ip'),
+  ('LSU4.9', 'IPE'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'APE'),
   DCB.GetFreePin(),
-  ('LSU4.2', 'Ip'),
+  ('LSU4.9', 'APE'),
+))
+AddPathWithMap((
+  ('razor_pdm', 'ADIO4'),
+  DCP.GetFreePin(),
+  ('LSU4.9', 'Heater Power'),
 ))
 
 # Idle Stablizer Valve

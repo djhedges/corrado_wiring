@@ -31,7 +31,7 @@ link_ecu_a:Temp1,coolant_temp_gauge:5vOut
 link_ecu_a:Trig1,cam_sensor:Sensor
 link_ecu_a:Trig2,crank_sensor:Sensor
 link_ecu_b:+14V Aux9/10,razor_pdm:PWROUT2b
-link_ecu_b:APE,LSU4.2:Ip
+link_ecu_b:APE,LSU4.9:APE
 link_ecu_b:An Volt8,front_brake_pressure:Sig
 link_ecu_b:An Volt9,rear_brake_pressure:Sig
 link_ecu_b:DI10/CAN2H,link_keypad:CAN High
@@ -42,14 +42,14 @@ link_ecu_b:GndOut,intake_temp_sensor:Sig-
 link_ecu_b:GndOut,oil_temp_sensor:Sig-
 link_ecu_b:Ground1,engine_ground:Gnd
 link_ecu_b:Ground2,engine_ground:Gnd
-link_ecu_b:Heater,LSU4.2:H-
-link_ecu_b:IPE,LSU4.2:Vs/Ip
+link_ecu_b:Heater,LSU4.9:Heater
+link_ecu_b:IPE,LSU4.9:IPE
 link_ecu_b:Inj5,injector5:Gnd
 link_ecu_b:Inj6,injector6:Gnd
 link_ecu_b:Knock1,knock1:Sig+
 link_ecu_b:Knock2,knock2:Sig+
-link_ecu_b:MES,LSU4.2:CalR
-link_ecu_b:RE,LSU4.2:Vs
+link_ecu_b:MES,LSU4.9:MES
+link_ecu_b:RE,LSU4.9:RE
 link_ecu_b:Shield/Gnd,knock1:Scr
 link_ecu_b:Shield/Gnd,knock1:Sig-
 link_ecu_b:Shield/Gnd,knock2:Scr

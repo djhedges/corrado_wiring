@@ -10,7 +10,6 @@
 # Reverse?
 # Stater solenoid
 # Clutch switch?
-# Transponder 2 pin
 # Alternator to Starter (m8) (kill switch?)
 # Alternator one wire sense
 
@@ -162,6 +161,7 @@ DCE_5v = DCE.GetFreePin()
 DCE_INJ_PWR_PIN = DCE.GetHighPin()
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,2,3,4,34])  # Engine Bay
 DCEB_5v = DCE.GetFreePin()
+DCEB_12v = DCEB.GetHighPin()
 DCC = DeutschConnector('deutsch_console_connector', 16)  # Console (keypad & gauges)
 DCC_PWR = DCC.GetFreePin()
 DCC_GND = DCC.GetFreePin()
@@ -264,6 +264,7 @@ Node('aux_coolant_pump', ['Pos', 'Gnd'])
 
 Node('spal_fan_1', ['pos', 'gnd'])
 Node('spal_fan_2', ['pos', 'gnd'])
+Node('transponder', ['pos', 'gnd'])
 
 for aem_gauge in AEM_GAUGES:
   Node(aem_gauge, ['Ground', '12v', 'RS232', '5vOut', 'Sig+', 'Sig-'])
@@ -638,7 +639,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('razor_pdm', 'ADIO4'),
-  DCEB.GetFreePin(),
+  DCEB_12v,
   ('LSU4.9', 'Heater Power'),
 ))
 
@@ -656,7 +657,7 @@ AddPath((
 # Purge Valve
 AddPath((
   ('razor_pdm', 'ADIO3'),
-  DCEB.GetHighPin(),
+  DCEB.GetFreePin(),
   ('vapor_purge_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
 AddPath((
@@ -697,6 +698,17 @@ AddPath((
   ('engine_bay_ground', 'Gnd'),
   DCF.GetFreePin(),
   ('spal_fan_2', 'gnd'),
+), 'black')
+
+# Transponder
+AddPath((
+  ('razor_pdm', 'ADIO4'),
+  DCEB_12v,
+  ('transponder', 'pos'),
+), 'red')
+AddPath((
+  ('engine_bay_ground', 'Gnd'),
+  ('transponder', 'gnd'),
 ), 'black')
 
 
@@ -796,7 +808,7 @@ ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'alternator', 'kill_switch_
 ClusterNodes(['razor_pdm', 'link_ecu_a', 'link_ecu_b'], 'Link ECU & PDM')
 ClusterNodes(['icm', 'coil', 'LSU4.9', 'map_sensor', 'coolant_low_sensor', 'vapor_purge_valve', 
               'spal_fan_1', 'spal_fan_2', 'deutsch_fan_connector', 'engine_bay_ground', 'wiper',
-              'deutsch_engine_bay_connector'], 
+              'deutsch_engine_bay_connector', 'transponder'], 
               label='Engine Bay')
 ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch'], 'Console')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')

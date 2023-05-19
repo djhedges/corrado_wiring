@@ -820,7 +820,9 @@ AddPath((
 
 ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
 ClusterNodes(['razor_pdm', 'link_ecu_a', 'link_ecu_b'], 'Link ECU & PDM')
-ClusterNodes(['icm', 'coil'], label='Coilpack')
+ClusterNodes(['icm', 'coil', 'LSU4.9', 'map_sensor', 'coolant_low_sensor', 'vapor_purge_valve', 
+              'spal_fan_1', 'spal_fan_2', 'deutsch_fan_connector', 'engine_bay_ground', 'wiper'], 
+              label='Engine Bay')
 ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch'], 'Console')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
 ClusterNodes([
@@ -830,6 +832,7 @@ ClusterNodes([
     'intake_temp_sensor', 'knock1', 'knock2', 'engine_ground',
     'idle_stablizer_valve', 'aux_coolant_pump',
     ] + AEM_SENSORS + [f'injector{i}' for i in range(1, 7)], 'Engine')
+ClusterNodes(['fuel_pump', 'brake_lights'], 'Trunk')
 
 # Ensures any deleted nodes are removed and not lingering around.
 cwd_files = os.listdir()

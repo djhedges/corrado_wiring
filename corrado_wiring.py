@@ -152,15 +152,16 @@ class DeutschConnector(object):
     self.high_index += 1
     while self.high_index not in self.high_pins:
       self.high_index += 1
-    return self.name, self.high_index
+    return self.name, str(self.high_index)
 
 
 # 47 pin connect https://www.ptmotorsport.com.au/product/deutsch-47-pin-bulk-head-connector-kit/
 # TODO: Finalize on connector choices.
-DCA = DeutschConnector('deutsch_bulk_a_connector', 47, high_pins=[1,2,3,4,34])  # ECU A Loom
-DCB = DeutschConnector('deutsch_bulk_b_connector', 47, high_pins=[1,2,3,4,34])  # ECU B Loom
-DCP = DeutschConnector('deutsch_pdm_connector', 12)
-DCE = DeutschConnector('deutsch_engine_connector', 47)
+DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,2,3,4,34])  # Engine
+DCE_5v = DCE.GetFreePin()
+DCE_INJ_PWR_PIN = DCE.GetHighPin()
+DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,2,3,4,34])  # Engine Bay
+DCEB_5v = DCE.GetFreePin()
 DCC = DeutschConnector('deutsch_console_connector', 16)  # Console (keypad & gauges)
 DCC_PWR = DCC.GetFreePin()
 DCC_GND = DCC.GetFreePin()
@@ -298,7 +299,7 @@ AddPath((
 ), 'red')
 AddPath((
   ('kill_switch', 'z'),
-  DCP.GetFreePin(),
+  DCE.GetFreePin(),
   ('alternator', 'sense'),
 ), 'red')
 AddPath((
@@ -394,42 +395,35 @@ AddPathWithMap((
 ))
 
 # Injectors
-inj_pwr_pin = DCP.GetFreePin()
 AddPath((
   ('razor_pdm', 'PWROUT1a'),
-  inj_pwr_pin,
+  DCE_INJ_PWR_PIN,
 ), 'red')
 for i in range(1, 7):
   AddPath((
-    inj_pwr_pin,
+    DCE_INJ_PWR_PIN,
     (f'injector{i}', 'Pos'),
   ), 'red')
   a_or_b = 'a' if i < 5 else 'b'
-  connector = DCA if i < 5 else DCB
   AddPathWithMap((
     (f'link_ecu_{a_or_b}', f'Inj{i}'),
-    connector.GetFreePin(),
     DCE.GetFreePin(),
     (f'injector{i}', 'Gnd'),
   ))
 
 # Cam Sensor
-DCA_5v = DCA.GetFreePin()
 AddPathWithMap((
   ('link_ecu_a', 'Trig1'),
-  DCA.GetFreePin(),
   DCE.GetFreePin(),
   ('cam_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  DCA_5v,
-  DCE.GetFreePin(),
+  DCE_5v,
   ('cam_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
-  DCA.GetFreePin(),
   DCE.GetFreePin(),
   ('cam_sensor', 'Gnd'),
 ))
@@ -437,19 +431,16 @@ AddPathWithMap((
 # Crank Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Trig2'),
-  DCA.GetFreePin(),
   DCE.GetFreePin(),
   ('crank_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  DCA_5v,
-  DCE.GetFreePin(),
+  DCE_5v,
   ('crank_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
-  DCA.GetFreePin(),
   DCE.GetFreePin(),
   ('crank_sensor', 'Gnd'),
 ))
@@ -457,6 +448,7 @@ AddPathWithMap((
 # Coils
 AddPath((
   ('razor_pdm', 'PWROUT3a'),
+  DCEB.GetHighPin(),
   ('coil', 'Ubatt'),
 ), 'red')
 AddPath((
@@ -466,7 +458,7 @@ AddPath((
 for i in range(1, 4):
   AddPathWithMap((
     ('link_ecu_a', f'Ign{i}'),
-    DCA.GetFreePin(),
+    DCEB.GetFreePin(),
     ('icm', f'Transistor{i}ecu'),
   ))
   AddPath((
@@ -477,10 +469,12 @@ for i in range(1, 4):
 # Wiper Motor
 AddPath((
   ('razor_pdm', 'ADIO7'),
+  DCEB.GetHighPin(),
   ('wiper', 'high'),
 ), 'red')
 AddPath((
   ('razor_pdm', 'ADIO8'),
+  DCEB.GetFreePin(),
   ('wiper', 'park'),
 ), 'white')  # TODO: Decide on wire color.
 AddPath((
@@ -491,31 +485,28 @@ AddPath((
 # Coolant Low Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Aux4'),
-  DCA.GetFreePin(),
+  DCEB.GetFreePin(),
   ('coolant_low_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  DCA.GetFreePin(),
+  DCEB.GetFreePin(),
   ('coolant_low_sensor', 'Sig-'),
 ))
 
 # TPS
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt1'),
-  DCA.GetFreePin(),
   DCE.GetFreePin(),
   ('tps', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  DCA_5v,
   DCE.GetFreePin(),
   ('tps', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  DCA.GetFreePin(),
   DCE.GetFreePin(),
   ('tps', 'Gnd'),
 ))
@@ -525,30 +516,28 @@ AddPathWithMap((
   ('link_ecu_a', 'AnVolt2'),
   # TODO: Figure out where MAP Sensor will be mounted and
   # if this will still be connected to the deutsch connector.
-  DCA.GetFreePin(),
+  DCEB.GetFreePin(),
   ('map_sensor', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  DCA_5v,
+  DCEB_5v,
   ('map_sensor', '5v'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  DCA.GetFreePin(),
+  DCEB.GetFreePin(),
   ('map_sensor', 'Gnd'),
 ))
 
 # Oil Pressure Switches
 AddPathWithMap((
   ('link_ecu_a', 'DI1'),
-  DCA.GetFreePin(),
   DCE.GetFreePin(),
   ('oil_switch_0.25_bar', 'Switch'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'DI2'),
-  DCA.GetFreePin(),
   DCE.GetFreePin(),
   ('oil_switch_1.40_bar', 'Switch'),
 ))
@@ -556,13 +545,11 @@ AddPathWithMap((
 # ECU A Grounds
 AddPath((
   ('link_ecu_a', 'Ground1'),
-  DCA.GetFreePin(),
   DCE.GetFreePin(),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_a', 'Ground2'),
-  DCA.GetFreePin(),
   DCE.GetFreePin(),
   ('engine_ground', 'Gnd'),
 ), 'black')
@@ -570,13 +557,11 @@ AddPath((
 # Intake Temp Sensor
 AddPathWithMap((
   ('link_ecu_b', 'Temp3'),
-  DCB.GetFreePin(),
   DCE.GetFreePin(),
   ('intake_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  DCB.GetFreePin(),
   DCE.GetFreePin(),
   ('intake_temp_sensor', 'Sig-'),
 ))
@@ -584,13 +569,11 @@ AddPathWithMap((
 # Oil Temp Sensor
 AddPathWithMap((
   ('link_ecu_b', 'Temp4'),
-  DCB.GetFreePin(),
   DCE.GetFreePin(),
   ('oil_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  DCB.GetFreePin(),
   DCE.GetFreePin(),
   ('oil_temp_sensor', 'Sig-'),
 ))
@@ -599,19 +582,16 @@ AddPathWithMap((
 for i in range(1, 3):
   AddPathWithMap((
     ('link_ecu_b', f'Knock{i}'),
-    DCB.GetFreePin(),
     DCE.GetFreePin(),
     (f'knock{i}', 'Sig+'),
   ))
   AddPathWithMap((
     ('link_ecu_b', 'Shield/Gnd'),
-    DCB.GetFreePin(),
     DCE.GetFreePin(),
     (f'knock{i}', 'Sig-'),
   ))
   AddPathWithMap((
     ('link_ecu_b', 'Shield/Gnd'),
-    DCB.GetFreePin(),
     DCE.GetFreePin(),
     (f'knock{i}', 'Scr'),
   ))
@@ -619,13 +599,11 @@ for i in range(1, 3):
 # ECU B Grounds
 AddPath((
   ('link_ecu_b', 'Ground1'),
-  DCB.GetFreePin(),
   DCE.GetFreePin(),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_b', 'Ground2'),
-  DCB.GetFreePin(),
   DCE.GetFreePin(),
   ('engine_ground', 'Gnd'),
 ), 'black')
@@ -635,40 +613,39 @@ AddPath((
 # https://dealers.linkecu.com/can-lambda
 AddPathWithMap((
   ('link_ecu_b', 'Heater'),
-  DCB.GetFreePin(),
+  DCEB.GetFreePin(),
   ('LSU4.9', 'Heater'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'MES'),
-  DCB.GetFreePin(),
+  DCEB.GetFreePin(),
   ('LSU4.9', 'MES',),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'RE'),
-  DCB.GetFreePin(),
+  DCEB.GetFreePin(),
   ('LSU4.9', 'RE'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'IPE'),
-  DCB.GetFreePin(),
+  DCEB.GetFreePin(),
   ('LSU4.9', 'IPE'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'APE'),
-  DCB.GetFreePin(),
+  DCEB.GetFreePin(),
   ('LSU4.9', 'APE'),
 ))
 AddPathWithMap((
   ('razor_pdm', 'ADIO4'),
-  DCP.GetFreePin(),
+  DCEB.GetFreePin(),
   ('LSU4.9', 'Heater Power'),
 ))
 
 # Idle Stablizer Valve
 AddPath((
   ('razor_pdm', 'ADIO2'),
-  DCP.GetFreePin(),
-  DCE.GetFreePin(),
+  DCE.GetHighPin(),
   ('idle_stablizer_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
 AddPath((
@@ -679,7 +656,7 @@ AddPath((
 # Purge Valve
 AddPath((
   ('razor_pdm', 'ADIO3'),
-  DCP.GetFreePin(),
+  DCEB.GetHighPin(),
   ('vapor_purge_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
 AddPath((
@@ -690,26 +667,24 @@ AddPath((
 # Aux Coolant Pump
 AddPath((
   ('razor_pdm', 'ADIO4'),
-  DCP.GetFreePin(),
-  DCE.GetFreePin(),
+  DCE.GetHighPin(),
   ('aux_coolant_pump', 'Pos'),
 ), 'red')
 AddPath((
   ('aux_coolant_pump', 'Gnd'),
-  DCE.GetFreePin(),
   ('engine_ground', 'Gnd'),
 ), 'black')
 
 # Fans
 AddPath((
   ('razor_pdm', 'PWROUT4a'),
-  DCP.GetFreePin(),
+  DCEB.GetHighPin(),
   DCF.GetFreePin(),
   ('spal_fan_1', 'pos'),
 ), 'red')
 AddPath((
   ('razor_pdm', 'PWROUT4b'),
-  DCP.GetFreePin(),
+  DCEB.GetHighPin(),
   DCF.GetFreePin(),
   ('spal_fan_2', 'pos'),
 ), 'red')
@@ -740,7 +715,6 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
     AddPath((
       (AEM_GAUGES[i], f'Sig{sign}'),
       DCC.GetFreePin(),
-      DCB.GetFreePin(),
       DCE.GetFreePin(),
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
@@ -821,7 +795,8 @@ AddPath((
 ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
 ClusterNodes(['razor_pdm', 'link_ecu_a', 'link_ecu_b'], 'Link ECU & PDM')
 ClusterNodes(['icm', 'coil', 'LSU4.9', 'map_sensor', 'coolant_low_sensor', 'vapor_purge_valve', 
-              'spal_fan_1', 'spal_fan_2', 'deutsch_fan_connector', 'engine_bay_ground', 'wiper'], 
+              'spal_fan_1', 'spal_fan_2', 'deutsch_fan_connector', 'engine_bay_ground', 'wiper',
+              'deutsch_engine_bay_connector'], 
               label='Engine Bay')
 ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch'], 'Console')
 ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
@@ -859,7 +834,7 @@ with open('corrado_ecu_pdm_pinout.csv', 'w', newline='') as csv_file:
         ('razor_pdm' in row[0] or 'razor_pdm' in row[1]) and
         row not in CSV_ROWS):
       dupe_rows.append(row)  # Duplicate row to provide a clear indication of used pins in first column.
-    if row[1] == ':'.join(inj_pwr_pin):
+    if row[1] == ':'.join(DCE_INJ_PWR_PIN):
       CSV_ROWS[i] = (row[0], 'injectors:Pos')
   for row in sorted(CSV_ROWS + dupe_rows):
     if 'link_ecu' in row[0] or 'razor_pdm' in row[0]: # Filter on ECU/PDM.

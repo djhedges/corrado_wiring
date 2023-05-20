@@ -84,7 +84,7 @@ LINK_ECU_A_PIN_COLOR_MAP = {
 }
 LINK_ECU_B_PIN_COLOR_MAP = {
     'Inj8': 'brown:violet',
-    'Inj7': 'brown:blue',
+    'Inj7': 'brown:blue',  # Wire color stolen for Ign switch.
     'Inj6': 'brown:green',
     'Inj5': 'brown:yellow',
     '+14V Aux9/10': 'red',
@@ -319,11 +319,10 @@ AddPath((
   ('razor_pdm', 'neg'),
 ), 'black')
 
-# TODO: Verify blue is not already in use.
 AddPath((
   ('kill_switch', 'z'),
   ('ign_switch', '1'),
-), 'blue')
+), 'brown:blue')
 AddPath((
   ('razor_pdm', 'IGNSW'),
   DCC.GetFreePin(),
@@ -517,8 +516,6 @@ AddPathWithMap((
 # MAP Sensor
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt2'),
-  # TODO: Figure out where MAP Sensor will be mounted and
-  # if this will still be connected to the deutsch connector.
   DCEB.GetFreePin(),
   ('map_sensor', 'Sensor'),
 ))

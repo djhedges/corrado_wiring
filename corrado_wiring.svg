@@ -2603,11 +2603,13 @@
 <!-- kill_switch&#45;&#45;ign_switch -->
 <g id="edge93" class="edge">
 <title>kill_switch:z&#45;&#45;ign_switch:1</title>
-<path fill="none" stroke="black" stroke-width="2.5" d="M728,-148.2C803.95,-150.41 796.94,-217.14 861.9,-248.42 1086.57,-361.65 1152.87,-409.58 1403,-409.2"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M728,-146.2C805.94,-150.62 798.93,-217.35 862.8,-246.63 1087.74,-360.03 1154.04,-407.96 1403,-407.2"/>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M728,-148.2C803.95,-150.41 796.94,-217.14 861.9,-248.42 1086.57,-361.65 1152.87,-409.58 1403,-409.2"/>
 <path fill="none" stroke="blue" stroke-width="2.5" d="M728,-150.2C801.96,-150.2 794.95,-216.93 861,-250.2 1085.4,-363.27 1151.7,-411.2 1403,-411.2"/>
-<path fill="none" stroke="black" stroke-width="2.5" d="M728,-152.2C799.97,-149.99 792.96,-216.72 860.1,-251.99 1084.23,-364.89 1150.53,-412.82 1403,-413.2"/>
-<g id="a_edge93&#45;label"><a xlink:title="kill_switch:z&lt;blue&gt;ign_switch:1">
-<text text-anchor="middle" x="1029.5" y="-398" font-family="Times,serif" font-size="14.00">kill_switch:z&lt;blue&gt;ign_switch:1</text>
+<path fill="none" stroke="brown" stroke-width="2.5" d="M728,-152.2C799.97,-149.99 792.96,-216.72 860.1,-251.99 1084.23,-364.89 1150.53,-412.82 1403,-413.2"/>
+<path fill="none" stroke="black" stroke-width="2.5" d="M728,-154.2C797.98,-149.79 790.97,-216.52 859.2,-253.78 1083.06,-366.51 1149.36,-414.44 1403,-415.2"/>
+<g id="a_edge93&#45;label"><a xlink:title="kill_switch:z&lt;brown:blue&gt;ign_switch:1">
+<text text-anchor="middle" x="1029.5" y="-398" font-family="Times,serif" font-size="14.00">kill_switch:z&lt;brown:blue&gt;ign_switch:1</text>
 </a>
 </g>
 </g>

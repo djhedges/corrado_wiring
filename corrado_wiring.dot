@@ -1075,9 +1075,9 @@ Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil
 		penwidth=2.5,
 		pos="728,75.433 877.15,75.433 800.02,1266.4 807,1415.4 811.04,1501.6 801.06,2904.5 861,2966.4 913.19,3020.4 1136.9,2945.8 1198,2989.4 \
 1372.2,3113.9 1170.9,3433.4 1385,3433.4"];
-	kill_switch:z -- ign_switch:1	[color="black:blue:black",
-		label="kill_switch:z<blue>ign_switch:1",
-		labeltooltip="kill_switch:z<blue>ign_switch:1",
+	kill_switch:z -- ign_switch:1	[color="black:brown:blue:brown:black",
+		label="kill_switch:z<brown:blue>ign_switch:1",
+		labeltooltip="kill_switch:z<brown:blue>ign_switch:1",
 		lp="1029.5,372.93",
 		penwidth=2.5,
 		pos="728,121.43 801.96,121.43 794.95,188.16 861,221.43 1085.4,334.5 1151.7,382.43 1403,382.43"];

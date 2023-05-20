@@ -307,8 +307,9 @@ AddPath((
   ('starter', 'solenoid'),
 ), 'red')
 AddPath((
+  ('kill_switch', 'starter'),
+  DCE.GetHighPin(),
   ('alternator', 'pos'),
-  ('starter', 'pos'),
 ), 'red')
 AddPath((
   ('alternator', 'sense'),

@@ -74,7 +74,7 @@ razor_pdm:IGNSW,ign_switch:2
 razor_pdm:PWROUT1a,injectors:Pos
 razor_pdm:PWROUT1b,fuel_pump:pos
 razor_pdm:PWROUT2a,starter:pos
-razor_pdm:PWROUT2b,starter:pos
+razor_pdm:PWROUT2b,starter:solenoid
 razor_pdm:PWROUT3a,coil:Ubatt
 razor_pdm:PWROUT3b,link_ecu_a:+14V
 razor_pdm:PWROUT3b,link_ecu_b:+14V Aux9/10

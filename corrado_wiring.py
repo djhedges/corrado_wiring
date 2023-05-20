@@ -299,26 +299,20 @@ AddPath((
 ), 'black')
 AddPath((
   ('kill_switch', 'starter'),
-  ('alternator', 'pos'),
-), 'red')
-AddPath((
-  ('kill_switch', 'starter'),
-  ('starter', 'pos'),
-), 'red')
-AddPath((
-  ('razor_pdm', 'PWROUT2a'),
-  DCE.GetHighPin(),
   ('starter', 'pos'),
 ), 'red')
 AddPath((
   ('razor_pdm', 'PWROUT2b'),
   DCE.GetHighPin(),
+  ('starter', 'solenoid'),
+), 'red')
+AddPath((
+  ('alternator', 'pos'),
   ('starter', 'pos'),
 ), 'red')
 AddPath((
-  ('kill_switch', 'z'),
-  DCE.GetFreePin(),
   ('alternator', 'sense'),
+  ('starter', 'pos'),
 ), 'red')
 AddPath((
   ('kill_switch', 'starter'),

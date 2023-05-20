@@ -356,7 +356,7 @@ AddPath((
 # Fuel Pump
 AddPath((
   ('fuel_pump', 'pos'),
-  ('razor_pdm', 'PWROUT1b'),
+  ('razor_pdm', 'PWROUT3b'),
 ), 'red')
 AddPath((
   ('trunk_ground', 'neg'),
@@ -365,11 +365,11 @@ AddPath((
 
 # ECU Power  (hpacademy Fury 10A steady current draw)
 AddPathWithMap((
-  ('razor_pdm', 'PWROUT3b'),
+  ('razor_pdm', 'PWROUT1a'),
   ('link_ecu_a', '+14V'),
 ))
 AddPathWithMap((
-  ('razor_pdm', 'PWROUT3b'),
+  ('razor_pdm', 'PWROUT1a'),
   ('link_ecu_b', '+14V Aux9/10'),
 ))
 
@@ -408,7 +408,7 @@ AddPathWithMap((
 
 # Injectors
 AddPath((
-  ('razor_pdm', 'PWROUT1a'),
+  ('razor_pdm', 'PWROUT1b'),
   DCE_INJ_PWR_PIN,
 ), 'red')
 for i in range(1, 7):

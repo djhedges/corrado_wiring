@@ -8,6 +8,7 @@ link_ecu_a:+5V,rear_brake_pressure:5v
 link_ecu_a:+5V,tps:5v
 link_ecu_a:AnVolt1,tps:Sensor
 link_ecu_a:AnVolt2,map_sensor:Sensor
+link_ecu_a:Aux1,traqmate:rpm
 link_ecu_a:Aux4,coolant_low_sensor:Sig+
 link_ecu_a:DI1,oil_switch_0.25_bar:Switch
 link_ecu_a:DI2,oil_switch_1.40_bar:Switch
@@ -62,8 +63,6 @@ razor_pdm:ADIO3,vapor_purge_valve:Pos
 razor_pdm:ADIO4,aux_coolant_pump:Pos
 razor_pdm:ADIO4,transponder:pos
 razor_pdm:ADIO6,link_keypad:+12V
-razor_pdm:ADIO6,traqmate:pos
-razor_pdm:ADIO6,usb_hub:+
 razor_pdm:ADIO7,wiper:high
 razor_pdm:ADIO8,wiper:park
 razor_pdm:CANH,link_ecu_b:DI10/CAN2H

@@ -166,6 +166,8 @@ DCC = DeutschConnector('deutsch_console_connector', 12)  # Console (keypad)
 DCC_PWR = DCC.GetFreePin()
 DCC_GND = DCC.GetFreePin()
 DCG = DeutschConnector('deutsch_gauge_connector', 12)  # Gauges
+DCG_PWR = DCG.GetFreePin()
+DCG_GND = DCG.GetFreePin()
 # DT 4 Way
 DCF = DeutschConnector('deutsch_fan_connector', 4)
 
@@ -365,13 +367,13 @@ AddPathWithMap((
 # Keypad
 AddPath((
   ('razor_pdm', 'ADIO6'),
-  DCC_PWR,
+  DCG_PWR,
   ('link_keypad', '+12V'),
 ), 'red')
 AddPath((
   ('battery', 'neg'),
   ('acc_ground', 'ground'),
-  DCC_GND,
+  DCG_GND,
   ('link_keypad', 'Ground'),
 ), 'black')
 
@@ -721,11 +723,11 @@ AddPath((
 for aem_gauge in AEM_GAUGES:
   AddPath((
     (aem_gauge, '12v'),
-    DCC_PWR,
+    DCG_PWR,
   ), 'red')
   AddPath((
     (aem_gauge, 'Ground'),
-    DCC_GND,
+    DCG_GND,
   ), 'black')
 for i, aem_sensor in enumerate(AEM_SENSORS):
   for sign in ('+', '-'):
@@ -742,26 +744,28 @@ AddPath((
 ), 'white') # TODO: Decide on wire color.
 
 # Traqmate
-# TODO: Figure out RPM signal source.
 AddPath((
-  ('razor_pdm', 'ADIO6'),
   ('traqmate', 'pos'),
+  DCC_PWR,
 ), 'red')
 AddPath((
-  ('battery', 'neg'),
-  ('acc_ground', 'ground'),
   ('traqmate', 'gnd'),
+  DCC_GND,
 ), 'black')
+AddPathWithMap((
+  ('traqmate', 'rpm'),
+  DCC.GetFreePin(),
+  ('link_ecu_a', 'Aux1'),
+))
 
 # USB Hub
 AddPath((
-  ('razor_pdm', 'ADIO6'),
   ('usb_hub', '+'),
+  DCC_PWR,
 ), 'red')
 AddPath((
-  ('battery', 'neg'),
-  ('acc_ground', 'ground'),
   ('usb_hub', '-'),
+  DCC_GND,
 ), 'black')
 
 ## Brake Pressure Sensors
@@ -815,8 +819,8 @@ ClusterNodes(['icm', 'coil', 'LSU4.9', 'map_sensor', 'coolant_low_sensor', 'vapo
               'spal_fan_1', 'spal_fan_2', 'deutsch_fan_connector', 'engine_bay_ground', 'wiper',
               'deutsch_engine_bay_connector', 'transponder'], 
               label='Engine Bay')
-ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch'], 'Console')
-ClusterNodes(('usb_hub', 'labjack'), 'Exit Speed')
+ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch', 'usb_hub', 'labjack'], 
+             'Console')
 ClusterNodes([
     'deutsch_engine_connector',
     'cam_sensor', 'crank_sensor', 'tps', 

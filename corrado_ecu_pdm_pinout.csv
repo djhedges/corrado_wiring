@@ -57,7 +57,6 @@ link_ecu_b:Shield/Gnd,knock2:Scr
 link_ecu_b:Shield/Gnd,knock2:Sig-
 link_ecu_b:Temp3,intake_temp_sensor:Sig+
 link_ecu_b:Temp4,oil_temp_sensor:Sig+
-razor_pdm:ADIO1,brake_lights:pos
 razor_pdm:ADIO2,idle_stablizer_valve:Pos
 razor_pdm:ADIO3,vapor_purge_valve:Pos
 razor_pdm:ADIO4,aux_coolant_pump:Pos
@@ -73,7 +72,7 @@ razor_pdm:CANL,link_ecu_b:DI9/CAN2L
 razor_pdm:IGNSW,ign_switch:2
 razor_pdm:PWROUT1a,injectors:Pos
 razor_pdm:PWROUT1b,fuel_pump:pos
-razor_pdm:PWROUT2a,starter:pos
+razor_pdm:PWROUT2a,brake_lights:pos
 razor_pdm:PWROUT2b,starter:solenoid
 razor_pdm:PWROUT3a,coil:Ubatt
 razor_pdm:PWROUT3b,link_ecu_a:+14V

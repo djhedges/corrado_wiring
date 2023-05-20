@@ -346,7 +346,7 @@ AddPath((
 ), 'black')
 AddPath((
   ('brake_lights', 'pos'),
-  ('razor_pdm', 'ADIO1'),
+  ('razor_pdm', 'PWROUT2a'),
 ), 'red')
 AddPath((
   ('trunk_ground', 'ground'),
@@ -363,7 +363,7 @@ AddPath((
   ('fuel_pump', 'gnd'),
 ), 'black')
 
-# ECU Power
+# ECU Power  (hpacademy Fury 10A steady current draw)
 AddPathWithMap((
   ('razor_pdm', 'PWROUT3b'),
   ('link_ecu_a', '+14V'),

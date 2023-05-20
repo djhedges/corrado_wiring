@@ -57,9 +57,9 @@ link_ecu_b:Shield/Gnd,knock2:Scr
 link_ecu_b:Shield/Gnd,knock2:Sig-
 link_ecu_b:Temp3,intake_temp_sensor:Sig+
 link_ecu_b:Temp4,oil_temp_sensor:Sig+
+razor_pdm:ADIO1,aux_coolant_pump:Pos
 razor_pdm:ADIO2,idle_stablizer_valve:Pos
 razor_pdm:ADIO3,vapor_purge_valve:Pos
-razor_pdm:ADIO4,aux_coolant_pump:Pos
 razor_pdm:ADIO4,transponder:pos
 razor_pdm:ADIO6,coolant_temp_gauge:12v
 razor_pdm:ADIO6,fuel_pressure_gauge:12v

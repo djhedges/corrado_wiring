@@ -308,12 +308,15 @@ AddPath((
 ), 'red')
 AddPath((
   ('kill_switch', 'starter'),
-  DCE.GetHighPin(),
+  # Ensure it goes back to killswitch per hpacademy.
+  DCE.GetHighPin(),  
   ('alternator', 'pos'),
 ), 'red')
 AddPath((
+  # Ensure it goes back to killswitch per hpacademy.
+  ('kill_switch', 'starter'),
+  DCE.GetFreePin(),  
   ('alternator', 'sense'),
-  ('starter', 'pos'),
 ), 'red')
 AddPath((
   ('kill_switch', 'starter'),
@@ -676,7 +679,7 @@ AddPath((
 
 # Aux Coolant Pump
 AddPath((
-  ('razor_pdm', 'ADIO4'),
+  ('razor_pdm', 'ADIO1'),
   DCE.GetHighPin(),
   ('aux_coolant_pump', 'Pos'),
 ), 'red')

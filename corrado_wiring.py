@@ -721,10 +721,12 @@ for aem_gauge in AEM_GAUGES:
   AddPath((
     (aem_gauge, '12v'),
     DCG_PWR,
+    ('razor_pdm', 'ADIO6'),
   ), 'red')
   AddPath((
     (aem_gauge, 'Ground'),
     DCG_GND,
+    ('acc_ground', 'ground'),
   ), 'black')
 for i, aem_sensor in enumerate(AEM_SENSORS):
   for sign in ('+', '-'):
@@ -783,11 +785,11 @@ AddPathWithMap((
   ('rear_brake_pressure', '5v'),
 ))
 AddPathWithMap((
-  ('link_ecu_a', 'Shield/Gnd'),
+  ('link_ecu_a', 'GndOut'),
   ('front_brake_pressure', '0v'),
 ))
 AddPathWithMap((
-  ('link_ecu_a', 'Shield/Gnd'),
+  ('link_ecu_a', 'GndOut'),
   ('rear_brake_pressure', '0v'),
 ))
 ## /Brake Pressure Sensors

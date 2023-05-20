@@ -649,11 +649,11 @@ AddPathWithMap((
   DCEB.GetFreePin(),
   ('LSU4.9', 'APE'),
 ))
-AddPathWithMap((
-  ('razor_pdm', 'ADIO4'),
+AddPath((
+  ('razor_pdm', 'ADIO1'),
   DCEB_12v,
   ('LSU4.9', 'Heater Power'),
-))
+), 'red')
 
 # Idle Stablizer Valve
 AddPath((
@@ -719,7 +719,7 @@ AddPath((
 
 # Transponder
 AddPath((
-  ('razor_pdm', 'ADIO4'),
+  ('razor_pdm', 'ADIO1'),
   DCEB_12v,
   ('transponder', 'pos'),
 ), 'red')

@@ -154,17 +154,19 @@ class DeutschConnector(object):
     return self.name, str(self.high_index)
 
 
-# 47 pin connect https://www.ptmotorsport.com.au/product/deutsch-47-pin-bulk-head-connector-kit/
-# TODO: Finalize on connector choices.
+# https://mavenspeed.com/collections/b2t-engineering/products/dual-connector-bulkhead
 DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,2,3,4,34])  # Engine
 DCE_5v = DCE.GetFreePin()
 DCE_INJ_PWR_PIN = DCE.GetHighPin()
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,2,3,4,34])  # Engine Bay
 DCEB_5v = DCE.GetFreePin()
 DCEB_12v = DCEB.GetHighPin()
-DCC = DeutschConnector('deutsch_console_connector', 16)  # Console (keypad & gauges)
+# DT 12 Way https://www.prowireusa.com/deutsch-dt-series-connector-kits.html
+DCC = DeutschConnector('deutsch_console_connector', 12)  # Console (keypad)
 DCC_PWR = DCC.GetFreePin()
 DCC_GND = DCC.GetFreePin()
+DCG = DeutschConnector('deutsch_gauge_connector', 12)  # Gauges
+# DT 4 Way
 DCF = DeutschConnector('deutsch_fan_connector', 4)
 
 def ParseColor(color):
@@ -200,7 +202,6 @@ def AddPathWithMap(node_pins):
       break
 
 Node('battery', ['pos', 'neg'])
-Node('main_fuse', ['fuse'])
 Node('alternator', ['pos', 'sense'])
 # TODO: Verify the pins match this diagram.
 # https://www.pegasusautoracing.com/document.asp?DocID=TECH00109
@@ -283,7 +284,6 @@ Node('wiper', ['high', 'low', 'park', 'gnd'])
 
 AddPath((
   ('battery', 'pos'),
-  ('main_fuse', 'fuse'),
   ('kill_switch', 'battery'),
 ), 'red')
 AddPath((
@@ -677,6 +677,11 @@ AddPath((
 ), 'black')
 
 # Fans
+# 16 awg
+# 7.6 amp part #30100398 
+# https://www.holley.com/products/cooling/fans/parts/30100398
+# 6.3 amps part #30100392
+# https://www.holley.com/products/discontinued_product/parts/30100392
 AddPath((
   ('razor_pdm', 'PWROUT4a'),
   DCEB.GetHighPin(),
@@ -726,13 +731,13 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
   for sign in ('+', '-'):
     AddPath((
       (AEM_GAUGES[i], f'Sig{sign}'),
-      DCC.GetFreePin(),
+      DCG.GetFreePin(),
       DCE.GetFreePin(),
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
 AddPath((
   ('link_ecu_a', 'Temp1'),
-  DCC.GetFreePin(),
+  DCG.GetFreePin(),
   ('coolant_temp_gauge', '5vOut'),
 ), 'white') # TODO: Decide on wire color.
 
@@ -789,22 +794,22 @@ AddPathWithMap((
 # Labjack
 AddPath((
   ('coolant_temp_gauge', '5vOut'),
-  DCC.GetFreePin(),
+  DCG.GetFreePin(),
   ('labjack', 'fio0'),
 ), color='white') # TODO: Decide on wire color.
 AddPath((
   ('fuel_pressure_gauge', '5vOut'),
-  DCC.GetFreePin(),
+  DCG.GetFreePin(),
   ('labjack', 'fio6'),
 ), color='white') # TODO: Decide on wire color.
 AddPath((
   ('transmission_temp_gauge', '5vOut'),
-  DCC.GetFreePin(),
+  DCG.GetFreePin(),
   ('labjack', 'fio7'),
 ), color='white') # TODO: Decide on wire color.
 # /Labjack
 
-ClusterNodes(['battery', 'main_fuse', 'kill_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
+ClusterNodes(['battery', 'kill_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
 ClusterNodes(['razor_pdm', 'link_ecu_a', 'link_ecu_b'], 'Link ECU & PDM')
 ClusterNodes(['icm', 'coil', 'LSU4.9', 'map_sensor', 'coolant_low_sensor', 'vapor_purge_valve', 
               'spal_fan_1', 'spal_fan_2', 'deutsch_fan_connector', 'engine_bay_ground', 'wiper',

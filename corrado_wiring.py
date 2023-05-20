@@ -205,6 +205,7 @@ def AddPathWithMap(node_pins):
 
 Node('battery', ['pos', 'neg'])
 Node('alternator', ['pos', 'sense'])
+Node('starter', ['pos', 'gnd', 'solenoid'])
 # TODO: Verify the pins match this diagram.
 # https://www.pegasusautoracing.com/document.asp?DocID=TECH00109
 Node('kill_switch', ['battery', 'z', 'w', 'starter'])
@@ -301,6 +302,20 @@ AddPath((
   ('alternator', 'pos'),
 ), 'red')
 AddPath((
+  ('kill_switch', 'starter'),
+  ('starter', 'pos'),
+), 'red')
+AddPath((
+  ('razor_pdm', 'PWROUT2a'),
+  DCE.GetHighPin(),
+  ('starter', 'pos'),
+), 'red')
+AddPath((
+  ('razor_pdm', 'PWROUT2b'),
+  DCE.GetHighPin(),
+  ('starter', 'pos'),
+), 'red')
+AddPath((
   ('kill_switch', 'z'),
   DCE.GetFreePin(),
   ('alternator', 'sense'),
@@ -355,11 +370,11 @@ AddPath((
 
 # ECU Power
 AddPathWithMap((
-  ('razor_pdm', 'PWROUT2a'),
+  ('razor_pdm', 'PWROUT3b'),
   ('link_ecu_a', '+14V'),
 ))
 AddPathWithMap((
-  ('razor_pdm', 'PWROUT2b'),
+  ('razor_pdm', 'PWROUT3b'),
   ('link_ecu_b', '+14V Aux9/10'),
 ))
 
@@ -812,7 +827,8 @@ AddPath((
 ), color='white') # TODO: Decide on wire color.
 # /Labjack
 
-ClusterNodes(['battery', 'kill_switch', 'alternator', 'kill_switch_resistor'], 'Kill Switch')
+ClusterNodes(['battery', 'kill_switch', 'alternator', 'kill_switch_resistor'], 
+             'Kill Switch')
 ClusterNodes(['razor_pdm', 'link_ecu_a', 'link_ecu_b'], 'Link ECU & PDM')
 ClusterNodes(['icm', 'coil', 'LSU4.9', 'map_sensor', 'coolant_low_sensor', 'vapor_purge_valve', 
               'spal_fan_1', 'spal_fan_2', 'deutsch_fan_connector', 'engine_bay_ground', 'wiper',
@@ -825,7 +841,7 @@ ClusterNodes([
     'cam_sensor', 'crank_sensor', 'tps', 
     'oil_switch_0.25_bar',  'oil_switch_1.40_bar', 'oil_temp_sensor',
     'intake_temp_sensor', 'knock1', 'knock2', 'engine_ground',
-    'idle_stablizer_valve', 'aux_coolant_pump',
+    'idle_stablizer_valve', 'aux_coolant_pump', 'starter',
     ] + AEM_SENSORS + [f'injector{i}' for i in range(1, 7)], 'Engine')
 ClusterNodes(['fuel_pump', 'brake_lights'], 'Trunk')
 

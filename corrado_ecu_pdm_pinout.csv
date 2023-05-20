@@ -1,5 +1,5 @@
 -,-
-link_ecu_a:+14V,razor_pdm:PWROUT2a
+link_ecu_a:+14V,razor_pdm:PWROUT3b
 link_ecu_a:+5V,cam_sensor:5v
 link_ecu_a:+5V,crank_sensor:5v
 link_ecu_a:+5V,front_brake_pressure:5v
@@ -31,7 +31,7 @@ link_ecu_a:Shield/Gnd,crank_sensor:Gnd
 link_ecu_a:Temp1,coolant_temp_gauge:5vOut
 link_ecu_a:Trig1,cam_sensor:Sensor
 link_ecu_a:Trig2,crank_sensor:Sensor
-link_ecu_b:+14V Aux9/10,razor_pdm:PWROUT2b
+link_ecu_b:+14V Aux9/10,razor_pdm:PWROUT3b
 link_ecu_b:APE,LSU4.9:APE
 link_ecu_b:An Volt8,front_brake_pressure:Sig
 link_ecu_b:An Volt9,rear_brake_pressure:Sig
@@ -73,9 +73,11 @@ razor_pdm:CANL,link_ecu_b:DI9/CAN2L
 razor_pdm:IGNSW,ign_switch:2
 razor_pdm:PWROUT1a,injectors:Pos
 razor_pdm:PWROUT1b,fuel_pump:pos
-razor_pdm:PWROUT2a,link_ecu_a:+14V
-razor_pdm:PWROUT2b,link_ecu_b:+14V Aux9/10
+razor_pdm:PWROUT2a,starter:pos
+razor_pdm:PWROUT2b,starter:pos
 razor_pdm:PWROUT3a,coil:Ubatt
+razor_pdm:PWROUT3b,link_ecu_a:+14V
+razor_pdm:PWROUT3b,link_ecu_b:+14V Aux9/10
 razor_pdm:PWROUT4a,spal_fan_1:pos
 razor_pdm:PWROUT4b,spal_fan_2:pos
 razor_pdm:neg,battery:neg

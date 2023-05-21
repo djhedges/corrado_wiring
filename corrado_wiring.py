@@ -659,7 +659,7 @@ AddPathWithMap((
   ('LSU4.9', 'APE'),
 ))
 AddPath((
-  ('razor_pdm', 'ADIO1'),
+  ('razor_pdm', 'ADIO4'),
   DCEB_12v,
   ('LSU4.9', 'Heater Power'),
 ), 'red')
@@ -686,7 +686,7 @@ AddPath((
   ('engine_bay_ground', 'Gnd'),
 ), 'black')
 
-# Aux Coolant Pump
+# Aux Coolant Pump 5 amp fuse
 AddPath((
   ('razor_pdm', 'ADIO1'),
   DCE.GetFreePin(),

@@ -688,7 +688,7 @@ AddPath((
 
 # Aux Coolant Pump 5 amp fuse
 AddPath((
-  ('razor_pdm', 'ADIO1'),
+  ('razor_pdm', 'ADIO5'),
   DCE.GetFreePin(),
   ('aux_coolant_pump', 'Pos'),
 ), 'red')
@@ -728,7 +728,7 @@ AddPath((
 
 # Transponder
 AddPath((
-  ('razor_pdm', 'ADIO1'),
+  ('razor_pdm', 'ADIO5'),
   DCEB_12v,
   ('transponder', 'pos'),
 ), 'red')

@@ -73,325 +73,6 @@ gnd3>  gnd3 | < fio2>  fio2 | < fio3>  fio3 | <vs5> vs5 | < gnd4>  gnd4 | < fio0
 			style=bold,
 			width=2.2778];
 	}
-	subgraph "cluster_Engine Bay" {
-		graph [bb="3439,180.79,6715,1325.8",
-			color=grey,
-			label="Engine Bay",
-			lheight=0.21,
-			lp="5077,1314.3",
-			lwidth=1.14,
-			style=filled
-		];
-		deutsch_engine_bay_connector	[height=15.347,
-			label="deutsch_engine_bay_connector | <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 10 | <11> 11 | <12> \
-12 | <13> 13 | <14> 14 | <15> 15 | <16> 16 | <17> 17 | <18> 18 | <19> 19 | <20> 20 | <21> 21 | <22> 22 | <23> 23 | <24> 24 | <25> \
-25 | <26> 26 | <27> 27 | <28> 28 | <29> 29 | <30> 30 | <31> 31 | <32> 32 | <33> 33 | <34> 34 | <35> 35 | <36> 36 | <37> 37 | <38> \
-38 | <39> 39 | <40> 40 | <41> 41 | <42> 42 | <43> 43 | <44> 44 | <45> 45 | <46> 46 | <47> 47 ",
-			pos="3565.5,741.79",
-			rects="3447,1270.8,3684,1293.8 3447,1247.8,3684,1270.8 3447,1224.8,3684,1247.8 3447,1201.8,3684,1224.8 3447,1178.8,3684,1201.8 3447,1155.8,\
-3684,1178.8 3447,1132.8,3684,1155.8 3447,1109.8,3684,1132.8 3447,1086.8,3684,1109.8 3447,1063.8,3684,1086.8 3447,1040.8,3684,1063.8 \
-3447,1017.8,3684,1040.8 3447,994.79,3684,1017.8 3447,971.79,3684,994.79 3447,948.79,3684,971.79 3447,925.79,3684,948.79 3447,902.79,\
-3684,925.79 3447,879.79,3684,902.79 3447,856.79,3684,879.79 3447,833.79,3684,856.79 3447,810.79,3684,833.79 3447,787.79,3684,810.79 \
-3447,764.79,3684,787.79 3447,741.79,3684,764.79 3447,718.79,3684,741.79 3447,695.79,3684,718.79 3447,672.79,3684,695.79 3447,649.79,\
-3684,672.79 3447,626.79,3684,649.79 3447,603.79,3684,626.79 3447,580.79,3684,603.79 3447,557.79,3684,580.79 3447,534.79,3684,557.79 \
-3447,511.79,3684,534.79 3447,488.79,3684,511.79 3447,465.79,3684,488.79 3447,442.79,3684,465.79 3447,419.79,3684,442.79 3447,396.79,\
-3684,419.79 3447,373.79,3684,396.79 3447,350.79,3684,373.79 3447,327.79,3684,350.79 3447,304.79,3684,327.79 3447,281.79,3684,304.79 \
-3447,258.79,3684,281.79 3447,235.79,3684,258.79 3447,212.79,3684,235.79 3447,189.79,3684,212.79",
-			shape=record,
-			style=bold,
-			width=3.2917];
-		deutsch_fan_connector	[height=1.6111,
-			label="deutsch_fan_connector | <1> 1 | <2> 2 | <3> 3 | <4> 4 ",
-			pos="6074.5,1148.8",
-			rects="5985,1183.3,6164,1206.3 5985,1160.3,6164,1183.3 5985,1137.3,6164,1160.3 5985,1114.3,6164,1137.3 5985,1091.3,6164,1114.3",
-			shape=record,
-			style=bold,
-			width=2.4861];
-		deutsch_engine_bay_connector:3 -- deutsch_fan_connector:2	[color="black:red:black",
-			label="deutsch_engine_bay_connector:3<red>deutsch_fan_connector:2",
-			labeltooltip="deutsch_engine_bay_connector:3<red>deutsch_fan_connector:2",
-			lp="5028.5,1212.3",
-			penwidth=2.5,
-			pos="3684,1213.8 3972.5,1213.8 4044.5,1227 4333,1230.8 4516.1,1233.2 4566.5,1271.5 4745,1230.8 4771,1224.9 4773.1,1211.1 4799,1204.8 \
-5087.6,1134.6 5170.3,1198.6 5467,1185.8 5673.4,1176.9 5725.9,1183.7 5931,1158.8 5955.2,1155.9 5960.6,1148.8 5985,1148.8"];
-		deutsch_engine_bay_connector:2 -- deutsch_fan_connector:1	[color="black:red:black",
-			label="deutsch_engine_bay_connector:2<red>deutsch_fan_connector:1",
-			labeltooltip="deutsch_engine_bay_connector:2<red>deutsch_fan_connector:1",
-			lp="5028.5,1249.3",
-			penwidth=2.5,
-			pos="3684,1236.8 3972.5,1236.8 4044.5,1243 4333,1244.8 4516.1,1245.9 4561.9,1249.3 4745,1244.8 4802.1,1243.4 5201,1223 5258,1219.8 5557.3,\
-1202.7 5632,1196.6 5931,1175.8 5955,1174.1 5960.9,1171.8 5985,1171.8"];
-		map_sensor	[height=1.2917,
-			label="map_sensor | <Gnd> Gnd | <Sensor> Sensor | <5v> 5v ",
-			pos="4539,748.79",
-			rects="4488.5,771.79,4589.5,794.79 4488.5,748.79,4589.5,771.79 4488.5,725.79,4589.5,748.79 4488.5,702.79,4589.5,725.79",
-			shape=record,
-			style=bold,
-			width=1.4028];
-		deutsch_engine_bay_connector:13 -- map_sensor:Gnd	[color="black:green:black",
-			label="deutsch_engine_bay_connector:13<green>map_sensor:Gnd",
-			labeltooltip="deutsch_engine_bay_connector:13<green>map_sensor:Gnd",
-			lp="4008.5,939.29",
-			penwidth=2.5,
-			pos="3684,983.79 3717.3,983.79 3707.4,944.96 3738,931.79 3848.6,884.22 4177.4,971.24 4279,906.79 4322.3,879.33 4293.2,837.09 4333,804.79 \
-4388.3,759.97 4415.8,760.79 4487,760.79"];
-		deutsch_engine_bay_connector:12 -- map_sensor:Sensor	[color="black:white:brown:white:black",
-			label="deutsch_engine_bay_connector:12<white:brown>map_sensor:Sensor",
-			labeltooltip="deutsch_engine_bay_connector:12<white:brown>map_sensor:Sensor",
-			lp="4008.5,895.29",
-			penwidth=2.5,
-			pos="3684,1006.8 3742.1,1006.8 3689.9,920.42 3738,887.79 3837.6,820.19 4169.6,911.99 4279,861.79 4310.7,847.24 4304.5,824.9 4333,804.79 \
-4394.1,761.68 4412.2,736.79 4487,736.79"];
-		"LSU4.9"	[height=2.25,
-			label="LSU4.9 | <APE> APE | <IPE> IPE | <Heater> Heater | <Heater Power> Heater Power | <MES> MES | <RE> RE ",
-			pos="4539,602.79",
-			rects="4481.5,660.29,4596.5,683.29 4481.5,637.29,4596.5,660.29 4481.5,614.29,4596.5,637.29 4481.5,591.29,4596.5,614.29 4481.5,568.29,4596.5,\
-591.29 4481.5,545.29,4596.5,568.29 4481.5,522.29,4596.5,545.29",
-			shape=record,
-			style=bold,
-			width=1.5972];
-		deutsch_engine_bay_connector:1 -- "LSU4.9":"Heater Power"	[color="black:red:black",
-			label="deutsch_engine_bay_connector:1<red>LSU4.9:Heater Power",
-			labeltooltip="deutsch_engine_bay_connector:1<red>LSU4.9:Heater Power",
-			lp="4008.5,850.29",
-			penwidth=2.5,
-			pos="3684,1259.8 3777.4,1259.8 3669.7,906.59 3738,842.79 3826,760.56 4179.5,877.61 4279,809.79 4326,777.78 4297.5,738.25 4333,693.79 \
-4384.6,629.17 4397.3,579.79 4480,579.79"];
-		deutsch_engine_bay_connector:14 -- "LSU4.9":Heater	[color="black:blue:violet:blue:black",
-			label="deutsch_engine_bay_connector:14<blue:violet>LSU4.9:Heater",
-			labeltooltip="deutsch_engine_bay_connector:14<blue:violet>LSU4.9:Heater",
-			lp="4008.5,798.29",
-			penwidth=2.5,
-			pos="3684,960.79 3763.3,960.79 3676.1,840.27 3738,790.79 3832.3,715.49 4168.9,794.08 4279,744.79 4309.1,731.31 4306.8,713.92 4333,693.79 \
-4393.9,646.95 4403.2,602.79 4480,602.79"];
-		deutsch_engine_bay_connector:15 -- "LSU4.9":MES	[color="black:blue:black:blue:black",
-			label="deutsch_engine_bay_connector:15<blue:black>LSU4.9:MES",
-			labeltooltip="deutsch_engine_bay_connector:15<blue:black>LSU4.9:MES",
-			lp="4008.5,619.29",
-			penwidth=2.5,
-			pos="3684,937.79 3757.4,937.79 3683.8,661.33 3738,611.79 3768.5,583.91 4438.7,556.79 4480,556.79"];
-		deutsch_engine_bay_connector:16 -- "LSU4.9":RE	[color="black:blue:white:blue:black",
-			label="deutsch_engine_bay_connector:16<blue:white>LSU4.9:RE",
-			labeltooltip="deutsch_engine_bay_connector:16<blue:white>LSU4.9:RE",
-			lp="4008.5,553.29",
-			penwidth=2.5,
-			pos="3684,914.79 3766.9,914.79 3675.7,600.49 3738,545.79 3799.9,491.37 4397.5,533.79 4480,533.79"];
-		deutsch_engine_bay_connector:17 -- "LSU4.9":IPE	[color="black:white:blue:white:black",
-			label="deutsch_engine_bay_connector:17<white:blue>LSU4.9:IPE",
-			labeltooltip="deutsch_engine_bay_connector:17<white:blue>LSU4.9:IPE",
-			lp="4008.5,696.29",
-			penwidth=2.5,
-			pos="3684,891.79 3777.4,891.79 3665.3,747.32 3738,688.79 3784.9,651.07 4219.2,671.88 4279,664.79 4369.4,654.08 4389,625.79 4480,625.79"];
-		deutsch_engine_bay_connector:18 -- "LSU4.9":APE	[color="black:white:black",
-			label="deutsch_engine_bay_connector:18<white>LSU4.9:APE",
-			labeltooltip="deutsch_engine_bay_connector:18<white>LSU4.9:APE",
-			lp="4008.5,653.29",
-			penwidth=2.5,
-			pos="3684,868.79 3786,868.79 3657.9,708.85 3738,645.79 3770.4,620.31 4438.8,648.79 4480,648.79"];
-		coolant_low_sensor	[height=0.97222,
-			label="coolant_low_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="4539,848.79",
-			rects="4462,860.29,4616,883.29 4462,837.29,4616,860.29 4462,814.29,4616,837.29",
-			shape=record,
-			style=bold,
-			width=2.1389];
-		deutsch_engine_bay_connector:11 -- coolant_low_sensor:"Sig-"	[color="black:green:black",
-			label="deutsch_engine_bay_connector:11<green>coolant_low_sensor:Sig-",
-			labeltooltip="deutsch_engine_bay_connector:11<green>coolant_low_sensor:Sig-",
-			lp="4008.5,978.29",
-			penwidth=2.5,
-			pos="3684,1029.8 3719.5,1029.8 3705.8,985.84 3738,970.79 3847,919.87 4168.9,995.3 4279,946.79 4310.1,933.11 4305.7,912.9 4333,892.79 \
-4384.7,854.77 4396.8,825.79 4461,825.79"];
-		deutsch_engine_bay_connector:10 -- coolant_low_sensor:"Sig+"	[color="black:orange:black",
-			label="deutsch_engine_bay_connector:10<orange>coolant_low_sensor:Sig+",
-			labeltooltip="deutsch_engine_bay_connector:10<orange>coolant_low_sensor:Sig+",
-			lp="4008.5,1016.3",
-			penwidth=2.5,
-			pos="3684,1052.8 3715,1052.8 3709.1,1019.8 3738,1008.8 3794.2,987.43 4227.5,1016.9 4279,985.79 4319.9,961.07 4296.1,923.14 4333,892.79 \
-4379.5,854.6 4400.8,848.79 4461,848.79"];
-		vapor_purge_valve	[height=0.97222,
-			label="vapor_purge_valve | <Pos> Pos | <Gnd> Gnd ",
-			pos="4539,468.79",
-			rects="4464,480.29,4614,503.29 4464,457.29,4614,480.29 4464,434.29,4614,457.29",
-			shape=record,
-			style=bold,
-			width=2.0833];
-		deutsch_engine_bay_connector:19 -- vapor_purge_valve:Gnd	[color="black:orange:black:orange:black",
-			label="deutsch_engine_bay_connector:19<orange:black>vapor_purge_valve:Gnd",
-			labeltooltip="deutsch_engine_bay_connector:19<orange:black>vapor_purge_valve:Gnd",
-			lp="4008.5,506.29",
-			penwidth=2.5,
-			pos="3684,845.79 3762,845.79 3680.6,551.69 3738,498.79 3975.6,279.83 4139.9,445.79 4463,445.79"];
-		deutsch_engine_bay_connector:1 -- vapor_purge_valve:Pos	[color="black:red:black",
-			label="deutsch_engine_bay_connector:1<red>vapor_purge_valve:Pos",
-			labeltooltip="deutsch_engine_bay_connector:1<red>vapor_purge_valve:Pos",
-			lp="4008.5,733.29",
-			penwidth=2.5,
-			pos="3684,1259.8 3803.3,1259.8 3651.2,807.56 3738,725.79 3781.8,684.55 4231.8,741.06 4279,703.79 4348.3,649.16 4272.2,576.74 4333,512.79 \
-4375,468.58 4402,468.79 4463,468.79"];
-		transponder	[height=0.97222,
-			label="transponder | <pos> pos | <gnd> gnd ",
-			pos="6074.5,1259.8",
-			rects="6022.5,1271.3,6126.5,1294.3 6022.5,1248.3,6126.5,1271.3 6022.5,1225.3,6126.5,1248.3",
-			shape=record,
-			style=bold,
-			width=1.4444];
-		deutsch_engine_bay_connector:1 -- transponder:pos	[color="black:red:black",
-			label="deutsch_engine_bay_connector:1<red>transponder:pos",
-			labeltooltip="deutsch_engine_bay_connector:1<red>transponder:pos",
-			lp="5028.5,1267.3",
-			penwidth=2.5,
-			pos="3684,1259.8 4722.9,1259.8 4982.6,1259.8 6021.5,1259.8"];
-		icm	[height=2.5694,
-			label="icm | <Transistor1ecu> Transistor1ecu | <Transistor2ecu> Transistor2ecu | <Transistor3ecu> Transistor3ecu | <Transistor3coil> Transistor3coil | <\
-Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil ",
-			pos="4539,1128.8",
-			rects="4477,1197.8,4601,1220.8 4477,1174.8,4601,1197.8 4477,1151.8,4601,1174.8 4477,1128.8,4601,1151.8 4477,1105.8,4601,1128.8 4477,1082.8,\
-4601,1105.8 4477,1059.8,4601,1082.8 4477,1036.8,4601,1059.8",
-			shape=record,
-			style=bold,
-			width=1.7222];
-		deutsch_engine_bay_connector:7 -- icm:Transistor3ecu	[color="black:blue:red:blue:black",
-			label="deutsch_engine_bay_connector:7<blue:red>icm:Transistor3ecu",
-			labeltooltip="deutsch_engine_bay_connector:7<blue:red>icm:Transistor3ecu",
-			lp="4008.5,1130.3",
-			penwidth=2.5,
-			pos="3684,1121.8 3948.4,1121.8 4014.8,1110.5 4279,1122.8 4366.8,1126.9 4388.1,1140.8 4476,1140.8"];
-		deutsch_engine_bay_connector:5 -- icm:Transistor1ecu	[color="black:blue:black",
-			label="deutsch_engine_bay_connector:5<blue>icm:Transistor1ecu",
-			labeltooltip="deutsch_engine_bay_connector:5<blue>icm:Transistor1ecu",
-			lp="4008.5,1198.3",
-			penwidth=2.5,
-			pos="3684,1167.8 3708.3,1167.8 3713.8,1173.8 3738,1175.8 4065,1202.3 4148,1186.8 4476,1186.8"];
-		deutsch_engine_bay_connector:6 -- icm:Transistor2ecu	[color="black:blue:brown:blue:black",
-			label="deutsch_engine_bay_connector:6<blue:brown>icm:Transistor2ecu",
-			labeltooltip="deutsch_engine_bay_connector:6<blue:brown>icm:Transistor2ecu",
-			lp="4008.5,1164.3",
-			penwidth=2.5,
-			pos="3684,1144.8 3948.5,1144.8 4014.6,1149.4 4279,1156.8 4366.6,1159.2 4388.4,1163.8 4476,1163.8"];
-		wiper	[height=1.6111,
-			label="wiper | <high> high | <low> low | <park> park | <gnd> gnd ",
-			pos="4539,959.79",
-			rects="4510.5,994.29,4567.5,1017.3 4510.5,971.29,4567.5,994.29 4510.5,948.29,4567.5,971.29 4510.5,925.29,4567.5,948.29 4510.5,902.29,4567.5,\
-925.29",
-			shape=record,
-			style=bold,
-			width=0.79167];
-		deutsch_engine_bay_connector:9 -- wiper:park	[color="black:white:black",
-			label="deutsch_engine_bay_connector:9<white>wiper:park",
-			labeltooltip="deutsch_engine_bay_connector:9<white>wiper:park",
-			lp="4008.5,1054.3",
-			penwidth=2.5,
-			pos="3684,1075.8 3711.2,1075.8 3711.7,1054 3738,1046.8 3854,1015 4161.1,1047.9 4279,1023.8 4386.1,1001.9 4399.7,936.79 4509,936.79"];
-		deutsch_engine_bay_connector:8 -- wiper:high	[color="black:red:black",
-			label="deutsch_engine_bay_connector:8<red>wiper:high",
-			labeltooltip="deutsch_engine_bay_connector:8<red>wiper:high",
-			lp="4008.5,1092.3",
-			penwidth=2.5,
-			pos="3684,1098.8 3708.8,1098.8 3713.5,1088.5 3738,1084.8 3857,1067 4164.1,1097.6 4279,1061.8 4306.1,1053.4 4306.9,1039 4333,1027.8 4407.2,\
-995.9 4428.3,982.79 4509,982.79"];
-		spal_fan_1	[height=0.97222,
-			label="spal_fan_1 | <pos> pos | <gnd> gnd ",
-			pos="6661.5,1192.8",
-			rects="6616,1204.3,6707,1227.3 6616,1181.3,6707,1204.3 6616,1158.3,6707,1181.3",
-			shape=record,
-			style=bold,
-			width=1.2639];
-		deutsch_fan_connector:3 -- spal_fan_1:gnd	[color="black:black:black",
-			label="deutsch_fan_connector:3<black>spal_fan_1:gnd",
-			labeltooltip="deutsch_fan_connector:3<black>spal_fan_1:gnd",
-			lp="6390,1126.3",
-			penwidth=2.5,
-			pos="6164,1125.8 6188.2,1125.8 6193.8,1120.4 6218,1118.8 6294.3,1113.9 6491,1090.6 6562,1118.8 6592.7,1131 6583,1169.8 6616,1169.8"];
-		deutsch_fan_connector:1 -- spal_fan_1:pos	[color="black:red:black",
-			label="deutsch_fan_connector:1<red>spal_fan_1:pos",
-			labeltooltip="deutsch_fan_connector:1<red>spal_fan_1:pos",
-			lp="6390,1199.3",
-			penwidth=2.5,
-			pos="6164,1171.8 6365.1,1171.8 6414.9,1192.8 6616,1192.8"];
-		spal_fan_2	[height=0.97222,
-			label="spal_fan_2 | <pos> pos | <gnd> gnd ",
-			pos="6661.5,1103.8",
-			rects="6616,1115.3,6707,1138.3 6616,1092.3,6707,1115.3 6616,1069.3,6707,1092.3",
-			shape=record,
-			style=bold,
-			width=1.2639];
-		deutsch_fan_connector:4 -- spal_fan_2:gnd	[color="black:black:black",
-			label="deutsch_fan_connector:4<black>spal_fan_2:gnd",
-			labeltooltip="deutsch_fan_connector:4<black>spal_fan_2:gnd",
-			lp="6390,1093.3",
-			penwidth=2.5,
-			pos="6164,1102.8 6189.2,1102.8 6193.2,1089.8 6218,1085.8 6392.7,1057.8 6439.1,1080.8 6616,1080.8"];
-		deutsch_fan_connector:2 -- spal_fan_2:pos	[color="black:red:black",
-			label="deutsch_fan_connector:2<red>spal_fan_2:pos",
-			labeltooltip="deutsch_fan_connector:2<red>spal_fan_2:pos",
-			lp="6390,1157.3",
-			penwidth=2.5,
-			pos="6164,1148.8 6252.5,1148.8 6476.8,1157.6 6562,1133.8 6588.4,1126.4 6588.5,1103.8 6616,1103.8"];
-		engine_bay_ground	[height=0.65278,
-			label="engine_bay_ground | <Gnd> Gnd ",
-			pos="5389.5,1152.8",
-			rects="5312,1152.8,5467,1175.8 5312,1129.8,5467,1152.8",
-			shape=record,
-			style=bold,
-			width=2.1528];
-		icm:Gnd -- engine_bay_ground:Gnd	[color="black:black:black",
-			label="icm:Gnd<black>engine_bay_ground:Gnd",
-			labeltooltip="icm:Gnd<black>engine_bay_ground:Gnd",
-			lp="5028.5,1147.3",
-			penwidth=2.5,
-			pos="4602,1093.8 4690.3,1093.8 4711,1112.2 4799,1119.8 5026.3,1139.4 5083.8,1140.8 5312,1140.8"];
-		coil	[height=1.6111,
-			label="coil | <Coil3> Coil3 | <Coil2> Coil2 | <Coil1> Coil1 | <Ubatt> Ubatt ",
-			pos="5389.5,1051.8",
-			rects="5360.5,1086.3,5418.5,1109.3 5360.5,1063.3,5418.5,1086.3 5360.5,1040.3,5418.5,1063.3 5360.5,1017.3,5418.5,1040.3 5360.5,994.29,5418.5,\
-1017.3",
-			shape=record,
-			style=bold,
-			width=0.80556];
-		icm:Transistor3coil -- coil:Coil3	[color="black:white:black",
-			label="icm:Transistor3coil<white>coil:Coil3",
-			labeltooltip="icm:Transistor3coil<white>coil:Coil3",
-			lp="5028.5,1108.3",
-			penwidth=2.5,
-			pos="4602,1116.8 4689.8,1116.8 4711.3,1106.2 4799,1100.8 5002.8,1088.3 5054.1,1093 5258,1081.8 5303.1,1079.3 5314.3,1074.8 5359.5,1074.8"];
-		icm:Transistor1coil -- coil:Coil1	[color="black:white:black",
-			label="icm:Transistor1coil<white>coil:Coil1",
-			labeltooltip="icm:Transistor1coil<white>coil:Coil1",
-			lp="5028.5,1036.3",
-			penwidth=2.5,
-			pos="4602,1047.8 4690,1047.8 4711.1,1033 4799,1028.8 5047.8,1016.8 5110.4,1028.8 5359.5,1028.8"];
-		icm:Transistor2coil -- coil:Coil2	[color="black:white:black",
-			label="icm:Transistor2coil<white>coil:Coil2",
-			labeltooltip="icm:Transistor2coil<white>coil:Coil2",
-			lp="5028.5,1070.3",
-			penwidth=2.5,
-			pos="4602,1070.8 4689.6,1070.8 4711.4,1065.4 4799,1062.8 5048,1055.3 5110.3,1051.8 5359.5,1051.8"];
-		wiper:gnd -- engine_bay_ground:Gnd	[color="black:black:black",
-			label="wiper:gnd<black>engine_bay_ground:Gnd",
-			labeltooltip="wiper:gnd<black>engine_bay_ground:Gnd",
-			lp="5028.5,1011.3",
-			penwidth=2.5,
-			pos="4569,913.79 4877.8,913.79 5014.5,813.81 5258,1003.8 5309.6,1044.1 5246.6,1140.8 5312,1140.8"];
-		engine_bay_ground:Gnd -- deutsch_fan_connector:3	[color="black:black:black",
-			label="engine_bay_ground:Gnd<black>deutsch_fan_connector:3",
-			labeltooltip="engine_bay_ground:Gnd<black>deutsch_fan_connector:3",
-			lp="5726,1147.3",
-			penwidth=2.5,
-			pos="5467,1140.8 5697.3,1140.8 5754.7,1125.8 5985,1125.8"];
-		engine_bay_ground:Gnd -- deutsch_fan_connector:4	[color="black:black:black",
-			label="engine_bay_ground:Gnd<black>deutsch_fan_connector:4",
-			labeltooltip="engine_bay_ground:Gnd<black>deutsch_fan_connector:4",
-			lp="5726,1114.3",
-			penwidth=2.5,
-			pos="5467,1140.8 5495.4,1140.8 5493.8,1114.8 5521,1106.8 5718.9,1048.8 5778.8,1102.8 5985,1102.8"];
-		engine_bay_ground:Gnd -- transponder:gnd	[color="black:black:black",
-			label="engine_bay_ground:Gnd<black>transponder:gnd",
-			labeltooltip="engine_bay_ground:Gnd<black>transponder:gnd",
-			lp="5726,1242.3",
-			penwidth=2.5,
-			pos="5467,1140.8 5492.3,1140.8 5496.4,1152.8 5521,1158.8 5739.8,1211.9 5796.4,1236.8 6021.5,1236.8"];
-	}
 	subgraph cluster_Engine {
 		graph [bb="3455,1544.8,5458.5,3711.8",
 			color=grey,
@@ -677,9 +358,9 @@ Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil
 			shape=record,
 			style=bold,
 			width=2.1667];
-		deutsch_engine_connector:40 -- idle_stablizer_valve:Gnd	[color="black:orange:black:orange:black",
-			label="deutsch_engine_connector:40<orange:black>idle_stablizer_valve:Gnd",
-			labeltooltip="deutsch_engine_connector:40<orange:black>idle_stablizer_valve:Gnd",
+		deutsch_engine_connector:40 -- idle_stablizer_valve:Gnd	[color="black:orange:brown:orange:black",
+			label="deutsch_engine_connector:40<orange:brown>idle_stablizer_valve:Gnd",
+			labeltooltip="deutsch_engine_connector:40<orange:brown>idle_stablizer_valve:Gnd",
 			lp="4008.5,2201.3",
 			penwidth=2.5,
 			pos="3669.5,2045.8 3732.5,2045.8 3684.5,2136.6 3738,2169.8 3840.3,2233.2 4178.9,2127 4279,2193.8 4326,2225.1 4288,2274.7 4333,2308.8 \
@@ -891,6 +572,325 @@ Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil
 			lp="5028.5,3519.3",
 			penwidth=2.5,
 			pos="4614,3511.8 4931.1,3511.8 5010.4,3511.8 5327.5,3511.8"];
+	}
+	subgraph "cluster_Engine Bay" {
+		graph [bb="3439,180.79,6715,1325.8",
+			color=grey,
+			label="Engine Bay",
+			lheight=0.21,
+			lp="5077,1314.3",
+			lwidth=1.14,
+			style=filled
+		];
+		deutsch_engine_bay_connector	[height=15.347,
+			label="deutsch_engine_bay_connector | <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 10 | <11> 11 | <12> \
+12 | <13> 13 | <14> 14 | <15> 15 | <16> 16 | <17> 17 | <18> 18 | <19> 19 | <20> 20 | <21> 21 | <22> 22 | <23> 23 | <24> 24 | <25> \
+25 | <26> 26 | <27> 27 | <28> 28 | <29> 29 | <30> 30 | <31> 31 | <32> 32 | <33> 33 | <34> 34 | <35> 35 | <36> 36 | <37> 37 | <38> \
+38 | <39> 39 | <40> 40 | <41> 41 | <42> 42 | <43> 43 | <44> 44 | <45> 45 | <46> 46 | <47> 47 ",
+			pos="3565.5,741.79",
+			rects="3447,1270.8,3684,1293.8 3447,1247.8,3684,1270.8 3447,1224.8,3684,1247.8 3447,1201.8,3684,1224.8 3447,1178.8,3684,1201.8 3447,1155.8,\
+3684,1178.8 3447,1132.8,3684,1155.8 3447,1109.8,3684,1132.8 3447,1086.8,3684,1109.8 3447,1063.8,3684,1086.8 3447,1040.8,3684,1063.8 \
+3447,1017.8,3684,1040.8 3447,994.79,3684,1017.8 3447,971.79,3684,994.79 3447,948.79,3684,971.79 3447,925.79,3684,948.79 3447,902.79,\
+3684,925.79 3447,879.79,3684,902.79 3447,856.79,3684,879.79 3447,833.79,3684,856.79 3447,810.79,3684,833.79 3447,787.79,3684,810.79 \
+3447,764.79,3684,787.79 3447,741.79,3684,764.79 3447,718.79,3684,741.79 3447,695.79,3684,718.79 3447,672.79,3684,695.79 3447,649.79,\
+3684,672.79 3447,626.79,3684,649.79 3447,603.79,3684,626.79 3447,580.79,3684,603.79 3447,557.79,3684,580.79 3447,534.79,3684,557.79 \
+3447,511.79,3684,534.79 3447,488.79,3684,511.79 3447,465.79,3684,488.79 3447,442.79,3684,465.79 3447,419.79,3684,442.79 3447,396.79,\
+3684,419.79 3447,373.79,3684,396.79 3447,350.79,3684,373.79 3447,327.79,3684,350.79 3447,304.79,3684,327.79 3447,281.79,3684,304.79 \
+3447,258.79,3684,281.79 3447,235.79,3684,258.79 3447,212.79,3684,235.79 3447,189.79,3684,212.79",
+			shape=record,
+			style=bold,
+			width=3.2917];
+		deutsch_fan_connector	[height=1.6111,
+			label="deutsch_fan_connector | <1> 1 | <2> 2 | <3> 3 | <4> 4 ",
+			pos="6074.5,1148.8",
+			rects="5985,1183.3,6164,1206.3 5985,1160.3,6164,1183.3 5985,1137.3,6164,1160.3 5985,1114.3,6164,1137.3 5985,1091.3,6164,1114.3",
+			shape=record,
+			style=bold,
+			width=2.4861];
+		deutsch_engine_bay_connector:3 -- deutsch_fan_connector:2	[color="black:red:black",
+			label="deutsch_engine_bay_connector:3<red>deutsch_fan_connector:2",
+			labeltooltip="deutsch_engine_bay_connector:3<red>deutsch_fan_connector:2",
+			lp="5028.5,1212.3",
+			penwidth=2.5,
+			pos="3684,1213.8 3972.5,1213.8 4044.5,1227 4333,1230.8 4516.1,1233.2 4566.5,1271.5 4745,1230.8 4771,1224.9 4773.1,1211.1 4799,1204.8 \
+5087.6,1134.6 5170.3,1198.6 5467,1185.8 5673.4,1176.9 5725.9,1183.7 5931,1158.8 5955.2,1155.9 5960.6,1148.8 5985,1148.8"];
+		deutsch_engine_bay_connector:2 -- deutsch_fan_connector:1	[color="black:red:black",
+			label="deutsch_engine_bay_connector:2<red>deutsch_fan_connector:1",
+			labeltooltip="deutsch_engine_bay_connector:2<red>deutsch_fan_connector:1",
+			lp="5028.5,1249.3",
+			penwidth=2.5,
+			pos="3684,1236.8 3972.5,1236.8 4044.5,1243 4333,1244.8 4516.1,1245.9 4561.9,1249.3 4745,1244.8 4802.1,1243.4 5201,1223 5258,1219.8 5557.3,\
+1202.7 5632,1196.6 5931,1175.8 5955,1174.1 5960.9,1171.8 5985,1171.8"];
+		map_sensor	[height=1.2917,
+			label="map_sensor | <Gnd> Gnd | <Sensor> Sensor | <5v> 5v ",
+			pos="4539,748.79",
+			rects="4488.5,771.79,4589.5,794.79 4488.5,748.79,4589.5,771.79 4488.5,725.79,4589.5,748.79 4488.5,702.79,4589.5,725.79",
+			shape=record,
+			style=bold,
+			width=1.4028];
+		deutsch_engine_bay_connector:13 -- map_sensor:Gnd	[color="black:green:black",
+			label="deutsch_engine_bay_connector:13<green>map_sensor:Gnd",
+			labeltooltip="deutsch_engine_bay_connector:13<green>map_sensor:Gnd",
+			lp="4008.5,939.29",
+			penwidth=2.5,
+			pos="3684,983.79 3717.3,983.79 3707.4,944.96 3738,931.79 3848.6,884.22 4177.4,971.24 4279,906.79 4322.3,879.33 4293.2,837.09 4333,804.79 \
+4388.3,759.97 4415.8,760.79 4487,760.79"];
+		deutsch_engine_bay_connector:12 -- map_sensor:Sensor	[color="black:white:brown:white:black",
+			label="deutsch_engine_bay_connector:12<white:brown>map_sensor:Sensor",
+			labeltooltip="deutsch_engine_bay_connector:12<white:brown>map_sensor:Sensor",
+			lp="4008.5,895.29",
+			penwidth=2.5,
+			pos="3684,1006.8 3742.1,1006.8 3689.9,920.42 3738,887.79 3837.6,820.19 4169.6,911.99 4279,861.79 4310.7,847.24 4304.5,824.9 4333,804.79 \
+4394.1,761.68 4412.2,736.79 4487,736.79"];
+		"LSU4.9"	[height=2.25,
+			label="LSU4.9 | <APE> APE | <IPE> IPE | <Heater> Heater | <Heater Power> Heater Power | <MES> MES | <RE> RE ",
+			pos="4539,602.79",
+			rects="4481.5,660.29,4596.5,683.29 4481.5,637.29,4596.5,660.29 4481.5,614.29,4596.5,637.29 4481.5,591.29,4596.5,614.29 4481.5,568.29,4596.5,\
+591.29 4481.5,545.29,4596.5,568.29 4481.5,522.29,4596.5,545.29",
+			shape=record,
+			style=bold,
+			width=1.5972];
+		deutsch_engine_bay_connector:1 -- "LSU4.9":"Heater Power"	[color="black:red:black",
+			label="deutsch_engine_bay_connector:1<red>LSU4.9:Heater Power",
+			labeltooltip="deutsch_engine_bay_connector:1<red>LSU4.9:Heater Power",
+			lp="4008.5,850.29",
+			penwidth=2.5,
+			pos="3684,1259.8 3777.4,1259.8 3669.7,906.59 3738,842.79 3826,760.56 4179.5,877.61 4279,809.79 4326,777.78 4297.5,738.25 4333,693.79 \
+4384.6,629.17 4397.3,579.79 4480,579.79"];
+		deutsch_engine_bay_connector:14 -- "LSU4.9":Heater	[color="black:blue:violet:blue:black",
+			label="deutsch_engine_bay_connector:14<blue:violet>LSU4.9:Heater",
+			labeltooltip="deutsch_engine_bay_connector:14<blue:violet>LSU4.9:Heater",
+			lp="4008.5,798.29",
+			penwidth=2.5,
+			pos="3684,960.79 3763.3,960.79 3676.1,840.27 3738,790.79 3832.3,715.49 4168.9,794.08 4279,744.79 4309.1,731.31 4306.8,713.92 4333,693.79 \
+4393.9,646.95 4403.2,602.79 4480,602.79"];
+		deutsch_engine_bay_connector:15 -- "LSU4.9":MES	[color="black:blue:black:blue:black",
+			label="deutsch_engine_bay_connector:15<blue:black>LSU4.9:MES",
+			labeltooltip="deutsch_engine_bay_connector:15<blue:black>LSU4.9:MES",
+			lp="4008.5,619.29",
+			penwidth=2.5,
+			pos="3684,937.79 3757.4,937.79 3683.8,661.33 3738,611.79 3768.5,583.91 4438.7,556.79 4480,556.79"];
+		deutsch_engine_bay_connector:16 -- "LSU4.9":RE	[color="black:blue:white:blue:black",
+			label="deutsch_engine_bay_connector:16<blue:white>LSU4.9:RE",
+			labeltooltip="deutsch_engine_bay_connector:16<blue:white>LSU4.9:RE",
+			lp="4008.5,553.29",
+			penwidth=2.5,
+			pos="3684,914.79 3766.9,914.79 3675.7,600.49 3738,545.79 3799.9,491.37 4397.5,533.79 4480,533.79"];
+		deutsch_engine_bay_connector:17 -- "LSU4.9":IPE	[color="black:white:blue:white:black",
+			label="deutsch_engine_bay_connector:17<white:blue>LSU4.9:IPE",
+			labeltooltip="deutsch_engine_bay_connector:17<white:blue>LSU4.9:IPE",
+			lp="4008.5,696.29",
+			penwidth=2.5,
+			pos="3684,891.79 3777.4,891.79 3665.3,747.32 3738,688.79 3784.9,651.07 4219.2,671.88 4279,664.79 4369.4,654.08 4389,625.79 4480,625.79"];
+		deutsch_engine_bay_connector:18 -- "LSU4.9":APE	[color="black:white:black",
+			label="deutsch_engine_bay_connector:18<white>LSU4.9:APE",
+			labeltooltip="deutsch_engine_bay_connector:18<white>LSU4.9:APE",
+			lp="4008.5,653.29",
+			penwidth=2.5,
+			pos="3684,868.79 3786,868.79 3657.9,708.85 3738,645.79 3770.4,620.31 4438.8,648.79 4480,648.79"];
+		coolant_low_sensor	[height=0.97222,
+			label="coolant_low_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
+			pos="4539,848.79",
+			rects="4462,860.29,4616,883.29 4462,837.29,4616,860.29 4462,814.29,4616,837.29",
+			shape=record,
+			style=bold,
+			width=2.1389];
+		deutsch_engine_bay_connector:11 -- coolant_low_sensor:"Sig-"	[color="black:green:black",
+			label="deutsch_engine_bay_connector:11<green>coolant_low_sensor:Sig-",
+			labeltooltip="deutsch_engine_bay_connector:11<green>coolant_low_sensor:Sig-",
+			lp="4008.5,978.29",
+			penwidth=2.5,
+			pos="3684,1029.8 3719.5,1029.8 3705.8,985.84 3738,970.79 3847,919.87 4168.9,995.3 4279,946.79 4310.1,933.11 4305.7,912.9 4333,892.79 \
+4384.7,854.77 4396.8,825.79 4461,825.79"];
+		deutsch_engine_bay_connector:10 -- coolant_low_sensor:"Sig+"	[color="black:orange:black",
+			label="deutsch_engine_bay_connector:10<orange>coolant_low_sensor:Sig+",
+			labeltooltip="deutsch_engine_bay_connector:10<orange>coolant_low_sensor:Sig+",
+			lp="4008.5,1016.3",
+			penwidth=2.5,
+			pos="3684,1052.8 3715,1052.8 3709.1,1019.8 3738,1008.8 3794.2,987.43 4227.5,1016.9 4279,985.79 4319.9,961.07 4296.1,923.14 4333,892.79 \
+4379.5,854.6 4400.8,848.79 4461,848.79"];
+		vapor_purge_valve	[height=0.97222,
+			label="vapor_purge_valve | <Pos> Pos | <Gnd> Gnd ",
+			pos="4539,468.79",
+			rects="4464,480.29,4614,503.29 4464,457.29,4614,480.29 4464,434.29,4614,457.29",
+			shape=record,
+			style=bold,
+			width=2.0833];
+		deutsch_engine_bay_connector:19 -- vapor_purge_valve:Gnd	[color="black:orange:red:orange:black",
+			label="deutsch_engine_bay_connector:19<orange:red>vapor_purge_valve:Gnd",
+			labeltooltip="deutsch_engine_bay_connector:19<orange:red>vapor_purge_valve:Gnd",
+			lp="4008.5,506.29",
+			penwidth=2.5,
+			pos="3684,845.79 3762,845.79 3680.6,551.69 3738,498.79 3975.6,279.83 4139.9,445.79 4463,445.79"];
+		deutsch_engine_bay_connector:1 -- vapor_purge_valve:Pos	[color="black:red:black",
+			label="deutsch_engine_bay_connector:1<red>vapor_purge_valve:Pos",
+			labeltooltip="deutsch_engine_bay_connector:1<red>vapor_purge_valve:Pos",
+			lp="4008.5,733.29",
+			penwidth=2.5,
+			pos="3684,1259.8 3803.3,1259.8 3651.2,807.56 3738,725.79 3781.8,684.55 4231.8,741.06 4279,703.79 4348.3,649.16 4272.2,576.74 4333,512.79 \
+4375,468.58 4402,468.79 4463,468.79"];
+		transponder	[height=0.97222,
+			label="transponder | <pos> pos | <gnd> gnd ",
+			pos="6074.5,1259.8",
+			rects="6022.5,1271.3,6126.5,1294.3 6022.5,1248.3,6126.5,1271.3 6022.5,1225.3,6126.5,1248.3",
+			shape=record,
+			style=bold,
+			width=1.4444];
+		deutsch_engine_bay_connector:1 -- transponder:pos	[color="black:red:black",
+			label="deutsch_engine_bay_connector:1<red>transponder:pos",
+			labeltooltip="deutsch_engine_bay_connector:1<red>transponder:pos",
+			lp="5028.5,1267.3",
+			penwidth=2.5,
+			pos="3684,1259.8 4722.9,1259.8 4982.6,1259.8 6021.5,1259.8"];
+		icm	[height=2.5694,
+			label="icm | <Transistor1ecu> Transistor1ecu | <Transistor2ecu> Transistor2ecu | <Transistor3ecu> Transistor3ecu | <Transistor3coil> Transistor3coil | <\
+Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil ",
+			pos="4539,1128.8",
+			rects="4477,1197.8,4601,1220.8 4477,1174.8,4601,1197.8 4477,1151.8,4601,1174.8 4477,1128.8,4601,1151.8 4477,1105.8,4601,1128.8 4477,1082.8,\
+4601,1105.8 4477,1059.8,4601,1082.8 4477,1036.8,4601,1059.8",
+			shape=record,
+			style=bold,
+			width=1.7222];
+		deutsch_engine_bay_connector:7 -- icm:Transistor3ecu	[color="black:blue:red:blue:black",
+			label="deutsch_engine_bay_connector:7<blue:red>icm:Transistor3ecu",
+			labeltooltip="deutsch_engine_bay_connector:7<blue:red>icm:Transistor3ecu",
+			lp="4008.5,1130.3",
+			penwidth=2.5,
+			pos="3684,1121.8 3948.4,1121.8 4014.8,1110.5 4279,1122.8 4366.8,1126.9 4388.1,1140.8 4476,1140.8"];
+		deutsch_engine_bay_connector:5 -- icm:Transistor1ecu	[color="black:blue:black",
+			label="deutsch_engine_bay_connector:5<blue>icm:Transistor1ecu",
+			labeltooltip="deutsch_engine_bay_connector:5<blue>icm:Transistor1ecu",
+			lp="4008.5,1198.3",
+			penwidth=2.5,
+			pos="3684,1167.8 3708.3,1167.8 3713.8,1173.8 3738,1175.8 4065,1202.3 4148,1186.8 4476,1186.8"];
+		deutsch_engine_bay_connector:6 -- icm:Transistor2ecu	[color="black:blue:brown:blue:black",
+			label="deutsch_engine_bay_connector:6<blue:brown>icm:Transistor2ecu",
+			labeltooltip="deutsch_engine_bay_connector:6<blue:brown>icm:Transistor2ecu",
+			lp="4008.5,1164.3",
+			penwidth=2.5,
+			pos="3684,1144.8 3948.5,1144.8 4014.6,1149.4 4279,1156.8 4366.6,1159.2 4388.4,1163.8 4476,1163.8"];
+		wiper	[height=1.6111,
+			label="wiper | <high> high | <low> low | <park> park | <gnd> gnd ",
+			pos="4539,959.79",
+			rects="4510.5,994.29,4567.5,1017.3 4510.5,971.29,4567.5,994.29 4510.5,948.29,4567.5,971.29 4510.5,925.29,4567.5,948.29 4510.5,902.29,4567.5,\
+925.29",
+			shape=record,
+			style=bold,
+			width=0.79167];
+		deutsch_engine_bay_connector:9 -- wiper:park	[color="black:white:black",
+			label="deutsch_engine_bay_connector:9<white>wiper:park",
+			labeltooltip="deutsch_engine_bay_connector:9<white>wiper:park",
+			lp="4008.5,1054.3",
+			penwidth=2.5,
+			pos="3684,1075.8 3711.2,1075.8 3711.7,1054 3738,1046.8 3854,1015 4161.1,1047.9 4279,1023.8 4386.1,1001.9 4399.7,936.79 4509,936.79"];
+		deutsch_engine_bay_connector:8 -- wiper:high	[color="black:red:black",
+			label="deutsch_engine_bay_connector:8<red>wiper:high",
+			labeltooltip="deutsch_engine_bay_connector:8<red>wiper:high",
+			lp="4008.5,1092.3",
+			penwidth=2.5,
+			pos="3684,1098.8 3708.8,1098.8 3713.5,1088.5 3738,1084.8 3857,1067 4164.1,1097.6 4279,1061.8 4306.1,1053.4 4306.9,1039 4333,1027.8 4407.2,\
+995.9 4428.3,982.79 4509,982.79"];
+		spal_fan_1	[height=0.97222,
+			label="spal_fan_1 | <pos> pos | <gnd> gnd ",
+			pos="6661.5,1192.8",
+			rects="6616,1204.3,6707,1227.3 6616,1181.3,6707,1204.3 6616,1158.3,6707,1181.3",
+			shape=record,
+			style=bold,
+			width=1.2639];
+		deutsch_fan_connector:3 -- spal_fan_1:gnd	[color="black:black:black",
+			label="deutsch_fan_connector:3<black>spal_fan_1:gnd",
+			labeltooltip="deutsch_fan_connector:3<black>spal_fan_1:gnd",
+			lp="6390,1126.3",
+			penwidth=2.5,
+			pos="6164,1125.8 6188.2,1125.8 6193.8,1120.4 6218,1118.8 6294.3,1113.9 6491,1090.6 6562,1118.8 6592.7,1131 6583,1169.8 6616,1169.8"];
+		deutsch_fan_connector:1 -- spal_fan_1:pos	[color="black:red:black",
+			label="deutsch_fan_connector:1<red>spal_fan_1:pos",
+			labeltooltip="deutsch_fan_connector:1<red>spal_fan_1:pos",
+			lp="6390,1199.3",
+			penwidth=2.5,
+			pos="6164,1171.8 6365.1,1171.8 6414.9,1192.8 6616,1192.8"];
+		spal_fan_2	[height=0.97222,
+			label="spal_fan_2 | <pos> pos | <gnd> gnd ",
+			pos="6661.5,1103.8",
+			rects="6616,1115.3,6707,1138.3 6616,1092.3,6707,1115.3 6616,1069.3,6707,1092.3",
+			shape=record,
+			style=bold,
+			width=1.2639];
+		deutsch_fan_connector:4 -- spal_fan_2:gnd	[color="black:black:black",
+			label="deutsch_fan_connector:4<black>spal_fan_2:gnd",
+			labeltooltip="deutsch_fan_connector:4<black>spal_fan_2:gnd",
+			lp="6390,1093.3",
+			penwidth=2.5,
+			pos="6164,1102.8 6189.2,1102.8 6193.2,1089.8 6218,1085.8 6392.7,1057.8 6439.1,1080.8 6616,1080.8"];
+		deutsch_fan_connector:2 -- spal_fan_2:pos	[color="black:red:black",
+			label="deutsch_fan_connector:2<red>spal_fan_2:pos",
+			labeltooltip="deutsch_fan_connector:2<red>spal_fan_2:pos",
+			lp="6390,1157.3",
+			penwidth=2.5,
+			pos="6164,1148.8 6252.5,1148.8 6476.8,1157.6 6562,1133.8 6588.4,1126.4 6588.5,1103.8 6616,1103.8"];
+		engine_bay_ground	[height=0.65278,
+			label="engine_bay_ground | <Gnd> Gnd ",
+			pos="5389.5,1152.8",
+			rects="5312,1152.8,5467,1175.8 5312,1129.8,5467,1152.8",
+			shape=record,
+			style=bold,
+			width=2.1528];
+		icm:Gnd -- engine_bay_ground:Gnd	[color="black:black:black",
+			label="icm:Gnd<black>engine_bay_ground:Gnd",
+			labeltooltip="icm:Gnd<black>engine_bay_ground:Gnd",
+			lp="5028.5,1147.3",
+			penwidth=2.5,
+			pos="4602,1093.8 4690.3,1093.8 4711,1112.2 4799,1119.8 5026.3,1139.4 5083.8,1140.8 5312,1140.8"];
+		coil	[height=1.6111,
+			label="coil | <Coil3> Coil3 | <Coil2> Coil2 | <Coil1> Coil1 | <Ubatt> Ubatt ",
+			pos="5389.5,1051.8",
+			rects="5360.5,1086.3,5418.5,1109.3 5360.5,1063.3,5418.5,1086.3 5360.5,1040.3,5418.5,1063.3 5360.5,1017.3,5418.5,1040.3 5360.5,994.29,5418.5,\
+1017.3",
+			shape=record,
+			style=bold,
+			width=0.80556];
+		icm:Transistor3coil -- coil:Coil3	[color="black:white:black",
+			label="icm:Transistor3coil<white>coil:Coil3",
+			labeltooltip="icm:Transistor3coil<white>coil:Coil3",
+			lp="5028.5,1108.3",
+			penwidth=2.5,
+			pos="4602,1116.8 4689.8,1116.8 4711.3,1106.2 4799,1100.8 5002.8,1088.3 5054.1,1093 5258,1081.8 5303.1,1079.3 5314.3,1074.8 5359.5,1074.8"];
+		icm:Transistor1coil -- coil:Coil1	[color="black:white:black",
+			label="icm:Transistor1coil<white>coil:Coil1",
+			labeltooltip="icm:Transistor1coil<white>coil:Coil1",
+			lp="5028.5,1036.3",
+			penwidth=2.5,
+			pos="4602,1047.8 4690,1047.8 4711.1,1033 4799,1028.8 5047.8,1016.8 5110.4,1028.8 5359.5,1028.8"];
+		icm:Transistor2coil -- coil:Coil2	[color="black:white:black",
+			label="icm:Transistor2coil<white>coil:Coil2",
+			labeltooltip="icm:Transistor2coil<white>coil:Coil2",
+			lp="5028.5,1070.3",
+			penwidth=2.5,
+			pos="4602,1070.8 4689.6,1070.8 4711.4,1065.4 4799,1062.8 5048,1055.3 5110.3,1051.8 5359.5,1051.8"];
+		wiper:gnd -- engine_bay_ground:Gnd	[color="black:black:black",
+			label="wiper:gnd<black>engine_bay_ground:Gnd",
+			labeltooltip="wiper:gnd<black>engine_bay_ground:Gnd",
+			lp="5028.5,1011.3",
+			penwidth=2.5,
+			pos="4569,913.79 4877.8,913.79 5014.5,813.81 5258,1003.8 5309.6,1044.1 5246.6,1140.8 5312,1140.8"];
+		engine_bay_ground:Gnd -- deutsch_fan_connector:3	[color="black:black:black",
+			label="engine_bay_ground:Gnd<black>deutsch_fan_connector:3",
+			labeltooltip="engine_bay_ground:Gnd<black>deutsch_fan_connector:3",
+			lp="5726,1147.3",
+			penwidth=2.5,
+			pos="5467,1140.8 5697.3,1140.8 5754.7,1125.8 5985,1125.8"];
+		engine_bay_ground:Gnd -- deutsch_fan_connector:4	[color="black:black:black",
+			label="engine_bay_ground:Gnd<black>deutsch_fan_connector:4",
+			labeltooltip="engine_bay_ground:Gnd<black>deutsch_fan_connector:4",
+			lp="5726,1114.3",
+			penwidth=2.5,
+			pos="5467,1140.8 5495.4,1140.8 5493.8,1114.8 5521,1106.8 5718.9,1048.8 5778.8,1102.8 5985,1102.8"];
+		engine_bay_ground:Gnd -- transponder:gnd	[color="black:black:black",
+			label="engine_bay_ground:Gnd<black>transponder:gnd",
+			labeltooltip="engine_bay_ground:Gnd<black>transponder:gnd",
+			lp="5726,1242.3",
+			penwidth=2.5,
+			pos="5467,1140.8 5492.3,1140.8 5496.4,1152.8 5521,1158.8 5739.8,1211.9 5796.4,1236.8 6021.5,1236.8"];
 	}
 	subgraph "cluster_Link ECU & PDM" {
 		graph [bb="1535.5,928.79,2680.5,2597.8",
@@ -1295,12 +1295,12 @@ APE> APE | <AN Volt5> AN Volt5 | <Ground2> Ground2 ",
 		penwidth=2.5,
 		pos="2662,2002.8 2801.1,2002.8 2796.9,1880.8 2849,1751.8 2884.3,1664.3 2833.4,1394.5 2903,1330.8 2943.2,1294 3352.2,1347.9 3393,1311.8 \
 3448.2,1262.8 3371.7,983.79 3445.5,983.79"];
-	link_ecu_a:Aux1 -- deutsch_engine_bay_connector:19	[color="black:orange:black:orange:black",
-		label="link_ecu_a:Aux1<orange:black>deutsch_engine_bay_connector:19",
-		labeltooltip="link_ecu_a:Aux1<orange:black>deutsch_engine_bay_connector:19",
+	link_ecu_a:Aux3 -- deutsch_engine_bay_connector:19	[color="black:orange:red:orange:black",
+		label="link_ecu_a:Aux3<orange:red>deutsch_engine_bay_connector:19",
+		labeltooltip="link_ecu_a:Aux3<orange:red>deutsch_engine_bay_connector:19",
 		lp="3148,1300.3",
 		penwidth=2.5,
-		pos="2662,2071.8 2826.7,2071.8 2796.7,1908 2849,1751.8 2881.6,1654.4 2827.6,1362.5 2903,1292.8 2943,1255.8 3352.9,1310.7 3393,1273.8 \
+		pos="2662,2117.8 2844.7,2117.8 2795.9,1926.6 2849,1751.8 2878.8,1653.5 2827.6,1362.5 2903,1292.8 2943,1255.8 3352.9,1310.7 3393,1273.8 \
 3463.5,1208.9 3349.7,845.79 3445.5,845.79"];
 	link_ecu_a:Inj1 -- deutsch_engine_connector:10	[color="black:brown:black:brown:black",
 		label="link_ecu_a:Inj1<brown:black>deutsch_engine_connector:10",
@@ -1415,12 +1415,12 @@ APE> APE | <AN Volt5> AN Volt5 | <Ground2> Ground2 ",
 		lp="3148,1957.3",
 		penwidth=2.5,
 		pos="2662,1772.8 2787.5,1772.8 2783.3,1882.2 2903,1919.8 2955,1936.1 3352.5,1913.2 3393,1949.8 3462.8,2012.9 3367.4,2367.8 3461.5,2367.8"];
-	link_ecu_a:Aux1 -- deutsch_engine_connector:40	[color="black:orange:black:orange:black",
-		label="link_ecu_a:Aux1<orange:black>deutsch_engine_connector:40",
-		labeltooltip="link_ecu_a:Aux1<orange:black>deutsch_engine_connector:40",
+	link_ecu_a:Aux2 -- deutsch_engine_connector:40	[color="black:orange:brown:orange:black",
+		label="link_ecu_a:Aux2<orange:brown>deutsch_engine_connector:40",
+		labeltooltip="link_ecu_a:Aux2<orange:brown>deutsch_engine_connector:40",
 		lp="3148,1608.3",
 		penwidth=2.5,
-		pos="2662,2071.8 2826.7,2071.8 2779.4,1901.1 2849,1751.8 2879.1,1687.2 2844.7,1641.8 2903,1600.8 2925.3,1585.1 3372.3,1583.1 3393,1600.8 \
+		pos="2662,2094.8 2835.6,2094.8 2778,1910.2 2849,1751.8 2878.1,1686.8 2844.7,1641.8 2903,1600.8 2925.3,1585.1 3372.3,1583.1 3393,1600.8 \
 3468.9,1665.9 3361.4,2045.8 3461.5,2045.8"];
 	link_ecu_a:Temp1 -- deutsch_gauge_connector:9	[color="black:white:black",
 		label="link_ecu_a:Temp1<white>deutsch_gauge_connector:9",

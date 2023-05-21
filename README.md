@@ -4,6 +4,7 @@
 
 * [corrado_wiring.png](/corrado_wiring.png)
 * [corrado_wiring.svg](/corrado_wiring.svg)
+* [corrado_ecu_pdm_pinout.csv](/corrado_ecu_pdm_pinout.csv)
 
 ![diagram](/corrado_wiring.png)
 

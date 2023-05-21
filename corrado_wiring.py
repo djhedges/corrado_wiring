@@ -672,7 +672,7 @@ AddPath((
   ('idle_stablizer_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
 AddPathWithMap((
-  ('link_ecu_a', 'Aux1'),
+  ('link_ecu_a', 'Aux2'),
   DCE.GetFreePin(),
   ('idle_stablizer_valve', 'Gnd'),
 ))
@@ -684,7 +684,7 @@ AddPath((
   ('vapor_purge_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
 AddPathWithMap((
-  ('link_ecu_a', 'Aux1'),
+  ('link_ecu_a', 'Aux3'),
   DCEB.GetFreePin(),
   ('vapor_purge_valve', 'Gnd'),
 ))

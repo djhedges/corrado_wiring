@@ -157,7 +157,8 @@ class DeutschConnector(object):
 # https://mavenspeed.com/collections/b2t-engineering/products/dual-connector-bulkhead
 DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,2,3,4,34])  # Engine
 DCE_5v = DCE.GetFreePin()
-DCE_INJ_PWR_PIN = DCE.GetHighPin()
+DCE_INJ_PWR_PIN = DCE.GetFreePin()
+DCE_12v = DCE.GetFreePin()
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,2,3,4,34])  # Engine Bay
 DCEB_5v = DCE.GetFreePin()
 DCEB_12v = DCEB.GetHighPin()
@@ -420,7 +421,7 @@ AddPathWithMap((
 
 # Injectors
 AddPath((
-  ('razor_pdm', 'PWROUT1b'),
+  ('razor_pdm', 'ADIO3'),
   DCE_INJ_PWR_PIN,
 ), 'red')
 for i in range(1, 7):
@@ -472,7 +473,7 @@ AddPathWithMap((
 # Coils <8 amps according to bosch motorsports catalog.
 AddPath((
   ('razor_pdm', 'PWROUT1b'),
-  DCE_INJ_PWR_PIN,
+  DCE.GetHighPin(),
   ('coil', 'Ubatt'),
 ), 'red')
 AddPath((
@@ -659,37 +660,39 @@ AddPathWithMap((
   ('LSU4.9', 'APE'),
 ))
 AddPath((
-  ('razor_pdm', 'ADIO4'),
+  ('razor_pdm', 'ADIO2'),
   DCEB_12v,
   ('LSU4.9', 'Heater Power'),
 ), 'red')
 
 # Idle Stablizer Valve
 AddPath((
-  ('razor_pdm', 'ADIO2'),
-  DCE.GetFreePin(),
+  ('razor_pdm', 'ADIO5'),
+  DCE_12v,
   ('idle_stablizer_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
-AddPath((
+AddPathWithMap((
+  ('link_ecu_a', 'Aux1'),
+  DCE.GetFreePin(),
   ('idle_stablizer_valve', 'Gnd'),
-  ('engine_ground', 'Gnd'),
-), 'black')
+))
 
 # Purge Valve
 AddPath((
-  ('razor_pdm', 'ADIO3'),
-  DCEB.GetFreePin(),
+  ('razor_pdm', 'ADIO2'),
+  DCEB_12v,
   ('vapor_purge_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
-AddPath((
+AddPathWithMap((
+  ('link_ecu_a', 'Aux1'),
+  DCEB.GetFreePin(),
   ('vapor_purge_valve', 'Gnd'),
-  ('engine_bay_ground', 'Gnd'),
-), 'black')
+))
 
 # Aux Coolant Pump 5 amp fuse
 AddPath((
   ('razor_pdm', 'ADIO5'),
-  DCE.GetFreePin(),
+  DCE_12v,
   ('aux_coolant_pump', 'Pos'),
 ), 'red')
 AddPath((
@@ -728,7 +731,7 @@ AddPath((
 
 # Transponder
 AddPath((
-  ('razor_pdm', 'ADIO5'),
+  ('razor_pdm', 'ADIO2'),
   DCEB_12v,
   ('transponder', 'pos'),
 ), 'red')

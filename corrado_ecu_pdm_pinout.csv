@@ -62,6 +62,8 @@ razor_pdm:ADIO1,aux_coolant_pump:Pos
 razor_pdm:ADIO1,transponder:pos
 razor_pdm:ADIO2,idle_stablizer_valve:Pos
 razor_pdm:ADIO3,vapor_purge_valve:Pos
+razor_pdm:ADIO4,fuel_pump:pos
+razor_pdm:ADIO5,coil:Ubatt
 razor_pdm:ADIO6,coolant_temp_gauge:12v
 razor_pdm:ADIO6,fuel_pressure_gauge:12v
 razor_pdm:ADIO6,link_keypad:+12V
@@ -75,9 +77,9 @@ razor_pdm:PWROUT1a,link_ecu_a:+14V
 razor_pdm:PWROUT1a,link_ecu_b:+14V Aux9/10
 razor_pdm:PWROUT1b,injectors:Pos
 razor_pdm:PWROUT2a,brake_lights:pos
-razor_pdm:PWROUT2b,starter:solenoid
-razor_pdm:PWROUT3a,coil:Ubatt
-razor_pdm:PWROUT3b,fuel_pump:pos
+razor_pdm:PWROUT2b,brake_lights:pos
+razor_pdm:PWROUT3a,starter:solenoid
+razor_pdm:PWROUT3b,starter:solenoid
 razor_pdm:PWROUT4a,spal_fan_1:pos
 razor_pdm:PWROUT4b,spal_fan_2:pos
 razor_pdm:neg,battery:neg

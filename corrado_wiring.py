@@ -302,7 +302,12 @@ AddPath((
   ('starter', 'pos'),
 ), 'red')
 AddPath((
-  ('razor_pdm', 'PWROUT2b'),
+  ('razor_pdm', 'PWROUT3a'),
+  DCE.GetHighPin(),
+  ('starter', 'solenoid'),
+), 'red')
+AddPath((
+  ('razor_pdm', 'PWROUT3b'),
   DCE.GetHighPin(),
   ('starter', 'solenoid'),
 ), 'red')
@@ -352,14 +357,18 @@ AddPath((
   ('razor_pdm', 'PWROUT2a'),
 ), 'red')
 AddPath((
+  ('brake_lights', 'pos'),
+  ('razor_pdm', 'PWROUT2b'),
+), 'red')
+AddPath((
   ('trunk_ground', 'ground'),
   ('brake_lights', 'gnd'),
 ), 'black')
 
-# Fuel Pump
+# Fuel Pump - Rockauto listed a fuel pump with avg 8amp current draw.
 AddPath((
   ('fuel_pump', 'pos'),
-  ('razor_pdm', 'PWROUT3b'),
+  ('razor_pdm', 'ADIO4'),
 ), 'red')
 AddPath((
   ('trunk_ground', 'neg'),
@@ -460,10 +469,10 @@ AddPathWithMap((
   ('crank_sensor', 'Gnd'),
 ))
 
-# Coils
+# Coils <8 amps according to bosch motorsports catalog.
 AddPath((
-  ('razor_pdm', 'PWROUT3a'),
-  DCEB.GetHighPin(),
+  ('razor_pdm', 'ADIO5'),
+  DCEB.GetFreePin(),
   ('coil', 'Ubatt'),
 ), 'red')
 AddPath((
@@ -484,7 +493,7 @@ for i in range(1, 4):
 # Wiper Motor
 AddPath((
   ('razor_pdm', 'ADIO7'),
-  DCEB.GetHighPin(),
+  DCEB.GetFreePin(),
   ('wiper', 'high'),
 ), 'red')
 AddPath((
@@ -658,7 +667,7 @@ AddPath((
 # Idle Stablizer Valve
 AddPath((
   ('razor_pdm', 'ADIO2'),
-  DCE.GetHighPin(),
+  DCE.GetFreePin(),
   ('idle_stablizer_valve', 'Pos'),
 ), 'red')  # TODO: Decide on color.
 AddPath((
@@ -680,7 +689,7 @@ AddPath((
 # Aux Coolant Pump
 AddPath((
   ('razor_pdm', 'ADIO1'),
-  DCE.GetHighPin(),
+  DCE.GetFreePin(),
   ('aux_coolant_pump', 'Pos'),
 ), 'red')
 AddPath((

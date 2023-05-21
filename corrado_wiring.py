@@ -368,7 +368,7 @@ AddPath((
 # Fuel Pump - Rockauto listed a fuel pump with avg 8amp current draw.
 AddPath((
   ('fuel_pump', 'pos'),
-  ('razor_pdm', 'ADIO4'),
+  ('razor_pdm', 'PWROUT1a'),
 ), 'red')
 AddPath((
   ('trunk_ground', 'neg'),
@@ -377,11 +377,11 @@ AddPath((
 
 # ECU Power  (hpacademy Fury 10A steady current draw)
 AddPathWithMap((
-  ('razor_pdm', 'PWROUT1a'),
+  ('razor_pdm', 'ADIO1'),
   ('link_ecu_a', '+14V'),
 ))
 AddPathWithMap((
-  ('razor_pdm', 'PWROUT1a'),
+  ('razor_pdm', 'ADIO1'),
   ('link_ecu_b', '+14V Aux9/10'),
 ))
 
@@ -471,8 +471,8 @@ AddPathWithMap((
 
 # Coils <8 amps according to bosch motorsports catalog.
 AddPath((
-  ('razor_pdm', 'ADIO5'),
-  DCEB.GetFreePin(),
+  ('razor_pdm', 'PWROUT1b'),
+  DCE_INJ_PWR_PIN,
   ('coil', 'Ubatt'),
 ), 'red')
 AddPath((

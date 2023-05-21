@@ -1,5 +1,5 @@
 -,-
-link_ecu_a:+14V,razor_pdm:PWROUT1a
+link_ecu_a:+14V,razor_pdm:ADIO1
 link_ecu_a:+5V,cam_sensor:5v
 link_ecu_a:+5V,crank_sensor:5v
 link_ecu_a:+5V,front_brake_pressure:5v
@@ -31,7 +31,7 @@ link_ecu_a:Shield/Gnd,crank_sensor:Gnd
 link_ecu_a:Temp1,coolant_temp_gauge:5vOut
 link_ecu_a:Trig1,cam_sensor:Sensor
 link_ecu_a:Trig2,crank_sensor:Sensor
-link_ecu_b:+14V Aux9/10,razor_pdm:PWROUT1a
+link_ecu_b:+14V Aux9/10,razor_pdm:ADIO1
 link_ecu_b:APE,LSU4.9:APE
 link_ecu_b:An Volt8,front_brake_pressure:Sig
 link_ecu_b:An Volt9,rear_brake_pressure:Sig
@@ -59,11 +59,11 @@ link_ecu_b:Temp3,intake_temp_sensor:Sig+
 link_ecu_b:Temp4,oil_temp_sensor:Sig+
 razor_pdm:ADIO1,LSU4.9:Heater Power
 razor_pdm:ADIO1,aux_coolant_pump:Pos
+razor_pdm:ADIO1,link_ecu_a:+14V
+razor_pdm:ADIO1,link_ecu_b:+14V Aux9/10
 razor_pdm:ADIO1,transponder:pos
 razor_pdm:ADIO2,idle_stablizer_valve:Pos
 razor_pdm:ADIO3,vapor_purge_valve:Pos
-razor_pdm:ADIO4,fuel_pump:pos
-razor_pdm:ADIO5,coil:Ubatt
 razor_pdm:ADIO6,coolant_temp_gauge:12v
 razor_pdm:ADIO6,fuel_pressure_gauge:12v
 razor_pdm:ADIO6,link_keypad:+12V
@@ -73,8 +73,8 @@ razor_pdm:ADIO8,wiper:park
 razor_pdm:CANH,link_ecu_b:DI10/CAN2H
 razor_pdm:CANL,link_ecu_b:DI9/CAN2L
 razor_pdm:IGNSW,ign_switch:2
-razor_pdm:PWROUT1a,link_ecu_a:+14V
-razor_pdm:PWROUT1a,link_ecu_b:+14V Aux9/10
+razor_pdm:PWROUT1a,fuel_pump:pos
+razor_pdm:PWROUT1b,coil:Ubatt
 razor_pdm:PWROUT1b,injectors:Pos
 razor_pdm:PWROUT2a,brake_lights:pos
 razor_pdm:PWROUT2b,brake_lights:pos

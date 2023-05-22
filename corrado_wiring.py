@@ -157,10 +157,12 @@ class DeutschConnector(object):
 # https://mavenspeed.com/collections/b2t-engineering/products/dual-connector-bulkhead
 DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,2,3,4,34])  # Engine
 DCE_5v = DCE.GetFreePin()
+DCE_5v_Gnd = DCE.GetFreePin()
 DCE_INJ_PWR_PIN = DCE.GetFreePin()
 DCE_12v = DCE.GetFreePin()
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,2,3,4,34])  # Engine Bay
-DCEB_5v = DCE.GetFreePin()
+DCEB_5v = DCEB.GetFreePin()
+DCEB_5v_Gnd = DCEB.GetFreePin()
 DCEB_12v = DCEB.GetHighPin()
 # DT 12 Way https://www.prowireusa.com/deutsch-dt-series-connector-kits.html
 DCC = DeutschConnector('deutsch_console_connector', 12)  # Console (keypad)
@@ -514,8 +516,8 @@ AddPathWithMap((
   ('coolant_low_sensor', 'Sig+'),
 ))
 AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
-  DCEB.GetFreePin(),
+  ('link_ecu_b', 'GndOut'),
+  DCEB_5v_Gnd,
   ('coolant_low_sensor', 'Sig-'),
 ))
 
@@ -532,7 +534,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  DCE.GetFreePin(),
+  DCE_5v_Gnd,
   ('tps', 'Gnd'),
 ))
 
@@ -549,7 +551,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  DCEB.GetFreePin(),
+  DCEB_5v_Gnd,
   ('map_sensor', 'Gnd'),
 ))
 
@@ -584,8 +586,8 @@ AddPathWithMap((
   ('intake_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
-  ('link_ecu_b', 'GndOut'),
-  DCE.GetFreePin(),
+  ('link_ecu_a', 'GndOut'),
+  DCE_5v_Gnd,
   ('intake_temp_sensor', 'Sig-'),
 ))
 
@@ -597,7 +599,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  DCE.GetFreePin(),
+  DCE_5v_Gnd,
   ('oil_temp_sensor', 'Sig-'),
 ))
 

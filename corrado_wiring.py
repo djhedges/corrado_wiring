@@ -763,11 +763,11 @@ for i, aem_sensor in enumerate(AEM_SENSORS):
       DCE.GetFreePin(),
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
-AddPath((
+AddPathWithMap((
   ('link_ecu_a', 'Temp1'),
   DCG.GetFreePin(),
   ('coolant_temp_gauge', '5vOut'),
-), 'white') # TODO: Decide on wire color.
+))
 
 # Traqmate
 AddPath((

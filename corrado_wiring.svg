@@ -2796,10 +2796,10 @@
 <g id="edge141" class="edge">
 <title>link_ecu_a:Temp1&#45;&#45;deutsch_gauge_connector:9</title>
 <path fill="none" stroke="black" stroke-width="2.5" d="M2912,-2595C2723.53,-2592.19 2838.13,-2851.79 2671.99,-2948.74 2578,-3001.71 2267.8,-2904.81 2194.41,-2979.42 2070.33,-3101.67 2210.23,-3605.77 2140.84,-3768.79 2119.57,-3818.23 2112.77,-3858.33 2056.5,-3860"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M2912,-2593C2721.7,-2593 2836.3,-2852.6 2671,-2947 2578.6,-2999.8 2268.4,-2902.9 2193,-2978 2068.4,-3102.2 2208.3,-3606.3 2139,-3768 2117.6,-3817.9 2110.8,-3858 2056.5,-3858"/>
+<path fill="none" stroke="yellow" stroke-width="2.5" d="M2912,-2593C2721.7,-2593 2836.3,-2852.6 2671,-2947 2578.6,-2999.8 2268.4,-2902.9 2193,-2978 2068.4,-3102.2 2208.3,-3606.3 2139,-3768 2117.6,-3817.9 2110.8,-3858 2056.5,-3858"/>
 <path fill="none" stroke="black" stroke-width="2.5" d="M2912,-2591C2719.87,-2593.81 2834.47,-2853.41 2670.01,-2945.26 2579.2,-2997.89 2269,-2900.99 2191.59,-2976.58 2066.47,-3102.73 2206.37,-3606.83 2137.16,-3767.21 2115.63,-3817.57 2108.83,-3857.67 2056.5,-3856"/>
-<g id="a_edge141&#45;label"><a xlink:title="link_ecu_a:Temp1&lt;white&gt;deutsch_gauge_connector:9">
-<text text-anchor="middle" x="2432" y="-2981.8" font-family="Times,serif" font-size="14.00">link_ecu_a:Temp1&lt;white&gt;deutsch_gauge_connector:9</text>
+<g id="a_edge141&#45;label"><a xlink:title="link_ecu_a:Temp1&lt;yellow&gt;deutsch_gauge_connector:9">
+<text text-anchor="middle" x="2432" y="-2981.8" font-family="Times,serif" font-size="14.00">link_ecu_a:Temp1&lt;yellow&gt;deutsch_gauge_connector:9</text>
 </a>
 </g>
 </g>
@@ -3579,10 +3579,10 @@
 <g id="edge208" class="edge">
 <title>deutsch_gauge_connector:9&#45;&#45;coolant_temp_gauge:5vOut</title>
 <path fill="none" stroke="black" stroke-width="2.5" d="M1854.5,-3860C1722.95,-3857.02 1831.85,-4051.92 1719.08,-4126.68 1670.59,-4157.39 1255.39,-4113.39 1214.3,-4149.52 1121.84,-4225.92 1206.64,-4302.72 1160.85,-4417.76 1147.48,-4449.7 1152.58,-4483.7 1115,-4486"/>
-<path fill="none" stroke="white" stroke-width="2.5" d="M1854.5,-3858C1721.2,-3858 1830.1,-4052.9 1718,-4125 1670.8,-4155.4 1255.6,-4111.4 1213,-4148 1120.5,-4227.4 1205.3,-4304.2 1159,-4417 1145.5,-4450 1150.6,-4484 1115,-4484"/>
+<path fill="none" stroke="yellow" stroke-width="2.5" d="M1854.5,-3858C1721.2,-3858 1830.1,-4052.9 1718,-4125 1670.8,-4155.4 1255.6,-4111.4 1213,-4148 1120.5,-4227.4 1205.3,-4304.2 1159,-4417 1145.5,-4450 1150.6,-4484 1115,-4484"/>
 <path fill="none" stroke="black" stroke-width="2.5" d="M1854.5,-3856C1719.45,-3858.98 1828.35,-4053.88 1716.92,-4123.32 1671.01,-4153.41 1255.81,-4109.41 1211.7,-4146.48 1119.16,-4228.88 1203.96,-4305.68 1157.15,-4416.24 1143.52,-4450.3 1148.62,-4484.3 1115,-4482"/>
-<g id="a_edge208&#45;label"><a xlink:title="deutsch_gauge_connector:9&lt;white&gt;coolant_temp_gauge:5vOut">
-<text text-anchor="middle" x="1465.5" y="-4151.8" font-family="Times,serif" font-size="14.00">deutsch_gauge_connector:9&lt;white&gt;coolant_temp_gauge:5vOut</text>
+<g id="a_edge208&#45;label"><a xlink:title="deutsch_gauge_connector:9&lt;yellow&gt;coolant_temp_gauge:5vOut">
+<text text-anchor="middle" x="1465.5" y="-4151.8" font-family="Times,serif" font-size="14.00">deutsch_gauge_connector:9&lt;yellow&gt;coolant_temp_gauge:5vOut</text>
 </a>
 </g>
 </g>

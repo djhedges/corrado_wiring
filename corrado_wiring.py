@@ -5,13 +5,10 @@
 # Pi
 # Cameras
 # 4G Router
-# WBO2
 # EGT
 # Reverse?
-# Stater solenoid
 # Clutch switch?
-# Alternator to Starter (m8) (kill switch?)
-# Alternator one wire sense
+# Alternator one wire sense to resistor or dash light
 
 import csv
 import os

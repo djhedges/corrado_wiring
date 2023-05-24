@@ -154,12 +154,12 @@ class DeutschConnector(object):
 # https://mavenspeed.com/collections/b2t-engineering/products/dual-connector-bulkhead
 DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,2,3,4,34])  # Engine
 DCE_5v = DCE.GetFreePin(5)
-DCE_5v_Gnd = DCE.GetFreePin()
+DCE_5v_Gnd = DCE.GetFreePin(6)
 DCE_INJ_PWR_PIN = DCE.GetFreePin()
 DCE_12v = DCE.GetFreePin()
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,2,3,4,34])  # Engine Bay
 DCEB_5v = DCEB.GetFreePin(5)
-DCEB_5v_Gnd = DCEB.GetFreePin()
+DCEB_5v_Gnd = DCEB.GetFreePin(6)
 DCEB_12v = DCEB.GetHighPin(3)
 # DT 12 Way https://www.prowireusa.com/deutsch-dt-series-connector-kits.html
 DCC = DeutschConnector('deutsch_console_connector', 12)  # Console (keypad)
@@ -479,10 +479,11 @@ AddPath((
   ('icm', 'Gnd'),
   ('engine_bay_ground', 'Gnd'),
 ), 'black')
+icm_pin_start = 10
 for i in range(1, 4):
   AddPathWithMap((
     ('link_ecu_a', f'Ign{i}'),
-    DCEB.GetFreePin(),
+    DCEB.GetFreePin(icm_pin_start + i),
     ('icm', f'Transistor{i}ecu'),
   ))
   AddPath((
@@ -493,14 +494,14 @@ for i in range(1, 4):
 # Wiper Motor
 AddPath((
   ('razor_pdm', 'ADIO7'),
-  DCEB.GetFreePin(),
+  DCEB.GetHighPin(4),
   ('wiper', 'high'),
 ), 'red')
 AddPath((
   ('razor_pdm', 'ADIO8'),
-  DCEB.GetFreePin(),
+  DCEB.GetHighPin(34),
   ('wiper', 'park'),
-), 'white')  # TODO: Decide on wire color.
+), 'red')  
 AddPath((
   ('wiper', 'gnd'),
   ('engine_bay_ground', 'Gnd'),
@@ -509,7 +510,7 @@ AddPath((
 # Coolant Low Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Aux4'),
-  DCEB.GetFreePin(),
+  DCEB.GetFreePin(8),
   ('coolant_low_sensor', 'Sig+'),
 ))
 AddPathWithMap((
@@ -538,7 +539,7 @@ AddPathWithMap((
 # MAP Sensor
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt2'),
-  DCEB.GetFreePin(),
+  DCEB.GetFreePin(7),
   ('map_sensor', 'Sensor'),
 ))
 AddPathWithMap((
@@ -634,29 +635,29 @@ AddPath((
 # Quick start guide
 # https://dealers.linkecu.com/can-lambda
 AddPathWithMap((
+  ('link_ecu_b', 'APE'),
+  DCEB.GetFreePin(20),
+  ('LSU4.9', 'APE'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'IPE'),
+  DCEB.GetFreePin(21),
+  ('LSU4.9', 'IPE'),
+))
+AddPathWithMap((
   ('link_ecu_b', 'Heater'),
-  DCEB.GetFreePin(),
+  DCEB.GetFreePin(22),
   ('LSU4.9', 'Heater'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'MES'),
-  DCEB.GetFreePin(),
+  DCEB.GetFreePin(23),
   ('LSU4.9', 'MES',),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'RE'),
-  DCEB.GetFreePin(),
+  DCEB.GetFreePin(24),
   ('LSU4.9', 'RE'),
-))
-AddPathWithMap((
-  ('link_ecu_b', 'IPE'),
-  DCEB.GetFreePin(),
-  ('LSU4.9', 'IPE'),
-))
-AddPathWithMap((
-  ('link_ecu_b', 'APE'),
-  DCEB.GetFreePin(),
-  ('LSU4.9', 'APE'),
 ))
 AddPath((
   ('razor_pdm', 'ADIO2'),
@@ -684,7 +685,7 @@ AddPath((
 ), 'red')  # TODO: Decide on color.
 AddPathWithMap((
   ('link_ecu_a', 'Aux3'),
-  DCEB.GetFreePin(),
+  DCEB.GetFreePin(9),
   ('vapor_purge_valve', 'Gnd'),
 ))
 

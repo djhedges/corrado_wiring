@@ -134,21 +134,17 @@ class DeutschConnector(object):
   def __init__(self, name, total_pins, high_pins=None):
     self.name = name
     self.node = Node(name, list(range(1, total_pins + 1)))
-    self.index = 0
-    self.high_index = 0
+    self.pins = list(range(1, total_pins + 1))
+    if high_pins:
+      for pin in high_pins:
+        self.pins.remove(pin)
     self.high_pins = high_pins or []
 
   def GetFreePin(self):
-    self.index += 1
-    while self.index in self.high_pins:
-      self.index += 1
-    return self.name, str(self.index)
+    return self.name, str(self.pins.pop(0))
 
   def GetHighPin(self):
-    self.high_index += 1
-    while self.high_index not in self.high_pins:
-      self.high_index += 1
-    return self.name, str(self.high_index)
+    return self.name, str(self.high_pins.pop(0))
 
 
 # https://mavenspeed.com/collections/b2t-engineering/products/dual-connector-bulkhead

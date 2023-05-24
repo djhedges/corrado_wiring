@@ -162,7 +162,7 @@ DCE_12v = DCE.GetFreePin()
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,2,3,4,34])  # Engine Bay
 DCEB_5v = DCEB.GetFreePin(5)
 DCEB_5v_Gnd = DCEB.GetFreePin()
-DCEB_12v = DCEB.GetHighPin()
+DCEB_12v = DCEB.GetHighPin(3)
 # DT 12 Way https://www.prowireusa.com/deutsch-dt-series-connector-kits.html
 DCC = DeutschConnector('deutsch_console_connector', 12)  # Console (keypad)
 DCC_PWR = DCC.GetFreePin(1)
@@ -305,18 +305,18 @@ AddPath((
 ), 'red')
 AddPath((
   ('razor_pdm', 'PWROUT3a'),
-  DCE.GetHighPin(),
+  DCE.GetHighPin(4),
   ('starter', 'solenoid'),
 ), 'red')
 AddPath((
   ('razor_pdm', 'PWROUT3b'),
-  DCE.GetHighPin(),
+  DCE.GetHighPin(3),
   ('starter', 'solenoid'),
 ), 'red')
 AddPath((
   ('kill_switch', 'starter'),
   # Ensure it goes back to killswitch per hpacademy.
-  DCE.GetHighPin(),  
+  DCE.GetHighPin(1),  
   ('alternator', 'pos'),
 ), 'red')
 AddPath((
@@ -474,7 +474,7 @@ AddPathWithMap((
 # Coils <8 amps according to bosch motorsports catalog.
 AddPath((
   ('razor_pdm', 'PWROUT1b'),
-  DCE.GetHighPin(),
+  DCE.GetHighPin(2),
   ('coil', 'Ubatt'),
 ), 'red')
 AddPath((
@@ -709,13 +709,13 @@ AddPath((
 # https://www.holley.com/products/discontinued_product/parts/30100392
 AddPath((
   ('razor_pdm', 'PWROUT4a'),
-  DCEB.GetHighPin(),
+  DCEB.GetHighPin(1),
   DCF.GetFreePin(),
   ('spal_fan_1', 'pos'),
 ), 'red')
 AddPath((
   ('razor_pdm', 'PWROUT4b'),
-  DCEB.GetHighPin(),
+  DCEB.GetHighPin(2),
   DCF.GetFreePin(),
   ('spal_fan_2', 'pos'),
 ), 'red')

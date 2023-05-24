@@ -140,11 +140,17 @@ class DeutschConnector(object):
         self.pins.remove(pin)
     self.high_pins = high_pins or []
 
-  def GetFreePin(self):
-    return self.name, str(self.pins.pop(0))
+  def GetFreePin(self, pin=None):
+    if pin:
+      self.pins.remove(pin)
+    pin = pin if pin else self.pins.pop(0)
+    return self.name, str(pin)
 
-  def GetHighPin(self):
-    return self.name, str(self.high_pins.pop(0))
+  def GetHighPin(self, pin=None):
+    if pin:
+      self.high_pins.remove(pin)
+    pin = pin if pin else self.high_pins.pop(0)
+    return self.name, str(pin)
 
 
 # https://mavenspeed.com/collections/b2t-engineering/products/dual-connector-bulkhead

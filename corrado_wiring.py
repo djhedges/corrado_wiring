@@ -155,12 +155,12 @@ class DeutschConnector(object):
 
 # https://mavenspeed.com/collections/b2t-engineering/products/dual-connector-bulkhead
 DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,2,3,4,34])  # Engine
-DCE_5v = DCE.GetFreePin()
+DCE_5v = DCE.GetFreePin(5)
 DCE_5v_Gnd = DCE.GetFreePin()
 DCE_INJ_PWR_PIN = DCE.GetFreePin()
 DCE_12v = DCE.GetFreePin()
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,2,3,4,34])  # Engine Bay
-DCEB_5v = DCEB.GetFreePin()
+DCEB_5v = DCEB.GetFreePin(5)
 DCEB_5v_Gnd = DCEB.GetFreePin()
 DCEB_12v = DCEB.GetHighPin()
 # DT 12 Way https://www.prowireusa.com/deutsch-dt-series-connector-kits.html
@@ -389,14 +389,14 @@ AddPathWithMap((
 
 # Keypad
 AddPath((
-  ('razor_pdm', 'ADIO6'),
-  DCG_PWR,
   ('link_keypad', '+12V'),
+  DCC_PWR,
+  ('razor_pdm', 'ADIO6'),
 ), 'red')
 AddPath((
   ('battery', 'neg'),
   ('acc_ground', 'ground'),
-  DCG_GND,
+  DCC_GND,
   ('link_keypad', 'Ground'),
 ), 'black')
 
@@ -848,7 +848,8 @@ ClusterNodes(['icm', 'coil', 'LSU4.9', 'map_sensor', 'coolant_low_sensor', 'vapo
               'deutsch_engine_bay_connector', 'transponder'], 
               label='Engine Bay')
 ClusterNodes(AEM_GAUGES + [
-             'link_keypad', 'ign_switch', 'usb_hub', 'labjack', 'traqmate'], 
+             'link_keypad', 'ign_switch', 'usb_hub', 'labjack', 'traqmate',
+             'deutsch_gauge_connector', 'deutsch_console_connector'], 
              'Console')
 ClusterNodes([
     'deutsch_engine_connector',

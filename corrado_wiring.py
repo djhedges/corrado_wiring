@@ -250,7 +250,7 @@ Node('knock1', ['Sig+', 'Sig-', 'Scr'])
 Node('knock2', ['Sig+', 'Sig-', 'Scr'])
 
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
-Node('oil_temp_sensor', ['Sig+', 'Sig-'])
+Node('oil_pressure_sensor', ['Sig+', 'Sig-'])
 Node('coolant_low_sensor', ['Sig+', 'Sig-'])
 Node('oil_switch_0.25_bar', ['Switch'])
 Node('oil_switch_1.40_bar', ['Switch'])
@@ -586,14 +586,14 @@ AddPathWithMap((
 
 # Oil Temp Sensor
 AddPathWithMap((
-  ('link_ecu_b', 'Temp4'),
+  ('link_ecu_a', 'AnVolt3'),
   DCE.GetFreePin(),
-  ('oil_temp_sensor', 'Sig+'),
+  ('oil_pressure_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
   DCE_5v_Gnd,
-  ('oil_temp_sensor', 'Sig-'),
+  ('oil_pressure_sensor', 'Sig-'),
 ))
 
 # Knock Sensors
@@ -844,7 +844,7 @@ ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch', 'usb_hub', 'labjack'],
 ClusterNodes([
     'deutsch_engine_connector',
     'cam_sensor', 'crank_sensor', 'tps', 
-    'oil_switch_0.25_bar',  'oil_switch_1.40_bar', 'oil_temp_sensor',
+    'oil_switch_0.25_bar',  'oil_switch_1.40_bar', 'oil_pressure_sensor',
     'intake_temp_sensor', 'knock1', 'knock2', 'engine_ground',
     'idle_stablizer_valve', 'aux_coolant_pump', 'starter',
     ] + AEM_SENSORS + [f'injector{i}' for i in range(1, 7)], 'Engine')

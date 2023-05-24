@@ -165,11 +165,11 @@ DCEB_5v_Gnd = DCEB.GetFreePin()
 DCEB_12v = DCEB.GetHighPin()
 # DT 12 Way https://www.prowireusa.com/deutsch-dt-series-connector-kits.html
 DCC = DeutschConnector('deutsch_console_connector', 12)  # Console (keypad)
-DCC_PWR = DCC.GetFreePin()
-DCC_GND = DCC.GetFreePin()
+DCC_PWR = DCC.GetFreePin(1)
+DCC_GND = DCC.GetFreePin(2)
 DCG = DeutschConnector('deutsch_gauge_connector', 12)  # Gauges
-DCG_PWR = DCG.GetFreePin()
-DCG_GND = DCG.GetFreePin()
+DCG_PWR = DCG.GetFreePin(1)
+DCG_GND = DCG.GetFreePin(2)
 # DT 4 Way
 DCF = DeutschConnector('deutsch_fan_connector', 4)
 
@@ -772,10 +772,12 @@ AddPathWithMap((
 AddPath((
   ('traqmate', 'pos'),
   DCC_PWR,
+  ('razor_pdm', 'ADIO6'),
 ), 'red')
 AddPath((
   ('traqmate', 'gnd'),
   DCC_GND,
+  ('acc_ground', 'ground'),
 ), 'black')
 AddPathWithMap((
   ('traqmate', 'rpm'),
@@ -845,7 +847,8 @@ ClusterNodes(['icm', 'coil', 'LSU4.9', 'map_sensor', 'coolant_low_sensor', 'vapo
               'spal_fan_1', 'spal_fan_2', 'deutsch_fan_connector', 'engine_bay_ground', 'wiper',
               'deutsch_engine_bay_connector', 'transponder'], 
               label='Engine Bay')
-ClusterNodes(AEM_GAUGES + ['link_keypad', 'ign_switch', 'usb_hub', 'labjack'], 
+ClusterNodes(AEM_GAUGES + [
+             'link_keypad', 'ign_switch', 'usb_hub', 'labjack', 'traqmate'], 
              'Console')
 ClusterNodes([
     'deutsch_engine_connector',
@@ -854,7 +857,7 @@ ClusterNodes([
     'intake_temp_sensor', 'knock1', 'knock2', 'engine_ground',
     'idle_stablizer_valve', 'aux_coolant_pump', 'starter',
     ] + AEM_SENSORS + [f'injector{i}' for i in range(1, 7)], 'Engine')
-ClusterNodes(['fuel_pump', 'brake_lights'], 'Trunk')
+ClusterNodes(['fuel_pump', 'brake_lights', 'trunk_ground'], 'Trunk')
 
 # Ensures any deleted nodes are removed and not lingering around.
 cwd_files = os.listdir()

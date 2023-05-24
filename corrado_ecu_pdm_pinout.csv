@@ -71,6 +71,7 @@ razor_pdm:ADIO6,coolant_temp_gauge:12v
 razor_pdm:ADIO6,fuel_pressure_gauge:12v
 razor_pdm:ADIO6,link_keypad:+12V
 razor_pdm:ADIO6,transmission_temp_gauge:12v
+razor_pdm:ADIO6,traqmate:pos
 razor_pdm:ADIO7,wiper:high
 razor_pdm:ADIO8,wiper:park
 razor_pdm:CANH,link_ecu_b:DI10/CAN2H

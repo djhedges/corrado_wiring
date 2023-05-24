@@ -710,23 +710,23 @@ AddPath((
 AddPath((
   ('razor_pdm', 'PWROUT4a'),
   DCEB.GetHighPin(1),
-  DCF.GetFreePin(),
+  DCF.GetFreePin(1),
   ('spal_fan_1', 'pos'),
 ), 'red')
 AddPath((
+  ('engine_bay_ground', 'Gnd'),
+  DCF.GetFreePin(2),
+  ('spal_fan_1', 'gnd'),
+), 'black')
+AddPath((
   ('razor_pdm', 'PWROUT4b'),
   DCEB.GetHighPin(2),
-  DCF.GetFreePin(),
+  DCF.GetFreePin(3),
   ('spal_fan_2', 'pos'),
 ), 'red')
 AddPath((
   ('engine_bay_ground', 'Gnd'),
-  DCF.GetFreePin(),
-  ('spal_fan_1', 'gnd'),
-), 'black')
-AddPath((
-  ('engine_bay_ground', 'Gnd'),
-  DCF.GetFreePin(),
+  DCF.GetFreePin(4),
   ('spal_fan_2', 'gnd'),
 ), 'black')
 

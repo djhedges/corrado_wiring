@@ -146,10 +146,8 @@ class DeutschConnector(object):
     pin = pin if pin else self.pins.pop(0)
     return self.name, str(pin)
 
-  def GetHighPin(self, pin=None):
-    if pin:
-      self.high_pins.remove(pin)
-    pin = pin if pin else self.high_pins.pop(0)
+  def GetHighPin(self, pin):
+    self.high_pins.remove(pin)
     return self.name, str(pin)
 
 

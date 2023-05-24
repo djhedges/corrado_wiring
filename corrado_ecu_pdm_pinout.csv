@@ -1,7 +1,6 @@
 -,-
 link_ecu_a:+14V,razor_pdm:ADIO1
 link_ecu_a:+5V,cam_sensor:5v
-link_ecu_a:+5V,crank_sensor:5v
 link_ecu_a:+5V,front_brake_pressure:5v
 link_ecu_a:+5V,map_sensor:5v
 link_ecu_a:+5V,rear_brake_pressure:5v
@@ -31,9 +30,10 @@ link_ecu_a:Inj3,injector3:Gnd
 link_ecu_a:Inj4,injector4:Gnd
 link_ecu_a:Shield/Gnd,cam_sensor:Gnd
 link_ecu_a:Shield/Gnd,crank_sensor:Gnd
+link_ecu_a:Shield/Gnd,crank_sensor:VR-
 link_ecu_a:Temp1,coolant_temp_gauge:5vOut
-link_ecu_a:Trig1,cam_sensor:Sensor
-link_ecu_a:Trig2,crank_sensor:Sensor
+link_ecu_a:Trig1,crank_sensor:VR+
+link_ecu_a:Trig2,cam_sensor:Sensor
 link_ecu_b:+14V Aux9/10,razor_pdm:ADIO1
 link_ecu_b:APE,LSU4.9:APE
 link_ecu_b:An Volt8,front_brake_pressure:Sig

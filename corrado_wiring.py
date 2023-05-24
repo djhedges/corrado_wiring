@@ -250,7 +250,7 @@ Node('map_sensor', ['Gnd', 'Sensor', '5v'])
 Node('LSU4.9', ['APE', 'IPE', 'Heater', 'Heater Power', 'MES', 'RE'])
 
 Node('cam_sensor', ['5v', 'Sensor', 'Gnd'])
-Node('crank_sensor', ['5v', 'Sensor', 'Gnd'])
+Node('crank_sensor', ['VR+', 'VR-', 'Gnd'])
 
 Node('knock1', ['Sig+', 'Sig-', 'Scr'])
 Node('knock2', ['Sig+', 'Sig-', 'Scr'])
@@ -439,8 +439,8 @@ for i in range(1, 7):
 
 # Cam Sensor
 AddPathWithMap((
-  ('link_ecu_a', 'Trig1'),
-  DCE.GetFreePin(),
+  ('link_ecu_a', 'Trig2'),
+  DCE.GetFreePin(44),
   ('cam_sensor', 'Sensor'),
 ))
 AddPathWithMap((
@@ -450,24 +450,24 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(43),
   ('cam_sensor', 'Gnd'),
 ))
 
 # Crank Sensor
 AddPathWithMap((
-  ('link_ecu_a', 'Trig2'),
-  DCE.GetFreePin(),
-  ('crank_sensor', 'Sensor'),
-))
-AddPathWithMap((
-  ('link_ecu_a', '+5V'),
-  DCE_5v,
-  ('crank_sensor', '5v'),
+  ('link_ecu_a', 'Trig1'),
+  DCE.GetFreePin(47),
+  ('crank_sensor', 'VR+'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(45),
+  ('crank_sensor', 'VR-'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'Shield/Gnd'),
+  DCE.GetFreePin(46),
   ('crank_sensor', 'Gnd'),
 ))
 

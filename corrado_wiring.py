@@ -142,25 +142,29 @@ class DeutschConnector(object):
 
   def GetFreePin(self, pin=None):
     if pin:
+      if pin not in self.pins:
+        raise Exception('Pin %s not in self.pins %s' % (pin, self.pins))
       self.pins.remove(pin)
     pin = pin if pin else self.pins.pop(0)
     return self.name, str(pin)
 
   def GetHighPin(self, pin):
+    if pin not in self.high_pins:
+      raise Exception('Pin %s not in self.pins %s' % (pin, self.high_pins))
     self.high_pins.remove(pin)
     return self.name, str(pin)
 
 
 # https://mavenspeed.com/collections/b2t-engineering/products/dual-connector-bulkhead
-DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,2,3,4,34])  # Engine
-DCE_5v = DCE.GetFreePin(5)
-DCE_5v_Gnd = DCE.GetFreePin(6)
+DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,4,5,6,34])  # Engine
+DCE_5v = DCE.GetFreePin(2)
+DCE_5v_Gnd = DCE.GetFreePin(3)
 DCE_INJ_PWR_PIN = DCE.GetFreePin()
 DCE_12v = DCE.GetFreePin()
-DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,2,3,4,34])  # Engine Bay
-DCEB_5v = DCEB.GetFreePin(5)
-DCEB_5v_Gnd = DCEB.GetFreePin(6)
-DCEB_12v = DCEB.GetHighPin(3)
+DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,4,5,6,34])  # Engine Bay
+DCEB_5v = DCEB.GetFreePin(2)
+DCEB_5v_Gnd = DCEB.GetFreePin(3)
+DCEB_12v = DCEB.GetHighPin(5)
 # DT 12 Way https://www.prowireusa.com/deutsch-dt-series-connector-kits.html
 DCC = DeutschConnector('deutsch_console_connector', 12)  # Console (keypad)
 DCC_PWR = DCC.GetFreePin(1)
@@ -303,12 +307,12 @@ AddPath((
 ), 'red')
 AddPath((
   ('razor_pdm', 'PWROUT3a'),
-  DCE.GetHighPin(4),
+  DCE.GetHighPin(6),
   ('starter', 'solenoid'),
 ), 'red')
 AddPath((
   ('razor_pdm', 'PWROUT3b'),
-  DCE.GetHighPin(3),
+  DCE.GetHighPin(34),
   ('starter', 'solenoid'),
 ), 'red')
 AddPath((
@@ -472,7 +476,7 @@ AddPathWithMap((
 # Coils <8 amps according to bosch motorsports catalog.
 AddPath((
   ('razor_pdm', 'PWROUT1b'),
-  DCE.GetHighPin(2),
+  DCE.GetHighPin(4),
   ('coil', 'Ubatt'),
 ), 'red')
 AddPath((
@@ -494,7 +498,7 @@ for i in range(1, 4):
 # Wiper Motor
 AddPath((
   ('razor_pdm', 'ADIO7'),
-  DCEB.GetHighPin(4),
+  DCEB.GetHighPin(6),
   ('wiper', 'high'),
 ), 'red')
 AddPath((
@@ -719,7 +723,7 @@ AddPath((
 ), 'black')
 AddPath((
   ('razor_pdm', 'PWROUT4b'),
-  DCEB.GetHighPin(2),
+  DCEB.GetHighPin(4),
   DCF.GetFreePin(3),
   ('spal_fan_2', 'pos'),
 ), 'red')

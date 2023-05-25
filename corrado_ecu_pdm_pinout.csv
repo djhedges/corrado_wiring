@@ -32,6 +32,7 @@ link_ecu_a:Shield/Gnd,cam_sensor:Gnd
 link_ecu_a:Shield/Gnd,crank_sensor:Gnd
 link_ecu_a:Shield/Gnd,crank_sensor:VR-
 link_ecu_a:Temp1,coolant_temp_gauge:5vOut
+link_ecu_a:Temp2,intake_temp_sensor:Sig+
 link_ecu_a:Trig1,crank_sensor:VR+
 link_ecu_a:Trig2,cam_sensor:Sensor
 link_ecu_b:+14V Aux9/10,razor_pdm:ADIO1

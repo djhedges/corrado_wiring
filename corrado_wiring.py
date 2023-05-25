@@ -164,7 +164,7 @@ DCE_12v = DCE.GetFreePin()
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,4,5,6,34])  # Engine Bay
 DCEB_5v = DCEB.GetFreePin(2)
 DCEB_5v_Gnd = DCEB.GetFreePin(3)
-DCEB_12v = DCEB.GetHighPin(5)
+DCEB_12v = DCEB.GetHighPin(34)
 # DT 12 Way https://www.prowireusa.com/deutsch-dt-series-connector-kits.html
 DCC = DeutschConnector('deutsch_console_connector', 12)  # Console (keypad)
 DCC_PWR = DCC.GetFreePin(1)
@@ -312,7 +312,7 @@ AddPath((
 ), 'red')
 AddPath((
   ('razor_pdm', 'PWROUT3b'),
-  DCE.GetHighPin(34),
+  DCE.GetHighPin(5),
   ('starter', 'solenoid'),
 ), 'red')
 AddPath((

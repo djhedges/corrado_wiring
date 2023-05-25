@@ -521,7 +521,7 @@ AddPathWithMap((
 
 # TPS
 AddPathWithMap((
-  ('link_ecu_a', 'AnVolt1'),
+  ('link_ecu_a', 'AnVolt3'),
   DCE.GetFreePin(),
   ('tps', 'Sensor'),
 ))
@@ -538,7 +538,7 @@ AddPathWithMap((
 
 # MAP Sensor
 AddPathWithMap((
-  ('link_ecu_a', 'AnVolt2'),
+  ('link_ecu_a', 'AnVolt1'),
   DCEB.GetFreePin(7),
   ('map_sensor', 'Sensor'),
 ))
@@ -579,7 +579,7 @@ AddPath((
 
 # Intake Temp Sensor
 AddPathWithMap((
-  ('link_ecu_b', 'Temp3'),
+  ('link_ecu_b', 'Temp2'),
   DCE.GetFreePin(),
   ('intake_temp_sensor', 'Sig+'),
 ))
@@ -589,9 +589,9 @@ AddPathWithMap((
   ('intake_temp_sensor', 'Sig-'),
 ))
 
-# Oil Temp Sensor
+# Oil Pressure Sensor
 AddPathWithMap((
-  ('link_ecu_a', 'AnVolt3'),
+  ('link_ecu_a', 'AnVolt2'),
   DCE.GetFreePin(),
   ('oil_pressure_sensor', 'Sig+'),
 ))

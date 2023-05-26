@@ -347,7 +347,7 @@ AddPath((
 ), 'brown:blue')
 AddPath((
   ('razor_pdm', 'IGNSW'),
-  DCC.GetFreePin(),
+  DCC.GetFreePin(3),
   ('ign_switch', '2'),
 ), 'blue')
 
@@ -413,12 +413,12 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_keypad', 'CAN High'),
-  DCC.GetFreePin(),
+  DCC.GetFreePin(4),
   ('link_ecu_b', 'DI10/CAN2H'),
 ))
 AddPathWithMap((
   ('link_keypad', 'CAN Low'),
-  DCC.GetFreePin(),
+  DCC.GetFreePin(5),
   ('link_ecu_b', 'DI9/CAN2L'),
 ))
 
@@ -815,7 +815,7 @@ AddPath((
 ), 'black')
 AddPathWithMap((
   ('traqmate', 'rpm'),
-  DCC.GetFreePin(),
+  DCC.GetFreePin(6),
   ('link_ecu_a', 'Aux1'),
 ))
 

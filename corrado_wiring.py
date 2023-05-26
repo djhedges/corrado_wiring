@@ -159,8 +159,8 @@ class DeutschConnector(object):
 DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,4,5,6,34])  # Engine
 DCE_5v = DCE.GetFreePin(2)
 DCE_5v_Gnd = DCE.GetFreePin(3)
-DCE_INJ_PWR_PIN = DCE.GetFreePin()
-DCE_12v = DCE.GetFreePin()
+DCE_12v = DCE.GetFreePin(7)
+DCE_INJ_PWR_PIN = DCE.GetFreePin(8)
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,4,5,6,34])  # Engine Bay
 DCEB_5v = DCEB.GetFreePin(2)
 DCEB_5v_Gnd = DCEB.GetFreePin(3)
@@ -427,6 +427,7 @@ AddPath((
   ('razor_pdm', 'ADIO3'),
   DCE_INJ_PWR_PIN,
 ), 'red')
+INJ_START_PIN = 10
 for i in range(1, 7):
   AddPath((
     DCE_INJ_PWR_PIN,
@@ -435,7 +436,7 @@ for i in range(1, 7):
   a_or_b = 'a' if i < 5 else 'b'
   AddPathWithMap((
     (f'link_ecu_{a_or_b}', f'Inj{i}'),
-    DCE.GetFreePin(),
+    DCE.GetFreePin(INJ_START_PIN + i),
     (f'injector{i}', 'Gnd'),
   ))
 

@@ -515,7 +515,7 @@ AddPath((
 # Coolant Low Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Aux4'),
-  DCEB.GetFreePin(8),
+  DCEB.GetFreePin(29),
   ('coolant_low_sensor', 'Sig+'),
 ))
 AddPathWithMap((
@@ -527,12 +527,12 @@ AddPathWithMap((
 # TPS
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt3'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(22),
   ('tps', 'Sensor'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
-  DCE.GetFreePin(),
+  DCE_5v,
   ('tps', '5v'),
 ))
 AddPathWithMap((
@@ -561,31 +561,31 @@ AddPathWithMap((
 # Oil Pressure Switches
 AddPathWithMap((
   ('link_ecu_a', 'DI1'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(27),
   ('oil_switch_0.25_bar', 'Switch'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'DI2'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(28),
   ('oil_switch_1.40_bar', 'Switch'),
 ))
 
 # ECU A Grounds
 AddPath((
   ('link_ecu_a', 'Ground1'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(41),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_a', 'Ground2'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(42),
   ('engine_ground', 'Gnd'),
 ), 'black')
 
 # Intake Temp Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Temp2'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(25),
   ('intake_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
@@ -597,7 +597,7 @@ AddPathWithMap((
 # Oil Pressure Sensor
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt2'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(21),
   ('oil_pressure_sensor', 'Sig+'),
 ))
 AddPathWithMap((
@@ -607,32 +607,46 @@ AddPathWithMap((
 ))
 
 # Knock Sensors
-for i in range(1, 3):
-  AddPathWithMap((
-    ('link_ecu_b', f'Knock{i}'),
-    DCE.GetFreePin(),
-    (f'knock{i}', 'Sig+'),
-  ))
-  AddPathWithMap((
-    ('link_ecu_b', 'Shield/Gnd'),
-    DCE.GetFreePin(),
-    (f'knock{i}', 'Sig-'),
-  ))
-  AddPathWithMap((
-    ('link_ecu_b', 'Shield/Gnd'),
-    DCE.GetFreePin(),
-    (f'knock{i}', 'Scr'),
-  ))
+AddPathWithMap((
+  ('link_ecu_b', f'Knock1'),
+  DCE.GetFreePin(31),
+  (f'knock1', 'Sig+'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'Shield/Gnd'),
+  DCE.GetFreePin(32),
+  (f'knock1', 'Sig-'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'Shield/Gnd'),
+  DCE.GetFreePin(33),
+  (f'knock1', 'Scr'),
+))
+AddPathWithMap((
+  ('link_ecu_b', f'Knock2'),
+  DCE.GetFreePin(),
+  (f'knock2', 'Sig+'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'Shield/Gnd'),
+  DCE.GetFreePin(),
+  (f'knock2', 'Sig-'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'Shield/Gnd'),
+  DCE.GetFreePin(),
+  (f'knock2', 'Scr'),
+))
 
 # ECU B Grounds
 AddPath((
   ('link_ecu_b', 'Ground1'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(39),
   ('engine_ground', 'Gnd'),
 ), 'black')
 AddPath((
   ('link_ecu_b', 'Ground2'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(40),
   ('engine_ground', 'Gnd'),
 ), 'black')
 
@@ -690,7 +704,7 @@ AddPath((
 ), 'red')  # TODO: Decide on color.
 AddPathWithMap((
   ('link_ecu_a', 'Aux3'),
-  DCEB.GetFreePin(9),
+  DCEB.GetFreePin(31),
   ('vapor_purge_valve', 'Gnd'),
 ))
 
@@ -766,12 +780,20 @@ DCG_PIN_MAP = {
   'aem_fuel_pressure_sensor': {'+': 10,  # Pin 9 saved for 5vOut
                                '-': 11},
 }
+DCE_PIN_MAP = {
+  'aem_coolant_temp_sensor': {'+': 29,
+                              '-': 30},
+  'aem_transmission_temp_sensor': {'+': 35,  
+                                   '-': 36},
+  'aem_fuel_pressure_sensor': {'+': 37,  
+                               '-': 38},
+}
 for i, aem_sensor in enumerate(AEM_SENSORS):
   for sign in ('+', '-'):
     AddPath((
       (AEM_GAUGES[i], f'Sig{sign}'),
       DCG.GetFreePin(DCG_PIN_MAP[aem_sensor][sign]),
-      DCE.GetFreePin(),
+      DCE.GetFreePin(DCE_PIN_MAP[aem_sensor][sign]),
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
 AddPathWithMap((

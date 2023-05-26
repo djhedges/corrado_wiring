@@ -237,15 +237,15 @@ Node('acc_ground', ['ground'])
 Node('trunk_ground', ['ground'])
 
 Node('traqmate', ['pos', 'gnd', 'rpm'])
-Node('labjack', [
-    'sgnd0', ' spc', ' sgnd1', ' vs0',
-    'fio7', ' fio6', ' gnd0', ' vs1',
-    'fio5', ' fio4', ' gnd1', ' vs2',
-    'vs3', ' gnd2', ' dac0', ' dac1',
-    'vs4', ' gnd3', ' fio2', ' fio3',
-    'vs5', ' gnd4', ' fio0', ' fio1',
-])
-Node('usb_hub', ['+', '_', '-'])
+# Node('labjack', [
+#     'sgnd0', ' spc', ' sgnd1', ' vs0',
+#     'fio7', ' fio6', ' gnd0', ' vs1',
+#     'fio5', ' fio4', ' gnd1', ' vs2',
+#     'vs3', ' gnd2', ' dac0', ' dac1',
+#     'vs4', ' gnd3', ' fio2', ' fio3',
+#     'vs5', ' gnd4', ' fio0', ' fio1',
+# ])
+# Node('usb_hub', ['+', '_', '-'])
 
 Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
@@ -498,12 +498,12 @@ for i in range(1, 4):
 # Wiper Motor
 AddPath((
   ('razor_pdm', 'ADIO7'),
-  DCEB.GetHighPin(6),
+  DCEB.GetHighPin(5),
   ('wiper', 'high'),
 ), 'red')
 AddPath((
   ('razor_pdm', 'ADIO8'),
-  DCEB.GetHighPin(34),
+  DCEB.GetHighPin(6),
   ('wiper', 'park'),
 ), 'red')  
 AddPath((
@@ -757,17 +757,25 @@ for aem_gauge in AEM_GAUGES:
     DCG_GND,
     ('acc_ground', 'ground'),
   ), 'black')
+DCG_PIN_MAP = {
+  'aem_coolant_temp_sensor': {'+': 4,
+                              '-': 5},
+  'aem_transmission_temp_sensor': {'+': 7,  # Pin 6 saved for 5vOut
+                                   '-': 8},
+  'aem_fuel_pressure_sensor': {'+': 10,  # Pin 9 saved for 5vOut
+                               '-': 11},
+}
 for i, aem_sensor in enumerate(AEM_SENSORS):
   for sign in ('+', '-'):
     AddPath((
       (AEM_GAUGES[i], f'Sig{sign}'),
-      DCG.GetFreePin(),
+      DCG.GetFreePin(DCG_PIN_MAP[aem_sensor][sign]),
       DCE.GetFreePin(),
       (aem_sensor, f'Sig{sign}'),
     ), 'white')  # TODO: Decide on wire color.
 AddPathWithMap((
   ('link_ecu_a', 'Temp1'),
-  DCG.GetFreePin(),
+  DCG.GetFreePin(3),
   ('coolant_temp_gauge', '5vOut'),
 ))
 
@@ -826,22 +834,22 @@ AddPathWithMap((
 ## /Brake Pressure Sensors
 
 # Labjack
-AddPath((
-  ('coolant_temp_gauge', '5vOut'),
-  DCG.GetFreePin(),
-  ('labjack', 'fio0'),
-), color='white') # TODO: Decide on wire color.
-AddPath((
-  ('fuel_pressure_gauge', '5vOut'),
-  DCG.GetFreePin(),
-  ('labjack', 'fio6'),
-), color='white') # TODO: Decide on wire color.
-AddPath((
-  ('transmission_temp_gauge', '5vOut'),
-  DCG.GetFreePin(),
-  ('labjack', 'fio7'),
-), color='white') # TODO: Decide on wire color.
-# /Labjack
+# AddPath((
+#   ('coolant_temp_gauge', '5vOut'),
+#   DCG.GetFreePin(),
+#   ('labjack', 'fio0'),
+# ), color='white') # TODO: Decide on wire color.
+# AddPath((
+#   ('fuel_pressure_gauge', '5vOut'),
+#   DCG.GetFreePin(),
+#   ('labjack', 'fio6'),
+# ), color='white') # TODO: Decide on wire color.
+# AddPath((
+#   ('transmission_temp_gauge', '5vOut'),
+#   DCG.GetFreePin(),
+#   ('labjack', 'fio7'),
+# ), color='white') # TODO: Decide on wire color.
+#  /Labjack
 
 ClusterNodes(['battery', 'kill_switch', 'alternator', 'kill_switch_resistor'], 
              'Kill Switch')

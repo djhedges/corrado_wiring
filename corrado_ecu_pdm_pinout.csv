@@ -16,7 +16,6 @@ link_ecu_a:DI1,oil_switch_0.25_bar:Switch
 link_ecu_a:DI2,oil_switch_1.40_bar:Switch
 link_ecu_a:GndOut,front_brake_pressure:0v
 link_ecu_a:GndOut,intake_temp_sensor:Sig-
-link_ecu_a:GndOut,map_sensor:Gnd
 link_ecu_a:GndOut,rear_brake_pressure:0v
 link_ecu_a:GndOut,tps:Gnd
 link_ecu_a:Ground1,engine_ground:Gnd
@@ -44,6 +43,7 @@ link_ecu_b:DI10/CAN2H,razor_pdm:CANH
 link_ecu_b:DI9/CAN2L,link_keypad:CAN Low
 link_ecu_b:DI9/CAN2L,razor_pdm:CANL
 link_ecu_b:GndOut,coolant_low_sensor:Sig-
+link_ecu_b:GndOut,map_sensor:Gnd
 link_ecu_b:GndOut,oil_pressure_sensor:Sig-
 link_ecu_b:Ground1,engine_ground:Gnd
 link_ecu_b:Ground2,engine_ground:Gnd

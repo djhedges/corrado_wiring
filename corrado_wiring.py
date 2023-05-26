@@ -156,12 +156,10 @@ class DeutschConnector(object):
 # https://mavenspeed.com/collections/b2t-engineering/products/dual-connector-bulkhead
 DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,4,5,6,34])  # Engine
 DCE_5v = DCE.GetLowPin(2)
-DCE_5v_Gnd = DCE.GetLowPin(3)
 DCE_12v = DCE.GetLowPin(7)
 DCE_INJ_PWR_PIN = DCE.GetLowPin(8)
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,4,5,6,34])  # Engine Bay
 DCEB_5v = DCEB.GetLowPin(2)
-DCEB_5v_Gnd = DCEB.GetLowPin(3)
 DCEB_12v = DCEB.GetHighPin(34)
 # DT 12 Way https://www.prowireusa.com/deutsch-dt-series-connector-kits.html
 DCC = DeutschConnector('deutsch_console_connector', 12)  # Console (keypad)
@@ -518,7 +516,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  DCEB_5v_Gnd,
+  DCEB.GetLowPin(3),
   ('coolant_low_sensor', 'Sig-'),
 ))
 
@@ -535,7 +533,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  DCE_5v_Gnd,
+  DCE.GetLowPin(3),
   ('tps', 'Gnd'),
 ))
 
@@ -551,8 +549,8 @@ AddPathWithMap((
   ('map_sensor', '5v'),
 ))
 AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
-  DCEB_5v_Gnd,
+  ('link_ecu_b', 'GndOut'),
+  DCEB.GetLowPin(9),
   ('map_sensor', 'Gnd'),
 ))
 
@@ -588,7 +586,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  DCE_5v_Gnd,
+  DCE.GetLowPin(36),
   ('intake_temp_sensor', 'Sig-'),
 ))
 
@@ -600,7 +598,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  DCE_5v_Gnd,
+  DCE.GetLowPin(35),
   ('oil_pressure_sensor', 'Sig-'),
 ))
 

@@ -324,7 +324,7 @@ AddPath((
 AddPath((
   # Ensure it goes back to killswitch per hpacademy.
   ('kill_switch', 'starter'),
-  DCE.GetFreePin(),  
+  DCE.GetFreePin(9),  
   ('alternator', 'sense'),
 ), 'red')
 AddPath((
@@ -527,7 +527,7 @@ AddPathWithMap((
 # TPS
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt3'),
-  DCE.GetFreePin(22),
+  DCE.GetFreePin(20),
   ('tps', 'Sensor'),
 ))
 AddPathWithMap((
@@ -561,12 +561,12 @@ AddPathWithMap((
 # Oil Pressure Switches
 AddPathWithMap((
   ('link_ecu_a', 'DI1'),
-  DCE.GetFreePin(27),
+  DCE.GetFreePin(17),
   ('oil_switch_0.25_bar', 'Switch'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'DI2'),
-  DCE.GetFreePin(28),
+  DCE.GetFreePin(18),
   ('oil_switch_1.40_bar', 'Switch'),
 ))
 
@@ -585,7 +585,7 @@ AddPath((
 # Intake Temp Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Temp2'),
-  DCE.GetFreePin(25),
+  DCE.GetFreePin(22),
   ('intake_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((
@@ -609,32 +609,32 @@ AddPathWithMap((
 # Knock Sensors
 AddPathWithMap((
   ('link_ecu_b', f'Knock1'),
-  DCE.GetFreePin(31),
+  DCE.GetFreePin(37),
   (f'knock1', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'Shield/Gnd'),
-  DCE.GetFreePin(32),
+  DCE.GetFreePin(38),
   (f'knock1', 'Sig-'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'Shield/Gnd'),
-  DCE.GetFreePin(33),
+  DCE.GetFreePin(24),
   (f'knock1', 'Scr'),
 ))
 AddPathWithMap((
   ('link_ecu_b', f'Knock2'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(31),
   (f'knock2', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'Shield/Gnd'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(32),
   (f'knock2', 'Sig-'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'Shield/Gnd'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(33),
   (f'knock2', 'Scr'),
 ))
 
@@ -692,7 +692,7 @@ AddPath((
 ), 'red')  # TODO: Decide on color.
 AddPathWithMap((
   ('link_ecu_a', 'Aux2'),
-  DCE.GetFreePin(),
+  DCE.GetFreePin(10),
   ('idle_stablizer_valve', 'Gnd'),
 ))
 
@@ -781,12 +781,12 @@ DCG_PIN_MAP = {
                                '-': 11},
 }
 DCE_PIN_MAP = {
-  'aem_coolant_temp_sensor': {'+': 29,
-                              '-': 30},
-  'aem_transmission_temp_sensor': {'+': 35,  
-                                   '-': 36},
-  'aem_fuel_pressure_sensor': {'+': 37,  
-                               '-': 38},
+  'aem_coolant_temp_sensor': {'+': 25,
+                              '-': 26},
+  'aem_transmission_temp_sensor': {'+': 27,  
+                                   '-': 28},
+  'aem_fuel_pressure_sensor': {'+': 29,  
+                               '-': 30},
 }
 for i, aem_sensor in enumerate(AEM_SENSORS):
   for sign in ('+', '-'):

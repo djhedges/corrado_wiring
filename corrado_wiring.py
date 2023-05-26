@@ -797,14 +797,14 @@ AddPathWithMap((
 ))
 
 # USB Hub
-AddPath((
-  ('usb_hub', '+'),
-  DCC_PWR,
-), 'red')
-AddPath((
-  ('usb_hub', '-'),
-  DCC_GND,
-), 'black')
+# AddPath((
+#   ('usb_hub', '+'),
+#   DCC_PWR,
+# ), 'red')
+# AddPath((
+#   ('usb_hub', '-'),
+#   DCC_GND,
+# ), 'black')
 
 ## Brake Pressure Sensors
 AddPathWithMap((

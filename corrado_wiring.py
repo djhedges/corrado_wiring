@@ -513,7 +513,7 @@ AddPath((
 # Coolant Low Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Aux4'),
-  DCEB.GetLowPin(29),
+  DCEB.GetLowPin(8),
   ('coolant_low_sensor', 'Sig+'),
 ))
 AddPathWithMap((
@@ -702,7 +702,7 @@ AddPath((
 ), 'red')  # TODO: Decide on color.
 AddPathWithMap((
   ('link_ecu_a', 'Aux3'),
-  DCEB.GetLowPin(31),
+  DCEB.GetLowPin(35),
   ('vapor_purge_valve', 'Gnd'),
 ))
 

@@ -583,7 +583,7 @@ AddPath((
 # Intake Temp Sensor
 AddPathWithMap((
   ('link_ecu_a', 'Temp2'),
-  DCE.GetLowPin(22),
+  DCE.GetLowPin(19),
   ('intake_temp_sensor', 'Sig+'),
 ))
 AddPathWithMap((

@@ -270,10 +270,20 @@ Node('spal_fan_1', ['pos', 'gnd'])
 Node('spal_fan_2', ['pos', 'gnd'])
 Node('transponder', ['pos', 'gnd'])
 
-for aem_gauge in AEM_GAUGES:
-  Node(aem_gauge, ['Ground', '12v', 'RS232', '5vOut', 'Sig+', 'Sig-'])
-for aem_sensor in AEM_SENSORS:
-  Node(aem_sensor, ['Sig+', 'Sig-'])
+Node('coolant_temp_gauge', ['Ground', '12v', 'RS232', '5vOut', 'Sig+', 'Sig-'])
+Node('transmission_temp_gauge', ['Ground', '12v', 'RS232', '5vOut', 'Sig+', 'Sig-'])
+Node('fuel_pressure_gauge', ['Ground', # black
+                             '12v', # red
+                             'CANL', # green/black unpinned
+                             'CANH', # white/black unpinned
+                             'sensor_5v', # red
+                             'sensor_input', # green
+                             'sensor_ground', # black
+                             '5vOut+', # white
+                             '5vOut-']) # brown
+Node('aem_coolant_temp_sensor', ['Sig+', 'Sig-'])
+Node('aem_transmission_temp_sensor', ['Sig+', 'Sig-'])
+Node('aem_fuel_pressure_sensor', ['5v', 'input', 'ground'])
 Node('front_brake_pressure', ['0v', '5v', 'Sig'])
 Node('rear_brake_pressure', ['0v', '5v', 'Sig'])
 
@@ -593,12 +603,12 @@ AddPathWithMap((
 # Oil Pressure Sensor
 AddPathWithMap((
   ('link_ecu_a', 'AnVolt2'),
-  DCE.GetLowPin(21),
+  DCE.GetLowPin(29),
   ('oil_pressure_sensor', 'Sig+'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  DCE.GetLowPin(35),
+  DCE.GetLowPin(30),
   ('oil_pressure_sensor', 'Sig-'),
 ))
 
@@ -768,35 +778,53 @@ for aem_gauge in AEM_GAUGES:
     DCG_GND,
     ('acc_ground', 'ground'),
   ), 'black')
-DCG_PIN_MAP = {
-  'aem_coolant_temp_sensor': {'+': 4,
-                              '-': 5},
-  'aem_transmission_temp_sensor': {'+': 7,  # Pin 6 saved for 5vOut
-                                   '-': 8},
-  'aem_fuel_pressure_sensor': {'+': 10,  # Pin 9 saved for 5vOut
-                               '-': 11},
-}
-DCE_PIN_MAP = {
-  'aem_coolant_temp_sensor': {'+': 25,
-                              '-': 26},
-  'aem_transmission_temp_sensor': {'+': 27,  
-                                   '-': 28},
-  'aem_fuel_pressure_sensor': {'+': 29,  
-                               '-': 30},
-}
-for i, aem_sensor in enumerate(AEM_SENSORS):
-  for sign in ('+', '-'):
-    AddPath((
-      (AEM_GAUGES[i], f'Sig{sign}'),
-      DCG.GetLowPin(DCG_PIN_MAP[aem_sensor][sign]),
-      DCE.GetLowPin(DCE_PIN_MAP[aem_sensor][sign]),
-      (aem_sensor, f'Sig{sign}'),
-    ), 'white')  # TODO: Decide on wire color.
 AddPathWithMap((
   ('link_ecu_a', 'Temp1'),
   DCG.GetLowPin(3),
   ('coolant_temp_gauge', '5vOut'),
 ))
+AddPath((
+  ('coolant_temp_gauge', 'Sig+'),
+  DCG.GetLowPin(4),
+  DCE.GetLowPin(25),
+  ('aem_coolant_temp_sensor', 'Sig+'),
+), 'green')  
+AddPath((
+  ('coolant_temp_gauge', 'Sig-'),
+  DCG.GetLowPin(5),
+  DCE.GetLowPin(26),
+  ('aem_coolant_temp_sensor', 'Sig-'),
+), 'black')  
+AddPath((
+  ('transmission_temp_gauge', 'Sig+'),
+  DCG.GetLowPin(7),
+  DCE.GetLowPin(27),
+  ('aem_transmission_temp_sensor', 'Sig+'),
+), 'green')  
+AddPath((
+  ('transmission_temp_gauge', 'Sig-'),
+  DCG.GetLowPin(8),
+  DCE.GetLowPin(28),
+  ('aem_transmission_temp_sensor', 'Sig-'),
+), 'black')  
+AddPath((
+  ('fuel_pressure_gauge', 'sensor_5v'),
+  DCG.GetLowPin(9),
+  DCE.GetLowPin(21),
+  ('aem_fuel_pressure_sensor', '5v'),
+), 'red')  
+AddPath((
+  ('fuel_pressure_gauge', 'sensor_input'),
+  DCG.GetLowPin(10),
+  DCE.GetLowPin(22),
+  ('aem_fuel_pressure_sensor', 'input'),
+), 'green')  
+AddPath((
+  ('fuel_pressure_gauge', 'sensor_ground'),
+  DCG.GetLowPin(11),
+  DCE.GetLowPin(23),
+  ('aem_fuel_pressure_sensor', 'ground'),
+), 'black')  
 
 # Traqmate
 AddPath((

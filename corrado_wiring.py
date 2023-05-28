@@ -776,7 +776,7 @@ for aem_gauge in AEM_GAUGES:
   AddPath((
     (aem_gauge, 'Ground'),
     DCG_GND,
-    ('acc_ground', 'ground'),
+    ('link_ecu_b', 'GndOut'),
   ), 'black')
 AddPathWithMap((
   ('link_ecu_a', 'Temp1'),

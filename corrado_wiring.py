@@ -611,7 +611,7 @@ AddPathWithMap((
   ('oil_temp_sensor', 'Sig'),
 ))
 AddPathWithMap((
-  ('link_ecu_b', 'GndOut'),
+  ('link_ecu_a', 'GndOut'),
   DCE.GetLowPin(18),
   ('oil_temp_sensor', '0v'),
 ))

@@ -327,7 +327,6 @@ AddPath((
 AddPath((
   # Ensure it goes back to killswitch per hpacademy.
   ('kill_switch', 'starter'),
-  DCE.GetLowPin(9),  
   ('alternator', 'sense'),
 ), 'red')
 AddPath((

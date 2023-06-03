@@ -211,6 +211,7 @@ Node('starter', ['pos', 'gnd', 'solenoid'])
 Node('kill_switch', ['battery', 'z', 'w', 'starter'])
 Node('kill_switch_resistor', ['resistor'])
 Node('ign_switch', ['1', '2'])
+Node('starter_button', ['1', '2'])
 Node('razor_pdm', [
     'pos', 'neg',
     'PWROUT2a', 'NC1', 'CANH', 'IGNSW', 'SENSOR 5V1', 'SENSOR GND1', 'PWROUT3a',
@@ -312,13 +313,11 @@ AddPath((
   ('starter', 'pos'),
 ), 'red')
 AddPath((
-  ('razor_pdm', 'PWROUT3a'),
-  DCE.GetHighPin(6),
-  ('starter', 'solenoid'),
+  ('kill_switch', 'starter'),
+  ('starter_button', '1'),
 ), 'red')
 AddPath((
-  ('razor_pdm', 'PWROUT3b'),
-  DCE.GetHighPin(5),
+  ('starter_button', '2'),
   ('starter', 'solenoid'),
 ), 'red')
 AddPath((
@@ -906,8 +905,9 @@ ClusterNodes(['icm', 'coil', 'LSU4.9', 'map_sensor', 'coolant_low_sensor', 'vapo
               'deutsch_engine_bay_connector', 'transponder'], 
               label='Engine Bay')
 ClusterNodes(AEM_GAUGES + [
-             'link_keypad', 'ign_switch', 'usb_hub', 'labjack', 'traqmate',
-             'deutsch_gauge_connector', 'deutsch_console_connector'], 
+             'link_keypad', 'ign_switch', 'starter_button', 'usb_hub', 
+             'labjack', 'traqmate', 'deutsch_gauge_connector', 
+             'deutsch_console_connector'], 
              'Console')
 ClusterNodes([
     'deutsch_engine_connector',

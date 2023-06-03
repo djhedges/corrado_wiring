@@ -84,8 +84,6 @@ razor_pdm:PWROUT1a,fuel_pump:pos
 razor_pdm:PWROUT1b,coil:Ubatt
 razor_pdm:PWROUT2a,brake_lights:pos
 razor_pdm:PWROUT2b,brake_lights:pos
-razor_pdm:PWROUT3a,starter:solenoid
-razor_pdm:PWROUT3b,starter:solenoid
 razor_pdm:PWROUT4a,spal_fan_1:pos
 razor_pdm:PWROUT4b,spal_fan_2:pos
 razor_pdm:neg,battery:neg

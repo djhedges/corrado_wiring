@@ -255,10 +255,9 @@ Node('knock1', ['Sig+', 'Sig-', 'Scr'])
 Node('knock2', ['Sig+', 'Sig-', 'Scr'])
 
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
-Node('oil_pressure_sensor', ['Sig+', 'Sig-'])
+Node('oil_pressure_sensor', ['0v', '5v', 'Sig'])
+Node('oil_temp_sensor', ['0v', '5v', 'Sig'])
 Node('coolant_low_sensor', ['Sig+', 'Sig-'])
-Node('oil_switch_0.25_bar', ['Switch'])
-Node('oil_switch_1.40_bar', ['Switch'])
 
 Node('idle_stablizer_valve', ['Pos', 'Gnd'])
 Node('vapor_purge_valve', ['Pos', 'Gnd'])
@@ -563,18 +562,6 @@ AddPathWithMap((
   ('map_sensor', 'Gnd'),
 ))
 
-# Oil Pressure Switches
-AddPathWithMap((
-  ('link_ecu_a', 'DI1'),
-  DCE.GetLowPin(17),
-  ('oil_switch_0.25_bar', 'Switch'),
-))
-AddPathWithMap((
-  ('link_ecu_a', 'DI2'),
-  DCE.GetLowPin(18),
-  ('oil_switch_1.40_bar', 'Switch'),
-))
-
 # ECU A Grounds
 AddPath((
   ('link_ecu_a', 'Ground1'),
@@ -599,16 +586,36 @@ AddPathWithMap((
   ('intake_temp_sensor', 'Sig-'),
 ))
 
-# Oil Pressure Sensor
+# Oil Sensors
 AddPathWithMap((
-  ('link_ecu_a', 'AnVolt2'),
+  ('link_ecu_a', '+5V'),
+  DCE_5v,
+  ('oil_pressure_sensor', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'Aux9'),
   DCE.GetLowPin(29),
-  ('oil_pressure_sensor', 'Sig+'),
+  ('oil_pressure_sensor', 'Sig'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
   DCE.GetLowPin(30),
-  ('oil_pressure_sensor', 'Sig-'),
+  ('oil_pressure_sensor', '0v'),
+))
+AddPathWithMap((
+  ('link_ecu_a', '+5V'),
+  DCE_5v,
+  ('oil_temp_sensor', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'Temp3'),
+  DCE.GetLowPin(17),
+  ('oil_temp_sensor', 'Sig'),
+))
+AddPathWithMap((
+  ('link_ecu_b', 'GndOut'),
+  DCE.GetLowPin(18),
+  ('oil_temp_sensor', '0v'),
 ))
 
 # Knock Sensors
@@ -912,7 +919,7 @@ ClusterNodes(AEM_GAUGES + [
 ClusterNodes([
     'deutsch_engine_connector',
     'cam_sensor', 'crank_sensor', 'tps', 
-    'oil_switch_0.25_bar',  'oil_switch_1.40_bar', 'oil_pressure_sensor',
+    'oil_pressure_sensor',  'oil_temp_sensor',
     'intake_temp_sensor', 'knock1', 'knock2', 'engine_ground',
     'idle_stablizer_valve', 'aux_coolant_pump', 'starter',
     ] + AEM_SENSORS + [f'injector{i}' for i in range(1, 7)], 'Engine')

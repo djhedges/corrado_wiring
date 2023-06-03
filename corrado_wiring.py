@@ -591,7 +591,7 @@ AddPathWithMap((
   ('oil_pressure_sensor', '5v'),
 ))
 AddPathWithMap((
-  ('link_ecu_b', 'Aux9'),
+  ('link_ecu_a', 'AnVolt2'),
   DCE.GetLowPin(29),
   ('oil_pressure_sensor', 'Sig'),
 ))

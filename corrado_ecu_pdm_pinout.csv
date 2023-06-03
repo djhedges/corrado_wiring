@@ -8,6 +8,7 @@ link_ecu_a:+5V,oil_temp_sensor:5v
 link_ecu_a:+5V,rear_brake_pressure:5v
 link_ecu_a:+5V,tps:5v
 link_ecu_a:AnVolt1,map_sensor:Sensor
+link_ecu_a:AnVolt2,oil_pressure_sensor:Sig
 link_ecu_a:AnVolt3,tps:Sensor
 link_ecu_a:Aux1,traqmate:rpm
 link_ecu_a:Aux2,idle_stablizer_valve:Gnd
@@ -37,7 +38,6 @@ link_ecu_b:+14V Aux9/10,razor_pdm:ADIO1
 link_ecu_b:APE,LSU4.9:APE
 link_ecu_b:An Volt8,front_brake_pressure:Sig
 link_ecu_b:An Volt9,rear_brake_pressure:Sig
-link_ecu_b:Aux9,oil_pressure_sensor:Sig
 link_ecu_b:DI10/CAN2H,link_keypad:CAN High
 link_ecu_b:DI10/CAN2H,razor_pdm:CANH
 link_ecu_b:DI9/CAN2L,link_keypad:CAN Low

@@ -160,7 +160,7 @@ DCE_12v = DCE.GetLowPin(7)
 DCE_INJ_PWR_PIN = DCE.GetLowPin(8)
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,4,5,6,34])  # Engine Bay
 DCEB_5v = DCEB.GetLowPin(2)
-DCEB_12v = DCEB.GetHighPin(34)
+DCEB_12v = DCEB.GetLowPin(10)
 # DT 12 Way https://www.prowireusa.com/deutsch-dt-series-connector-kits.html
 DCC = DeutschConnector('deutsch_console_connector', 12)  # Console (keypad)
 DCC_PWR = DCC.GetLowPin(1)
@@ -479,7 +479,7 @@ AddPathWithMap((
 # Coils <8 amps according to bosch motorsports catalog.
 AddPath((
   ('razor_pdm', 'PWROUT1b'),
-  DCE.GetHighPin(4),
+  DCEB.GetHighPin(34),
   ('coil', 'Ubatt'),
 ), 'red')
 AddPath((

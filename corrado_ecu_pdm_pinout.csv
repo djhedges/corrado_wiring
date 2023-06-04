@@ -16,6 +16,7 @@ link_ecu_a:Aux3,vapor_purge_valve:Gnd
 link_ecu_a:Aux4,coolant_low_sensor:Sig+
 link_ecu_a:GndOut,front_brake_pressure:0v
 link_ecu_a:GndOut,intake_temp_sensor:Sig-
+link_ecu_a:GndOut,oil_temp_sensor:0v
 link_ecu_a:GndOut,rear_brake_pressure:0v
 link_ecu_a:GndOut,tps:Gnd
 link_ecu_a:Ground1,engine_ground:Gnd
@@ -47,7 +48,6 @@ link_ecu_b:GndOut,coolant_temp_gauge:Ground
 link_ecu_b:GndOut,fuel_pressure_gauge:Ground
 link_ecu_b:GndOut,map_sensor:Gnd
 link_ecu_b:GndOut,oil_pressure_sensor:0v
-link_ecu_b:GndOut,oil_temp_sensor:0v
 link_ecu_b:GndOut,transmission_temp_gauge:Ground
 link_ecu_b:Ground1,engine_ground:Gnd
 link_ecu_b:Ground2,engine_ground:Gnd

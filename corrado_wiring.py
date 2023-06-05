@@ -154,7 +154,8 @@ class DeutschConnector(object):
 
 
 # https://mavenspeed.com/collections/b2t-engineering/products/dual-connector-bulkhead
-DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,4,5,6,34])  # Engine
+DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,4,5,6,34])  # Engine 
+DCE.GetLowPin(35)  # Damaged and won't hold a pin for some reason.
 DCE_5v = DCE.GetLowPin(2)
 DCE_12v = DCE.GetLowPin(7)
 DCE_INJ_PWR_PIN = DCE.GetLowPin(8)
@@ -444,35 +445,35 @@ for i in range(1, 7):
 
 # Cam Sensor
 AddPathWithMap((
-  ('link_ecu_a', 'Trig2'),
-  DCE.GetLowPin(44),
-  ('cam_sensor', 'Sensor'),
-))
-AddPathWithMap((
-  ('link_ecu_a', '+5V'),
-  DCE_5v,
-  ('cam_sensor', '5v'),
-))
-AddPathWithMap((
-  ('link_ecu_a', 'Shield/Gnd'),
-  DCE.GetLowPin(43),
-  ('cam_sensor', 'Gnd'),
-))
-
-# Crank Sensor
-AddPathWithMap((
   ('link_ecu_a', 'Trig1'),
   DCE.GetLowPin(47),
-  ('crank_sensor', 'VR+'),
-))
-AddPathWithMap((
-  ('link_ecu_a', 'Shield/Gnd'),
-  DCE.GetLowPin(45),
-  ('crank_sensor', 'VR-'),
+  ('cam_sensor', 'VR+'),
 ))
 AddPathWithMap((
   ('link_ecu_a', 'Shield/Gnd'),
   DCE.GetLowPin(46),
+  ('cam_sensor', 'VR-'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'Shield/Gnd'),
+  DCE.GetLowPin(9),
+  ('cam_sensor', 'Gnd'),
+))
+
+# Crank  Sensor
+AddPathWithMap((
+  ('link_ecu_a', 'Trig2'),
+  DCE.GetLowPin(44),
+  ('crank_sensor', 'Sensor'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'Shield/Gnd'),
+  DCE.GetLowPin(45),
+  ('crank_sensor', '5v'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'Shield/Gnd'),
+  DCE.GetLowPin(43),
   ('crank_sensor', 'Gnd'),
 ))
 

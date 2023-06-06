@@ -211,7 +211,6 @@ Node('starter', ['pos', 'gnd', 'solenoid'])
 # https://www.pegasusautoracing.com/document.asp?DocID=TECH00109
 Node('kill_switch', ['battery', 'z', 'w', 'starter'])
 Node('kill_switch_resistor', ['resistor'])
-Node('ign_switch', ['1', '2'])
 Node('starter_button', ['1', '2'])
 Node('razor_pdm', [
     'pos', 'neg',
@@ -906,7 +905,7 @@ ClusterNodes(['icm', 'coil', 'LSU4.9', 'map_sensor', 'coolant_low_sensor', 'vapo
               'deutsch_engine_bay_connector', 'transponder'], 
               label='Engine Bay')
 ClusterNodes(AEM_GAUGES + [
-             'link_keypad', 'ign_switch', 'starter_button', 'usb_hub', 
+             'link_keypad', 'starter_button', 'usb_hub', 
              'labjack', 'traqmate', 'deutsch_gauge_connector', 
              'deutsch_console_connector'], 
              'Console')

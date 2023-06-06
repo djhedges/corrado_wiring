@@ -1268,9 +1268,9 @@ Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil
 		pos="632,4198.7 632,3786.5 675.62,2640.8 994.5,2379.7;996.5,2379.7 1037.3,2346.3 1418.1,2361.7 1470,2352.7 1494.7,2348.4 1499.7,2342.5 \
 1524,2336.7 1754.7,2281.6 1875.4,2402.3 2049,2240.7 2463.8,1854.4 1944.2,1383.2 2367,1005.7 2534.4,856.21 3146,904.81 3367,865.68 \
 3836.1,782.6 3969,808.18 4415,640.68 4440.7,631.02 4442.4,617.63 4469,610.68 4599.2,576.6 4939.9,607.68 5074.5,607.68"];
-	razor_pdm:IGNSW -- kill_switch:z	[color="black:blue:black",
-		label="razor_pdm:IGNSW<blue>kill_switch:z",
-		labeltooltip="razor_pdm:IGNSW<blue>kill_switch:z",
+	razor_pdm:IGNSW -- kill_switch:z	[color="black:brown:blue:brown:black",
+		label="razor_pdm:IGNSW<brown:blue>kill_switch:z",
+		labeltooltip="razor_pdm:IGNSW<brown:blue>kill_switch:z",
 		lp="1786.5,2356.2",
 		penwidth=2.5,
 		pos="3063,2375.7 2961.3,2375.7 2936.6,2360.6 2835,2355.7 2585.2,2343.6 1550.7,2333 1524,2348.7 975.25,2671.1 1054.1,3005.1 827,3599.7 \

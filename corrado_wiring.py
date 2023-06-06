@@ -346,7 +346,7 @@ AddPath((
 AddPath((
   ('razor_pdm', 'IGNSW'),
   ('kill_switch', 'z'),
-), 'blue')
+), 'brown:blue')
 
 # Brake Lights
 AddPath((

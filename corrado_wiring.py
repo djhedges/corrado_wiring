@@ -502,12 +502,12 @@ for i in range(1, 4):
 # Wiper Motor
 AddPath((
   ('razor_pdm', 'ADIO7'),
-  DCEB.GetHighPin(5),
+  DCEB.GetLowPin(14),
   ('wiper', 'high'),
 ), 'red')
 AddPath((
   ('razor_pdm', 'ADIO8'),
-  DCEB.GetHighPin(6),
+  DCEB.GetLowPin(15),
   ('wiper', 'park'),
 ), 'red')  
 AddPath((

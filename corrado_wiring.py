@@ -355,10 +355,12 @@ AddPath((
 ), 'black')
 AddPath((
   ('brake_lights', 'pos'),
+  DCC.GetLowPin(11),
   ('razor_pdm', 'PWROUT2a'),
 ), 'red')
 AddPath((
   ('brake_lights', 'pos'),
+  DCC.GetLowPin(12),
   ('razor_pdm', 'PWROUT2b'),
 ), 'red')
 AddPath((
@@ -369,6 +371,7 @@ AddPath((
 # Fuel Pump - Rockauto listed a fuel pump with avg 8amp current draw.
 AddPath((
   ('fuel_pump', 'pos'),
+  DCC.GetLowPin(10),
   ('razor_pdm', 'PWROUT1a'),
 ), 'red')
 AddPath((

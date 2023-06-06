@@ -1,16 +1,16 @@
 graph "" {
-	graph [bb="0,0,8253,3885.4",
+	graph [bb="0,0,7570,3530.8",
 		concentrate=true,
 		rankdir=LR,
 		ranksep=1.5
 	];
 	node [label="\N"];
 	subgraph "cluster_Engine Bay" {
-		graph [bb="4967,2592.4,8245,3737.4",
+		graph [bb="4284,2350,7562,3495",
 			color=grey,
 			label="Engine Bay",
 			lheight=0.21,
-			lp="6606,3725.9",
+			lp="5923,3483.5",
 			lwidth=1.14,
 			style=filled
 		];
@@ -19,326 +19,533 @@ graph "" {
 12 | <13> 13 | <14> 14 | <15> 15 | <16> 16 | <17> 17 | <18> 18 | <19> 19 | <20> 20 | <21> 21 | <22> 22 | <23> 23 | <24> 24 | <25> \
 25 | <26> 26 | <27> 27 | <28> 28 | <29> 29 | <30> 30 | <31> 31 | <32> 32 | <33> 33 | <34> 34 | <35> 35 | <36> 36 | <37> 37 | <38> \
 38 | <39> 39 | <40> 40 | <41> 41 | <42> 42 | <43> 43 | <44> 44 | <45> 45 | <46> 46 | <47> 47 ",
-			pos="5093.5,3153.4",
-			rects="4975,3682.4,5212,3705.4 4975,3659.4,5212,3682.4 4975,3636.4,5212,3659.4 4975,3613.4,5212,3636.4 4975,3590.4,5212,3613.4 4975,3567.4,\
-5212,3590.4 4975,3544.4,5212,3567.4 4975,3521.4,5212,3544.4 4975,3498.4,5212,3521.4 4975,3475.4,5212,3498.4 4975,3452.4,5212,3475.4 \
-4975,3429.4,5212,3452.4 4975,3406.4,5212,3429.4 4975,3383.4,5212,3406.4 4975,3360.4,5212,3383.4 4975,3337.4,5212,3360.4 4975,3314.4,\
-5212,3337.4 4975,3291.4,5212,3314.4 4975,3268.4,5212,3291.4 4975,3245.4,5212,3268.4 4975,3222.4,5212,3245.4 4975,3199.4,5212,3222.4 \
-4975,3176.4,5212,3199.4 4975,3153.4,5212,3176.4 4975,3130.4,5212,3153.4 4975,3107.4,5212,3130.4 4975,3084.4,5212,3107.4 4975,3061.4,\
-5212,3084.4 4975,3038.4,5212,3061.4 4975,3015.4,5212,3038.4 4975,2992.4,5212,3015.4 4975,2969.4,5212,2992.4 4975,2946.4,5212,2969.4 \
-4975,2923.4,5212,2946.4 4975,2900.4,5212,2923.4 4975,2877.4,5212,2900.4 4975,2854.4,5212,2877.4 4975,2831.4,5212,2854.4 4975,2808.4,\
-5212,2831.4 4975,2785.4,5212,2808.4 4975,2762.4,5212,2785.4 4975,2739.4,5212,2762.4 4975,2716.4,5212,2739.4 4975,2693.4,5212,2716.4 \
-4975,2670.4,5212,2693.4 4975,2647.4,5212,2670.4 4975,2624.4,5212,2647.4 4975,2601.4,5212,2624.4",
+			pos="4410.5,2911",
+			rects="4292,3440,4529,3463 4292,3417,4529,3440 4292,3394,4529,3417 4292,3371,4529,3394 4292,3348,4529,3371 4292,3325,4529,3348 4292,3302,\
+4529,3325 4292,3279,4529,3302 4292,3256,4529,3279 4292,3233,4529,3256 4292,3210,4529,3233 4292,3187,4529,3210 4292,3164,4529,3187 \
+4292,3141,4529,3164 4292,3118,4529,3141 4292,3095,4529,3118 4292,3072,4529,3095 4292,3049,4529,3072 4292,3026,4529,3049 4292,3003,\
+4529,3026 4292,2980,4529,3003 4292,2957,4529,2980 4292,2934,4529,2957 4292,2911,4529,2934 4292,2888,4529,2911 4292,2865,4529,2888 \
+4292,2842,4529,2865 4292,2819,4529,2842 4292,2796,4529,2819 4292,2773,4529,2796 4292,2750,4529,2773 4292,2727,4529,2750 4292,2704,\
+4529,2727 4292,2681,4529,2704 4292,2658,4529,2681 4292,2635,4529,2658 4292,2612,4529,2635 4292,2589,4529,2612 4292,2566,4529,2589 \
+4292,2543,4529,2566 4292,2520,4529,2543 4292,2497,4529,2520 4292,2474,4529,2497 4292,2451,4529,2474 4292,2428,4529,2451 4292,2405,\
+4529,2428 4292,2382,4529,2405 4292,2359,4529,2382",
 			shape=record,
 			style=bold,
 			width=3.2917];
 		deutsch_fan_connector	[height=1.6111,
 			label="deutsch_fan_connector | <1> 1 | <2> 2 | <3> 3 | <4> 4 ",
-			pos="7604.5,3328.4",
-			rects="7515,3362.9,7694,3385.9 7515,3339.9,7694,3362.9 7515,3316.9,7694,3339.9 7515,3293.9,7694,3316.9 7515,3270.9,7694,3293.9",
+			pos="6921.5,3086",
+			rects="6832,3120.5,7011,3143.5 6832,3097.5,7011,3120.5 6832,3074.5,7011,3097.5 6832,3051.5,7011,3074.5 6832,3028.5,7011,3051.5",
 			shape=record,
 			style=bold,
 			width=2.4861];
 		deutsch_engine_bay_connector:4 -- deutsch_fan_connector:3	[color="black:red:black",
 			label="deutsch_engine_bay_connector:4<red>deutsch_fan_connector:3",
 			labeltooltip="deutsch_engine_bay_connector:4<red>deutsch_fan_connector:3",
-			lp="6558.5,3275.9",
+			lp="5875.5,3033.5",
 			penwidth=2.5,
-			pos="5212,3602.4 5252.7,3602.4 5229.9,3547.2 5266,3528.4 5292.8,3514.5 5785.6,3537.5 5809,3518.4 5895,3448.1 5776.8,3344.5 5863,3274.4 \
-5903.2,3241.7 6277.2,3268.8 6329,3268.4 6533,3267.1 6584,3267.9 6788,3268.4 6880.9,3268.6 6904.1,3268.5 6997,3269.4 7203.2,3271.5 \
-7261.4,3224.6 7461,3276.4 7487.4,3283.3 7487.8,3305.4 7515,3305.4"];
+			pos="4529,3360 4569.7,3360 4546.9,3304.8 4583,3286 4609.8,3272.1 5102.6,3295.1 5126,3276 5212,3205.7 5093.8,3102.1 5180,3032 5220.2,2999.3 \
+5594.2,3026.3 5646,3026 5850,3024.7 5901,3025.5 6105,3026 6197.9,3026.2 6221.1,3026.1 6314,3027 6520.2,3029 6578.4,2982.2 6778,3034 \
+6804.4,3040.8 6804.8,3063 6832,3063"];
 		deutsch_engine_bay_connector:1 -- deutsch_fan_connector:1	[color="black:red:black",
 			label="deutsch_engine_bay_connector:1<red>deutsch_fan_connector:1",
 			labeltooltip="deutsch_engine_bay_connector:1<red>deutsch_fan_connector:1",
-			lp="6558.5,3691.9",
+			lp="5875.5,3449.5",
 			penwidth=2.5,
-			pos="5212,3671.4 5501.5,3671.4 5573.5,3690.1 5863,3695.4 6046.1,3698.8 6093.9,3722.5 6275,3695.4 6557.8,3653.2 7229,3351.4 7515,3351.4"];
+			pos="4529,3429 4818.5,3429 4890.5,3447.7 5180,3453 5363.1,3456.4 5410.9,3480 5592,3453 5874.8,3410.8 6546,3109 6832,3109"];
 		map_sensor	[height=1.2917,
 			label="map_sensor | <Gnd> Gnd | <Sensor> Sensor | <5v> 5v ",
-			pos="6069,3639.4",
-			rects="6018.5,3662.4,6119.5,3685.4 6018.5,3639.4,6119.5,3662.4 6018.5,3616.4,6119.5,3639.4 6018.5,3593.4,6119.5,3616.4",
+			pos="5386,3397",
+			rects="5335.5,3420,5436.5,3443 5335.5,3397,5436.5,3420 5335.5,3374,5436.5,3397 5335.5,3351,5436.5,3374",
 			shape=record,
 			style=bold,
 			width=1.4028];
 		deutsch_engine_bay_connector:9 -- map_sensor:Gnd	[color="black:green:black",
 			label="deutsch_engine_bay_connector:9<green>map_sensor:Gnd",
 			labeltooltip="deutsch_engine_bay_connector:9<green>map_sensor:Gnd",
-			lp="5537.5,3551.9",
+			lp="4854.5,3309.5",
 			penwidth=2.5,
-			pos="5212,3487.4 5241.3,3487.4 5238.2,3516.1 5266,3525.4 5380.5,3563.9 5695,3504.6 5809,3544.4 5837.2,3554.3 5837.1,3569.5 5863,3584.4 \
-5927.6,3621.8 5942.4,3651.4 6017,3651.4"];
+			pos="4529,3245 4558.3,3245 4555.2,3273.7 4583,3283 4697.5,3321.4 5012,3262.2 5126,3302 5154.2,3311.9 5154.1,3327.1 5180,3342 5244.6,3379.3 \
+5259.4,3409 5334,3409"];
 		deutsch_engine_bay_connector:7 -- map_sensor:Sensor	[color="black:yellow:blue:yellow:black",
 			label="deutsch_engine_bay_connector:7<yellow:blue>map_sensor:Sensor",
 			labeltooltip="deutsch_engine_bay_connector:7<yellow:blue>map_sensor:Sensor",
-			lp="5537.5,3628.9",
+			lp="4854.5,3386.5",
 			penwidth=2.5,
-			pos="5212,3533.4 5250.6,3533.4 5231.5,3584 5266,3601.4 5284.6,3610.8 5996.1,3627.4 6017,3627.4"];
+			pos="4529,3291 4567.6,3291 4548.5,3341.6 4583,3359 4601.6,3368.4 5313.1,3385 5334,3385"];
 		deutsch_engine_bay_connector:2 -- map_sensor:"5v"	[color="black:red:blue:red:black",
 			label="deutsch_engine_bay_connector:2<red:blue>map_sensor:5v",
 			labeltooltip="deutsch_engine_bay_connector:2<red:blue>map_sensor:5v",
-			lp="5537.5,3659.9",
+			lp="4854.5,3417.5",
 			penwidth=2.5,
-			pos="5212,3648.4 5477.4,3648.4 5544.7,3663.5 5809,3639.4 5902.4,3630.9 5923.3,3604.4 6017,3604.4"];
+			pos="4529,3406 4794.4,3406 4861.7,3421.1 5126,3397 5219.4,3388.5 5240.3,3362 5334,3362"];
 		"LSU4.9"	[height=2.25,
 			label="LSU4.9 | <APE> APE | <IPE> IPE | <Heater> Heater | <Heater Power> Heater Power | <MES> MES | <RE> RE ",
-			pos="6069,3030.4",
-			rects="6011.5,3087.9,6126.5,3110.9 6011.5,3064.9,6126.5,3087.9 6011.5,3041.9,6126.5,3064.9 6011.5,3018.9,6126.5,3041.9 6011.5,2995.9,6126.5,\
-3018.9 6011.5,2972.9,6126.5,2995.9 6011.5,2949.9,6126.5,2972.9",
+			pos="5386,2788",
+			rects="5328.5,2845.5,5443.5,2868.5 5328.5,2822.5,5443.5,2845.5 5328.5,2799.5,5443.5,2822.5 5328.5,2776.5,5443.5,2799.5 5328.5,2753.5,5443.5,\
+2776.5 5328.5,2730.5,5443.5,2753.5 5328.5,2707.5,5443.5,2730.5",
 			shape=record,
 			style=bold,
 			width=1.5972];
 		deutsch_engine_bay_connector:10 -- "LSU4.9":"Heater Power"	[color="black:red:black",
 			label="deutsch_engine_bay_connector:10<red>LSU4.9:Heater Power",
 			labeltooltip="deutsch_engine_bay_connector:10<red>LSU4.9:Heater Power",
-			lp="5537.5,3263.9",
+			lp="4854.5,3020.5",
 			penwidth=2.5,
-			pos="5212,3464.4 5307.5,3464.4 5191.5,3316.2 5266,3256.4 5313.1,3218.6 5758.7,3269.8 5809,3236.4 5856.4,3205 5827.4,3164.8 5863,3120.4 \
-5914.5,3056.1 5927.6,3007.4 6010,3007.4"];
+			pos="4529,3222 4624.9,3222 4508.2,3073.1 4583,3013 4630,2975.2 5075.6,3026.3 5126,2993 5173.1,2961.9 5144.6,2922 5180,2878 5231.6,2813.8 \
+5244.6,2765 5327,2765"];
 		deutsch_engine_bay_connector:20 -- "LSU4.9":APE	[color="black:white:black",
 			label="deutsch_engine_bay_connector:20<white>LSU4.9:APE",
 			labeltooltip="deutsch_engine_bay_connector:20<white>LSU4.9:APE",
-			lp="5537.5,3224.9",
+			lp="4854.5,2981.5",
 			penwidth=2.5,
-			pos="5212,3234.4 5237.2,3234.4 5241.2,3221.7 5266,3217.4 5325.5,3207.1 5755.9,3225.1 5809,3196.4 5845.4,3176.7 5829.3,3144.6 5863,3120.4 \
-5918.4,3080.7 5941.8,3076.4 6010,3076.4"];
+			pos="4529,2992 4554.3,2992 4558.1,2978.5 4583,2974 4642.4,2963.2 5072.9,2982.7 5126,2954 5162.5,2934.3 5146.3,2902.1 5180,2878 5235.4,\
+2838.3 5258.8,2834 5327,2834"];
 		deutsch_engine_bay_connector:21 -- "LSU4.9":IPE	[color="black:white:blue:white:black",
 			label="deutsch_engine_bay_connector:21<white:blue>LSU4.9:IPE",
 			labeltooltip="deutsch_engine_bay_connector:21<white:blue>LSU4.9:IPE",
-			lp="5537.5,3184.9",
+			lp="4854.5,2942.5",
 			penwidth=2.5,
-			pos="5212,3211.4 5240.4,3211.4 5238.9,3185.8 5266,3177.4 5381.4,3141.8 5694.3,3195.3 5809,3157.4 5836.6,3148.3 5837.7,3134.7 5863,3120.4 \
-5925.5,3085.1 5938.2,3053.4 6010,3053.4"];
+			pos="4529,2969 4557.4,2969 4555.9,2943.4 4583,2935 4698.4,2899.4 5011.3,2952.8 5126,2915 5153.6,2905.9 5154.7,2892.3 5180,2878 5242.5,\
+2842.7 5255.2,2811 5327,2811"];
 		deutsch_engine_bay_connector:22 -- "LSU4.9":Heater	[color="black:blue:violet:blue:black",
 			label="deutsch_engine_bay_connector:22<blue:violet>LSU4.9:Heater",
 			labeltooltip="deutsch_engine_bay_connector:22<blue:violet>LSU4.9:Heater",
-			lp="5537.5,3145.9",
+			lp="4854.5,2903.5",
 			penwidth=2.5,
-			pos="5212,3188.4 5244.7,3188.4 5235.8,3151 5266,3138.4 5377.4,3091.8 5691.1,3139.6 5809,3113.4 5903.3,3092.4 5913.3,3030.4 6010,3030.4"];
+			pos="4529,2946 4561.7,2946 4552.8,2908.6 4583,2896 4694.4,2849.4 5008.1,2897.2 5126,2871 5220.3,2850 5230.3,2788 5327,2788"];
 		deutsch_engine_bay_connector:23 -- "LSU4.9":MES	[color="black:blue:black:blue:black",
 			label="deutsch_engine_bay_connector:23<blue:black>LSU4.9:MES",
 			labeltooltip="deutsch_engine_bay_connector:23<blue:black>LSU4.9:MES",
-			lp="5537.5,3101.9",
+			lp="4854.5,2859.5",
 			penwidth=2.5,
-			pos="5212,3165.4 5251.6,3165.4 5231,3113 5266,3094.4 5372.8,3037.8 5691,3090.4 5809,3064.4 5902.9,3043.7 5913.9,2984.4 6010,2984.4"];
+			pos="4529,2923 4568.6,2923 4548,2870.6 4583,2852 4689.8,2795.4 5008,2848 5126,2822 5219.9,2801.3 5230.9,2742 5327,2742"];
 		deutsch_engine_bay_connector:24 -- "LSU4.9":RE	[color="black:blue:white:blue:black",
 			label="deutsch_engine_bay_connector:24<blue:white>LSU4.9:RE",
 			labeltooltip="deutsch_engine_bay_connector:24<blue:white>LSU4.9:RE",
-			lp="5537.5,3052.9",
+			lp="4854.5,2810.5",
 			penwidth=2.5,
-			pos="5212,3141.4 5261,3141.4 5224.7,3071.7 5266,3045.4 5368.1,2980.4 5689.2,3021.7 5809,3004.4 5899.4,2991.4 5918.6,2961.4 6010,2961.4"];
+			pos="4529,2899 4578,2899 4541.7,2829.3 4583,2803 4685.1,2738 5006.2,2779.3 5126,2762 5216.4,2749 5235.6,2719 5327,2719"];
 		coolant_low_sensor	[height=0.97222,
 			label="coolant_low_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="6069,3540.4",
-			rects="5992,3551.9,6146,3574.9 5992,3528.9,6146,3551.9 5992,3505.9,6146,3528.9",
+			pos="5386,3298",
+			rects="5309,3309.5,5463,3332.5 5309,3286.5,5463,3309.5 5309,3263.5,5463,3286.5",
 			shape=record,
 			style=bold,
 			width=2.1389];
 		deutsch_engine_bay_connector:3 -- coolant_low_sensor:"Sig-"	[color="black:green:black",
 			label="deutsch_engine_bay_connector:3<green>coolant_low_sensor:Sig-",
 			labeltooltip="deutsch_engine_bay_connector:3<green>coolant_low_sensor:Sig-",
-			lp="5537.5,3593.9",
+			lp="4854.5,3351.5",
 			penwidth=2.5,
-			pos="5212,3625.4 5241.6,3625.4 5238,3596.1 5266,3586.4 5380.1,3546.8 5689.5,3580.9 5809,3563.4 5891.6,3551.4 5907.6,3517.4 5991,3517.4"];
+			pos="4529,3383 4558.6,3383 4555,3353.7 4583,3344 4697.1,3304.4 5006.5,3338.4 5126,3321 5208.6,3308.9 5224.6,3275 5308,3275"];
 		deutsch_engine_bay_connector:8 -- coolant_low_sensor:"Sig+"	[color="black:orange:black",
 			label="deutsch_engine_bay_connector:8<orange>coolant_low_sensor:Sig+",
 			labeltooltip="deutsch_engine_bay_connector:8<orange>coolant_low_sensor:Sig+",
-			lp="5537.5,3517.9",
+			lp="4854.5,3275.5",
 			penwidth=2.5,
-			pos="5212,3510.4 5477.3,3510.4 5544.6,3488.8 5809,3510.4 5890.7,3517.1 5909,3540.4 5991,3540.4"];
+			pos="4529,3268 4794.3,3268 4861.6,3246.4 5126,3268 5207.7,3274.7 5226,3298 5308,3298"];
 		vapor_purge_valve	[height=0.97222,
 			label="vapor_purge_valve | <Pos> Pos | <Gnd> Gnd ",
-			pos="6069,2845.4",
-			rects="5994,2856.9,6144,2879.9 5994,2833.9,6144,2856.9 5994,2810.9,6144,2833.9",
+			pos="5386,2603",
+			rects="5311,2614.5,5461,2637.5 5311,2591.5,5461,2614.5 5311,2568.5,5461,2591.5",
 			shape=record,
 			style=bold,
 			width=2.0833];
 		deutsch_engine_bay_connector:35 -- vapor_purge_valve:Gnd	[color="black:orange:red:orange:black",
 			label="deutsch_engine_bay_connector:35<orange:red>vapor_purge_valve:Gnd",
 			labeltooltip="deutsch_engine_bay_connector:35<orange:red>vapor_purge_valve:Gnd",
-			lp="5537.5,2894.9",
+			lp="4854.5,2652.5",
 			penwidth=2.5,
-			pos="5212,2888.4 5560.3,2888.4 5644.7,2822.4 5993,2822.4"];
+			pos="4529,2646 4877.3,2646 4961.7,2580 5310,2580"];
 		deutsch_engine_bay_connector:10 -- vapor_purge_valve:Pos	[color="black:red:black",
 			label="deutsch_engine_bay_connector:10<red>vapor_purge_valve:Pos",
 			labeltooltip="deutsch_engine_bay_connector:10<red>vapor_purge_valve:Pos",
-			lp="5537.5,2992.9",
+			lp="4854.5,2750.5",
 			penwidth=2.5,
-			pos="5212,3464.4 5319.1,3464.4 5191.5,3062.4 5266,2985.4 5350.8,2897.8 5690.3,2934.5 5809,2906.4 5892.8,2886.6 5906.8,2845.4 5993,2845.4"];
+			pos="4529,3222 4636.1,3222 4508.5,2820 4583,2743 4667.8,2655.4 5007.3,2692.1 5126,2664 5209.8,2644.2 5223.8,2603 5310,2603"];
 		transponder	[height=0.97222,
 			label="transponder | <pos> pos | <gnd> gnd ",
-			pos="7604.5,3499.4",
-			rects="7552.5,3510.9,7656.5,3533.9 7552.5,3487.9,7656.5,3510.9 7552.5,3464.9,7656.5,3487.9",
+			pos="6921.5,3257",
+			rects="6869.5,3268.5,6973.5,3291.5 6869.5,3245.5,6973.5,3268.5 6869.5,3222.5,6973.5,3245.5",
 			shape=record,
 			style=bold,
 			width=1.4444];
 		deutsch_engine_bay_connector:10 -- transponder:pos	[color="black:red:black",
 			label="deutsch_engine_bay_connector:10<red>transponder:pos",
 			labeltooltip="deutsch_engine_bay_connector:10<red>transponder:pos",
-			lp="6558.5,3496.9",
+			lp="5875.5,3254.5",
 			penwidth=2.5,
-			pos="5212,3464.4 5501.4,3464.4 5573.6,3472.6 5863,3477.4 6391,3486.2 6523,3486.7 7051,3493.4 7273.4,3496.2 7329,3499.4 7551.5,3499.4"];
+			pos="4529,3222 4818.4,3222 4890.6,3230.2 5180,3235 5708,3243.8 5840,3244.3 6368,3251 6590.4,3253.8 6646,3257 6868.5,3257"];
 		icm	[height=2.5694,
 			label="icm | <Transistor1ecu> Transistor1ecu | <Transistor2ecu> Transistor2ecu | <Transistor3ecu> Transistor3ecu | <Transistor3coil> Transistor3coil | <\
 Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil ",
-			pos="6069,3375.4",
-			rects="6007,3444.4,6131,3467.4 6007,3421.4,6131,3444.4 6007,3398.4,6131,3421.4 6007,3375.4,6131,3398.4 6007,3352.4,6131,3375.4 6007,3329.4,\
-6131,3352.4 6007,3306.4,6131,3329.4 6007,3283.4,6131,3306.4",
+			pos="5386,3133",
+			rects="5324,3202,5448,3225 5324,3179,5448,3202 5324,3156,5448,3179 5324,3133,5448,3156 5324,3110,5448,3133 5324,3087,5448,3110 5324,3064,\
+5448,3087 5324,3041,5448,3064",
 			shape=record,
 			style=bold,
 			width=1.7222];
 		deutsch_engine_bay_connector:13 -- icm:Transistor3ecu	[color="black:blue:red:blue:black",
 			label="deutsch_engine_bay_connector:13<blue:red>icm:Transistor3ecu",
 			labeltooltip="deutsch_engine_bay_connector:13<blue:red>icm:Transistor3ecu",
-			lp="5537.5,3384.9",
+			lp="4854.5,3142.5",
 			penwidth=2.5,
-			pos="5212,3395.4 5237.3,3395.4 5241,3381.5 5266,3377.4 5504.2,3338.8 5567.7,3371.3 5809,3377.4 5896.6,3379.6 5918.3,3387.4 6006,3387.4"];
+			pos="4529,3153 4554.3,3153 4558,3139.1 4583,3135 4821.2,3096.3 4884.7,3128.9 5126,3135 5213.6,3137.2 5235.3,3145 5323,3145"];
 		deutsch_engine_bay_connector:11 -- icm:Transistor1ecu	[color="black:blue:black",
 			label="deutsch_engine_bay_connector:11<blue>icm:Transistor1ecu",
 			labeltooltip="deutsch_engine_bay_connector:11<blue>icm:Transistor1ecu",
-			lp="5537.5,3447.9",
+			lp="4854.5,3205.5",
 			penwidth=2.5,
-			pos="5212,3441.4 5564.9,3441.4 5653.1,3433.4 6006,3433.4"];
+			pos="4529,3199 4881.9,3199 4970.1,3191 5323,3191"];
 		deutsch_engine_bay_connector:12 -- icm:Transistor2ecu	[color="black:blue:brown:blue:black",
 			label="deutsch_engine_bay_connector:12<blue:brown>icm:Transistor2ecu",
 			labeltooltip="deutsch_engine_bay_connector:12<blue:brown>icm:Transistor2ecu",
-			lp="5537.5,3421.9",
+			lp="4854.5,3179.5",
 			penwidth=2.5,
-			pos="5212,3418.4 5236.1,3418.4 5242,3415.4 5266,3414.4 5594.6,3401.4 5677.1,3410.4 6006,3410.4"];
+			pos="4529,3176 4553.1,3176 4559,3173 4583,3172 4911.6,3159 4994.1,3168 5323,3168"];
 		coil	[height=1.6111,
 			label="coil | <Coil3> Coil3 | <Coil2> Coil2 | <Coil1> Coil1 | <Ubatt> Ubatt ",
-			pos="6919.5,3401.4",
-			rects="6890.5,3435.9,6948.5,3458.9 6890.5,3412.9,6948.5,3435.9 6890.5,3389.9,6948.5,3412.9 6890.5,3366.9,6948.5,3389.9 6890.5,3343.9,6948.5,\
-3366.9",
+			pos="6236.5,3159",
+			rects="6207.5,3193.5,6265.5,3216.5 6207.5,3170.5,6265.5,3193.5 6207.5,3147.5,6265.5,3170.5 6207.5,3124.5,6265.5,3147.5 6207.5,3101.5,6265.5,\
+3124.5",
 			shape=record,
 			style=bold,
 			width=0.80556];
 		deutsch_engine_bay_connector:34 -- coil:Ubatt	[color="black:red:black",
 			label="deutsch_engine_bay_connector:34<red>coil:Ubatt",
 			labeltooltip="deutsch_engine_bay_connector:34<red>coil:Ubatt",
-			lp="6069,2932.9",
+			lp="5386,2690.5",
 			penwidth=2.5,
-			pos="5212,2911.4 5330.1,2911.4 6159,2903.1 6275,2925.4 6514.8,2971.5 6625.7,2939.9 6788,3122.4 6863.1,3206.8 6776.5,3355.4 6889.5,3355.4"];
+			pos="4529,2669 4647.1,2669 5476,2660.7 5592,2683 5831.8,2729.1 5942.7,2697.5 6105,2880 6180.1,2964.4 6093.5,3113 6206.5,3113"];
 		wiper	[height=1.6111,
 			label="wiper | <high> high | <low> low | <park> park | <gnd> gnd ",
-			pos="6069,3187.4",
-			rects="6040.5,3221.9,6097.5,3244.9 6040.5,3198.9,6097.5,3221.9 6040.5,3175.9,6097.5,3198.9 6040.5,3152.9,6097.5,3175.9 6040.5,3129.9,6097.5,\
-3152.9",
+			pos="5386,2945",
+			rects="5357.5,2979.5,5414.5,3002.5 5357.5,2956.5,5414.5,2979.5 5357.5,2933.5,5414.5,2956.5 5357.5,2910.5,5414.5,2933.5 5357.5,2887.5,5414.5,\
+2910.5",
 			shape=record,
 			style=bold,
 			width=0.79167];
 		deutsch_engine_bay_connector:15 -- wiper:park	[color="black:red:black",
 			label="deutsch_engine_bay_connector:15<red>wiper:park",
 			labeltooltip="deutsch_engine_bay_connector:15<red>wiper:park",
-			lp="5537.5,3308.9",
+			lp="4854.5,3064.5",
 			penwidth=2.5,
-			pos="5212,3349.4 5244.1,3349.4 5236.3,3313.5 5266,3301.4 5377.9,3255.8 5691.9,3305.2 5809,3275.4 5919,3247.5 5925.5,3164.4 6039,3164.4"];
+			pos="4529,3107 4561.7,3107 4552.8,3069.6 4583,3057 4694.4,3010.4 5008.8,3061.4 5126,3032 5235.9,3004.4 5242.7,2922 5356,2922"];
 		deutsch_engine_bay_connector:14 -- wiper:high	[color="black:red:black",
 			label="deutsch_engine_bay_connector:14<red>wiper:high",
 			labeltooltip="deutsch_engine_bay_connector:14<red>wiper:high",
-			lp="5537.5,3346.9",
+			lp="4854.5,3104.5",
 			penwidth=2.5,
-			pos="5212,3372.4 5240.1,3372.4 5239.1,3347.6 5266,3339.4 5381.5,3304.3 5699.1,3366.5 5809,3316.4 5840.8,3302 5833.1,3277.4 5863,3259.4 \
-5932.6,3217.5 5957.8,3210.4 6039,3210.4"];
+			pos="4529,3130 4557.1,3130 4556.1,3105.2 4583,3097 4698.5,3061.6 5015.7,3121.3 5126,3072 5157.3,3058 5150.5,3034.4 5180,3017 5249.9,2975.7 \
+5274.8,2968 5356,2968"];
 		spal_fan_1	[height=0.97222,
 			label="spal_fan_1 | <pos> pos | <gnd> gnd ",
-			pos="8191.5,3373.4",
-			rects="8146,3384.9,8237,3407.9 8146,3361.9,8237,3384.9 8146,3338.9,8237,3361.9",
+			pos="7508.5,3131",
+			rects="7463,3142.5,7554,3165.5 7463,3119.5,7554,3142.5 7463,3096.5,7554,3119.5",
 			shape=record,
 			style=bold,
 			width=1.2639];
 		deutsch_fan_connector:2 -- spal_fan_1:gnd	[color="black:black:black",
 			label="deutsch_fan_connector:2<black>spal_fan_1:gnd",
 			labeltooltip="deutsch_fan_connector:2<black>spal_fan_1:gnd",
-			lp="7920,3344.9",
+			lp="7237,3102.5",
 			penwidth=2.5,
-			pos="7694,3328.4 7870.9,3328.4 7916.5,3314.6 8092,3337.4 8116.5,3340.6 8121.3,3350.4 8146,3350.4"];
+			pos="7011,3086 7187.9,3086 7233.5,3072.2 7409,3095 7433.5,3098.2 7438.3,3108 7463,3108"];
 		deutsch_fan_connector:1 -- spal_fan_1:pos	[color="black:red:black",
 			label="deutsch_fan_connector:1<red>spal_fan_1:pos",
 			labeltooltip="deutsch_fan_connector:1<red>spal_fan_1:pos",
-			lp="7920,3378.9",
+			lp="7237,3136.5",
 			penwidth=2.5,
-			pos="7694,3351.4 7794.6,3351.4 8045.4,3373.4 8146,3373.4"];
+			pos="7011,3109 7111.6,3109 7362.4,3131 7463,3131"];
 		spal_fan_2	[height=0.97222,
 			label="spal_fan_2 | <pos> pos | <gnd> gnd ",
-			pos="8191.5,3284.4",
-			rects="8146,3295.9,8237,3318.9 8146,3272.9,8237,3295.9 8146,3249.9,8237,3272.9",
+			pos="7508.5,3042",
+			rects="7463,3053.5,7554,3076.5 7463,3030.5,7554,3053.5 7463,3007.5,7554,3030.5",
 			shape=record,
 			style=bold,
 			width=1.2639];
 		deutsch_fan_connector:4 -- spal_fan_2:gnd	[color="black:black:black",
 			label="deutsch_fan_connector:4<black>spal_fan_2:gnd",
 			labeltooltip="deutsch_fan_connector:4<black>spal_fan_2:gnd",
-			lp="7920,3268.9",
+			lp="7237,3026.5",
 			penwidth=2.5,
-			pos="7694,3282.4 7719.8,3282.4 7722.7,3266.2 7748,3261.4 7921.9,3228.8 7969.1,3261.4 8146,3261.4"];
+			pos="7011,3040 7036.8,3040 7039.7,3023.7 7065,3019 7238.9,2986.4 7286.1,3019 7463,3019"];
 		deutsch_fan_connector:3 -- spal_fan_2:pos	[color="black:red:black",
 			label="deutsch_fan_connector:3<red>spal_fan_2:pos",
 			labeltooltip="deutsch_fan_connector:3<red>spal_fan_2:pos",
-			lp="7920,3306.9",
+			lp="7237,3064.5",
 			penwidth=2.5,
-			pos="7694,3305.4 7718.1,3305.4 7723.9,3301.2 7748,3299.4 7924.5,3286.3 7969,3284.4 8146,3284.4"];
+			pos="7011,3063 7035.1,3063 7040.9,3058.8 7065,3057 7241.5,3043.9 7286,3042 7463,3042"];
 		icm:Transistor2coil -- coil:Coil2	[color="black:white:black",
 			label="icm:Transistor2coil<white>coil:Coil2",
 			labeltooltip="icm:Transistor2coil<white>coil:Coil2",
-			lp="6558.5,3393.9",
+			lp="5875.5,3151.5",
 			penwidth=2.5,
-			pos="6132,3317.4 6221.9,3317.4 6240,3350.9 6329,3363.4 6531.3,3391.9 6584.7,3366.4 6788,3386.4 6833.4,3390.9 6843.9,3401.4 6889.5,3401.4"];
+			pos="5449,3075 5538.9,3075 5557,3108.5 5646,3121 5848.3,3149.4 5901.7,3123.9 6105,3144 6150.4,3148.5 6160.9,3159 6206.5,3159"];
 		icm:Transistor1coil -- coil:Coil1	[color="black:white:black",
 			label="icm:Transistor1coil<white>coil:Coil1",
 			labeltooltip="icm:Transistor1coil<white>coil:Coil1",
-			lp="6558.5,3351.9",
+			lp="5875.5,3109.5",
 			penwidth=2.5,
-			pos="6132,3294.4 6220.6,3294.4 6240.9,3315.8 6329,3324.4 6532.2,3344.3 6587.2,3307.2 6788,3344.4 6834.8,3353.1 6841.9,3378.4 6889.5,3378.4"];
+			pos="5449,3052 5537.6,3052 5557.9,3073.4 5646,3082 5849.2,3101.8 5904.2,3064.8 6105,3102 6151.8,3110.7 6158.9,3136 6206.5,3136"];
 		icm:Transistor3coil -- coil:Coil3	[color="black:white:black",
 			label="icm:Transistor3coil<white>coil:Coil3",
 			labeltooltip="icm:Transistor3coil<white>coil:Coil3",
-			lp="6558.5,3431.9",
+			lp="5875.5,3189.5",
 			penwidth=2.5,
-			pos="6132,3363.4 6221.2,3363.4 6240.4,3391.1 6329,3401.4 6576.7,3430.2 6640.2,3424.4 6889.5,3424.4"];
+			pos="5449,3121 5538.2,3121 5557.4,3148.7 5646,3159 5893.7,3187.8 5957.2,3182 6206.5,3182"];
 		engine_bay_ground	[height=0.65278,
 			label="engine_bay_ground | <Gnd> Gnd ",
-			pos="6919.5,3301.4",
-			rects="6842,3301.4,6997,3324.4 6842,3278.4,6997,3301.4",
+			pos="6236.5,3059",
+			rects="6159,3059,6314,3082 6159,3036,6314,3059",
 			shape=record,
 			style=bold,
 			width=2.1528];
 		icm:Gnd -- engine_bay_ground:Gnd	[color="black:black:black",
 			label="icm:Gnd<black>engine_bay_ground:Gnd",
 			labeltooltip="icm:Gnd<black>engine_bay_ground:Gnd",
-			lp="6558.5,3312.9",
+			lp="5875.5,3070.5",
 			penwidth=2.5,
-			pos="6132,3340.4 6220.9,3340.4 6240.5,3314.6 6329,3305.4 6555.9,3281.8 6613.9,3289.4 6842,3289.4"];
+			pos="5449,3098 5537.9,3098 5557.5,3072.2 5646,3063 5872.9,3039.4 5930.9,3047 6159,3047"];
 		wiper:gnd -- engine_bay_ground:Gnd	[color="black:black:black",
 			label="wiper:gnd<black>engine_bay_ground:Gnd",
 			labeltooltip="wiper:gnd<black>engine_bay_ground:Gnd",
-			lp="6558.5,3230.9",
+			lp="5875.5,2988.5",
 			penwidth=2.5,
-			pos="6099,3141.4 6407.4,3141.4 6517.6,3075.1 6788,3223.4 6821.2,3241.6 6804.1,3289.4 6842,3289.4"];
+			pos="5416,2899 5724.4,2899 5834.6,2832.7 6105,2981 6138.2,2999.2 6121.1,3047 6159,3047"];
 		engine_bay_ground:Gnd -- deutsch_fan_connector:2	[color="black:black:black",
 			label="engine_bay_ground:Gnd<black>deutsch_fan_connector:2",
 			labeltooltip="engine_bay_ground:Gnd<black>deutsch_fan_connector:2",
-			lp="7256,3336.9",
+			lp="6573,3094.5",
 			penwidth=2.5,
-			pos="6997,3289.4 7021.9,3289.4 7026.4,3300.4 7051,3304.4 7254.8,3337.6 7308.5,3328.4 7515,3328.4"];
+			pos="6314,3047 6338.9,3047 6343.4,3058 6368,3062 6571.8,3095.2 6625.5,3086 6832,3086"];
 		engine_bay_ground:Gnd -- deutsch_fan_connector:4	[color="black:black:black",
 			label="engine_bay_ground:Gnd<black>deutsch_fan_connector:4",
 			labeltooltip="engine_bay_ground:Gnd<black>deutsch_fan_connector:4",
-			lp="7256,3292.9",
+			lp="6573,3050.5",
 			penwidth=2.5,
-			pos="6997,3289.4 7021.1,3289.4 7027,3286.4 7051,3285.4 7257.1,3277.1 7308.8,3282.4 7515,3282.4"];
+			pos="6314,3047 6338.1,3047 6344,3044 6368,3043 6574.1,3034.7 6625.8,3040 6832,3040"];
 		engine_bay_ground:Gnd -- transponder:gnd	[color="black:black:black",
 			label="engine_bay_ground:Gnd<black>transponder:gnd",
 			labeltooltip="engine_bay_ground:Gnd<black>transponder:gnd",
-			lp="7256,3481.9",
+			lp="6573,3239.5",
 			penwidth=2.5,
-			pos="6997,3289.4 7032.5,3289.4 7020.5,3330.1 7051,3348.4 7247.9,3466.5 7321.9,3476.4 7551.5,3476.4"];
+			pos="6314,3047 6349.5,3047 6337.5,3087.7 6368,3106 6564.9,3224 6638.9,3234 6868.5,3234"];
+	}
+	subgraph cluster_Console {
+		graph [bb="483,482,2514,1220",
+			color=grey,
+			label=Console,
+			lheight=0.21,
+			lp="1498.5,1208.5",
+			lwidth=0.79,
+			style=filled
+		];
+		deutsch_console_connector	[height=4.1667,
+			label="deutsch_console_connector | <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 10 | <11> 11 | <12> 12 ",
+			pos="1468.5,1039",
+			rects="1363.5,1165.5,1573.5,1188.5 1363.5,1142.5,1573.5,1165.5 1363.5,1119.5,1573.5,1142.5 1363.5,1096.5,1573.5,1119.5 1363.5,1073.5,1573.5,\
+1096.5 1363.5,1050.5,1573.5,1073.5 1363.5,1027.5,1573.5,1050.5 1363.5,1004.5,1573.5,1027.5 1363.5,981.5,1573.5,1004.5 1363.5,958.5,\
+1573.5,981.5 1363.5,935.5,1573.5,958.5 1363.5,912.5,1573.5,935.5 1363.5,889.5,1573.5,912.5",
+			shape=record,
+			style=bold,
+			width=2.9167];
+		link_keypad	[height=1.6111,
+			label="link_keypad | <+12V> +12V | <Ground> Ground | <CAN Low> CAN Low | <CAN High> CAN High ",
+			pos="2425,1131",
+			rects="2374.5,1165.5,2475.5,1188.5 2374.5,1142.5,2475.5,1165.5 2374.5,1119.5,2475.5,1142.5 2374.5,1096.5,2475.5,1119.5 2374.5,1073.5,2475.5,\
+1096.5",
+			shape=record,
+			style=bold,
+			width=1.4028];
+		deutsch_console_connector:2 -- link_keypad:Ground	[color="black:black:black",
+			label="deutsch_console_connector:2<black>link_keypad:Ground",
+			labeltooltip="deutsch_console_connector:2<black>link_keypad:Ground",
+			lp="1898,1138.5",
+			penwidth=2.5,
+			pos="1574.5,1131 1929.4,1131 2018.1,1131 2373,1131"];
+		link_keypad:"CAN Low" -- deutsch_console_connector:5	[color="black:grey:white:grey:black",
+			label="link_keypad:CAN Low<grey:white>deutsch_console_connector:5",
+			labeltooltip="link_keypad:CAN Low<grey:white>deutsch_console_connector:5",
+			lp="1898,1068.5",
+			penwidth=2.5,
+			pos="2373,1108 2263.9,1108 2240.6,1071.5 2132,1061 1885.4,1037.2 1822.3,1062 1574.5,1062"];
+		link_keypad:"+12V" -- deutsch_console_connector:1	[color="black:red:black",
+			label="link_keypad:+12V<red>deutsch_console_connector:1",
+			labeltooltip="link_keypad:+12V<red>deutsch_console_connector:1",
+			lp="1898,1161.5",
+			penwidth=2.5,
+			pos="2373,1154 2018.1,1154 1929.4,1154 1574.5,1154"];
+		link_keypad:"CAN High" -- deutsch_console_connector:4	[color="black:grey:violet:grey:black",
+			label="link_keypad:CAN High<grey:violet>deutsch_console_connector:4",
+			labeltooltip="link_keypad:CAN High<grey:violet>deutsch_console_connector:4",
+			lp="1898,1092.5",
+			penwidth=2.5,
+			pos="2373,1085 2018.1,1085 1929.4,1085 1574.5,1085"];
+		deutsch_gauge_connector	[height=4.1667,
+			label="deutsch_gauge_connector | <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 10 | <11> 11 | <12> 12 ",
+			pos="1468.5,721",
+			rects="1368.5,847.5,1568.5,870.5 1368.5,824.5,1568.5,847.5 1368.5,801.5,1568.5,824.5 1368.5,778.5,1568.5,801.5 1368.5,755.5,1568.5,778.5 \
+1368.5,732.5,1568.5,755.5 1368.5,709.5,1568.5,732.5 1368.5,686.5,1568.5,709.5 1368.5,663.5,1568.5,686.5 1368.5,640.5,1568.5,663.5 \
+1368.5,617.5,1568.5,640.5 1368.5,594.5,1568.5,617.5 1368.5,571.5,1568.5,594.5",
+			shape=record,
+			style=bold,
+			width=2.7778];
+		coolant_temp_gauge	[height=2.25,
+			label="coolant_temp_gauge | <Ground> Ground | <12v> 12v | <RS232> RS232 | <5vOut> 5vOut | <Sig+> Sig+ | <Sig-> Sig- ",
+			pos="2425,974",
+			rects="2344,1031.5,2506,1054.5 2344,1008.5,2506,1031.5 2344,985.5,2506,1008.5 2344,962.5,2506,985.5 2344,939.5,2506,962.5 2344,916.5,2506,\
+939.5 2344,893.5,2506,916.5",
+			shape=record,
+			style=bold,
+			width=2.25];
+		deutsch_gauge_connector:3 -- coolant_temp_gauge:"5vOut"	[color="black:yellow:black",
+			label="deutsch_gauge_connector:3<yellow>coolant_temp_gauge:5vOut",
+			labeltooltip="deutsch_gauge_connector:3<yellow>coolant_temp_gauge:5vOut",
+			lp="1898,951.5",
+			penwidth=2.5,
+			pos="1569.5,790 1642.4,790 1600,889.18 1664,924 1680.6,933.02 2324.1,951 2343,951"];
+		coolant_temp_gauge:"Sig-" -- deutsch_gauge_connector:5	[color="black:black:black",
+			label="coolant_temp_gauge:Sig-<black>deutsch_gauge_connector:5",
+			labeltooltip="coolant_temp_gauge:Sig-<black>deutsch_gauge_connector:5",
+			lp="1898,878.5",
+			penwidth=2.5,
+			pos="2343,905 2248,905 2226.2,883.11 2132,871 1924.7,844.37 1856,908.39 1664,826 1612.9,804.08 1625.1,744 1569.5,744"];
+		coolant_temp_gauge:"12v" -- deutsch_gauge_connector:1	[color="black:red:black",
+			label="coolant_temp_gauge:12v<red>deutsch_gauge_connector:1",
+			labeltooltip="coolant_temp_gauge:12v<red>deutsch_gauge_connector:1",
+			lp="1898,1024.5",
+			penwidth=2.5,
+			pos="2343,997 2267.6,997 1727.4,1041 1664,1000 1614.9,968.24 1642.2,928.81 1610,880 1595.4,857.82 1596.1,836 1569.5,836"];
+		coolant_temp_gauge:Ground -- deutsch_gauge_connector:2	[color="black:black:black",
+			label="coolant_temp_gauge:Ground<black>deutsch_gauge_connector:2",
+			labeltooltip="coolant_temp_gauge:Ground<black>deutsch_gauge_connector:2",
+			lp="1898,988.5",
+			penwidth=2.5,
+			pos="2343,1020 2247.6,1020 2226.8,991.63 2132,981 2080.3,975.2 1709.1,988 1664,962 1596.1,922.83 1647.9,813 1569.5,813"];
+		coolant_temp_gauge:"Sig+" -- deutsch_gauge_connector:4	[color="black:green:black",
+			label="coolant_temp_gauge:Sig+<green>deutsch_gauge_connector:4",
+			labeltooltip="coolant_temp_gauge:Sig+<green>deutsch_gauge_connector:4",
+			lp="1898,912.5",
+			penwidth=2.5,
+			pos="2343,928 2248.7,928 2226.1,912.03 2132,905 2080.1,901.12 1710.4,909.57 1664,886 1603.8,855.41 1637,767 1569.5,767"];
+		ign_switch	[height=0.97222,
+			label="ign_switch | <1> 1 | <2> 2 ",
+			pos="592.5,1154",
+			rects="546.5,1165.5,638.5,1188.5 546.5,1142.5,638.5,1165.5 546.5,1119.5,638.5,1142.5",
+			shape=record,
+			style=bold,
+			width=1.2778];
+		starter_button	[height=0.97222,
+			label="starter_button | <1> 1 | <2> 2 ",
+			pos="592.5,525",
+			rects="532.5,536.5,652.5,559.5 532.5,513.5,652.5,536.5 532.5,490.5,652.5,513.5",
+			shape=record,
+			style=bold,
+			width=1.6667];
+		traqmate	[height=1.2917,
+			label="traqmate | <pos> pos | <gnd> gnd | <rpm> rpm ",
+			pos="592.5,1054",
+			rects="551,1077,634,1100 551,1054,634,1077 551,1031,634,1054 551,1008,634,1031",
+			shape=record,
+			style=bold,
+			width=1.1528];
+		traqmate:gnd -- deutsch_console_connector:2	[color="black:black:black",
+			label="traqmate:gnd<black>deutsch_console_connector:2",
+			labeltooltip="traqmate:gnd<black>deutsch_console_connector:2",
+			lp="1010.5,1112.5",
+			penwidth=2.5,
+			pos="635.5,1042 920.21,1042 993.44,1051.1 1273,1105 1313.7,1112.8 1321.1,1131 1362.5,1131"];
+		traqmate:pos -- deutsch_console_connector:1	[color="black:red:black",
+			label="traqmate:pos<red>deutsch_console_connector:1",
+			labeltooltip="traqmate:pos<red>deutsch_console_connector:1",
+			lp="1010.5,1160.5",
+			penwidth=2.5,
+			pos="635.5,1066 690.96,1066 694.28,1106.2 748,1120 880.47,1154 1225.7,1154 1362.5,1154"];
+		traqmate:rpm -- deutsch_console_connector:6	[color="black:orange:black:orange:black",
+			label="traqmate:rpm<orange:black>deutsch_console_connector:6",
+			labeltooltip="traqmate:rpm<orange:black>deutsch_console_connector:6",
+			lp="1010.5,1030.5",
+			penwidth=2.5,
+			pos="635.5,1019 918.84,1019 990.85,997.09 1273,1023 1313.2,1026.7 1322.1,1039 1362.5,1039"];
+		transmission_temp_gauge	[height=2.25,
+			label="transmission_temp_gauge | <Ground> Ground | <12v> 12v | <RS232> RS232 | <5vOut> 5vOut | <Sig+> Sig+ | <Sig-> Sig- ",
+			pos="592.5,908",
+			rects="491,965.5,694,988.5 491,942.5,694,965.5 491,919.5,694,942.5 491,896.5,694,919.5 491,873.5,694,896.5 491,850.5,694,873.5 491,827.5,\
+694,850.5",
+			shape=record,
+			style=bold,
+			width=2.8194];
+		transmission_temp_gauge:"Sig-" -- deutsch_gauge_connector:8	[color="black:black:black",
+			label="transmission_temp_gauge:Sig-<black>deutsch_gauge_connector:8",
+			labeltooltip="transmission_temp_gauge:Sig-<black>deutsch_gauge_connector:8",
+			lp="1010.5,776.5",
+			penwidth=2.5,
+			pos="694,839 733.29,839 713.13,787.1 748,769 851.65,715.2 1163.1,785.39 1273,746 1322.5,728.28 1315,675 1367.5,675"];
+		transmission_temp_gauge:"12v" -- deutsch_gauge_connector:1	[color="black:red:black",
+			label="transmission_temp_gauge:12v<red>deutsch_gauge_connector:1",
+			labeltooltip="transmission_temp_gauge:12v<red>deutsch_gauge_connector:1",
+			lp="1010.5,957.5",
+			penwidth=2.5,
+			pos="694,931 951.61,931 1029.7,988.74 1273,904 1321.9,886.98 1315.8,836 1367.5,836"];
+		transmission_temp_gauge:Ground -- deutsch_gauge_connector:2	[color="black:black:black",
+			label="transmission_temp_gauge:Ground<black>deutsch_gauge_connector:2",
+			labeltooltip="transmission_temp_gauge:Ground<black>deutsch_gauge_connector:2",
+			lp="1010.5,848.5",
+			penwidth=2.5,
+			pos="694,954 749.66,954 701.46,871.53 748,841 772.4,824.99 1243.9,823.91 1273,822 1315.1,819.24 1325.3,813 1367.5,813"];
+		transmission_temp_gauge:"Sig+" -- deutsch_gauge_connector:7	[color="black:green:black",
+			label="transmission_temp_gauge:Sig+<green>deutsch_gauge_connector:7",
+			labeltooltip="transmission_temp_gauge:Sig+<green>deutsch_gauge_connector:7",
+			lp="1010.5,810.5",
+			penwidth=2.5,
+			pos="694,862 729.55,862 715.73,817.91 748,803 853.97,754.03 1164.9,828.09 1273,784 1325.6,762.55 1310.7,698 1367.5,698"];
+		fuel_pressure_gauge	[height=3.2083,
+			label="fuel_pressure_gauge | <Ground> Ground | <12v> 12v | <CANL> CANL | <CANH> CANH | <sensor_5v> sensor_5v | <sensor_input> sensor_input | <\
+sensor_ground> sensor_ground | <5vOut+> 5vOut+ | <5vOut-> 5vOut- ",
+			pos="592.5,693",
+			rects="510.5,785,674.5,808 510.5,762,674.5,785 510.5,739,674.5,762 510.5,716,674.5,739 510.5,693,674.5,716 510.5,670,674.5,693 510.5,647,\
+674.5,670 510.5,624,674.5,647 510.5,601,674.5,624 510.5,578,674.5,601",
+			shape=record,
+			style=bold,
+			width=2.2778];
+		fuel_pressure_gauge:sensor_input -- deutsch_gauge_connector:10	[color="black:green:black",
+			label="fuel_pressure_gauge:sensor_input<green>deutsch_gauge_connector:10",
+			labeltooltip="fuel_pressure_gauge:sensor_input<green>deutsch_gauge_connector:10",
+			lp="1010.5,651.5",
+			penwidth=2.5,
+			pos="675.5,658 708.32,658 715.37,647.52 748,644 1021.8,614.45 1092.1,629 1367.5,629"];
+		fuel_pressure_gauge:"12v" -- deutsch_gauge_connector:1	[color="black:red:black",
+			label="fuel_pressure_gauge:12v<red>deutsch_gauge_connector:1",
+			labeltooltip="fuel_pressure_gauge:12v<red>deutsch_gauge_connector:1",
+			lp="1010.5,895.5",
+			penwidth=2.5,
+			pos="675.5,751 733.68,751 696.72,832.52 748,860 850.83,915.1 1157.2,874.47 1273,860 1316,854.63 1324.2,836 1367.5,836"];
+		fuel_pressure_gauge:Ground -- deutsch_gauge_connector:2	[color="black:black:black",
+			label="fuel_pressure_gauge:Ground<black>deutsch_gauge_connector:2",
+			labeltooltip="fuel_pressure_gauge:Ground<black>deutsch_gauge_connector:2",
+			lp="1010.5,738.5",
+			penwidth=2.5,
+			pos="675.5,774 712.96,774 711.87,740.91 748,731 860.51,700.14 1163.7,690.19 1273,731 1325.1,750.45 1311.9,813 1367.5,813"];
+		fuel_pressure_gauge:sensor_5v -- deutsch_gauge_connector:9	[color="black:red:black",
+			label="fuel_pressure_gauge:sensor_5v<red>deutsch_gauge_connector:9",
+			labeltooltip="fuel_pressure_gauge:sensor_5v<red>deutsch_gauge_connector:9",
+			lp="1010.5,687.5",
+			penwidth=2.5,
+			pos="675.5,681 941.24,681 1007.7,673.71 1273,659 1315.1,656.67 1325.4,652 1367.5,652"];
+		fuel_pressure_gauge:sensor_ground -- deutsch_gauge_connector:11	[color="black:black:black",
+			label="fuel_pressure_gauge:sensor_ground<black>deutsch_gauge_connector:11",
+			labeltooltip="fuel_pressure_gauge:sensor_ground<black>deutsch_gauge_connector:11",
+			lp="1010.5,613.5",
+			penwidth=2.5,
+			pos="675.5,635 710.2,635 713.92,612.56 748,606 1018.4,553.93 1092.2,606 1367.5,606"];
 	}
 	subgraph cluster_Engine {
-		graph [bb="4983,250.42,6988.5,2332.4",
+		graph [bb="4300,8,6305.5,2090",
 			color=grey,
 			label=Engine,
 			lheight=0.21,
-			lp="5985.8,2320.9",
+			lp="5302.8,2078.5",
 			lwidth=0.71,
 			style=filled
 		];
@@ -347,703 +554,485 @@ Gnd> Gnd | <Transistor2coil> Transistor2coil | <Transistor1coil> Transistor1coil
 13> 13 | <14> 14 | <15> 15 | <16> 16 | <17> 17 | <18> 18 | <19> 19 | <20> 20 | <21> 21 | <22> 22 | <23> 23 | <24> 24 | <25> 25 | <\
 26> 26 | <27> 27 | <28> 28 | <29> 29 | <30> 30 | <31> 31 | <32> 32 | <33> 33 | <34> 34 | <35> 35 | <36> 36 | <37> 37 | <38> 38 | <\
 39> 39 | <40> 40 | <41> 41 | <42> 42 | <43> 43 | <44> 44 | <45> 45 | <46> 46 | <47> 47 ",
-			pos="5093.5,1244.4",
-			rects="4991,1773.4,5196,1796.4 4991,1750.4,5196,1773.4 4991,1727.4,5196,1750.4 4991,1704.4,5196,1727.4 4991,1681.4,5196,1704.4 4991,1658.4,\
-5196,1681.4 4991,1635.4,5196,1658.4 4991,1612.4,5196,1635.4 4991,1589.4,5196,1612.4 4991,1566.4,5196,1589.4 4991,1543.4,5196,1566.4 \
-4991,1520.4,5196,1543.4 4991,1497.4,5196,1520.4 4991,1474.4,5196,1497.4 4991,1451.4,5196,1474.4 4991,1428.4,5196,1451.4 4991,1405.4,\
-5196,1428.4 4991,1382.4,5196,1405.4 4991,1359.4,5196,1382.4 4991,1336.4,5196,1359.4 4991,1313.4,5196,1336.4 4991,1290.4,5196,1313.4 \
-4991,1267.4,5196,1290.4 4991,1244.4,5196,1267.4 4991,1221.4,5196,1244.4 4991,1198.4,5196,1221.4 4991,1175.4,5196,1198.4 4991,1152.4,\
-5196,1175.4 4991,1129.4,5196,1152.4 4991,1106.4,5196,1129.4 4991,1083.4,5196,1106.4 4991,1060.4,5196,1083.4 4991,1037.4,5196,1060.4 \
-4991,1014.4,5196,1037.4 4991,991.42,5196,1014.4 4991,968.42,5196,991.42 4991,945.42,5196,968.42 4991,922.42,5196,945.42 4991,899.42,\
-5196,922.42 4991,876.42,5196,899.42 4991,853.42,5196,876.42 4991,830.42,5196,853.42 4991,807.42,5196,830.42 4991,784.42,5196,807.42 \
-4991,761.42,5196,784.42 4991,738.42,5196,761.42 4991,715.42,5196,738.42 4991,692.42,5196,715.42",
+			pos="4410.5,1030",
+			rects="4308,1559,4513,1582 4308,1536,4513,1559 4308,1513,4513,1536 4308,1490,4513,1513 4308,1467,4513,1490 4308,1444,4513,1467 4308,1421,\
+4513,1444 4308,1398,4513,1421 4308,1375,4513,1398 4308,1352,4513,1375 4308,1329,4513,1352 4308,1306,4513,1329 4308,1283,4513,1306 \
+4308,1260,4513,1283 4308,1237,4513,1260 4308,1214,4513,1237 4308,1191,4513,1214 4308,1168,4513,1191 4308,1145,4513,1168 4308,1122,\
+4513,1145 4308,1099,4513,1122 4308,1076,4513,1099 4308,1053,4513,1076 4308,1030,4513,1053 4308,1007,4513,1030 4308,984,4513,1007 \
+4308,961,4513,984 4308,938,4513,961 4308,915,4513,938 4308,892,4513,915 4308,869,4513,892 4308,846,4513,869 4308,823,4513,846 4308,\
+800,4513,823 4308,777,4513,800 4308,754,4513,777 4308,731,4513,754 4308,708,4513,731 4308,685,4513,708 4308,662,4513,685 4308,639,\
+4513,662 4308,616,4513,639 4308,593,4513,616 4308,570,4513,593 4308,547,4513,570 4308,524,4513,547 4308,501,4513,524 4308,478,4513,\
+501",
 			shape=record,
 			style=bold,
 			width=2.8472];
 		engine_ground	[height=0.65278,
 			label="engine_ground | <Gnd> Gnd ",
-			pos="6919.5,2144.4",
-			rects="6858.5,2144.4,6980.5,2167.4 6858.5,2121.4,6980.5,2144.4",
+			pos="6236.5,1902",
+			rects="6175.5,1902,6297.5,1925 6175.5,1879,6297.5,1902",
 			shape=record,
 			style=bold,
 			width=1.6944];
 		deutsch_engine_connector:40 -- engine_ground:Gnd	[color="black:black:black",
 			label="deutsch_engine_connector:40<black>engine_ground:Gnd",
 			labeltooltip="deutsch_engine_connector:40<black>engine_ground:Gnd",
-			lp="6069,607.92",
+			lp="5386,364.5",
 			penwidth=2.5,
-			pos="5197.5,864.42 5299.1,864.42 5185.8,708.68 5266,646.42 5330.7,596.22 6541.3,586.84 6557.5,600.42"];
+			pos="4514.5,650 4628,650 4494.5,475.04 4583,404 4646.6,352.92 5857,343.4 5874.5,358"];
 		deutsch_engine_connector:41 -- engine_ground:Gnd	[color="black:black:black",
 			label="deutsch_engine_connector:41<black>engine_ground:Gnd",
 			labeltooltip="deutsch_engine_connector:41<black>engine_ground:Gnd",
-			lp="6069,550.92",
+			lp="5386,308.5",
 			penwidth=2.5,
-			pos="5197.5,841.42 5309.7,841.42 5177.9,667.86 5266,598.42 5378.7,509.61 6447.4,508.35 6557.5,600.42"];
+			pos="4514.5,627 4639.2,627 4486.2,433.51 4583,355 4694.5,264.62 5764.5,265.9 5874.5,358"];
 		deutsch_engine_connector:42 -- engine_ground:Gnd	[color="black:black:black",
 			label="deutsch_engine_connector:42<black>engine_ground:Gnd",
 			labeltooltip="deutsch_engine_connector:42<black>engine_ground:Gnd",
-			lp="6069,519.92",
+			lp="5386,276.5",
 			penwidth=2.5,
-			pos="6559.5,600.42 7090.8,1046.2 6164.1,2132.2 6857.2,2132.4;5197.5,818.42 5329.9,818.42 5163.3,611.98 5266,528.42 5309.5,493.04 6219.6,\
-503.98 6275,512.42 6405,532.2 6456.8,515.89 6557.5,600.42"];
+			pos="5876.5,358 6407.7,803.94 5481.1,1889.7 6174.2,1890;4514.5,604 4659.5,604 4471.4,377.64 4583,285 4626.1,249.18 5536.6,260.48 5592,\
+269 5722.1,289.01 5773.7,273.36 5874.5,358"];
 		deutsch_engine_connector:39 -- engine_ground:Gnd	[color="black:black:black",
 			label="deutsch_engine_connector:39<black>engine_ground:Gnd",
 			labeltooltip="deutsch_engine_connector:39<black>engine_ground:Gnd",
-			lp="6069,638.92",
+			lp="5386,395.5",
 			penwidth=2.5,
-			pos="5197.5,887.42 5296.5,887.42 5187.6,735.88 5266,675.42 5310.5,641.14 6219,622.86 6275,619.42 6400.6,611.71 6460.8,519.88 6557.5,600.42"];
+			pos="4514.5,673 4625.9,673 4496,501.55 4583,432 4626.8,396.93 5536,379.34 5592,376 5717.6,368.51 5777.9,277.43 5874.5,358"];
 		tps	[height=1.2917,
 			label="tps | <5v> 5v | <Sensor> Sensor | <Gnd> Gnd ",
-			pos="6069,2254.4",
-			rects="6036,2277.4,6102,2300.4 6036,2254.4,6102,2277.4 6036,2231.4,6102,2254.4 6036,2208.4,6102,2231.4",
+			pos="5386,2012",
+			rects="5353,2035,5419,2058 5353,2012,5419,2035 5353,1989,5419,2012 5353,1966,5419,1989",
 			shape=record,
 			style=bold,
 			width=0.91667];
 		deutsch_engine_connector:3 -- tps:Gnd	[color="black:green:black",
 			label="deutsch_engine_connector:3<green>tps:Gnd",
 			labeltooltip="deutsch_engine_connector:3<green>tps:Gnd",
-			lp="5537.5,2221.9",
+			lp="4854.5,1978.5",
 			penwidth=2.5,
-			pos="5197.5,1716.4 5301.5,1716.4 5189,2109.4 5266,2179.4 5297.7,2208.2 5992.2,2219.4 6035,2219.4"];
+			pos="4514.5,1502 4611.7,1502 4510.9,1868.8 4583,1934 4614.8,1962.7 5309.2,1977 5352,1977"];
 		deutsch_engine_connector:20 -- tps:Sensor	[color="black:yellow:black:yellow:black",
 			label="deutsch_engine_connector:20<yellow:black>tps:Sensor",
 			labeltooltip="deutsch_engine_connector:20<yellow:black>tps:Sensor",
-			lp="5537.5,2027.9",
+			lp="4854.5,1791.5",
 			penwidth=2.5,
-			pos="5197.5,1325.4 5348.5,1325.4 5155.8,1898.2 5266,2001.4 5310.1,2042.7 5761.2,1983.6 5809,2020.4 5874.8,2071.1 5802.8,2142.1 5863,2199.4 \
-5920,2253.8 5956.2,2242.4 6035,2242.4"];
+			pos="4514.5,1111 4660.6,1111 4476.1,1665.3 4583,1765 4627.1,1806.2 5078,1747.4 5126,1784 5190,1832.8 5121.4,1901.7 5180,1957 5237.3,2011.1 \
+5273.2,2000 5352,2000"];
 		deutsch_engine_connector:2 -- tps:"5v"	[color="black:red:blue:red:black",
 			label="deutsch_engine_connector:2<red:blue>tps:5v",
 			labeltooltip="deutsch_engine_connector:2<red:blue>tps:5v",
-			lp="5537.5,2350.9",
+			lp="4854.5,2108.5",
 			penwidth=2.5,
-			pos="5197.5,1739.4 5307.9,1739.4 5184.4,2157.1 5266,2231.4 5518.9,2461.9 5692.9,2266.4 6035,2266.4"];
+			pos="4514.5,1525 4618.9,1525 4505.5,1920 4583,1990 4836.9,2219.3 5009.9,2024 5352,2024"];
 		cam_sensor	[height=1.2917,
 			label="cam_sensor | <5v> 5v | <Sensor> Sensor | <Gnd> Gnd ",
-			pos="6069,304.42",
-			rects="6019,327.42,6119,350.42 6019,304.42,6119,327.42 6019,281.42,6119,304.42 6019,258.42,6119,281.42",
+			pos="5386,62",
+			rects="5336,85,5436,108 5336,62,5436,85 5336,39,5436,62 5336,16,5436,39",
 			shape=record,
 			style=bold,
 			width=1.3889];
 		deutsch_engine_connector:9 -- cam_sensor:Gnd	[color="black:green:black",
 			label="deutsch_engine_connector:9<green>cam_sensor:Gnd",
 			labeltooltip="deutsch_engine_connector:9<green>cam_sensor:Gnd",
-			lp="5537.5,1010.9",
+			lp="4854.5,779.5",
 			penwidth=2.5,
-			pos="5197.5,1578.4 5326.2,1578.4 5172,1091.3 5266,1003.4 5310.1,962.15 5765.5,1017.4 5809,975.42 5907.7,880.17 5789.7,476.38 5863,360.42 \
-5905.7,292.89 5938.1,269.42 6018,269.42"];
+			pos="4514.5,1364 4646.9,1364 4486.8,863.06 4583,772 4670.8,688.88 5039.4,823.36 5126,739 5225.2,642.33 5106,235.12 5180,118 5222.7,50.46 \
+5255.1,27 5335,27"];
 		deutsch_engine_connector:47 -- cam_sensor:"VR+"	[color="black:black:black",
 			label="deutsch_engine_connector:47<black>cam_sensor:VR+",
 			labeltooltip="deutsch_engine_connector:47<black>cam_sensor:VR+",
-			lp="5537.5,328.92",
+			lp="4854.5,86.5",
 			penwidth=2.5,
-			pos="5197.5,703.42 5370,703.42 5134.9,433.49 5266,321.42 5280.4,309.15 5845.4,305.47 6018.9,304.63"];
+			pos="4514.5,489 4606.9,489 4513.1,139.44 4583,79 4597.3,66.648 5162.4,63.028 5335.9,62.206"];
 		deutsch_engine_connector:46 -- cam_sensor:"VR-"	[color="black:green:black",
 			label="deutsch_engine_connector:46<green>cam_sensor:VR-",
 			labeltooltip="deutsch_engine_connector:46<green>cam_sensor:VR-",
-			lp="5537.5,368.92",
+			lp="4854.5,127.5",
 			penwidth=2.5,
-			pos="5197.5,726.42 5362.6,726.42 5141.4,469.71 5266,361.42 5288.8,341.6 5778.9,338.96 5809,336.42 5882.2,330.24 5966.5,319.12 6018.8,\
-311.75"];
+			pos="4514.5,512 4691.4,512 4450.4,236.99 4583,120 4605.6,100.02 5095.9,96.569 5126,94 5199.2,87.753 5283.5,76.653 5335.8,69.308"];
 		crank_sensor	[height=1.2917,
 			label="crank_sensor | <VR+> VR+ | <VR-> VR- | <Gnd> Gnd ",
-			pos="6069,415.42",
-			rects="6014,438.42,6124,461.42 6014,415.42,6124,438.42 6014,392.42,6124,415.42 6014,369.42,6124,392.42",
+			pos="5386,173",
+			rects="5331,196,5441,219 5331,173,5441,196 5331,150,5441,173 5331,127,5441,150",
 			shape=record,
 			style=bold,
 			width=1.5278];
 		deutsch_engine_connector:43 -- crank_sensor:Gnd	[color="black:green:black",
 			label="deutsch_engine_connector:43<green>crank_sensor:Gnd",
 			labeltooltip="deutsch_engine_connector:43<green>crank_sensor:Gnd",
-			lp="5537.5,447.92",
+			lp="4854.5,205.5",
 			penwidth=2.5,
-			pos="5197.5,795.42 5358.2,795.42 5144.3,545.31 5266,440.42 5288.9,420.71 5779,420.76 5809,417.42 5900.6,407.22 5920.9,380.42 6013,380.42"];
+			pos="4514.5,581 4687.4,581 4452.8,311.77 4583,198 4605.7,178.13 5096,178.34 5126,175 5217.6,164.8 5237.9,138 5330,138"];
 		deutsch_engine_connector:44 -- crank_sensor:Sensor	[color="black:red:black",
 			label="deutsch_engine_connector:44<red>crank_sensor:Sensor",
 			labeltooltip="deutsch_engine_connector:44<red>crank_sensor:Sensor",
-			lp="5537.5,485.92",
+			lp="4854.5,243.5",
 			penwidth=2.5,
-			pos="5197.5,772.42 5331.7,772.42 5162.7,564.04 5266,478.42 5289.2,459.15 5778.9,458.36 5809,455.42 5880.1,448.46 5961.5,435.06 6013.9,\
-425.69"];
+			pos="4514.5,558 4660.8,558 4471.3,330.45 4583,236 4606.1,216.51 5095.9,215.94 5126,213 5197.1,206.04 5278.5,192.64 5330.9,183.28"];
 		deutsch_engine_connector:45 -- crank_sensor:"5v"	[color="black:green:black",
 			label="deutsch_engine_connector:45<green>crank_sensor:5v",
 			labeltooltip="deutsch_engine_connector:45<green>crank_sensor:5v",
-			lp="5537.5,405.92",
+			lp="4854.5,163.5",
 			penwidth=2.5,
-			pos="5197.5,749.42 5356.4,749.42 5143.3,499.47 5266,398.42 5312.6,360.06 5748.7,395.92 5809,398.42 5900.3,402.19 5922.6,411.62 6013.7,\
-415.41"];
+			pos="4514.5,535 4685.7,535 4451.6,265.75 4583,156 4629.3,117.32 5065.7,153.5 5126,156 5217.3,159.78 5239.6,169.2 5330.7,172.99"];
 		knock1	[height=1.2917,
 			label="knock1 | <Sig+> Sig+ | <Sig-> Sig- | <Scr> Scr ",
-			pos="6069,731.42",
-			rects="6035.5,754.42,6102.5,777.42 6035.5,731.42,6102.5,754.42 6035.5,708.42,6102.5,731.42 6035.5,685.42,6102.5,708.42",
+			pos="5386,489",
+			rects="5352.5,512,5419.5,535 5352.5,489,5419.5,512 5352.5,466,5419.5,489 5352.5,443,5419.5,466",
 			shape=record,
 			style=bold,
 			width=0.93056];
 		deutsch_engine_connector:24 -- knock1:Scr	[color="black:green:black",
 			label="deutsch_engine_connector:24<green>knock1:Scr",
 			labeltooltip="deutsch_engine_connector:24<green>knock1:Scr",
-			lp="5537.5,1236.9",
+			lp="4854.5,1000.5",
 			penwidth=2.5,
-			pos="5197.5,1232.4 5206,1232.4 5802.7,1209.2 5809,1203.4 5946.1,1077.1 5756.9,940.72 5863,787.42 5912,716.63 5947.9,696.42 6034,696.42"];
+			pos="4514.5,1018 4546.9,1018 4551.2,999.4 4583,993 4642.2,981.07 5081.6,1008 5126,967 5264.9,838.71 5072.5,700.58 5180,545 5228.9,474.17 \
+5264.9,454 5351,454"];
 		deutsch_engine_connector:37 -- knock1:"Sig+"	[color="black:white:black",
 			label="deutsch_engine_connector:37<white>knock1:Sig+",
 			labeltooltip="deutsch_engine_connector:37<white>knock1:Sig+",
-			lp="5537.5,773.92",
+			lp="4854.5,533.5",
 			penwidth=2.5,
-			pos="5197.5,933.42 5277.7,933.42 5200,812.09 5266,766.42 5301.1,742.11 5991.3,743.42 6034,743.42"];
+			pos="4514.5,719 4605.5,719 4509.5,579.71 4583,526 4617.5,500.81 5308.3,501 5351,501"];
 		deutsch_engine_connector:38 -- knock1:"Sig-"	[color="black:green:black",
 			label="deutsch_engine_connector:38<green>knock1:Sig-",
 			labeltooltip="deutsch_engine_connector:38<green>knock1:Sig-",
-			lp="5537.5,731.92",
+			lp="4854.5,490.5",
 			penwidth=2.5,
-			pos="5197.5,910.42 5285.6,910.42 5193.9,775.04 5266,724.42 5405.7,626.34 5863.3,719.42 6034,719.42"];
+			pos="4514.5,696 4613.9,696 4502.9,541.88 4583,483 4720.5,381.94 5180.3,477 5351,477"];
 		knock2	[height=1.2917,
 			label="knock2 | <Sig+> Sig+ | <Sig-> Sig- | <Scr> Scr ",
-			pos="6069,842.42",
-			rects="6035.5,865.42,6102.5,888.42 6035.5,842.42,6102.5,865.42 6035.5,819.42,6102.5,842.42 6035.5,796.42,6102.5,819.42",
+			pos="5386,600",
+			rects="5352.5,623,5419.5,646 5352.5,600,5419.5,623 5352.5,577,5419.5,600 5352.5,554,5419.5,577",
 			shape=record,
 			style=bold,
 			width=0.93056];
 		deutsch_engine_connector:33 -- knock2:Scr	[color="black:green:black",
 			label="deutsch_engine_connector:33<green>knock2:Scr",
 			labeltooltip="deutsch_engine_connector:33<green>knock2:Scr",
-			lp="5537.5,815.92",
+			lp="4854.5,577.5",
 			penwidth=2.5,
-			pos="5197.5,1025.4 5298.6,1025.4 5184.5,868.26 5266,808.42 5334.8,757.93 5948.7,807.42 6034,807.42"];
+			pos="4514.5,811 4625.9,811 4494.4,637.41 4583,570 4650.9,518.34 5265.7,565 5351,565"];
 		deutsch_engine_connector:31 -- knock2:"Sig+"	[color="black:white:black",
 			label="deutsch_engine_connector:31<white>knock2:Sig+",
 			labeltooltip="deutsch_engine_connector:31<white>knock2:Sig+",
-			lp="5537.5,929.92",
+			lp="4854.5,694.5",
 			penwidth=2.5,
-			pos="5197.5,1071.4 5270.4,1071.4 5205.5,963.03 5266,922.42 5316.1,888.76 5749,906.64 5809,899.42 5910.2,887.22 5932,854.42 6034,854.42"];
+			pos="4514.5,857 4596,857 4516.5,734.06 4583,687 4632.3,652.11 5066.1,671.04 5126,663 5227.6,649.35 5248.5,612 5351,612"];
 		deutsch_engine_connector:32 -- knock2:"Sig-"	[color="black:green:black",
 			label="deutsch_engine_connector:32<green>knock2:Sig-",
 			labeltooltip="deutsch_engine_connector:32<green>knock2:Sig-",
-			lp="5537.5,859.92",
+			lp="4854.5,622.5",
 			penwidth=2.5,
-			pos="5197.5,1048.4 5289.8,1048.4 5191.5,906.9 5266,852.42 5300.4,827.21 5991.3,830.42 6034,830.42"];
+			pos="4514.5,834 4616.5,834 4501.9,676.83 4583,615 4617,589.12 5308.3,588 5351,588"];
 		intake_temp_sensor	[height=0.97222,
 			label="intake_temp_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="6069,942.42",
-			rects="5990,953.92,6148,976.92 5990,930.92,6148,953.92 5990,907.92,6148,930.92",
+			pos="5386,700",
+			rects="5307,711.5,5465,734.5 5307,688.5,5465,711.5 5307,665.5,5465,688.5",
 			shape=record,
 			style=bold,
 			width=2.1944];
 		deutsch_engine_connector:36 -- intake_temp_sensor:"Sig-"	[color="black:green:black",
 			label="deutsch_engine_connector:36<green>intake_temp_sensor:Sig-",
 			labeltooltip="deutsch_engine_connector:36<green>intake_temp_sensor:Sig-",
-			lp="5537.5,891.92",
+			lp="4854.5,655.5",
 			penwidth=2.5,
-			pos="5197.5,956.42 5241.7,956.42 5225.4,901.83 5266,884.42 5321.4,860.64 5749.2,876.79 5809,884.42 5833.6,887.55 5838.7,893.26 5863,898.42 \
-5918.5,910.22 5932.2,919.42 5989,919.42"];
+			pos="4514.5,742 4566.2,742 4536.9,671.44 4583,648 4636.8,620.65 5065.9,643.19 5126,648 5166.4,651.23 5265.5,677 5306,677"];
 		deutsch_engine_connector:19 -- intake_temp_sensor:"Sig+"	[color="black:yellow:brown:yellow:black",
 			label="deutsch_engine_connector:19<yellow:brown>intake_temp_sensor:Sig+",
 			labeltooltip="deutsch_engine_connector:19<yellow:brown>intake_temp_sensor:Sig+",
-			lp="5537.5,1343.9",
+			lp="4854.5,1107.5",
 			penwidth=2.5,
-			pos="5197.5,1348.4 5228.4,1348.4 5235.3,1339.6 5266,1336.4 5296,1333.3 5786.3,1337.4 5809,1317.4 5920.9,1218.9 5767.2,1100.6 5863,986.42 \
-5901.1,940.98 5929.7,942.42 5989,942.42"];
+			pos="4514.5,1134 4548.5,1134 4550.1,1108.3 4583,1100 4612.3,1092.6 5103.4,1101 5126,1081 5239.7,980.59 5082.6,860.32 5180,744 5218.1,\
+698.51 5246.7,700 5306,700"];
 		oil_pressure_sensor	[height=1.2917,
 			label="oil_pressure_sensor | <0v> 0v | <5v> 5v | <Sig> Sig ",
-			pos="6069,1041.4",
-			rects="5990,1064.4,6148,1087.4 5990,1041.4,6148,1064.4 5990,1018.4,6148,1041.4 5990,995.42,6148,1018.4",
+			pos="5386,799",
+			rects="5307,822,5465,845 5307,799,5465,822 5307,776,5465,799 5307,753,5465,776",
 			shape=record,
 			style=bold,
 			width=2.1944];
 		deutsch_engine_connector:30 -- oil_pressure_sensor:"0v"	[color="black:green:black",
 			label="deutsch_engine_connector:30<green>oil_pressure_sensor:0v",
 			labeltooltip="deutsch_engine_connector:30<green>oil_pressure_sensor:0v",
-			lp="5537.5,1048.9",
+			lp="4854.5,811.5",
 			penwidth=2.5,
-			pos="5197.5,1094.4 5236,1094.4 5229.6,1053.9 5266,1041.4 5380.2,1002.4 5688.4,1037.4 5809,1041.4 5889.1,1044.1 5908.8,1053.4 5989,1053.4"];
+			pos="4514.5,880 4560,880 4541.5,822.49 4583,804 4656.4,771.34 5225.7,811 5306,811"];
 		deutsch_engine_connector:2 -- oil_pressure_sensor:"5v"	[color="black:red:blue:red:black",
 			label="deutsch_engine_connector:2<red:blue>oil_pressure_sensor:5v",
 			labeltooltip="deutsch_engine_connector:2<red:blue>oil_pressure_sensor:5v",
-			lp="5537.5,1381.9",
+			lp="4854.5,1145.5",
 			penwidth=2.5,
-			pos="5197.5,1739.4 5362.6,1739.4 5140.8,1482 5266,1374.4 5311.8,1335.1 5762.8,1394.3 5809,1355.4 5898.6,1280 5792.9,1191.3 5863,1097.4 \
-5901.1,1046.4 5925.4,1029.4 5989,1029.4"];
+			pos="4514.5,1525 4689.2,1525 4451.1,1252.6 4583,1138 4628.6,1098.4 5079.9,1158 5126,1119 5217.4,1041.7 5108.6,951.14 5180,855 5217.9,\
+803.91 5242.4,787 5306,787"];
 		deutsch_engine_connector:29 -- oil_pressure_sensor:Sig	[color="black:white:brown:white:black",
 			label="deutsch_engine_connector:29<white:brown>oil_pressure_sensor:Sig",
 			labeltooltip="deutsch_engine_connector:29<white:brown>oil_pressure_sensor:Sig",
-			lp="5537.5,967.92",
+			lp="4854.5,731.5",
 			penwidth=2.5,
-			pos="5197.5,1117.4 5273.6,1117.4 5202.3,1002.1 5266,960.42 5316.5,927.37 5750.2,946.99 5809,960.42 5835,966.34 5837.6,978.47 5863,986.42 \
-5917.1,1003.3 5932.3,1006.4 5989,1006.4"];
+			pos="4514.5,903 4599.7,903 4512.8,772.28 4583,724 4632.7,689.8 5066.6,713.36 5126,724 5151.2,728.52 5155.2,737.52 5180,744 5234.9,758.36 \
+5249.3,764 5306,764"];
 		oil_temp_sensor	[height=1.2917,
 			label="oil_temp_sensor | <0v> 0v | <5v> 5v | <Sig> Sig ",
-			pos="6069,1439.4",
-			rects="6003.5,1462.4,6134.5,1485.4 6003.5,1439.4,6134.5,1462.4 6003.5,1416.4,6134.5,1439.4 6003.5,1393.4,6134.5,1416.4",
+			pos="5386,1197",
+			rects="5320.5,1220,5451.5,1243 5320.5,1197,5451.5,1220 5320.5,1174,5451.5,1197 5320.5,1151,5451.5,1174",
 			shape=record,
 			style=bold,
 			width=1.8194];
 		deutsch_engine_connector:18 -- oil_temp_sensor:"0v"	[color="black:green:black",
 			label="deutsch_engine_connector:18<green>oil_temp_sensor:0v",
 			labeltooltip="deutsch_engine_connector:18<green>oil_temp_sensor:0v",
-			lp="5537.5,1489.9",
+			lp="4854.5,1251.5",
 			penwidth=2.5,
-			pos="5197.5,1371.4 5250.6,1371.4 5218.9,1444.9 5266,1469.4 5319.5,1497.3 5748.7,1472.2 5809,1469.4 5895.1,1465.4 5915.8,1451.4 6002,1451.4"];
+			pos="4514.5,1157 4560,1157 4541.5,1214.5 4583,1233 4638.1,1257.5 5065.8,1236.7 5126,1233 5212.3,1227.7 5232.6,1209 5319,1209"];
 		deutsch_engine_connector:2 -- oil_temp_sensor:"5v"	[color="black:red:blue:red:black",
 			label="deutsch_engine_connector:2<red:blue>oil_temp_sensor:5v",
 			labeltooltip="deutsch_engine_connector:2<red:blue>oil_temp_sensor:5v",
-			lp="5537.5,2113.9",
+			lp="4854.5,1862.5",
 			penwidth=2.5,
-			pos="5197.5,1739.4 5350.8,1739.4 5147.3,1980.4 5266,2077.4 5312.7,2115.6 5764.4,2118.1 5809,2077.4 5905,1989.9 5789.2,1602.3 5863,1495.4 \
-5902.1,1438.8 5933.2,1427.4 6002,1427.4"];
+			pos="4514.5,1525 4658.2,1525 4471.1,1750.8 4583,1841 4606.5,1859.9 5103.7,1861.3 5126,1841 5222.9,1752.6 5105.5,1361 5180,1253 5219,1196.4 \
+5250.2,1185 5319,1185"];
 		deutsch_engine_connector:17 -- oil_temp_sensor:Sig	[color="black:yellow:red:yellow:black",
 			label="deutsch_engine_connector:17<yellow:red>oil_temp_sensor:Sig",
 			labeltooltip="deutsch_engine_connector:17<yellow:red>oil_temp_sensor:Sig",
-			lp="5537.5,1446.9",
+			lp="4854.5,1208.5",
 			penwidth=2.5,
-			pos="5197.5,1394.4 5231.1,1394.4 5233.2,1419.1 5266,1426.4 5383.8,1452.6 5688.5,1433.3 5809,1426.4 5895.2,1421.5 5915.7,1404.4 6002,1404.4"];
+			pos="4514.5,1180 4545.2,1180 4552.4,1187 4583,1189 4823.8,1204.8 4885.2,1205.8 5126,1189 5212.4,1183 5232.4,1162 5319,1162"];
 		idle_stablizer_valve	[height=0.97222,
 			label="idle_stablizer_valve | <Pos> Pos | <Gnd> Gnd ",
-			pos="6069,2067.4",
-			rects="5991,2078.9,6147,2101.9 5991,2055.9,6147,2078.9 5991,2032.9,6147,2055.9",
+			pos="5386,1825",
+			rects="5308,1836.5,5464,1859.5 5308,1813.5,5464,1836.5 5308,1790.5,5464,1813.5",
 			shape=record,
 			style=bold,
 			width=2.1667];
 		deutsch_engine_connector:10 -- idle_stablizer_valve:Gnd	[color="black:orange:brown:orange:black",
 			label="deutsch_engine_connector:10<orange:brown>idle_stablizer_valve:Gnd",
 			labeltooltip="deutsch_engine_connector:10<orange:brown>idle_stablizer_valve:Gnd",
-			lp="5537.5,1993.9",
+			lp="4854.5,1757.5",
 			penwidth=2.5,
-			pos="5197.5,1555.4 5289.4,1555.4 5197.1,1902.6 5266,1963.4 5311.3,2003.4 5751.7,1967.3 5809,1986.4 5836.6,1995.6 5836,2012.6 5863,2023.4 \
-5916.1,2044.8 5932.8,2044.4 5990,2044.4"];
+			pos="4514.5,1341 4688.7,1341 4451.9,1612.3 4583,1727 4628.4,1766.8 5068,1733.2 5126,1750 5152.6,1757.7 5153.9,1771.7 5180,1781 5233.9,\
+1800.2 5249.8,1802 5307,1802"];
 		deutsch_engine_connector:7 -- idle_stablizer_valve:Pos	[color="black:red:black",
 			label="deutsch_engine_connector:7<red>idle_stablizer_valve:Pos",
 			labeltooltip="deutsch_engine_connector:7<red>idle_stablizer_valve:Pos",
-			lp="5537.5,2065.9",
+			lp="4854.5,1827.5",
 			penwidth=2.5,
-			pos="5197.5,1624.4 5291,1624.4 5195.8,1977.7 5266,2039.4 5288.7,2059.3 5778.8,2057.1 5809,2058.4 5889.5,2061.8 5909.5,2067.4 5990,2067.4"];
+			pos="4514.5,1410 4691.8,1410 4449,1686.9 4583,1803 4590.6,1809.6 5296.9,1825 5307,1825"];
 		aux_coolant_pump	[height=0.97222,
 			label="aux_coolant_pump | <Pos> Pos | <Gnd> Gnd ",
-			pos="6069,2155.4",
-			rects="5995,2166.9,6143,2189.9 5995,2143.9,6143,2166.9 5995,2120.9,6143,2143.9",
+			pos="5386,1913",
+			rects="5312,1924.5,5460,1947.5 5312,1901.5,5460,1924.5 5312,1878.5,5460,1901.5",
 			shape=record,
 			style=bold,
 			width=2.0556];
 		deutsch_engine_connector:7 -- aux_coolant_pump:Pos	[color="black:red:black",
 			label="deutsch_engine_connector:7<red>aux_coolant_pump:Pos",
 			labeltooltip="deutsch_engine_connector:7<red>aux_coolant_pump:Pos",
-			lp="5537.5,2167.9",
+			lp="4854.5,1922.5",
 			penwidth=2.5,
-			pos="5197.5,1624.4 5309.6,1624.4 5183.1,2048.9 5266,2124.4 5325.9,2178.9 5913,2155.4 5994,2155.4"];
+			pos="4514.5,1410 4618.7,1410 4506,1803.8 4583,1874 4642.9,1928.6 5230,1913 5311,1913"];
 		aem_coolant_temp_sensor	[height=0.97222,
 			label="aem_coolant_temp_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="6069,1229.4",
-			rects="5967.5,1240.9,6170.5,1263.9 5967.5,1217.9,6170.5,1240.9 5967.5,1194.9,6170.5,1217.9",
+			pos="5386,987",
+			rects="5284.5,998.5,5487.5,1021.5 5284.5,975.5,5487.5,998.5 5284.5,952.5,5487.5,975.5",
 			shape=record,
 			style=bold,
 			width=2.8194];
 		deutsch_engine_connector:26 -- aem_coolant_temp_sensor:"Sig-"	[color="black:black:black",
 			label="deutsch_engine_connector:26<black>aem_coolant_temp_sensor:Sig-",
 			labeltooltip="deutsch_engine_connector:26<black>aem_coolant_temp_sensor:Sig-",
-			lp="5537.5,1157.9",
+			lp="4854.5,921.5",
 			penwidth=2.5,
-			pos="5197.5,1186.4 5231.9,1186.4 5232.6,1158.7 5266,1150.4 5324.6,1136 5751.1,1133.3 5809,1150.4 5836.4,1158.5 5836.5,1174.6 5863,1185.4 \
-5906.2,1203.1 5919.3,1206.4 5966,1206.4"];
+			pos="4514.5,972 4554.4,972 4545.5,927.73 4583,914 4639.6,893.24 5067.5,899.28 5126,914 5152.4,920.65 5154.4,933.74 5180,943 5223.9,958.89 \
+5236.3,964 5283,964"];
 		deutsch_engine_connector:25 -- aem_coolant_temp_sensor:"Sig+"	[color="black:green:black",
 			label="deutsch_engine_connector:25<green>aem_coolant_temp_sensor:Sig+",
 			labeltooltip="deutsch_engine_connector:25<green>aem_coolant_temp_sensor:Sig+",
-			lp="5537.5,1195.9",
+			lp="4854.5,959.5",
 			penwidth=2.5,
-			pos="5197.5,1209.4 5229.3,1209.4 5234.5,1193.1 5266,1188.4 5385.3,1170.5 5689.3,1173 5809,1188.4 5880.5,1197.6 5893.9,1229.4 5966,1229.4"];
+			pos="4514.5,995 4550.4,995 4548.5,961.94 4583,952 4699,918.62 5006.1,938.79 5126,952 5197.1,959.82 5211.5,987 5283,987"];
 		aem_transmission_temp_sensor	[height=0.97222,
 			label="aem_transmission_temp_sensor | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="6069,1141.4",
-			rects="5947.5,1152.9,6190.5,1175.9 5947.5,1129.9,6190.5,1152.9 5947.5,1106.9,6190.5,1129.9",
+			pos="5386,899",
+			rects="5264.5,910.5,5507.5,933.5 5264.5,887.5,5507.5,910.5 5264.5,864.5,5507.5,887.5",
 			shape=record,
 			style=bold,
 			width=3.375];
 		deutsch_engine_connector:28 -- aem_transmission_temp_sensor:"Sig-"	[color="black:black:black",
 			label="deutsch_engine_connector:28<black>aem_transmission_temp_sensor:Sig-",
 			labeltooltip="deutsch_engine_connector:28<black>aem_transmission_temp_sensor:Sig-",
-			lp="5537.5,1081.9",
+			lp="4854.5,845.5",
 			penwidth=2.5,
-			pos="5197.5,1140.4 5239.8,1140.4 5226.8,1090.2 5266,1074.4 5322,1051.8 5749.9,1062.4 5809,1074.4 5834.6,1079.6 5838.3,1089.1 5863,1097.4 \
-5899.1,1109.6 5907.9,1118.4 5946,1118.4"];
+			pos="4514.5,926 4564.1,926 4538.5,859.77 4583,838 4637.2,811.5 5066.4,828.84 5126,838 5150.9,841.82 5155.8,848.13 5180,855 5216.6,865.38 \
+5224.9,876 5263,876"];
 		deutsch_engine_connector:27 -- aem_transmission_temp_sensor:"Sig+"	[color="black:green:black",
 			label="deutsch_engine_connector:27<green>aem_transmission_temp_sensor:Sig+",
 			labeltooltip="deutsch_engine_connector:27<green>aem_transmission_temp_sensor:Sig+",
-			lp="5537.5,1126.9",
+			lp="4854.5,888.5",
 			penwidth=2.5,
-			pos="5197.5,1163.4 5233.7,1163.4 5231.3,1129.6 5266,1119.4 5381.8,1085.4 5688.7,1109.8 5809,1119.4 5870.5,1124.3 5884.3,1141.4 5946,1141.4"];
+			pos="4514.5,949 4557.4,949 4543.3,897.34 4583,881 4694.6,835.03 5005.6,873.12 5126,881 5187.3,885.01 5201.6,899 5263,899"];
 		aem_fuel_pressure_sensor	[height=1.2917,
 			label="aem_fuel_pressure_sensor | <5v> 5v | <input> input | <ground> ground ",
-			pos="6069,1328.4",
-			rects="5967,1351.4,6171,1374.4 5967,1328.4,6171,1351.4 5967,1305.4,6171,1328.4 5967,1282.4,6171,1305.4",
+			pos="5386,1086",
+			rects="5284,1109,5488,1132 5284,1086,5488,1109 5284,1063,5488,1086 5284,1040,5488,1063",
 			shape=record,
 			style=bold,
 			width=2.8333];
 		deutsch_engine_connector:23 -- aem_fuel_pressure_sensor:ground	[color="black:black:black",
 			label="deutsch_engine_connector:23<black>aem_fuel_pressure_sensor:ground",
 			labeltooltip="deutsch_engine_connector:23<black>aem_fuel_pressure_sensor:ground",
-			lp="5537.5,1271.9",
+			lp="4854.5,1035.5",
 			penwidth=2.5,
-			pos="5197.5,1256.4 5469.3,1256.4 5538.5,1237.9 5809,1264.4 5879.6,1271.4 5895,1293.4 5966,1293.4"];
+			pos="4514.5,1042 4545.6,1042 4552.1,1031.1 4583,1028 4823.1,1003.7 4885.3,1010.5 5126,1028 5196.3,1033.1 5212.5,1051 5283,1051"];
 		deutsch_engine_connector:21 -- aem_fuel_pressure_sensor:"5v"	[color="black:red:black",
 			label="deutsch_engine_connector:21<red>aem_fuel_pressure_sensor:5v",
 			labeltooltip="deutsch_engine_connector:21<red>aem_fuel_pressure_sensor:5v",
-			lp="5537.5,1414.9",
+			lp="4854.5,1177.5",
 			penwidth=2.5,
-			pos="5197.5,1302.4 5248.1,1302.4 5220.7,1370.8 5266,1393.4 5320,1420.4 5749.5,1403.2 5809,1393.4 5881.7,1381.5 5892.4,1340.4 5966,1340.4"];
+			pos="4514.5,1088 4557.7,1088 4543.1,1140.4 4583,1157 4638.7,1180.2 5066.6,1167.8 5126,1157 5199.3,1143.7 5208.5,1098 5283,1098"];
 		deutsch_engine_connector:22 -- aem_fuel_pressure_sensor:input	[color="black:green:black",
 			label="deutsch_engine_connector:22<green>aem_fuel_pressure_sensor:input",
 			labeltooltip="deutsch_engine_connector:22<green>aem_fuel_pressure_sensor:input",
-			lp="5537.5,1309.9",
+			lp="4854.5,1073.5",
 			penwidth=2.5,
-			pos="5197.5,1279.4 5469.5,1279.4 5537.6,1285.2 5809,1302.4 5878.9,1306.8 5895.9,1316.4 5966,1316.4"];
+			pos="4514.5,1065 4786.3,1065 4854.3,1058.9 5126,1066 5195.8,1067.8 5213.1,1074 5283,1074"];
 		injector1	[height=0.97222,
 			label="injector1 | <Pos> Pos | <Gnd> Gnd ",
-			pos="6069,1979.4",
-			rects="6029,1990.9,6109,2013.9 6029,1967.9,6109,1990.9 6029,1944.9,6109,1967.9",
+			pos="5386,1737",
+			rects="5346,1748.5,5426,1771.5 5346,1725.5,5426,1748.5 5346,1702.5,5426,1725.5",
 			shape=record,
 			style=bold,
 			width=1.1111];
 		deutsch_engine_connector:11 -- injector1:Gnd	[color="black:brown:black:brown:black",
 			label="deutsch_engine_connector:11<brown:black>injector1:Gnd",
 			labeltooltip="deutsch_engine_connector:11<brown:black>injector1:Gnd",
-			lp="5537.5,1917.9",
+			lp="4854.5,1681.5",
 			penwidth=2.5,
-			pos="5197.5,1532.4 5358.2,1532.4 5144.3,1782.5 5266,1887.4 5311.7,1926.8 5750.3,1896.2 5809,1910.4 5834.7,1916.7 5837.6,1928.1 5863,1935.4 \
-5934,1955.9 5954.1,1956.4 6028,1956.4"];
+			pos="4514.5,1318 4665.6,1318 4467.9,1553.1 4583,1651 4629,1690.1 5066.7,1662.6 5126,1674 5151,1678.8 5155.2,1687.1 5180,1693 5251.9,1710 \
+5271.1,1714 5345,1714"];
 		deutsch_engine_connector:8 -- injector1:Pos	[color="black:red:black",
 			label="deutsch_engine_connector:8<red>injector1:Pos",
 			labeltooltip="deutsch_engine_connector:8<red>injector1:Pos",
-			lp="5537.5,1955.9",
+			lp="4854.5,1719.5",
 			penwidth=2.5,
-			pos="5197.5,1601.4 5344.7,1601.4 5153.7,1830.3 5266,1925.4 5289,1944.9 5778.9,1945.7 5809,1948.4 5906.9,1957.4 5929.7,1979.4 6028,1979.4"];
+			pos="4514.5,1387 4652.1,1387 4477.3,1600.9 4583,1689 4606.2,1708.3 5095.9,1709.6 5126,1712 5223.7,1719.6 5247,1737 5345,1737"];
 		injector2	[height=0.97222,
 			label="injector2 | <Pos> Pos | <Gnd> Gnd ",
-			pos="6069,1891.4",
-			rects="6029,1902.9,6109,1925.9 6029,1879.9,6109,1902.9 6029,1856.9,6109,1879.9",
+			pos="5386,1649",
+			rects="5346,1660.5,5426,1683.5 5346,1637.5,5426,1660.5 5346,1614.5,5426,1637.5",
 			shape=record,
 			style=bold,
 			width=1.1111];
 		deutsch_engine_connector:12 -- injector2:Gnd	[color="black:brown:black",
 			label="deutsch_engine_connector:12<brown>injector2:Gnd",
 			labeltooltip="deutsch_engine_connector:12<brown>injector2:Gnd",
-			lp="5537.5,1841.9",
+			lp="4854.5,1605.5",
 			penwidth=2.5,
-			pos="5197.5,1509.4 5335.1,1509.4 5160.3,1723.3 5266,1811.4 5312.4,1850.1 5749.2,1826 5809,1834.4 5833.4,1837.8 5838.7,1843 5863,1847.4 \
-5935.7,1860.8 5954.1,1868.4 6028,1868.4"];
+			pos="4514.5,1295 4642.6,1295 4483.9,1493.8 4583,1575 4606.4,1594.1 5095.9,1595.4 5126,1598 5150.1,1600.1 5156,1601.9 5180,1605 5253.3,\
+1614.4 5271.1,1626 5345,1626"];
 		deutsch_engine_connector:8 -- injector2:Pos	[color="black:red:black",
 			label="deutsch_engine_connector:8<red>injector2:Pos",
 			labeltooltip="deutsch_engine_connector:8<red>injector2:Pos",
-			lp="5537.5,1879.9",
+			lp="4854.5,1643.5",
 			penwidth=2.5,
-			pos="5197.5,1601.4 5311.8,1601.4 5176.5,1778.2 5266,1849.4 5289.6,1868.2 5778.9,1870.5 5809,1872.4 5906.5,1878.7 5930.3,1891.4 6028,1891.4"];
+			pos="4514.5,1387 4619.5,1387 4500,1548.7 4583,1613 4606.9,1631.5 5095.8,1634.5 5126,1636 5223.4,1641 5247.5,1649 5345,1649"];
 		injector3	[height=0.97222,
 			label="injector3 | <Pos> Pos | <Gnd> Gnd ",
-			pos="6069,1803.4",
-			rects="6029,1814.9,6109,1837.9 6029,1791.9,6109,1814.9 6029,1768.9,6109,1791.9",
+			pos="5386,1561",
+			rects="5346,1572.5,5426,1595.5 5346,1549.5,5426,1572.5 5346,1526.5,5426,1549.5",
 			shape=record,
 			style=bold,
 			width=1.1111];
 		deutsch_engine_connector:13 -- injector3:Gnd	[color="black:brown:red:brown:black",
 			label="deutsch_engine_connector:13<brown:red>injector3:Gnd",
 			labeltooltip="deutsch_engine_connector:13<brown:red>injector3:Gnd",
-			lp="5537.5,1765.9",
+			lp="4854.5,1529.5",
 			penwidth=2.5,
-			pos="5197.5,1486.4 5311.4,1486.4 5176.9,1662.4 5266,1733.4 5289.6,1752.2 5778.9,1756.2 5809,1758.4 5906.6,1765.6 5930.2,1780.4 6028,1780.4"];
+			pos="4514.5,1272 4619.9,1272 4499.8,1434.4 4583,1499 4606.9,1517.5 5095.9,1520.3 5126,1522 5223.4,1527.6 5247.4,1538 5345,1538"];
 		deutsch_engine_connector:8 -- injector3:Pos	[color="black:red:black",
 			label="deutsch_engine_connector:8<red>injector3:Pos",
 			labeltooltip="deutsch_engine_connector:8<red>injector3:Pos",
-			lp="5537.5,1802.9",
+			lp="4854.5,1566.5",
 			penwidth=2.5,
-			pos="5197.5,1601.4 5279.8,1601.4 5198.8,1725.9 5266,1773.4 5274.6,1779.5 6017.4,1803.4 6028,1803.4"];
+			pos="4514.5,1387 4587.8,1387 4522,1496.4 4583,1537 4618.3,1560.5 5302.6,1561 5345,1561"];
 		injector4	[height=0.97222,
 			label="injector4 | <Pos> Pos | <Gnd> Gnd ",
-			pos="6069,1715.4",
-			rects="6029,1726.9,6109,1749.9 6029,1703.9,6109,1726.9 6029,1680.9,6109,1703.9",
+			pos="5386,1473",
+			rects="5346,1484.5,5426,1507.5 5346,1461.5,5426,1484.5 5346,1438.5,5426,1461.5",
 			shape=record,
 			style=bold,
 			width=1.1111];
 		deutsch_engine_connector:14 -- injector4:Gnd	[color="black:brown:orange:brown:black",
 			label="deutsch_engine_connector:14<brown:orange>injector4:Gnd",
 			labeltooltip="deutsch_engine_connector:14<brown:orange>injector4:Gnd",
-			lp="5537.5,1687.9",
+			lp="4854.5,1449.5",
 			penwidth=2.5,
-			pos="5197.5,1463.4 5286.8,1463.4 5194.2,1599.2 5266,1652.4 5270.3,1655.6 6022.7,1692.4 6028,1692.4"];
+			pos="4514.5,1249 4590.2,1249 4520.8,1361.7 4583,1405 4617.8,1429.2 5302.6,1450 5345,1450"];
 		deutsch_engine_connector:8 -- injector4:Pos	[color="black:red:black",
 			label="deutsch_engine_connector:8<red>injector4:Pos",
 			labeltooltip="deutsch_engine_connector:8<red>injector4:Pos",
-			lp="5537.5,1721.9",
+			lp="4854.5,1487.5",
 			penwidth=2.5,
-			pos="5197.5,1601.4 5249.9,1601.4 5219.7,1672.9 5266,1697.4 5303.4,1717.2 5985.7,1715.4 6028,1715.4"];
+			pos="4514.5,1387 4559.3,1387 4542.1,1442.7 4583,1461 4660.3,1495.5 5260.3,1473 5345,1473"];
 		injector5	[height=0.97222,
 			label="injector5 | <Pos> Pos | <Gnd> Gnd ",
-			pos="6069,1627.4",
-			rects="6029,1638.9,6109,1661.9 6029,1615.9,6109,1638.9 6029,1592.9,6109,1615.9",
+			pos="5386,1385",
+			rects="5346,1396.5,5426,1419.5 5346,1373.5,5426,1396.5 5346,1350.5,5426,1373.5",
 			shape=record,
 			style=bold,
 			width=1.1111];
 		deutsch_engine_connector:15 -- injector5:Gnd	[color="black:brown:yellow:brown:black",
 			label="deutsch_engine_connector:15<brown:yellow>injector5:Gnd",
 			labeltooltip="deutsch_engine_connector:15<brown:yellow>injector5:Gnd",
-			lp="5537.5,1610.9",
+			lp="4854.5,1369.5",
 			penwidth=2.5,
-			pos="5197.5,1440.4 5268,1440.4 5206.9,1545 5266,1583.4 5301.5,1606.5 5985.7,1604.4 6028,1604.4"];
+			pos="4514.5,1226 4576.3,1226 4529.9,1315.4 4583,1347 4619.4,1368.7 5302.7,1362 5345,1362"];
 		deutsch_engine_connector:8 -- injector5:Pos	[color="black:red:black",
 			label="deutsch_engine_connector:8<red>injector5:Pos",
 			labeltooltip="deutsch_engine_connector:8<red>injector5:Pos",
-			lp="5537.5,1640.9",
+			lp="4854.5,1393.5",
 			penwidth=2.5,
-			pos="5197.5,1601.4 5229.2,1601.4 5234.6,1616.8 5266,1621.4 5433.5,1646 5858.7,1627.4 6028,1627.4"];
+			pos="4514.5,1387 4883.6,1387 4975.9,1385 5345,1385"];
 		injector6	[height=0.97222,
 			label="injector6 | <Pos> Pos | <Gnd> Gnd ",
-			pos="6069,1539.4",
-			rects="6029,1550.9,6109,1573.9 6029,1527.9,6109,1550.9 6029,1504.9,6109,1527.9",
+			pos="5386,1297",
+			rects="5346,1308.5,5426,1331.5 5346,1285.5,5426,1308.5 5346,1262.5,5426,1285.5",
 			shape=record,
 			style=bold,
 			width=1.1111];
 		deutsch_engine_connector:16 -- injector6:Gnd	[color="black:brown:green:brown:black",
 			label="deutsch_engine_connector:16<brown:green>injector6:Gnd",
 			labeltooltip="deutsch_engine_connector:16<brown:green>injector6:Gnd",
-			lp="5537.5,1529.9",
+			lp="4854.5,1300.5",
 			penwidth=2.5,
-			pos="5197.5,1417.4 5245.7,1417.4 5222.7,1480.3 5266,1501.4 5342.1,1538.5 5943.3,1516.4 6028,1516.4"];
+			pos="4514.5,1203 4555,1203 4545.2,1248.5 4583,1263 4741.1,1323.7 5175.6,1274 5345,1274"];
 		deutsch_engine_connector:8 -- injector6:Pos	[color="black:red:black",
 			label="deutsch_engine_connector:8<red>injector6:Pos",
 			labeltooltip="deutsch_engine_connector:8<red>injector6:Pos",
-			lp="5537.5,1575.9",
+			lp="4854.5,1339.5",
 			penwidth=2.5,
-			pos="5197.5,1601.4 5231.3,1601.4 5233.2,1576.6 5266,1568.4 5348.2,1548 5943.3,1539.4 6028,1539.4"];
+			pos="4514.5,1387 4553.5,1387 4546.5,1345.7 4583,1332 4639.5,1310.8 5065.7,1311.9 5126,1309 5223.4,1304.3 5247.5,1297 5345,1297"];
 		aux_coolant_pump:Gnd -- engine_ground:Gnd	[color="black:black:black",
 			label="aux_coolant_pump:Gnd<black>engine_ground:Gnd",
 			labeltooltip="aux_coolant_pump:Gnd<black>engine_ground:Gnd",
-			lp="6558.5,2139.9",
+			lp="5875.5,1897.5",
 			penwidth=2.5,
-			pos="6144,2132.4 6461.1,2132.4 6540.4,2132.4 6857.5,2132.4"];
+			pos="5461,1890 5778.1,1890 5857.4,1890 6174.5,1890"];
 		starter	[height=1.2917,
 			label="starter | <pos> pos | <gnd> gnd | <solenoid> solenoid ",
-			pos="5093.5,2143.4",
-			rects="5055.5,2166.4,5131.5,2189.4 5055.5,2143.4,5131.5,2166.4 5055.5,2120.4,5131.5,2143.4 5055.5,2097.4,5131.5,2120.4",
+			pos="4410.5,1932",
+			rects="4372.5,1955,4448.5,1978 4372.5,1932,4448.5,1955 4372.5,1909,4448.5,1932 4372.5,1886,4448.5,1909",
 			shape=record,
 			style=bold,
 			width=1.0556];
 	}
-	subgraph cluster_Console {
-		graph [bb="1214.5,923.42,3197,1580.4",
-			color=grey,
-			label=Console,
-			lheight=0.21,
-			lp="2205.8,1568.9",
-			lwidth=0.79,
-			style=filled
-		];
-		deutsch_console_connector	[height=4.1667,
-			label="deutsch_console_connector | <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 10 | <11> 11 | <12> 12 ",
-			pos="2188,1399.4",
-			rects="2083,1525.9,2293,1548.9 2083,1502.9,2293,1525.9 2083,1479.9,2293,1502.9 2083,1456.9,2293,1479.9 2083,1433.9,2293,1456.9 2083,1410.9,\
-2293,1433.9 2083,1387.9,2293,1410.9 2083,1364.9,2293,1387.9 2083,1341.9,2293,1364.9 2083,1318.9,2293,1341.9 2083,1295.9,2293,1318.9 \
-2083,1272.9,2293,1295.9 2083,1249.9,2293,1272.9",
-			shape=record,
-			style=bold,
-			width=2.9167];
-		ign_switch	[height=0.97222,
-			label="ign_switch | <1> 1 | <2> 2 ",
-			pos="3108,1504.4",
-			rects="3062,1515.9,3154,1538.9 3062,1492.9,3154,1515.9 3062,1469.9,3154,1492.9",
-			shape=record,
-			style=bold,
-			width=1.2778];
-		deutsch_console_connector:3 -- ign_switch:2	[color="black:blue:black",
-			label="deutsch_console_connector:3<blue>ign_switch:2",
-			labeltooltip="deutsch_console_connector:3<blue>ign_switch:2",
-			lp="2581,1485.9",
-			penwidth=2.5,
-			pos="2293,1468.4 2634.4,1468.4 2719.6,1481.4 3061,1481.4"];
-		link_keypad	[height=1.6111,
-			label="link_keypad | <+12V> +12V | <Ground> Ground | <CAN Low> CAN Low | <CAN High> CAN High ",
-			pos="3108,1393.4",
-			rects="3057.5,1427.9,3158.5,1450.9 3057.5,1404.9,3158.5,1427.9 3057.5,1381.9,3158.5,1404.9 3057.5,1358.9,3158.5,1381.9 3057.5,1335.9,3158.5,\
-1358.9",
-			shape=record,
-			style=bold,
-			width=1.4028];
-		deutsch_console_connector:2 -- link_keypad:Ground	[color="black:black:black",
-			label="deutsch_console_connector:2<black>link_keypad:Ground",
-			labeltooltip="deutsch_console_connector:2<black>link_keypad:Ground",
-			lp="2581,1415.9",
-			penwidth=2.5,
-			pos="2293,1491.4 2337,1491.4 2308.5,1429.8 2347,1408.4 2415.9,1370.1 2977.2,1393.4 3056,1393.4"];
-		link_keypad:"CAN Low" -- deutsch_console_connector:5	[color="black:grey:white:grey:black",
-			label="link_keypad:CAN Low<grey:white>deutsch_console_connector:5",
-			labeltooltip="link_keypad:CAN Low<grey:white>deutsch_console_connector:5",
-			lp="2581,1373.9",
-			penwidth=2.5,
-			pos="3056,1370.4 2977.2,1370.4 2419.5,1335.6 2347,1366.4 2315.2,1379.9 2327.6,1422.4 2293,1422.4"];
-		link_keypad:"+12V" -- deutsch_console_connector:1	[color="black:red:black",
-			label="link_keypad:+12V<red>deutsch_console_connector:1",
-			labeltooltip="link_keypad:+12V<red>deutsch_console_connector:1",
-			lp="2581,1453.9",
-			penwidth=2.5,
-			pos="3056,1416.4 3036.3,1416.4 2364.6,1437.5 2347,1446.4 2312.6,1463.9 2331.6,1514.4 2293,1514.4"];
-		link_keypad:"CAN High" -- deutsch_console_connector:4	[color="black:grey:violet:grey:black",
-			label="link_keypad:CAN High<grey:violet>deutsch_console_connector:4",
-			labeltooltip="link_keypad:CAN High<grey:violet>deutsch_console_connector:4",
-			lp="2581,1341.9",
-			penwidth=2.5,
-			pos="3056,1347.4 2977.2,1347.4 2413.8,1292.6 2347,1334.4 2300.5,1363.5 2347.9,1445.4 2293,1445.4"];
-		deutsch_gauge_connector	[height=4.1667,
-			label="deutsch_gauge_connector | <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 10 | <11> 11 | <12> 12 ",
-			pos="2188,1081.4",
-			rects="2088,1207.9,2288,1230.9 2088,1184.9,2288,1207.9 2088,1161.9,2288,1184.9 2088,1138.9,2288,1161.9 2088,1115.9,2288,1138.9 2088,1092.9,\
-2288,1115.9 2088,1069.9,2288,1092.9 2088,1046.9,2288,1069.9 2088,1023.9,2288,1046.9 2088,1000.9,2288,1023.9 2088,977.92,2288,1000.9 \
-2088,954.92,2288,977.92 2088,931.92,2288,954.92",
-			shape=record,
-			style=bold,
-			width=2.7778];
-		coolant_temp_gauge	[height=2.25,
-			label="coolant_temp_gauge | <Ground> Ground | <12v> 12v | <RS232> RS232 | <5vOut> 5vOut | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="3108,1236.4",
-			rects="3027,1293.9,3189,1316.9 3027,1270.9,3189,1293.9 3027,1247.9,3189,1270.9 3027,1224.9,3189,1247.9 3027,1201.9,3189,1224.9 3027,1178.9,\
-3189,1201.9 3027,1155.9,3189,1178.9",
-			shape=record,
-			style=bold,
-			width=2.25];
-		deutsch_gauge_connector:3 -- coolant_temp_gauge:"5vOut"	[color="black:yellow:black",
-			label="deutsch_gauge_connector:3<yellow>coolant_temp_gauge:5vOut",
-			labeltooltip="deutsch_gauge_connector:3<yellow>coolant_temp_gauge:5vOut",
-			lp="2581,1221.9",
-			penwidth=2.5,
-			pos="2289,1150.4 2321.6,1150.4 2316.3,1184.4 2347,1195.4 2418.1,1220.8 2950.5,1213.4 3026,1213.4"];
-		coolant_temp_gauge:"Sig-" -- deutsch_gauge_connector:5	[color="black:black:black",
-			label="coolant_temp_gauge:Sig-<black>deutsch_gauge_connector:5",
-			labeltooltip="coolant_temp_gauge:Sig-<black>deutsch_gauge_connector:5",
-			lp="2581,1149.9",
-			penwidth=2.5,
-			pos="3026,1167.4 2931.6,1167.4 2909.1,1150.3 2815,1142.4 2607.5,1125 2552.9,1150.8 2347,1119.4 2320.7,1115.4 2315.6,1104.4 2289,1104.4"];
-		coolant_temp_gauge:"12v" -- deutsch_gauge_connector:1	[color="black:red:black",
-			label="coolant_temp_gauge:12v<red>deutsch_gauge_connector:1",
-			labeltooltip="coolant_temp_gauge:12v<red>deutsch_gauge_connector:1",
-			lp="2581,1260.9",
-			penwidth=2.5,
-			pos="3026,1259.4 2988.3,1259.4 2383,1244.7 2347,1233.4 2317.8,1224.3 2319.6,1196.4 2289,1196.4"];
-		coolant_temp_gauge:Ground -- deutsch_gauge_connector:2	[color="black:black:black",
-			label="coolant_temp_gauge:Ground<black>deutsch_gauge_connector:2",
-			labeltooltip="coolant_temp_gauge:Ground<black>deutsch_gauge_connector:2",
-			lp="2581,1298.9",
-			penwidth=2.5,
-			pos="3026,1282.4 2950.5,1282.4 2412.2,1309.3 2347,1271.4 2303.2,1246 2339.6,1173.4 2289,1173.4"];
-		coolant_temp_gauge:"Sig+" -- deutsch_gauge_connector:4	[color="black:green:black",
-			label="coolant_temp_gauge:Sig+<green>deutsch_gauge_connector:4",
-			labeltooltip="coolant_temp_gauge:Sig+<green>deutsch_gauge_connector:4",
-			lp="2581,1183.9",
-			penwidth=2.5,
-			pos="3026,1190.4 2932,1190.4 2908.8,1181.4 2815,1176.4 2711.1,1170.9 2447.6,1184.1 2347,1157.4 2318.9,1150 2318,1127.4 2289,1127.4"];
-		starter_button	[height=0.97222,
-			label="starter_button | <1> 1 | <2> 2 ",
-			pos="1324,1514.4",
-			rects="1264,1525.9,1384,1548.9 1264,1502.9,1384,1525.9 1264,1479.9,1384,1502.9",
-			shape=record,
-			style=bold,
-			width=1.6667];
-		traqmate	[height=1.2917,
-			label="traqmate | <pos> pos | <gnd> gnd | <rpm> rpm ",
-			pos="1324,1414.4",
-			rects="1282.5,1437.4,1365.5,1460.4 1282.5,1414.4,1365.5,1437.4 1282.5,1391.4,1365.5,1414.4 1282.5,1368.4,1365.5,1391.4",
-			shape=record,
-			style=bold,
-			width=1.1528];
-		traqmate:gnd -- deutsch_console_connector:2	[color="black:black:black",
-			label="traqmate:gnd<black>deutsch_console_connector:2",
-			labeltooltip="traqmate:gnd<black>deutsch_console_connector:2",
-			lp="1766.5,1465.9",
-			penwidth=2.5,
-			pos="1367,1402.4 1440.8,1402.4 1958.8,1435.4 2029,1458.4 2055.7,1467.2 2054.9,1491.4 2083,1491.4"];
-		traqmate:pos -- deutsch_console_connector:1	[color="black:red:black",
-			label="traqmate:pos<red>deutsch_console_connector:1",
-			labeltooltip="traqmate:pos<red>deutsch_console_connector:1",
-			lp="1766.5,1521.9",
-			penwidth=2.5,
-			pos="1367,1426.4 1431.4,1426.4 1440.9,1460.6 1504,1473.4 1756.8,1524.8 1825,1514.4 2083,1514.4"];
-		traqmate:rpm -- deutsch_console_connector:6	[color="black:orange:black:orange:black",
-			label="traqmate:rpm<orange:black>deutsch_console_connector:6",
-			labeltooltip="traqmate:rpm<orange:black>deutsch_console_connector:6",
-			lp="1766.5,1396.9",
-			penwidth=2.5,
-			pos="1367,1379.4 1661.3,1379.4 1736.2,1360.3 2029,1389.4 2053.3,1391.8 2058.6,1399.4 2083,1399.4"];
-		transmission_temp_gauge	[height=2.25,
-			label="transmission_temp_gauge | <Ground> Ground | <12v> 12v | <RS232> RS232 | <5vOut> 5vOut | <Sig+> Sig+ | <Sig-> Sig- ",
-			pos="1324,1261.4",
-			rects="1222.5,1318.9,1425.5,1341.9 1222.5,1295.9,1425.5,1318.9 1222.5,1272.9,1425.5,1295.9 1222.5,1249.9,1425.5,1272.9 1222.5,1226.9,1425.5,\
-1249.9 1222.5,1203.9,1425.5,1226.9 1222.5,1180.9,1425.5,1203.9",
-			shape=record,
-			style=bold,
-			width=2.8194];
-		transmission_temp_gauge:"Sig-" -- deutsch_gauge_connector:8	[color="black:black:black",
-			label="transmission_temp_gauge:Sig-<black>deutsch_gauge_connector:8",
-			labeltooltip="transmission_temp_gauge:Sig-<black>deutsch_gauge_connector:8",
-			lp="1766.5,1136.9",
-			penwidth=2.5,
-			pos="1427,1192.4 1471.2,1192.4 1462.7,1145.2 1504,1129.4 1613.1,1087.8 1924.6,1158.8 2029,1106.4 2065.4,1088.2 2046.3,1035.4 2087,1035.4"];
-		transmission_temp_gauge:"12v" -- deutsch_gauge_connector:1	[color="black:red:black",
-			label="transmission_temp_gauge:12v<red>deutsch_gauge_connector:1",
-			labeltooltip="transmission_temp_gauge:12v<red>deutsch_gauge_connector:1",
-			lp="1766.5,1270.9",
-			penwidth=2.5,
-			pos="1427,1284.4 1462.5,1284.4 1469,1269.3 1504,1263.4 1734.6,1224.7 1804.6,1294.2 2029,1228.4 2057.3,1220.1 2057.6,1196.4 2087,1196.4"];
-		transmission_temp_gauge:Ground -- deutsch_gauge_connector:2	[color="black:black:black",
-			label="transmission_temp_gauge:Ground<black>deutsch_gauge_connector:2",
-			labeltooltip="transmission_temp_gauge:Ground<black>deutsch_gauge_connector:2",
-			lp="1766.5,1356.9",
-			penwidth=2.5,
-			pos="1427,1307.4 1694.9,1307.4 1801.6,1420.1 2029,1278.4 2074.3,1250.2 2033.7,1173.4 2087,1173.4"];
-		transmission_temp_gauge:"Sig+" -- deutsch_gauge_connector:7	[color="black:green:black",
-			label="transmission_temp_gauge:Sig+<green>deutsch_gauge_connector:7",
-			labeltooltip="transmission_temp_gauge:Sig+<green>deutsch_gauge_connector:7",
-			lp="1766.5,1170.9",
-			penwidth=2.5,
-			pos="1427,1215.4 1468.3,1215.4 1464.7,1176.2 1504,1163.4 1559.5,1145.3 1978,1172.8 2029,1144.4 2069.3,1122 2040.9,1058.4 2087,1058.4"];
-		fuel_pressure_gauge	[height=3.2083,
-			label="fuel_pressure_gauge | <Ground> Ground | <12v> 12v | <CANL> CANL | <CANH> CANH | <sensor_5v> sensor_5v | <sensor_input> sensor_input | <\
-sensor_ground> sensor_ground | <5vOut+> 5vOut+ | <5vOut-> 5vOut- ",
-			pos="1324,1046.4",
-			rects="1242,1138.4,1406,1161.4 1242,1115.4,1406,1138.4 1242,1092.4,1406,1115.4 1242,1069.4,1406,1092.4 1242,1046.4,1406,1069.4 1242,1023.4,\
-1406,1046.4 1242,1000.4,1406,1023.4 1242,977.42,1406,1000.4 1242,954.42,1406,977.42 1242,931.42,1406,954.42",
-			shape=record,
-			style=bold,
-			width=2.2778];
-		fuel_pressure_gauge:sensor_input -- deutsch_gauge_connector:10	[color="black:green:black",
-			label="fuel_pressure_gauge:sensor_input<green>deutsch_gauge_connector:10",
-			labeltooltip="fuel_pressure_gauge:sensor_input<green>deutsch_gauge_connector:10",
-			lp="1766.5,1010.9",
-			penwidth=2.5,
-			pos="1407,1011.4 1450.3,1011.4 1460.8,1005.7 1504,1003.4 1762.8,989.65 1827.8,989.42 2087,989.42"];
-		fuel_pressure_gauge:"12v" -- deutsch_gauge_connector:1	[color="black:red:black",
-			label="fuel_pressure_gauge:12v<red>deutsch_gauge_connector:1",
-			labeltooltip="fuel_pressure_gauge:12v<red>deutsch_gauge_connector:1",
-			lp="1766.5,1098.9",
-			penwidth=2.5,
-			pos="1407,1104.4 1450.5,1104.4 1460.6,1094.3 1504,1091.4 1620.4,1083.7 1928.5,1032.1 2029,1091.4 2074.9,1118.5 2033.7,1196.4 2087,1196.4"];
-		fuel_pressure_gauge:Ground -- deutsch_gauge_connector:2	[color="black:black:black",
-			label="fuel_pressure_gauge:Ground<black>deutsch_gauge_connector:2",
-			labeltooltip="fuel_pressure_gauge:Ground<black>deutsch_gauge_connector:2",
-			lp="1766.5,1219.9",
-			penwidth=2.5,
-			pos="1407,1127.4 1456.6,1127.4 1456.1,1169.8 1504,1182.4 1729.6,1241.9 1796.4,1200.4 2029,1182.4 2055,1180.4 2060.9,1173.4 2087,1173.4"];
-		fuel_pressure_gauge:sensor_5v -- deutsch_gauge_connector:9	[color="black:red:black",
-			label="fuel_pressure_gauge:sensor_5v<red>deutsch_gauge_connector:9",
-			labeltooltip="fuel_pressure_gauge:sensor_5v<red>deutsch_gauge_connector:9",
-			lp="1766.5,1041.9",
-			penwidth=2.5,
-			pos="1407,1034.4 1683.5,1034.4 1753,1036.2 2029,1018.4 2054.9,1016.7 2061.1,1012.4 2087,1012.4"];
-		fuel_pressure_gauge:sensor_ground -- deutsch_gauge_connector:11	[color="black:black:black",
-			label="fuel_pressure_gauge:sensor_ground<black>deutsch_gauge_connector:11",
-			labeltooltip="fuel_pressure_gauge:sensor_ground<black>deutsch_gauge_connector:11",
-			lp="1766.5,977.92",
-			penwidth=2.5,
-			pos="1407,988.42 1450.8,988.42 1460.4,974.58 1504,970.42 1761.9,945.79 1827.9,966.42 2087,966.42"];
-	}
 	subgraph "cluster_Link ECU & PDM" {
-		graph [bb="3036,1598.4,4234,3267.4",
+		graph [bb="2353,1228,3551,2897",
 			color=grey,
 			label="Link ECU & PDM",
 			lheight=0.21,
-			lp="3635,3255.9",
+			lp="2952,2885.5",
 			lwidth=1.75,
 			style=filled
 		];
@@ -1052,13 +1041,13 @@ sensor_ground> sensor_ground | <5vOut+> 5vOut+ | <5vOut-> 5vOut- ",
 GND1> SENSOR GND1 | <PWROUT3a> PWROUT3a | <PWROUT2b> PWROUT2b | <NC2> NC2 | <CANL> CANL | <SENSOR 5V2> SENSOR 5V2 | <SENSOR GND2> \
 SENSOR GND2 | <PWROUT3b> PWROUT3b | <PWROUT1a> PWROUT1a | <ADIO2> ADIO2 | <ADIO4> ADIO4 | <ADIO6> ADIO6 | <ADIO8> ADIO8 | <PWROUT4a> \
 PWROUT4a | <PWROUT1b> PWROUT1b | <ADIO1> ADIO1 | <ADIO3> ADIO3 | <ADIO5> ADIO5 | <ADIO7> ADIO7 | <NC3> NC3 | <PWROUT4b> PWROUT4b ",
-			pos="3108,2902.4",
-			rects="3044,3212.9,3172,3235.9 3044,3189.9,3172,3212.9 3044,3166.9,3172,3189.9 3044,3143.9,3172,3166.9 3044,3120.9,3172,3143.9 3044,3097.9,\
-3172,3120.9 3044,3074.9,3172,3097.9 3044,3051.9,3172,3074.9 3044,3028.9,3172,3051.9 3044,3005.9,3172,3028.9 3044,2982.9,3172,3005.9 \
-3044,2959.9,3172,2982.9 3044,2936.9,3172,2959.9 3044,2913.9,3172,2936.9 3044,2890.9,3172,2913.9 3044,2867.9,3172,2890.9 3044,2844.9,\
-3172,2867.9 3044,2821.9,3172,2844.9 3044,2798.9,3172,2821.9 3044,2775.9,3172,2798.9 3044,2752.9,3172,2775.9 3044,2729.9,3172,2752.9 \
-3044,2706.9,3172,2729.9 3044,2683.9,3172,2706.9 3044,2660.9,3172,2683.9 3044,2637.9,3172,2660.9 3044,2614.9,3172,2637.9 3044,2591.9,\
-3172,2614.9 3044,2568.9,3172,2591.9",
+			pos="2425,2532",
+			rects="2361,2842.5,2489,2865.5 2361,2819.5,2489,2842.5 2361,2796.5,2489,2819.5 2361,2773.5,2489,2796.5 2361,2750.5,2489,2773.5 2361,2727.5,\
+2489,2750.5 2361,2704.5,2489,2727.5 2361,2681.5,2489,2704.5 2361,2658.5,2489,2681.5 2361,2635.5,2489,2658.5 2361,2612.5,2489,2635.5 \
+2361,2589.5,2489,2612.5 2361,2566.5,2489,2589.5 2361,2543.5,2489,2566.5 2361,2520.5,2489,2543.5 2361,2497.5,2489,2520.5 2361,2474.5,\
+2489,2497.5 2361,2451.5,2489,2474.5 2361,2428.5,2489,2451.5 2361,2405.5,2489,2428.5 2361,2382.5,2489,2405.5 2361,2359.5,2489,2382.5 \
+2361,2336.5,2489,2359.5 2361,2313.5,2489,2336.5 2361,2290.5,2489,2313.5 2361,2267.5,2489,2290.5 2361,2244.5,2489,2267.5 2361,2221.5,\
+2489,2244.5 2361,2198.5,2489,2221.5",
 			shape=record,
 			style=bold,
 			width=1.7778];
@@ -1068,827 +1057,801 @@ Trig1 | <Trig2> Trig2 | <Ign4> Ign4 | <Ign3> Ign3 | <Ign2> Ign2 | <Ign1> Ign1 | 
 AnVolt1> AnVolt1 | <Aux4> Aux4 | <Aux3> Aux3 | <Aux2> Aux2 | <Aux1> Aux1 | <AnVolt2> AnVolt2 | <DI3> DI3 | <GndOut> GndOut | <Ground1> \
 Ground1 | <Aux8> Aux8 | <Aux7> Aux7 | <Aux6> Aux6 | <Aux5> Aux5 | <DI1> DI1 | <DI2> DI2 | <+5V> +5V | <AnVolt3> AnVolt3 | <Ground2> \
 Ground2 ",
-			pos="4166.5,2009.4",
-			rects="4119,2388.9,4214,2411.9 4119,2365.9,4214,2388.9 4119,2342.9,4214,2365.9 4119,2319.9,4214,2342.9 4119,2296.9,4214,2319.9 4119,2273.9,\
-4214,2296.9 4119,2250.9,4214,2273.9 4119,2227.9,4214,2250.9 4119,2204.9,4214,2227.9 4119,2181.9,4214,2204.9 4119,2158.9,4214,2181.9 \
-4119,2135.9,4214,2158.9 4119,2112.9,4214,2135.9 4119,2089.9,4214,2112.9 4119,2066.9,4214,2089.9 4119,2043.9,4214,2066.9 4119,2020.9,\
-4214,2043.9 4119,1997.9,4214,2020.9 4119,1974.9,4214,1997.9 4119,1951.9,4214,1974.9 4119,1928.9,4214,1951.9 4119,1905.9,4214,1928.9 \
-4119,1882.9,4214,1905.9 4119,1859.9,4214,1882.9 4119,1836.9,4214,1859.9 4119,1813.9,4214,1836.9 4119,1790.9,4214,1813.9 4119,1767.9,\
-4214,1790.9 4119,1744.9,4214,1767.9 4119,1721.9,4214,1744.9 4119,1698.9,4214,1721.9 4119,1675.9,4214,1698.9 4119,1652.9,4214,1675.9 \
-4119,1629.9,4214,1652.9 4119,1606.9,4214,1629.9",
+			pos="3483.5,1639",
+			rects="3436,2018.5,3531,2041.5 3436,1995.5,3531,2018.5 3436,1972.5,3531,1995.5 3436,1949.5,3531,1972.5 3436,1926.5,3531,1949.5 3436,1903.5,\
+3531,1926.5 3436,1880.5,3531,1903.5 3436,1857.5,3531,1880.5 3436,1834.5,3531,1857.5 3436,1811.5,3531,1834.5 3436,1788.5,3531,1811.5 \
+3436,1765.5,3531,1788.5 3436,1742.5,3531,1765.5 3436,1719.5,3531,1742.5 3436,1696.5,3531,1719.5 3436,1673.5,3531,1696.5 3436,1650.5,\
+3531,1673.5 3436,1627.5,3531,1650.5 3436,1604.5,3531,1627.5 3436,1581.5,3531,1604.5 3436,1558.5,3531,1581.5 3436,1535.5,3531,1558.5 \
+3436,1512.5,3531,1535.5 3436,1489.5,3531,1512.5 3436,1466.5,3531,1489.5 3436,1443.5,3531,1466.5 3436,1420.5,3531,1443.5 3436,1397.5,\
+3531,1420.5 3436,1374.5,3531,1397.5 3436,1351.5,3531,1374.5 3436,1328.5,3531,1351.5 3436,1305.5,3531,1328.5 3436,1282.5,3531,1305.5 \
+3436,1259.5,3531,1282.5 3436,1236.5,3531,1259.5",
 			shape=record,
 			style=bold,
 			width=1.3194];
 		razor_pdm:ADIO1 -- link_ecu_a:"+14V"	[color="black:red:black",
 			label="razor_pdm:ADIO1<red>link_ecu_a:+14V",
 			labeltooltip="razor_pdm:ADIO1<red>link_ecu_a:+14V",
-			lp="3642.5,2513.9",
+			lp="2959.5,2207.5",
 			penwidth=2.5,
-			pos="3173,2695.4 3304.6,2695.4 3285.2,2569 3401,2506.4 3694.1,2347.9 3784.3,2285.4 4117.5,2285.4"];
+			pos="2490,2325 2605.6,2325 2613.4,2249.2 2718,2200 3028.1,2054 3091.8,1915 3434.5,1915"];
 		link_ecu_b	[height=11.194,
 			label="link_ecu_b | <Inj8> Inj8 | <Inj7> Inj7 | <Inj6> Inj6 | <Inj5> Inj5 | <+14V Aux9/10> +14V Aux9/10 | <Temp3> Temp3 | <Temp4> Temp4 | <\
 Knock2> Knock2 | <Knock1> Knock1 | <Heater> Heater | <MES> MES | <Ign6> Ign6 | <Ign5> Ign5 | <RE> RE | <Volt6> Volt6 | <Volt7> Volt7 | <\
 Shield/Gnd> Shield/Gnd | <Aux9> Aux9 | <DI6> DI6 | <DI5> DI5 | <DI4> DI4 | <GndOut> GndOut | <An Volt8> An Volt8 | <An Volt9> An \
 Volt9 | <Ground1> Ground1 | <Aux10> Aux10 | <DI10/CAN2H> DI10/CAN2H | <DI9/CAN2L> DI9/CAN2L | <DI8> DI8 | <DI7> DI7 | <IPE> IPE | <\
 APE> APE | <AN Volt5> AN Volt5 | <Ground2> Ground2 ",
-			pos="4166.5,2833.4",
-			rects="4107,3212.9,4226,3235.9 4107,3189.9,4226,3212.9 4107,3166.9,4226,3189.9 4107,3143.9,4226,3166.9 4107,3120.9,4226,3143.9 4107,3097.9,\
-4226,3120.9 4107,3074.9,4226,3097.9 4107,3051.9,4226,3074.9 4107,3028.9,4226,3051.9 4107,3005.9,4226,3028.9 4107,2982.9,4226,3005.9 \
-4107,2959.9,4226,2982.9 4107,2936.9,4226,2959.9 4107,2913.9,4226,2936.9 4107,2890.9,4226,2913.9 4107,2867.9,4226,2890.9 4107,2844.9,\
-4226,2867.9 4107,2821.9,4226,2844.9 4107,2798.9,4226,2821.9 4107,2775.9,4226,2798.9 4107,2752.9,4226,2775.9 4107,2729.9,4226,2752.9 \
-4107,2706.9,4226,2729.9 4107,2683.9,4226,2706.9 4107,2660.9,4226,2683.9 4107,2637.9,4226,2660.9 4107,2614.9,4226,2637.9 4107,2591.9,\
-4226,2614.9 4107,2568.9,4226,2591.9 4107,2545.9,4226,2568.9 4107,2522.9,4226,2545.9 4107,2499.9,4226,2522.9 4107,2476.9,4226,2499.9 \
-4107,2453.9,4226,2476.9 4107,2430.9,4226,2453.9",
+			pos="3483.5,2463",
+			rects="3424,2842.5,3543,2865.5 3424,2819.5,3543,2842.5 3424,2796.5,3543,2819.5 3424,2773.5,3543,2796.5 3424,2750.5,3543,2773.5 3424,2727.5,\
+3543,2750.5 3424,2704.5,3543,2727.5 3424,2681.5,3543,2704.5 3424,2658.5,3543,2681.5 3424,2635.5,3543,2658.5 3424,2612.5,3543,2635.5 \
+3424,2589.5,3543,2612.5 3424,2566.5,3543,2589.5 3424,2543.5,3543,2566.5 3424,2520.5,3543,2543.5 3424,2497.5,3543,2520.5 3424,2474.5,\
+3543,2497.5 3424,2451.5,3543,2474.5 3424,2428.5,3543,2451.5 3424,2405.5,3543,2428.5 3424,2382.5,3543,2405.5 3424,2359.5,3543,2382.5 \
+3424,2336.5,3543,2359.5 3424,2313.5,3543,2336.5 3424,2290.5,3543,2313.5 3424,2267.5,3543,2290.5 3424,2244.5,3543,2267.5 3424,2221.5,\
+3543,2244.5 3424,2198.5,3543,2221.5 3424,2175.5,3543,2198.5 3424,2152.5,3543,2175.5 3424,2129.5,3543,2152.5 3424,2106.5,3543,2129.5 \
+3424,2083.5,3543,2106.5 3424,2060.5,3543,2083.5",
 			shape=record,
 			style=bold,
 			width=1.6528];
 		razor_pdm:ADIO1 -- link_ecu_b:"+14V Aux9/10"	[color="black:red:black",
 			label="razor_pdm:ADIO1<red>link_ecu_b:+14V Aux9/10",
 			labeltooltip="razor_pdm:ADIO1<red>link_ecu_b:+14V Aux9/10",
-			lp="3642.5,3095.9",
+			lp="2959.5,2702.5",
 			penwidth=2.5,
-			pos="3173,2695.4 3299.1,2695.4 3289.5,2805.5 3401,2864.4 3694.1,3019.3 3774,3109.4 4105.5,3109.4"];
+			pos="2490,2325 2943.5,2325 2969,2739 3422.5,2739"];
 		razor_pdm:CANH -- link_ecu_b:"DI10/CAN2H"	[color="black:grey:violet:grey:black",
 			label="razor_pdm:CANH<grey:violet>link_ecu_b:DI10/CAN2H",
 			labeltooltip="razor_pdm:CANH<grey:violet>link_ecu_b:DI10/CAN2H",
-			lp="3642.5,2852.9",
+			lp="2959.5,2364.5",
 			penwidth=2.5,
-			pos="3173,3109.4 3328,3109.4 3272.6,2932.3 3401,2845.4 3675.2,2659.9 3774.4,2603.4 4105.5,2603.4"];
+			pos="2490,2739 2687.7,2739 2555.2,2469.2 2718,2357 2750.7,2334.4 3382.8,2233 3422.5,2233"];
 		razor_pdm:CANL -- link_ecu_b:"DI9/CAN2L"	[color="black:grey:white:grey:black",
 			label="razor_pdm:CANL<grey:white>link_ecu_b:DI9/CAN2L",
 			labeltooltip="razor_pdm:CANL<grey:white>link_ecu_b:DI9/CAN2L",
-			lp="3642.5,2605.9",
+			lp="2959.5,2255.5",
 			penwidth=2.5,
-			pos="3173,2948.4 3358.7,2948.4 3238.9,2689 3401,2598.4 3674.4,2445.7 3792.3,2580.4 4105.5,2580.4"];
+			pos="2490,2578 2668.3,2578 2562.4,2335 2718,2248 2735.1,2238.4 3402.9,2210 3422.5,2210"];
 	}
 	subgraph "cluster_Kill Switch" {
-		graph [bb="8,3098.4,1409,3272.4",
+		graph [bb="8,2728,1553.5,2902",
 			color=grey,
 			label="Kill Switch",
 			lheight=0.21,
-			lp="708.5,3260.9",
+			lp="780.75,2890.5",
 			lwidth=1.08,
 			style=filled
 		];
 		battery	[height=0.97222,
 			label="battery | <pos> pos | <neg> neg ",
-			pos="50.5,3193.4",
-			rects="16,3204.9,85,3227.9 16,3181.9,85,3204.9 16,3158.9,85,3181.9",
+			pos="50.5,2771",
+			rects="16,2782.5,85,2805.5 16,2759.5,85,2782.5 16,2736.5,85,2759.5",
 			shape=record,
 			style=bold,
 			width=0.95833];
 		kill_switch	[height=1.6111,
 			label="kill_switch | <battery> battery | <z> z | <w> w | <starter> starter ",
-			pos="604,3170.4",
-			rects="558,3204.9,650,3227.9 558,3181.9,650,3204.9 558,3158.9,650,3181.9 558,3135.9,650,3158.9 558,3112.9,650,3135.9",
+			pos="592.5,2800",
+			rects="546.5,2834.5,638.5,2857.5 546.5,2811.5,638.5,2834.5 546.5,2788.5,638.5,2811.5 546.5,2765.5,638.5,2788.5 546.5,2742.5,638.5,2765.5",
 			shape=record,
 			style=bold,
 			width=1.2778];
 		battery:pos -- kill_switch:battery	[color="black:red:black",
 			label="battery:pos<red>kill_switch:battery",
 			labeltooltip="battery:pos<red>kill_switch:battery",
-			lp="270,3200.9",
+			lp="288,2823.5",
 			penwidth=2.5,
-			pos="85,3193.4 294.78,3193.4 347.22,3193.4 557,3193.4"];
+			pos="85,2771 290.97,2771 339.53,2823 545.5,2823"];
 		kill_switch:starter -- kill_switch:w	[color="black:red:black",
 			label="kill_switch:starter<red>kill_switch:w",
 			labeltooltip="kill_switch:starter<red>kill_switch:w",
-			lp="256.5,3170.4",
+			lp="260,2800",
 			penwidth=2.5,
-			pos="557.98,3120.4 484.74,3116.1 391,3119.3 391,3135.9 391,3152.6 484.74,3155.7 557.98,3151.5"];
+			pos="546.27,2749.8 478.73,2745.8 394.5,2749.1 394.5,2765.5 394.5,2781.9 478.73,2785.2 546.27,2781.2"];
 		alternator	[height=0.97222,
 			label="alternator | <pos> pos | <sense> sense ",
-			pos="1324,3141.4",
-			rects="1279.5,3152.9,1368.5,3175.9 1279.5,3129.9,1368.5,3152.9 1279.5,3106.9,1368.5,3129.9",
+			pos="1468.5,2771",
+			rects="1424,2782.5,1513,2805.5 1424,2759.5,1513,2782.5 1424,2736.5,1513,2759.5",
 			shape=record,
 			style=bold,
 			width=1.2361];
 		kill_switch:starter -- alternator:sense	[color="black:red:black",
 			label="kill_switch:starter<red>alternator:sense",
 			labeltooltip="kill_switch:starter<red>alternator:sense",
-			lp="975.5,3130.9",
+			lp="1010.5,2760.5",
 			penwidth=2.5,
-			pos="651,3124.4 929.68,3124.4 999.32,3118.4 1278,3118.4"];
+			pos="639.5,2754 987.51,2754 1074.5,2748 1422.5,2748"];
 		kill_switch:starter -- alternator:pos	[color="black:red:black",
 			label="kill_switch:starter<red>alternator:pos",
 			labeltooltip="kill_switch:starter<red>alternator:pos",
-			lp="975.5,3152.9",
+			lp="1010.5,2787.5",
 			penwidth=2.5,
-			pos="651,3124.4 720.7,3124.4 737.4,3136.8 807,3140.4 1016,3151.3 1068.7,3141.4 1278,3141.4"];
+			pos="639.5,2754 688.24,2754 699.39,2766.4 748,2770 1047,2792.1 1122.7,2771 1422.5,2771"];
 		kill_switch_resistor	[height=0.65278,
 			label="kill_switch_resistor | <resistor> resistor ",
-			pos="1324,3217.4",
-			rects="1247,3217.4,1401,3240.4 1247,3194.4,1401,3217.4",
+			pos="1468.5,2847",
+			rects="1391.5,2847,1545.5,2870 1391.5,2824,1545.5,2847",
 			shape=record,
 			style=bold,
 			width=2.1389];
 		kill_switch:w -- kill_switch_resistor:resistor	[color="black:red:black",
 			label="kill_switch:w<red>kill_switch_resistor:resistor",
 			labeltooltip="kill_switch:w<red>kill_switch_resistor:resistor",
-			lp="975.5,3209.9",
+			lp="1010.5,2841.5",
 			penwidth=2.5,
-			pos="651,3147.4 720.74,3147.4 737.61,3157.4 807,3164.4 1002,3184.1 1050,3205.4 1246,3205.4"];
+			pos="639.5,2777 688.7,2777 699.2,2792.7 748,2799 1031.7,2835.5 1104.5,2835 1390.5,2835"];
 	}
 	subgraph cluster_Trunk {
-		graph [bb="1259.5,3378.4,2248,3621.4",
+		graph [bb="528,2447,1528.5,2690",
 			color=grey,
 			label=Trunk,
 			lheight=0.21,
-			lp="1753.8,3609.9",
+			lp="1028.2,2678.5",
 			lwidth=0.60,
 			style=filled
 		];
 		trunk_ground	[height=0.65278,
 			label="trunk_ground | <ground> ground ",
-			pos="1324,3416.4",
-			rects="1267.5,3416.4,1380.5,3439.4 1267.5,3393.4,1380.5,3416.4",
+			pos="592.5,2616",
+			rects="536,2616,649,2639 536,2593,649,2616",
 			shape=record,
 			style=bold,
 			width=1.5694];
 		brake_lights	[height=0.97222,
 			label="brake_lights | <pos> pos | <gnd> gnd ",
-			pos="2188,3555.4",
-			rects="2136,3566.9,2240,3589.9 2136,3543.9,2240,3566.9 2136,3520.9,2240,3543.9",
+			pos="1468.5,2624",
+			rects="1416.5,2635.5,1520.5,2658.5 1416.5,2612.5,1520.5,2635.5 1416.5,2589.5,1520.5,2612.5",
 			shape=record,
 			style=bold,
 			width=1.4444];
 		trunk_ground:ground -- brake_lights:gnd	[color="black:black:black",
 			label="trunk_ground:ground<black>brake_lights:gnd",
 			labeltooltip="trunk_ground:ground<black>brake_lights:gnd",
-			lp="1766.5,3412.9",
+			lp="1010.5,2609.5",
 			penwidth=2.5,
-			pos="1382,3404.4 1453.9,3404.4 1967.7,3367.8 2029,3405.4 2074.1,3433.1 2044,3475.7 2083,3511.4 2101.4,3528.3 2110.1,3532.4 2135,3532.4"];
+			pos="650.5,2604 693.84,2604 704.66,2602.5 748,2602 1044.6,2598.7 1118.8,2601 1415.5,2601"];
 		fuel_pump	[height=1.6111,
 			label="fuel_pump | <pos> pos | <SendingA> SendingA | <SendingB> SendingB | <gnd> gnd ",
-			pos="2188,3444.4",
-			rects="2142.5,3478.9,2233.5,3501.9 2142.5,3455.9,2233.5,3478.9 2142.5,3432.9,2233.5,3455.9 2142.5,3409.9,2233.5,3432.9 2142.5,3386.9,2233.5,\
-3409.9",
+			pos="1468.5,2513",
+			rects="1423,2547.5,1514,2570.5 1423,2524.5,1514,2547.5 1423,2501.5,1514,2524.5 1423,2478.5,1514,2501.5 1423,2455.5,1514,2478.5",
 			shape=record,
 			style=bold,
 			width=1.2639];
 		trunk_ground:neg -- fuel_pump:gnd	[color="black:black:black",
 			label="trunk_ground:neg<black>fuel_pump:gnd",
 			labeltooltip="trunk_ground:neg<black>fuel_pump:gnd",
-			penwidth=2.5];
+			lp="1010.5,2668.5",
+			penwidth=2.5,
+			pos="648.5,2639 697.6,2688.1 1209.4,2644.9 1273,2617 1358.9,2579.4 1327.7,2467 1421.5,2467"];
 	}
 	battery:neg -- razor_pdm:neg	[color="black:black:black",
 		label="battery:neg<black>razor_pdm:neg",
 		labeltooltip="battery:neg<black>razor_pdm:neg",
-		lp="1324,3331.9",
+		lp="1010.5,2984.5",
 		penwidth=2.5,
-		pos="85,3170.4 116.11,3170.4 240.26,3369.5 269,3381.4;271,3381.4 560.08,3501 661.81,3368.1 974.5,3358.4;976.5,3358.4 1191.3,3337.4 1243.6,\
-3313.7 1450,3250.4 1474.6,3242.9 1478.8,3234.6 1504,3229.4 1671.6,3195.1 2871.9,3178.4 3043,3178.4"];
+		pos="85,2748 130.51,2748 100.44,2810.8 139,2835 587.72,3116.3 797.55,2914.7 1327,2928 1452.7,2931.1 1484.6,2938 1610,2928 1946.5,2901.2 \
+2022.4,2808 2360,2808"];
 	battery:neg -- engine_ground:Gnd	[color="black:black:black",
 		label="battery:neg<black>engine_ground:Gnd",
 		labeltooltip="battery:neg<black>engine_ground:Gnd",
-		lp="3108,3858.9",
+		lp="2959.5,3498.5",
 		penwidth=2.5,
-		pos="976.5,3358.4 1049.3,3351.8 2236.2,3328.4 2293,3374.4 2378.3,3443.5 2264,3543.6 2347,3615.4 2883.1,4079.7 3229.3,3711.1 3938,3738.4 \
-4376.8,3755.4 4633.6,3970.5 4921,3638.4 4997.4,3550.1 4888.6,2674.9 4967,2588.4 5003.9,2547.7 5157.9,2563.4 5212,2553.4 5688.5,2465.1 \
-5806.7,2435.3 6275,2310.4 6291.3,2306.1 6836.3,2133.8 6857.3,2132.4"];
+		pos="85,2748 150.03,2748 94.858,2659.8 139,2612 254.62,2486.9 317.08,2481.6 483,2443 970.89,2329.6 1227.2,2119.9 1610,2443 1719.2,2535.2 \
+1573.3,2649.5 1664,2760 1805.3,2932.2 1936,2833.3 2132,2939 2202.6,2977.1 2643.4,3331.3 2718,3361 3129.6,3524.8 3277.9,3521.2 3712,\
+3433 3960.8,3382.4 4092.2,3417.9 4238,3210 4293.2,3131.3 4219.1,2416.9 4284,2346 4321.1,2305.4 4474.9,2321 4529,2311 5005.5,2222.7 \
+5123.7,2192.9 5592,2068 5608.3,2063.6 6157.6,1890 6174.5,1890"];
 	battery:neg -- trunk_ground:ground	[color="black:black:black",
 		label="battery:neg<black>trunk_ground:ground",
 		labeltooltip="battery:neg<black>trunk_ground:ground",
-		lp="604,3462.9",
+		lp="288,2750.5",
 		penwidth=2.5,
-		pos="271,3381.4 685.79,3534.8 823.59,3404.5 1265.7,3404.4"];
+		pos="85,2748 294.78,2748 324.72,2604 534.5,2604"];
 	acc_ground	[height=0.65278,
 		label="acc_ground | <ground> ground ",
-		pos="1324,889.42",
-		rects="1275,889.42,1373,912.42 1275,866.42,1373,889.42",
+		pos="592.5,1251",
+		rects="543.5,1251,641.5,1274 543.5,1228,641.5,1251",
 		shape=record,
 		style=bold,
 		width=1.3611];
 	battery:neg -- acc_ground:ground	[color="black:black:black",
 		label="battery:neg<black>acc_ground:ground",
 		labeltooltip="battery:neg<black>acc_ground:ground",
-		lp="604,1198.9",
+		lp="288,1817.5",
 		penwidth=2.5,
-		pos="50.5,3157.4 50.5,2007.4 123.98,877.42 1274,877.42"];
+		pos="50.5,2735 50.5,2528.5 67.17,2003.6 139,1810 247.09,1518.7 231.75,1239 542.5,1239"];
 	kill_switch:starter -- razor_pdm:pos	[color="black:red:black",
 		label="kill_switch:starter<red>razor_pdm:pos",
 		labeltooltip="kill_switch:starter<red>razor_pdm:pos",
-		lp="1766.5,3255.9",
+		lp="1468.5,2938.5",
 		penwidth=2.5,
-		pos="651,3124.4 732.64,3124.4 729.38,3196.1 807,3221.4 972.67,3275.4 1023.9,3244 1198,3250.4 1309.9,3254.6 1338,3252.1 1450,3250.4 1538.5,\
-3249.1 2954.5,3201.4 3043,3201.4"];
-	kill_switch:z -- ign_switch:1	[color="black:brown:blue:brown:black",
-		label="kill_switch:z<brown:blue>ign_switch:1",
-		labeltooltip="kill_switch:z<brown:blue>ign_switch:1",
-		lp="1766.5,2436.9",
-		penwidth=2.5,
-		pos="651,3170.4 713.27,3170.4 2289.3,1727.9 2347,1704.4 2443.5,1665.2 2729.5,1736 2815,1676.4 2864,1642.3 2823.5,1592 2869,1553.4 2936.2,\
-1496.4 2972.9,1504.4 3061,1504.4"];
+		pos="639.5,2754 704.78,2754 688.73,2825.6 748,2853 983.48,2961.7 1068.1,2909.7 1327,2926 1452.5,2933.9 1484.5,2933.9 1610,2926 1945.3,\
+2904.8 2024,2831 2360,2831"];
 	kill_switch:starter -- starter_button:1	[color="black:red:black",
 		label="kill_switch:starter<red>starter_button:1",
 		labeltooltip="kill_switch:starter<red>starter_button:1",
-		lp="975.5,1713.9",
+		lp="288,1836",
 		penwidth=2.5,
-		pos="604,3111.4 604,2796 614.11,1956 807,1706.4 941.46,1532.4 1043.1,1514.4 1263,1514.4"];
+		pos="592.5,2741 592.5,2688 518.99,2732.8 483,2694 207.24,2396.4 146.61,2231.7 192.5,1828.5 257.47,1257.7 43.093,938.46 483,569 511.88,\
+544.74 626.16,587 652.5,560 663.37,548.86 669.06,525 653.5,525"];
 	kill_switch:starter -- starter:pos	[color="black:red:black",
 		label="kill_switch:starter<red>starter:pos",
 		labeltooltip="kill_switch:starter<red>starter:pos",
-		lp="2581,3603.9",
+		lp="2425,3461.5",
 		penwidth=2.5,
-		pos="651,3124.4 720.48,3124.4 737.62,3118.1 807,3114.4 1092.5,3099.1 1165.9,3065.7 1450,3097.4 1712.2,3126.7 1778.4,3145.9 2029,3228.4 \
-2150.7,3268.5 2202,3254.2 2293,3344.4 2334.5,3385.6 2300.9,3428.4 2347,3464.4 2534.5,3611 3165.3,3622.3 3401,3655.4 3638.5,3688.8 \
-3698.4,3697.4 3938,3709.4 4140.9,3719.6 4202.5,3774.2 4395,3709.4 4423.6,3699.8 4421.4,3680.6 4449,3668.4 4644.1,3582 4781.6,3742 \
-4921,3580.4 5011.7,3475.3 4932.8,2466 4967,2331.4 4988.5,2246.8 4967.1,2155.4 5054.5,2155.4"];
+		pos="639.5,2754 687.93,2754 699.66,2746.9 748,2744 1005,2728.4 1069.6,2730.8 1327,2727 1389.9,2726.1 1560.3,2688.4 1610,2727 1686.8,2786.7 \
+1603.1,2863.2 1664,2939 1992.5,3347.6 2207.8,3348 2718,3469 3148.1,3571.1 3282.2,3536.2 3712,3433 3958.9,3373.7 4093.5,3418.8 4238,\
+3210 4308.9,3107.5 4248.1,2208.4 4284,2089 4305.7,2016.9 4296.2,1944 4371.5,1944"];
+	razor_pdm:IGNSW -- kill_switch:z	[color="black:blue:black",
+		label="razor_pdm:IGNSW<blue>kill_switch:z",
+		labeltooltip="razor_pdm:IGNSW<blue>kill_switch:z",
+		lp="1468.5,2916.5",
+		penwidth=2.5,
+		pos="2360,2716 2018.8,2716 1949.2,2843.3 1610,2880 1228.9,2921.2 1119.3,2948 748,2853 696.01,2839.7 693.17,2800 639.5,2800"];
 	razor_pdm:PWROUT1b -- deutsch_engine_bay_connector:34	[color="black:red:black",
 		label="razor_pdm:PWROUT1b<red>deutsch_engine_bay_connector:34",
 		labeltooltip="razor_pdm:PWROUT1b<red>deutsch_engine_bay_connector:34",
-		lp="4166.5,3321.9",
+		lp="3483.5,3102.5",
 		penwidth=2.5,
-		pos="3173,2718.4 3445,2718.4 3176.4,3133 3401,3286.4 3446.6,3317.6 4353.2,3327.6 4395,3291.4 4521.6,3181.8 4323.1,3028.9 4449,2918.4 \
-4492.8,2880 4915.2,2911.4 4973.5,2911.4"];
+		pos="2490,2348 2826.1,2348 2447.9,2869 2718,3069 2751.9,3094.1 4206.3,3107.9 4238,3080 4307.1,3019.2 4198.4,2669 4290.5,2669"];
 	razor_pdm:ADIO7 -- deutsch_engine_bay_connector:14	[color="black:red:black",
 		label="razor_pdm:ADIO7<red>deutsch_engine_bay_connector:14",
 		labeltooltip="razor_pdm:ADIO7<red>deutsch_engine_bay_connector:14",
-		lp="4166.5,3389.9",
+		lp="3483.5,3073.5",
 		penwidth=2.5,
-		pos="3173,2626.4 3494.7,2626.4 3143.7,3120.3 3401,3313.4 3540.8,3418.4 4798.7,3372.4 4973.5,3372.4"];
+		pos="2490,2256 2843.5,2256 2438.9,2801.1 2718,3018 2851.5,3121.7 4082.1,3015.8 4238,3081 4267.4,3093.3 4258.6,3130 4290.5,3130"];
 	razor_pdm:ADIO8 -- deutsch_engine_bay_connector:15	[color="black:red:black",
 		label="razor_pdm:ADIO8<red>deutsch_engine_bay_connector:15",
 		labeltooltip="razor_pdm:ADIO8<red>deutsch_engine_bay_connector:15",
-		lp="4166.5,3431.9",
+		lp="3483.5,3174.5",
 		penwidth=2.5,
-		pos="3173,2764.4 3455.8,2764.4 3174.5,3189.1 3401,3358.4 3592.7,3501.8 3698.8,3391.9 3938,3401.4 4156.3,3410.1 4715.2,3463.7 4921,3390.4 \
-4948.9,3380.5 4943.9,3349.4 4973.5,3349.4"];
+		pos="2490,2394 2816.8,2394 2458.2,2894.8 2718,3093 2903.4,3234.4 3532.9,3137.4 3766,3143 3870.9,3145.5 4137.8,3174.1 4238,3143 4265,3134.6 \
+4262.2,3107 4290.5,3107"];
 	razor_pdm:ADIO2 -- deutsch_engine_bay_connector:10	[color="black:red:black",
 		label="razor_pdm:ADIO2<red>deutsch_engine_bay_connector:10",
 		labeltooltip="razor_pdm:ADIO2<red>deutsch_engine_bay_connector:10",
-		lp="4166.5,3877.9",
+		lp="3483.5,3216.5",
 		penwidth=2.5,
-		pos="3643.5,3641.4 4145.7,3906.2 4468.1,3985.9 4921,3643.4 4987,3593.5 4891,3464.9 4973,3464.4"];
+		pos="2490,2463 2649.8,2463 2592,3046.7 2718,3145 2787,3198.8 4203,3222 4290.5,3222"];
 	razor_pdm:ADIO2 -- deutsch_engine_bay_connector:10	[color="black:red:black",
 		label="razor_pdm:ADIO2<red>deutsch_engine_bay_connector:10",
 		labeltooltip="razor_pdm:ADIO2<red>deutsch_engine_bay_connector:10",
-		lp="4166.5,3652.9",
+		lp="3483.5,3421.5",
 		penwidth=2.5,
-		pos="3173,2833.4 3349.1,2833.4 3270.9,3473.7 3401,3592.4 3481.6,3666 3549.9,3582.1 3641.5,3641.4;3643.5,3641.4 3673.3,3660.7 4892.1,3625.1 \
-4921,3604.4 4975.1,3565.8 4907,3464.4 4973.5,3464.4"];
+		pos="2490,2463 2764.7,2463 2602.3,2788.4 2664,3056 2680.1,3126.1 2663.3,3328.3 2718,3375 2782.2,3429.8 4169.5,3424.4 4238,3375 4296.3,\
+3332.9 4218.6,3222 4290.5,3222"];
 	razor_pdm:PWROUT4a -- deutsch_engine_bay_connector:1	[color="black:red:black",
 		label="razor_pdm:PWROUT4a<red>deutsch_engine_bay_connector:1",
 		labeltooltip="razor_pdm:PWROUT4a<red>deutsch_engine_bay_connector:1",
-		lp="4166.5,3593.9",
+		lp="3483.5,3376.5",
 		penwidth=2.5,
-		pos="3173,2741.4 3542.7,2741.4 3110.6,3312.6 3401,3541.4 3533.8,3646 4770.6,3527.3 4921,3604.4 4954.7,3621.7 4935.7,3671.4 4973.5,3671.4"];
+		pos="2490,2371 2804.1,2371 2594.3,2749.7 2664,3056 2691,3174.5 2625.3,3245.5 2718,3324 2846.9,3433.2 4083.5,3306.6 4238,3375 4268.6,3388.5 \
+4257,3429 4290.5,3429"];
 	razor_pdm:PWROUT4b -- deutsch_engine_bay_connector:4	[color="black:red:black",
 		label="razor_pdm:PWROUT4b<red>deutsch_engine_bay_connector:4",
 		labeltooltip="razor_pdm:PWROUT4b<red>deutsch_engine_bay_connector:4",
-		lp="4166.5,3539.9",
+		lp="3483.5,3238.5",
 		penwidth=2.5,
-		pos="3173,2580.4 3589.9,2580.4 3076.6,3228.4 3401,3490.4 3532.5,3596.6 4768.6,3468.4 4921,3541.4 4953.3,3556.9 4937.7,3602.4 4973.5,3602.4"];
+		pos="2490,2210 2600.9,2210 2634.1,3109.4 2718,3182 2899.2,3338.7 3016.2,3209.5 3255,3228 3473.3,3244.9 4043.4,3195.6 4238,3296 4270.7,\
+3312.9 4253.7,3360 4290.5,3360"];
 	razor_pdm:ADIO2 -- deutsch_engine_bay_connector:10	[color="black:red:black",
 		label="razor_pdm:ADIO2<red>deutsch_engine_bay_connector:10",
 		labeltooltip="razor_pdm:ADIO2<red>deutsch_engine_bay_connector:10",
-		lp="4166.5,3469.9",
+		lp="3483.5,3328.5",
 		penwidth=2.5,
-		pos="3173,2833.4 3448.3,2833.4 3178.3,3247.5 3401,3409.4 3479.9,3466.8 4482.7,3464.4 4973.5,3464.4"];
-	razor_pdm:IGNSW -- deutsch_console_connector:3	[color="black:blue:black",
-		label="razor_pdm:IGNSW<blue>deutsch_console_connector:3",
-		labeltooltip="razor_pdm:IGNSW<blue>deutsch_console_connector:3",
-		lp="2581,1730.9",
-		penwidth=2.5,
-		pos="3043,3086.4 2735.9,3086.4 3044.7,1927.3 2815,1723.4 2776.1,1688.9 2387,1734.8 2347,1701.4 2265.4,1633.3 2399.3,1468.4 2293,1468.4"];
+		pos="2490,2463 2501.2,2463 2709.2,3228.1 2718,3235 2851.3,3338.8 4082.7,3343.5 4238,3277 4269.1,3263.7 4256.7,3222 4290.5,3222"];
 	razor_pdm:ADIO3 -- deutsch_engine_connector:8	[color="black:red:black",
 		label="razor_pdm:ADIO3<red>deutsch_engine_connector:8",
 		labeltooltip="razor_pdm:ADIO3<red>deutsch_engine_connector:8",
-		lp="4166.5,1505.9",
+		lp="3483.5,2963.5",
 		penwidth=2.5,
-		pos="3173,2672.4 3367.7,2672.4 3296.1,2462.4 3401,2298.4 3631.8,1937.7 3582.9,1737.7 3938,1498.4 4120.2,1375.6 4743.2,1262.4 4921,1391.4 \
-5000.5,1449.1 4891.3,1601.4 4989.5,1601.4"];
+		pos="2490,2302 2699.3,2302 2560.2,2576.5 2718,2714 2910.9,2882 3003.5,2874.2 3255,2921 3354.8,2939.6 3638,2990.5 3712,2921 3851.6,2789.9 \
+3640.3,2205.4 3766,2061 3906.6,1899.6 4093,2122.5 4238,1965 4325.6,1869.8 4177.2,1387 4306.5,1387"];
 	razor_pdm:ADIO5 -- deutsch_engine_connector:7	[color="black:red:black",
 		label="razor_pdm:ADIO5<red>deutsch_engine_connector:7",
 		labeltooltip="razor_pdm:ADIO5<red>deutsch_engine_connector:7",
-		lp="4166.5,3268.9",
+		lp="3483.5,2898.5",
 		penwidth=2.5,
-		pos="3173,2649.4 3400.4,2649.4 3224.2,2964.4 3401,3107.4 3592.6,3262.4 3693.5,3214.5 3938,3245.4 3988.4,3251.8 4356.9,3279 4395,3245.4 \
-4466.9,3182 4394.2,2896.1 4449,2817.4 4584.1,2623.2 4791.1,2769.1 4921,2571.4 4978.9,2483.2 4884,1624.4 4989.5,1624.4"];
+		pos="2490,2279 2708.3,2279 2549.6,2575.1 2718,2714 2910.2,2872.5 3008.5,2838.8 3255,2875 3305.2,2882.4 3673,2907.6 3712,2875 3815.9,2788.1 \
+3684.6,2683.3 3766,2575 3906.6,2387.8 4107.3,2535.3 4238,2341 4295.9,2254.9 4202.8,1410 4306.5,1410"];
 	razor_pdm:ADIO5 -- deutsch_engine_connector:7	[color="black:red:black",
 		label="razor_pdm:ADIO5<red>deutsch_engine_connector:7",
 		labeltooltip="razor_pdm:ADIO5<red>deutsch_engine_connector:7",
-		lp="4166.5,1589.9",
+		lp="3483.5,3040.5",
 		penwidth=2.5,
-		pos="3173,2649.4 3359,2649.4 3294.5,2450.9 3401,2298.4 3628.8,1972.3 3584.7,1765.2 3938,1582.4 4035,1532.2 4818.1,1531.7 4921,1568.4 \
-4958,1581.6 4950.2,1624.4 4989.5,1624.4"];
+		pos="2490,2279 2753.4,2279 2520.6,2651.7 2718,2826 2885.4,2973.8 3540.6,3118.2 3712,2975 3815.6,2888.4 3665,2765.6 3766,2676 3844.6,2606.3 \
+4163.8,2722.4 4238,2648 4335.2,2550.4 4168.7,1410 4306.5,1410"];
 	link_ecu_a:Ign1 -- deutsch_engine_bay_connector:11	[color="black:blue:black",
 		label="link_ecu_a:Ign1<blue>deutsch_engine_bay_connector:11",
 		labeltooltip="link_ecu_a:Ign1<blue>deutsch_engine_bay_connector:11",
-		lp="4685,3017.9",
+		lp="4002,2855.5",
 		penwidth=2.5,
-		pos="4215.5,2101.4 4378.6,2101.4 4346.4,2265.8 4395,2421.4 4432.9,2542.9 4356.6,2903.9 4449,2991.4 4487.1,3027.5 4882.4,2974.8 4921,3010.4 \
-4991.9,3075.8 4877,3441.4 4973.5,3441.4"];
+		pos="3532.5,1731 3695.6,1731 3665.3,1894.8 3712,2051 3736.7,2133.6 3704.4,2764.7 3766,2825 3803.5,2861.7 4199.1,2812.8 4238,2848 4296.5,\
+2900.9 4211.6,3199 4290.5,3199"];
 	link_ecu_a:Ign2 -- deutsch_engine_bay_connector:12	[color="black:blue:brown:blue:black",
 		label="link_ecu_a:Ign2<blue:brown>deutsch_engine_bay_connector:12",
 		labeltooltip="link_ecu_a:Ign2<blue:brown>deutsch_engine_bay_connector:12",
-		lp="4685,2979.9",
+		lp="4002,2779.5",
 		penwidth=2.5,
-		pos="4215.5,2124.4 4479,2124.4 4384.4,2892.6 4449,2953.4 4487.2,2989.4 4882.5,2936.8 4921,2972.4 4994.2,3040.2 4873.7,3418.4 4973.5,3418.4"];
+		pos="3532.5,1754 3686.7,1754 3664.9,1904.1 3712,2051 3759.5,2199.1 3654.4,2640.6 3766,2749 3803.7,2785.6 4199.4,2736.4 4238,2772 4304.5,\
+2833.4 4200,3176 4290.5,3176"];
 	link_ecu_a:Ign3 -- deutsch_engine_bay_connector:13	[color="black:blue:red:blue:black",
 		label="link_ecu_a:Ign3<blue:red>deutsch_engine_bay_connector:13",
 		labeltooltip="link_ecu_a:Ign3<blue:red>deutsch_engine_bay_connector:13",
-		lp="4685,3097.9",
+		lp="4002,2889.5",
 		penwidth=2.5,
-		pos="4215.5,2147.4 4361.1,2147.4 4347.6,2283.8 4395,2421.4 4441.9,2557.6 4345.4,2967.3 4449,3067.4 4486.8,3103.9 4881.7,3055.6 4921,3090.4 \
-4972.5,3136 4904.7,3395.4 4973.5,3395.4"];
+		pos="3532.5,1777 3678.1,1777 3665.8,1913 3712,2051 3740.7,2136.7 3701.2,2799.9 3766,2863 3803.6,2899.6 4198.2,2847.8 4238,2882 4331.1,\
+2962 4167.8,3153 4290.5,3153"];
 	link_ecu_a:Aux4 -- deutsch_engine_bay_connector:8	[color="black:orange:black",
 		label="link_ecu_a:Aux4<orange>deutsch_engine_bay_connector:8",
 		labeltooltip="link_ecu_a:Aux4<orange>deutsch_engine_bay_connector:8",
-		lp="4685,2941.9",
+		lp="4002,2813.5",
 		penwidth=2.5,
-		pos="4215.5,1986.4 4424.6,1986.4 4342.6,2218.9 4395,2421.4 4421.3,2523 4374,2817 4449,2890.4 4524.3,2964.1 4846.6,2859.9 4921,2934.4 \
-5011.8,3025.4 4845,3510.4 4973.5,3510.4"];
+		pos="3532.5,1616 3741.6,1616 3663.9,1847.5 3712,2051 3730.9,2130.8 3707.1,2730 3766,2787 3803.7,2823.5 4199.6,2770.3 4238,2806 4313.7,\
+2876.4 4187.2,3268 4290.5,3268"];
 	link_ecu_a:AnVolt1 -- deutsch_engine_bay_connector:7	[color="black:yellow:blue:yellow:black",
 		label="link_ecu_a:AnVolt1<yellow:blue>deutsch_engine_bay_connector:7",
 		labeltooltip="link_ecu_a:AnVolt1<yellow:blue>deutsch_engine_bay_connector:7",
-		lp="4685,3283.9",
+		lp="4002,3003.5",
 		penwidth=2.5,
-		pos="4215.5,2009.4 4415.2,2009.4 4348,2227.3 4395,2421.4 4416.9,2511.9 4382.4,3192.4 4449,3257.4 4486.6,3294.1 4881,3242.4 4921,3276.4 \
-5009.8,3351.9 4856.9,3533.4 4973.5,3533.4"];
+		pos="3532.5,1639 3732.2,1639 3665.6,1856.7 3712,2051 3736,2151.2 3692.5,2904.8 3766,2977 3803.4,3013.8 4198.5,2961.5 4238,2996 4338.3,\
+3083.6 4157.3,3291 4290.5,3291"];
 	link_ecu_a:"+5V" -- deutsch_engine_bay_connector:2	[color="black:red:blue:red:black",
 		label="link_ecu_a:+5V<red:blue>deutsch_engine_bay_connector:2",
 		labeltooltip="link_ecu_a:+5V<red:blue>deutsch_engine_bay_connector:2",
-		lp="4685,3131.9",
+		lp="4002,2965.5",
 		penwidth=2.5,
-		pos="4215.5,1664.4 4561.3,1664.4 4341.3,2079.8 4395,2421.4 4406.8,2496.7 4394.1,3052.6 4449,3105.4 4486.8,3141.8 4882.8,3088.4 4921,3124.4 \
-5006.2,3204.7 4856.5,3648.4 4973.5,3648.4"];
+		pos="3532.5,1294 3878.3,1294 3661.4,1708.9 3712,2051 3726.5,2148.8 3695.4,2869.8 3766,2939 3803.5,2975.7 4199.5,2922.3 4238,2958 4311.5,\
+3026.1 4190.3,3406 4290.5,3406"];
 	link_ecu_a:Aux3 -- deutsch_engine_bay_connector:35	[color="black:orange:red:orange:black",
 		label="link_ecu_a:Aux3<orange:red>deutsch_engine_bay_connector:35",
 		labeltooltip="link_ecu_a:Aux3<orange:red>deutsch_engine_bay_connector:35",
-		lp="4685,2840.9",
+		lp="4002,2598.5",
 		penwidth=2.5,
-		pos="4215.5,1963.4 4434.1,1963.4 4318.1,2216.8 4395,2421.4 4419.9,2487.7 4403.1,2517.4 4449,2571.4 4604.4,2754.2 4731.1,2686.7 4921,2833.4 \
-4947.7,2854.1 4939.7,2888.4 4973.5,2888.4"];
+		pos="3532.5,1593 3751.1,1593 3651.8,1840.8 3712,2051 3748.1,2177 3688.3,2235.4 3766,2341 3906.6,2532.3 4048.7,2447.7 4238,2591 4264.9,\
+2611.4 4256.7,2646 4290.5,2646"];
 	link_ecu_a:Temp1 -- deutsch_gauge_connector:3	[color="black:yellow:black",
 		label="link_ecu_a:Temp1<yellow>deutsch_gauge_connector:3",
 		labeltooltip="link_ecu_a:Temp1<yellow>deutsch_gauge_connector:3",
-		lp="3108,902.92",
+		lp="2425,1689.5",
 		penwidth=2.5,
-		pos="4117.5,2055.4 3881,2055.4 3989.9,1785.2 3938,1554.4 3911.2,1435 3965.8,1097.4 3884,1006.4 3883.4,1005.7 3347.9,895.51 3347,895.42 \
-3135.7,873.8 3081.1,883.27 2869,895.42 2635.9,908.77 2525.9,805.32 2347,955.42 2277.7,1013.5 2379.4,1150.4 2289,1150.4"];
+		pos="3434.5,1685 2615.4,1685 2213.8,1780.2 1664,1173 1546.3,1043 1744.8,790 1569.5,790"];
 	link_ecu_a:Inj1 -- deutsch_engine_connector:11	[color="black:brown:black:brown:black",
 		label="link_ecu_a:Inj1<brown:black>deutsch_engine_connector:11",
 		labeltooltip="link_ecu_a:Inj1<brown:black>deutsch_engine_connector:11",
-		lp="4685,1557.9",
+		lp="4002,1953.5",
 		penwidth=2.5,
-		pos="4215.5,2308.4 4568,2308.4 4168.9,1764.5 4449,1550.4 4544.5,1477.4 4869.3,1532.4 4989.5,1532.4"];
+		pos="3532.5,1938 3855.2,1938 4020,2004 4238,1766 4306,1691.7 4205.8,1318 4306.5,1318"];
 	link_ecu_a:Inj2 -- deutsch_engine_connector:12	[color="black:brown:black",
 		label="link_ecu_a:Inj2<brown>deutsch_engine_connector:12",
 		labeltooltip="link_ecu_a:Inj2<brown>deutsch_engine_connector:12",
-		lp="4685,2038.9",
+		lp="4002,1754.5",
 		penwidth=2.5,
-		pos="4215.5,2331.4 4384.5,2331.4 4300.9,2112.8 4449,2031.4 4541.4,1980.7 4844.7,2059.1 4921,1986.4 4998.5,1912.5 4882.4,1509.4 4989.5,\
-1509.4"];
+		pos="3532.5,1961 3673.3,1961 3635.9,1800.7 3766,1747 3814.5,1727 4198.8,1762.9 4238,1728 4310.8,1663.2 4209.1,1295 4306.5,1295"];
 	link_ecu_a:Inj3 -- deutsch_engine_connector:13	[color="black:brown:red:brown:black",
 		label="link_ecu_a:Inj3<brown:red>deutsch_engine_connector:13",
 		labeltooltip="link_ecu_a:Inj3<brown:red>deutsch_engine_connector:13",
-		lp="4685,1937.9",
+		lp="4002,1682.5",
 		penwidth=2.5,
-		pos="4215.5,2354.4 4430.6,2354.4 4266.5,2044.3 4449,1930.4 4493.5,1902.6 4881.8,1942.4 4921,1907.4 4991.7,1844.3 4894.7,1486.4 4989.5,\
-1486.4"];
+		pos="3532.5,1984 3704.6,1984 3613.8,1755.4 3766,1675 3812.4,1650.5 4198.5,1686.6 4238,1652 4367,1538.8 4134.9,1272 4306.5,1272"];
 	link_ecu_a:Inj4 -- deutsch_engine_connector:14	[color="black:brown:orange:brown:black",
 		label="link_ecu_a:Inj4<brown:orange>deutsch_engine_connector:14",
 		labeltooltip="link_ecu_a:Inj4<brown:orange>deutsch_engine_connector:14",
-		lp="4685,1671.9",
+		lp="4002,1606.5",
 		penwidth=2.5,
-		pos="4215.5,2377.4 4548.9,2377.4 4183.8,1866.6 4449,1664.4 4532.5,1600.7 4835.9,1703 4921,1641.4 4989.7,1591.7 4904.7,1463.4 4989.5,1463.4"];
+		pos="3532.5,2007 3741.4,2007 3587.9,1708.2 3766,1599 3810.8,1571.6 4198.1,1610.1 4238,1576 4350.9,1479.6 4158,1249 4306.5,1249"];
 	link_ecu_a:Trig1 -- deutsch_engine_connector:47	[color="black:black:black",
 		label="link_ecu_a:Trig1<black>deutsch_engine_connector:47",
 		labeltooltip="link_ecu_a:Trig1<black>deutsch_engine_connector:47",
-		lp="4685,713.92",
+		lp="4002,494.5",
 		penwidth=2.5,
-		pos="4215.5,2216.4 4520.3,2216.4 4345.2,1855.2 4395,1554.4 4410.4,1461.3 4380.3,771.21 4449,706.42 4492.7,665.2 4929.4,703.42 4989.5,\
-703.42"];
+		pos="3532.5,1846 4145.4,1846 3297.4,881.96 3766,487 3811.9,448.3 4246.4,489 4306.5,489"];
 	link_ecu_a:"Shield/Gnd" -- deutsch_engine_connector:46	[color="black:green:black",
 		label="link_ecu_a:Shield/Gnd<green>deutsch_engine_connector:46",
 		labeltooltip="link_ecu_a:Shield/Gnd<green>deutsch_engine_connector:46",
-		lp="4685,751.92",
+		lp="4002,532.5",
 		penwidth=2.5,
-		pos="4215.5,2239.4 4530.2,2239.4 4344.4,1865 4395,1554.4 4409.5,1465.4 4384.2,807.13 4449,744.42 4470.6,723.53 4959.5,726.42 4989.5,726.42"];
+		pos="3532.5,1869 4138.8,1869 3306.8,920.84 3766,525 3811.5,485.78 4246.4,512 4306.5,512"];
 	link_ecu_a:"Shield/Gnd" -- deutsch_engine_connector:9	[color="black:green:black",
 		label="link_ecu_a:Shield/Gnd<green>deutsch_engine_connector:9",
 		labeltooltip="link_ecu_a:Shield/Gnd<green>deutsch_engine_connector:9",
-		lp="4685,1895.9",
+		lp="4002,1640.5",
 		penwidth=2.5,
-		pos="4215.5,2239.4 4402.9,2239.4 4285.7,1980.2 4449,1888.4 4494.8,1862.7 4880.5,1902.8 4921,1869.4 5023.5,1784.8 4856.6,1578.4 4989.5,\
-1578.4"];
+		pos="3532.5,1869 3680.1,1869 3631,1692.6 3766,1633 3814,1611.8 4196.9,1646.7 4238,1614 4328.2,1542.3 4191.3,1364 4306.5,1364"];
 	link_ecu_a:Trig2 -- deutsch_engine_connector:44	[color="black:red:black",
 		label="link_ecu_a:Trig2<red>deutsch_engine_connector:44",
 		labeltooltip="link_ecu_a:Trig2<red>deutsch_engine_connector:44",
-		lp="4685,674.92",
+		lp="4002,458.5",
 		penwidth=2.5,
-		pos="4215.5,2193.4 4510.5,2193.4 4345.9,1845.3 4395,1554.4 4411.4,1457.1 4377.1,735.08 4449,667.42 4468.1,649.45 4897.9,654.93 4921,667.42 \
-4970,693.95 4933.8,772.42 4989.5,772.42"];
+		pos="3532.5,1823 3841.8,1823 3529.7,650.5 3766,451 3806.1,417.17 4192,425.83 4238,451 4287.5,478.1 4250,558 4306.5,558"];
 	link_ecu_a:"Shield/Gnd" -- deutsch_engine_connector:45	[color="black:green:black",
 		label="link_ecu_a:Shield/Gnd<green>deutsch_engine_connector:45",
 		labeltooltip="link_ecu_a:Shield/Gnd<green>deutsch_engine_connector:45",
-		lp="4685,643.92",
+		lp="4002,416.5",
 		penwidth=2.5,
-		pos="4215.5,2239.4 4530.2,2239.4 4345.6,1865.2 4395,1554.4 4411,1453.5 4374.7,706.51 4449,636.42 4487.2,600.44 4875.3,610.68 4921,636.42 \
-4972.2,665.24 4930.8,749.42 4989.5,749.42"];
+		pos="3532.5,1869 3861.1,1869 3516,622.2 3766,409 3786,391.99 4215.5,395.6 4238,409 4292.8,441.58 4242.8,535 4306.5,535"];
 	link_ecu_a:"Shield/Gnd" -- deutsch_engine_connector:43	[color="black:green:black",
 		label="link_ecu_a:Shield/Gnd<green>deutsch_engine_connector:43",
 		labeltooltip="link_ecu_a:Shield/Gnd<green>deutsch_engine_connector:43",
-		lp="4685,789.92",
+		lp="4002,570.5",
 		penwidth=2.5,
-		pos="4215.5,2239.4 4437.9,2239.4 4429.2,800.89 4449,782.42 4487.4,746.65 4868.8,777.51 4921,782.42 4951.9,785.32 4958.5,795.42 4989.5,\
-795.42"];
+		pos="3532.5,1869 4122.1,1869 3313.9,941.48 3766,563 3806.2,529.34 4186,556.28 4238,563 4269.2,567.03 4275,581 4306.5,581"];
 	link_ecu_a:AnVolt3 -- deutsch_engine_connector:20	[color="black:yellow:black:yellow:black",
 		label="link_ecu_a:AnVolt3<yellow:black>deutsch_engine_connector:20",
 		labeltooltip="link_ecu_a:AnVolt3<yellow:black>deutsch_engine_connector:20",
-		lp="4685,1418.9",
+		lp="4002,1135.5",
 		penwidth=2.5,
-		pos="4215.5,1641.4 4304.2,1641.4 4335.2,1619.9 4395,1554.4 4440.8,1504.3 4394.1,1451.4 4449,1411.4 4491.5,1380.5 4872.6,1408.7 4921,1388.4 \
-4959.2,1372.5 4948.1,1325.4 4989.5,1325.4"];
+		pos="3532.5,1271 3654.2,1271 3649.4,1162.9 3766,1128 3996.3,1059.2 4066.2,1111 4306.5,1111"];
 	link_ecu_a:"+5V" -- deutsch_engine_connector:2	[color="black:red:blue:red:black",
 		label="link_ecu_a:+5V<red:blue>deutsch_engine_connector:2",
 		labeltooltip="link_ecu_a:+5V<red:blue>deutsch_engine_connector:2",
-		lp="4685,1709.9",
+		lp="4002,1416.5",
 		penwidth=2.5,
-		pos="4215.5,1664.4 4319.5,1664.4 4345.2,1673.6 4449,1679.4 4553.8,1685.3 4819.8,1674.2 4921,1702.4 4954.3,1711.7 4954.9,1739.4 4989.5,\
-1739.4"];
+		pos="3532.5,1294 3644,1294 3657,1362.5 3766,1386 3817.3,1397 4193,1381.9 4238,1409 4289.3,1439.9 4246.6,1525 4306.5,1525"];
 	link_ecu_a:GndOut -- deutsch_engine_connector:3	[color="black:green:black",
 		label="link_ecu_a:GndOut<green>deutsch_engine_connector:3",
 		labeltooltip="link_ecu_a:GndOut<green>deutsch_engine_connector:3",
-		lp="4685,1595.9",
+		lp="4002,1340.5",
 		penwidth=2.5,
-		pos="4215.5,1848.4 4370.8,1848.4 4307.2,1651.7 4449,1588.4 4496.9,1567.1 4876,1561.5 4921,1588.4 4976.4,1621.6 4925,1716.4 4989.5,1716.4"];
+		pos="3532.5,1478 3654.7,1478 3648.5,1366.5 3766,1333 3816.4,1318.6 4194.5,1303.7 4238,1333 4305.2,1378.3 4225.5,1502 4306.5,1502"];
 	link_ecu_a:Ground1 -- deutsch_engine_connector:41	[color="black:black:black",
 		label="link_ecu_a:Ground1<black>deutsch_engine_connector:41",
 		labeltooltip="link_ecu_a:Ground1<black>deutsch_engine_connector:41",
-		lp="4685,600.92",
+		lp="4002,342.5",
 		penwidth=2.5,
-		pos="4215.5,1825.4 4360,1825.4 4349.5,1691.5 4395,1554.4 4428.7,1452.9 4371.3,666.89 4449,593.42 4468.1,575.4 4900.1,577.53 4921,593.42 \
-5012,662.68 4875.2,841.42 4989.5,841.42"];
+		pos="3532.5,1455 4041,1455 3371.5,655.77 3766,335 3786.3,318.46 4217.4,318.71 4238,335 4342.5,417.8 4173.2,627 4306.5,627"];
 	link_ecu_a:Ground2 -- deutsch_engine_connector:42	[color="black:black:black",
 		label="link_ecu_a:Ground2<black>deutsch_engine_connector:42",
 		labeltooltip="link_ecu_a:Ground2<black>deutsch_engine_connector:42",
-		lp="4685,568.92",
+		lp="4002,310.5",
 		penwidth=2.5,
-		pos="4215.5,1618.4 4300.2,1618.4 4344.3,1622.3 4395,1554.4 4461.1,1465.9 4368.8,637.4 4449,561.42 4487.1,525.35 4879.4,529.46 4921,561.42 \
-5014.7,633.44 4871.3,818.42 4989.5,818.42"];
+		pos="3532.5,1248 3965.1,1248 3425.4,569.71 3766,303 3931.2,173.67 4074,172.15 4238,303 4345.2,388.58 4169.3,604 4306.5,604"];
 	link_ecu_a:Temp2 -- deutsch_engine_connector:19	[color="black:yellow:brown:yellow:black",
 		label="link_ecu_a:Temp2<yellow:brown>deutsch_engine_connector:19",
 		labeltooltip="link_ecu_a:Temp2<yellow:brown>deutsch_engine_connector:19",
-		lp="4685,1456.9",
+		lp="4002,1208.5",
 		penwidth=2.5,
-		pos="4215.5,2032.4 4285.3,2032.4 4392.2,1489.9 4449,1449.4 4491.8,1418.9 4873.7,1449.2 4921,1426.4 4962.6,1406.4 4943.4,1348.4 4989.5,\
-1348.4"];
+		pos="3532.5,1662 3762.2,1662 3578,1333 3766,1201 3852.5,1140.3 4133.2,1156.3 4238,1143 4268.5,1139.1 4275.8,1134 4306.5,1134"];
 	link_ecu_a:GndOut -- deutsch_engine_connector:36	[color="black:green:black",
 		label="link_ecu_a:GndOut<green>deutsch_engine_connector:36",
 		labeltooltip="link_ecu_a:GndOut<green>deutsch_engine_connector:36",
-		lp="4685,827.92",
+		lp="4002,385.5",
 		penwidth=2.5,
-		pos="4215.5,1848.4 4368.6,1848.4 4348.2,1700.2 4395,1554.4 4420,1476.6 4389.1,876.08 4449,820.42 4468.2,802.57 4898.7,806.66 4921,820.42 \
-4978.6,855.91 4921.8,956.42 4989.5,956.42"];
+		pos="3532.5,1478 4032.3,1478 3377.6,692.58 3766,378 3806.8,344.99 4197.6,344.52 4238,378 4364.7,483.09 4141.9,742 4306.5,742"];
 	link_ecu_a:"+5V" -- deutsch_engine_connector:2	[color="black:red:blue:red:black",
 		label="link_ecu_a:+5V<red:blue>deutsch_engine_connector:2",
 		labeltooltip="link_ecu_a:+5V<red:blue>deutsch_engine_connector:2",
-		lp="4685,2140.9",
+		lp="4002,1304.5",
 		penwidth=2.5,
-		pos="4215.5,1664.4 4414.5,1664.4 4275.4,1949.1 4449,2046.4 4632,2149 4757.3,2177.6 4921,2046.4 5030.1,1959 4849.7,1739.4 4989.5,1739.4"];
+		pos="3532.5,1294 3610.9,1294 4175.2,1250.1 4238,1297 4322.8,1360.3 4200.7,1525 4306.5,1525"];
 	link_ecu_a:AnVolt2 -- deutsch_engine_connector:29	[color="black:white:brown:white:black",
 		label="link_ecu_a:AnVolt2<white:brown>deutsch_engine_connector:29",
 		labeltooltip="link_ecu_a:AnVolt2<white:brown>deutsch_engine_connector:29",
-		lp="4685,865.92",
+		lp="4002,608.5",
 		penwidth=2.5,
-		pos="4215.5,1894.4 4386.4,1894.4 4347.5,1718.6 4395,1554.4 4416.6,1479.9 4392.1,911.1 4449,858.42 4468.2,840.61 4900.2,842.42 4921,858.42 \
-5015.3,931.05 4870.4,1117.4 4989.5,1117.4"];
+		pos="3532.5,1524 3955.6,1524 3432.1,860.94 3766,601 3786.7,584.89 4217.5,584.64 4238,601 4345.5,686.88 4168.9,903 4306.5,903"];
 	link_ecu_a:"+5V" -- deutsch_engine_connector:2	[color="black:red:blue:red:black",
 		label="link_ecu_a:+5V<red:blue>deutsch_engine_connector:2",
 		labeltooltip="link_ecu_a:+5V<red:blue>deutsch_engine_connector:2",
-		lp="4685,1745.9",
+		lp="4002,1454.5",
 		penwidth=2.5,
-		pos="4215.5,1664.4 4321.9,1664.4 4343.5,1703.4 4449,1717.4 4568.2,1733.2 4869.3,1739.4 4989.5,1739.4"];
+		pos="3532.5,1294 3651.3,1294 3651.8,1391.4 3766,1424 3867,1452.9 4143.4,1401.4 4238,1447 4279.6,1467 4260.4,1525 4306.5,1525"];
 	link_ecu_a:GndOut -- deutsch_engine_connector:18	[color="black:green:black",
 		label="link_ecu_a:GndOut<green>deutsch_engine_connector:18",
 		labeltooltip="link_ecu_a:GndOut<green>deutsch_engine_connector:18",
-		lp="4685,1500.9",
+		lp="4002,1263.5",
 		penwidth=2.5,
-		pos="4215.5,1848.4 4309.9,1848.4 4367.3,1540.8 4449,1493.4 4539.9,1440.7 4828.7,1514.7 4921,1464.4 4966.1,1439.9 4938.2,1371.4 4989.5,\
-1371.4"];
+		pos="3532.5,1478 3675.7,1478 3635.4,1314.7 3766,1256 3958,1169.7 4043.9,1297.6 4238,1216 4275,1200.4 4266.3,1157 4306.5,1157"];
 	link_ecu_a:Aux2 -- deutsch_engine_connector:10	[color="black:orange:brown:orange:black",
 		label="link_ecu_a:Aux2<orange:brown>deutsch_engine_connector:10",
 		labeltooltip="link_ecu_a:Aux2<orange:brown>deutsch_engine_connector:10",
-		lp="4685,1629.9",
+		lp="4002,1374.5",
 		penwidth=2.5,
-		pos="4215.5,1940.4 4390.8,1940.4 4294.2,1704.8 4449,1622.4 4495.3,1597.8 4871.3,1620.2 4921,1603.4 4956.2,1591.5 4952.3,1555.4 4989.5,\
-1555.4"];
+		pos="3532.5,1570 3670,1570 3638.2,1417.7 3766,1367 3814.8,1347.6 4185.6,1351.7 4238,1348 4268.5,1345.8 4275.9,1341 4306.5,1341"];
 	front_brake_pressure	[height=1.2917,
 		label="front_brake_pressure | <0v> 0v | <5v> 5v | <Sig> Sig ",
-		pos="5093.5,2386.4",
-		rects="5009,2409.4,5178,2432.4 5009,2386.4,5178,2409.4 5009,2363.4,5178,2386.4 5009,2340.4,5178,2363.4",
+		pos="4410.5,2144",
+		rects="4326,2167,4495,2190 4326,2144,4495,2167 4326,2121,4495,2144 4326,2098,4495,2121",
 		shape=record,
 		style=bold,
 		width=2.3472];
 	link_ecu_a:"+5V" -- front_brake_pressure:"5v"	[color="black:red:blue:red:black",
 		label="link_ecu_a:+5V<red:blue>front_brake_pressure:5v",
 		labeltooltip="link_ecu_a:+5V<red:blue>front_brake_pressure:5v",
-		lp="4685,2375.9",
+		lp="4002,2088.5",
 		penwidth=2.5,
-		pos="4215.5,1664.4 4535.5,1664.4 4193.2,2153.2 4449,2345.4 4491,2377 4868.6,2365.3 4921,2368.4 4959.5,2370.7 4969,2374.4 5007.5,2374.4"];
+		pos="3532.5,1294 3793.2,1294 3589.5,1640.2 3766,1832 3766.7,1832.8 4323.4,2132 4324.5,2132"];
 	link_ecu_a:GndOut -- front_brake_pressure:"0v"	[color="black:green:black",
 		label="link_ecu_a:GndOut<green>front_brake_pressure:0v",
 		labeltooltip="link_ecu_a:GndOut<green>front_brake_pressure:0v",
-		lp="4685,2425.9",
+		lp="4002,2162.5",
 		penwidth=2.5,
-		pos="4215.5,1848.4 4474.9,1848.4 4233.9,2238.4 4449,2383.4 4552,2452.8 4883.3,2398.4 5007.5,2398.4"];
+		pos="3532.5,1478 3687.2,1478 3641.3,2042.3 3766,2134 3791,2152.4 4293.4,2156 4324.5,2156"];
 	rear_brake_pressure	[height=1.2917,
 		label="rear_brake_pressure | <0v> 0v | <5v> 5v | <Sig> Sig ",
-		pos="5093.5,2497.4",
-		rects="5011.5,2520.4,5175.5,2543.4 5011.5,2497.4,5175.5,2520.4 5011.5,2474.4,5175.5,2497.4 5011.5,2451.4,5175.5,2474.4",
+		pos="4410.5,2255",
+		rects="4328.5,2278,4492.5,2301 4328.5,2255,4492.5,2278 4328.5,2232,4492.5,2255 4328.5,2209,4492.5,2232",
 		shape=record,
 		style=bold,
 		width=2.2778];
 	link_ecu_a:"+5V" -- rear_brake_pressure:"5v"	[color="black:red:blue:red:black",
 		label="link_ecu_a:+5V<red:blue>rear_brake_pressure:5v",
 		labeltooltip="link_ecu_a:+5V<red:blue>rear_brake_pressure:5v",
-		lp="4685,2469.9",
+		lp="4002,2198.5",
 		penwidth=2.5,
-		pos="4215.5,1664.4 4573.1,1664.4 4168.2,2213 4449,2434.4 4490.3,2467 4869.1,2454.3 4921,2462.4 4961.6,2468.8 4969.4,2485.4 5010.5,2485.4"];
+		pos="3532.5,1294 3633.4,1294 3687.2,2108.9 3766,2172 3807,2204.8 4187.6,2176.3 4238,2191 4282.2,2203.9 4281.5,2243 4327.5,2243"];
 	link_ecu_a:GndOut -- rear_brake_pressure:"0v"	[color="black:green:black",
 		label="link_ecu_a:GndOut<green>rear_brake_pressure:0v",
 		labeltooltip="link_ecu_a:GndOut<green>rear_brake_pressure:0v",
-		lp="4685,2559.9",
+		lp="4002,2329.5",
 		penwidth=2.5,
-		pos="4215.5,1848.4 4513.7,1848.4 4209.1,2300.3 4449,2477.4 4650.1,2625.9 4760.5,2509.4 5010.5,2509.4"];
+		pos="3532.5,1478 3799.4,1478 3636.8,1794.9 3712,2051 3737.6,2138.1 3694.8,2191.7 3766,2248 3961.9,2402.8 4077.8,2267 4327.5,2267"];
 	link_ecu_b:GndOut -- deutsch_engine_bay_connector:3	[color="black:green:black",
 		label="link_ecu_b:GndOut<green>deutsch_engine_bay_connector:3",
 		labeltooltip="link_ecu_b:GndOut<green>deutsch_engine_bay_connector:3",
-		lp="4685,3568.9",
+		lp="4002,3198.5",
 		penwidth=2.5,
-		pos="4227.5,2718.4 4475.4,2718.4 4333,3010.4 4395,3250.4 4425.2,3367.2 4359.3,3435.7 4449,3516.4 4527.3,3586.9 4828,3511.9 4921,3561.4 \
-4953.5,3578.7 4936.7,3625.4 4973.5,3625.4"];
+		pos="3544.5,2348 3792.4,2348 3650,2640 3712,2880 3742.2,2996.8 3676.3,3065.3 3766,3146 3844.3,3216.5 4157.4,3123.2 4238,3191 4305.7,3248 \
+4202,3383 4290.5,3383"];
 	link_ecu_b:GndOut -- deutsch_engine_bay_connector:9	[color="black:green:black",
 		label="link_ecu_b:GndOut<green>deutsch_engine_bay_connector:9",
 		labeltooltip="link_ecu_b:GndOut<green>deutsch_engine_bay_connector:9",
-		lp="4685,3494.9",
+		lp="4002,3135.5",
 		penwidth=2.5,
-		pos="4227.5,2718.4 4373.4,2718.4 4342.6,3236.6 4449,3336.4 4625.9,3502.4 4730.9,3487.4 4973.5,3487.4"];
+		pos="3544.5,2348 3792.4,2348 3638.4,2643.3 3712,2880 3736.3,2958.1 3704.1,3002.5 3766,3056 3926.6,3194.7 4069.1,2999.5 4238,3128 4283.4,\
+3162.5 4233.5,3245 4290.5,3245"];
 	link_ecu_b:APE -- deutsch_engine_bay_connector:20	[color="black:white:black",
 		label="link_ecu_b:APE<white>deutsch_engine_bay_connector:20",
 		labeltooltip="link_ecu_b:APE<white>deutsch_engine_bay_connector:20",
-		lp="4685,3246.9",
+		lp="4002,2741.5",
 		penwidth=2.5,
-		pos="4227.5,2488.4 4567,2488.4 4179.3,3013.3 4449,3219.4 4495.3,3254.8 4915.2,3234.4 4973.5,3234.4"];
+		pos="3544.5,2118 3825.8,2118 3538.8,2545 3766,2711 3808.4,2742 4198.2,2699.8 4238,2734 4326.8,2810.2 4173.5,2992 4290.5,2992"];
 	link_ecu_b:IPE -- deutsch_engine_bay_connector:21	[color="black:white:blue:white:black",
 		label="link_ecu_b:IPE<white:blue>deutsch_engine_bay_connector:21",
 		labeltooltip="link_ecu_b:IPE<white:blue>deutsch_engine_bay_connector:21",
-		lp="4685,3173.9",
+		lp="4002,2699.5",
 		penwidth=2.5,
-		pos="4227.5,2511.4 4525.1,2511.4 4210.5,2965.4 4449,3143.4 4491.1,3174.8 4872.2,3147 4921,3166.4 4949.6,3177.8 4942.8,3211.4 4973.5,3211.4"];
+		pos="3544.5,2141 3791.6,2141 3565.4,2506.6 3766,2651 3851.5,2712.5 4159.9,2621.4 4238,2692 4330.9,2776 4165.2,2969 4290.5,2969"];
 	link_ecu_b:Heater -- deutsch_engine_bay_connector:22	[color="black:blue:violet:blue:black",
 		label="link_ecu_b:Heater<blue:violet>deutsch_engine_bay_connector:22",
 		labeltooltip="link_ecu_b:Heater<blue:violet>deutsch_engine_bay_connector:22",
-		lp="4685,3340.9",
+		lp="4002,3041.5",
 		penwidth=2.5,
-		pos="4227.5,2994.4 4393.6,2994.4 4300.8,3220.5 4449,3295.4 4542.6,3342.8 4832,3350.9 4921,3295.4 4966,3267.4 4920.5,3188.4 4973.5,3188.4"];
+		pos="3544.5,2624 3680.5,2624 3649.2,2759.4 3712,2880 3741.8,2937.3 3712.5,2978.8 3766,3015 3809.4,3044.4 4191,3038.3 4238,3015 4272.5,\
+2997.9 4252,2946 4290.5,2946"];
 	link_ecu_b:MES -- deutsch_engine_bay_connector:23	[color="black:blue:black:blue:black",
 		label="link_ecu_b:MES<blue:black>deutsch_engine_bay_connector:23",
 		labeltooltip="link_ecu_b:MES<blue:black>deutsch_engine_bay_connector:23",
-		lp="4685,3198.9",
+		lp="4002,2930.5",
 		penwidth=2.5,
-		pos="4227.5,2971.4 4363.2,2971.4 4323,3131.2 4449,3181.4 4497.7,3200.8 4869.1,3189.1 4921,3181.4 4945.1,3177.8 4949.1,3165.4 4973.5,3165.4"];
+		pos="3544.5,2601 3710.2,2601 3619.6,2823.2 3766,2901 3817.5,2928.4 4232.2,2923 4290.5,2923"];
 	link_ecu_b:RE -- deutsch_engine_bay_connector:24	[color="black:blue:white:blue:black",
 		label="link_ecu_b:RE<blue:white>deutsch_engine_bay_connector:24",
 		labeltooltip="link_ecu_b:RE<blue:white>deutsch_engine_bay_connector:24",
-		lp="4685,3059.9",
+		lp="4002,2639.5",
 		penwidth=2.5,
-		pos="4227.5,2902.4 4341,2902.4 4340.1,2997.6 4449,3029.4 4499.4,3044.2 4876.1,3025.3 4921,3052.4 4960.3,3076.2 4927.6,3141.4 4973.5,3141.4"];
+		pos="3544.5,2532 3648.9,2532 3663.6,2590 3766,2610 3817.5,2620 4198.2,2597.7 4238,2632 4329.6,2711 4169.6,2899 4290.5,2899"];
 	link_ecu_b:Inj5 -- deutsch_engine_connector:15	[color="black:brown:yellow:brown:black",
 		label="link_ecu_b:Inj5<brown:yellow>deutsch_engine_connector:15",
 		labeltooltip="link_ecu_b:Inj5<brown:yellow>deutsch_engine_connector:15",
-		lp="4685,1857.9",
+		lp="4002,1564.5",
 		penwidth=2.5,
-		pos="4227.5,3132.4 4552.2,3132.4 4342.4,2741.8 4395,2421.4 4415.7,2295.6 4356.5,1938.1 4449,1850.4 4487.1,1814.3 4881.5,1866 4921,1831.4 \
-5053.8,1715.2 4813.1,1440.4 4989.5,1440.4"];
+		pos="3544.5,2762 3869.2,2762 3657,2371 3712,2051 3730.7,1942.2 3685.3,1632.4 3766,1557 3804.4,1521.2 4197.8,1571.7 4238,1538 4346.8,1446.8 \
+4164.5,1226 4306.5,1226"];
 	link_ecu_b:Inj6 -- deutsch_engine_connector:16	[color="black:brown:green:brown:black",
 		label="link_ecu_b:Inj6<brown:green>deutsch_engine_connector:16",
 		labeltooltip="link_ecu_b:Inj6<brown:green>deutsch_engine_connector:16",
-		lp="4685,1974.9",
+		lp="4002,1716.5",
 		penwidth=2.5,
-		pos="4227.5,3155.4 4562.1,3155.4 4337.9,2751.1 4395,2421.4 4412.3,2321.3 4374.6,2036.6 4449,1967.4 4487.4,1931.6 4882.4,1981 4921,1945.4 \
-5008,1865.3 4871.2,1417.4 4989.5,1417.4"];
+		pos="3544.5,2785 3879.1,2785 3648.6,2379.6 3712,2051 3726.6,1975.5 3708.5,1760.2 3766,1709 3805.2,1674.1 4199.1,1725.2 4238,1690 4319,\
+1616.7 4197.2,1203 4306.5,1203"];
 	link_ecu_b:GndOut -- deutsch_engine_connector:30	[color="black:green:black",
 		label="link_ecu_b:GndOut<green>deutsch_engine_connector:30",
 		labeltooltip="link_ecu_b:GndOut<green>deutsch_engine_connector:30",
-		lp="4685,979.92",
+		lp="4002,747.5",
 		penwidth=2.5,
-		pos="4227.5,2718.4 4379,2718.4 4353.8,2567.3 4395,2421.4 4416.9,2343.9 4391,1028.3 4449,972.42 4467.9,954.22 4898.4,959.17 4921,972.42 \
-4974.7,1003.8 4927.3,1094.4 4989.5,1094.4"];
+		pos="3544.5,2348 3696,2348 3670.5,2196.8 3712,2051 3751.9,1910.8 3660.8,840.95 3766,740 3803.8,703.69 4193.5,712.24 4238,740 4296.8,776.67 \
+4237.2,880 4306.5,880"];
 	link_ecu_b:Temp3 -- deutsch_engine_connector:17	[color="black:yellow:red:yellow:black",
 		label="link_ecu_b:Temp3<yellow:red>deutsch_engine_connector:17",
 		labeltooltip="link_ecu_b:Temp3<yellow:red>deutsch_engine_connector:17",
-		lp="4685,1819.9",
+		lp="4002,1526.5",
 		penwidth=2.5,
-		pos="4227.5,3086.4 4532.3,3086.4 4344.2,2721.9 4395,2421.4 4406.3,2354.4 4399.8,1859.3 4449,1812.4 4487,1776.2 4881.6,1828 4921,1793.4 \
-4988.6,1734.1 4899.5,1394.4 4989.5,1394.4"];
+		pos="3544.5,2716 3849.3,2716 3659.2,2351.2 3712,2051 3732.6,1934 3679.5,1600.4 3766,1519 3804.2,1483 4197.9,1533.8 4238,1500 4349.2,1406.3 \
+4161.1,1180 4306.5,1180"];
 	link_ecu_b:Knock1 -- deutsch_engine_connector:37	[color="black:white:black",
 		label="link_ecu_b:Knock1<white>deutsch_engine_connector:37",
 		labeltooltip="link_ecu_b:Knock1<white>deutsch_engine_connector:37",
-		lp="4685,1156.9",
+		lp="4002,899.5",
 		penwidth=2.5,
-		pos="4227.5,3017.4 4502.7,3017.4 4351.7,2693.1 4395,2421.4 4406.1,2351.6 4399.1,1199.6 4449,1149.4 4486,1112.2 4878.9,1157.7 4921,1126.4 \
-4994,1072.1 4898.5,933.42 4989.5,933.42"];
+		pos="3544.5,2647 3819.7,2647 3668.1,2322.6 3712,2051 3732.6,1923.7 3674.9,983.26 3766,892 3803.1,854.83 4194.5,898.45 4238,869 4298.7,\
+827.89 4233.2,719 4306.5,719"];
 	link_ecu_b:"Shield/Gnd" -- deutsch_engine_connector:38	[color="black:green:black",
 		label="link_ecu_b:Shield/Gnd<green>deutsch_engine_connector:38",
 		labeltooltip="link_ecu_b:Shield/Gnd<green>deutsch_engine_connector:38",
-		lp="4685,1114.9",
+		lp="4002,785.5",
 		penwidth=2.5,
-		pos="4227.5,2833.4 4425.2,2833.4 4353.1,2614.6 4395,2421.4 4410.5,2350 4397.3,1159.1 4449,1107.4 4486.1,1070.3 4878.3,1119 4921,1088.4 \
-4989.9,1039 4904.7,910.42 4989.5,910.42"];
+		pos="3544.5,2463 3742.2,2463 3670,2244.1 3712,2051 3742.1,1912.7 3666.2,878.42 3766,778 3803,740.76 4189.2,774.47 4238,755 4275.3,740.1 \
+4266.3,696 4306.5,696"];
 	link_ecu_b:"Shield/Gnd" -- deutsch_engine_connector:24	[color="black:green:black",
 		label="link_ecu_b:Shield/Gnd<green>deutsch_engine_connector:24",
 		labeltooltip="link_ecu_b:Shield/Gnd<green>deutsch_engine_connector:24",
-		lp="4685,1781.9",
+		lp="4002,1488.5",
 		penwidth=2.5,
-		pos="4227.5,2833.4 4425.2,2833.4 4349,2613.7 4395,2421.4 4411.8,2351.3 4396.9,1824.3 4449,1774.4 4486.9,1738.1 4882.3,1790.8 4921,1755.4 \
-5007.5,1676.3 4872.3,1232.4 4989.5,1232.4"];
+		pos="3544.5,2463 3742.2,2463 3665,2243 3712,2051 3742.3,1927.4 3673.6,1568.5 3766,1481 3804.1,1444.9 4198.9,1497 4238,1462 4312.5,1395.5 \
+4206.7,1018 4306.5,1018"];
 	link_ecu_b:Knock2 -- deutsch_engine_connector:31	[color="black:white:black",
 		label="link_ecu_b:Knock2<white>deutsch_engine_connector:31",
 		labeltooltip="link_ecu_b:Knock2<white>deutsch_engine_connector:31",
-		lp="4685,1376.9",
+		lp="4002,1080.5",
 		penwidth=2.5,
-		pos="4227.5,3040.4 4512.5,3040.4 4350.2,2702.9 4395,2421.4 4413.4,2305.8 4382.3,1465.6 4449,1369.4 4579.3,1181.5 4742.1,1307 4921,1164.4 \
-4961.1,1132.4 4938.2,1071.4 4989.5,1071.4"];
+		pos="3544.5,2670 3829.5,2670 3666.7,2332.4 3712,2051 3729.3,1943.6 3700.7,1160 3766,1073 3899.5,895.15 4041.2,1010.5 4238,907 4271.4,\
+889.45 4268.8,857 4306.5,857"];
 	link_ecu_b:"Shield/Gnd" -- deutsch_engine_connector:32	[color="black:green:black",
 		label="link_ecu_b:Shield/Gnd<green>deutsch_engine_connector:32",
 		labeltooltip="link_ecu_b:Shield/Gnd<green>deutsch_engine_connector:32",
-		lp="4685,1076.9",
+		lp="4002,857.5",
 		penwidth=2.5,
-		pos="4227.5,2833.4 4425.2,2833.4 4353.2,2614.6 4395,2421.4 4410.9,2347.9 4395.8,1122.5 4449,1069.4 4491.5,1026.9 4929.4,1048.4 4989.5,\
-1048.4"];
+		pos="3544.5,2463 3742.2,2463 3669.7,2244.1 3712,2051 3740.6,1920.5 3670.8,943.73 3766,850 3787.4,828.92 4276.5,834 4306.5,834"];
 	link_ecu_b:"Shield/Gnd" -- deutsch_engine_connector:33	[color="black:green:black",
 		label="link_ecu_b:Shield/Gnd<green>deutsch_engine_connector:33",
 		labeltooltip="link_ecu_b:Shield/Gnd<green>deutsch_engine_connector:33",
-		lp="4685,1030.9",
+		lp="4002,821.5",
 		penwidth=2.5,
-		pos="4227.5,2833.4 4425.2,2833.4 4353.3,2614.6 4395,2421.4 4411.4,2345.4 4393,1077.3 4449,1023.4 4492.3,981.78 4929.4,1025.4 4989.5,1025.4"];
+		pos="3544.5,2463 3742.2,2463 3669.9,2244.1 3712,2051 3741.3,1916.6 3666.9,909.41 3766,814 3809.3,772.35 4246.4,811 4306.5,811"];
 	link_ecu_b:Ground1 -- deutsch_engine_connector:39	[color="black:black:black",
 		label="link_ecu_b:Ground1<black>deutsch_engine_connector:39",
 		labeltooltip="link_ecu_b:Ground1<black>deutsch_engine_connector:39",
-		lp="4685,948.92",
+		lp="4002,703.5",
 		penwidth=2.5,
-		pos="4227.5,2649.4 4353.2,2649.4 4353.7,2540.2 4395,2421.4 4449.1,2266 4334.2,1059.3 4449,941.42 4485.7,903.76 4869.5,921.87 4921,911.42 \
-4952.6,905 4957.2,887.42 4989.5,887.42"];
+		pos="3544.5,2279 3670.2,2279 3670.5,2169.7 3712,2051 3761.8,1908.8 3659.6,802.69 3766,696 3808.4,653.44 4246.4,673 4306.5,673"];
 	link_ecu_b:Ground2 -- deutsch_engine_connector:40	[color="black:black:black",
 		label="link_ecu_b:Ground2<black>deutsch_engine_connector:40",
 		labeltooltip="link_ecu_b:Ground2<black>deutsch_engine_connector:40",
-		lp="4685,899.92",
+		lp="4002,656.5",
 		penwidth=2.5,
-		pos="4227.5,2442.4 4302.5,2442.4 4344.4,2476.8 4395,2421.4 4509.7,2296 4329.1,1012.9 4449,892.42 4467.5,873.81 4894.9,875.66 4921,873.42 \
-4951.6,870.8 4958.8,864.42 4989.5,864.42"];
+		pos="3544.5,2072 3619.5,2072 3661.3,2106.3 3712,2051 3817.4,1936.1 3653.7,757.09 3766,649 3809.3,607.36 4246.4,650 4306.5,650"];
 	link_ecu_b:"An Volt8" -- front_brake_pressure:Sig	[color="black:white:yellow:white:black",
 		label="link_ecu_b:An Volt8<white:yellow>front_brake_pressure:Sig",
 		labeltooltip="link_ecu_b:An Volt8<white:yellow>front_brake_pressure:Sig",
-		lp="4685,2333.9",
+		lp="4002,2126.5",
 		penwidth=2.5,
-		pos="4227.5,2695.4 4370.2,2695.4 4322.5,2544.4 4395,2421.4 4419.7,2379.6 4407,2350.8 4449,2326.4 4630.3,2220.9 4713.3,2297 4921,2326.4 \
-4960.6,2332 4967.5,2351.4 5007.5,2351.4"];
+		pos="3544.5,2325 3678.9,2325 3641.3,2169.3 3766,2119 3823.6,2095.8 4262.4,2109 4324.5,2109"];
 	link_ecu_b:"An Volt9" -- rear_brake_pressure:Sig	[color="black:white:green:white:black",
 		label="link_ecu_b:An Volt9<white:green>rear_brake_pressure:Sig",
 		labeltooltip="link_ecu_b:An Volt9<white:green>rear_brake_pressure:Sig",
-		lp="4685,2878.9",
+		lp="4002,2240.5",
 		penwidth=2.5,
-		pos="4227.5,2672.4 4354.4,2672.4 4329.5,2810 4449,2852.4 4498.4,2870 4881.2,2886.5 4921,2852.4 4988.6,2794.6 4921.6,2462.4 5010.5,2462.4"];
+		pos="3544.5,2302 3647.6,2302 3664.2,2249.7 3766,2233 4012.3,2192.6 4077.9,2220 4327.5,2220"];
 	deutsch_console_connector:1 -- razor_pdm:ADIO6	[color="black:red:black",
 		label="deutsch_console_connector:1<red>razor_pdm:ADIO6",
 		labeltooltip="deutsch_console_connector:1<red>razor_pdm:ADIO6",
-		lp="2581,2745.9",
+		lp="1898,2464.5",
 		penwidth=2.5,
-		pos="2293,1514.4 2397.1,1514.4 2305.5,1646.9 2347,1742.4 2569.5,2254.2 2485,2787.4 3043,2787.4"];
+		pos="1574.5,1154 1705.1,1154 1574.2,2231.2 1664,2326 1878.6,2552.4 2048,2417 2360,2417"];
 	deutsch_console_connector:1 -- razor_pdm:ADIO6	[color="black:red:black",
 		label="deutsch_console_connector:1<red>razor_pdm:ADIO6",
 		labeltooltip="deutsch_console_connector:1<red>razor_pdm:ADIO6",
-		lp="2581,1693.9",
+		lp="1898,2314.5",
 		penwidth=2.5,
-		pos="2293,1514.4 2353.1,1514.4 2298.5,1602.9 2347,1638.4 2431.4,1700.1 2737.4,1616.4 2815,1686.4 3185.9,2021.3 2543.3,2787.4 3043,2787.4"];
+		pos="1574.5,1154 1690.2,1154 1588.9,2103.1 1664,2191 1803.2,2353.9 1930.4,2234.3 2132,2307 2237.8,2345.2 2247.5,2417 2360,2417"];
 	deutsch_console_connector:6 -- link_ecu_a:Aux1	[color="black:orange:black:orange:black",
 		label="deutsch_console_connector:6<orange:black>link_ecu_a:Aux1",
 		labeltooltip="deutsch_console_connector:6<orange:black>link_ecu_a:Aux1",
-		lp="3108,939.92",
+		lp="2425,876.5",
 		penwidth=2.5,
-		pos="2293,1399.4 2369.9,1399.4 2292.8,1112 2347,1057.4 2495.6,907.88 2624.7,1071.1 2815,980.42 2844,966.6 2839,943.83 2869,932.42 2974.7,\
-892.23 3805.6,924.93 3884,1006.4 3968.8,1094.6 3904.3,1436.8 3938,1554.4 3987.5,1727.5 3937.5,1917.4 4117.5,1917.4"];
+		pos="1574.5,1039 1667,1039 1585.8,900.41 1664,851 1711.4,821.04 2656.3,865.96 2664,869 2876,953.11 3206.4,1547 3434.5,1547"];
 	deutsch_console_connector:4 -- link_ecu_b:"DI10/CAN2H"	[color="black:grey:violet:grey:black",
 		label="deutsch_console_connector:4<grey:violet>link_ecu_b:DI10/CAN2H",
 		labeltooltip="deutsch_console_connector:4<grey:violet>link_ecu_b:DI10/CAN2H",
-		lp="3108,1841.9",
+		lp="2425,2129.5",
 		penwidth=2.5,
-		pos="2293,1445.4 2371.4,1445.4 2285,1565.3 2347,1613.4 2388.2,1645.3 2765.3,1625.8 2815,1641.4 3346.9,1809.1 3517.7,1877.9 3884,2298.4 \
-3923.2,2343.4 3905.3,2371.4 3938,2421.4 3998.1,2513.4 3995.6,2603.4 4105.5,2603.4"];
+		pos="1574.5,1085 1798.5,1085 1500.7,1935.7 1664,2089 1726.3,2147.4 3117.9,2108.2 3201,2128 3307,2153.3 3313.6,2233 3422.5,2233"];
 	deutsch_console_connector:5 -- link_ecu_b:"DI9/CAN2L"	[color="black:grey:white:grey:black",
 		label="deutsch_console_connector:5<grey:white>link_ecu_b:DI9/CAN2L",
 		labeltooltip="deutsch_console_connector:5<grey:white>link_ecu_b:DI9/CAN2L",
-		lp="3108,1078.9",
+		lp="2425,2108.5",
 		penwidth=2.5,
-		pos="2293,1422.4 2431.5,1422.4 2243.5,1207.5 2347,1115.4 2410.8,1058.7 3823.7,1048 3884,1108.4 3987.2,1211.8 3877.6,2288.5 3938,2421.4 \
-3980.4,2514.9 4002.9,2580.4 4105.5,2580.4"];
+		pos="1574.5,1062 1797.4,1062 1502.3,1907.6 1664,2061 1695,2090.4 3159.3,2107.8 3201,2117 3305.3,2140 3315.7,2210 3422.5,2210"];
 	deutsch_console_connector:2 -- acc_ground:ground	[color="black:black:black",
 		label="deutsch_console_connector:2<black>acc_ground:ground",
 		labeltooltip="deutsch_console_connector:2<black>acc_ground:ground",
-		lp="1766.5,945.92",
+		lp="1010.5,1206.5",
 		penwidth=2.5,
-		pos="2083,1491.4 1959.5,1491.4 2117.2,1024.8 2029,938.42 1987.2,897.49 1562.1,905.31 1504,898.42 1445.9,891.52 1432.5,877.42 1374,877.42"];
+		pos="1362.5,1131 1319.1,1131 1315.2,1160 1273,1170 1045.6,1224 974.75,1142.5 748,1199 699.34,1211.1 692.65,1239 642.5,1239"];
 	deutsch_gauge_connector:1 -- razor_pdm:ADIO6	[color="black:red:black",
 		label="deutsch_gauge_connector:1<red>razor_pdm:ADIO6",
 		labeltooltip="deutsch_gauge_connector:1<red>razor_pdm:ADIO6",
-		lp="2581,1567.9",
+		lp="1898,2015.5",
 		penwidth=2.5,
-		pos="2289,1196.4 2365.9,1196.4 2289.5,1486.4 2347,1537.4 2385.9,1572 2775.8,1526.2 2815,1560.4 3023.9,1742.9 2765.7,2787.4 3043,2787.4"];
+		pos="1569.5,836 1596.1,836 1599.7,855.48 1610,880 1657.5,993.39 1577.1,1898.1 1664,1985 1700.8,2021.8 2090.9,1976 2132,2008 2196.6,2058.2 \
+2149,2111 2186,2184 2244.5,2299.3 2230.8,2417 2360,2417"];
 	deutsch_gauge_connector:1 -- razor_pdm:ADIO6	[color="black:red:black",
 		label="deutsch_gauge_connector:1<red>razor_pdm:ADIO6",
 		labeltooltip="deutsch_gauge_connector:1<red>razor_pdm:ADIO6",
-		lp="2581,1525.9",
+		lp="1898,2179.5",
 		penwidth=2.5,
-		pos="2289,1196.4 2425.2,1196.4 2243.9,1408.3 2347,1497.4 2386.4,1531.5 2775.8,1484.1 2815,1518.4 2922.8,1612.8 2899.7,2787.4 3043,2787.4"];
+		pos="1569.5,836 1596.1,836 1599.8,855.47 1610,880 1660.7,1001.6 1579.7,1962.8 1664,2064 1800.7,2228 1947.2,2065.2 2132,2172 2260.8,2246.4 \
+2211.3,2417 2360,2417"];
 	deutsch_gauge_connector:1 -- razor_pdm:ADIO6	[color="black:red:black",
 		label="deutsch_gauge_connector:1<red>razor_pdm:ADIO6",
 		labeltooltip="deutsch_gauge_connector:1<red>razor_pdm:ADIO6",
-		lp="2581,1626.9",
+		lp="1898,2052.5",
 		penwidth=2.5,
-		pos="2289,1196.4 2374.2,1196.4 2285,1516.9 2347,1575.4 2423,1647.1 2737.6,1549.3 2815,1619.4 3207,1974.4 2514.1,2787.4 3043,2787.4"];
+		pos="1569.5,836 1596.1,836 1599.8,855.47 1610,880 1659,997.32 1574.1,1933.1 1664,2023 1700.8,2059.8 2089.7,2014.6 2132,2045 2185.8,2083.7 \
+2153.9,2126 2186,2184 2248.6,2297 2230.8,2417 2360,2417"];
 	deutsch_gauge_connector:2 -- link_ecu_b:GndOut	[color="black:black:black",
 		label="deutsch_gauge_connector:2<black>link_ecu_b:GndOut",
 		labeltooltip="deutsch_gauge_connector:2<black>link_ecu_b:GndOut",
-		lp="3108,1008.9",
+		lp="2425,1957.5",
 		penwidth=2.5,
-		pos="2582,969.42 2709.4,954.75 2741.1,990.14 2869,998.42 2911.8,1001.2 3607.8,993.8 3641.5,1020.4"];
+		pos="2960.5,1987 3069.4,2032.1 3106.4,2028.6 3201,2099 3319.7,2187.3 3274.5,2347.7 3422.1,2348;1569.5,813 1604.3,813 1598.8,847.04 1610,\
+880 1680.4,1087.9 1612,1157.7 1664,1371 1732.1,1650.1 1672.3,1795 1897,1974;1899,1974 1949.1,2013.9 2122.1,1952.7 2186,1950 2529.4,\
+1935.7 2640.9,1855.5 2958.5,1987"];
 	deutsch_gauge_connector:2 -- link_ecu_b:GndOut	[color="black:black:black",
 		label="deutsch_gauge_connector:2<black>link_ecu_b:GndOut",
 		labeltooltip="deutsch_gauge_connector:2<black>link_ecu_b:GndOut",
-		lp="3108,977.92",
+		lp="2425,1989.5",
 		penwidth=2.5,
-		pos="3643.5,1020.4 3728.2,1088.5 3812.8,982.35 3884,1064.4 3982.9,1178.4 3896.8,2276.3 3938,2421.4 3979.4,2567.1 3954,2718.1 4105.1,2718.4;\
-2289,1173.4 2377.3,1173.4 2277.6,1038.1 2347,983.42 2428.5,919.22 2477,982.21 2580,969.42;2582,969.42 2699,954.88 3549.7,946.55 \
-3641.5,1020.4"];
+		pos="1899,1974 1907.3,1980.7 2653.4,1981.9 2664,1982 2794.9,1983.8 2837.2,1937.7 2958.5,1987"];
 	deutsch_gauge_connector:2 -- link_ecu_b:GndOut	[color="black:black:black",
 		label="deutsch_gauge_connector:2<black>link_ecu_b:GndOut",
 		labeltooltip="deutsch_gauge_connector:2<black>link_ecu_b:GndOut",
-		lp="3108,1138.9",
+		lp="2425,2179.5",
 		penwidth=2.5,
-		pos="2289,1173.4 2323.3,1173.4 2314.9,1134.5 2347,1122.4 2393.3,1105 3338.6,1127.1 3347,1131.4 3705.6,1317.1 3740.1,1487.1 3884,1864.4 \
-4023.8,2230.8 3713.4,2718.4 4105.5,2718.4"];
+		pos="1899,1974 1939.5,2006.4 2090.6,1956.8 2132,1988 2189.6,2031.4 2127.9,2098.3 2186,2141 2276.9,2207.9 3094.8,2140.9 3201,2179 3317.4,\
+2220.8 3298.7,2347.8 3422.1,2348"];
 	deutsch_gauge_connector:4 -- deutsch_engine_connector:25	[color="black:green:black",
 		label="deutsch_gauge_connector:4<green>deutsch_engine_connector:25",
 		labeltooltip="deutsch_gauge_connector:4<green>deutsch_engine_connector:25",
-		lp="3642.5,912.92",
+		lp="2959.5,890.5",
 		penwidth=2.5,
-		pos="2289,1127.4 2407,1127.4 2254.9,942.15 2347,868.42 2367.4,852.1 3309.1,877.11 3347,878.42 3406.7,880.48 3838.3,866.94 3884,905.42 \
-3967.6,975.84 3863.7,1065.2 3938,1145.4 4099.4,1319.7 4214,1267.1 4449,1302.4 4552.7,1318 4827.4,1349.7 4921,1302.4 4966.8,1279.3 \
-4938.2,1209.4 4989.5,1209.4"];
+		pos="1569.5,767 1612.7,767 1621.2,783.7 1664,790 2104.3,854.91 2219.8,815.88 2664,844 2902.8,859.12 2965.4,841.13 3201,883 3458.2,928.71 \
+3507.3,1008.6 3766,1045 3973.7,1074.2 4038.6,1110 4238,1045 4273.8,1033.3 4268.8,995 4306.5,995"];
 	deutsch_gauge_connector:5 -- deutsch_engine_connector:26	[color="black:black:black",
 		label="deutsch_gauge_connector:5<black>deutsch_engine_connector:26",
 		labeltooltip="deutsch_gauge_connector:5<black>deutsch_engine_connector:26",
-		lp="3642.5,865.92",
+		lp="2959.5,835.5",
 		penwidth=2.5,
-		pos="2289,1104.4 2401.3,1104.4 2258.9,928.14 2347,858.42 2380.5,831.92 3849.8,832.85 3884,858.42 3951.9,909.19 3876.2,983.38 3938,1041.4 \
-4089.9,1184 4236.1,1010.7 4395,1145.4 4443.4,1186.4 4396.4,1242.1 4449,1277.4 4492.5,1306.6 4874.1,1300.8 4921,1277.4 4966.3,1254.8 \
-4938.9,1186.4 4989.5,1186.4"];
+		pos="1569.5,744 1611.7,744 1621.9,749.18 1664,752 2346.4,797.74 2519.5,769.88 3201,828 3428.9,847.44 3529.7,751.74 3712,890 3761.8,927.81 \
+3714,985.27 3766,1020 3809.6,1049.1 4188,1035.8 4238,1020 4273.5,1008.8 4269.3,972 4306.5,972"];
 	deutsch_gauge_connector:7 -- deutsch_engine_connector:27	[color="black:green:black",
 		label="deutsch_gauge_connector:7<green>deutsch_engine_connector:27",
 		labeltooltip="deutsch_gauge_connector:7<green>deutsch_engine_connector:27",
-		lp="3642.5,827.92",
+		lp="2959.5,730.5",
 		penwidth=2.5,
-		pos="2289,1058.4 2391.4,1058.4 2266.4,898.63 2347,835.42 2481.4,729.99 3716.7,785.97 3884,820.42 3900.7,823.86 4432.4,1059.5 4449,1063.4 \
-4551.2,1087.6 4825.7,1047.2 4921,1091.4 4961.1,1110 4945.3,1163.4 4989.5,1163.4"];
+		pos="1569.5,698 1706.5,698 2049,710.75 2186,714 2243,715.35 4191.7,724.69 4238,758 4311.2,810.69 4216.3,949 4306.5,949"];
 	deutsch_gauge_connector:8 -- deutsch_engine_connector:28	[color="black:black:black",
 		label="deutsch_gauge_connector:8<black>deutsch_engine_connector:28",
 		labeltooltip="deutsch_gauge_connector:8<black>deutsch_engine_connector:28",
-		lp="3642.5,35.917",
+		lp="2959.5,324.5",
 		penwidth=2.5,
-		pos="2289,1035.4 2382.8,1035.4 2277.5,680.39 2347,617.42 3195.2,-151.15 4067.4,-228.13 4921,534.42 5022.1,624.71 4854,1140.4 4989.5,1140.4"];
+		pos="1569.5,675 1636,675 1605.7,590.92 1664,559 2488.9,107.62 2827.2,371.64 3766,318 3818.4,315.01 4198.9,283.05 4238,318 4339.4,408.6 \
+4170.5,926 4306.5,926"];
 	deutsch_gauge_connector:9 -- deutsch_engine_connector:21	[color="black:red:black",
 		label="deutsch_gauge_connector:9<red>deutsch_engine_connector:21",
 		labeltooltip="deutsch_gauge_connector:9<red>deutsch_engine_connector:21",
-		lp="3642.5,771.92",
+		lp="2959.5,652.5",
 		penwidth=2.5,
-		pos="2289,1012.4 2399.2,1012.4 2260.7,839.89 2347,771.42 2413.9,718.35 3810.6,720.83 3884,764.42 3927.1,790 3900.2,830.46 3938,863.42 \
-4101.7,1006.3 4250.6,874.96 4395,1037.4 4460.4,1111.1 4373.1,1189.6 4449,1252.4 4489.5,1285.9 4869.4,1270.8 4921,1280.4 4952.4,1286.3 \
-4957.5,1302.4 4989.5,1302.4"];
+		pos="1569.5,652 1688.5,652 3622.2,610.8 3712,689 3816.1,779.71 3662.9,903.14 3766,995 3805.2,1029.9 4189.8,1002.1 4238,1023 4276.5,1039.7 \
+4264.5,1088 4306.5,1088"];
 	deutsch_gauge_connector:10 -- deutsch_engine_connector:22	[color="black:green:black",
 		label="deutsch_gauge_connector:10<green>deutsch_engine_connector:22",
 		labeltooltip="deutsch_gauge_connector:10<green>deutsch_engine_connector:22",
-		lp="3642.5,721.92",
+		lp="2959.5,612.5",
 		penwidth=2.5,
-		pos="2289,989.42 2407,989.42 2255.5,804.85 2347,730.42 2479.5,622.65 3714.9,690.27 3884,714.42 4118.2,747.86 4239.5,685.12 4395,863.42 \
-4502.5,986.68 4328.4,1117 4449,1227.4 4487.7,1262.9 4869.5,1245.1 4921,1255.4 4952.6,1261.8 4957.2,1279.4 4989.5,1279.4"];
+		pos="1569.5,629 1688.5,629 3622.8,564.15 3712,643 3822.3,740.58 3656.5,871.42 3766,970 3805,1005.2 4190,976.73 4238,998 4276.9,1015.2 \
+4263.9,1065 4306.5,1065"];
 	deutsch_gauge_connector:11 -- deutsch_engine_connector:23	[color="black:black:black",
 		label="deutsch_gauge_connector:11<black>deutsch_engine_connector:23",
 		labeltooltip="deutsch_gauge_connector:11<black>deutsch_engine_connector:23",
-		lp="3642.5,516.92",
+		lp="2959.5,488.5",
 		penwidth=2.5,
-		pos="2289,966.42 2424.4,966.42 2242.7,753.74 2347,667.42 2697.7,377.11 4071.9,395.69 4395,716.42 4549.2,869.53 4291.4,1052.7 4449,1202.4 \
-4487.1,1238.6 4869.6,1219.4 4921,1230.4 4952.8,1237.2 4956.9,1256.4 4989.5,1256.4"];
+		pos="1569.5,606 2045.6,606 3355.4,285.57 3712,601 3827.9,703.53 3651.4,840.97 3766,945 3804.9,980.31 4190.1,951.38 4238,973 4277.4,990.78 \
+4263.3,1042 4306.5,1042"];
 	starter_button:2 -- starter:solenoid	[color="black:red:black",
 		label="starter_button:2<red>starter:solenoid",
 		labeltooltip="starter_button:2<red>starter:solenoid",
-		lp="3108,1586.9",
+		lp="2425,665.5",
 		penwidth=2.5,
-		pos="1385,1491.4 1441.1,1491.4 1450.2,1517.4 1504,1533.4 1873.6,1643.5 1964.1,1693.3 2347,1739.4 2398.6,1745.6 2772.8,1769.7 2815,1739.4 \
-2876,1695.6 2808,1623.2 2869,1579.4 2895.3,1560.6 4351.5,1555.9 4395,1594.4 4525.8,1710 4320.8,1864.9 4449,1983.4 4487.6,2019.1 \
-4871.5,1993.7 4921,2011.4 4990,2036.1 4981.2,2108.4 5054.5,2108.4"];
+		pos="653.5,502 1079.4,502 1185.4,528.41 1610,562 1632.1,563.75 3180.9,704.55 3201,714 3491.3,850.62 3575.4,933.64 3712,1224 3767.1,1341.1 \
+3672.9,1714 3766,1804 3803.8,1840.5 4187.2,1818.7 4238,1832 4301.8,1848.7 4305.5,1897 4371.5,1897"];
 	engine_ground:Gnd -- engine_bay_ground:Gnd	[color="black:black:black",
 		label="engine_ground:Gnd<black>engine_bay_ground:Gnd",
 		labeltooltip="engine_ground:Gnd<black>engine_bay_ground:Gnd",
@@ -1896,25 +1859,25 @@ APE> APE | <AN Volt5> AN Volt5 | <Ground2> Ground2 ",
 	brake_lights:pos -- razor_pdm:PWROUT2a	[color="black:red:black",
 		label="brake_lights:pos<red>razor_pdm:PWROUT2a",
 		labeltooltip="brake_lights:pos<red>razor_pdm:PWROUT2a",
-		lp="2581,3456.9",
+		lp="1898,2748.5",
 		penwidth=2.5,
-		pos="2241,3555.4 2307.6,3555.4 2291.9,3486.9 2347,3449.4 2529.5,3325.2 2614,3374.7 2815,3283.4 2920.8,3235.4 2926.8,3155.4 3043,3155.4"];
+		pos="1521.5,2624 1616.4,2624 2265.1,2785 2360,2785"];
 	brake_lights:pos -- razor_pdm:PWROUT2b	[color="black:red:black",
 		label="brake_lights:pos<red>razor_pdm:PWROUT2b",
 		labeltooltip="brake_lights:pos<red>razor_pdm:PWROUT2b",
-		lp="2581,3271.9",
+		lp="1898,2631.5",
 		penwidth=2.5,
-		pos="2241,3555.4 2271.3,3555.4 2277.4,3537.4 2293,3511.4 2351,3415.1 2273.9,3349.8 2347,3264.4 2374,3232.9 3001.5,2994.4 3043,2994.4"];
+		pos="1521.5,2624 1894.2,2624 1987.3,2624 2360,2624"];
 	fuel_pump:pos -- razor_pdm:PWROUT1a	[color="black:red:black",
 		label="fuel_pump:pos<red>razor_pdm:PWROUT1a",
 		labeltooltip="fuel_pump:pos<red>razor_pdm:PWROUT1a",
-		lp="2581,3056.9",
+		lp="1898,2539.5",
 		penwidth=2.5,
-		pos="2235,3467.4 2427.3,3467.4 2211.6,3186 2347,3049.4 2573,2821.4 2722,2856.4 3043,2856.4"];
+		pos="1515.5,2536 1891.5,2536 1984,2486 2360,2486"];
 	acc_ground:ground -- deutsch_console_connector:2	[color="black:black:black",
 		label="acc_ground:ground<black>deutsch_console_connector:2",
 		labeltooltip="acc_ground:ground<black>deutsch_console_connector:2",
-		lp="1766.5,886.92",
+		lp="1010.5,1276.5",
 		penwidth=2.5,
-		pos="1374,877.42 1665.1,877.42 1814.6,682.5 2029,879.42 2129.6,971.77 1946.5,1491.4 2083,1491.4"];
+		pos="642.5,1239 922.94,1239 1014,1321.6 1273,1214 1323.1,1193.2 1308.3,1131 1362.5,1131"];
 }

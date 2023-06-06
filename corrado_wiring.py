@@ -345,13 +345,8 @@ AddPath((
 ), 'black')
 
 AddPath((
-  ('kill_switch', 'z'),
-  ('ign_switch', '1'),
-), 'brown:blue')
-AddPath((
   ('razor_pdm', 'IGNSW'),
-  DCC.GetLowPin(3),
-  ('ign_switch', '2'),
+  ('kill_switch', 'z'),
 ), 'blue')
 
 # Brake Lights

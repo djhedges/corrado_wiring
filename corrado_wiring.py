@@ -157,6 +157,7 @@ class DeutschConnector(object):
 DCE = DeutschConnector('deutsch_engine_connector', 47, high_pins=[1,4,5,6,34])  # Engine 
 DCE.GetLowPin(35)  # Damaged and won't hold a pin for some reason.
 DCE_5v = DCE.GetLowPin(2)
+DCE_TPS_GND = DCE.GetLowPin(3)
 DCE_12v = DCE.GetLowPin(7)
 DCE_INJ_PWR_PIN = DCE.GetLowPin(8)
 DCEB = DeutschConnector('deutsch_engine_bay_connector', 47, high_pins=[1,4,5,6,34])  # Engine Bay
@@ -255,8 +256,7 @@ Node('knock1', ['Sig+', 'Sig-', 'Scr'])
 Node('knock2', ['Sig+', 'Sig-', 'Scr'])
 
 Node('intake_temp_sensor', ['Sig+', 'Sig-'])
-Node('oil_pressure_sensor', ['0v', '5v', 'Sig'])
-Node('oil_temp_sensor', ['0v', '5v', 'Sig'])
+Node('oil_temp_pressure_sensor', ['Unused', 'Sig', 'Us', 'Gnd', 'NTC/Temp'])
 Node('coolant_low_sensor', ['Sig+', 'Sig-'])
 
 Node('idle_stablizer_valve', ['Pos', 'Gnd'])
@@ -520,7 +520,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  DCEB.GetLowPin(3),
+  DCE_TPS_GND,
   ('coolant_low_sensor', 'Sig-'),
 ))
 
@@ -537,7 +537,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_a', 'GndOut'),
-  DCE.GetLowPin(3),
+  DCE_TPS_GND,
   ('tps', 'Gnd'),
 ))
 
@@ -584,34 +584,24 @@ AddPathWithMap((
 
 # Oil Sensors
 AddPathWithMap((
-  ('link_ecu_a', '+5V'),
-  DCE_5v,
-  ('oil_pressure_sensor', '5v'),
-))
-AddPathWithMap((
   ('link_ecu_a', 'AnVolt2'),
   DCE.GetLowPin(29),
-  ('oil_pressure_sensor', 'Sig'),
-))
-AddPathWithMap((
-  ('link_ecu_b', 'GndOut'),
-  DCE.GetLowPin(30),
-  ('oil_pressure_sensor', '0v'),
+  ('oil_temp_pressure_sensor', 'Sig'),
 ))
 AddPathWithMap((
   ('link_ecu_a', '+5V'),
   DCE_5v,
-  ('oil_temp_sensor', '5v'),
+  ('oil_temp_pressure_sensor', 'Us'),
+))
+AddPathWithMap((
+  ('link_ecu_a', 'GndOut'),
+  DCE_TPS_GND,
+  ('oil_temp_pressure_sensor', 'Gnd'),
 ))
 AddPathWithMap((
   ('link_ecu_b', 'Temp3'),
   DCE.GetLowPin(17),
-  ('oil_temp_sensor', 'Sig'),
-))
-AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
-  DCE.GetLowPin(18),
-  ('oil_temp_sensor', '0v'),
+  ('oil_temp_pressure_sensor', 'NTC/Temp'),
 ))
 
 # Knock Sensors

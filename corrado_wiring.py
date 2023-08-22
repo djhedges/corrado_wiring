@@ -327,8 +327,9 @@ AddPath((
 AddPath((
   # Ensure it goes back to killswitch per hpacademy.
   ('kill_switch', 'starter'),
+  DCE.GetLowPin(18),
   ('alternator', 'sense'),
-), 'red')
+), 'blue')
 AddPath((
   ('kill_switch', 'starter'),
   ('kill_switch', 'w'),
@@ -594,7 +595,7 @@ AddPathWithMap((
   ('oil_temp_pressure_sensor', 'Us'),
 ))
 AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
+  ('link_ecu_b', 'GndOut'),
   DCE_TPS_GND,
   ('oil_temp_pressure_sensor', 'Gnd'),
 ))

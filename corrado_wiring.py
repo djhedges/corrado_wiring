@@ -207,6 +207,7 @@ def AddPathWithMap(node_pins):
 
 Node('battery', ['pos', 'neg'])
 Node('alternator', ['pos', 'sense'])
+Node('sense_resistor', ['resistor'])
 Node('starter', ['pos', 'gnd', 'solenoid'])
 # TODO: Verify the pins match this diagram.
 # https://www.pegasusautoracing.com/document.asp?DocID=TECH00109
@@ -327,6 +328,7 @@ AddPath((
 AddPath((
   # Ensure it goes back to killswitch per hpacademy.
   ('kill_switch', 'starter'),
+  ('sense_resistor', 'resistor'),
   DCE.GetLowPin(18),
   ('alternator', 'sense'),
 ), 'blue')

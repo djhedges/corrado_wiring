@@ -250,8 +250,8 @@ Node('tps', ['5v', 'Sensor', 'Gnd'])
 Node('map_sensor', ['Gnd', 'Sensor', '5v'])
 Node('LSU4.9', ['APE', 'IPE', 'Heater', 'Heater Power', 'MES', 'RE'])
 
-Node('cam_sensor', ['5v', 'Sensor', 'Gnd'])
-Node('crank_sensor', ['VR+', 'VR-', 'Gnd'])
+Node('cam_sensor', ['Sig+', 'Sig-', 'Scr'])
+Node('crank_sensor', ['Sig+', 'Sig-', 'Scr'])
 
 Node('knock1', ['Sig+', 'Sig-', 'Scr'])
 Node('knock2', ['Sig+', 'Sig-', 'Scr'])
@@ -444,38 +444,38 @@ for i in range(1, 7):
   ))
 
 # Cam Sensor
-AddPathWithMap((
+AddPath((
   ('link_ecu_a', 'Trig1'),
   DCE.GetLowPin(47),
-  ('cam_sensor', 'VR+'),
-))
-AddPathWithMap((
+  ('cam_sensor', 'Sig+'),
+), 'black')
+AddPath((
   ('link_ecu_a', 'Shield/Gnd'),
   DCE.GetLowPin(46),
-  ('cam_sensor', 'VR-'),
-))
-AddPathWithMap((
+  ('cam_sensor', 'Sig-'),
+), 'white')
+AddPath((
   ('link_ecu_a', 'Shield/Gnd'),
   DCE.GetLowPin(9),
-  ('cam_sensor', 'Gnd'),
-))
+  ('cam_sensor', 'Scr'),
+), 'grey')
 
 # Crank  Sensor
-AddPathWithMap((
+AddPath((
   ('link_ecu_a', 'Trig2'),
   DCE.GetLowPin(44),
-  ('crank_sensor', 'Sensor'),
-))
-AddPathWithMap((
+  ('crank_sensor', 'Sig+'),
+), 'red')
+AddPath((
   ('link_ecu_a', 'Shield/Gnd'),
   DCE.GetLowPin(45),
-  ('crank_sensor', '5v'),
-))
-AddPathWithMap((
+  ('crank_sensor', 'Sig-'),
+), 'white')
+AddPath((
   ('link_ecu_a', 'Shield/Gnd'),
   DCE.GetLowPin(43),
-  ('crank_sensor', 'Gnd'),
-))
+  ('crank_sensor', 'Scr'),
+), 'grey')
 
 # Coils <8 amps according to bosch motorsports catalog.
 AddPath((
@@ -523,7 +523,7 @@ AddPathWithMap((
 ))
 AddPathWithMap((
   ('link_ecu_b', 'GndOut'),
-  DCE_TPS_GND,
+  ('engine_bay_ground', 'Gnd'),
   ('coolant_low_sensor', 'Sig-'),
 ))
 

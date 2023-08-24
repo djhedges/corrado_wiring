@@ -608,36 +608,36 @@ AddPathWithMap((
 ))
 
 # Knock Sensors
-AddPathWithMap((
+AddPath((
   ('link_ecu_b', f'Knock1'),
   DCE.GetLowPin(37),
   (f'knock1', 'Sig+'),
-))
-AddPathWithMap((
+), 'white')
+AddPath((
   ('link_ecu_b', 'Shield/Gnd'),
   DCE.GetLowPin(38),
   (f'knock1', 'Sig-'),
-))
-AddPathWithMap((
+), 'black')
+AddPath((
   ('link_ecu_b', 'Shield/Gnd'),
   DCE.GetLowPin(24),
   (f'knock1', 'Scr'),
-))
-AddPathWithMap((
+), 'grey')
+AddPath((
   ('link_ecu_b', f'Knock2'),
   DCE.GetLowPin(31),
   (f'knock2', 'Sig+'),
-))
-AddPathWithMap((
+), 'white')
+AddPath((
   ('link_ecu_b', 'Shield/Gnd'),
   DCE.GetLowPin(32),
   (f'knock2', 'Sig-'),
-))
-AddPathWithMap((
+), 'black')
+AddPath((
   ('link_ecu_b', 'Shield/Gnd'),
   DCE.GetLowPin(33),
   (f'knock2', 'Scr'),
-))
+), 'grey')
 
 # ECU B Grounds
 AddPath((

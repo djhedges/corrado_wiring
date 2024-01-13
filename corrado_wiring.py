@@ -291,8 +291,8 @@ Node('rear_brake_pressure', ['0v', '5v', 'Sig'])
 for i in range(1, 7):
     Node(f'injector{i}', ['Pos', 'Gnd'])
 
-Node('icm', ['Transistor1ecu', 'Transistor2ecu', 'Transistor3ecu',
-             'Transistor3coil', 'Gnd', 'Transistor2coil', 'Transistor1coil'])
+Node('icm', ['Transistor1coil', 'Transistor2coil', 'Transistor3coil',
+             'Transistor1ecu', 'Gnd', 'Transistor2ecu', 'Transistor3ecu'])
 Node('coil', ['Coil3', 'Coil2', 'Coil1', 'Ubatt'])
 Node('wiper', ['high', 'low', 'park', 'gnd'])
 

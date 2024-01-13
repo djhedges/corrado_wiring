@@ -211,7 +211,7 @@ Node('sense_resistor', ['resistor'])
 Node('starter', ['pos', 'gnd', 'solenoid'])
 # TODO: Verify the pins match this diagram.
 # https://www.pegasusautoracing.com/document.asp?DocID=TECH00109
-Node('kill_switch', ['battery', 'z', 'w', 'starter'])
+Node('kill_switch', ['battery', '1', '2', 'starter'])
 Node('kill_switch_resistor', ['resistor'])
 Node('starter_button', ['1', '2'])
 Node('razor_pdm', [
@@ -327,19 +327,19 @@ AddPath((
 ), 'red')
 AddPath((
   # Ensure it goes back to killswitch per hpacademy.
-  ('kill_switch', 'starter'),
+  ('kill_switch', '2'),
   ('sense_resistor', 'resistor'),
   DCE.GetLowPin(18),
   ('alternator', 'sense'),
 ), 'blue')
-AddPath((
-  ('kill_switch', 'starter'),
-  ('kill_switch', 'w'),
-  ('kill_switch_resistor', 'resistor'),
-), 'red')
+# Jumper wire.
 AddPath((
   ('kill_switch', 'starter'),
   ('razor_pdm', 'pos'),
+), 'red')
+AddPath((
+  ('kill_switch', '1'),
+  ('kill_switch_resistor', 'resistor'),
 ), 'red')
 AddPath((
   ('battery', 'neg'),
@@ -348,7 +348,7 @@ AddPath((
 
 AddPath((
   ('razor_pdm', 'IGNSW'),
-  ('kill_switch', 'z'),
+  ('kill_switch', '2'),
 ), 'brown:blue')
 
 # Brake Lights

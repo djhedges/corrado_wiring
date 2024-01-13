@@ -79,7 +79,7 @@ razor_pdm:ADIO7,wiper:high
 razor_pdm:ADIO8,wiper:park
 razor_pdm:CANH,link_ecu_b:DI10/CAN2H
 razor_pdm:CANL,link_ecu_b:DI9/CAN2L
-razor_pdm:IGNSW,kill_switch:z
+razor_pdm:IGNSW,kill_switch:2
 razor_pdm:PWROUT1a,fuel_pump:pos
 razor_pdm:PWROUT1b,coil:Ubatt
 razor_pdm:PWROUT2a,brake_lights:pos

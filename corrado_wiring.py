@@ -774,7 +774,7 @@ for aem_gauge in AEM_GAUGES:
     ('link_ecu_b', 'GndOut'),
   ), 'black')
 AddPathWithMap((
-  ('link_ecu_a', 'Temp1'),
+  ('link_ecu_a', 'AnVolt4'),
   DCG.GetLowPin(3),
   ('coolant_temp_gauge', '5vOut'),
 ))

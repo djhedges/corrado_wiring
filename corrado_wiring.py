@@ -866,11 +866,11 @@ AddPathWithMap((
   ('rear_brake_pressure', '5v'),
 ))
 AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
+  ('link_ecu_b', 'GndOut'),
   ('front_brake_pressure', '0v'),
 ))
 AddPathWithMap((
-  ('link_ecu_a', 'GndOut'),
+  ('link_ecu_b', 'GndOut'),
   ('rear_brake_pressure', '0v'),
 ))
 ## /Brake Pressure Sensors
